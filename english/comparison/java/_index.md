@@ -280,15 +280,15 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Viewer offers document viewing APIs for other popular development environments"
+    title: "GroupDocs.Comparison offers document viewing APIs for other popular development environments"
 
     solution:
         # solution loop
-        - img_alt: "GroupDocs.Viewer for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.png"
-          product: "GroupDocs.Viewer"
+        - img_alt: "GroupDocs.Comparison for .NET"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-net.png"
+          product: "GroupDocs.Comparison"
           platform: ".NET"
-          link: "/viewer/net"
+          link: "/comparison/net"
 
 ############################# Back to top ###############################
 back_to_top:
