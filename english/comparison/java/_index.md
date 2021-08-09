@@ -24,9 +24,9 @@ submenu:
     enable: true
     
     left:
-        img_alt: "GroupDocs.Viewer for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-java.png"
-        product: "GroupDocs.Viewer"
+        img_alt: "GroupDocs.Comparison for Java"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
+        product: "GroupDocs.Comparison"
         platform: "Java"
 
     middle:
@@ -44,16 +44,16 @@ submenu:
               text: "Support"
 
             # button loop
-            - link: "https://products.groupdocs.app/viewer"
+            - link: "https://products.groupdocs.app/comparison"
               text: "Live Demo"
 
             # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/java"
+            - link: "https://purchase.groupdocs.com/pricing/comparison/java"
               text: "Pricing"
 
     right:
-        link_download: "https://downloads.groupdocs.com/viewer"
-        link_learn: "https://docs.groupdocs.com/viewer/java/"
+        link_download: "https://downloads.groupdocs.com/comparison"
+        link_learn: "https://docs.groupdocs.com/comparison/java/"
         link_buy: "https://purchase.groupdocs.com"
 
 ############################# Overview ############################
@@ -69,7 +69,7 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          Following is an overview of GroupDocs.Viewer for Java:
+          Following is an overview of GroupDocs.Comparison for Java:
 
         right:
           enable: true
@@ -92,7 +92,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Viewer for Java supports all popular [document file formats](https://docs.groupdocs.com/viewer/java/supported-document-formats/) including: Microsoft Office, images, diagrams and many others.
+          GroupDocs.Comparison for Java supports all popular [document file formats](https://docs.groupdocs.com/comparison/java/supported-document-formats/) including: Microsoft Office, images, diagrams and many others.
 
         left:
           enable: true
@@ -125,7 +125,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Viewer for Java supports following Operating Systems, Frameworks & Package ‎Managers:‎
+          GroupDocs.Comparison for Java supports following Operating Systems, Frameworks & Package ‎Managers:‎
         
         left:
           enable: true
@@ -164,7 +164,7 @@ overview:
 ############################# Features ############################
 features:
     enable: true
-    title: "GroupDocs.Viewer for Java Features"
+    title: "GroupDocs.Comparison for Java Features"
 
     feature:
       # feature loop
