@@ -19,11 +19,11 @@ apis:
   api:
     # api loop
     - title: "GroupDocs.Comparison On Premise APIs Include"
-      link: "/comparison"
+      link: "/comparison/"
       label: "View All On Premise APIs"
       api_product:
         # api_product loop
-        - link: "/comparison/net"
+        - link: "/comparison/net/"
           img_alt: "GroupDocs.Comparison for .NET"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-net.png"
           product: "GroupDocs.Comparison for"
@@ -31,7 +31,7 @@ apis:
           content: "Native .NET API for Windows Forms, ASP.NET, WPF, WCF & other .NET Framework based applications."
 
         # api_product loop
-        - link: "/comparison/java"
+        - link: "/comparison/java/"
           img_alt: "GroupDocs.Comparison for Java"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
           product: "GroupDocs.Comparison for"

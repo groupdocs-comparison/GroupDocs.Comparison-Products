@@ -313,7 +313,7 @@ solutions:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
           product: "GroupDocs.Comparison"
           platform: "Java"
-          link: "/comparison/java"
+          link: "/comparison/java/"
 
 ############################# Back to top ###############################
 back_to_top:

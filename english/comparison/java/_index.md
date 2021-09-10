@@ -288,7 +288,7 @@ solutions:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-net.png"
           product: "GroupDocs.Comparison"
           platform: ".NET"
-          link: "/comparison/net"
+          link: "/comparison/net/"
 
 ############################# Back to top ###############################
 back_to_top:
