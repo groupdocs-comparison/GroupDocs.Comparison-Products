@@ -132,252 +132,252 @@ more_formats:
     format: 
         # format loop
         - name: "Compare PDF Files"
-          link: "https://products.groupdocs.com/comparison/net/pdf"
+          link: "https://products.groupdocs.com/comparison/net/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Compare DOC Files"
-          link: "https://products.groupdocs.com/comparison/net/doc"
+          link: "https://products.groupdocs.com/comparison/net/doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Compare DOCM Files"
-          link: "https://products.groupdocs.com/comparison/net/docm"
+          link: "https://products.groupdocs.com/comparison/net/docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Compare DOCX Files"
-          link: "https://products.groupdocs.com/comparison/net/docx"
+          link: "https://products.groupdocs.com/comparison/net/docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Compare DOT Files"
-          link: "https://products.groupdocs.com/comparison/net/dot"
+          link: "https://products.groupdocs.com/comparison/net/dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Compare DOTM Files"
-          link: "https://products.groupdocs.com/comparison/net/dotm"
+          link: "https://products.groupdocs.com/comparison/net/dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "Compare DOTX Files"
-          link: "https://products.groupdocs.com/comparison/net/dotx"
+          link: "https://products.groupdocs.com/comparison/net/dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Compare RTF Files"
-          link: "https://products.groupdocs.com/comparison/net/rtf"
+          link: "https://products.groupdocs.com/comparison/net/rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "Compare TXT Files"
-          link: "https://products.groupdocs.com/comparison/net/txt"
+          link: "https://products.groupdocs.com/comparison/net/txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "Compare XLS Files"
-          link: "https://products.groupdocs.com/comparison/net/xls"
+          link: "https://products.groupdocs.com/comparison/net/xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Compare XLSX Files"
-          link: "https://products.groupdocs.com/comparison/net/xlsx"
+          link: "https://products.groupdocs.com/comparison/net/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Compare XLTM Files"
-          link: "https://products.groupdocs.com/comparison/net/xltm"
+          link: "https://products.groupdocs.com/comparison/net/xltm/"
           description: "Microsoft Excel macro-enabled template"
 
         # format loop
         - name: "Compare XLSM Files"
-          link: "https://products.groupdocs.com/comparison/net/xlsm"
+          link: "https://products.groupdocs.com/comparison/net/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Compare XLSB Files"
-          link: "https://products.groupdocs.com/comparison/net/xlsb"
+          link: "https://products.groupdocs.com/comparison/net/xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "Compare CSV Files"
-          link: "https://products.groupdocs.com/comparison/net/csv"
+          link: "https://products.groupdocs.com/comparison/net/csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "Compare PPT Files"
-          link: "https://products.groupdocs.com/comparison/net/ppt"
+          link: "https://products.groupdocs.com/comparison/net/ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Compare PPS Files"
-          link: "https://products.groupdocs.com/comparison/net/pps"
+          link: "https://products.groupdocs.com/comparison/net/pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "Compare PPTX Files"
-          link: "https://products.groupdocs.com/comparison/net/pptx"
+          link: "https://products.groupdocs.com/comparison/net/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Compare PPSX Files"
-          link: "https://products.groupdocs.com/comparison/net/ppsx"
+          link: "https://products.groupdocs.com/comparison/net/ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "Compare POT Files"
-          link: "https://products.groupdocs.com/comparison/net/pot"
+          link: "https://products.groupdocs.com/comparison/net/pot/"
           description: "Microsoft PowerPoint template"
 
         # format loop
         - name: "Compare POTX Files"
-          link: "https://products.groupdocs.com/comparison/net/potx"
+          link: "https://products.groupdocs.com/comparison/net/potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "Compare ODS Files"
-          link: "https://products.groupdocs.com/comparison/net/ods"
+          link: "https://products.groupdocs.com/comparison/net/ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Compare ODP Files"
-          link: "https://products.groupdocs.com/comparison/net/odp"
+          link: "https://products.groupdocs.com/comparison/net/odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "Compare OTP Files"
-          link: "https://products.groupdocs.com/comparison/net/otp"
+          link: "https://products.groupdocs.com/comparison/net/otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "Compare ODT Files"
-          link: "https://products.groupdocs.com/comparison/net/odt"
+          link: "https://products.groupdocs.com/comparison/net/odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "Compare OTT Files"
-          link: "https://products.groupdocs.com/comparison/net/ott"
+          link: "https://products.groupdocs.com/comparison/net/ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "Compare VST Files"
-          link: "https://products.groupdocs.com/comparison/net/vst"
+          link: "https://products.groupdocs.com/comparison/net/vst/"
           description: "Microsoft Visio 2003-2010 XML Drawing"
 
         # format loop
         - name: "Compare TIFF Files"
-          link: "https://products.groupdocs.com/comparison/net/tiff"
+          link: "https://products.groupdocs.com/comparison/net/tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "Compare JPEG Files"
-          link: "https://products.groupdocs.com/comparison/net/jpeg"
+          link: "https://products.groupdocs.com/comparison/net/jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "Compare PNG Files"
-          link: "https://products.groupdocs.com/comparison/net/png"
+          link: "https://products.groupdocs.com/comparison/net/png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "Compare GIF Files"
-          link: "https://products.groupdocs.com/comparison/net/gif"
+          link: "https://products.groupdocs.com/comparison/net/gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "Compare BMP Files"
-          link: "https://products.groupdocs.com/comparison/net/bmp"
+          link: "https://products.groupdocs.com/comparison/net/bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "Compare HTML Files"
-          link: "https://products.groupdocs.com/comparison/net/html"
+          link: "https://products.groupdocs.com/comparison/net/html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "Compare MHT Files"
-          link: "https://products.groupdocs.com/comparison/net/mht"
+          link: "https://products.groupdocs.com/comparison/net/mht/"
           description: "Mime HTML"
 
         # format loop
         - name: "Compare MHTML Files"
-          link: "https://products.groupdocs.com/comparison/net/mhtml"
+          link: "https://products.groupdocs.com/comparison/net/mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "Compare MSG Files"
-          link: "https://products.groupdocs.com/comparison/net/msg"
+          link: "https://products.groupdocs.com/comparison/net/msg/"
           description: "Microsoft Outlook E-mail Message"
 
         # format loop
         - name: "Compare EML Files"
-          link: "https://products.groupdocs.com/comparison/net/eml"
+          link: "https://products.groupdocs.com/comparison/net/eml/"
           description: "E-mail Message"
 
         # format loop
         - name: "Compare EMLX Files"
-          link: "https://products.groupdocs.com/comparison/net/emlx"
+          link: "https://products.groupdocs.com/comparison/net/emlx/"
           description: "Apple Mail E-mail File"
 
         # format loop
         - name: "Compare ONE Files"
-          link: "https://products.groupdocs.com/comparison/net/one"
+          link: "https://products.groupdocs.com/comparison/net/one/"
           description: "Microsoft OneNote"
 
         # format loop
         - name: "Compare VSD Files"
-          link: "https://products.groupdocs.com/comparison/net/vsd"
+          link: "https://products.groupdocs.com/comparison/net/vsd/"
           description: "Microsoft Visio 2003-2010 Drawing"
 
         # format loop
         - name: "Compare VSDX Files"
-          link: "https://products.groupdocs.com/comparison/net/vsdx"
+          link: "https://products.groupdocs.com/comparison/net/vsdx/"
           description: "Microsoft Visio Drawing"
 
         # format loop
         - name: "Compare VSS Files"
-          link: "https://products.groupdocs.com/comparison/net/vss"
+          link: "https://products.groupdocs.com/comparison/net/vss/"
           description: "Microsoft Visio 2003-2010 Stencil"
 
         # format loop
         - name: "Compare VST Files"
-          link: "https://products.groupdocs.com/comparison/net/vst"
+          link: "https://products.groupdocs.com/comparison/net/vst/"
           description: "Microsoft Visio 2003-2010 Template"
 
         # format loop
         - name: "Compare VDX Files"
-          link: "https://products.groupdocs.com/comparison/net/vdx"
+          link: "https://products.groupdocs.com/comparison/net/vdx/"
           description: "Microsoft Visio 2003-2010 XML Drawing"
 
         # format loop
         - name: "Compare CS Files"
-          link: "https://products.groupdocs.com/comparison/net/cs"
+          link: "https://products.groupdocs.com/comparison/net/cs/"
           description: "CSharp Language"
 
         # format loop
         - name: "Compare Java Files"
-          link: "https://products.groupdocs.com/comparison/net/java"
+          link: "https://products.groupdocs.com/comparison/net/java/"
           description: "Java Language"
 
         # format loop
         - name: "Compare CPP Files"
-          link: "https://products.groupdocs.com/comparison/net/cpp"
+          link: "https://products.groupdocs.com/comparison/net/cpp/"
           description: "C++ Language"
 
         # format loop
         - name: "Compare JS Files"
-          link: "https://products.groupdocs.com/comparison/net/js"
+          link: "https://products.groupdocs.com/comparison/net/js/"
           description: "JavaScript Language"
 
         # format loop
         - name: "Compare PY Files"
-          link: "https://products.groupdocs.com/comparison/net/py"
+          link: "https://products.groupdocs.com/comparison/net/py/"
           description: "Python Language"
 
         # format loop
         - name: "Compare RB Files"
-          link: "https://products.groupdocs.com/comparison/net/rb"
+          link: "https://products.groupdocs.com/comparison/net/rb/"
           description: "Ruby Language"
 
 
