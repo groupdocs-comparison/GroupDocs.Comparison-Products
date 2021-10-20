@@ -5,7 +5,7 @@ date: 2021-04-27T09:31:06+03:00
 draft: false
 
 ############################# Head ############################
-head_title: ".NET & Java Document Comparison Library | Compare two Docs for Text & Style"
+head_title: ".NET & Java Document Comparison Library | Compare Docs for Text & Style"
 head_description: "Document Comparison Library native to C# ASP.NET & Java. Compare style & content for difference to identify changes among compared files of supported formats."
 
 ############################# Header ############################
