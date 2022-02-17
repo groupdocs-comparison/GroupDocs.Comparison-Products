@@ -18,9 +18,9 @@ apis:
 
   api:
     # api loop
-    - title: "GroupDocs.Comparison On Premise APIs Include"
+    - title: "GroupDocs.Comparison High Code APIs Include"
       link: "/comparison/"
-      label: "View All On Premise APIs"
+      label: "View All High Code APIs"
       api_product:
         # api_product loop
         - link: "/comparison/net/"
@@ -39,9 +39,9 @@ apis:
           content: "Native Java API for the Desktop, Web & other Java SE or EE based applications."
 
     # api loop
-    - title: "GroupDocs.Comparison Cloud APIs Include"
+    - title: "GroupDocs.Comparison Low Code APIs Include"
       link: "https://products.groupdocs.cloud/comparison"
-      label: "View All Cloud APIs"
+      label: "View All Low Code APIs"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.cloud/comparison/curl"
@@ -68,9 +68,9 @@ apis:
           content: "Add high fidelity document comparison features to your java applications with specially designed document comparison SDK for Java."
 
     # api loop
-    - title: "GroupDocs.Comparison Cross Platform Apps Include"
+    - title: "GroupDocs.Comparison No Code Apps Include"
       link: "https://products.groupdocs.app/comparison"
-      label: "View All Cross Platform Apps"
+      label: "View All No Code Apps"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.app/comparison/total"
