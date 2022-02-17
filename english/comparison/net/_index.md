@@ -15,7 +15,7 @@ head_description: "C# .NET Document Comparison API. Compare & merge PDF Word DOC
 
 ############################# Header ############################
 title: ".NET API to Compare & Merge Documents"
-description: "‎Develop .NET Applications using Documents Comparison API to Compare & Check for Difference in Content & Style Among Same Format Documents.‎"
+description: "Develop .NET Applications using Documents Comparison API to Compare & Check for Difference in Content & Style Among Same Format Documents."
 button:
     enable: true
 
@@ -95,11 +95,11 @@ overview:
             # table loop
             - title: "Microsoft Office"
               content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT‎
+                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
                 * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
                 * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
                 * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Outlook:** MSG, EML, EMLX, PST, OST‎
+                * **Outlook:** MSG, EML, EMLX, PST, OST
                 * **OneNote:** ONE
 
         right:
@@ -120,7 +120,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Comparison for .NET supports following Operating Systems, Frameworks & Package Managers:‎
+          GroupDocs.Comparison for .NET supports following Operating Systems, Frameworks & Package Managers:
         
         left:
           enable: true
@@ -199,7 +199,7 @@ features:
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "Compare Multiple Source Documents with a Single Target Document‎"
+        content: "Compare Multiple Source Documents with a Single Target Document"
 
       # feature loop
       - icon: "fas fa-location-arrow"
@@ -273,7 +273,7 @@ features:
       # more_feature_loop
       - title: "Easily Compare Documents using .NET API"
         content: |
-          GroupDocs.Comparison for .NET API provides you an easy and efficient way to compare your files. Following is an example that shows, how to compare two DOCX documents using C#:  ‎
+          GroupDocs.Comparison for .NET API provides you an easy and efficient way to compare your files. Following is an example that shows, how to compare two DOCX documents using C#:  
 
           ```cs
           //Source and target files to be compared
@@ -285,7 +285,7 @@ features:
           ```
       # more_feature_loop
       - title: "Choose Detail Level for Comparison"
-        content: "With GroupDocs.Comparison for .NET you can specify the extent to which you want the documents to be compared. You can choose among, low (compare text word by word with accuracy for imaging grid = 50), middle (compare text character by character with accuracy for imaging grid = 100) or high (compare text character by character with accuracy for imaging grid = 150).‎"
+        content: "With GroupDocs.Comparison for .NET you can specify the extent to which you want the documents to be compared. You can choose among, low (compare text word by word with accuracy for imaging grid = 50), middle (compare text character by character with accuracy for imaging grid = 100) or high (compare text character by character with accuracy for imaging grid = 150)."
 
       # more_feature_loop
       - title: "Support for Text Style Comparison"

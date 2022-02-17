@@ -15,7 +15,7 @@ head_description: "Java Document Comparison API to compare & merge Word Excel PP
 
 ############################# Header ############################
 title: "Java API to Compare & Merge Documents"
-description: "‎Build Java applications to efficiently compare the content and text style for difference checking in all industry standard document and image file formats.‎"
+description: "Build Java applications to efficiently compare the content and text style for difference checking in all industry standard document and image file formats."
 button:
     enable: true
 
@@ -100,11 +100,11 @@ overview:
             # table loop
             - title: "Microsoft Office"
               content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT‎
+                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
                 * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
                 * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
                 * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Outlook:** MSG, EML, EMLX, PST, OST‎
+                * **Outlook:** MSG, EML, EMLX, PST, OST
                 * **OneNote:** ONE
 
         right:
@@ -125,7 +125,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Comparison for Java supports following Operating Systems, Frameworks & Package ‎Managers:‎
+          GroupDocs.Comparison for Java supports following Operating Systems, Frameworks & Package Managers:
         
         left:
           enable: true
@@ -197,7 +197,7 @@ features:
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "Compare Documents Protected by Password‎"
+        content: "Compare Documents Protected by Password"
 
       # feature loop
       - icon: "fas fa-location-arrow"
@@ -251,7 +251,7 @@ features:
       # more_feature_loop
       - title: "Easily Compare Documents using Java API"
         content: |
-          Through GroupDocs.Comparison for Java API you can easily compare documents of supported formats to find differences among them. Following example shows, how to compare two Microsoft Word documents using Java:‎
+          Through GroupDocs.Comparison for Java API you can easily compare documents of supported formats to find differences among them. Following example shows, how to compare two Microsoft Word documents using Java:
           
           ```java
           // Create instance of GroupDocs.Comparison.Comparer and call method
@@ -271,7 +271,7 @@ features:
 
         For paragraph comparison, alignment, indentation (left indent, right indent), spacing (space after, space before), first line indent and line spacing can also be compared.  
 
-        Similarly, wherever applicable, other sections of a page can also be compared through GroupDocs.Comparison for Java API. The sections include, footer distance, page margins (left, right, top, and bottom), page height, page orientation, border color and line width.‎"
+        Similarly, wherever applicable, other sections of a page can also be compared through GroupDocs.Comparison for Java API. The sections include, footer distance, page margins (left, right, top, and bottom), page height, page orientation, border color and line width."
 
 ############################# Support ############################
 support:
