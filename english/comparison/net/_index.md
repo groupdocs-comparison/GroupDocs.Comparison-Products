@@ -18,6 +18,9 @@ title: ".NET API to Compare & Merge Documents"
 description: "Develop .NET Applications using Documents Comparison API to Compare & Check for Difference in Content & Style Among Same Format Documents."
 button:
     enable: true
+    icon: "fas fa-arrow-down"
+    label: "Download Free Trial"
+    link: "https://downloads.groupdocs.com/comparison/net"
 
 ############################# SubMenu ############################
 submenu:

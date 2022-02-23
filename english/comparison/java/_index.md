@@ -18,6 +18,9 @@ title: "Java API to Compare & Merge Documents"
 description: "Build Java applications to efficiently compare the content and text style for difference checking in all industry standard document and image file formats."
 button:
     enable: true
+    icon: "fas fa-arrow-down"
+    label: "Download Free Trial"
+    link: "https://downloads.groupdocs.com/comparison/java"
 
 ############################# SubMenu ############################
 submenu:
