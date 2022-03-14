@@ -296,11 +296,6 @@ more_formats:
           description: "Hyper Text Markup Language"
 
         # format loop
-        - name: "Compare MHT Files"
-          link: "https://products.groupdocs.com/comparison/net/mht/"
-          description: "Mime HTML"
-
-        # format loop
         - name: "Compare MHTML Files"
           link: "https://products.groupdocs.com/comparison/net/mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"

@@ -161,11 +161,6 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
-        - name: "Compare DOTX Files"
-          link: "https://products.groupdocs.com/comparison/net/dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
         - name: "Compare RTF Files"
           link: "https://products.groupdocs.com/comparison/net/rtf/"
           description: "Rich Text File Format"

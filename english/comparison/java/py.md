@@ -365,11 +365,6 @@ more_formats:
           description: "JavaScript Language"
 
         # format loop
-        - name: "Compare PY Files"
-          link: "https://products.groupdocs.com/comparison/java/py/"
-          description: "Python Language"
-
-        # format loop
         - name: "Compare RB Files"
           link: "https://products.groupdocs.com/comparison/java/rb/"
           description: "Ruby Language"

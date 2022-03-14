@@ -165,11 +165,6 @@ more_formats:
           description: "Rich Text File Format"
 
         # format loop
-        - name: "Compare TXT Files"
-          link: "https://products.groupdocs.com/comparison/java/txt/"
-          description: "Plain Text File Format"
-
-        # format loop
         - name: "Compare XLS Files"
           link: "https://products.groupdocs.com/comparison/java/xls/"
           description: "Microsoft Excel Binary File Format"

@@ -190,11 +190,6 @@ more_formats:
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
-        - name: "Compare XLSB Files"
-          link: "https://products.groupdocs.com/comparison/java/xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
         - name: "Compare CSV Files"
           link: "https://products.groupdocs.com/comparison/java/csv/"
           description: "Comma Separated Values File"

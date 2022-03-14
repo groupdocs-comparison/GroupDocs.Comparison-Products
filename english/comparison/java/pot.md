@@ -220,11 +220,6 @@ more_formats:
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
-        - name: "Compare POT Files"
-          link: "https://products.groupdocs.com/comparison/java/pot/"
-          description: "Microsoft PowerPoint template"
-
-        # format loop
         - name: "Compare POTX Files"
           link: "https://products.groupdocs.com/comparison/java/potx/"
           description: "Microsoft PowerPoint Open XML Template"

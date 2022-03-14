@@ -251,11 +251,6 @@ more_formats:
           description: "Origin Graph Template"
 
         # format loop
-        - name: "Compare ODT Files"
-          link: "https://products.groupdocs.com/comparison/net/odt/"
-          description: "Open Document Text"
-
-        # format loop
         - name: "Compare OTT Files"
           link: "https://products.groupdocs.com/comparison/net/ott/"
           description: "Open Document Template"

@@ -281,11 +281,6 @@ more_formats:
           description: "Portable Network Graphic"
 
         # format loop
-        - name: "Compare GIF Files"
-          link: "https://products.groupdocs.com/comparison/net/gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
         - name: "Compare BMP Files"
           link: "https://products.groupdocs.com/comparison/net/bmp/"
           description: "Bitmap File Format"

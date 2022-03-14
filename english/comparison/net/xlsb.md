@@ -196,11 +196,6 @@ more_formats:
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
-        - name: "Compare XLSB Files"
-          link: "https://products.groupdocs.com/comparison/net/xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
         - name: "Compare CSV Files"
           link: "https://products.groupdocs.com/comparison/net/csv/"
           description: "Comma Separated Values File"

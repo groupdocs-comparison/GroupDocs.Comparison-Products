@@ -171,11 +171,6 @@ more_formats:
           description: "Rich Text File Format"
 
         # format loop
-        - name: "Compare TXT Files"
-          link: "https://products.groupdocs.com/comparison/net/txt/"
-          description: "Plain Text File Format"
-
-        # format loop
         - name: "Compare XLS Files"
           link: "https://products.groupdocs.com/comparison/net/xls/"
           description: "Microsoft Excel Binary File Format"

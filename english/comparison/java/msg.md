@@ -300,11 +300,6 @@ more_formats:
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
-        - name: "Compare MSG Files"
-          link: "https://products.groupdocs.com/comparison/java/msg/"
-          description: "Microsoft Outlook E-mail Message"
-
-        # format loop
         - name: "Compare EML Files"
           link: "https://products.groupdocs.com/comparison/java/eml/"
           description: "E-mail Message"

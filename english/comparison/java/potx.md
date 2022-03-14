@@ -225,11 +225,6 @@ more_formats:
           description: "Microsoft PowerPoint template"
 
         # format loop
-        - name: "Compare POTX Files"
-          link: "https://products.groupdocs.com/comparison/java/potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
         - name: "Compare ODS Files"
           link: "https://products.groupdocs.com/comparison/java/ods/"
           description: "Open Document Spreadsheet"

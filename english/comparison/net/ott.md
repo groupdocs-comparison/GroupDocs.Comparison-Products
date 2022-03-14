@@ -256,11 +256,6 @@ more_formats:
           description: "Open Document Text"
 
         # format loop
-        - name: "Compare OTT Files"
-          link: "https://products.groupdocs.com/comparison/net/ott/"
-          description: "Open Document Template"
-
-        # format loop
         - name: "Compare VST Files"
           link: "https://products.groupdocs.com/comparison/net/vst/"
           description: "Microsoft Visio 2003-2010 XML Drawing"

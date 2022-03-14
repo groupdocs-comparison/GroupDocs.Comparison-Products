@@ -160,11 +160,6 @@ more_formats:
           description: "Word Open XML Document Template"
 
         # format loop
-        - name: "Compare RTF Files"
-          link: "https://products.groupdocs.com/comparison/java/rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
         - name: "Compare TXT Files"
           link: "https://products.groupdocs.com/comparison/java/txt/"
           description: "Plain Text File Format"

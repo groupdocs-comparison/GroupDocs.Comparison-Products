@@ -331,11 +331,6 @@ more_formats:
           description: "Microsoft Visio 2003-2010 Drawing"
 
         # format loop
-        - name: "Compare VSDX Files"
-          link: "https://products.groupdocs.com/comparison/net/vsdx/"
-          description: "Microsoft Visio Drawing"
-
-        # format loop
         - name: "Compare VSS Files"
           link: "https://products.groupdocs.com/comparison/net/vss/"
           description: "Microsoft Visio 2003-2010 Stencil"

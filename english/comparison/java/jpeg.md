@@ -265,11 +265,6 @@ more_formats:
           description: "Tagged Image File Format"
 
         # format loop
-        - name: "Compare JPEG Files"
-          link: "https://products.groupdocs.com/comparison/java/jpeg/"
-          description: "JPEG Image"
-
-        # format loop
         - name: "Compare PNG Files"
           link: "https://products.groupdocs.com/comparison/java/png/"
           description: "Portable Network Graphic"

@@ -240,11 +240,6 @@ more_formats:
           description: "OpenDocument Presentation File Format"
 
         # format loop
-        - name: "Compare OTP Files"
-          link: "https://products.groupdocs.com/comparison/java/otp/"
-          description: "Origin Graph Template"
-
-        # format loop
         - name: "Compare ODT Files"
           link: "https://products.groupdocs.com/comparison/java/odt/"
           description: "Open Document Text"

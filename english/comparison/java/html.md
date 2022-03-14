@@ -285,11 +285,6 @@ more_formats:
           description: "Bitmap File Format"
 
         # format loop
-        - name: "Compare HTML Files"
-          link: "https://products.groupdocs.com/comparison/java/html/"
-          description: "Hyper Text Markup Language"
-
-        # format loop
         - name: "Compare MHT Files"
           link: "https://products.groupdocs.com/comparison/java/mht/"
           description: "Mime HTML"

@@ -326,11 +326,6 @@ more_formats:
           description: "Microsoft OneNote"
 
         # format loop
-        - name: "Compare VSD Files"
-          link: "https://products.groupdocs.com/comparison/net/vsd/"
-          description: "Microsoft Visio 2003-2010 Drawing"
-
-        # format loop
         - name: "Compare VSDX Files"
           link: "https://products.groupdocs.com/comparison/net/vsdx/"
           description: "Microsoft Visio Drawing"

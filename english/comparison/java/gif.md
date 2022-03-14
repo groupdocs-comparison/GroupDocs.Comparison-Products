@@ -275,11 +275,6 @@ more_formats:
           description: "Portable Network Graphic"
 
         # format loop
-        - name: "Compare GIF Files"
-          link: "https://products.groupdocs.com/comparison/java/gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
         - name: "Compare BMP Files"
           link: "https://products.groupdocs.com/comparison/java/bmp/"
           description: "Bitmap File Format"

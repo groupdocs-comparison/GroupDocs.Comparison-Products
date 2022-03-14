@@ -181,11 +181,6 @@ more_formats:
           description: "Microsoft Excel Binary File Format"
 
         # format loop
-        - name: "Compare XLSX Files"
-          link: "https://products.groupdocs.com/comparison/net/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
         - name: "Compare XLTM Files"
           link: "https://products.groupdocs.com/comparison/net/xltm/"
           description: "Microsoft Excel macro-enabled template"

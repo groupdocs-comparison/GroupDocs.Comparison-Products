@@ -180,11 +180,6 @@ more_formats:
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
-        - name: "Compare XLTM Files"
-          link: "https://products.groupdocs.com/comparison/java/xltm/"
-          description: "Microsoft Excel macro-enabled template"
-
-        # format loop
         - name: "Compare XLSM Files"
           link: "https://products.groupdocs.com/comparison/java/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"

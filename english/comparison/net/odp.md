@@ -241,11 +241,6 @@ more_formats:
           description: "Open Document Spreadsheet"
 
         # format loop
-        - name: "Compare ODP Files"
-          link: "https://products.groupdocs.com/comparison/net/odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
         - name: "Compare OTP Files"
           link: "https://products.groupdocs.com/comparison/net/otp/"
           description: "Origin Graph Template"

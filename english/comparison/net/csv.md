@@ -201,11 +201,6 @@ more_formats:
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
-        - name: "Compare CSV Files"
-          link: "https://products.groupdocs.com/comparison/net/csv/"
-          description: "Comma Separated Values File"
-
-        # format loop
         - name: "Compare PPT Files"
           link: "https://products.groupdocs.com/comparison/net/ppt/"
           description: "PowerPoint Presentation"

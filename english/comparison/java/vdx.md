@@ -340,11 +340,6 @@ more_formats:
           description: "Microsoft Visio 2003-2010 Template"
 
         # format loop
-        - name: "Compare VDX Files"
-          link: "https://products.groupdocs.com/comparison/java/vdx/"
-          description: "Microsoft Visio 2003-2010 XML Drawing"
-
-        # format loop
         - name: "Compare CS Files"
           link: "https://products.groupdocs.com/comparison/java/cs/"
           description: "CSharp Language"

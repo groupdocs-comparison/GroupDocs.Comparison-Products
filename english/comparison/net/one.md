@@ -321,11 +321,6 @@ more_formats:
           description: "Apple Mail E-mail File"
 
         # format loop
-        - name: "Compare ONE Files"
-          link: "https://products.groupdocs.com/comparison/net/one/"
-          description: "Microsoft OneNote"
-
-        # format loop
         - name: "Compare VSD Files"
           link: "https://products.groupdocs.com/comparison/net/vsd/"
           description: "Microsoft Visio 2003-2010 Drawing"

@@ -306,11 +306,6 @@ more_formats:
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
-        - name: "Compare MSG Files"
-          link: "https://products.groupdocs.com/comparison/net/msg/"
-          description: "Microsoft Outlook E-mail Message"
-
-        # format loop
         - name: "Compare EML Files"
           link: "https://products.groupdocs.com/comparison/net/eml/"
           description: "E-mail Message"

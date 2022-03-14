@@ -130,11 +130,6 @@ more_formats:
           description: "Adobe Portable Document Format"
 
         # format loop
-        - name: "Compare DOC Files"
-          link: "https://products.groupdocs.com/comparison/java/doc/"
-          description: "Microsoft Word Document"
-
-        # format loop
         - name: "Compare DOCM Files"
           link: "https://products.groupdocs.com/comparison/java/docm/"
           description: "Microsoft Word Macro-Enabled Document"

@@ -236,11 +236,6 @@ more_formats:
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
-        - name: "Compare ODS Files"
-          link: "https://products.groupdocs.com/comparison/net/ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
         - name: "Compare ODP Files"
           link: "https://products.groupdocs.com/comparison/net/odp/"
           description: "OpenDocument Presentation File Format"

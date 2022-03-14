@@ -311,11 +311,6 @@ more_formats:
           description: "Microsoft Outlook E-mail Message"
 
         # format loop
-        - name: "Compare EML Files"
-          link: "https://products.groupdocs.com/comparison/net/eml/"
-          description: "E-mail Message"
-
-        # format loop
         - name: "Compare EMLX Files"
           link: "https://products.groupdocs.com/comparison/net/emlx/"
           description: "Apple Mail E-mail File"

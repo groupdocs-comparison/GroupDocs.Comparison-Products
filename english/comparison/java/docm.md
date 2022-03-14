@@ -135,11 +135,6 @@ more_formats:
           description: "Microsoft Word Document"
 
         # format loop
-        - name: "Compare DOCM Files"
-          link: "https://products.groupdocs.com/comparison/java/docm/"
-          description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
         - name: "Compare DOCX Files"
           link: "https://products.groupdocs.com/comparison/java/docx/"
           description: "Microsoft Word Open XML Document"

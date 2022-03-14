@@ -215,11 +215,6 @@ more_formats:
           description: "PowerPoint Open XML Presentation"
 
         # format loop
-        - name: "Compare PPSX Files"
-          link: "https://products.groupdocs.com/comparison/java/ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
         - name: "Compare POT Files"
           link: "https://products.groupdocs.com/comparison/java/pot/"
           description: "Microsoft PowerPoint template"

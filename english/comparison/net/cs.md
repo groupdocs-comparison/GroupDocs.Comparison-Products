@@ -351,11 +351,6 @@ more_formats:
           description: "Microsoft Visio 2003-2010 XML Drawing"
 
         # format loop
-        - name: "Compare CS Files"
-          link: "https://products.groupdocs.com/comparison/net/cs/"
-          description: "CSharp Language"
-
-        # format loop
         - name: "Compare Java Files"
           link: "https://products.groupdocs.com/comparison/net/java/"
           description: "Java Language"

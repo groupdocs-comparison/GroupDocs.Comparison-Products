@@ -151,11 +151,6 @@ more_formats:
           description: "Microsoft Word Open XML Document"
 
         # format loop
-        - name: "Compare DOT Files"
-          link: "https://products.groupdocs.com/comparison/net/dot/"
-          description: "Microsoft Word Document Template"
-
-        # format loop
         - name: "Compare DOTM Files"
           link: "https://products.groupdocs.com/comparison/net/dotm/"
           description: "Microsoft Word Macro-Enabled Template"

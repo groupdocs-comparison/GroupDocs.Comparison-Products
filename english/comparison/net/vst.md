@@ -261,11 +261,6 @@ more_formats:
           description: "Open Document Template"
 
         # format loop
-        - name: "Compare VST Files"
-          link: "https://products.groupdocs.com/comparison/net/vst/"
-          description: "Microsoft Visio 2003-2010 XML Drawing"
-
-        # format loop
         - name: "Compare TIFF Files"
           link: "https://products.groupdocs.com/comparison/net/tiff/"
           description: "Tagged Image File Format"

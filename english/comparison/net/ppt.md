@@ -206,11 +206,6 @@ more_formats:
           description: "Comma Separated Values File"
 
         # format loop
-        - name: "Compare PPT Files"
-          link: "https://products.groupdocs.com/comparison/net/ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
         - name: "Compare PPS Files"
           link: "https://products.groupdocs.com/comparison/net/pps/"
           description: "Microsoft PowerPoint Slide Show"

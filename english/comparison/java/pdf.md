@@ -125,11 +125,6 @@ more_formats:
         Multi format images & documents comparison API for Java. Compare some of the popular file formats below without any external software.
     format: 
         # format loop
-        - name: "Compare PDF Files"
-          link: "https://products.groupdocs.com/comparison/java/pdf/"
-          description: "Adobe Portable Document Format"
-
-        # format loop
         - name: "Compare DOC Files"
           link: "https://products.groupdocs.com/comparison/java/doc/"
           description: "Microsoft Word Document"

@@ -170,11 +170,6 @@ more_formats:
           description: "Plain Text File Format"
 
         # format loop
-        - name: "Compare XLS Files"
-          link: "https://products.groupdocs.com/comparison/java/xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
         - name: "Compare XLSX Files"
           link: "https://products.groupdocs.com/comparison/java/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

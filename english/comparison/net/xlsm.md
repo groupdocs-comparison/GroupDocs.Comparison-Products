@@ -191,11 +191,6 @@ more_formats:
           description: "Microsoft Excel macro-enabled template"
 
         # format loop
-        - name: "Compare XLSM Files"
-          link: "https://products.groupdocs.com/comparison/net/xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
         - name: "Compare XLSB Files"
           link: "https://products.groupdocs.com/comparison/net/xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"

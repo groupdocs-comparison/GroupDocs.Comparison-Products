@@ -150,11 +150,6 @@ more_formats:
           description: "Microsoft Word Document Template"
 
         # format loop
-        - name: "Compare DOTM Files"
-          link: "https://products.groupdocs.com/comparison/java/dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
         - name: "Compare DOTX Files"
           link: "https://products.groupdocs.com/comparison/java/dotx/"
           description: "Word Open XML Document Template"

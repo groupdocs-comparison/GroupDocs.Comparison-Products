@@ -146,11 +146,6 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "Compare DOCX Files"
-          link: "https://products.groupdocs.com/comparison/net/docx/"
-          description: "Microsoft Word Open XML Document"
-
-        # format loop
         - name: "Compare DOT Files"
           link: "https://products.groupdocs.com/comparison/net/dot/"
           description: "Microsoft Word Document Template"

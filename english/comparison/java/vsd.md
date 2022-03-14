@@ -320,11 +320,6 @@ more_formats:
           description: "Microsoft OneNote"
 
         # format loop
-        - name: "Compare VSD Files"
-          link: "https://products.groupdocs.com/comparison/java/vsd/"
-          description: "Microsoft Visio 2003-2010 Drawing"
-
-        # format loop
         - name: "Compare VSDX Files"
           link: "https://products.groupdocs.com/comparison/java/vsdx/"
           description: "Microsoft Visio Drawing"

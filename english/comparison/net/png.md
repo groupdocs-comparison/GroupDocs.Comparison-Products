@@ -276,11 +276,6 @@ more_formats:
           description: "JPEG Image"
 
         # format loop
-        - name: "Compare PNG Files"
-          link: "https://products.groupdocs.com/comparison/net/png/"
-          description: "Portable Network Graphic"
-
-        # format loop
         - name: "Compare GIF Files"
           link: "https://products.groupdocs.com/comparison/net/gif/"
           description: "Graphical Interchange Format File"

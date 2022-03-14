@@ -131,11 +131,6 @@ more_formats:
         Multi format documents and images comparison API for .NET. Analyse the differences between documents of the same format without using any external tool.
     format: 
         # format loop
-        - name: "Compare PDF Files"
-          link: "https://products.groupdocs.com/comparison/net/pdf/"
-          description: "Adobe Portable Document Format"
-
-        # format loop
         - name: "Compare DOC Files"
           link: "https://products.groupdocs.com/comparison/net/doc/"
           description: "Microsoft Word Document"

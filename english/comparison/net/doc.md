@@ -136,11 +136,6 @@ more_formats:
           description: "Adobe Portable Document Format"
 
         # format loop
-        - name: "Compare DOC Files"
-          link: "https://products.groupdocs.com/comparison/net/doc/"
-          description: "Microsoft Word Document"
-
-        # format loop
         - name: "Compare DOCM Files"
           link: "https://products.groupdocs.com/comparison/net/docm/"
           description: "Microsoft Word Macro-Enabled Document"

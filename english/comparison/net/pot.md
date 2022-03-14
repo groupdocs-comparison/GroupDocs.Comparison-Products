@@ -226,11 +226,6 @@ more_formats:
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
-        - name: "Compare POT Files"
-          link: "https://products.groupdocs.com/comparison/net/pot/"
-          description: "Microsoft PowerPoint template"
-
-        # format loop
         - name: "Compare POTX Files"
           link: "https://products.groupdocs.com/comparison/net/potx/"
           description: "Microsoft PowerPoint Open XML Template"

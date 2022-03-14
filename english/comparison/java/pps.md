@@ -205,11 +205,6 @@ more_formats:
           description: "PowerPoint Presentation"
 
         # format loop
-        - name: "Compare PPS Files"
-          link: "https://products.groupdocs.com/comparison/java/pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
         - name: "Compare PPTX Files"
           link: "https://products.groupdocs.com/comparison/java/pptx/"
           description: "PowerPoint Open XML Presentation"

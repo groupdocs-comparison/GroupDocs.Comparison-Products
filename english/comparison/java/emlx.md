@@ -310,11 +310,6 @@ more_formats:
           description: "E-mail Message"
 
         # format loop
-        - name: "Compare EMLX Files"
-          link: "https://products.groupdocs.com/comparison/java/emlx/"
-          description: "Apple Mail E-mail File"
-
-        # format loop
         - name: "Compare ONE Files"
           link: "https://products.groupdocs.com/comparison/java/one/"
           description: "Microsoft OneNote"

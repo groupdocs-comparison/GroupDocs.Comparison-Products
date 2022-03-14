@@ -290,11 +290,6 @@ more_formats:
           description: "Hyper Text Markup Language"
 
         # format loop
-        - name: "Compare MHT Files"
-          link: "https://products.groupdocs.com/comparison/java/mht/"
-          description: "Mime HTML"
-
-        # format loop
         - name: "Compare MHTML Files"
           link: "https://products.groupdocs.com/comparison/java/mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"

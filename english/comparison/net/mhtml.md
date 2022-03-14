@@ -301,11 +301,6 @@ more_formats:
           description: "Mime HTML"
 
         # format loop
-        - name: "Compare MHTML Files"
-          link: "https://products.groupdocs.com/comparison/net/mhtml/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
         - name: "Compare MSG Files"
           link: "https://products.groupdocs.com/comparison/net/msg/"
           description: "Microsoft Outlook E-mail Message"

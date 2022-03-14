@@ -366,11 +366,6 @@ more_formats:
           description: "C++ Language"
 
         # format loop
-        - name: "Compare JS Files"
-          link: "https://products.groupdocs.com/comparison/net/js/"
-          description: "JavaScript Language"
-
-        # format loop
         - name: "Compare PY Files"
           link: "https://products.groupdocs.com/comparison/net/py/"
           description: "Python Language"

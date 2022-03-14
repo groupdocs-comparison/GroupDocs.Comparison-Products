@@ -356,11 +356,6 @@ more_formats:
           description: "CSharp Language"
 
         # format loop
-        - name: "Compare Java Files"
-          link: "https://products.groupdocs.com/comparison/net/java/"
-          description: "Java Language"
-
-        # format loop
         - name: "Compare CPP Files"
           link: "https://products.groupdocs.com/comparison/net/cpp/"
           description: "C++ Language"

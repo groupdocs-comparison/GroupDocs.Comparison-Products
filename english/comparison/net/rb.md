@@ -375,11 +375,6 @@ more_formats:
           link: "https://products.groupdocs.com/comparison/net/py/"
           description: "Python Language"
 
-        # format loop
-        - name: "Compare RB Files"
-          link: "https://products.groupdocs.com/comparison/net/rb/"
-          description: "Ruby Language"
-
 
 ############################# Back to top ###############################
 back_to_top:

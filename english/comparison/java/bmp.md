@@ -280,11 +280,6 @@ more_formats:
           description: "Graphical Interchange Format File"
 
         # format loop
-        - name: "Compare BMP Files"
-          link: "https://products.groupdocs.com/comparison/java/bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
         - name: "Compare HTML Files"
           link: "https://products.groupdocs.com/comparison/java/html/"
           description: "Hyper Text Markup Language"

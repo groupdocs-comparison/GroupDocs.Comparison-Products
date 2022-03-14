@@ -316,11 +316,6 @@ more_formats:
           description: "E-mail Message"
 
         # format loop
-        - name: "Compare EMLX Files"
-          link: "https://products.groupdocs.com/comparison/net/emlx/"
-          description: "Apple Mail E-mail File"
-
-        # format loop
         - name: "Compare ONE Files"
           link: "https://products.groupdocs.com/comparison/net/one/"
           description: "Microsoft OneNote"
