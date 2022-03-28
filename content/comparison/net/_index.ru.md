@@ -272,7 +272,7 @@ features:
       - icon: "fab fa-uncharted"
         content: "Сравните закладки, переменные и пользовательские свойства форматов документов Word"
 
-    больше_функций:
+    more_feature:
       # more_feature_loop
       - title: "Легко сравнивайте документы с помощью .NET API"
         content: |

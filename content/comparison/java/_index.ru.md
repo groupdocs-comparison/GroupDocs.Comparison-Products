@@ -251,7 +251,7 @@ features:
       - icon: "fas fa-file-excel"
         content: "Сравните документы и сохраните страницы документов разных форматов в виде изображений"
 
-    больше_функций:
+    more_feature:
       # more_feature_loop
       - title: "Легко сравнивайте документы с помощью Java API"
         content: |

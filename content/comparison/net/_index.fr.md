@@ -272,7 +272,7 @@ features:
       - icon: "fab fa-uncharted"
         content: "Comparer les signets, les variables et les propriétés personnalisées des formats de document Word"
 
-    more_feature :
+    more_feature:
       # more_feature_loop
       - title: "Comparez facilement des documents à l'aide de l'API .NET"
         content: |
