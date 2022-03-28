@@ -257,9 +257,10 @@ features:
           Über GroupDocs.Comparison for Java API können Sie problemlos Dokumente unterstützter Formate vergleichen, um Unterschiede zwischen ihnen zu finden. Das folgende Beispiel zeigt, wie Sie zwei Microsoft Word-Dokumente mit Java vergleichen:
           
           ```java
-          Comparer comparison = new Comparer();
-          ICompareResult result = comparison.compare("D://source.pdf", "D://target.pdf", new ComparisonSettings());
-          result.saveDocument(Utilities.outputFileName(".pdf"));
+          try (Comparer comparer = new Comparer("D:\\source.pdf")) {
+              comparer.add("D:\\target.pdf");
+              comparer.compare("D:\\result.pdf");
+          }
           ```
       # more_feature_loop
       - title: "Geben Sie die Vergleichsdetailebene an"

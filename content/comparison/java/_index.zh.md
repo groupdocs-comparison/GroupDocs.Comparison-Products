@@ -257,10 +257,10 @@ features:
           通过 GroupDocs.Comparison for Java API，您可以轻松比较支持格式的文档以发现它们之间的差异。以下示例显示了如何使用 Java 比较两个 Microsoft Word 文档：
           
           ```java
-          // 创建 GroupDocs.Comparison.Comparer 的实例并调用方法
-          Comparer comparison = new Comparer();
-          ICompareResult result = comparison.compare("D://source.pdf", "D://target.pdf", new ComparisonSettings());
-          result.saveDocument(Utilities.outputFileName(".pdf"));
+          try (Comparer comparer = new Comparer("D:\\source.pdf")) {
+              comparer.add("D:\\target.pdf");
+              comparer.compare("D:\\result.pdf");
+          }
           ```
       # more_feature_loop
       - title: "指定比较详细级别"
