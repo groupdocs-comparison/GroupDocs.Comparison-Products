@@ -5,7 +5,7 @@ date: 2021-05-13T12:45:17+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "Java PPTX Comparison API - Compare PPTX Filesfor Differences"
+head_title: "Java PPTX Comparison API - Compare PPTX Files for Differences"
 head_description: "Compare and merge PPTX files in Java, J2EE, J2SE applications. Analyse differences summary in content, text &amp; style of PPTX files, images and document formats."
 
 ############################# Header ############################
@@ -58,22 +58,22 @@ about:
     enable: true
     title: "About GroupDocs.Comparison for Java API"
     content: |
-        Empower your Java applications with images and documents comparison features using [GroupDocs.Comparison for Java](https://products.groupdocs.com/comparison/java) API. It helps you identify the differences within paragraphs, words, characters, shapes, even the text styles of the compared documents of same format, allows merging the changes and export to a final document. It supports comparing and merging a wide range of documents including PDF, Word, Excel worksheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings and image file formats without using any external library.
+        Empower your Java applications with images and documents comparison features using [GroupDocs.Comparison for Java](/comparison/java/) API. It helps you identify the differences within paragraphs, words, characters, shapes, even the text styles of the compared documents of same format, allows merging the changes and export to a final document. It supports comparing and merging a wide range of documents including PDF, Word, Excel worksheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings and image file formats without using any external library.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Steps for Comparing PPTX Files in Java"
     content_left: |
-        [GroupDocs.Comparison](https://products.groupdocs.com/comparison/java) makes it easy for Java developers to compare PPTX files within their applications using a few lines of code.
+        [GroupDocs.Comparison](/comparison/java/) makes it easy for Java developers to compare PPTX files within their applications using a few lines of code.
 
-        *   Instantiate Comparer objectwith source document path or stream.
+        *   Instantiate **Comparer** object with source document path or stream.
         *   Call add method and specify target document path or stream.
         *   Call compare method.
         
     title_right: "System Requirements"
     content_right: |
-        GroupDocs.Comparison for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        GroupDocs.Comparison for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc

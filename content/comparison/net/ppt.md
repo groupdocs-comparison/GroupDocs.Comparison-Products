@@ -58,27 +58,27 @@ about:
     enable: true
     title: "About GroupDocs.Comparison for .NET API"
     content: |
-        [GroupDocs.Comparison for .NET](https://products.groupdocs.com/comparison/net) is a native .NET API for comparing multiple images and documents of the same format. It helps you detect the differences within paragraphs, words, characters, shapes, even the text styles of the compared documents, merge the changes and export to a final document. It supports comparing and merging PDF, Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings and image file formats without using any external library.
+        [GroupDocs.Comparison for .NET](/comparison/net/) is a native .NET API for comparing multiple images and documents of the same format. It helps you detect the differences within paragraphs, words, characters, shapes, even the text styles of the compared documents, merge the changes and export to a final document. It supports comparing and merging PDF, Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings and image file formats without using any external library.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Steps for Comparing PPT Files in C#"
     content_left: |
-        [GroupDocs.Comparison](https://products.groupdocs.com/comparison/net) makes it easy for .NET developers to compare & merge multipe PPT files in their applications by implementing a few easy steps.
+        [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple PPT files in their applications by implementing a few easy steps.
 
-        *   Instantiate Comparer object with source document path or stream.
+        *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
         
     title_right: "System Requirements"
     content_right: |
-        GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [Nuget](https://www.nuget.org/packages/groupdocs.comparison)
+        *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
         
     code: |
         ```cs
@@ -119,7 +119,7 @@ about_formats:
         - icon: "far fa-file-ppt"
           title: "About PPT File Format"
           content: |
-            A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onwards that is based on Office OpenXML and is different from this binary file format. Several other application programs such as OpenOffice Impress and Apple Keynote can also create PPT files.
+            A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onward that is based on Office OpenXML and is different from this binary file format. Several other application programs such as OpenOffice Impress and Apple Keynote can also create PPT files.
 
           link: "https://docs.fileformat.com/presentation/ppt/"
 

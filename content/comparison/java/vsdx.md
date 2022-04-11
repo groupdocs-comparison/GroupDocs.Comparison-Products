@@ -5,7 +5,7 @@ date: 2021-05-13T12:45:18+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "Java VSDX Comparison API - Compare VSDX Filesfor Differences"
+head_title: "Java VSDX Comparison API - Compare VSDX Files for Differences"
 head_description: "Compare and merge VSDX files in Java, J2EE, J2SE applications. Analyse differences summary in content, text &amp; style of VSDX files, images and document formats."
 
 ############################# Header ############################
@@ -58,22 +58,22 @@ about:
     enable: true
     title: "About GroupDocs.Comparison for Java API"
     content: |
-        Empower your Java applications with images and documents comparison features using [GroupDocs.Comparison for Java](https://products.groupdocs.com/comparison/java) API. It helps you identify the differences within paragraphs, words, characters, shapes, even the text styles of the compared documents of same format, allows merging the changes and export to a final document. It supports comparing and merging a wide range of documents including PDF, Word, Excel worksheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings and image file formats without using any external library.
+        Empower your Java applications with images and documents comparison features using [GroupDocs.Comparison for Java](/comparison/java/) API. It helps you identify the differences within paragraphs, words, characters, shapes, even the text styles of the compared documents of same format, allows merging the changes and export to a final document. It supports comparing and merging a wide range of documents including PDF, Word, Excel worksheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings and image file formats without using any external library.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Steps for Comparing VSDX Files in Java"
     content_left: |
-        [GroupDocs.Comparison](https://products.groupdocs.com/comparison/java) makes it easy for Java developers to compare VSDX files within their applications using a few lines of code.
+        [GroupDocs.Comparison](/comparison/java/) makes it easy for Java developers to compare VSDX files within their applications using a few lines of code.
 
-        *   Instantiate Comparer objectwith source document path or stream.
+        *   Instantiate **Comparer** object with source document path or stream.
         *   Call add method and specify target document path or stream.
         *   Call compare method.
         
     title_right: "System Requirements"
     content_right: |
-        GroupDocs.Comparison for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        GroupDocs.Comparison for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc
@@ -113,7 +113,7 @@ about_formats:
         - icon: "far fa-file-vsdx"
           title: "About VSDX File Format"
           content: |
-            Files with .VSDX extension represent Microsoft Visio file format introduced from Microsoft Office 2013 onwards. It was developed to replace the binary file format, .VSD, which is supported by earlier versions of Microsoft Visio. It is also supported on Visio Services in Microsoft SharePoint Server 2013 and does not require an intermediary file format for publishing to SharePoint Server. Visio files are used to create drawings that contain visual objects, flow charts, UML diagram, information flow, organizational charts, software diagrams, network layout, database models, objects mapping and other similar information. Files generated using Visio can also be exported to different file formats such as PNG, BMP, PDF and others.
+            Files with .VSDX extension represent Microsoft Visio file format introduced from Microsoft Office 2013 onward. It was developed to replace the binary file format, .VSD, which is supported by earlier versions of Microsoft Visio. It is also supported on Visio Services in Microsoft SharePoint Server 2013 and does not require an intermediary file format for publishing to SharePoint Server. Visio files are used to create drawings that contain visual objects, flow charts, UML diagram, information flow, organizational charts, software diagrams, network layout, database models, objects mapping and other similar information. Files generated using Visio can also be exported to different file formats such as PNG, BMP, PDF and others.
 
           link: "https://docs.fileformat.com/image/vsdx/"
 
