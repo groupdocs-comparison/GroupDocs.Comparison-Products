@@ -49,7 +49,7 @@ about:
     enable: true
     title: "GroupDocs.Comparison for Java APIについて"
     content: |
-        [GroupDocs.Comparison for Java](/Comparison/java/)APIを使用して、画像とドキュメントの比較機能でJavaアプリケーションを強化します。段落、単語、文字、図形、さらには同じ形式の比較されたドキュメントのテキストスタイル内の違いを識別し、変更をマージして最終的なドキュメントにエクスポートするのに役立ちます。外部ライブラリを使用せずに、PDF、Word、Excelワークシート、PowerPointプレゼンテーション、Visioダイアグラム、Outlook電子メール、HTML、図面、画像ファイル形式など、さまざまなドキュメントの比較とマージをサポートします。
+        [GroupDocs.Comparison for Java](/Comparison/java/) APIを使用して、画像とドキュメントの比較機能でJavaアプリケーションを強化します。段落、単語、文字、図形、さらには同じ形式の比較されたドキュメントのテキストスタイル内の違いを識別し、変更をマージして最終的なドキュメントにエクスポートするのに役立ちます。外部ライブラリを使用せずに、PDF、Word、Excelワークシート、PowerPointプレゼンテーション、Visioダイアグラム、Outlook電子メール、HTML、図面、画像ファイル形式など、さまざまなドキュメントの比較とマージをサポートします。
 
 steps:
     enable: true
@@ -57,9 +57,9 @@ steps:
     content_left: |
         [GroupDocs.Comparison](/Comparison/java/)を使用すると、Java開発者は数行のコードを使用してアプリケーション内のCSファイルを簡単に比較できます。
 
-        *ソースドキュメントパスまたはストリームを使用して**Comparer**オブジェクトをインスタンス化します。
+        * ソースドキュメントパスまたはストリームを使用して**Comparer**オブジェクトをインスタンス化します。
         * addメソッドを呼び出し、ターゲットドキュメントのパスまたはストリームを指定します。
-        *compareメソッドを呼び出します。
+        * compareメソッドを呼び出します。
         
     title_right: "システム要求"
     content_right: |
@@ -68,7 +68,7 @@ steps:
         *オペレーティングシステム：Microsoft Windows、Linux、MacOS
         *開発環境：NetBeans、Intellij IDEA、Eclipseなど
         * Javaランタイム環境：J2SE6.0以降
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)から最新バージョンのGroupDocs.ComparisonforJavaを入手してください。
+        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)から最新バージョンのGroupDocs.Comparison for Javaを入手してください。
         
     code: |
         ```java
@@ -91,7 +91,7 @@ demos:
     enable: true
     title: "CSファイルを比較するためのライブデモ"
     content: |
-        [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family)Webサイトにアクセスして、CSファイルを今すぐ比較してください。  
+        [GroupDocs.Comparisonライブデモ](https://products.groupdocs.app/comparison/family)サイトにアクセスして、CSファイルを今すぐ比較してください。  
         ライブデモには次の利点があります
         
 about_formats:

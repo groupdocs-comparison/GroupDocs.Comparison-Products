@@ -57,9 +57,9 @@ steps:
     content_left: |
         [GroupDocs.Comparison](/Comparison/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実装することで、アプリケーション内の複数のCSファイルを簡単に比較およびマージできます。
 
-        *ソースドキュメントパスまたはストリームを使用して**Comparer**オブジェクトをインスタンス化します。
+        * ソースドキュメントパスまたはストリームを使用して**Comparer**オブジェクトをインスタンス化します。
         * Addメソッドを呼び出し、ターゲットドキュメントのパスまたはストリームを指定します。ターゲットドキュメントごとにこの手順を繰り返します。
-        *Compareメソッドを呼び出します。
+        * compareメソッドを呼び出します。
         
     title_right: "システム要求"
     content_right: |
@@ -97,7 +97,7 @@ demos:
     enable: true
     title: "CSファイルの比較のライブデモ"
     content: |
-        [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family)Webサイトにアクセスして、CSファイル間の違いを今すぐ検出してください。  
+        [GroupDocs.Comparisonライブデモ](https://products.groupdocs.app/comparison/family)サイトにアクセスして、CSファイル間の違いを今すぐ検出してください。  
         ライブデモには次の利点があります
         
 about_formats:
