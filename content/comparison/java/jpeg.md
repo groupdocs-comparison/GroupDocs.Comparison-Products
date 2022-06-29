@@ -260,11 +260,6 @@ more_formats:
           description: "Microsoft Visio 2003-2010 XML Drawing"
 
         # format loop
-        - name: "Compare TIFF Files"
-          link: "https://products.groupdocs.com/comparison/java/tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
         - name: "Compare PNG Files"
           link: "https://products.groupdocs.com/comparison/java/png/"
           description: "Portable Network Graphic"

@@ -261,11 +261,6 @@ more_formats:
           description: "Open Document Template"
 
         # format loop
-        - name: "Compare TIFF Files"
-          link: "https://products.groupdocs.com/comparison/net/tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
         - name: "Compare JPEG Files"
           link: "https://products.groupdocs.com/comparison/net/jpeg/"
           description: "JPEG Image"

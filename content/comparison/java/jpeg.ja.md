@@ -191,9 +191,6 @@ more_formats:
           link: "https://products.groupdocs.com/comparison/java/vst/"
           description: "Microsoft Visio2003-2010XML図面"
 
-          link: "https://products.groupdocs.com/comparison/java/tiff/"
-          description: "タグ付き画像ファイル形式"
-
           link: "https://products.groupdocs.com/comparison/java/png/"
           description: "ポータブルネットワークグラフィック"
 

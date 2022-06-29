@@ -189,9 +189,6 @@ more_formats:
           link: "https://products.groupdocs.com/comparison/net/vst/"
           description: "Microsoft Visio2003-2010XML図面"
 
-          link: "https://products.groupdocs.com/comparison/net/tiff/"
-          description: "タグ付き画像ファイル形式"
-
           link: "https://products.groupdocs.com/comparison/net/jpeg/"
           description: "JPEG画像"
 

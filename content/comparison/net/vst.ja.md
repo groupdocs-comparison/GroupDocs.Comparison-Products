@@ -194,9 +194,6 @@ more_formats:
           link: "https://products.groupdocs.com/comparison/net/ott/"
           description: "ドキュメントテンプレートを開く"
 
-          link: "https://products.groupdocs.com/comparison/net/tiff/"
-          description: "タグ付き画像ファイル形式"
-
           link: "https://products.groupdocs.com/comparison/net/jpeg/"
           description: "JPEG画像"
 

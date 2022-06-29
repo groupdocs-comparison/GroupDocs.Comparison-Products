@@ -188,9 +188,6 @@ more_formats:
           link: "https://products.groupdocs.com/comparison/java/ott/"
           description: "ドキュメントテンプレートを開く"
 
-          link: "https://products.groupdocs.com/comparison/java/tiff/"
-          description: "タグ付き画像ファイル形式"
-
           link: "https://products.groupdocs.com/comparison/java/jpeg/"
           description: "JPEG画像"
 
