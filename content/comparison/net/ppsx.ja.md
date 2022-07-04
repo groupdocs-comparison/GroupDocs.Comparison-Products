@@ -79,7 +79,7 @@ steps:
         	comparer.Add("target1.ppsx");
             comparer.Add("target2.ppsx");
             comparer.Add("target3.ppsx");
-            comparer.Compare("result.ppsx");
+            comparer.Compare("result.ppsx"); // 指定された名前の結果ファイルを作成する
         }
         
         //ストリームからの複数のドキュメントを比較します
@@ -89,7 +89,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.ppsx"));
             comparer.Add(File.OpenRead("target2.ppsx"));
             comparer.Add(File.OpenRead("target3.ppsx"));
-            comparer.Compare(File.Create("result.ppsx"));
+            comparer.Compare(File.Create("result.ppsx")); // 指定された名前の結果ファイルを作成する
         }
         ```
         

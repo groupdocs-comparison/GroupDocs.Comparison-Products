@@ -69,12 +69,12 @@ steps:
         // Сравните документы из локального файла
         try (Comparer comparer = new Comparer("C:\\source.dicom")) {
             comparer.add("C:\\target.dicom");
-            comparer.compare("C:\\result.dicom");
+            comparer.compare("C:\\result.dicom"); // Создать результирующий файл с указанным именем
         }
         // Сравните документы из потока
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.dicom"))) {
             comparer.add(new FileInputStream("C:\\target.dicom"));
-            comparer.compare(new FileOutputStream("C:\\result.dicom"));
+            comparer.compare(new FileOutputStream("C:\\result.dicom")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

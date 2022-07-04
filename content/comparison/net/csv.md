@@ -89,7 +89,7 @@ steps:
         	comparer.Add("target1.csv");
             comparer.Add("target2.csv");
             comparer.Add("target3.csv");
-            comparer.Compare("result.csv");
+            comparer.Compare("result.csv"); // Create result file with the specified name
         }
         
         // Compare multiple documents from stream
@@ -99,7 +99,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.csv"));
             comparer.Add(File.OpenRead("target2.csv"));
             comparer.Add(File.OpenRead("target3.csv"));
-            comparer.Compare(File.Create("result.csv"));
+            comparer.Compare(File.Create("result.csv")); // Create result file with the specified name
         }
         ```
         

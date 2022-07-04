@@ -79,7 +79,7 @@ steps:
         	comparer.Add("target1.dicom");
             comparer.Add("target2.dicom");
             comparer.Add("target3.dicom");
-            comparer.Compare("result.dicom");
+            comparer.Compare("result.dicom"); // 指定された名前の結果ファイルを作成する
         }
         
         //ストリームからの複数のドキュメントを比較します
@@ -89,7 +89,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.dicom"));
             comparer.Add(File.OpenRead("target2.dicom"));
             comparer.Add(File.OpenRead("target3.dicom"));
-            comparer.Compare(File.Create("result.dicom"));
+            comparer.Compare(File.Create("result.dicom")); // 指定された名前の結果ファイルを作成する
         }
         ```
         

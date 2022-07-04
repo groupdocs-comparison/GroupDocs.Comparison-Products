@@ -72,7 +72,7 @@ steps:
         	comparer.Add("target1.dxf");
             comparer.Add("target2.dxf");
             comparer.Add("target3.dxf");
-            comparer.Compare("result.dxf");
+            comparer.Compare("result.dxf"); // Создать результирующий файл с указанным именем
         }
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.dxf"))
@@ -80,7 +80,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.dxf"));
             comparer.Add(File.OpenRead("target2.dxf"));
             comparer.Add(File.OpenRead("target3.dxf"));
-            comparer.Compare(File.Create("result.dxf"));
+            comparer.Compare(File.Create("result.dxf")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

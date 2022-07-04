@@ -69,12 +69,12 @@ steps:
         // Сравните документы из локального файла
         try (Comparer comparer = new Comparer("C:\\source.djvu")) {
             comparer.add("C:\\target.djvu");
-            comparer.compare("C:\\result.djvu");
+            comparer.compare("C:\\result.djvu"); // Создать результирующий файл с указанным именем
         }
         // Сравните документы из потока
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.djvu"))) {
             comparer.add(new FileInputStream("C:\\target.djvu"));
-            comparer.compare(new FileOutputStream("C:\\result.djvu"));
+            comparer.compare(new FileOutputStream("C:\\result.djvu")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

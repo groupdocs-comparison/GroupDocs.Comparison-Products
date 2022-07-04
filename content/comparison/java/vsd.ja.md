@@ -76,14 +76,14 @@ steps:
         
         try (Comparer comparer = new Comparer("C:\\source.vsd")) {
             comparer.add("C:\\target.vsd");
-            comparer.compare("C:\\result.vsd");
+            comparer.compare("C:\\result.vsd"); // 指定された名前の結果ファイルを作成する
         }
         
         //ストリームからのドキュメントを比較します
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.vsd"))) {
             comparer.add(new FileInputStream("C:\\target.vsd"));
-            comparer.compare(new FileOutputStream("C:\\result.vsd"));
+            comparer.compare(new FileOutputStream("C:\\result.vsd")); // 指定された名前の結果ファイルを作成する
         }
         ```
         

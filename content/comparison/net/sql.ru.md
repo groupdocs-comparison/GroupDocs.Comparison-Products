@@ -72,7 +72,7 @@ steps:
         	comparer.Add("target1.sql");
             comparer.Add("target2.sql");
             comparer.Add("target3.sql");
-            comparer.Compare("result.sql");
+            comparer.Compare("result.sql"); // Создать результирующий файл с указанным именем
         }
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.sql"))
@@ -80,7 +80,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.sql"));
             comparer.Add(File.OpenRead("target2.sql"));
             comparer.Add(File.OpenRead("target3.sql"));
-            comparer.Compare(File.Create("result.sql"));
+            comparer.Compare(File.Create("result.sql")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

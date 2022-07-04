@@ -69,12 +69,12 @@ steps:
         // Сравните документы из локального файла
         try (Comparer comparer = new Comparer("C:\\source.asm")) {
             comparer.add("C:\\target.asm");
-            comparer.compare("C:\\result.asm");
+            comparer.compare("C:\\result.asm"); // Создать результирующий файл с указанным именем
         }
         // Сравните документы из потока
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.asm"))) {
             comparer.add(new FileInputStream("C:\\target.asm"));
-            comparer.compare(new FileOutputStream("C:\\result.asm"));
+            comparer.compare(new FileOutputStream("C:\\result.asm")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

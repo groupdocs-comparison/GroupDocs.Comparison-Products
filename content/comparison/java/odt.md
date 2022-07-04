@@ -86,14 +86,14 @@ steps:
         
         try (Comparer comparer = new Comparer("C:\\source.odt")) {
             comparer.add("C:\\target.odt");
-            comparer.compare("C:\\result.odt");
+            comparer.compare("C:\\result.odt"); // Create result file with the specified name
         }
         
         // Compare documents from stream
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.odt"))) {
             comparer.add(new FileInputStream("C:\\target.odt"));
-            comparer.compare(new FileOutputStream("C:\\result.odt"));
+            comparer.compare(new FileOutputStream("C:\\result.odt")); // Create result file with the specified name
         }
         ```
         

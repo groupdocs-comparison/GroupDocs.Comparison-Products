@@ -72,7 +72,7 @@ steps:
         	comparer.Add("target1.otp");
             comparer.Add("target2.otp");
             comparer.Add("target3.otp");
-            comparer.Compare("result.otp");
+            comparer.Compare("result.otp"); // Создать результирующий файл с указанным именем
         }
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.otp"))
@@ -80,7 +80,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.otp"));
             comparer.Add(File.OpenRead("target2.otp"));
             comparer.Add(File.OpenRead("target3.otp"));
-            comparer.Compare(File.Create("result.otp"));
+            comparer.Compare(File.Create("result.otp")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

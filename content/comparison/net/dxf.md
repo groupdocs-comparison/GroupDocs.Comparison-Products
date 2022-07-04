@@ -89,7 +89,7 @@ steps:
         	comparer.Add("target1.dxf");
             comparer.Add("target2.dxf");
             comparer.Add("target3.dxf");
-            comparer.Compare("result.dxf");
+            comparer.Compare("result.dxf"); // Create result file with the specified name
         }
         
         // Compare multiple documents from stream
@@ -99,7 +99,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.dxf"));
             comparer.Add(File.OpenRead("target2.dxf"));
             comparer.Add(File.OpenRead("target3.dxf"));
-            comparer.Compare(File.Create("result.dxf"));
+            comparer.Compare(File.Create("result.dxf")); // Create result file with the specified name
         }
         ```
         

@@ -69,12 +69,12 @@ steps:
         // Сравните документы из локального файла
         try (Comparer comparer = new Comparer("C:\\source.pptx")) {
             comparer.add("C:\\target.pptx");
-            comparer.compare("C:\\result.pptx");
+            comparer.compare("C:\\result.pptx"); // Создать результирующий файл с указанным именем
         }
         // Сравните документы из потока
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.pptx"))) {
             comparer.add(new FileInputStream("C:\\target.pptx"));
-            comparer.compare(new FileOutputStream("C:\\result.pptx"));
+            comparer.compare(new FileOutputStream("C:\\result.pptx")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

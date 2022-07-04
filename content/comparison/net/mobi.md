@@ -89,7 +89,7 @@ steps:
         	comparer.Add("target1.mobi");
             comparer.Add("target2.mobi");
             comparer.Add("target3.mobi");
-            comparer.Compare("result.mobi");
+            comparer.Compare("result.mobi"); // Create result file with the specified name
         }
         
         // Compare multiple documents from stream
@@ -99,7 +99,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.mobi"));
             comparer.Add(File.OpenRead("target2.mobi"));
             comparer.Add(File.OpenRead("target3.mobi"));
-            comparer.Compare(File.Create("result.mobi"));
+            comparer.Compare(File.Create("result.mobi")); // Create result file with the specified name
         }
         ```
         

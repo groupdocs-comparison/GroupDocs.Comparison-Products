@@ -72,7 +72,7 @@ steps:
         	comparer.Add("target1.log");
             comparer.Add("target2.log");
             comparer.Add("target3.log");
-            comparer.Compare("result.log");
+            comparer.Compare("result.log"); // Создать результирующий файл с указанным именем
         }
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.log"))
@@ -80,7 +80,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.log"));
             comparer.Add(File.OpenRead("target2.log"));
             comparer.Add(File.OpenRead("target3.log"));
-            comparer.Compare(File.Create("result.log"));
+            comparer.Compare(File.Create("result.log")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

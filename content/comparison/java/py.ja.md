@@ -76,14 +76,14 @@ steps:
         
         try (Comparer comparer = new Comparer("C:\\source.py")) {
             comparer.add("C:\\target.py");
-            comparer.compare("C:\\result.py");
+            comparer.compare("C:\\result.py"); // 指定された名前の結果ファイルを作成する
         }
         
         //ストリームからのドキュメントを比較します
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.py"))) {
             comparer.add(new FileInputStream("C:\\target.py"));
-            comparer.compare(new FileOutputStream("C:\\result.py"));
+            comparer.compare(new FileOutputStream("C:\\result.py")); // 指定された名前の結果ファイルを作成する
         }
         ```
         

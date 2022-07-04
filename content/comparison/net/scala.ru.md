@@ -72,7 +72,7 @@ steps:
         	comparer.Add("target1.scala");
             comparer.Add("target2.scala");
             comparer.Add("target3.scala");
-            comparer.Compare("result.scala");
+            comparer.Compare("result.scala"); // Создать результирующий файл с указанным именем
         }
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.scala"))
@@ -80,7 +80,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.scala"));
             comparer.Add(File.OpenRead("target2.scala"));
             comparer.Add(File.OpenRead("target3.scala"));
-            comparer.Compare(File.Create("result.scala"));
+            comparer.Compare(File.Create("result.scala")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

@@ -69,12 +69,12 @@ steps:
         // Сравните документы из локального файла
         try (Comparer comparer = new Comparer("C:\\source.pps")) {
             comparer.add("C:\\target.pps");
-            comparer.compare("C:\\result.pps");
+            comparer.compare("C:\\result.pps"); // Создать результирующий файл с указанным именем
         }
         // Сравните документы из потока
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.pps"))) {
             comparer.add(new FileInputStream("C:\\target.pps"));
-            comparer.compare(new FileOutputStream("C:\\result.pps"));
+            comparer.compare(new FileOutputStream("C:\\result.pps")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

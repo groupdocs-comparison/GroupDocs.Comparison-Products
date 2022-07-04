@@ -79,7 +79,7 @@ steps:
         	comparer.Add("target1.asm");
             comparer.Add("target2.asm");
             comparer.Add("target3.asm");
-            comparer.Compare("result.asm");
+            comparer.Compare("result.asm"); // 指定された名前の結果ファイルを作成する
         }
         
         //ストリームからの複数のドキュメントを比較します
@@ -89,7 +89,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.asm"));
             comparer.Add(File.OpenRead("target2.asm"));
             comparer.Add(File.OpenRead("target3.asm"));
-            comparer.Compare(File.Create("result.asm"));
+            comparer.Compare(File.Create("result.asm")); // 指定された名前の結果ファイルを作成する
         }
         ```
         

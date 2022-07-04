@@ -69,12 +69,12 @@ steps:
         // Сравните документы из локального файла
         try (Comparer comparer = new Comparer("C:\\source.odp")) {
             comparer.add("C:\\target.odp");
-            comparer.compare("C:\\result.odp");
+            comparer.compare("C:\\result.odp"); // Создать результирующий файл с указанным именем
         }
         // Сравните документы из потока
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.odp"))) {
             comparer.add(new FileInputStream("C:\\target.odp"));
-            comparer.compare(new FileOutputStream("C:\\result.odp"));
+            comparer.compare(new FileOutputStream("C:\\result.odp")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

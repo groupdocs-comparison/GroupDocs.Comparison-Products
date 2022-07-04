@@ -89,7 +89,7 @@ steps:
         	comparer.Add("target1.py");
             comparer.Add("target2.py");
             comparer.Add("target3.py");
-            comparer.Compare("result.py");
+            comparer.Compare("result.py"); // Create result file with the specified name
         }
         
         // Compare multiple documents from stream
@@ -99,7 +99,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.py"));
             comparer.Add(File.OpenRead("target2.py"));
             comparer.Add(File.OpenRead("target3.py"));
-            comparer.Compare(File.Create("result.py"));
+            comparer.Compare(File.Create("result.py")); // Create result file with the specified name
         }
         ```
         

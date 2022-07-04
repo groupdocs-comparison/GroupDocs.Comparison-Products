@@ -72,7 +72,7 @@ steps:
         	comparer.Add("target1.xltm");
             comparer.Add("target2.xltm");
             comparer.Add("target3.xltm");
-            comparer.Compare("result.xltm");
+            comparer.Compare("result.xltm"); // Создать результирующий файл с указанным именем
         }
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.xltm"))
@@ -80,7 +80,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.xltm"));
             comparer.Add(File.OpenRead("target2.xltm"));
             comparer.Add(File.OpenRead("target3.xltm"));
-            comparer.Compare(File.Create("result.xltm"));
+            comparer.Compare(File.Create("result.xltm")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

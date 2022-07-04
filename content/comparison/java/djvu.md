@@ -86,14 +86,14 @@ steps:
         
         try (Comparer comparer = new Comparer("C:\\source.djvu")) {
             comparer.add("C:\\target.djvu");
-            comparer.compare("C:\\result.djvu");
+            comparer.compare("C:\\result.djvu"); // Create result file with the specified name
         }
         
         // Compare documents from stream
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.djvu"))) {
             comparer.add(new FileInputStream("C:\\target.djvu"));
-            comparer.compare(new FileOutputStream("C:\\result.djvu"));
+            comparer.compare(new FileOutputStream("C:\\result.djvu")); // Create result file with the specified name
         }
         ```
         

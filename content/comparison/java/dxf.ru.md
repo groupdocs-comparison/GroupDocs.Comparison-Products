@@ -69,12 +69,12 @@ steps:
         // Сравните документы из локального файла
         try (Comparer comparer = new Comparer("C:\\source.dxf")) {
             comparer.add("C:\\target.dxf");
-            comparer.compare("C:\\result.dxf");
+            comparer.compare("C:\\result.dxf"); // Создать результирующий файл с указанным именем
         }
         // Сравните документы из потока
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.dxf"))) {
             comparer.add(new FileInputStream("C:\\target.dxf"));
-            comparer.compare(new FileOutputStream("C:\\result.dxf"));
+            comparer.compare(new FileOutputStream("C:\\result.dxf")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

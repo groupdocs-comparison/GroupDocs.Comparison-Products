@@ -76,14 +76,14 @@ steps:
         
         try (Comparer comparer = new Comparer("C:\\source.dicom")) {
             comparer.add("C:\\target.dicom");
-            comparer.compare("C:\\result.dicom");
+            comparer.compare("C:\\result.dicom"); // 指定された名前の結果ファイルを作成する
         }
         
         //ストリームからのドキュメントを比較します
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.dicom"))) {
             comparer.add(new FileInputStream("C:\\target.dicom"));
-            comparer.compare(new FileOutputStream("C:\\result.dicom"));
+            comparer.compare(new FileOutputStream("C:\\result.dicom")); // 指定された名前の結果ファイルを作成する
         }
         ```
         

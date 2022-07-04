@@ -76,14 +76,14 @@ steps:
         
         try (Comparer comparer = new Comparer("C:\\source.scala")) {
             comparer.add("C:\\target.scala");
-            comparer.compare("C:\\result.scala");
+            comparer.compare("C:\\result.scala"); // 指定された名前の結果ファイルを作成する
         }
         
         //ストリームからのドキュメントを比較します
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.scala"))) {
             comparer.add(new FileInputStream("C:\\target.scala"));
-            comparer.compare(new FileOutputStream("C:\\result.scala"));
+            comparer.compare(new FileOutputStream("C:\\result.scala")); // 指定された名前の結果ファイルを作成する
         }
         ```
         

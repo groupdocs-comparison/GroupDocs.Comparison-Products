@@ -72,7 +72,7 @@ steps:
         	comparer.Add("target1.docx");
             comparer.Add("target2.docx");
             comparer.Add("target3.docx");
-            comparer.Compare("result.docx");
+            comparer.Compare("result.docx"); // Создать результирующий файл с указанным именем
         }
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.docx"))
@@ -80,7 +80,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.docx"));
             comparer.Add(File.OpenRead("target2.docx"));
             comparer.Add(File.OpenRead("target3.docx"));
-            comparer.Compare(File.Create("result.docx"));
+            comparer.Compare(File.Create("result.docx")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

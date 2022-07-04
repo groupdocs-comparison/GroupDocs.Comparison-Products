@@ -86,14 +86,14 @@ steps:
         
         try (Comparer comparer = new Comparer("C:\\source.json")) {
             comparer.add("C:\\target.json");
-            comparer.compare("C:\\result.json");
+            comparer.compare("C:\\result.json"); // Create result file with the specified name
         }
         
         // Compare documents from stream
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.json"))) {
             comparer.add(new FileInputStream("C:\\target.json"));
-            comparer.compare(new FileOutputStream("C:\\result.json"));
+            comparer.compare(new FileOutputStream("C:\\result.json")); // Create result file with the specified name
         }
         ```
         

@@ -86,14 +86,14 @@ steps:
         
         try (Comparer comparer = new Comparer("C:\\source.ppt")) {
             comparer.add("C:\\target.ppt");
-            comparer.compare("C:\\result.ppt");
+            comparer.compare("C:\\result.ppt"); // Create result file with the specified name
         }
         
         // Compare documents from stream
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.ppt"))) {
             comparer.add(new FileInputStream("C:\\target.ppt"));
-            comparer.compare(new FileOutputStream("C:\\result.ppt"));
+            comparer.compare(new FileOutputStream("C:\\result.ppt")); // Create result file with the specified name
         }
         ```
         

@@ -89,7 +89,7 @@ steps:
         	comparer.Add("target1.js");
             comparer.Add("target2.js");
             comparer.Add("target3.js");
-            comparer.Compare("result.js");
+            comparer.Compare("result.js"); // Create result file with the specified name
         }
         
         // Compare multiple documents from stream
@@ -99,7 +99,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.js"));
             comparer.Add(File.OpenRead("target2.js"));
             comparer.Add(File.OpenRead("target3.js"));
-            comparer.Compare(File.Create("result.js"));
+            comparer.Compare(File.Create("result.js")); // Create result file with the specified name
         }
         ```
         

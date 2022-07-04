@@ -69,12 +69,12 @@ steps:
         // Сравните документы из локального файла
         try (Comparer comparer = new Comparer("C:\\source.json")) {
             comparer.add("C:\\target.json");
-            comparer.compare("C:\\result.json");
+            comparer.compare("C:\\result.json"); // Создать результирующий файл с указанным именем
         }
         // Сравните документы из потока
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.json"))) {
             comparer.add(new FileInputStream("C:\\target.json"));
-            comparer.compare(new FileOutputStream("C:\\result.json"));
+            comparer.compare(new FileOutputStream("C:\\result.json")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

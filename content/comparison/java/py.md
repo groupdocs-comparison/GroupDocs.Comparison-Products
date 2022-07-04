@@ -86,14 +86,14 @@ steps:
         
         try (Comparer comparer = new Comparer("C:\\source.py")) {
             comparer.add("C:\\target.py");
-            comparer.compare("C:\\result.py");
+            comparer.compare("C:\\result.py"); // Create result file with the specified name
         }
         
         // Compare documents from stream
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.py"))) {
             comparer.add(new FileInputStream("C:\\target.py"));
-            comparer.compare(new FileOutputStream("C:\\result.py"));
+            comparer.compare(new FileOutputStream("C:\\result.py")); // Create result file with the specified name
         }
         ```
         

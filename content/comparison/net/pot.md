@@ -89,7 +89,7 @@ steps:
         	comparer.Add("target1.pot");
             comparer.Add("target2.pot");
             comparer.Add("target3.pot");
-            comparer.Compare("result.pot");
+            comparer.Compare("result.pot"); // Create result file with the specified name
         }
         
         // Compare multiple documents from stream
@@ -99,7 +99,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.pot"));
             comparer.Add(File.OpenRead("target2.pot"));
             comparer.Add(File.OpenRead("target3.pot"));
-            comparer.Compare(File.Create("result.pot"));
+            comparer.Compare(File.Create("result.pot")); // Create result file with the specified name
         }
         ```
         

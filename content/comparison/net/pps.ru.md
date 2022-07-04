@@ -72,7 +72,7 @@ steps:
         	comparer.Add("target1.pps");
             comparer.Add("target2.pps");
             comparer.Add("target3.pps");
-            comparer.Compare("result.pps");
+            comparer.Compare("result.pps"); // Создать результирующий файл с указанным именем
         }
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.pps"))
@@ -80,7 +80,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.pps"));
             comparer.Add(File.OpenRead("target2.pps"));
             comparer.Add(File.OpenRead("target3.pps"));
-            comparer.Compare(File.Create("result.pps"));
+            comparer.Compare(File.Create("result.pps")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

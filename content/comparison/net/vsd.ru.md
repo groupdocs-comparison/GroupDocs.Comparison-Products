@@ -72,7 +72,7 @@ steps:
         	comparer.Add("target1.vsd");
             comparer.Add("target2.vsd");
             comparer.Add("target3.vsd");
-            comparer.Compare("result.vsd");
+            comparer.Compare("result.vsd"); // Создать результирующий файл с указанным именем
         }
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.vsd"))
@@ -80,7 +80,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.vsd"));
             comparer.Add(File.OpenRead("target2.vsd"));
             comparer.Add(File.OpenRead("target3.vsd"));
-            comparer.Compare(File.Create("result.vsd"));
+            comparer.Compare(File.Create("result.vsd")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

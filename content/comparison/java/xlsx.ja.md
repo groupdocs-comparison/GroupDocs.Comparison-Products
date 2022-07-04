@@ -76,14 +76,14 @@ steps:
         
         try (Comparer comparer = new Comparer("C:\\source.xlsx")) {
             comparer.add("C:\\target.xlsx");
-            comparer.compare("C:\\result.xlsx");
+            comparer.compare("C:\\result.xlsx"); // 指定された名前の結果ファイルを作成する
         }
         
         //ストリームからのドキュメントを比較します
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.xlsx"))) {
             comparer.add(new FileInputStream("C:\\target.xlsx"));
-            comparer.compare(new FileOutputStream("C:\\result.xlsx"));
+            comparer.compare(new FileOutputStream("C:\\result.xlsx")); // 指定された名前の結果ファイルを作成する
         }
         ```
         

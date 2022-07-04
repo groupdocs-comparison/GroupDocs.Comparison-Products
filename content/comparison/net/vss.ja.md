@@ -79,7 +79,7 @@ steps:
         	comparer.Add("target1.vss");
             comparer.Add("target2.vss");
             comparer.Add("target3.vss");
-            comparer.Compare("result.vss");
+            comparer.Compare("result.vss"); // 指定された名前の結果ファイルを作成する
         }
         
         //ストリームからの複数のドキュメントを比較します
@@ -89,7 +89,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.vss"));
             comparer.Add(File.OpenRead("target2.vss"));
             comparer.Add(File.OpenRead("target3.vss"));
-            comparer.Compare(File.Create("result.vss"));
+            comparer.Compare(File.Create("result.vss")); // 指定された名前の結果ファイルを作成する
         }
         ```
         

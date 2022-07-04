@@ -72,7 +72,7 @@ steps:
         	comparer.Add("target1.pptx");
             comparer.Add("target2.pptx");
             comparer.Add("target3.pptx");
-            comparer.Compare("result.pptx");
+            comparer.Compare("result.pptx"); // Создать результирующий файл с указанным именем
         }
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.pptx"))
@@ -80,7 +80,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.pptx"));
             comparer.Add(File.OpenRead("target2.pptx"));
             comparer.Add(File.OpenRead("target3.pptx"));
-            comparer.Compare(File.Create("result.pptx"));
+            comparer.Compare(File.Create("result.pptx")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

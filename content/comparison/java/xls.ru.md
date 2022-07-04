@@ -69,12 +69,12 @@ steps:
         // Сравните документы из локального файла
         try (Comparer comparer = new Comparer("C:\\source.xls")) {
             comparer.add("C:\\target.xls");
-            comparer.compare("C:\\result.xls");
+            comparer.compare("C:\\result.xls"); // Создать результирующий файл с указанным именем
         }
         // Сравните документы из потока
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.xls"))) {
             comparer.add(new FileInputStream("C:\\target.xls"));
-            comparer.compare(new FileOutputStream("C:\\result.xls"));
+            comparer.compare(new FileOutputStream("C:\\result.xls")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

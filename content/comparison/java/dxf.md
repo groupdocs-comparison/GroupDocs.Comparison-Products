@@ -86,14 +86,14 @@ steps:
         
         try (Comparer comparer = new Comparer("C:\\source.dxf")) {
             comparer.add("C:\\target.dxf");
-            comparer.compare("C:\\result.dxf");
+            comparer.compare("C:\\result.dxf"); // Create result file with the specified name
         }
         
         // Compare documents from stream
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.dxf"))) {
             comparer.add(new FileInputStream("C:\\target.dxf"));
-            comparer.compare(new FileOutputStream("C:\\result.dxf"));
+            comparer.compare(new FileOutputStream("C:\\result.dxf")); // Create result file with the specified name
         }
         ```
         

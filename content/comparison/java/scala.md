@@ -86,14 +86,14 @@ steps:
         
         try (Comparer comparer = new Comparer("C:\\source.scala")) {
             comparer.add("C:\\target.scala");
-            comparer.compare("C:\\result.scala");
+            comparer.compare("C:\\result.scala"); // Create result file with the specified name
         }
         
         // Compare documents from stream
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.scala"))) {
             comparer.add(new FileInputStream("C:\\target.scala"));
-            comparer.compare(new FileOutputStream("C:\\result.scala"));
+            comparer.compare(new FileOutputStream("C:\\result.scala")); // Create result file with the specified name
         }
         ```
         

@@ -72,7 +72,7 @@ steps:
         	comparer.Add("target1.csv");
             comparer.Add("target2.csv");
             comparer.Add("target3.csv");
-            comparer.Compare("result.csv");
+            comparer.Compare("result.csv"); // Создать результирующий файл с указанным именем
         }
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.csv"))
@@ -80,7 +80,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.csv"));
             comparer.Add(File.OpenRead("target2.csv"));
             comparer.Add(File.OpenRead("target3.csv"));
-            comparer.Compare(File.Create("result.csv"));
+            comparer.Compare(File.Create("result.csv")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

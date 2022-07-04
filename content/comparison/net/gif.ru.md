@@ -72,7 +72,7 @@ steps:
         	comparer.Add("target1.gif");
             comparer.Add("target2.gif");
             comparer.Add("target3.gif");
-            comparer.Compare("result.gif");
+            comparer.Compare("result.gif"); // Создать результирующий файл с указанным именем
         }
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.gif"))
@@ -80,7 +80,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.gif"));
             comparer.Add(File.OpenRead("target2.gif"));
             comparer.Add(File.OpenRead("target3.gif"));
-            comparer.Compare(File.Create("result.gif"));
+            comparer.Compare(File.Create("result.gif")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

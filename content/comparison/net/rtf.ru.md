@@ -72,7 +72,7 @@ steps:
         	comparer.Add("target1.rtf");
             comparer.Add("target2.rtf");
             comparer.Add("target3.rtf");
-            comparer.Compare("result.rtf");
+            comparer.Compare("result.rtf"); // Создать результирующий файл с указанным именем
         }
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.rtf"))
@@ -80,7 +80,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.rtf"));
             comparer.Add(File.OpenRead("target2.rtf"));
             comparer.Add(File.OpenRead("target3.rtf"));
-            comparer.Compare(File.Create("result.rtf"));
+            comparer.Compare(File.Create("result.rtf")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

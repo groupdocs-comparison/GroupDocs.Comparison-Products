@@ -79,7 +79,7 @@ steps:
         	comparer.Add("target1.png");
             comparer.Add("target2.png");
             comparer.Add("target3.png");
-            comparer.Compare("result.png");
+            comparer.Compare("result.png"); // 指定された名前の結果ファイルを作成する
         }
         
         //ストリームからの複数のドキュメントを比較します
@@ -89,7 +89,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.png"));
             comparer.Add(File.OpenRead("target2.png"));
             comparer.Add(File.OpenRead("target3.png"));
-            comparer.Compare(File.Create("result.png"));
+            comparer.Compare(File.Create("result.png")); // 指定された名前の結果ファイルを作成する
         }
         ```
         

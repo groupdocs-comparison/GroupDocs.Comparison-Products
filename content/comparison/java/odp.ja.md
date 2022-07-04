@@ -76,14 +76,14 @@ steps:
         
         try (Comparer comparer = new Comparer("C:\\source.odp")) {
             comparer.add("C:\\target.odp");
-            comparer.compare("C:\\result.odp");
+            comparer.compare("C:\\result.odp"); // 指定された名前の結果ファイルを作成する
         }
         
         //ストリームからのドキュメントを比較します
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.odp"))) {
             comparer.add(new FileInputStream("C:\\target.odp"));
-            comparer.compare(new FileOutputStream("C:\\result.odp"));
+            comparer.compare(new FileOutputStream("C:\\result.odp")); // 指定された名前の結果ファイルを作成する
         }
         ```
         

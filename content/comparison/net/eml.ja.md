@@ -79,7 +79,7 @@ steps:
         	comparer.Add("target1.eml");
             comparer.Add("target2.eml");
             comparer.Add("target3.eml");
-            comparer.Compare("result.eml");
+            comparer.Compare("result.eml"); // 指定された名前の結果ファイルを作成する
         }
         
         //ストリームからの複数のドキュメントを比較します
@@ -89,7 +89,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.eml"));
             comparer.Add(File.OpenRead("target2.eml"));
             comparer.Add(File.OpenRead("target3.eml"));
-            comparer.Compare(File.Create("result.eml"));
+            comparer.Compare(File.Create("result.eml")); // 指定された名前の結果ファイルを作成する
         }
         ```
         

@@ -79,7 +79,7 @@ steps:
         	comparer.Add("target1.ods");
             comparer.Add("target2.ods");
             comparer.Add("target3.ods");
-            comparer.Compare("result.ods");
+            comparer.Compare("result.ods"); // 指定された名前の結果ファイルを作成する
         }
         
         //ストリームからの複数のドキュメントを比較します
@@ -89,7 +89,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.ods"));
             comparer.Add(File.OpenRead("target2.ods"));
             comparer.Add(File.OpenRead("target3.ods"));
-            comparer.Compare(File.Create("result.ods"));
+            comparer.Compare(File.Create("result.ods")); // 指定された名前の結果ファイルを作成する
         }
         ```
         

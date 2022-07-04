@@ -69,12 +69,12 @@ steps:
         // Сравните документы из локального файла
         try (Comparer comparer = new Comparer("C:\\source.vst")) {
             comparer.add("C:\\target.vst");
-            comparer.compare("C:\\result.vst");
+            comparer.compare("C:\\result.vst"); // Создать результирующий файл с указанным именем
         }
         // Сравните документы из потока
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.vst"))) {
             comparer.add(new FileInputStream("C:\\target.vst"));
-            comparer.compare(new FileOutputStream("C:\\result.vst"));
+            comparer.compare(new FileOutputStream("C:\\result.vst")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

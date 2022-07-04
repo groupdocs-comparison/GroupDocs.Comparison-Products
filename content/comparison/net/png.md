@@ -89,7 +89,7 @@ steps:
         	comparer.Add("target1.png");
             comparer.Add("target2.png");
             comparer.Add("target3.png");
-            comparer.Compare("result.png");
+            comparer.Compare("result.png"); // Create result file with the specified name
         }
         
         // Compare multiple documents from stream
@@ -99,7 +99,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.png"));
             comparer.Add(File.OpenRead("target2.png"));
             comparer.Add(File.OpenRead("target3.png"));
-            comparer.Compare(File.Create("result.png"));
+            comparer.Compare(File.Create("result.png")); // Create result file with the specified name
         }
         ```
         

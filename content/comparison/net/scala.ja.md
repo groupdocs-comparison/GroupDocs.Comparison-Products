@@ -79,7 +79,7 @@ steps:
         	comparer.Add("target1.scala");
             comparer.Add("target2.scala");
             comparer.Add("target3.scala");
-            comparer.Compare("result.scala");
+            comparer.Compare("result.scala"); // 指定された名前の結果ファイルを作成する
         }
         
         //ストリームからの複数のドキュメントを比較します
@@ -89,7 +89,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.scala"));
             comparer.Add(File.OpenRead("target2.scala"));
             comparer.Add(File.OpenRead("target3.scala"));
-            comparer.Compare(File.Create("result.scala"));
+            comparer.Compare(File.Create("result.scala")); // 指定された名前の結果ファイルを作成する
         }
         ```
         

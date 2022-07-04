@@ -76,14 +76,14 @@ steps:
         
         try (Comparer comparer = new Comparer("C:\\source.pps")) {
             comparer.add("C:\\target.pps");
-            comparer.compare("C:\\result.pps");
+            comparer.compare("C:\\result.pps"); // 指定された名前の結果ファイルを作成する
         }
         
         //ストリームからのドキュメントを比較します
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.pps"))) {
             comparer.add(new FileInputStream("C:\\target.pps"));
-            comparer.compare(new FileOutputStream("C:\\result.pps"));
+            comparer.compare(new FileOutputStream("C:\\result.pps")); // 指定された名前の結果ファイルを作成する
         }
         ```
         

@@ -69,12 +69,12 @@ steps:
         // Сравните документы из локального файла
         try (Comparer comparer = new Comparer("C:\\source.rtf")) {
             comparer.add("C:\\target.rtf");
-            comparer.compare("C:\\result.rtf");
+            comparer.compare("C:\\result.rtf"); // Создать результирующий файл с указанным именем
         }
         // Сравните документы из потока
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.rtf"))) {
             comparer.add(new FileInputStream("C:\\target.rtf"));
-            comparer.compare(new FileOutputStream("C:\\result.rtf"));
+            comparer.compare(new FileOutputStream("C:\\result.rtf")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

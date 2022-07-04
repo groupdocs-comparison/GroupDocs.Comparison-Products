@@ -89,7 +89,7 @@ steps:
         	comparer.Add("target1.eml");
             comparer.Add("target2.eml");
             comparer.Add("target3.eml");
-            comparer.Compare("result.eml");
+            comparer.Compare("result.eml"); // Create result file with the specified name
         }
         
         // Compare multiple documents from stream
@@ -99,7 +99,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.eml"));
             comparer.Add(File.OpenRead("target2.eml"));
             comparer.Add(File.OpenRead("target3.eml"));
-            comparer.Compare(File.Create("result.eml"));
+            comparer.Compare(File.Create("result.eml")); // Create result file with the specified name
         }
         ```
         

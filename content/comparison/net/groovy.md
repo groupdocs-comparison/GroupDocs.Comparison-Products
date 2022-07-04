@@ -89,7 +89,7 @@ steps:
         	comparer.Add("target1.groovy");
             comparer.Add("target2.groovy");
             comparer.Add("target3.groovy");
-            comparer.Compare("result.groovy");
+            comparer.Compare("result.groovy"); // Create result file with the specified name
         }
         
         // Compare multiple documents from stream
@@ -99,7 +99,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.groovy"));
             comparer.Add(File.OpenRead("target2.groovy"));
             comparer.Add(File.OpenRead("target3.groovy"));
-            comparer.Compare(File.Create("result.groovy"));
+            comparer.Compare(File.Create("result.groovy")); // Create result file with the specified name
         }
         ```
         

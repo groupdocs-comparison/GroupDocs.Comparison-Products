@@ -86,14 +86,14 @@ steps:
         
         try (Comparer comparer = new Comparer("C:\\source.groovy")) {
             comparer.add("C:\\target.groovy");
-            comparer.compare("C:\\result.groovy");
+            comparer.compare("C:\\result.groovy"); // Create result file with the specified name
         }
         
         // Compare documents from stream
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.groovy"))) {
             comparer.add(new FileInputStream("C:\\target.groovy"));
-            comparer.compare(new FileOutputStream("C:\\result.groovy"));
+            comparer.compare(new FileOutputStream("C:\\result.groovy")); // Create result file with the specified name
         }
         ```
         

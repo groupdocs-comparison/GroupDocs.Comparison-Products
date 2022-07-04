@@ -76,14 +76,14 @@ steps:
         
         try (Comparer comparer = new Comparer("C:\\source.groovy")) {
             comparer.add("C:\\target.groovy");
-            comparer.compare("C:\\result.groovy");
+            comparer.compare("C:\\result.groovy"); // 指定された名前の結果ファイルを作成する
         }
         
         //ストリームからのドキュメントを比較します
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.groovy"))) {
             comparer.add(new FileInputStream("C:\\target.groovy"));
-            comparer.compare(new FileOutputStream("C:\\result.groovy"));
+            comparer.compare(new FileOutputStream("C:\\result.groovy")); // 指定された名前の結果ファイルを作成する
         }
         ```
         

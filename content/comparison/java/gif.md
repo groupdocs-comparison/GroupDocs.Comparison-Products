@@ -86,14 +86,14 @@ steps:
         
         try (Comparer comparer = new Comparer("C:\\source.gif")) {
             comparer.add("C:\\target.gif");
-            comparer.compare("C:\\result.gif");
+            comparer.compare("C:\\result.gif"); // Create result file with the specified name
         }
         
         // Compare documents from stream
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.gif"))) {
             comparer.add(new FileInputStream("C:\\target.gif"));
-            comparer.compare(new FileOutputStream("C:\\result.gif"));
+            comparer.compare(new FileOutputStream("C:\\result.gif")); // Create result file with the specified name
         }
         ```
         

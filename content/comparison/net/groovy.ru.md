@@ -72,7 +72,7 @@ steps:
         	comparer.Add("target1.groovy");
             comparer.Add("target2.groovy");
             comparer.Add("target3.groovy");
-            comparer.Compare("result.groovy");
+            comparer.Compare("result.groovy"); // Создать результирующий файл с указанным именем
         }
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.groovy"))
@@ -80,7 +80,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.groovy"));
             comparer.Add(File.OpenRead("target2.groovy"));
             comparer.Add(File.OpenRead("target3.groovy"));
-            comparer.Compare(File.Create("result.groovy"));
+            comparer.Compare(File.Create("result.groovy")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

@@ -86,14 +86,14 @@ steps:
         
         try (Comparer comparer = new Comparer("C:\\source.dwg")) {
             comparer.add("C:\\target.dwg");
-            comparer.compare("C:\\result.dwg");
+            comparer.compare("C:\\result.dwg"); // Create result file with the specified name
         }
         
         // Compare documents from stream
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.dwg"))) {
             comparer.add(new FileInputStream("C:\\target.dwg"));
-            comparer.compare(new FileOutputStream("C:\\result.dwg"));
+            comparer.compare(new FileOutputStream("C:\\result.dwg")); // Create result file with the specified name
         }
         ```
         

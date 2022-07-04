@@ -72,7 +72,7 @@ steps:
         	comparer.Add("target1.asm");
             comparer.Add("target2.asm");
             comparer.Add("target3.asm");
-            comparer.Compare("result.asm");
+            comparer.Compare("result.asm"); // Создать результирующий файл с указанным именем
         }
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.asm"))
@@ -80,7 +80,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.asm"));
             comparer.Add(File.OpenRead("target2.asm"));
             comparer.Add(File.OpenRead("target3.asm"));
-            comparer.Compare(File.Create("result.asm"));
+            comparer.Compare(File.Create("result.asm")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

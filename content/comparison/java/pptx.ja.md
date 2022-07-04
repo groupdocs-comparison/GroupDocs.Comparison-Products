@@ -76,14 +76,14 @@ steps:
         
         try (Comparer comparer = new Comparer("C:\\source.pptx")) {
             comparer.add("C:\\target.pptx");
-            comparer.compare("C:\\result.pptx");
+            comparer.compare("C:\\result.pptx"); // 指定された名前の結果ファイルを作成する
         }
         
         //ストリームからのドキュメントを比較します
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.pptx"))) {
             comparer.add(new FileInputStream("C:\\target.pptx"));
-            comparer.compare(new FileOutputStream("C:\\result.pptx"));
+            comparer.compare(new FileOutputStream("C:\\result.pptx")); // 指定された名前の結果ファイルを作成する
         }
         ```
         

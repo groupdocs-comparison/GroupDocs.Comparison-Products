@@ -89,7 +89,7 @@ steps:
         	comparer.Add("target1.php");
             comparer.Add("target2.php");
             comparer.Add("target3.php");
-            comparer.Compare("result.php");
+            comparer.Compare("result.php"); // Create result file with the specified name
         }
         
         // Compare multiple documents from stream
@@ -99,7 +99,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.php"));
             comparer.Add(File.OpenRead("target2.php"));
             comparer.Add(File.OpenRead("target3.php"));
-            comparer.Compare(File.Create("result.php"));
+            comparer.Compare(File.Create("result.php")); // Create result file with the specified name
         }
         ```
         

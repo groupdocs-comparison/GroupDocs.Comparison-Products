@@ -69,12 +69,12 @@ steps:
         // Сравните документы из локального файла
         try (Comparer comparer = new Comparer("C:\\source.py")) {
             comparer.add("C:\\target.py");
-            comparer.compare("C:\\result.py");
+            comparer.compare("C:\\result.py"); // Создать результирующий файл с указанным именем
         }
         // Сравните документы из потока
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.py"))) {
             comparer.add(new FileInputStream("C:\\target.py"));
-            comparer.compare(new FileOutputStream("C:\\result.py"));
+            comparer.compare(new FileOutputStream("C:\\result.py")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

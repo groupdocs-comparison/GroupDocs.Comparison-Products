@@ -76,14 +76,14 @@ steps:
         
         try (Comparer comparer = new Comparer("C:\\source.ott")) {
             comparer.add("C:\\target.ott");
-            comparer.compare("C:\\result.ott");
+            comparer.compare("C:\\result.ott"); // 指定された名前の結果ファイルを作成する
         }
         
         //ストリームからのドキュメントを比較します
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.ott"))) {
             comparer.add(new FileInputStream("C:\\target.ott"));
-            comparer.compare(new FileOutputStream("C:\\result.ott"));
+            comparer.compare(new FileOutputStream("C:\\result.ott")); // 指定された名前の結果ファイルを作成する
         }
         ```
         

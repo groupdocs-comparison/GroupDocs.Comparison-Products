@@ -89,7 +89,7 @@ steps:
         	comparer.Add("target1.scala");
             comparer.Add("target2.scala");
             comparer.Add("target3.scala");
-            comparer.Compare("result.scala");
+            comparer.Compare("result.scala"); // Create result file with the specified name
         }
         
         // Compare multiple documents from stream
@@ -99,7 +99,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.scala"));
             comparer.Add(File.OpenRead("target2.scala"));
             comparer.Add(File.OpenRead("target3.scala"));
-            comparer.Compare(File.Create("result.scala"));
+            comparer.Compare(File.Create("result.scala")); // Create result file with the specified name
         }
         ```
         

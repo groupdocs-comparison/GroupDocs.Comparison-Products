@@ -69,12 +69,12 @@ steps:
         // Сравните документы из локального файла
         try (Comparer comparer = new Comparer("C:\\source.groovy")) {
             comparer.add("C:\\target.groovy");
-            comparer.compare("C:\\result.groovy");
+            comparer.compare("C:\\result.groovy"); // Создать результирующий файл с указанным именем
         }
         // Сравните документы из потока
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.groovy"))) {
             comparer.add(new FileInputStream("C:\\target.groovy"));
-            comparer.compare(new FileOutputStream("C:\\result.groovy"));
+            comparer.compare(new FileOutputStream("C:\\result.groovy")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

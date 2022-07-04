@@ -86,14 +86,14 @@ steps:
         
         try (Comparer comparer = new Comparer("C:\\source.cpp")) {
             comparer.add("C:\\target.cpp");
-            comparer.compare("C:\\result.cpp");
+            comparer.compare("C:\\result.cpp"); // Create result file with the specified name
         }
         
         // Compare documents from stream
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.cpp"))) {
             comparer.add(new FileInputStream("C:\\target.cpp"));
-            comparer.compare(new FileOutputStream("C:\\result.cpp"));
+            comparer.compare(new FileOutputStream("C:\\result.cpp")); // Create result file with the specified name
         }
         ```
         

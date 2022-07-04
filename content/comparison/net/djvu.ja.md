@@ -79,7 +79,7 @@ steps:
         	comparer.Add("target1.djvu");
             comparer.Add("target2.djvu");
             comparer.Add("target3.djvu");
-            comparer.Compare("result.djvu");
+            comparer.Compare("result.djvu"); // 指定された名前の結果ファイルを作成する
         }
         
         //ストリームからの複数のドキュメントを比較します
@@ -89,7 +89,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.djvu"));
             comparer.Add(File.OpenRead("target2.djvu"));
             comparer.Add(File.OpenRead("target3.djvu"));
-            comparer.Compare(File.Create("result.djvu"));
+            comparer.Compare(File.Create("result.djvu")); // 指定された名前の結果ファイルを作成する
         }
         ```
         

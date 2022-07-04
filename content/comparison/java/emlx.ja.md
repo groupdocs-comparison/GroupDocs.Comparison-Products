@@ -76,14 +76,14 @@ steps:
         
         try (Comparer comparer = new Comparer("C:\\source.emlx")) {
             comparer.add("C:\\target.emlx");
-            comparer.compare("C:\\result.emlx");
+            comparer.compare("C:\\result.emlx"); // 指定された名前の結果ファイルを作成する
         }
         
         //ストリームからのドキュメントを比較します
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.emlx"))) {
             comparer.add(new FileInputStream("C:\\target.emlx"));
-            comparer.compare(new FileOutputStream("C:\\result.emlx"));
+            comparer.compare(new FileOutputStream("C:\\result.emlx")); // 指定された名前の結果ファイルを作成する
         }
         ```
         

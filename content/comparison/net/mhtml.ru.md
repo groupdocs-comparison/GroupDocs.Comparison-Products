@@ -72,7 +72,7 @@ steps:
         	comparer.Add("target1.mhtml");
             comparer.Add("target2.mhtml");
             comparer.Add("target3.mhtml");
-            comparer.Compare("result.mhtml");
+            comparer.Compare("result.mhtml"); // Создать результирующий файл с указанным именем
         }
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.mhtml"))
@@ -80,7 +80,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.mhtml"));
             comparer.Add(File.OpenRead("target2.mhtml"));
             comparer.Add(File.OpenRead("target3.mhtml"));
-            comparer.Compare(File.Create("result.mhtml"));
+            comparer.Compare(File.Create("result.mhtml")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

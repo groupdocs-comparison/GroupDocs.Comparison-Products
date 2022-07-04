@@ -86,14 +86,14 @@ steps:
         
         try (Comparer comparer = new Comparer("C:\\source.php")) {
             comparer.add("C:\\target.php");
-            comparer.compare("C:\\result.php");
+            comparer.compare("C:\\result.php"); // Create result file with the specified name
         }
         
         // Compare documents from stream
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.php"))) {
             comparer.add(new FileInputStream("C:\\target.php"));
-            comparer.compare(new FileOutputStream("C:\\result.php"));
+            comparer.compare(new FileOutputStream("C:\\result.php")); // Create result file with the specified name
         }
         ```
         

@@ -69,12 +69,12 @@ steps:
         // Сравните документы из локального файла
         try (Comparer comparer = new Comparer("C:\\source.jpg")) {
             comparer.add("C:\\target.jpg");
-            comparer.compare("C:\\result.jpg");
+            comparer.compare("C:\\result.jpg"); // Создать результирующий файл с указанным именем
         }
         // Сравните документы из потока
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.jpg"))) {
             comparer.add(new FileInputStream("C:\\target.jpg"));
-            comparer.compare(new FileOutputStream("C:\\result.jpg"));
+            comparer.compare(new FileOutputStream("C:\\result.jpg")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

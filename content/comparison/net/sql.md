@@ -89,7 +89,7 @@ steps:
         	comparer.Add("target1.sql");
             comparer.Add("target2.sql");
             comparer.Add("target3.sql");
-            comparer.Compare("result.sql");
+            comparer.Compare("result.sql"); // Create result file with the specified name
         }
         
         // Compare multiple documents from stream
@@ -99,7 +99,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.sql"));
             comparer.Add(File.OpenRead("target2.sql"));
             comparer.Add(File.OpenRead("target3.sql"));
-            comparer.Compare(File.Create("result.sql"));
+            comparer.Compare(File.Create("result.sql")); // Create result file with the specified name
         }
         ```
         

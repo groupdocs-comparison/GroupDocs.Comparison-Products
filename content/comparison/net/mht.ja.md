@@ -79,7 +79,7 @@ steps:
         	comparer.Add("target1.mht");
             comparer.Add("target2.mht");
             comparer.Add("target3.mht");
-            comparer.Compare("result.mht");
+            comparer.Compare("result.mht"); // 指定された名前の結果ファイルを作成する
         }
         
         //ストリームからの複数のドキュメントを比較します
@@ -89,7 +89,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.mht"));
             comparer.Add(File.OpenRead("target2.mht"));
             comparer.Add(File.OpenRead("target3.mht"));
-            comparer.Compare(File.Create("result.mht"));
+            comparer.Compare(File.Create("result.mht")); // 指定された名前の結果ファイルを作成する
         }
         ```
         

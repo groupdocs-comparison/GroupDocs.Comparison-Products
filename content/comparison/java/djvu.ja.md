@@ -76,14 +76,14 @@ steps:
         
         try (Comparer comparer = new Comparer("C:\\source.djvu")) {
             comparer.add("C:\\target.djvu");
-            comparer.compare("C:\\result.djvu");
+            comparer.compare("C:\\result.djvu"); // 指定された名前の結果ファイルを作成する
         }
         
         //ストリームからのドキュメントを比較します
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.djvu"))) {
             comparer.add(new FileInputStream("C:\\target.djvu"));
-            comparer.compare(new FileOutputStream("C:\\result.djvu"));
+            comparer.compare(new FileOutputStream("C:\\result.djvu")); // 指定された名前の結果ファイルを作成する
         }
         ```
         

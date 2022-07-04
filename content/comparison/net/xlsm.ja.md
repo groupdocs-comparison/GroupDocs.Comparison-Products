@@ -79,7 +79,7 @@ steps:
         	comparer.Add("target1.xlsm");
             comparer.Add("target2.xlsm");
             comparer.Add("target3.xlsm");
-            comparer.Compare("result.xlsm");
+            comparer.Compare("result.xlsm"); // 指定された名前の結果ファイルを作成する
         }
         
         //ストリームからの複数のドキュメントを比較します
@@ -89,7 +89,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.xlsm"));
             comparer.Add(File.OpenRead("target2.xlsm"));
             comparer.Add(File.OpenRead("target3.xlsm"));
-            comparer.Compare(File.Create("result.xlsm"));
+            comparer.Compare(File.Create("result.xlsm")); // 指定された名前の結果ファイルを作成する
         }
         ```
         

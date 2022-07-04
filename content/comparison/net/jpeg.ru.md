@@ -72,7 +72,7 @@ steps:
         	comparer.Add("target1.jpeg");
             comparer.Add("target2.jpeg");
             comparer.Add("target3.jpeg");
-            comparer.Compare("result.jpeg");
+            comparer.Compare("result.jpeg"); // Создать результирующий файл с указанным именем
         }
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.jpeg"))
@@ -80,7 +80,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.jpeg"));
             comparer.Add(File.OpenRead("target2.jpeg"));
             comparer.Add(File.OpenRead("target3.jpeg"));
-            comparer.Compare(File.Create("result.jpeg"));
+            comparer.Compare(File.Create("result.jpeg")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

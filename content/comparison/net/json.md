@@ -89,7 +89,7 @@ steps:
         	comparer.Add("target1.json");
             comparer.Add("target2.json");
             comparer.Add("target3.json");
-            comparer.Compare("result.json");
+            comparer.Compare("result.json"); // Create result file with the specified name
         }
         
         // Compare multiple documents from stream
@@ -99,7 +99,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.json"));
             comparer.Add(File.OpenRead("target2.json"));
             comparer.Add(File.OpenRead("target3.json"));
-            comparer.Compare(File.Create("result.json"));
+            comparer.Compare(File.Create("result.json")); // Create result file with the specified name
         }
         ```
         

@@ -72,7 +72,7 @@ steps:
         	comparer.Add("target1.php");
             comparer.Add("target2.php");
             comparer.Add("target3.php");
-            comparer.Compare("result.php");
+            comparer.Compare("result.php"); // Создать результирующий файл с указанным именем
         }
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.php"))
@@ -80,7 +80,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.php"));
             comparer.Add(File.OpenRead("target2.php"));
             comparer.Add(File.OpenRead("target3.php"));
-            comparer.Compare(File.Create("result.php"));
+            comparer.Compare(File.Create("result.php")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

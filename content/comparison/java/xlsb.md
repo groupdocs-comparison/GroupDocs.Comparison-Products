@@ -86,14 +86,14 @@ steps:
         
         try (Comparer comparer = new Comparer("C:\\source.xlsb")) {
             comparer.add("C:\\target.xlsb");
-            comparer.compare("C:\\result.xlsb");
+            comparer.compare("C:\\result.xlsb"); // Create result file with the specified name
         }
         
         // Compare documents from stream
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.xlsb"))) {
             comparer.add(new FileInputStream("C:\\target.xlsb"));
-            comparer.compare(new FileOutputStream("C:\\result.xlsb"));
+            comparer.compare(new FileOutputStream("C:\\result.xlsb")); // Create result file with the specified name
         }
         ```
         

@@ -79,7 +79,7 @@ steps:
         	comparer.Add("target1.dotm");
             comparer.Add("target2.dotm");
             comparer.Add("target3.dotm");
-            comparer.Compare("result.dotm");
+            comparer.Compare("result.dotm"); // 指定された名前の結果ファイルを作成する
         }
         
         //ストリームからの複数のドキュメントを比較します
@@ -89,7 +89,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.dotm"));
             comparer.Add(File.OpenRead("target2.dotm"));
             comparer.Add(File.OpenRead("target3.dotm"));
-            comparer.Compare(File.Create("result.dotm"));
+            comparer.Compare(File.Create("result.dotm")); // 指定された名前の結果ファイルを作成する
         }
         ```
         

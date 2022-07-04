@@ -72,7 +72,7 @@ steps:
         	comparer.Add("target1.ods");
             comparer.Add("target2.ods");
             comparer.Add("target3.ods");
-            comparer.Compare("result.ods");
+            comparer.Compare("result.ods"); // Создать результирующий файл с указанным именем
         }
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.ods"))
@@ -80,7 +80,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.ods"));
             comparer.Add(File.OpenRead("target2.ods"));
             comparer.Add(File.OpenRead("target3.ods"));
-            comparer.Compare(File.Create("result.ods"));
+            comparer.Compare(File.Create("result.ods")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

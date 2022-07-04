@@ -69,12 +69,12 @@ steps:
         // Сравните документы из локального файла
         try (Comparer comparer = new Comparer("C:\\source.csv")) {
             comparer.add("C:\\target.csv");
-            comparer.compare("C:\\result.csv");
+            comparer.compare("C:\\result.csv"); // Создать результирующий файл с указанным именем
         }
         // Сравните документы из потока
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.csv"))) {
             comparer.add(new FileInputStream("C:\\target.csv"));
-            comparer.compare(new FileOutputStream("C:\\result.csv"));
+            comparer.compare(new FileOutputStream("C:\\result.csv")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

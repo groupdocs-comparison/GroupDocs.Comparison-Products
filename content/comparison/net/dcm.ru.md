@@ -72,7 +72,7 @@ steps:
         	comparer.Add("target1.dcm");
             comparer.Add("target2.dcm");
             comparer.Add("target3.dcm");
-            comparer.Compare("result.dcm");
+            comparer.Compare("result.dcm"); // Создать результирующий файл с указанным именем
         }
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.dcm"))
@@ -80,7 +80,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.dcm"));
             comparer.Add(File.OpenRead("target2.dcm"));
             comparer.Add(File.OpenRead("target3.dcm"));
-            comparer.Compare(File.Create("result.dcm"));
+            comparer.Compare(File.Create("result.dcm")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

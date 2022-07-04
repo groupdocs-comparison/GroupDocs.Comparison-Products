@@ -72,7 +72,7 @@ steps:
         	comparer.Add("target1.java");
             comparer.Add("target2.java");
             comparer.Add("target3.java");
-            comparer.Compare("result.java");
+            comparer.Compare("result.java"); // Создать результирующий файл с указанным именем
         }
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.java"))
@@ -80,7 +80,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.java"));
             comparer.Add(File.OpenRead("target2.java"));
             comparer.Add(File.OpenRead("target3.java"));
-            comparer.Compare(File.Create("result.java"));
+            comparer.Compare(File.Create("result.java")); // Создать результирующий файл с указанным именем
         }
         ```
 ############################# Demos ############################

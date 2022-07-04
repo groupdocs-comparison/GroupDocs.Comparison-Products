@@ -76,14 +76,14 @@ steps:
         
         try (Comparer comparer = new Comparer("C:\\source.xltm")) {
             comparer.add("C:\\target.xltm");
-            comparer.compare("C:\\result.xltm");
+            comparer.compare("C:\\result.xltm"); // 指定された名前の結果ファイルを作成する
         }
         
         //ストリームからのドキュメントを比較します
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.xltm"))) {
             comparer.add(new FileInputStream("C:\\target.xltm"));
-            comparer.compare(new FileOutputStream("C:\\result.xltm"));
+            comparer.compare(new FileOutputStream("C:\\result.xltm")); // 指定された名前の結果ファイルを作成する
         }
         ```
         

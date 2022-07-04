@@ -86,14 +86,14 @@ steps:
         
         try (Comparer comparer = new Comparer("C:\\source.vst")) {
             comparer.add("C:\\target.vst");
-            comparer.compare("C:\\result.vst");
+            comparer.compare("C:\\result.vst"); // Create result file with the specified name
         }
         
         // Compare documents from stream
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.vst"))) {
             comparer.add(new FileInputStream("C:\\target.vst"));
-            comparer.compare(new FileOutputStream("C:\\result.vst"));
+            comparer.compare(new FileOutputStream("C:\\result.vst")); // Create result file with the specified name
         }
         ```
         
