@@ -1,6 +1,6 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
+layout: "auto-gen-comparison"
 date: 2021-05-13T12:45:17+03:00
 draft: false
 
