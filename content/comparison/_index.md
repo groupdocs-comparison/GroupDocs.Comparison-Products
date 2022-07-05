@@ -9,8 +9,8 @@ head_title: ".NET & Java Document Comparison Library | Compare Docs for Text & S
 head_description: "Document Comparison Library native to C# ASP.NET & Java. Compare style & content for difference to identify changes among compared files of supported formats."
 
 ############################# Header ############################
-title: "Document Comparison APIs for Popular Formats"
-description: "Develop native .NET & Java apps with highly configurable comparison features. Compare content & text style between similar document formats."
+title: "Document Comparison APIs for Comparing Popular File Formats"
+description: "Develop native .NET & Java apps with highly configurable comparison features. Compare files, their content & text style between similar document formats."
 
 ############################# APIs ###############################
 apis:

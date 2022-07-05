@@ -9,8 +9,8 @@ head_title: ".NET & Java Document Comparison Library | Compare two Docs for Text
 head_description: "Document Comparison APIs native to C# .NET & Java. Compare style & content of simple & protected files for MS Office, OpenOffice, PDF, AutoCAD & more."
 
 ############################# Header ############################
-title: "Documents Comparison APIs for Popular Formats"
-description: "Develop native .NET & Java apps with highly configurable comparison features. Compare content & text style between similar document formats."
+title: "Document Comparison APIs for Comparing Popular File Formats"
+description: "Develop native .NET & Java apps with highly configurable comparison features. Compare files, their content & text style between similar document formats."
 
 ############################# APIs ###############################
 apis:

@@ -14,8 +14,8 @@ head_title: "Java Document Comparison API | Compare Text & Style of PDF Word Exc
 head_description: "Java Document Comparison API to compare & merge Word Excel PPTX OpenOffice, Web, PDF, AutoCAD & other file formats. Compare documents with track changes."
 
 ############################# Header ############################
-title: "Java API to Compare & Merge Documents"
-description: "Build Java applications to efficiently compare the content and text style for difference checking in all industry standard document and image file formats."
+title: "Java API to Compare Files & Get Changes"
+description: "Create Java applications to effectively compare files content for differences in all standard document and image file formats."
 button:
     enable: true
     icon: "fas fa-arrow-down"
