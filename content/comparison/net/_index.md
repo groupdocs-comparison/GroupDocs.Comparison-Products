@@ -174,103 +174,103 @@ features:
     feature:
       # feature loop
       - icon: "fas fa-copy"
-        content: "Identify Differences in Content and Font Styles"
+        content: "[Identify Differences in Content and Font Styles](https://docs.groupdocs.com/comparison/net/compare-documents/)"
 
       # feature loop
       - icon: "fas fa-eye"
-        content: "Save a Summarized Report of All Differences Found after File Comparison"
+        content: "[Save a Summarized Report of All Differences Found after File Comparison](https://docs.groupdocs.com/comparison/net/get-extended-information-on-the-summary-page/)"
 
       # feature loop
       - icon: "fas fa-bolt"
-        content: "Apply or Reject Changes after Analyzing Differences and Export Resulting File"
+        content: "[Apply or Reject Changes after Analyzing Differences and Export Resulting File](https://docs.groupdocs.com/comparison/net/accept-or-reject-detected-changes/)"
       
       # feature loop
       - icon: "fas fa-file-powerpoint"
-        content: "Support for Microsoft Word “Track Changes” Functionality while Comparing Word Files"
+        content: "[Support for Microsoft Word “Track Changes” Functionality while Comparing Word Files](https://docs.groupdocs.com/comparison/net/show-revisions/)"
 
       # feature loop
       - icon: "fas fa-code"
-        content: "Uniquely Spot Changes Coming from Each Document being Compared"
+        content: "[Uniquely Spot Changes Coming from Each Document being Compared](https://docs.groupdocs.com/comparison/net/get-list-of-changes/)"
 
       # feature loop
       - icon: "fas fa-cloud"
-        content: "Read and Send Documents via Streams"
+        content: "[Read and Send Documents via Streams](https://docs.groupdocs.com/comparison/net/load-file-from-stream/)"
 
       # feature loop
       - icon: "fas fa-remove-format"
-        content: "Metered Licensing – Billing According to API Usage"
+        content: "[Metered Licensing – Billing According to API Usage](https://docs.groupdocs.com/comparison/net/licensing-and-evaluation-limitations/)"
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "Compare Multiple Source Documents with a Single Target Document"
+        content: "[Compare Multiple Source Documents with a Single Target Document](https://docs.groupdocs.com/comparison/net/compare-multiple-documents/)"
 
       # feature loop
       - icon: "fas fa-location-arrow"
-        content: "Compare Specific Pages of Word Files with each other – Accept or reject all changes in a single Word Document"
+        content: "[Compare Specific Pages of Word Files with each other – Accept or reject all changes in a single Word Document](https://docs.groupdocs.com/comparison/net/accept-or-reject-detected-changes/)"
 
       # feature loop
       - icon: "fas fa-border-all"
-        content: "Merge up to 3 Word Documents and Compare Formulae used in Word Files"
+        content: "[Merge up to 3 Word Documents and Compare Formulae used in Word Files](https://docs.groupdocs.com/comparison/net/how-to-merge-source-code-files/)"
 
       # feature loop
       - icon: "fas fa-wrench"
-        content: "Get Information about Documents from filePath"
+        content: "[Get Information about Documents from filePath](https://docs.groupdocs.com/comparison/net/get-file-info/)"
 
       # feature loop
       - icon: "fas fa-columns"
-        content: "Save HTML Comparison Result as Images"
+        content: "[Save HTML Comparison Result as Images](https://docs.groupdocs.com/comparison/net/generate-document-pages-preview/)"
 
       # feature loop
       - icon: "fas fa-file-word"
-        content: "Option to Show or Hide Deleted Content"
+        content: "[Option to Show or Hide Deleted Content](https://docs.groupdocs.com/comparison/net/show-gap-lines/)"
 
       # feature loop
       - icon: "fas fa-envelope"
-        content: "Option to Turn Style Comparison of Documents ON or OFF"
+        content: "[Option to Turn Style Comparison of Documents ON or OFF](https://docs.groupdocs.com/comparison/net/how-to-select-options-for-flexible-comparing/)"
 
       # feature loop
       - icon: "fas fa-print"
-        content: "Specify Strings to Mark Inserted, Deleted & Style Change Items in Comparison Document"
+        content: "[Specify Strings to Mark Inserted, Deleted & Style Change Items in Comparison Document](https://docs.groupdocs.com/comparison/net/customize-changes-styles/)"
 
       # feature loop
       - icon: "fas fa-file-archive"
-        content: "Specify Word Separator & Font Color to Stylize Compared Text"
+        content: "[Specify Word Separator & Font Color to Stylize Compared Text](https://docs.groupdocs.com/comparison/net/customize-changes-styles/)"
 
       # feature loop
       - icon: "fas fa-lock"
-        content: "Calculate Correct Coordinates of Changes in PDF, Word, PowerPoint Slides & Diagrams"
+        content: "[Calculate Correct Coordinates of Changes in PDF, Word, PowerPoint Slides & Diagrams](https://docs.groupdocs.com/comparison/net/get-changes-coordinates/)"
 
       # feature loop
       - icon: "fas fa-file-code"
-        content: "Compare Password Protected Files"
+        content: "[Compare Password Protected Files](https://docs.groupdocs.com/comparison/net/how-to-compare-password-protected-files/)"
       
       # feature loop
       - icon: "fas fa-fill-drip"
-        content: "Compare Chart Titles in Spreadsheets – Generate Chart in the resulted Cells Files"
+        content: "[Compare Chart Titles in Spreadsheets – Generate Chart in the resulted Cells Files](https://docs.groupdocs.com/comparison/net/how-to-compare-spreadsheet-or-tables/)"
 
       # feature loop
       - icon: "fas fa-file-excel"
-        content: "Autosize the auto-shapes in resulted file of Cells document"
+        content: "[Autosize the auto-shapes in resulted file of Cells document](https://docs.groupdocs.com/comparison/net/how-to-compare-spreadsheet-or-tables/)"
 
       # feature loop
       - icon: "fas fa-heading"
-        content: "Access Detailed Summary Page to Detect Changes Between Source & Target Document Files"
+        content: "[Access Detailed Summary Page to Detect Changes Between Source & Target Document Files](https://docs.groupdocs.com/comparison/net/get-extended-information-on-the-summary-page/)"
 
       # feature loop
       - icon: "fas fa-project-diagram"
-        content: "Compare Most Popular Programming & Scripting Language Files"
+        content: "[Compare Most Popular Programming & Scripting Language Files](https://docs.groupdocs.com/comparison/net/get-supported-document-formats/)"
 
       # feature loop
       - icon: "fas fa-cube"
-        content: "Compare Multiple (more than two) PDF, Word, Excel, Diagram, Email, Text & OneNote Documents"
+        content: "[Compare Multiple (more than two) PDF, Word, Excel, Diagram, Email, Text & OneNote Documents](https://docs.groupdocs.com/comparison/net/compare-multiple-documents-with-specific-compare-settings/)"
 
       # feature loop
       - icon: "fab fa-uncharted"
-        content: "Compare Header & Footer of Supported File Formats"
+        content: "[Compare Header & Footer of Supported File Formats](https://docs.groupdocs.com/comparison/net/how-to-select-options-for-flexible-comparing/)"
 
       # feature loop
       - icon: "fab fa-uncharted"
-        content: "Compare Bookmarks, Variables & Custom Properties of Word Document Formats"
+        content: "[Compare Bookmarks, Variables & Custom Properties of Word Document Formats](https://docs.groupdocs.com/comparison/net/compare-bookmarks-in-word/)"
 
     more_feature:
       # more_feature_loop
