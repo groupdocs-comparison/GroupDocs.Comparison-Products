@@ -172,75 +172,75 @@ features:
     feature:
       # feature loop
       - icon: "fas fa-copy"
-        content: "Compare and Identify Changes in both Content & Text Style"
+        content: "[Compare and Identify Changes in both Content & Text Style](https://docs.groupdocs.com/comparison/java/compare-documents/)"
 
       # feature loop
       - icon: "fas fa-eye"
-        content: "Save Summarized Comparison List about Compared Documents"
+        content: "[Save Summarized Comparison List about Compared Documents](https://docs.groupdocs.com/comparison/java/get-extended-information-on-the-summary-page/)"
 
       # feature loop
       - icon: "fas fa-bolt"
-        content: "Compare Specific Pages of Word Documents"
+        content: "[Compare Specific Pages of Word Documents](https://docs.groupdocs.com/comparison/java/accept-or-reject-detected-changes/)"
       
       # feature loop
       - icon: "fas fa-file-powerpoint"
-        content: "Merge up to 3 Microsoft Word Files to Compare with Support for “Track Changes”"
+        content: "[Merge up to 3 Microsoft Word Files to Compare with Support for “Track Changes”](https://docs.groupdocs.com/comparison/java/compare-multiple-documents-with-specific-compare-settings/)"
 
       # feature loop
       - icon: "fas fa-code"
-        content: "Easily Spot which Changes are coming from which Document during Comparison"
+        content: "[Easily Spot which Changes are coming from which Document during Comparison](https://docs.groupdocs.com/comparison/java/get-list-of-changes/)"
 
       # feature loop
       - icon: "fas fa-cloud"
-        content: "Support to Read Source Documents and Send Resultant Document via Streams"
+        content: "[Support to Read Source Documents and Send Resultant Document via Streams](https://docs.groupdocs.com/comparison/java/load-file-from-stream/)"
 
       # feature loop
       - icon: "fas fa-remove-format"
-        content: "Detect Type of File Format while Fetching from Stream"
+        content: "[Detect Type of File Format while Fetching from Stream](https://docs.groupdocs.com/comparison/java/get-file-info/)"
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "Compare Documents Protected by Password"
+        content: "[Compare Documents Protected by Password](https://docs.groupdocs.com/comparison/java/load-password-protected-documents/)"
 
       # feature loop
       - icon: "fas fa-location-arrow"
-        content: "Save Comparison Result as Image"
+        content: "[Save Comparison Result as Image](https://docs.groupdocs.com/comparison/java/generate-document-pages-preview/)"
 
       # feature loop
       - icon: "fas fa-border-all"
-        content: "Compare Different File Formats as Image"
+        content: "[Compare Different File Formats as Image](https://docs.groupdocs.com/comparison/java/generate-document-pages-preview/)"
 
       # feature loop
       - icon: "fas fa-wrench"
-        content: "Compare Watermarks in PDF Documents"
+        content: "[Compare Watermarks in PDF Documents](https://docs.groupdocs.com/comparison/java/how-to-spot-photos-differences-in-java-or-kotlin/)"
 
       # feature loop
       - icon: "fas fa-columns"
-        content: "Compare Documents from File or Stream and Send Result Document via Stream or File"
+        content: "[Compare Documents from File or Stream and Send Result Document via Stream or File](https://docs.groupdocs.com/comparison/java/load-file-from-stream/)"
 
       # feature loop
       - icon: "fas fa-file-word"
-        content: "Accept or Discard Changes after Comparison of Word, PDF or Excel Files"
+        content: "[Accept or Discard Changes after Comparison of Word, PDF or Excel Files](https://docs.groupdocs.com/comparison/java/accept-or-reject-detected-changes/)"
 
       # feature loop
       - icon: "fas fa-envelope"
-        content: "Compare Encrypted Documents via File or Stream"
+        content: "[Compare Encrypted Documents via File or Stream](https://docs.groupdocs.com/comparison/java/load-file-from-stream/)"
 
       # feature loop
       - icon: "fas fa-print"
-        content: "Metered Licensing Option for Comparison Operations"
+        content: "[Metered Licensing Option for Comparison Operations](https://docs.groupdocs.com/comparison/java/evaluation-limitations-and-licensing-of-groupdocs-comparison/)"
 
       # feature loop
       - icon: "fas fa-file-archive"
-        content: "Highlight Text for Marked Changes when Comparing PDF, Word, Excel, PowerPoint & Note Documents"
+        content: "[Highlight Text for Marked Changes when Comparing PDF, Word, Excel, PowerPoint & Note Documents](https://docs.groupdocs.com/comparison/java/customize-changes-styles/)"
 
       # feature loop
       - icon: "fas fa-lock"
-        content: "Calculate Correct Coordinates of Changes in PDF, PowerPoint Slides & Diagrams"
+        content: "[Calculate Correct Coordinates of Changes in PDF, PowerPoint Slides & Diagrams](https://docs.groupdocs.com/comparison/java/get-changes-coordinates/)"
 
       # feature loop
       - icon: "fas fa-file-code"
-        content: "Compare Multiple (more than two) PDF, Excel, OneNote, Diagram, Email, & Text Documents"
+        content: "[Compare Multiple (more than two) PDF, Excel, OneNote, Diagram, Email, & Text Documents](https://docs.groupdocs.com/comparison/java/compare-multiple-documents/)"
       
       # feature loop
       - icon: "fas fa-fill-drip"
@@ -248,7 +248,7 @@ features:
 
       # feature loop
       - icon: "fas fa-file-excel"
-        content: "Compare Documents & Save Document Pages of Different Formats as Images"
+        content: "[Compare Documents & Save Document Pages of Different Formats as Images](https://docs.groupdocs.com/comparison/java/generate-document-pages-preview/)"
 
     more_feature:
       # more_feature_loop
