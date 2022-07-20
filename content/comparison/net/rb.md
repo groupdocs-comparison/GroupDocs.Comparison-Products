@@ -370,6 +370,18 @@ more_formats:
           link: "https://products.groupdocs.com/comparison/net/py/"
           description: "Python Language"
 
+############################# Solutions ############################
+solutions:
+    enable: true
+    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+
+    solution:
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for Java RB"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
+          product: "GroupDocs.Comparison"
+          platform: "Java"
+          link: "/comparison/java/rb/"
 
 ############################# Back to top ###############################
 back_to_top:
