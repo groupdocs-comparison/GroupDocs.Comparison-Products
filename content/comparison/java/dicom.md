@@ -369,6 +369,18 @@ more_formats:
           link: "https://products.groupdocs.com/comparison/java/rb/"
           description: "Ruby Language"
 
+############################# Solutions ############################
+solutions:
+    enable: true
+    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+
+    solution:
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for .NET DICOM"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-net.png"
+          product: "GroupDocs.Comparison"
+          platform: ".NET"
+          link: "/comparison/net/dicom/"
 
 ############################# Back to top ###############################
 back_to_top:

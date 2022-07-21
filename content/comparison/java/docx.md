@@ -365,6 +365,19 @@ more_formats:
           description: "Ruby Language"
 
 
+############################# Solutions ############################
+solutions:
+    enable: true
+    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+
+    solution:
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for .NET DOCX"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-net.png"
+          product: "GroupDocs.Comparison"
+          platform: ".NET"
+          link: "/comparison/net/docx/"
+
 ############################# Back to top ###############################
 back_to_top:
     enable: true
