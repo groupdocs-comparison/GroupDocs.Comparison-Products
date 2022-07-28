@@ -244,7 +244,7 @@ features:
       
       # feature loop
       - icon: "fas fa-fill-drip"
-        content: "Compare Header & Footer of Supported File Formats"
+        content: "[Compare Header & Footer of Supported File Formats](https://docs.groupdocs.com/comparison/net/how-to-select-options-for-flexible-comparing/)"
 
       # feature loop
       - icon: "fas fa-file-excel"
@@ -270,7 +270,7 @@ features:
       - title: "Compare Text Style"
         content: "Along with document content, GroupDocs.Comparison for Java API allows to compare text style as well.
 
-        Font name, size, color, style (bold, italic, underline, small caps, and hyperlinks) and if applicable, under color can also be compared to check difference among compared documents, while words and characters are being compared.  
+        Font name, size, color, style (bold, italic, underline, small caps, and hyperlinks) and if applicable, under color can also be compared to check difference among compared documents, while words and characters are being compared.
 
         For paragraph comparison, alignment, indentation (left indent, right indent), spacing (space after, space before), first line indent and line spacing can also be compared.  
 
