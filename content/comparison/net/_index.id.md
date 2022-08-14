@@ -11,7 +11,7 @@ platform_tag: "net"
 head_title: "C# .NET Document Comparison API | Bandingkan & Gabungkan PDF Word Excel Web & Teks"
 head_description: "C# .NET Document Comparison API. Bandingkan & gabungkan PDF Word DOC DOCX, Excel Spreadsheet, PPT, PPTX, HTML, EMLX MSG, VSDX, DXF DWG & format file gambar."
 
-title: "..NET API untuk Membandingkan & Menggabungkan Dokumen"
+title: ".NET API untuk Membandingkan & Menggabungkan Dokumen"
 description: "Kembangkan Aplikasi .NET menggunakan API Perbandingan Dokumen untuk Membandingkan & Memeriksa Perbedaan Konten & Gaya Di Antara Dokumen Format Yang Sama."
 button:
     enable: true
