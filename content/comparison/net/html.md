@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:21+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Compare two HTML files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (HTML files in C# .NET applications. Retrieve differences summary in content, text &amp; style of HTML files, images and document formats."
+head_description: "Compare and merge more than two (HTML files in C# .NET applications. Retrieve differences summary in content, text & style of HTML files, images and document formats."
 
 ############################# Header ############################
 title: "Compare HTML Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing HTML Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple HTML files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.html")
         {
-        	comparer.Add("target1.html");
+        	  comparer.Add("target1.html");
             comparer.Add("target2.html");
             comparer.Add("target3.html");
             comparer.Compare("result.html"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.html"))
         {
-        	comparer.Add(File.OpenRead("target1.html"));
+        	  comparer.Add(File.OpenRead("target1.html"));
             comparer.Add(File.OpenRead("target2.html"));
             comparer.Add(File.OpenRead("target3.html"));
             comparer.Compare(File.Create("result.html")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between HTML files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,8 +120,7 @@ about_formats:
           title: "About HTML File Format"
           content: |
             HTML (Hyper Text Markup Language) is the extension for web pages created for display in browsers. Known as language of the web, HTML has evolved with requirements of new information requirements to be displayed as part of web pages. The latest variant is known as HTML 5 that gives a lot of flexibility for working with the language. HTML pages are either received from server, where these are hosted, or can be loaded from local system as well. Each HTML page is made up of HTML elements such as forms, text, images, animations, links, etc. These elements are represented by tags such as img, a, p and several others where each tag has start and end. It can also embed applications written in scripting languages such as JavaScript and Style Sheets (CSS) for overall layout representation.
-
-          link: "https://docs.fileformat.com/web/html/"
+          link: "https://docs.fileformat.com/image/html/"
 
 ############################# More Formats ############################
 more_formats:
@@ -284,6 +283,11 @@ more_formats:
         - name: "Compare BMP Files"
           link: "https://products.groupdocs.com/comparison/net/bmp/"
           description: "Bitmap File Format"
+
+        # format loop
+        - name: "Compare HTML Files"
+          link: "https://products.groupdocs.com/comparison/net/html/"
+          description: "Hyper Text Markup Language"
 
         # format loop
         - name: "Compare MHT Files"

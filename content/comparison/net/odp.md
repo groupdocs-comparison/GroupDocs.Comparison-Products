@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:23+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Compare two ODP files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (ODP files in C# .NET applications. Retrieve differences summary in content, text &amp; style of ODP files, images and document formats."
+head_description: "Compare and merge more than two (ODP files in C# .NET applications. Retrieve differences summary in content, text & style of ODP files, images and document formats."
 
 ############################# Header ############################
 title: "Compare ODP Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing ODP Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple ODP files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.odp")
         {
-        	comparer.Add("target1.odp");
+        	  comparer.Add("target1.odp");
             comparer.Add("target2.odp");
             comparer.Add("target3.odp");
             comparer.Compare("result.odp"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.odp"))
         {
-        	comparer.Add(File.OpenRead("target1.odp"));
+        	  comparer.Add(File.OpenRead("target1.odp"));
             comparer.Add(File.OpenRead("target2.odp"));
             comparer.Add(File.OpenRead("target3.odp"));
             comparer.Compare(File.Create("result.odp")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between ODP files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,8 +120,7 @@ about_formats:
           title: "About ODP File Format"
           content: |
             Files with ODP extension represent presentation file format used by OpenOffice.org in the OASISOpen standard. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings. ODP files can be opened by applications that conform to the OpenDocument format (such as OpenOffice or StarOffice).
-
-          link: "https://docs.fileformat.com/presentation/odp/"
+          link: "https://docs.fileformat.com/image/odp/"
 
 ############################# More Formats ############################
 more_formats:
@@ -239,6 +238,11 @@ more_formats:
         - name: "Compare ODS Files"
           link: "https://products.groupdocs.com/comparison/net/ods/"
           description: "Open Document Spreadsheet"
+
+        # format loop
+        - name: "Compare ODP Files"
+          link: "https://products.groupdocs.com/comparison/net/odp/"
+          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "Compare OTP Files"

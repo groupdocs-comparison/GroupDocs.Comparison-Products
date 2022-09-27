@@ -1,12 +1,16 @@
+
 ---
+############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:21+03:00
+date: 2021-05-13T12:45:11+03:00
 draft: false
 
+############################# Head ############################
 head_title: ".NETの2つのJAVAファイルを比較する|ドキュメント比較API"
 head_description: "3つ以上を比較してマージします（C＃.NETアプリケーションのJAVAファイル。JAVAファイル、画像、ドキュメント形式のコンテンツ、テキスト、スタイルの違いの概要を取得します."
 
-title: "C＃.NETでJAVAファイルを比較する"
+############################# Header ############################
+title: "C＃.NETのJAVAファイルを比較する"
 description: ".2つのバージョンのJAVAファイル間の変更を検出し、比較されたドキュメント間の違いの詳細な要約を含む最終的なドキュメントにエクスポートするためのNETドキュメント比較API."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -16,6 +20,7 @@ button:
     label: "無料トライアルをダウンロード"
     link: "https://downloads.groupdocs.com/comparison/net"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -26,17 +31,20 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
+            # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "APIリファレンス"
 
+            # button loop
             - link: "https://github.com/groupdocs-comparison"
               text: "コード例"
 
+            # button loop
             - link: "https://products.groupdocs.app/comparison/family"
               text: "ライブデモ"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/net"
               text: "価格設定"
 
@@ -45,31 +53,35 @@ submenu:
         link_learn: "https://docs.groupdocs.com/comparison/net"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
     title: "GroupDocs.Comparison for .NET APIについて"
     content: |
         [GroupDocs.Comparison for .NET](/Comparison/net/)は、同じ形式の複数の画像とドキュメントを比較するためのネイティブ.NETAPIです。段落、単語、文字、図形、さらには比較されたドキュメントのテキストスタイル内の違いを検出し、変更をマージして最終的なドキュメントにエクスポートするのに役立ちます。外部ライブラリを使用せずに、PDF、Word文書、Excelスプレッドシート、PowerPointプレゼンテーション、Visioダイアグラム、Outlook電子メール、HTML、図面、および画像ファイル形式の比較とマージをサポートします。
 
+############################# Steps ############################
 steps:
     enable: true
     title_left: "C＃でJAVAファイルを比較する手順"
     content_left: |
         [GroupDocs.Comparison](/Comparison/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実装することで、アプリケーション内の複数のJAVAファイルを簡単に比較およびマージできます。
-
+    
+        
         * ソースドキュメントパスまたはストリームを使用して**Comparer**オブジェクトをインスタンス化します。
         * Addメソッドを呼び出し、ターゲットドキュメントのパスまたはストリームを指定します。ターゲットドキュメントごとにこの手順を繰り返します。
         * compareメソッドを呼び出します。
-        
+    
     title_right: "システム要求"
     content_right: |
         GroupDocs.Comparison for .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
-
+    
+        
         *オペレーティングシステム：Microsoft Windows、Linux、MacOS
         *開発環境：Microsoft Visual Studio、Xamarin、MonoDevelop
         *フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
         * [NuGet](https://www.nuget.org/packages/groupdocs.comparison)からダウンロードしたGroupDocs.Comparisonfor.NETの最新バージョンを入手します。
-        
+    
     code: |
         ```cs
         //ローカルディスクの複数のドキュメントを比較します
@@ -92,31 +104,34 @@ steps:
             comparer.Compare(File.Create("result.java")); // 指定された名前の結果ファイルを作成する
         }
         ```
-        
+
+############################# Demos ############################
 demos:
     enable: true
     title: "JAVAファイルの比較のライブデモ"
     content: |
         [GroupDocs.Comparisonライブデモ](https://products.groupdocs.app/comparison/family)サイトにアクセスして、JAVAファイル間の違いを今すぐ検出してください。  
         ライブデモには次の利点があります
-        
+
+############################# About Formats ############################
 about_formats:
     enable: true
     format:
+        # format loop
         - icon: "far fa-file-java"
           title: "JAVAファイル形式について"
           content: |
             Javaは、複数のプラットフォームで実行できる汎用のオブジェクト指向言語です。 Javaソースコードは、拡張子が.javaのファイルに含まれています。 Javaは、モバイルアプリケーション、Webアプリケーション、デスクトップアプリケーション、ゲームなどの開発に使用されます。Javaは、Windows、Mac、Linux、Raspberry Piなどの複数のプラットフォームで動作します。JavaはC＃およびC ++に非常に似ているため、簡単に実行できます。これらの言語を切り替えます。
+          link: "https://docs.fileformat.com/image/java/"
 
-          link: "https://docs.fileformat.com/programming/java/"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
+    enable: true
     title: "他のファイル形式の比較"
     content: |
         .NET用のマルチフォーマットドキュメントと画像比較API。外部ツールを使用せずに、同じ形式のドキュメント間の違いを分析します。
     format: 
-          link: "https://products.groupdocs.com/comparison/net/pdf/"
+        link: "https://products.groupdocs.com/comparison/net/pdf/"
           description: "AdobePortableドキュメント形式"
 
           link: "https://products.groupdocs.com/comparison/net/doc/"
@@ -248,6 +263,9 @@ more_formats:
           link: "https://products.groupdocs.com/comparison/net/cs/"
           description: "CSharp言語"
 
+          link: "https://products.groupdocs.com/comparison/net/java/"
+          description: "Java言語"
+
           link: "https://products.groupdocs.com/comparison/net/cpp/"
           description: "C++言語"
 
@@ -260,7 +278,20 @@ more_formats:
           link: "https://products.groupdocs.com/comparison/net/rb/"
           description: "Ruby言語"
 
+############################# Solutions ############################
+solutions:
+    enable: true
+    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
 
+    solution:
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for Java JAVA"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
+          product: "GroupDocs.Comparison"
+          platform: "Java"
+          link: "/comparison/java/java/"
+
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

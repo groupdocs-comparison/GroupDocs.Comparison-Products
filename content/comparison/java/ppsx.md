@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:16+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Java PPSX Comparison API - Compare PPSX Files for Differences"
-head_description: "Compare and merge PPSX files in Java, J2EE, J2SE applications. Analyse differences summary in content, text &amp; style of PPSX files, images and document formats."
+head_description: "Compare and merge PPSX files in Java, J2EE, J2SE applications. Analyse differences summary in content, text & style of PPSX files, images and document formats."
 
 ############################# Header ############################
 title: "Compare PPSX Files in Java"
@@ -30,8 +31,7 @@ submenu:
         platform: "Java"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/java"
               text: "API Reference"
@@ -66,20 +66,20 @@ steps:
     title_left: "Steps for Comparing PPSX Files in Java"
     content_left: |
         [GroupDocs.Comparison](/comparison/java/) makes it easy for Java developers to compare PPSX files within their applications using a few lines of code.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call add method and specify target document path or stream.
         *   Call compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc
         *   Java Runtime Environment: J2SE 6.0 and above
         *   Get the latest version of GroupDocs.Comparison for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
-        
+    
     code: |
         ```java
         // Compare documents from local file
@@ -96,7 +96,7 @@ steps:
             comparer.compare(new FileOutputStream("C:\\result.ppsx")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -104,7 +104,7 @@ demos:
     content: |
         Compare PPSX files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -114,8 +114,7 @@ about_formats:
           title: "About PPSX File Format"
           content: |
             PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. It is an update to the PPS file format that was supported by Microsoft PowerPoint 97-2003 versions. When a PPSX file is shared with another user and opened, it starts as PowerPoint show unlike PPTX file that opens in editable mode. The sequence of slide show is the same as in the original presentation. All the slides accompany the images, sounds and other embedded media accompany the presentation slides to the PPSX during the slideshow.
-
-          link: "https://docs.fileformat.com/presentation/ppsx/"
+          link: "https://docs.fileformat.com/image/ppsx/"
 
 ############################# More Formats ############################
 more_formats:
@@ -213,6 +212,11 @@ more_formats:
         - name: "Compare PPTX Files"
           link: "https://products.groupdocs.com/comparison/java/pptx/"
           description: "PowerPoint Open XML Presentation"
+
+        # format loop
+        - name: "Compare PPSX Files"
+          link: "https://products.groupdocs.com/comparison/java/ppsx/"
+          description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "Compare POT Files"

@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:24+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Compare two PY files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (PY files in C# .NET applications. Retrieve differences summary in content, text &amp; style of PY files, images and document formats."
+head_description: "Compare and merge more than two (PY files in C# .NET applications. Retrieve differences summary in content, text & style of PY files, images and document formats."
 
 ############################# Header ############################
 title: "Compare PY Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing PY Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple PY files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.py")
         {
-        	comparer.Add("target1.py");
+        	  comparer.Add("target1.py");
             comparer.Add("target2.py");
             comparer.Add("target3.py");
             comparer.Compare("result.py"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.py"))
         {
-        	comparer.Add(File.OpenRead("target1.py"));
+        	  comparer.Add(File.OpenRead("target1.py"));
             comparer.Add(File.OpenRead("target2.py"));
             comparer.Add(File.OpenRead("target3.py"));
             comparer.Compare(File.Create("result.py")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between PY files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,8 +120,7 @@ about_formats:
           title: "About PY File Format"
           content: |
             Files with the .py extension contain the python source code. It is a very popular language that can be used for web development, software development, mathematics, and system scripting. Python is a cross-platform language that can work on different platforms like Windows, MAC, Linux, Raspberry Pi, etc. Python provides a simple syntax that is similar to the English language and is easier to read. Pythons syntax allows programs to be written with fewer lines of code. Python runs on an interpreter system so the code can be executed as soon as it is written which makes it very good for prototyping.
-
-          link: "https://docs.fileformat.com/programming/py/"
+          link: "https://docs.fileformat.com/image/py/"
 
 ############################# More Formats ############################
 more_formats:
@@ -364,6 +363,11 @@ more_formats:
         - name: "Compare JS Files"
           link: "https://products.groupdocs.com/comparison/net/js/"
           description: "JavaScript Language"
+
+        # format loop
+        - name: "Compare PY Files"
+          link: "https://products.groupdocs.com/comparison/net/py/"
+          description: "Python Language"
 
         # format loop
         - name: "Compare RB Files"

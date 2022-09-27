@@ -1,13 +1,17 @@
+
 ---
+############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:23+03:00
+date: 2021-05-13T12:45:11+03:00
 draft: false
 
+############################# Head ############################
 head_title: ".NETの2つのONEファイルを比較する|ドキュメント比較API"
-head_description: "3つ以上を比較してマージします（C＃.NETアプリケーションの1つのファイル。1つのファイル、画像、ドキュメント形式のコンテンツ、テキスト、スタイルの違いの概要を取得します."
+head_description: "3つ以上を比較してマージします（C＃.NETアプリケーションのONEファイル。ONEファイル、画像、ドキュメント形式のコンテンツ、テキスト、スタイルの違いの概要を取得します."
 
-title: "C＃.NETで1つのファイルを比較する"
-description: ".ONEファイルの2つのバージョン間の変更を検出し、比較されたドキュメント間の違いの詳細な要約を含む最終的なドキュメントにエクスポートするためのNETドキュメント比較API."
+############################# Header ############################
+title: "C＃.NETのONEファイルを比較する"
+description: ".2つのバージョンのONEファイル間の変更を検出し、比較されたドキュメント間の違いの詳細な要約を含む最終的なドキュメントにエクスポートするためのNETドキュメント比較API."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -16,6 +20,7 @@ button:
     label: "無料トライアルをダウンロード"
     link: "https://downloads.groupdocs.com/comparison/net"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -26,17 +31,20 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
+            # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "APIリファレンス"
 
+            # button loop
             - link: "https://github.com/groupdocs-comparison"
               text: "コード例"
 
+            # button loop
             - link: "https://products.groupdocs.app/comparison/family"
               text: "ライブデモ"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/net"
               text: "価格設定"
 
@@ -45,31 +53,35 @@ submenu:
         link_learn: "https://docs.groupdocs.com/comparison/net"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
     title: "GroupDocs.Comparison for .NET APIについて"
     content: |
         [GroupDocs.Comparison for .NET](/Comparison/net/)は、同じ形式の複数の画像とドキュメントを比較するためのネイティブ.NETAPIです。段落、単語、文字、図形、さらには比較されたドキュメントのテキストスタイル内の違いを検出し、変更をマージして最終的なドキュメントにエクスポートするのに役立ちます。外部ライブラリを使用せずに、PDF、Word文書、Excelスプレッドシート、PowerPointプレゼンテーション、Visioダイアグラム、Outlook電子メール、HTML、図面、および画像ファイル形式の比較とマージをサポートします。
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "C＃で1つのファイルを比較する手順"
+    title_left: "C＃でONEファイルを比較する手順"
     content_left: |
         [GroupDocs.Comparison](/Comparison/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実装することで、アプリケーション内の複数のONEファイルを簡単に比較およびマージできます。
-
+    
+        
         * ソースドキュメントパスまたはストリームを使用して**Comparer**オブジェクトをインスタンス化します。
         * Addメソッドを呼び出し、ターゲットドキュメントのパスまたはストリームを指定します。ターゲットドキュメントごとにこの手順を繰り返します。
         * compareメソッドを呼び出します。
-        
+    
     title_right: "システム要求"
     content_right: |
         GroupDocs.Comparison for .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
-
+    
+        
         *オペレーティングシステム：Microsoft Windows、Linux、MacOS
         *開発環境：Microsoft Visual Studio、Xamarin、MonoDevelop
         *フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
         * [NuGet](https://www.nuget.org/packages/groupdocs.comparison)からダウンロードしたGroupDocs.Comparisonfor.NETの最新バージョンを入手します。
-        
+    
     code: |
         ```cs
         //ローカルディスクの複数のドキュメントを比較します
@@ -92,31 +104,34 @@ steps:
             comparer.Compare(File.Create("result.one")); // 指定された名前の結果ファイルを作成する
         }
         ```
-        
+
+############################# Demos ############################
 demos:
     enable: true
-    title: "1つのファイルを比較するライブデモ"
+    title: "ONEファイルの比較のライブデモ"
     content: |
-        [GroupDocs.Comparisonライブデモ](https://products.groupdocs.app/comparison/family)サイトにアクセスして、現在1つのファイル間の違いを検出してください。  
+        [GroupDocs.Comparisonライブデモ](https://products.groupdocs.app/comparison/family)サイトにアクセスして、ONEファイル間の違いを今すぐ検出してください。  
         ライブデモには次の利点があります
-        
+
+############################# About Formats ############################
 about_formats:
     enable: true
     format:
+        # format loop
         - icon: "far fa-file-one"
-          title: "1つのファイル形式について"
+          title: "ONEファイル形式について"
           content: |
             .ONE拡張子で表されるファイルは、MicrosoftOneNoteアプリケーションによって作成されます。 OneNoteを使用すると、メモを取るためにドラフトパッドを使用しているかのように、アプリケーションを使用して情報を収集できます。 OneNoteファイルには、ドキュメントページの固定されていない場所に配置できるさまざまな要素を含めることができます。これらの要素には、テキスト、デジタル化された手書き、および画像、描画、マルチメディア（オーディオ/ビデオ）クリップなどの他のアプリケーションからコピーされたオブジェクトが含まれる場合があります。 Microsoftは現在、Office365の一部としてOneNoteのオンラインバージョンを提供しており、インターネットを介して他のOneNoteユーザーとNotesを共有できます。
+          link: "https://docs.fileformat.com/image/one/"
 
-          link: "https://docs.fileformat.com/note-taking/one/"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
+    enable: true
     title: "他のファイル形式の比較"
     content: |
         .NET用のマルチフォーマットドキュメントと画像比較API。外部ツールを使用せずに、同じ形式のドキュメント間の違いを分析します。
     format: 
-          link: "https://products.groupdocs.com/comparison/net/pdf/"
+        link: "https://products.groupdocs.com/comparison/net/pdf/"
           description: "AdobePortableドキュメント形式"
 
           link: "https://products.groupdocs.com/comparison/net/doc/"
@@ -227,6 +242,9 @@ more_formats:
           link: "https://products.groupdocs.com/comparison/net/emlx/"
           description: "AppleMailEメールファイル"
 
+          link: "https://products.groupdocs.com/comparison/net/one/"
+          description: "Microsoft OneNote"
+
           link: "https://products.groupdocs.com/comparison/net/vsd/"
           description: "MicrosoftVisio2003-2010図面"
 
@@ -260,7 +278,20 @@ more_formats:
           link: "https://products.groupdocs.com/comparison/net/rb/"
           description: "Ruby言語"
 
+############################# Solutions ############################
+solutions:
+    enable: true
+    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
 
+    solution:
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for Java ONE"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
+          product: "GroupDocs.Comparison"
+          platform: "Java"
+          link: "/comparison/java/one/"
+
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

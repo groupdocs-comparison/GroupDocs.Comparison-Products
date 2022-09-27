@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:23+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Compare two ODT files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (ODT files in C# .NET applications. Retrieve differences summary in content, text &amp; style of ODT files, images and document formats."
+head_description: "Compare and merge more than two (ODT files in C# .NET applications. Retrieve differences summary in content, text & style of ODT files, images and document formats."
 
 ############################# Header ############################
 title: "Compare ODT Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing ODT Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple ODT files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.odt")
         {
-        	comparer.Add("target1.odt");
+        	  comparer.Add("target1.odt");
             comparer.Add("target2.odt");
             comparer.Add("target3.odt");
             comparer.Compare("result.odt"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.odt"))
         {
-        	comparer.Add(File.OpenRead("target1.odt"));
+        	  comparer.Add(File.OpenRead("target1.odt"));
             comparer.Add(File.OpenRead("target2.odt"));
             comparer.Add(File.OpenRead("target3.odt"));
             comparer.Compare(File.Create("result.odt")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between ODT files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,8 +120,7 @@ about_formats:
           title: "About ODT File Format"
           content: |
             ODT files are type of documents created with word processing applications that are based on OpenDocument Text File format. These are created with word processor applications such as free OpenOffice Writer and can hold content such as text, images, objects and styles. The ODT file is to Writer word processor what the DOCX is to Microsoft Word. Several applications including Google Docs and Google's web-based word processor included with Google Drive can open the ODT files for editing. Microsoft Word can also open ODT files and save it in to other formats such as DOC and DOCX.
-
-          link: "https://docs.fileformat.com/word-processing/odt/"
+          link: "https://docs.fileformat.com/image/odt/"
 
 ############################# More Formats ############################
 more_formats:
@@ -249,6 +248,11 @@ more_formats:
         - name: "Compare OTP Files"
           link: "https://products.groupdocs.com/comparison/net/otp/"
           description: "Origin Graph Template"
+
+        # format loop
+        - name: "Compare ODT Files"
+          link: "https://products.groupdocs.com/comparison/net/odt/"
+          description: "Open Document Text"
 
         # format loop
         - name: "Compare OTT Files"

@@ -1,3 +1,4 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -6,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Compare two DCM files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (DCM files in C# .NET applications. Retrieve differences summary in content, text &amp; style of DCM files, images and document formats."
+head_description: "Compare and merge more than two (DCM files in C# .NET applications. Retrieve differences summary in content, text & style of DCM files, images and document formats."
 
 ############################# Header ############################
 title: "Compare DCM Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing DCM Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple DCM files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.dcm")
         {
-        	comparer.Add("target1.dcm");
+        	  comparer.Add("target1.dcm");
             comparer.Add("target2.dcm");
             comparer.Add("target3.dcm");
             comparer.Compare("result.dcm"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.dcm"))
         {
-        	comparer.Add(File.OpenRead("target1.dcm"));
+        	  comparer.Add(File.OpenRead("target1.dcm"));
             comparer.Add(File.OpenRead("target2.dcm"));
             comparer.Add(File.OpenRead("target3.dcm"));
             comparer.Compare(File.Create("result.dcm")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between DCM files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,7 +120,6 @@ about_formats:
           title: "About DCM File Format"
           content: |
             Files with .DCM extension represent digital image which stores medical information of patients such as MRIs, CT scans and ultrasound images. It was developed by the National Electrical Manufacturers Association (NEMA) and was meant to standardize the imaging file format for distribution and viewing of medical images. It is similar to DICOM file format and can include patient’s information for reference.
-
           link: "https://docs.fileformat.com/image/dcm/"
 
 ############################# More Formats ############################

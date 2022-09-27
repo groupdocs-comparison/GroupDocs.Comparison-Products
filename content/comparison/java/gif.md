@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:13+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Java GIF Comparison API - Compare GIF Files for Differences"
-head_description: "Compare and merge GIF files in Java, J2EE, J2SE applications. Analyse differences summary in content, text &amp; style of GIF files, images and document formats."
+head_description: "Compare and merge GIF files in Java, J2EE, J2SE applications. Analyse differences summary in content, text & style of GIF files, images and document formats."
 
 ############################# Header ############################
 title: "Compare GIF Files in Java"
@@ -30,8 +31,7 @@ submenu:
         platform: "Java"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/java"
               text: "API Reference"
@@ -66,20 +66,20 @@ steps:
     title_left: "Steps for Comparing GIF Files in Java"
     content_left: |
         [GroupDocs.Comparison](/comparison/java/) makes it easy for Java developers to compare GIF files within their applications using a few lines of code.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call add method and specify target document path or stream.
         *   Call compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc
         *   Java Runtime Environment: J2SE 6.0 and above
         *   Get the latest version of GroupDocs.Comparison for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
-        
+    
     code: |
         ```java
         // Compare documents from local file
@@ -96,7 +96,7 @@ steps:
             comparer.compare(new FileOutputStream("C:\\result.gif")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -104,7 +104,7 @@ demos:
     content: |
         Compare GIF files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -114,7 +114,6 @@ about_formats:
           title: "About GIF File Format"
           content: |
             A GIF or Graphical Interchange Format is a type of highly compressed image. Owned by Unisys, GIF uses the LZW compression algorithm that does not degrade the image quality. For each image GIF typically allow up to 8 bits per pixel and up to 256 colours are allowed across the image. In contrast to a JPEG image, which can display up to 16 million colours and fairly touches the limits of the human eye. Back when the internet emerged, GIFs remained the best choice because they required low bandwidth and compatible for the graphics that consume solid areas of colour. An animated GIF combines numerous images or frames into a single file and displays them in a sequence to generate an animated clip or a short video. The colour limitations are up to 256 for each frame and are likely to be the least suitable for reproducing other images and photographs with colour gradient.
-
           link: "https://docs.fileformat.com/image/gif/"
 
 ############################# More Formats ############################
@@ -268,6 +267,11 @@ more_formats:
         - name: "Compare PNG Files"
           link: "https://products.groupdocs.com/comparison/java/png/"
           description: "Portable Network Graphic"
+
+        # format loop
+        - name: "Compare GIF Files"
+          link: "https://products.groupdocs.com/comparison/java/gif/"
+          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "Compare BMP Files"

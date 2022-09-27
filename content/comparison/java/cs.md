@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:11+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Java CS Comparison API - Compare CS Files for Differences"
-head_description: "Compare and merge CS files in Java, J2EE, J2SE applications. Analyse differences summary in content, text &amp; style of CS files, images and document formats."
+head_description: "Compare and merge CS files in Java, J2EE, J2SE applications. Analyse differences summary in content, text & style of CS files, images and document formats."
 
 ############################# Header ############################
 title: "Compare CS Files in Java"
@@ -30,8 +31,7 @@ submenu:
         platform: "Java"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/java"
               text: "API Reference"
@@ -66,20 +66,20 @@ steps:
     title_left: "Steps for Comparing CS Files in Java"
     content_left: |
         [GroupDocs.Comparison](/comparison/java/) makes it easy for Java developers to compare CS files within their applications using a few lines of code.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call add method and specify target document path or stream.
         *   Call compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc
         *   Java Runtime Environment: J2SE 6.0 and above
         *   Get the latest version of GroupDocs.Comparison for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
-        
+    
     code: |
         ```java
         // Compare documents from local file
@@ -96,7 +96,7 @@ steps:
             comparer.compare(new FileOutputStream("C:\\result.cs")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -104,7 +104,7 @@ demos:
     content: |
         Compare CS files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -114,8 +114,7 @@ about_formats:
           title: "About CS File Format"
           content: |
             Files with .CS extension are source code files for C# programming language. Introduced by Microsoft for use with the .NET Framework, the file format provides the low-level programming language for writing code that is compiled to generate the final output file in the form of EXE or a DLL. These can be created and compiled with Microsoft Visual Studio. Microsoft Visual Studio Express can also be used to create and update such files which is a free IDE. CS files are used for application development that can range from simple desktop applications to more complex programs. A simple Visual Studio project solution created with C# language can comprise of one or more such files. Files marked for inclusion in compilation are listed in the CSPROJ file which is part of the project and tells compiler to use the marked files.
-
-          link: "https://docs.fileformat.com/programming/cs/"
+          link: "https://docs.fileformat.com/image/cs/"
 
 ############################# More Formats ############################
 more_formats:
@@ -338,6 +337,11 @@ more_formats:
         - name: "Compare VDX Files"
           link: "https://products.groupdocs.com/comparison/java/vdx/"
           description: "Microsoft Visio 2003-2010 XML Drawing"
+
+        # format loop
+        - name: "Compare CS Files"
+          link: "https://products.groupdocs.com/comparison/java/cs/"
+          description: "CSharp Language"
 
         # format loop
         - name: "Compare Java Files"

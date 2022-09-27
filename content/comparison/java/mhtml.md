@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:14+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Java MHTML Comparison API - Compare MHTML Files for Differences"
-head_description: "Compare and merge MHTML files in Java, J2EE, J2SE applications. Analyse differences summary in content, text &amp; style of MHTML files, images and document formats."
+head_description: "Compare and merge MHTML files in Java, J2EE, J2SE applications. Analyse differences summary in content, text & style of MHTML files, images and document formats."
 
 ############################# Header ############################
 title: "Compare MHTML Files in Java"
@@ -30,8 +31,7 @@ submenu:
         platform: "Java"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/java"
               text: "API Reference"
@@ -66,20 +66,20 @@ steps:
     title_left: "Steps for Comparing MHTML Files in Java"
     content_left: |
         [GroupDocs.Comparison](/comparison/java/) makes it easy for Java developers to compare MHTML files within their applications using a few lines of code.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call add method and specify target document path or stream.
         *   Call compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc
         *   Java Runtime Environment: J2SE 6.0 and above
         *   Get the latest version of GroupDocs.Comparison for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
-        
+    
     code: |
         ```java
         // Compare documents from local file
@@ -96,7 +96,7 @@ steps:
             comparer.compare(new FileOutputStream("C:\\result.mhtml")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -104,7 +104,7 @@ demos:
     content: |
         Compare MHTML files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -114,8 +114,7 @@ about_formats:
           title: "About MHTML File Format"
           content: |
             Files with MHTML extension represent a web page archive format that can be created by a number of different applications. The format is known as archive format because it saves the web HTML code and associated resources in a single file. These resources include anything linked to the webpage such as images, applets, animations, audio files and so on. MHTML files can be opened in a variety of applications such as Internet Explorer and Microsoft Word. Microsoft Windows uses MHTML file format for recording scenarios of problems observed during the usage of any application on Windows that raises issues. The MHTML file format encodes the page contents similar to specifications defined in message/rfc822 which is plain text email related specifications. The actual specifications of the format are as detailed by RFC 2557.
-
-          link: "https://docs.fileformat.com/web/mhtml/"
+          link: "https://docs.fileformat.com/image/mhtml/"
 
 ############################# More Formats ############################
 more_formats:
@@ -288,6 +287,11 @@ more_formats:
         - name: "Compare MHT Files"
           link: "https://products.groupdocs.com/comparison/java/mht/"
           description: "Mime HTML"
+
+        # format loop
+        - name: "Compare MHTML Files"
+          link: "https://products.groupdocs.com/comparison/java/mhtml/"
+          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "Compare MSG Files"

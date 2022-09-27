@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:14+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Java MHT Comparison API - Compare MHT Files for Differences"
-head_description: "Compare and merge MHT files in Java, J2EE, J2SE applications. Analyse differences summary in content, text &amp; style of MHT files, images and document formats."
+head_description: "Compare and merge MHT files in Java, J2EE, J2SE applications. Analyse differences summary in content, text & style of MHT files, images and document formats."
 
 ############################# Header ############################
 title: "Compare MHT Files in Java"
@@ -30,8 +31,7 @@ submenu:
         platform: "Java"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/java"
               text: "API Reference"
@@ -66,20 +66,20 @@ steps:
     title_left: "Steps for Comparing MHT Files in Java"
     content_left: |
         [GroupDocs.Comparison](/comparison/java/) makes it easy for Java developers to compare MHT files within their applications using a few lines of code.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call add method and specify target document path or stream.
         *   Call compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc
         *   Java Runtime Environment: J2SE 6.0 and above
         *   Get the latest version of GroupDocs.Comparison for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
-        
+    
     code: |
         ```java
         // Compare documents from local file
@@ -96,7 +96,7 @@ steps:
             comparer.compare(new FileOutputStream("C:\\result.mht")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -104,7 +104,7 @@ demos:
     content: |
         Compare MHT files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -114,8 +114,7 @@ about_formats:
           title: "About MHT File Format"
           content: |
             A file with .mht extension is a MIME enabled archiving file format that contains different types of data into a single file. It can store data such as text, images, page styling in the form of CSS files, JavaScript, and other resources as embedded resources in it. MHT files, having MIME type message/rfc822, encapsulate all the contents of an HTML file as a single archive file for storing on archiving on storage devices. Software applications such as Microsoft Word lets you convert your WORD documents to MHT by exporting as MHT file. MHT files can be opened using popular browsers such as Microsoft Internet Explore and Google Chrome.
-
-          link: "https://docs.fileformat.com/web/mht/"
+          link: "https://docs.fileformat.com/image/mht/"
 
 ############################# More Formats ############################
 more_formats:
@@ -283,6 +282,11 @@ more_formats:
         - name: "Compare HTML Files"
           link: "https://products.groupdocs.com/comparison/java/html/"
           description: "Hyper Text Markup Language"
+
+        # format loop
+        - name: "Compare MHT Files"
+          link: "https://products.groupdocs.com/comparison/java/mht/"
+          description: "Mime HTML"
 
         # format loop
         - name: "Compare MHTML Files"

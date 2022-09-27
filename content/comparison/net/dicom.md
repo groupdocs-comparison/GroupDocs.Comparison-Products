@@ -1,3 +1,4 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -6,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Compare two DICOM files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (DICOM files in C# .NET applications. Retrieve differences summary in content, text &amp; style of DICOM files, images and document formats."
+head_description: "Compare and merge more than two (DICOM files in C# .NET applications. Retrieve differences summary in content, text & style of DICOM files, images and document formats."
 
 ############################# Header ############################
 title: "Compare DICOM Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing DICOM Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple DICOM files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.dicom")
         {
-        	comparer.Add("target1.dicom");
+        	  comparer.Add("target1.dicom");
             comparer.Add("target2.dicom");
             comparer.Add("target3.dicom");
             comparer.Compare("result.dicom"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.dicom"))
         {
-        	comparer.Add(File.OpenRead("target1.dicom"));
+        	  comparer.Add(File.OpenRead("target1.dicom"));
             comparer.Add(File.OpenRead("target2.dicom"));
             comparer.Add(File.OpenRead("target3.dicom"));
             comparer.Compare(File.Create("result.dicom")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between DICOM files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,7 +120,6 @@ about_formats:
           title: "About DICOM File Format"
           content: |
             DICOM is the acronym for Digital Imaging and Communications in Medicine and pertains to the field of Medical Informatics. DICOM is the combination of file format definition and a network communications protocol. DICOM uses the .DCM extension. .DCM exist in two different formats i.e. format 1.x and format 2.x. DCM Format 1.x is further available in two versions normal and extended. DICOM is used for the integration of medical imaging devices like printers, servers, scanners etc from various vendors and also contains identification data of each patient for uniqueness. DICOM files can be shared between two parties if they are capable of receiving image data in DICOM format. The communication part of DICOM is application layer protocol and uses TCP/IP to communicate between entities. HTTP and HTTPS protocols are used for the web services of DICOM. Versions supported by web services are 1.0, 1.1, 2 or later.
-
           link: "https://docs.fileformat.com/image/dicom/"
 
 ############################# More Formats ############################

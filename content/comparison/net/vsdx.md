@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:25+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Compare two VSDX files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (VSDX files in C# .NET applications. Retrieve differences summary in content, text &amp; style of VSDX files, images and document formats."
+head_description: "Compare and merge more than two (VSDX files in C# .NET applications. Retrieve differences summary in content, text & style of VSDX files, images and document formats."
 
 ############################# Header ############################
 title: "Compare VSDX Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing VSDX Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple VSDX files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.vsdx")
         {
-        	comparer.Add("target1.vsdx");
+        	  comparer.Add("target1.vsdx");
             comparer.Add("target2.vsdx");
             comparer.Add("target3.vsdx");
             comparer.Compare("result.vsdx"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.vsdx"))
         {
-        	comparer.Add(File.OpenRead("target1.vsdx"));
+        	  comparer.Add(File.OpenRead("target1.vsdx"));
             comparer.Add(File.OpenRead("target2.vsdx"));
             comparer.Add(File.OpenRead("target3.vsdx"));
             comparer.Compare(File.Create("result.vsdx")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between VSDX files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,7 +120,6 @@ about_formats:
           title: "About VSDX File Format"
           content: |
             Files with .VSDX extension represent Microsoft Visio file format introduced from Microsoft Office 2013 onward. It was developed to replace the binary file format, .VSD, which is supported by earlier versions of Microsoft Visio. It is also supported on Visio Services in Microsoft SharePoint Server 2013 and does not require an intermediary file format for publishing to SharePoint Server. Visio files are used to create drawings that contain visual objects, flow charts, UML diagram, information flow, organizational charts, software diagrams, network layout, database models, objects mapping and other similar information. Files generated using Visio can also be exported to different file formats such as PNG, BMP, PDF and others.
-
           link: "https://docs.fileformat.com/image/vsdx/"
 
 ############################# More Formats ############################
@@ -324,6 +323,11 @@ more_formats:
         - name: "Compare VSD Files"
           link: "https://products.groupdocs.com/comparison/net/vsd/"
           description: "Microsoft Visio 2003-2010 Drawing"
+
+        # format loop
+        - name: "Compare VSDX Files"
+          link: "https://products.groupdocs.com/comparison/net/vsdx/"
+          description: "Microsoft Visio Drawing"
 
         # format loop
         - name: "Compare VSS Files"

@@ -1,18 +1,24 @@
+
 ---
+############################# Static ############################
 layout: "product"
 date: 2022-07-07T12:44:18+03:00
 draft: false
 
+############################# Head ############################
 head_title: ".Pustaka Perbandingan Dokumen .NET & Java | Bandingkan Dokumen untuk Teks & Gaya"
 head_description: "Pustaka Perbandingan Dokumen asli C# ASP.NET & Java. Bandingkan gaya & konten untuk perbedaan untuk mengidentifikasi perubahan di antara file yang dibandingkan dari format yang didukung."
 
+############################# Header ############################
 title: "API Perbandingan Dokumen untuk Format Populer"
 description: "Kembangkan aplikasi .NET & Java asli dengan fitur perbandingan yang sangat dapat dikonfigurasi. Bandingkan konten & gaya teks antara format dokumen serupa."
 
+############################# APIs ###############################
 apis:
   enable: true
 
   api:
+    # api loop
     - title: "GroupDocs.Perbandingan API Kode Tinggi Termasuk"
       link: "/comparison/"
       label: "Lihat Semua API Kode Tinggi"
@@ -31,6 +37,7 @@ apis:
           platform: "Java"
           content: "Native Java API untuk Desktop, Web & aplikasi berbasis Java SE atau EE lainnya."
 
+    # api loop
     - title: "GroupDocs.Perbandingan API Kode Rendah Termasuk"
       link: "https://products.groupdocs.cloud/comparison"
       label: "Lihat Semua API Kode Rendah"
@@ -56,6 +63,7 @@ apis:
           platform: "Cloud SDK for Java"
           content: "Tambahkan fitur perbandingan dokumen fidelitas tinggi ke aplikasi java Anda dengan SDK perbandingan dokumen yang dirancang khusus untuk Java."
 
+    # api loop
     - title: "GroupDocs.Comparison Tidak Termasuk Aplikasi Kode"
       link: "https://products.groupdocs.app/comparison"
       label: "Lihat Semua Aplikasi Tanpa Kode"
@@ -81,6 +89,7 @@ apis:
           platform: "PDF"
           content: "Diff pdf online menggunakan aplikasi online perbandingan PDF."
 
+############################# Back to top ###############################
 back_to_top:
   enable: true
 ---

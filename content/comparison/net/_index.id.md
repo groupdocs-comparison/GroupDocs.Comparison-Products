@@ -1,4 +1,5 @@
 ---
+############################# Static ############################
 layout: "product"
 date: 2022-07-07T12:44:18+03:00
 draft: false
@@ -8,9 +9,11 @@ product_tag: "comparison"
 platform: ".NET"
 platform_tag: "net"
 
+############################# Head ############################
 head_title: "C# .NET Document Comparison API | Bandingkan & Gabungkan PDF Word Excel Web & Teks"
 head_description: "C# .NET Document Comparison API. Bandingkan & gabungkan PDF Word DOC DOCX, Excel Spreadsheet, PPT, PPTX, HTML, EMLX MSG, VSDX, DXF DWG & format file gambar."
 
+############################# Header ############################
 title: ".NET API untuk Membandingkan & Menggabungkan Dokumen"
 description: "Kembangkan Aplikasi .NET menggunakan API Perbandingan Dokumen untuk Membandingkan & Memeriksa Perbedaan Konten & Gaya Di Antara Dokumen Format Yang Sama."
 button:
@@ -19,6 +22,7 @@ button:
     label: "Unduh Uji Coba Gratis"
     link: "https://downloads.groupdocs.com/comparison/net"
 
+############################# SubMenu ############################
 submenu:
     enable: true
     
@@ -50,16 +54,17 @@ submenu:
         link_learn: "https://docs.groupdocs.com/comparison/net/"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# Overview ############################
 overview:
     enable: true
     content: |
       GroupDocs.Comparison untuk .NET API adalah solusi cepat dan andal untuk membangun aplikasi pemeriksa perbedaan di antara dokumen dengan format yang sama di C#, ASP.NET atau teknologi terkait .NET lainnya. Pustaka perbandingan .NET mendukung pemeriksaan perbedaan di keduanya, konten serta gaya teks dari format gambar dan dokumen populer seperti PDF, HTML, email Outlook, dokumen Microsoft Office Word, spreadsheet Excel, presentasi PowerPoint, OneNote, diagram Visio, teks dan gambar. Perbandingan dapat dilakukan untuk mendeteksi perubahan konten untuk kata, paragraf, dan karakter sambil memberikan dokumen perbandingan yang mencantumkan ringkasan perbedaan. GroupDocs.Comparison untuk .NET API dapat dengan mudah mengekstrak informasi dasar dari dokumen sumber. Itu juga dapat mengambil, membandingkan, dan menyimpan sederhana, mengaktifkan kata sandi, serta dokumen terenkripsi melalui file atau aliran.  
         
       GroupDocs.Comparison untuk .NET dapat digunakan untuk mengembangkan aplikasi di lingkungan pengembangan apa pun yang menargetkan platform .NET. Ini kompatibel dengan semua bahasa berbasis .NET dan mendukung sistem operasi populer (Windows, Linux, MacOS) di mana kerangka kerja Mono atau .NET (termasuk .NET Core) dapat diinstal.
-
     tabs:
       enable: true
       
+      ## TAB ONE ##
       tab_one:
         description: |
           Berikut ini adalah ikhtisar GroupDocs.Comparison untuk .NET:
@@ -76,25 +81,27 @@ overview:
             * Bandingkan Konten File
             * Bandingkan Gaya Teks
       
+      ## TAB TWO ##
       tab_two:
         description: |
           GroupDocs.Comparison untuk .NET mendukung semua [format file dokumen](https://docs.groupdocs.com/comparison/net/supported-document-formats/) yang populer termasuk: Microsoft Office, PDF, gambar, dan banyak lainnya.
-
         left:
           enable: true
           table:
+            # table loop
             - title: "Microsoft Office"
               content: |
-                * **Kata:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visi:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Outlook:** MSG, EML, EMLX, PST, OST
-                * **OneNote:** SATU
+                * **Word:** [DOC](https://products.groupdocs.com/comparison/net/doc/), [DOCX](https://products.groupdocs.com/comparison/net/docx/), [DOCM](https://products.groupdocs.com/comparison/net/docm/), [DOT](https://products.groupdocs.com/comparison/net/dot/), [DOTX](https://products.groupdocs.com/comparison/net/dotx/), [DOTM](https://products.groupdocs.com/comparison/net/dotm/), [RTF](https://products.groupdocs.com/comparison/net/rtf/), [TXT](https://products.groupdocs.com/comparison/net/txt/)
+                * **Excel:** [XLS](https://products.groupdocs.com/comparison/net/xls/), [XLSX](https://products.groupdocs.com/comparison/net/xlsx/), [XLSM](https://products.groupdocs.com/comparison/net/xlsm/), [XLSB](https://products.groupdocs.com/comparison/net/xlsb/), [XLTM](https://products.groupdocs.com/comparison/net/xltm/), [XLT](https://products.groupdocs.com/comparison/net/xlt/), [XLTM](https://products.groupdocs.com/comparison/net/xltm/), [XLTX](https://products.groupdocs.com/comparison/net/xltx/), [XLAM](https://products.groupdocs.com/comparison/net/xlam/), [SXC](https://products.groupdocs.com/comparison/net/sxc/), [SpreadsheetML](https://products.groupdocs.com/comparison/net/xml/)
+                * **PowerPoint:** [PPT](https://products.groupdocs.com/comparison/net/ppt/), [PPTX](https://products.groupdocs.com/comparison/net/pptx/), [PPS](https://products.groupdocs.com/comparison/net/pps/), [PPSX](https://products.groupdocs.com/comparison/net/ppsx/), [PPSM](https://products.groupdocs.com/comparison/net/ppsm/), [POT](https://products.groupdocs.com/comparison/net/pot/), [POTM](https://products.groupdocs.com/comparison/net/potm/), [POTX](https://products.groupdocs.com/comparison/net/potx/), [PPTM](https://products.groupdocs.com/comparison/net/pptm/)
+                * **Visio:** [VSD](https://products.groupdocs.com/comparison/net/vsd/), [VDX](https://products.groupdocs.com/comparison/net/vdx/), [VSS](https://products.groupdocs.com/comparison/net/vss/), [VSSX](https://products.groupdocs.com/comparison/net/vssx/), [VSX](https://products.groupdocs.com/comparison/net/vsx/), [VST](https://products.groupdocs.com/comparison/net/vst/), [VSTX](https://products.groupdocs.com/comparison/net/vstx/), [VTX](https://products.groupdocs.com/comparison/net/vtx/), [VSDX](https://products.groupdocs.com/comparison/net/vsdx/), [VDW](https://products.groupdocs.com/comparison/net/vdw/), [VSTM](https://products.groupdocs.com/comparison/net/vstm/), [VSSM](https://products.groupdocs.com/comparison/net/vssm/), [VSDM](https://products.groupdocs.com/comparison/net/vsdm/)
+                * **Outlook:** [MSG](https://products.groupdocs.com/comparison/net/msg/), [EML](https://products.groupdocs.com/comparison/net/eml/), [EMLX](https://products.groupdocs.com/comparison/net/emlx/), [PST](https://products.groupdocs.com/comparison/net/pst/), [OST](https://products.groupdocs.com/comparison/net/ost/)
+                * **OneNote:** [ONE](https://products.groupdocs.com/comparison/net/one/)
 
         right:
           enable: true
           table:
+            # table loop
             - title: "Format lainnya"
               content: |
                 * **Bahasa Pemrograman**: CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, ActionScript, PHP, SQL, LOG, DIFF, LESS, SCALA
@@ -106,10 +113,11 @@ overview:
                 * **Web**: HTML, HTML, MHTML
                 * **Teks**: TXT
 
+      ## TAB THREE ##
       tab_three:
         description: |
           GroupDocs.Comparison untuk .NET mendukung Sistem Operasi, Kerangka & Manajer Paket berikut:
-        
+      
         left:
           enable: true
           table:
@@ -147,6 +155,7 @@ overview:
                 * Xamarin.Mac
                 * MonoDevelop
 
+############################# Features ############################
 features:
     enable: true
     title: "GroupDocs.Perbandingan untuk Fitur .NET"
@@ -253,9 +262,11 @@ features:
 
           GroupDocs.Comparison untuk .NET juga mendukung membandingkan bagian lain dari halaman, jika berlaku, seperti jarak footer, tinggi & orientasi halaman, margin (kiri, kanan, atas, dan bawah), lebar garis batas, dan warna batas.  
 
+############################# Support ############################
 support:
     enable: true
 
+############################# Solutions ############################
 solutions:
     enable: true
     title: "GroupDocs.Comparison menawarkan API tampilan dokumen untuk lingkungan pengembangan populer lainnya"
@@ -267,6 +278,7 @@ solutions:
           platform: "Java"
           link: "/comparison/java/"
 
+############################# Back to top ###############################
 back_to_top:
   enable: true
 ---

@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:17+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Java PPTX Comparison API - Compare PPTX Files for Differences"
-head_description: "Compare and merge PPTX files in Java, J2EE, J2SE applications. Analyse differences summary in content, text &amp; style of PPTX files, images and document formats."
+head_description: "Compare and merge PPTX files in Java, J2EE, J2SE applications. Analyse differences summary in content, text & style of PPTX files, images and document formats."
 
 ############################# Header ############################
 title: "Compare PPTX Files in Java"
@@ -30,8 +31,7 @@ submenu:
         platform: "Java"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/java"
               text: "API Reference"
@@ -66,20 +66,20 @@ steps:
     title_left: "Steps for Comparing PPTX Files in Java"
     content_left: |
         [GroupDocs.Comparison](/comparison/java/) makes it easy for Java developers to compare PPTX files within their applications using a few lines of code.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call add method and specify target document path or stream.
         *   Call compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc
         *   Java Runtime Environment: J2SE 6.0 and above
         *   Get the latest version of GroupDocs.Comparison for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
-        
+    
     code: |
         ```java
         // Compare documents from local file
@@ -96,7 +96,7 @@ steps:
             comparer.compare(new FileOutputStream("C:\\result.pptx")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -104,7 +104,7 @@ demos:
     content: |
         Compare PPTX files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -114,8 +114,7 @@ about_formats:
           title: "About PPTX File Format"
           content: |
             Files with PPTX extension are presentation files created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings.
-
-          link: "https://docs.fileformat.com/presentation/pptx/"
+          link: "https://docs.fileformat.com/image/pptx/"
 
 ############################# More Formats ############################
 more_formats:
@@ -208,6 +207,11 @@ more_formats:
         - name: "Compare PPS Files"
           link: "https://products.groupdocs.com/comparison/java/pps/"
           description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "Compare PPTX Files"
+          link: "https://products.groupdocs.com/comparison/java/pptx/"
+          description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Compare PPSX Files"

@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:24+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Compare two PPTX files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (PPTX files in C# .NET applications. Retrieve differences summary in content, text &amp; style of PPTX files, images and document formats."
+head_description: "Compare and merge more than two (PPTX files in C# .NET applications. Retrieve differences summary in content, text & style of PPTX files, images and document formats."
 
 ############################# Header ############################
 title: "Compare PPTX Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing PPTX Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple PPTX files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.pptx")
         {
-        	comparer.Add("target1.pptx");
+        	  comparer.Add("target1.pptx");
             comparer.Add("target2.pptx");
             comparer.Add("target3.pptx");
             comparer.Compare("result.pptx"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.pptx"))
         {
-        	comparer.Add(File.OpenRead("target1.pptx"));
+        	  comparer.Add(File.OpenRead("target1.pptx"));
             comparer.Add(File.OpenRead("target2.pptx"));
             comparer.Add(File.OpenRead("target3.pptx"));
             comparer.Compare(File.Create("result.pptx")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between PPTX files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,8 +120,7 @@ about_formats:
           title: "About PPTX File Format"
           content: |
             Files with PPTX extension are presentation files created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings.
-
-          link: "https://docs.fileformat.com/presentation/pptx/"
+          link: "https://docs.fileformat.com/image/pptx/"
 
 ############################# More Formats ############################
 more_formats:
@@ -214,6 +213,11 @@ more_formats:
         - name: "Compare PPS Files"
           link: "https://products.groupdocs.com/comparison/net/pps/"
           description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "Compare PPTX Files"
+          link: "https://products.groupdocs.com/comparison/net/pptx/"
+          description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Compare PPSX Files"

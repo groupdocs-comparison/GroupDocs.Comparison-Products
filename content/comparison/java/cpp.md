@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:11+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Java CPP Comparison API - Compare CPP Files for Differences"
-head_description: "Compare and merge CPP files in Java, J2EE, J2SE applications. Analyse differences summary in content, text &amp; style of CPP files, images and document formats."
+head_description: "Compare and merge CPP files in Java, J2EE, J2SE applications. Analyse differences summary in content, text & style of CPP files, images and document formats."
 
 ############################# Header ############################
 title: "Compare CPP Files in Java"
@@ -30,8 +31,7 @@ submenu:
         platform: "Java"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/java"
               text: "API Reference"
@@ -66,20 +66,20 @@ steps:
     title_left: "Steps for Comparing CPP Files in Java"
     content_left: |
         [GroupDocs.Comparison](/comparison/java/) makes it easy for Java developers to compare CPP files within their applications using a few lines of code.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call add method and specify target document path or stream.
         *   Call compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc
         *   Java Runtime Environment: J2SE 6.0 and above
         *   Get the latest version of GroupDocs.Comparison for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
-        
+    
     code: |
         ```java
         // Compare documents from local file
@@ -96,7 +96,7 @@ steps:
             comparer.compare(new FileOutputStream("C:\\result.cpp")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -104,7 +104,7 @@ demos:
     content: |
         Compare CPP files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -114,8 +114,7 @@ about_formats:
           title: "About CPP File Format"
           content: |
             Files with CPP file extension are source code files for applications written in C++ programming language. A single C++ project may contain more than one CPP files as application source code. Such a project consists of different file types, of which the CPP files are known as implementation files as they contain all the definitions of the methods declared in the header (.h) file. The C++ project as a whole results in an executable application when compiled as a whole.
-
-          link: "https://docs.fileformat.com/programming/cpp/"
+          link: "https://docs.fileformat.com/image/cpp/"
 
 ############################# More Formats ############################
 more_formats:
@@ -348,6 +347,11 @@ more_formats:
         - name: "Compare Java Files"
           link: "https://products.groupdocs.com/comparison/java/java/"
           description: "Java Language"
+
+        # format loop
+        - name: "Compare CPP Files"
+          link: "https://products.groupdocs.com/comparison/java/cpp/"
+          description: "C++ Language"
 
         # format loop
         - name: "Compare JS Files"

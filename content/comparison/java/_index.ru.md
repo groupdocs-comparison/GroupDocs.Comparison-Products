@@ -59,22 +59,21 @@ submenu:
         link_learn: "https://docs.groupdocs.com/comparison/java/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Обзор ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
       GroupDocs.Comparison for Java — наиболее гибкий и простой в использовании API, помогающий разрабатывать приложения для сравнения документов в среде Java. Средство проверки различий и API слияния документов позволяют обнаруживать изменения и различия в содержании, а также в стиле текста между похожими форматами документов. Он поддерживает сравнение всех стандартных форматов документов, таких как PDF, HTML, Microsoft Office Word, электронные таблицы Excel, презентации PowerPoint, электронные письма Outlook, диаграммы Visio, OpenDocument, AutoCAD и изображения. С помощью функции отслеживания изменений результат различий между исходным и целевым документом будет представлен в комплексном сравнительном документе. Сравнение может быть выполнено для обнаружения изменений в содержании слов, абзацев, таблиц или диаграмм и их стилей, и предоставит вам документ сравнения, в котором будет перечислена сводка различий, их количество и типовая принадлежность. GroupDocs.Comparison for Java может легко извлекать основную информацию об исходном документе, сравнивать и сохранять простые, защищенные паролем и зашифрованные документы различных форматов через файл или поток данных. Существует множество документации по использованию библиотеки Comparison на различных платформах с примерами кода, поэтому вам не придется долго думать, как включить API GroupDocs.Comparison for Java в свое приложение.
         
       GroupDocs.Comparison for Java не требует установки в системе какого-либо внешнего программного обеспечения. Он совместим со всеми версиями Java и поддерживает популярные операционные системы (Windows, линукс, MacOS), способные запускать среду выполнения Java.
-
     tabs:
-      enable: true     
+      enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
           Ниже приводится обзор GroupDocs.Comparison для Java:
-
+      
         right:
           enable: true
           icon: "fab fa-html5"
@@ -97,19 +96,18 @@ overview:
       tab_two:
         description: |
           GroupDocs.Comparison для Java поддерживает все популярные [форматы файлов документов](https://docs.groupdocs.com/comparison/java/supported-document-formats/), включая: Microsoft Office, изображения, диаграммы и многие другие.
-
         left:
           enable: true
           table:
             # table loop
             - title: "Microsoft Office"
               content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Outlook:** MSG, EML, EMLX, PST, OST
-                * **OneNote:** ONE
+                * **Word:** [DOC](https://products.groupdocs.com/comparison/java/doc/), [DOCX](https://products.groupdocs.com/comparison/java/docx/), [DOCM](https://products.groupdocs.com/comparison/java/docm/), [DOT](https://products.groupdocs.com/comparison/java/dot/), [DOTX](https://products.groupdocs.com/comparison/java/dotx/), [DOTM](https://products.groupdocs.com/comparison/java/dotm/), [RTF](https://products.groupdocs.com/comparison/java/rtf/), [TXT](https://products.groupdocs.com/comparison/java/txt/)
+                * **Excel:** [XLS](https://products.groupdocs.com/comparison/java/xls/), [XLSX](https://products.groupdocs.com/comparison/java/xlsx/), [XLSM](https://products.groupdocs.com/comparison/java/xlsm/), [XLSB](https://products.groupdocs.com/comparison/java/xlsb/), [XLTM](https://products.groupdocs.com/comparison/java/xltm/), [XLT](https://products.groupdocs.com/comparison/java/xlt/), [XLTM](https://products.groupdocs.com/comparison/java/xltm/), [XLTX](https://products.groupdocs.com/comparison/java/xltx/), [XLAM](https://products.groupdocs.com/comparison/java/xlam/), [SXC](https://products.groupdocs.com/comparison/java/sxc/), [SpreadsheetML](https://products.groupdocs.com/comparison/java/xml/)
+                * **PowerPoint:** [PPT](https://products.groupdocs.com/comparison/java/ppt/), [PPTX](https://products.groupdocs.com/comparison/java/pptx/), [PPS](https://products.groupdocs.com/comparison/java/pps/), [PPSX](https://products.groupdocs.com/comparison/java/ppsx/), [PPSM](https://products.groupdocs.com/comparison/java/ppsm/), [POT](https://products.groupdocs.com/comparison/java/pot/), [POTM](https://products.groupdocs.com/comparison/java/potm/), [POTX](https://products.groupdocs.com/comparison/java/potx/), [PPTM](https://products.groupdocs.com/comparison/java/pptm/)
+                * **Visio:** [VSD](https://products.groupdocs.com/comparison/java/vsd/), [VDX](https://products.groupdocs.com/comparison/java/vdx/), [VSS](https://products.groupdocs.com/comparison/java/vss/), [VSSX](https://products.groupdocs.com/comparison/java/vssx/), [VSX](https://products.groupdocs.com/comparison/java/vsx/), [VST](https://products.groupdocs.com/comparison/java/vst/), [VSTX](https://products.groupdocs.com/comparison/java/vstx/), [VTX](https://products.groupdocs.com/comparison/java/vtx/), [VSDX](https://products.groupdocs.com/comparison/java/vsdx/), [VDW](https://products.groupdocs.com/comparison/java/vdw/), [VSTM](https://products.groupdocs.com/comparison/java/vstm/), [VSSM](https://products.groupdocs.com/comparison/java/vssm/), [VSDM](https://products.groupdocs.com/comparison/java/vsdm/)
+                * **Outlook:** [MSG](https://products.groupdocs.com/comparison/java/msg/), [EML](https://products.groupdocs.com/comparison/java/eml/), [EMLX](https://products.groupdocs.com/comparison/java/emlx/), [PST](https://products.groupdocs.com/comparison/java/pst/), [OST](https://products.groupdocs.com/comparison/java/ost/)
+                * **OneNote:** [ONE](https://products.groupdocs.com/comparison/java/one/)
 
         right:
           enable: true
@@ -130,7 +128,7 @@ overview:
       tab_three:
         description: |
           GroupDocs.Comparison for Java поддерживает следующие Операционные системы, Frameworks & Менеджер пакетовs:
-        
+      
         left:
           enable: true
           table:
@@ -165,7 +163,7 @@ overview:
               content: |
                 * Мавен
 
-############################# Функции ############################
+############################# Features ############################
 features:
     enable: true
     title: "GroupDocs.Comparison для функций Java"

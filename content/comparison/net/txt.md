@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:25+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Compare two TXT files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (TXT files in C# .NET applications. Retrieve differences summary in content, text &amp; style of TXT files, images and document formats."
+head_description: "Compare and merge more than two (TXT files in C# .NET applications. Retrieve differences summary in content, text & style of TXT files, images and document formats."
 
 ############################# Header ############################
 title: "Compare TXT Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing TXT Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple TXT files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.txt")
         {
-        	comparer.Add("target1.txt");
+        	  comparer.Add("target1.txt");
             comparer.Add("target2.txt");
             comparer.Add("target3.txt");
             comparer.Compare("result.txt"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.txt"))
         {
-        	comparer.Add(File.OpenRead("target1.txt"));
+        	  comparer.Add(File.OpenRead("target1.txt"));
             comparer.Add(File.OpenRead("target2.txt"));
             comparer.Add(File.OpenRead("target3.txt"));
             comparer.Compare(File.Create("result.txt")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between TXT files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,8 +120,7 @@ about_formats:
           title: "About TXT File Format"
           content: |
             A file with .TXT extension represents a text document that contains plain text in the form of lines. Paragraphs in a text document are recognized by carriage returns and are used for better arrangement of file contents. A standard text document can be opened in any text editor or word processing application on different operating systems. All the text contained in such a file is in human-readable format and represented by sequence of characters.
-
-          link: "https://docs.fileformat.com/word-processing/txt/"
+          link: "https://docs.fileformat.com/image/txt/"
 
 ############################# More Formats ############################
 more_formats:
@@ -169,6 +168,11 @@ more_formats:
         - name: "Compare RTF Files"
           link: "https://products.groupdocs.com/comparison/net/rtf/"
           description: "Rich Text File Format"
+
+        # format loop
+        - name: "Compare TXT Files"
+          link: "https://products.groupdocs.com/comparison/net/txt/"
+          description: "Plain Text File Format"
 
         # format loop
         - name: "Compare XLS Files"

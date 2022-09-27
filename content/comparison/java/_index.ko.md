@@ -1,4 +1,5 @@
 ---
+############################# Static ############################
 layout: "product"
 date: 2021-04-27T09:31:06+03:00
 draft: false
@@ -8,9 +9,11 @@ product_tag: "comparison"
 platform: "Java"
 platform_tag: "java"
 
+############################# Head ############################
 head_title: "자바 문서 비교 API | PDF Word Excel HTML의 텍스트 및 스타일 비교"
 head_description: "Word Excel PPTX OpenOffice, 웹, PDF, AutoCAD 및 기타 파일 형식을 비교 및 병합하는 Java 문서 비교 API. 변경 내용 추적으로 문서 비교."
 
+############################# Header ############################
 title: "문서 비교 및 병합을 위한 Java API"
 description: "모든 산업 표준 문서 및 이미지 파일 형식의 차이 검사를 위해 콘텐츠와 텍스트 스타일을 효율적으로 비교하는 Java 애플리케이션 구축."
 button:
@@ -19,6 +22,7 @@ button:
     label: "무료 평가판 다운로드"
     link: "https://downloads.groupdocs.com/comparison/java"
 
+############################# SubMenu ############################
 submenu:
     enable: true
     
@@ -50,6 +54,7 @@ submenu:
         link_learn: "https://docs.groupdocs.com/comparison/java/"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# Overview ############################
 overview:
     enable: true
     content: |
@@ -57,12 +62,13 @@ overview:
         
       Java용 GroupDocs.Comparison은 시스템에 외부 소프트웨어를 설치할 필요가 없습니다. 모든 Java 버전과 호환되며 Java 런타임을 실행할 수 있는 널리 사용되는 운영 체제(Windows, Linux, MacOS)를 지원합니다.
     tabs:
-      enable: true     
+      enable: true
       
+      ## TAB ONE ##
       tab_one:
         description: |
           다음은 Java용 GroupDocs.Comparison의 개요입니다.
-
+      
         right:
           enable: true
           icon: "fab fa-html5"
@@ -81,25 +87,27 @@ overview:
             * PDF에서 워터마크 비교
             * 변경 사항 적용/취소
       
+      ## TAB TWO ##
       tab_two:
         description: |
           Java용 GroupDocs.Comparison은 Microsoft Office, 이미지, 다이어그램 및 기타 여러 가지를 포함하여 널리 사용되는 모든 [문서 파일 형식](https://docs.groupdocs.com/comparison/java/supported-document-formats/)을 지원합니다.
-
         left:
           enable: true
           table:
-            - title: "마이크로 소프트 오피스"
+            # table loop
+            - title: "Microsoft Office"
               content: |
-                * **단어:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **엑셀:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **파워포인트:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **전망:** MSG, EML, EMLX, PST, OST
-                * **원노트:** ONE
+                * **Word:** [DOC](https://products.groupdocs.com/comparison/java/doc/), [DOCX](https://products.groupdocs.com/comparison/java/docx/), [DOCM](https://products.groupdocs.com/comparison/java/docm/), [DOT](https://products.groupdocs.com/comparison/java/dot/), [DOTX](https://products.groupdocs.com/comparison/java/dotx/), [DOTM](https://products.groupdocs.com/comparison/java/dotm/), [RTF](https://products.groupdocs.com/comparison/java/rtf/), [TXT](https://products.groupdocs.com/comparison/java/txt/)
+                * **Excel:** [XLS](https://products.groupdocs.com/comparison/java/xls/), [XLSX](https://products.groupdocs.com/comparison/java/xlsx/), [XLSM](https://products.groupdocs.com/comparison/java/xlsm/), [XLSB](https://products.groupdocs.com/comparison/java/xlsb/), [XLTM](https://products.groupdocs.com/comparison/java/xltm/), [XLT](https://products.groupdocs.com/comparison/java/xlt/), [XLTM](https://products.groupdocs.com/comparison/java/xltm/), [XLTX](https://products.groupdocs.com/comparison/java/xltx/), [XLAM](https://products.groupdocs.com/comparison/java/xlam/), [SXC](https://products.groupdocs.com/comparison/java/sxc/), [SpreadsheetML](https://products.groupdocs.com/comparison/java/xml/)
+                * **PowerPoint:** [PPT](https://products.groupdocs.com/comparison/java/ppt/), [PPTX](https://products.groupdocs.com/comparison/java/pptx/), [PPS](https://products.groupdocs.com/comparison/java/pps/), [PPSX](https://products.groupdocs.com/comparison/java/ppsx/), [PPSM](https://products.groupdocs.com/comparison/java/ppsm/), [POT](https://products.groupdocs.com/comparison/java/pot/), [POTM](https://products.groupdocs.com/comparison/java/potm/), [POTX](https://products.groupdocs.com/comparison/java/potx/), [PPTM](https://products.groupdocs.com/comparison/java/pptm/)
+                * **Visio:** [VSD](https://products.groupdocs.com/comparison/java/vsd/), [VDX](https://products.groupdocs.com/comparison/java/vdx/), [VSS](https://products.groupdocs.com/comparison/java/vss/), [VSSX](https://products.groupdocs.com/comparison/java/vssx/), [VSX](https://products.groupdocs.com/comparison/java/vsx/), [VST](https://products.groupdocs.com/comparison/java/vst/), [VSTX](https://products.groupdocs.com/comparison/java/vstx/), [VTX](https://products.groupdocs.com/comparison/java/vtx/), [VSDX](https://products.groupdocs.com/comparison/java/vsdx/), [VDW](https://products.groupdocs.com/comparison/java/vdw/), [VSTM](https://products.groupdocs.com/comparison/java/vstm/), [VSSM](https://products.groupdocs.com/comparison/java/vssm/), [VSDM](https://products.groupdocs.com/comparison/java/vsdm/)
+                * **Outlook:** [MSG](https://products.groupdocs.com/comparison/java/msg/), [EML](https://products.groupdocs.com/comparison/java/eml/), [EMLX](https://products.groupdocs.com/comparison/java/emlx/), [PST](https://products.groupdocs.com/comparison/java/pst/), [OST](https://products.groupdocs.com/comparison/java/ost/)
+                * **OneNote:** [ONE](https://products.groupdocs.com/comparison/java/one/)
 
         right:
           enable: true
           table:
+            # table loop
             - title: "기타 형식"
               content: |
                 * **프로그래밍 언어**: CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, ActionScript, PHP, SQL, LOG, DIFF, LESS, SCALA
@@ -111,10 +119,11 @@ overview:
                 * **웹**: HTM, HTML, MHTML
                 * **텍스트**: TXT
 
+      ## TAB THREE ##
       tab_three:
         description: |
           Java용 GroupDocs.Comparison은 다음 운영 체제, 프레임워크 및 패키지 관리자를 지원합니다.
-        
+      
         left:
           enable: true
           table:
@@ -145,6 +154,7 @@ overview:
               content: |
                 * 메이븐
 
+############################# Features ############################
 features:
     enable: true
     title: "Java 기능에 대한 GroupDocs.Comparison"
@@ -233,9 +243,11 @@ features:
 
         마찬가지로 해당되는 경우 페이지의 다른 섹션도 GroupDocs.Comparison for Java API를 통해 비교할 수 있습니다. 섹션에는 바닥글 거리, 페이지 여백(왼쪽, 오른쪽, 위쪽 및 아래쪽), 페이지 높이, 페이지 방향, 테두리 색상 및 선 너비가 포함됩니다."
 
+############################# Support ############################
 support:
     enable: true
 
+############################# Solutions ############################
 solutions:
     enable: true
     title: "GroupDocs.Comparison은 다른 인기 있는 개발 환경을 위한 문서 보기 API를 제공합니다."
@@ -247,6 +259,7 @@ solutions:
           platform: ".NET"
           link: "/comparison/net/"
 
+############################# Back to top ###############################
 back_to_top:
   enable: true
 ---

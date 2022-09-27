@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:13+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Java EMLX Comparison API - Compare EMLX Files for Differences"
-head_description: "Compare and merge EMLX files in Java, J2EE, J2SE applications. Analyse differences summary in content, text &amp; style of EMLX files, images and document formats."
+head_description: "Compare and merge EMLX files in Java, J2EE, J2SE applications. Analyse differences summary in content, text & style of EMLX files, images and document formats."
 
 ############################# Header ############################
 title: "Compare EMLX Files in Java"
@@ -30,8 +31,7 @@ submenu:
         platform: "Java"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/java"
               text: "API Reference"
@@ -66,20 +66,20 @@ steps:
     title_left: "Steps for Comparing EMLX Files in Java"
     content_left: |
         [GroupDocs.Comparison](/comparison/java/) makes it easy for Java developers to compare EMLX files within their applications using a few lines of code.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call add method and specify target document path or stream.
         *   Call compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc
         *   Java Runtime Environment: J2SE 6.0 and above
         *   Get the latest version of GroupDocs.Comparison for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
-        
+    
     code: |
         ```java
         // Compare documents from local file
@@ -96,7 +96,7 @@ steps:
             comparer.compare(new FileOutputStream("C:\\result.emlx")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -104,7 +104,7 @@ demos:
     content: |
         Compare EMLX files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -114,8 +114,7 @@ about_formats:
           title: "About EMLX File Format"
           content: |
             The EMLX file format is implemented and developed by Apple. The Apple Mail application uses the EMLX file format for exporting the emails. There are other applications as well that can open the EMLX files and convert these to other file formats.
-
-          link: "https://docs.fileformat.com/email/emlx/"
+          link: "https://docs.fileformat.com/image/emlx/"
 
 ############################# More Formats ############################
 more_formats:
@@ -303,6 +302,11 @@ more_formats:
         - name: "Compare EML Files"
           link: "https://products.groupdocs.com/comparison/java/eml/"
           description: "E-mail Message"
+
+        # format loop
+        - name: "Compare EMLX Files"
+          link: "https://products.groupdocs.com/comparison/java/emlx/"
+          description: "Apple Mail E-mail File"
 
         # format loop
         - name: "Compare ONE Files"

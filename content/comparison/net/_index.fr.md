@@ -59,14 +59,13 @@ submenu:
         link_learn: "https://docs.groupdocs.com/comparison/net/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Aperçu ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
       GroupDocs.Comparison pour l'API .NET est une solution rapide et fiable pour créer des applications de vérification des différences entre des documents de même format en C#, ASP.NET ou d'autres technologies liées à .NET. La bibliothèque de comparaison .NET prend en charge la vérification des différences dans le contenu ainsi que le style de texte des formats d'image et de document populaires tels que PDF, HTML, e-mail Outlook, documents Microsoft Office Word, feuilles de calcul Excel, présentations PowerPoint, OneNote, diagrammes Visio, texte et images. La comparaison peut être effectuée pour détecter les changements de contenu pour les mots, les paragraphes et les caractères tout en fournissant un document de comparaison qui répertorie le résumé des différences. L'API GroupDocs.Comparison pour .NET peut facilement extraire les informations de base du document source. Il peut également récupérer, comparer et enregistrer des mots de passe simples, ainsi que des documents cryptés via un fichier ou un flux.
         
       GroupDocs.Comparison pour .NET peut être utilisé pour développer des applications dans n'importe quel environnement de développement qui cible la plate-forme .NET. Il est compatible avec tous les langages basés sur .NET et prend en charge les systèmes d'exploitation populaires (Windows, Linux, Mac OS) sur lesquels les frameworks Mono ou .NET (y compris .NET Core) peuvent être installés.
-
     tabs:
       enable: true
       
@@ -91,19 +90,18 @@ overview:
       tab_two:
         description: |
           GroupDocs.Comparison pour .NET prend en charge tous les courants [formats de fichiers de documents](https://docs.groupdocs.com/comparison/net/supported-document-formats/), notamment : Microsoft Office, PDF, images et bien d'autres.
-
         left:
           enable: true
           table:
             # table loop
             - title: "Microsoft Office"
               content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Outlook:** MSG, EML, EMLX, PST, OST
-                * **OneNote:** ONE
+                * **Word:** [DOC](https://products.groupdocs.com/comparison/net/doc/), [DOCX](https://products.groupdocs.com/comparison/net/docx/), [DOCM](https://products.groupdocs.com/comparison/net/docm/), [DOT](https://products.groupdocs.com/comparison/net/dot/), [DOTX](https://products.groupdocs.com/comparison/net/dotx/), [DOTM](https://products.groupdocs.com/comparison/net/dotm/), [RTF](https://products.groupdocs.com/comparison/net/rtf/), [TXT](https://products.groupdocs.com/comparison/net/txt/)
+                * **Excel:** [XLS](https://products.groupdocs.com/comparison/net/xls/), [XLSX](https://products.groupdocs.com/comparison/net/xlsx/), [XLSM](https://products.groupdocs.com/comparison/net/xlsm/), [XLSB](https://products.groupdocs.com/comparison/net/xlsb/), [XLTM](https://products.groupdocs.com/comparison/net/xltm/), [XLT](https://products.groupdocs.com/comparison/net/xlt/), [XLTM](https://products.groupdocs.com/comparison/net/xltm/), [XLTX](https://products.groupdocs.com/comparison/net/xltx/), [XLAM](https://products.groupdocs.com/comparison/net/xlam/), [SXC](https://products.groupdocs.com/comparison/net/sxc/), [SpreadsheetML](https://products.groupdocs.com/comparison/net/xml/)
+                * **PowerPoint:** [PPT](https://products.groupdocs.com/comparison/net/ppt/), [PPTX](https://products.groupdocs.com/comparison/net/pptx/), [PPS](https://products.groupdocs.com/comparison/net/pps/), [PPSX](https://products.groupdocs.com/comparison/net/ppsx/), [PPSM](https://products.groupdocs.com/comparison/net/ppsm/), [POT](https://products.groupdocs.com/comparison/net/pot/), [POTM](https://products.groupdocs.com/comparison/net/potm/), [POTX](https://products.groupdocs.com/comparison/net/potx/), [PPTM](https://products.groupdocs.com/comparison/net/pptm/)
+                * **Visio:** [VSD](https://products.groupdocs.com/comparison/net/vsd/), [VDX](https://products.groupdocs.com/comparison/net/vdx/), [VSS](https://products.groupdocs.com/comparison/net/vss/), [VSSX](https://products.groupdocs.com/comparison/net/vssx/), [VSX](https://products.groupdocs.com/comparison/net/vsx/), [VST](https://products.groupdocs.com/comparison/net/vst/), [VSTX](https://products.groupdocs.com/comparison/net/vstx/), [VTX](https://products.groupdocs.com/comparison/net/vtx/), [VSDX](https://products.groupdocs.com/comparison/net/vsdx/), [VDW](https://products.groupdocs.com/comparison/net/vdw/), [VSTM](https://products.groupdocs.com/comparison/net/vstm/), [VSSM](https://products.groupdocs.com/comparison/net/vssm/), [VSDM](https://products.groupdocs.com/comparison/net/vsdm/)
+                * **Outlook:** [MSG](https://products.groupdocs.com/comparison/net/msg/), [EML](https://products.groupdocs.com/comparison/net/eml/), [EMLX](https://products.groupdocs.com/comparison/net/emlx/), [PST](https://products.groupdocs.com/comparison/net/pst/), [OST](https://products.groupdocs.com/comparison/net/ost/)
+                * **OneNote:** [ONE](https://products.groupdocs.com/comparison/net/one/)
 
         right:
           enable: true
@@ -124,7 +122,7 @@ overview:
       tab_three:
         description: |
           GroupDocs.Comparison for .NET prend en charge la suite Systèmes d'exploitation & Directeur chargé d'emballages:
-        
+      
         left:
           enable: true
           table:
@@ -166,7 +164,7 @@ overview:
                 * Xamarin.Mac
                 * MonoDevelop
 
-############################# Caractéristiques ############################
+############################# Features ############################
 features:
     enable: true
     title: "GroupDocs.Comparison pour les fonctionnalités .NET"

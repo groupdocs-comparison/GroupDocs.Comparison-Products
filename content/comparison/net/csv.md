@@ -1,3 +1,4 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -6,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Compare two CSV files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (CSV files in C# .NET applications. Retrieve differences summary in content, text &amp; style of CSV files, images and document formats."
+head_description: "Compare and merge more than two (CSV files in C# .NET applications. Retrieve differences summary in content, text & style of CSV files, images and document formats."
 
 ############################# Header ############################
 title: "Compare CSV Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing CSV Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple CSV files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.csv")
         {
-        	comparer.Add("target1.csv");
+        	  comparer.Add("target1.csv");
             comparer.Add("target2.csv");
             comparer.Add("target3.csv");
             comparer.Compare("result.csv"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.csv"))
         {
-        	comparer.Add(File.OpenRead("target1.csv"));
+        	  comparer.Add(File.OpenRead("target1.csv"));
             comparer.Add(File.OpenRead("target2.csv"));
             comparer.Add(File.OpenRead("target3.csv"));
             comparer.Compare(File.Create("result.csv")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between CSV files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,8 +120,7 @@ about_formats:
           title: "About CSV File Format"
           content: |
             Files with CSV (Comma Separated Values) extension represent plain text files that contain records of data with comma separated values. Each line in a CSV file is a new record from the set of records contained in the file. Such files are generated when data transfer is intended from one storage system to another. Since all applications can recognize records separated by comma, import of such data files to database is done very conveniently. Almost all spreadsheet applications such as Microsoft Excel or OpenOffice Calc can import CSV without much effort. Data imported from such files is arranged in cells of a spreadsheet for representation to user.
-
-          link: "https://docs.fileformat.com/spreadsheet/csv/"
+          link: "https://docs.fileformat.com/image/csv/"
 
 ############################# More Formats ############################
 more_formats:
@@ -199,6 +198,11 @@ more_formats:
         - name: "Compare XLSB Files"
           link: "https://products.groupdocs.com/comparison/net/xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
+
+        # format loop
+        - name: "Compare CSV Files"
+          link: "https://products.groupdocs.com/comparison/net/csv/"
+          description: "Comma Separated Values File"
 
         # format loop
         - name: "Compare PPT Files"

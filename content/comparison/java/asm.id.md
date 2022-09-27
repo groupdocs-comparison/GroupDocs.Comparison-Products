@@ -1,11 +1,15 @@
+
 ---
-layout: "auto-gen"
+############################# Static ############################
+layout: "auto-gen-comparison"
 date: 2022-07-07T12:44:18+03:00
 draft: false
 
+############################# Head ############################
 head_title: "API Perbandingan ASM Java - Bandingkan File ASM untuk Perbedaan"
-head_description: "Bandingkan dan gabungkan file ASM di aplikasi Java, J2EE, J2SE. Analisis perbedaan ringkasan dalam konten, teks &amp; gaya file ASM, gambar, dan format dokumen."
+head_description: "Bandingkan dan gabungkan file ASM di aplikasi Java, J2EE, J2SE. Analisis perbedaan ringkasan dalam konten, teks & gaya file ASM, gambar, dan format dokumen."
 
+############################# Header ############################
 title: "Bandingkan File ASM di Jawa"
 description: "Lakukan perbandingan baris demi baris antara lebih dari dua file ASM di Java. Ambil daftar perbedaan dan simpan file yang dibandingkan ke satu dokumen."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
@@ -16,6 +20,7 @@ button:
     label: "Unduh Uji Coba Gratis"
     link: "https://downloads.groupdocs.com/comparison/java"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -26,17 +31,20 @@ submenu:
         platform: "Java"
 
     middle:
-        button:
-
+        button: 
+            # button loop
             - link: "https://apireference.groupdocs.com/comparison/java"
               text: "Referensi API"
 
+            # button loop
             - link: "https://github.com/groupdocs-comparison"
               text: "Contoh Kode"
 
+            # button loop
             - link: "https://products.groupdocs.app/comparison/family"
               text: "Demo Langsung"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/java"
               text: "Harga"
 
@@ -45,31 +53,30 @@ submenu:
         link_learn: "https://docs.groupdocs.com/comparison/java"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
     title: "Tentang GroupDocs.Perbandingan untuk Java API"
     content: |
         Berdayakan aplikasi Java Anda dengan fitur perbandingan gambar dan dokumen menggunakan [GroupDocs.Comparison for Java](/id/comparison/java/) API. Ini membantu Anda mengidentifikasi perbedaan dalam paragraf, kata, karakter, bentuk, bahkan gaya teks dari dokumen yang dibandingkan dengan format yang sama, memungkinkan penggabungan perubahan dan ekspor ke dokumen akhir. Mendukung membandingkan dan menggabungkan berbagai dokumen termasuk PDF, Word, lembar kerja Excel, presentasi PowerPoint, diagram Visio, email Outlook, HTML, gambar dan format file gambar tanpa menggunakan perpustakaan eksternal.
 
+############################# Steps ############################
 steps:
     enable: true
     title_left: "Langkah-langkah untuk Membandingkan File ASM di Java"
     content_left: |
         [GroupDocs.Comparison](/id/comparison/java/) memudahkan pengembang Java untuk membandingkan file ASM dalam aplikasi mereka menggunakan beberapa baris kode.
-
+        
         * Buat instance objek **Comparer** dengan jalur atau aliran dokumen sumber.
         * Panggil metode tambah dan tentukan jalur atau aliran dokumen target.
         * Metode bandingkan panggilan.
-        
     title_right: "Persyaratan sistem"
     content_right: |
         GroupDocs.Comparison untuk Java API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
-
         * Sistem Operasi: Microsoft Windows, Linux, MacOS
         * Lingkungan Pengembangan: NetBeans, Intellij IDEA, Eclipse dll
         * Lingkungan Runtime Java: J2SE 6.0 dan yang lebih baru
         * Dapatkan versi terbaru GroupDocs.Comparison untuk Java dari [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
-        
     code: |
         ```java
         // Bandingkan dokumen dari file lokal
@@ -86,15 +93,26 @@ steps:
             comparer.compare(new FileOutputStream("C:\\result.asm"));
         }
         ```
-        
+
+############################# Demos ############################
 demos:
     enable: true
     title: "Demo Langsung untuk Membandingkan ASM File"
     content: |
         Bandingkan file ASM sekarang dengan mengunjungi situs web [GroupDocs.Comparison](https://products.groupdocs.app/comparison/family). Demo langsung memiliki manfaat sebagai berikut.
-        
 
+############################# About Formats ############################
+about_formats:
+    enable: true
+    format:
+        # format loop
+        - icon: "far fa-file-asm"
+          title: "Tentang Format Berkas ASM"
+          content: |
+            {{asm}}
+          link: "https://docs.fileformat.com/image/asm/"
 
+############################# More Formats ############################
 more_formats:
     enable: true
     title: "Bandingkan Format File Lain"
@@ -301,7 +319,15 @@ more_formats:
           link: "/comparison/java/rb/"
           description: "Bahasa Ruby"
 
+############################# Solutions ############################
+solutions:
+    enable: true
+    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
 
+    solution:
+        
+
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

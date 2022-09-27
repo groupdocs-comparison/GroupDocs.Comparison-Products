@@ -59,22 +59,21 @@ submenu:
         link_learn: "https://docs.groupdocs.com/comparison/java/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Aperçu ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
       GroupDocs.Comparison pour Java est l'API la plus flexible et la plus facile à utiliser pour développer des applications de comparaison de documents dans un environnement Java. Le vérificateur de différences et l'API de fusion de documents vous permettent de détecter les changements et les différences de contenu ainsi que le style de texte entre des formats de documents similaires. Il prend en charge la comparaison de tous les formats de documents standard de l'industrie tels que PDF, HTML, Microsoft Office Word, les feuilles de calcul Excel, les présentations PowerPoint, les e-mails Outlook, les diagrammes Visio, OpenDocument, AutoCAD et les images. Grâce à la fonction de suivi des modifications, le résumé des différences entre le document source et le document cible sera présenté dans un document de comparaison complet. L'API GroupDocs.Comparison pour Java permet de récupérer et d'enregistrer des documents simples, protégés par un mot de passe, ainsi que des documents cryptés via un fichier ou un flux.
         
       GroupDocs.Comparison pour Java ne nécessite l'installation d'aucun logiciel externe sur le système. Il est compatible avec toutes les versions de Java et prend en charge les systèmes d'exploitation populaires (Windows, Linux, Mac OS) capables d'exécuter l'environnement d'exécution Java.
-      
     tabs:
-      enable: true     
+      enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
           Voici un aperçu de GroupDocs.Comparison pour Java :
-
+      
         right:
           enable: true
           icon: "fab fa-html5"
@@ -97,19 +96,18 @@ overview:
       tab_two:
         description: |
           GroupDocs.Comparison pour Java prend en charge tous les [formats de fichiers de documents](https://docs.groupdocs.com/comparison/java/supported-document-formats/) courants, y compris : Microsoft Office, les images, les diagrammes et bien d'autres.
-
         left:
           enable: true
           table:
             # table loop
             - title: "Microsoft Office"
               content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Outlook:** MSG, EML, EMLX, PST, OST
-                * **OneNote:** ONE
+                * **Word:** [DOC](https://products.groupdocs.com/comparison/java/doc/), [DOCX](https://products.groupdocs.com/comparison/java/docx/), [DOCM](https://products.groupdocs.com/comparison/java/docm/), [DOT](https://products.groupdocs.com/comparison/java/dot/), [DOTX](https://products.groupdocs.com/comparison/java/dotx/), [DOTM](https://products.groupdocs.com/comparison/java/dotm/), [RTF](https://products.groupdocs.com/comparison/java/rtf/), [TXT](https://products.groupdocs.com/comparison/java/txt/)
+                * **Excel:** [XLS](https://products.groupdocs.com/comparison/java/xls/), [XLSX](https://products.groupdocs.com/comparison/java/xlsx/), [XLSM](https://products.groupdocs.com/comparison/java/xlsm/), [XLSB](https://products.groupdocs.com/comparison/java/xlsb/), [XLTM](https://products.groupdocs.com/comparison/java/xltm/), [XLT](https://products.groupdocs.com/comparison/java/xlt/), [XLTM](https://products.groupdocs.com/comparison/java/xltm/), [XLTX](https://products.groupdocs.com/comparison/java/xltx/), [XLAM](https://products.groupdocs.com/comparison/java/xlam/), [SXC](https://products.groupdocs.com/comparison/java/sxc/), [SpreadsheetML](https://products.groupdocs.com/comparison/java/xml/)
+                * **PowerPoint:** [PPT](https://products.groupdocs.com/comparison/java/ppt/), [PPTX](https://products.groupdocs.com/comparison/java/pptx/), [PPS](https://products.groupdocs.com/comparison/java/pps/), [PPSX](https://products.groupdocs.com/comparison/java/ppsx/), [PPSM](https://products.groupdocs.com/comparison/java/ppsm/), [POT](https://products.groupdocs.com/comparison/java/pot/), [POTM](https://products.groupdocs.com/comparison/java/potm/), [POTX](https://products.groupdocs.com/comparison/java/potx/), [PPTM](https://products.groupdocs.com/comparison/java/pptm/)
+                * **Visio:** [VSD](https://products.groupdocs.com/comparison/java/vsd/), [VDX](https://products.groupdocs.com/comparison/java/vdx/), [VSS](https://products.groupdocs.com/comparison/java/vss/), [VSSX](https://products.groupdocs.com/comparison/java/vssx/), [VSX](https://products.groupdocs.com/comparison/java/vsx/), [VST](https://products.groupdocs.com/comparison/java/vst/), [VSTX](https://products.groupdocs.com/comparison/java/vstx/), [VTX](https://products.groupdocs.com/comparison/java/vtx/), [VSDX](https://products.groupdocs.com/comparison/java/vsdx/), [VDW](https://products.groupdocs.com/comparison/java/vdw/), [VSTM](https://products.groupdocs.com/comparison/java/vstm/), [VSSM](https://products.groupdocs.com/comparison/java/vssm/), [VSDM](https://products.groupdocs.com/comparison/java/vsdm/)
+                * **Outlook:** [MSG](https://products.groupdocs.com/comparison/java/msg/), [EML](https://products.groupdocs.com/comparison/java/eml/), [EMLX](https://products.groupdocs.com/comparison/java/emlx/), [PST](https://products.groupdocs.com/comparison/java/pst/), [OST](https://products.groupdocs.com/comparison/java/ost/)
+                * **OneNote:** [ONE](https://products.groupdocs.com/comparison/java/one/)
 
         right:
           enable: true
@@ -130,7 +128,7 @@ overview:
       tab_three:
         description: |
           GroupDocs.Comparison for Java prend en charge la suite Systèmes d'exploitation, Frameworks & Directeur chargé d'emballages:
-        
+      
         left:
           enable: true
           table:
@@ -165,7 +163,7 @@ overview:
               content: |
                 * Maven
 
-############################# Caractéristiques ############################
+############################# Features ############################
 features:
     enable: true
     title: "GroupDocs.Comparison pour les fonctionnalités Java"

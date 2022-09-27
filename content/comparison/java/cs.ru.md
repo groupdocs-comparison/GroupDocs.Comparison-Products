@@ -1,11 +1,14 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:11+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
+
 ############################# Head ############################
 head_title: "API сравнения Java CS — сравнение файлов CS на наличие различий"
 head_description: "Сравнивайте и объединяйте файлы CS в приложениях Java, J2EE, J2SE. Проанализируйте сводку различий в содержании, тексте и усилителях. стиль файлов CS, изображений и форматов документов."
+
 ############################# Header ############################
 title: "Сравните файлы CS в Java"
 description: "Выполните построчное сравнение между более чем двумя файлами CS в Java. Получить список различий и сохранить сравниваемые файлы в один документ."
@@ -16,54 +19,67 @@ button:
     icon: "fas fa-arrow-down"
     label: "Скачать бесплатную пробную версию"
     link: "https://downloads.groupdocs.com/comparison/java"
+
 ############################# SubMenu ############################
 submenu:
     enable: true
+
     left:
-        img_alt: "GroupDocs.Comparison for Java"
+        img_alt: "GroupDocs.Comparison для Java"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-java.png"
         product: "GroupDocs.Comparison"
         platform: "Java"
+
     middle:
-        button:
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/java"
               text: "Справочник по API"
+
             # button loop
             - link: "https://github.com/groupdocs-comparison"
               text: "Примеры кода"
+
             # button loop
             - link: "https://products.groupdocs.app/comparison/family"
               text: "Живые демонстрации"
+
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/java"
               text: "Цены"
+
     right:
         link_download: "https://downloads.groupdocs.com/comparison"
         link_learn: "https://docs.groupdocs.com/comparison/java"
         link_buy: "https://purchase.groupdocs.com"
+
 ############################# About ############################
 about:
     enable: true
     title: "О GroupDocs.Comparison для Java API"
     content: |
         Расширьте возможности своих Java-приложений с помощью функций сравнения изображений и документов с помощью API [GroupDocs.Comparison for Java](/ru/comparison/java/). Это помогает вам определить различия в абзацах, словах, символах, формах и даже текстовых стилях сравниваемых документов одного формата, позволяет объединять изменения и экспортировать в окончательный документ. Он поддерживает сравнение и объединение широкого спектра документов, включая рабочие листы PDF, Word, Excel, презентации PowerPoint, диаграммы Visio, электронные письма Outlook, HTML, рисунки и форматы файлов изображений, без использования какой-либо внешней библиотеки.
+
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для сравнения файлов CS в Java"
     content_left: |
         [GroupDocs.Comparison](/ru/comparison/java/) позволяет разработчикам Java легко сравнивать файлы CS в своих приложениях с помощью нескольких строк кода.
+        
         * Создание экземпляра объекта Comparer с путем или потоком исходного документа.
         * Вызовите метод добавления и укажите путь к целевому документу или поток.
         * Метод сравнения вызовов.
+    
     title_right: "Системные Требования"
     content_right: |
         API GroupDocs.Comparison для Java поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среда разработки: NetBeans, Intellij IDEA, Eclipse и т. д.
         * Среда выполнения Java: J2SE 6.0 и выше
         * Получите последнюю версию GroupDocs.Comparison для Java от [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
+    
     code: |
         ```java
         // Сравните документы из локального файла
@@ -77,12 +93,14 @@ steps:
             comparer.compare(new FileOutputStream("C:\\result.cs")); // Создать результирующий файл с указанным именем
         }
         ```
+
 ############################# Demos ############################
 demos:
     enable: true
     title: "Живые демонстрации для сравнения файлов CS"
     content: |
         Сравните файлы CS прямо сейчас, посетив [живые демонстрации](https://products.groupdocs.app/comparison/family). Живая демонстрация имеет следующие преимущества
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -92,7 +110,8 @@ about_formats:
           title: "О формате файла CS"
           content: |
             Файлы с расширением .CS являются файлами исходного кода для языка программирования C#. Представленный Microsoft для использования с .NET Framework, формат файла предоставляет язык программирования низкого уровня для написания кода, который компилируется для создания конечного выходного файла в форме EXE или DLL. Их можно создать и скомпилировать с помощью Microsoft Visual Studio. Microsoft Visual Studio Express также можно использовать для создания и обновления таких файлов, что является бесплатной IDE. Файлы CS используются для разработки приложений, которые могут варьироваться от простых настольных приложений до более сложных программ. Простое проектное решение Visual Studio, созданное с помощью языка C#, может состоять из одного или нескольких таких файлов. Файлы, помеченные для включения в компиляцию, перечислены в файле CSPROJ, который является частью проекта, и указывает компилятору использовать помеченные файлы.
-          link: "https://docs.fileformat.com/programming/cs/"
+          link: "https://docs.fileformat.com/image/cs/"
+
 ############################# More Formats ############################
 more_formats:
     enable: true
@@ -277,6 +296,10 @@ more_formats:
           link: "/comparison/java/vdx/"
           description: "Microsoft Visio 2003-2010 XML-чертеж"
         # format loop
+        - name: "Сравнить файлы CS"
+          link: "/comparison/java/cs/"
+          description: "Язык CSharp"
+        # format loop
         - name: "Сравнить файлы Java"
           link: "/comparison/java/java/"
           description: "Язык Java"
@@ -296,6 +319,20 @@ more_formats:
         - name: "Сравнить файлы RB"
           link: "/comparison/java/rb/"
           description: "Рубиновый язык"
+
+############################# Solutions ############################
+solutions:
+    enable: true
+    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+
+    solution:
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for .NET CS"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-net.png"
+          product: "GroupDocs.Comparison"
+          platform: ".NET"
+          link: "/comparison/net/cs/"
+
 ############################# Back to top ###############################
 back_to_top:
     enable: true

@@ -1,11 +1,14 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:23+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
+
 ############################# Head ############################
 head_title: "Сравните два файла PNG в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов PNG в приложениях C# .NET. Извлеките сводку различий в содержимом, тексте и стиле файлов PNG, изображений и форматов документов."
+head_description: "Сравните и объедините более двух файлов PNG в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+
 ############################# Header ############################
 title: "Сравните файлы PNG в C# .NET"
 description: ".NET API для сравнения документов для обнаружения изменений между двумя версиями файлов PNG и экспорта в окончательный документ с подробным описанием различий между сравниваемыми документами."
@@ -16,60 +19,73 @@ button:
     icon: "fas fa-arrow-down"
     label: "Скачать бесплатную пробную версию"
     link: "https://downloads.groupdocs.com/comparison/net"
+
 ############################# SubMenu ############################
 submenu:
     enable: true
+
     left:
-        img_alt: "GroupDocs.Comparison for .NET"
+        img_alt: "GroupDocs.Comparison для .NET"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-net.png"
         product: "GroupDocs.Comparison"
         platform: ".NET"
+
     middle:
-        button:
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "Справочник по API"
+
             # button loop
             - link: "https://github.com/groupdocs-comparison"
               text: "Примеры кода"
+
             # button loop
             - link: "https://products.groupdocs.app/comparison/family"
               text: "Живые демонстрации"
+
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/net"
               text: "Цены"
+
     right:
         link_download: "https://downloads.groupdocs.com/comparison"
         link_learn: "https://docs.groupdocs.com/comparison/net"
         link_buy: "https://purchase.groupdocs.com"
+
 ############################# About ############################
 about:
     enable: true
     title: "О GroupDocs.Comparison для .NET API"
     content: |
         [GroupDocs.Comparison for .NET](/ru/comparison/net/) — это собственный API .NET для сравнения нескольких изображений и документов одного формата. Он помогает обнаруживать различия в абзацах, словах, символах, формах и даже стилях текста сравниваемых документов, объединять изменения и экспортировать их в окончательный документ. Он поддерживает сравнение и объединение PDF, документов Word, электронных таблиц Excel, презентаций PowerPoint, диаграмм Visio, электронных писем Outlook, HTML, рисунков и форматов файлов изображений без использования какой-либо внешней библиотеки.
+
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для сравнения файлов PNG в C#"
     content_left: |
         [GroupDocs.Comparison](/ru/comparison/net/) позволяет разработчикам .NET легко сравнивать и объединять несколько файлов PNG в своих приложениях, выполняя несколько простых шагов.
+        
         * Создание экземпляра объекта Comparer с путем или потоком исходного документа.
         * Вызовите метод Add и укажите путь к целевому документу или поток. Повторите этот шаг для каждого целевого документа.
         * Метод сравнения вызовов.
+    
     title_right: "Системные Требования"
     content_right: |
         API GroupDocs.Comparison для .NET поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
         * Получите последнюю версию GroupDocs.Comparison для .NET, загруженную с [NuGet](https://www.nuget.org/packages/groupdocs.comparison).
+    
     code: |
         ```cs
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.png")
         {
-        	comparer.Add("target1.png");
+        	  comparer.Add("target1.png");
             comparer.Add("target2.png");
             comparer.Add("target3.png");
             comparer.Compare("result.png"); // Создать результирующий файл с указанным именем
@@ -77,12 +93,13 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.png"))
         {
-        	comparer.Add(File.OpenRead("target1.png"));
+        	  comparer.Add(File.OpenRead("target1.png"));
             comparer.Add(File.OpenRead("target2.png"));
             comparer.Add(File.OpenRead("target3.png"));
             comparer.Compare(File.Create("result.png")); // Создать результирующий файл с указанным именем
         }
         ```
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -90,6 +107,7 @@ demos:
     content: |
         Обнаружьте различия между файлами PNG прямо сейчас, посетив [живые демонстрации](https://products.groupdocs.app/comparison/family). 
         Живая демонстрация имеет следующие преимущества
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -100,6 +118,7 @@ about_formats:
           content: |
             PNG, переносимая сетевая графика, относится к типу формата файла растрового изображения, в котором используется сжатие без потерь. Этот формат файла был создан в качестве замены формата обмена графикой (GIF) и не имеет ограничений авторского права. Однако формат файла PNG не поддерживает анимацию. Формат файлов PNG поддерживает сжатие изображений без потерь, что делает его популярным среди пользователей. С течением времени PNG превратился в один из наиболее часто используемых форматов файлов изображений. Почти все операционные системы поддерживают открытие файлов PNG. Например, средство просмотра Microsoft Windows имеет возможность открывать файлы PNG, поскольку ОС по умолчанию поддерживает эту поддержку, доступную как часть установки.
           link: "https://docs.fileformat.com/image/png/"
+
 ############################# More Formats ############################
 more_formats:
     enable: true
@@ -224,6 +243,10 @@ more_formats:
           link: "/comparison/net/jpeg/"
           description: "Изображение в формате JPEG"
         # format loop
+        - name: "Сравнить файлы PNG"
+          link: "/comparison/net/png/"
+          description: "Портативная сетевая графика"
+        # format loop
         - name: "Сравнить файлы GIF"
           link: "/comparison/net/gif/"
           description: "Графический файл формата обмена"
@@ -303,6 +326,20 @@ more_formats:
         - name: "Сравнить файлы RB"
           link: "/comparison/net/rb/"
           description: "Рубиновый язык"
+
+############################# Solutions ############################
+solutions:
+    enable: true
+    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+
+    solution:
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for Java PNG"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
+          product: "GroupDocs.Comparison"
+          platform: "Java"
+          link: "/comparison/java/png/"
+
 ############################# Back to top ###############################
 back_to_top:
     enable: true

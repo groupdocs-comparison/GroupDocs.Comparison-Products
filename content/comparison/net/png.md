@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:23+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Compare two PNG files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (PNG files in C# .NET applications. Retrieve differences summary in content, text &amp; style of PNG files, images and document formats."
+head_description: "Compare and merge more than two (PNG files in C# .NET applications. Retrieve differences summary in content, text & style of PNG files, images and document formats."
 
 ############################# Header ############################
 title: "Compare PNG Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing PNG Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple PNG files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.png")
         {
-        	comparer.Add("target1.png");
+        	  comparer.Add("target1.png");
             comparer.Add("target2.png");
             comparer.Add("target3.png");
             comparer.Compare("result.png"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.png"))
         {
-        	comparer.Add(File.OpenRead("target1.png"));
+        	  comparer.Add(File.OpenRead("target1.png"));
             comparer.Add(File.OpenRead("target2.png"));
             comparer.Add(File.OpenRead("target3.png"));
             comparer.Compare(File.Create("result.png")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between PNG files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,7 +120,6 @@ about_formats:
           title: "About PNG File Format"
           content: |
             PNG, Portable Network Graphics, refers to a type of raster image file format that use loseless compression. This file format was created as a replacement of Graphics Interchange Format (GIF) and has no copyright limitations. However, PNG file format does not support animations. PNG file format supports loseless image compression that makes it popular among its users. With the passage of time, PNG has evolved as one of the mostly used image file format. Almost all Operating Systems have support for opening PNG files. For example, Microsoft Windows viewer has the capability to open PNG files as the OS has by default the support available as part of installation.
-
           link: "https://docs.fileformat.com/image/png/"
 
 ############################# More Formats ############################
@@ -269,6 +268,11 @@ more_formats:
         - name: "Compare JPEG Files"
           link: "https://products.groupdocs.com/comparison/net/jpeg/"
           description: "JPEG Image"
+
+        # format loop
+        - name: "Compare PNG Files"
+          link: "https://products.groupdocs.com/comparison/net/png/"
+          description: "Portable Network Graphic"
 
         # format loop
         - name: "Compare GIF Files"

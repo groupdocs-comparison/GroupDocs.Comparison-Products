@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:21+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Compare two JAVA files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (JAVA files in C# .NET applications. Retrieve differences summary in content, text &amp; style of JAVA files, images and document formats."
+head_description: "Compare and merge more than two (JAVA files in C# .NET applications. Retrieve differences summary in content, text & style of JAVA files, images and document formats."
 
 ############################# Header ############################
 title: "Compare JAVA Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing JAVA Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple JAVA files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.java")
         {
-        	comparer.Add("target1.java");
+        	  comparer.Add("target1.java");
             comparer.Add("target2.java");
             comparer.Add("target3.java");
             comparer.Compare("result.java"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.java"))
         {
-        	comparer.Add(File.OpenRead("target1.java"));
+        	  comparer.Add(File.OpenRead("target1.java"));
             comparer.Add(File.OpenRead("target2.java"));
             comparer.Add(File.OpenRead("target3.java"));
             comparer.Compare(File.Create("result.java")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between JAVA files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,8 +120,7 @@ about_formats:
           title: "About JAVA File Format"
           content: |
             Java is a general-purpose object-oriented language that can run on multiple platforms. The Java source code is contained in a file with the .java extension. Java is used for the development of mobile applications, web applications, desktop applications, games, etc. Java works on multiple platforms including Windows, Mac, Linux, Raspberry Pi, etc. Java is very similar to C# and C++ so it is easier to switch between these languages.
-
-          link: "https://docs.fileformat.com/programming/java/"
+          link: "https://docs.fileformat.com/image/java/"
 
 ############################# More Formats ############################
 more_formats:
@@ -351,6 +350,11 @@ more_formats:
           description: "CSharp Language"
 
         # format loop
+        - name: "Compare Java Files"
+          link: "https://products.groupdocs.com/comparison/net/java/"
+          description: "Java Language"
+
+        # format loop
         - name: "Compare CPP Files"
           link: "https://products.groupdocs.com/comparison/net/cpp/"
           description: "C++ Language"
@@ -377,7 +381,7 @@ solutions:
 
     solution:
         # solution loop
-        - img_alt: "GroupDocs.Comparison for Java"
+        - img_alt: "GroupDocs.Comparison for Java JAVA"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
           product: "GroupDocs.Comparison"
           platform: "Java"

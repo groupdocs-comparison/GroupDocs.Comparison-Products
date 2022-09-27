@@ -59,7 +59,7 @@ submenu:
         link_learn: "https://docs.groupdocs.com/comparison/java/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# 概述 ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
@@ -67,13 +67,13 @@ overview:
         
       GroupDocs.Comparison for Java 不需要在系统上安装任何外部软件。它与所有 Java 版本兼容，并支持能够运行 Java 运行时的流行操作系统（Windows、Linux、MacOS）。
     tabs:
-      enable: true     
+      enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
           以下是 Java 的 GroupDocs.Comparison 概述：
-
+      
         right:
           enable: true
           icon: "fab fa-html5"
@@ -96,19 +96,18 @@ overview:
       tab_two:
         description: |
           GroupDocs.Comparison for Java 支持所有流行的 [文档文件格式](https://docs.groupdocs.com/comparison/java/supported-document-formats/)，包括：微软办公软件、图像、图表等。
-
         left:
           enable: true
           table:
             # table loop
-            - title: "微软办公软件"
+            - title: "Microsoft Office"
               content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Outlook:** MSG, EML, EMLX, PST, OST
-                * **OneNote:** ONE
+                * **Word:** [DOC](https://products.groupdocs.com/comparison/java/doc/), [DOCX](https://products.groupdocs.com/comparison/java/docx/), [DOCM](https://products.groupdocs.com/comparison/java/docm/), [DOT](https://products.groupdocs.com/comparison/java/dot/), [DOTX](https://products.groupdocs.com/comparison/java/dotx/), [DOTM](https://products.groupdocs.com/comparison/java/dotm/), [RTF](https://products.groupdocs.com/comparison/java/rtf/), [TXT](https://products.groupdocs.com/comparison/java/txt/)
+                * **Excel:** [XLS](https://products.groupdocs.com/comparison/java/xls/), [XLSX](https://products.groupdocs.com/comparison/java/xlsx/), [XLSM](https://products.groupdocs.com/comparison/java/xlsm/), [XLSB](https://products.groupdocs.com/comparison/java/xlsb/), [XLTM](https://products.groupdocs.com/comparison/java/xltm/), [XLT](https://products.groupdocs.com/comparison/java/xlt/), [XLTM](https://products.groupdocs.com/comparison/java/xltm/), [XLTX](https://products.groupdocs.com/comparison/java/xltx/), [XLAM](https://products.groupdocs.com/comparison/java/xlam/), [SXC](https://products.groupdocs.com/comparison/java/sxc/), [SpreadsheetML](https://products.groupdocs.com/comparison/java/xml/)
+                * **PowerPoint:** [PPT](https://products.groupdocs.com/comparison/java/ppt/), [PPTX](https://products.groupdocs.com/comparison/java/pptx/), [PPS](https://products.groupdocs.com/comparison/java/pps/), [PPSX](https://products.groupdocs.com/comparison/java/ppsx/), [PPSM](https://products.groupdocs.com/comparison/java/ppsm/), [POT](https://products.groupdocs.com/comparison/java/pot/), [POTM](https://products.groupdocs.com/comparison/java/potm/), [POTX](https://products.groupdocs.com/comparison/java/potx/), [PPTM](https://products.groupdocs.com/comparison/java/pptm/)
+                * **Visio:** [VSD](https://products.groupdocs.com/comparison/java/vsd/), [VDX](https://products.groupdocs.com/comparison/java/vdx/), [VSS](https://products.groupdocs.com/comparison/java/vss/), [VSSX](https://products.groupdocs.com/comparison/java/vssx/), [VSX](https://products.groupdocs.com/comparison/java/vsx/), [VST](https://products.groupdocs.com/comparison/java/vst/), [VSTX](https://products.groupdocs.com/comparison/java/vstx/), [VTX](https://products.groupdocs.com/comparison/java/vtx/), [VSDX](https://products.groupdocs.com/comparison/java/vsdx/), [VDW](https://products.groupdocs.com/comparison/java/vdw/), [VSTM](https://products.groupdocs.com/comparison/java/vstm/), [VSSM](https://products.groupdocs.com/comparison/java/vssm/), [VSDM](https://products.groupdocs.com/comparison/java/vsdm/)
+                * **Outlook:** [MSG](https://products.groupdocs.com/comparison/java/msg/), [EML](https://products.groupdocs.com/comparison/java/eml/), [EMLX](https://products.groupdocs.com/comparison/java/emlx/), [PST](https://products.groupdocs.com/comparison/java/pst/), [OST](https://products.groupdocs.com/comparison/java/ost/)
+                * **OneNote:** [ONE](https://products.groupdocs.com/comparison/java/one/)
 
         right:
           enable: true
@@ -116,20 +115,17 @@ overview:
             # table loop
             - title: "其他格式"
               content: |
-                * **Языки программирования**: CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, ActionScript, PHP, SQL, LOG, DIFF, LESS, SCALA
-                * **OpenDocument**: ODT, OTT, ODS, ODP, OTP
-                * **Портативный**: PDF, MOBI
-                * **AutoCAD**: DXF, DWG
-                * **Электронная почта**: EML, EMLX, MSG
-                * **Изображения**: JPEG, BMP, PNG, GIF, DCM, DICOM, DjVu
-                * **Интернет**: HTM, HTML, MHTML
-                * **Текст**: TXT
+                * **Portable**: [PDF](/comparison/java/pdf/) (PDF/A-1a, PDF/A-1b, PDF/A-2a)
+                * **OpenDocument**: [ODT](/comparison/java/odt/), [ODS](/comparison/java/ods/), [ODP](/comparison/java/odp/)
+                * **Images**: [BMP](/comparison/java/bmp/), [JPG](/comparison/java/jpg/), [JPEG](/comparison/java/jpeg/), [TIFF](/comparison/java/tiff/), [TIF](/comparison/java/tif/), [PNG](/comparison/java/png/), [GIF](/comparison/java/gif/), [DCM](/comparison/java/dcm/), [DICOM](/comparison/java/dicom/)
+                * **AutoCAD**: [DWG](/comparison/java/dwg/), [DXF](/comparison/java/dxf/), [CAD](/comparison/java/cad/)
+                * **Other**: [HTM](/comparison/java/htm/), [HTML](/comparison/java/html/), [CSV](/comparison/java/csv/), [DJVU](/comparison/java/djvu/), [OTP](/comparison/java/otp/), [OTT](/comparison/java/ott/)
 
       ## TAB THREE ##
       tab_three:
         description: |
           GroupDocs.Comparison for Java 支持以下框架、框架和管理器:
-        
+      
         left:
           enable: true
           table:
@@ -164,7 +160,7 @@ overview:
               content: |
                 * Maven
 
-############################# 特征 ############################
+############################# Features ############################
 features:
     enable: true
     title: "GroupDocs.Java 特性比较"
@@ -272,12 +268,10 @@ features:
             除了文档内容，Java API 的 GroupDocs.Comparison 还允许比较文本样式. 字体名称、大小、颜色、样式（粗体、斜体、下划线、小型大写字母和超链接）以及如果适用的话，还可以比较底色以检查比较文档之间的差异，同时比较单词和字符。对于段落比较，还可以比较对齐方式、缩进（左缩进、右缩进）、间距（后空格、前空格）、首行缩进和行距。同样，只要适用，页面的其他部分也可以通过 GroupDocs.Comparison for Java API 进行比较。这些部分包括页脚距离、页边距（左、右、上、下）、页面高度、页面方向、边框颜色和线宽
 
 ############################# Support ############################
-
 support:
     enable: true
 
 ############################# Solutions ############################
-
 solutions:
     enable: true
     title: "GroupDocs.Comparison 为其他流行的开发环境提供文档查看 API"

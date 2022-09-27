@@ -67,13 +67,13 @@ overview:
         
       GroupDocs.Comparison for Java does not require any external software to be installed in the system. It is compatible with all versions of Java and supports popular operating systems (Windows, Linux, MacOS) capable of running Java runtime environment.
     tabs:
-      enable: true     
+      enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
           Following is an overview of GroupDocs.Comparison for Java:
-
+      
         right:
           enable: true
           icon: "fab fa-html5"
@@ -96,7 +96,6 @@ overview:
       tab_two:
         description: |
           GroupDocs.Comparison for Java supports all popular [document file formats](https://docs.groupdocs.com/comparison/java/supported-document-formats/) including: Microsoft Office, images, diagrams and many others.
-
         left:
           enable: true
           table:
@@ -129,7 +128,7 @@ overview:
       tab_three:
         description: |
           GroupDocs.Comparison for Java supports following Operating Systems, Frameworks & Package Managers:
-        
+      
         left:
           enable: true
           table:
@@ -270,7 +269,7 @@ features:
       - title: "Compare Text Style"
         content: "Along with document content, GroupDocs.Comparison for Java API allows to compare text style as well.
 
-        Font name, size, color, style (bold, italic, underline, small caps, and hyperlinks) and if applicable, under color can also be compared to check difference among compared documents, while words and characters are being compared.
+        Font name, size, color, style (bold, italic, underline, small caps, and hyperlinks) and if applicable, under color can also be compared to check difference among compared documents, while words and characters are being compared.  
 
         For paragraph comparison, alignment, indentation (left indent, right indent), spacing (space after, space before), first line indent and line spacing can also be compared.  
 

@@ -1,3 +1,4 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -6,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Compare two CPP files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (CPP files in C# .NET applications. Retrieve differences summary in content, text &amp; style of CPP files, images and document formats."
+head_description: "Compare and merge more than two (CPP files in C# .NET applications. Retrieve differences summary in content, text & style of CPP files, images and document formats."
 
 ############################# Header ############################
 title: "Compare CPP Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing CPP Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple CPP files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.cpp")
         {
-        	comparer.Add("target1.cpp");
+        	  comparer.Add("target1.cpp");
             comparer.Add("target2.cpp");
             comparer.Add("target3.cpp");
             comparer.Compare("result.cpp"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.cpp"))
         {
-        	comparer.Add(File.OpenRead("target1.cpp"));
+        	  comparer.Add(File.OpenRead("target1.cpp"));
             comparer.Add(File.OpenRead("target2.cpp"));
             comparer.Add(File.OpenRead("target3.cpp"));
             comparer.Compare(File.Create("result.cpp")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between CPP files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,8 +120,7 @@ about_formats:
           title: "About CPP File Format"
           content: |
             Files with CPP file extension are source code files for applications written in C++ programming language. A single C++ project may contain more than one CPP files as application source code. Such a project consists of different file types, of which the CPP files are known as implementation files as they contain all the definitions of the methods declared in the header (.h) file. The C++ project as a whole results in an executable application when compiled as a whole.
-
-          link: "https://docs.fileformat.com/programming/cpp/"
+          link: "https://docs.fileformat.com/image/cpp/"
 
 ############################# More Formats ############################
 more_formats:
@@ -356,6 +355,11 @@ more_formats:
           description: "Java Language"
 
         # format loop
+        - name: "Compare CPP Files"
+          link: "https://products.groupdocs.com/comparison/net/cpp/"
+          description: "C++ Language"
+
+        # format loop
         - name: "Compare JS Files"
           link: "https://products.groupdocs.com/comparison/net/js/"
           description: "JavaScript Language"
@@ -382,7 +386,6 @@ solutions:
           product: "GroupDocs.Comparison"
           platform: "Java"
           link: "/comparison/java/cpp/"
-
 
 ############################# Back to top ###############################
 back_to_top:

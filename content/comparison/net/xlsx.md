@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:26+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Compare two XLSX files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (XLSX files in C# .NET applications. Retrieve differences summary in content, text &amp; style of XLSX files, images and document formats."
+head_description: "Compare and merge more than two (XLSX files in C# .NET applications. Retrieve differences summary in content, text & style of XLSX files, images and document formats."
 
 ############################# Header ############################
 title: "Compare XLSX Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing XLSX Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple XLSX files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.xlsx")
         {
-        	comparer.Add("target1.xlsx");
+        	  comparer.Add("target1.xlsx");
             comparer.Add("target2.xlsx");
             comparer.Add("target3.xlsx");
             comparer.Compare("result.xlsx"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.xlsx"))
         {
-        	comparer.Add(File.OpenRead("target1.xlsx"));
+        	  comparer.Add(File.OpenRead("target1.xlsx"));
             comparer.Add(File.OpenRead("target2.xlsx"));
             comparer.Add(File.OpenRead("target3.xlsx"));
             comparer.Compare(File.Create("result.xlsx")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between XLSX files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,8 +120,7 @@ about_formats:
           title: "About XLSX File Format"
           content: |
             XLSX is well-known format for Microsoft Excel documents that was introduced by Microsoft with the release of Microsoft Office 2007. Based on structure organized according to the Open Packaging Conventions as outlined in Part 2 of the OOXML standard ECMA-376, the new format is a zip package that contains a number of XML files. The underlying structure and files can be examined by simply unzipping the .xlsx file.
-
-          link: "https://docs.fileformat.com/spreadsheet/xlsx/"
+          link: "https://docs.fileformat.com/image/xlsx/"
 
 ############################# More Formats ############################
 more_formats:
@@ -179,6 +178,11 @@ more_formats:
         - name: "Compare XLS Files"
           link: "https://products.groupdocs.com/comparison/net/xls/"
           description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "Compare XLSX Files"
+          link: "https://products.groupdocs.com/comparison/net/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Compare XLTM Files"

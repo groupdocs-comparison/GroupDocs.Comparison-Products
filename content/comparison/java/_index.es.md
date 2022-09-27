@@ -59,7 +59,7 @@ submenu:
         link_learn: "https://docs.groupdocs.com/comparison/java/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Visión de conjunto ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
@@ -67,13 +67,13 @@ overview:
         
       GroupDocs.Comparison para Java no requiere la instalación de ningún software externo en el sistema. Es compatible con todas las versiones de Java y es compatible con los sistemas operativos más populares (Windows, Linux, MacOS) que pueden ejecutar el tiempo de ejecución de Java.
     tabs:
-      enable: true     
+      enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
           A continuación se muestra una descripción general de GroupDocs.Comparison para Java:
-
+      
         right:
           enable: true
           icon: "fab fa-html5"
@@ -96,19 +96,18 @@ overview:
       tab_two:
         description: |
           GroupDocs.Comparison para Java es compatible con todos los [formatos de archivo de documentos populares](https://docs.groupdocs.com/comparison/java/supported-document-formats/), incluidos: oficina de Microsoft, imágenes, diagramas y muchos otros.
-
         left:
           enable: true
           table:
             # table loop
-            - title: "oficina de Microsoft"
+            - title: "Microsoft Office"
               content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Outlook:** MSG, EML, EMLX, PST, OST
-                * **OneNote:** ONE
+                * **Word:** [DOC](https://products.groupdocs.com/comparison/java/doc/), [DOCX](https://products.groupdocs.com/comparison/java/docx/), [DOCM](https://products.groupdocs.com/comparison/java/docm/), [DOT](https://products.groupdocs.com/comparison/java/dot/), [DOTX](https://products.groupdocs.com/comparison/java/dotx/), [DOTM](https://products.groupdocs.com/comparison/java/dotm/), [RTF](https://products.groupdocs.com/comparison/java/rtf/), [TXT](https://products.groupdocs.com/comparison/java/txt/)
+                * **Excel:** [XLS](https://products.groupdocs.com/comparison/java/xls/), [XLSX](https://products.groupdocs.com/comparison/java/xlsx/), [XLSM](https://products.groupdocs.com/comparison/java/xlsm/), [XLSB](https://products.groupdocs.com/comparison/java/xlsb/), [XLTM](https://products.groupdocs.com/comparison/java/xltm/), [XLT](https://products.groupdocs.com/comparison/java/xlt/), [XLTM](https://products.groupdocs.com/comparison/java/xltm/), [XLTX](https://products.groupdocs.com/comparison/java/xltx/), [XLAM](https://products.groupdocs.com/comparison/java/xlam/), [SXC](https://products.groupdocs.com/comparison/java/sxc/), [SpreadsheetML](https://products.groupdocs.com/comparison/java/xml/)
+                * **PowerPoint:** [PPT](https://products.groupdocs.com/comparison/java/ppt/), [PPTX](https://products.groupdocs.com/comparison/java/pptx/), [PPS](https://products.groupdocs.com/comparison/java/pps/), [PPSX](https://products.groupdocs.com/comparison/java/ppsx/), [PPSM](https://products.groupdocs.com/comparison/java/ppsm/), [POT](https://products.groupdocs.com/comparison/java/pot/), [POTM](https://products.groupdocs.com/comparison/java/potm/), [POTX](https://products.groupdocs.com/comparison/java/potx/), [PPTM](https://products.groupdocs.com/comparison/java/pptm/)
+                * **Visio:** [VSD](https://products.groupdocs.com/comparison/java/vsd/), [VDX](https://products.groupdocs.com/comparison/java/vdx/), [VSS](https://products.groupdocs.com/comparison/java/vss/), [VSSX](https://products.groupdocs.com/comparison/java/vssx/), [VSX](https://products.groupdocs.com/comparison/java/vsx/), [VST](https://products.groupdocs.com/comparison/java/vst/), [VSTX](https://products.groupdocs.com/comparison/java/vstx/), [VTX](https://products.groupdocs.com/comparison/java/vtx/), [VSDX](https://products.groupdocs.com/comparison/java/vsdx/), [VDW](https://products.groupdocs.com/comparison/java/vdw/), [VSTM](https://products.groupdocs.com/comparison/java/vstm/), [VSSM](https://products.groupdocs.com/comparison/java/vssm/), [VSDM](https://products.groupdocs.com/comparison/java/vsdm/)
+                * **Outlook:** [MSG](https://products.groupdocs.com/comparison/java/msg/), [EML](https://products.groupdocs.com/comparison/java/eml/), [EMLX](https://products.groupdocs.com/comparison/java/emlx/), [PST](https://products.groupdocs.com/comparison/java/pst/), [OST](https://products.groupdocs.com/comparison/java/ost/)
+                * **OneNote:** [ONE](https://products.groupdocs.com/comparison/java/one/)
 
         right:
           enable: true
@@ -129,7 +128,7 @@ overview:
       tab_three:
         description: |
           GroupDocs.Comparison para Java es compatible con los siguientes sistemas operativos, marcos y administrador de paquetes:
-        
+      
         left:
           enable: true
           table:
@@ -164,7 +163,7 @@ overview:
               content: |
                 * Maven
 
-############################# Características ############################
+############################# Features ############################
 features:
     enable: true
     title: "GroupDocs. Comparación para características de Java"
@@ -269,9 +268,8 @@ features:
       # more_feature_loop
       - title: "Comparar estilo de texto"
         content: "Junto con el contenido del documento, GroupDocs.Comparison for Java API también permite comparar el estilo del texto. El nombre de la fuente, el tamaño, el color, el estilo (negrita, cursiva, subrayado, versalitas e hipervínculos) y, si corresponde, el color de fondo también se pueden comparar para verificar la diferencia entre los documentos comparados, mientras se comparan las palabras y los caracteres. Para la comparación de párrafos, también se pueden comparar la alineación, la sangría (sangría izquierda, sangría derecha), el espaciado (espacio después, espacio antes), la sangría de la primera línea y el espacio entre líneas. Del mismo modo, cuando corresponda, también se pueden comparar otras secciones de una página a través de GroupDocs.Comparison for Java API. Las secciones incluyen la distancia del pie de página, los márgenes de la página (izquierdo, derecho, superior e inferior), la altura de la página, la orientación de la página, el color del borde y el ancho de la línea."
-        
-############################# Support ############################
 
+############################# Support ############################
 support:
     enable: true
 

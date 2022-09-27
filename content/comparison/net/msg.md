@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:22+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Compare two MSG files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (MSG files in C# .NET applications. Retrieve differences summary in content, text &amp; style of MSG files, images and document formats."
+head_description: "Compare and merge more than two (MSG files in C# .NET applications. Retrieve differences summary in content, text & style of MSG files, images and document formats."
 
 ############################# Header ############################
 title: "Compare MSG Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing MSG Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple MSG files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.msg")
         {
-        	comparer.Add("target1.msg");
+        	  comparer.Add("target1.msg");
             comparer.Add("target2.msg");
             comparer.Add("target3.msg");
             comparer.Compare("result.msg"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.msg"))
         {
-        	comparer.Add(File.OpenRead("target1.msg"));
+        	  comparer.Add(File.OpenRead("target1.msg"));
             comparer.Add(File.OpenRead("target2.msg"));
             comparer.Add(File.OpenRead("target3.msg"));
             comparer.Compare(File.Create("result.msg")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between MSG files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,8 +120,7 @@ about_formats:
           title: "About MSG File Format"
           content: |
             MSG is a file format used by Microsoft Outlook and Exchange to store email messages, contact, appointment, or other tasks. Such messages may contain one or more email fields, with the sender, recipient, subject, date, and message body, or contact information, appointment particulars, and one or more task specifications. The properties that constitute the Message object, including are also a part of the MSG file. MSG file has headers, main message body, and hyperlinks as plain ASCII text. MSG files are also suitable with the programs that need Microsoft's Messaging Applications Programming Interface (MAPI).
-
-          link: "https://docs.fileformat.com/email/msg/"
+          link: "https://docs.fileformat.com/image/msg/"
 
 ############################# More Formats ############################
 more_formats:
@@ -299,6 +298,11 @@ more_formats:
         - name: "Compare MHTML Files"
           link: "https://products.groupdocs.com/comparison/net/mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
+
+        # format loop
+        - name: "Compare MSG Files"
+          link: "https://products.groupdocs.com/comparison/net/msg/"
+          description: "Microsoft Outlook E-mail Message"
 
         # format loop
         - name: "Compare EML Files"

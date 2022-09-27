@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:20+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Compare two DOT files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (DOT files in C# .NET applications. Retrieve differences summary in content, text &amp; style of DOT files, images and document formats."
+head_description: "Compare and merge more than two (DOT files in C# .NET applications. Retrieve differences summary in content, text & style of DOT files, images and document formats."
 
 ############################# Header ############################
 title: "Compare DOT Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing DOT Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple DOT files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.dot")
         {
-        	comparer.Add("target1.dot");
+        	  comparer.Add("target1.dot");
             comparer.Add("target2.dot");
             comparer.Add("target3.dot");
             comparer.Compare("result.dot"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.dot"))
         {
-        	comparer.Add(File.OpenRead("target1.dot"));
+        	  comparer.Add(File.OpenRead("target1.dot"));
             comparer.Add(File.OpenRead("target2.dot"));
             comparer.Add(File.OpenRead("target3.dot"));
             comparer.Compare(File.Create("result.dot")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between DOT files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,8 +120,7 @@ about_formats:
           title: "About DOT File Format"
           content: |
             Files with .DOT extension are template files created by Microsoft Word to have pre-formatted settings for generation of further DOC or DOCX files. A template file is created in order to have specific user settings that should be applied to subsequent files created from these. These settings include page margins, borders, headers, footers, and other page settings. Such templates are used in official documents such as company letterheads and standardized forms. The DOT file format is specific to Microsoft Word 2003 and earlier, but is supported by higher versions as well. Microsoft Word by default opens every new document based on normal.dot file. If modified, all the new files created will result in same settings as from the template file. In Microsoft Word 2007, the DOT file format has been replaced with Office OpenXML based DOTX file format.
-
-          link: "https://docs.fileformat.com/word-processing/dot/"
+          link: "https://docs.fileformat.com/image/dot/"
 
 ############################# More Formats ############################
 more_formats:
@@ -149,6 +148,11 @@ more_formats:
         - name: "Compare DOCX Files"
           link: "https://products.groupdocs.com/comparison/net/docx/"
           description: "Microsoft Word Open XML Document"
+
+        # format loop
+        - name: "Compare DOT Files"
+          link: "https://products.groupdocs.com/comparison/net/dot/"
+          description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Compare DOTM Files"

@@ -59,14 +59,13 @@ submenu:
         link_learn: "https://docs.groupdocs.com/comparison/net/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Обзор ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
       GroupDocs.Comparison for .NET API — это быстрое и надежное решение, готовое к использованию при создании приложений для поиска и выделения различий между документами одного или разных форматов на C#, ASP.NET или других технологиях, относящихся к программной платформое .NET. Библиотека сравнения GroupDocs.Comparison поддерживает обноружение различий как в содержимом, так и в стиле текста популярных форматов изображений и документов, таких как PDF, HTML, электронная почта Outlook, документы Microsoft Office Word, электронные таблицы Excel, презентации PowerPoint, OneNote, диаграммы Visio, тексты, изображения png, gif и bmp, а также еще сотня других форматов. Сравнение может быть выполнено для обнаружения изменений содержания слов, абзацев, таблиц или диаграмм и их стилей, и предоставит вам документ сравнения, в котором перечислены сводные данные о различиях, их количество и типовая принадлежность. GroupDocs.Comparison for .NET может легко извлекать основную информацию об исходном документе, сравнивать и сохранять простые, защищенные паролем и зашифрованные документы различных форматов через файл или поток данных. Для библиотеки Comparison уже написано большое количество документации об использовании пр иложение на разных платформах с примерами кода, поэтому вам не придется ломать голову над тем, как правильно работать с GroupDocs.Comparison for .NET API в своём приложение.
         
       GroupDocs.Comparison для .NET можно использоваться для создания приложений в любой среде разработки, ориентированной на платформу .NET. Он совместим со всеми языками на базе .NET и поддерживает популярные операционные системы (Windows, Linux, MacOS), на которые можно установить фреймворки Mono или .NET (включая .NET Core).
-
     tabs:
       enable: true
       
@@ -91,19 +90,18 @@ overview:
       tab_two:
         description: |
           GroupDocs.Comparison для .NET поддерживает все популярные [форматы файлов документов] (https://docs.groupdocs.com/comparison/net/supported-document-formats/), включая: Microsoft Office, PDF, изображения и многие другие.
-
         left:
           enable: true
           table:
             # table loop
             - title: "Microsoft Office"
               content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Outlook:** MSG, EML, EMLX, PST, OST
-                * **OneNote:** ONE
+                * **Word:** [DOC](https://products.groupdocs.com/comparison/net/doc/), [DOCX](https://products.groupdocs.com/comparison/net/docx/), [DOCM](https://products.groupdocs.com/comparison/net/docm/), [DOT](https://products.groupdocs.com/comparison/net/dot/), [DOTX](https://products.groupdocs.com/comparison/net/dotx/), [DOTM](https://products.groupdocs.com/comparison/net/dotm/), [RTF](https://products.groupdocs.com/comparison/net/rtf/), [TXT](https://products.groupdocs.com/comparison/net/txt/)
+                * **Excel:** [XLS](https://products.groupdocs.com/comparison/net/xls/), [XLSX](https://products.groupdocs.com/comparison/net/xlsx/), [XLSM](https://products.groupdocs.com/comparison/net/xlsm/), [XLSB](https://products.groupdocs.com/comparison/net/xlsb/), [XLTM](https://products.groupdocs.com/comparison/net/xltm/), [XLT](https://products.groupdocs.com/comparison/net/xlt/), [XLTM](https://products.groupdocs.com/comparison/net/xltm/), [XLTX](https://products.groupdocs.com/comparison/net/xltx/), [XLAM](https://products.groupdocs.com/comparison/net/xlam/), [SXC](https://products.groupdocs.com/comparison/net/sxc/), [SpreadsheetML](https://products.groupdocs.com/comparison/net/xml/)
+                * **PowerPoint:** [PPT](https://products.groupdocs.com/comparison/net/ppt/), [PPTX](https://products.groupdocs.com/comparison/net/pptx/), [PPS](https://products.groupdocs.com/comparison/net/pps/), [PPSX](https://products.groupdocs.com/comparison/net/ppsx/), [PPSM](https://products.groupdocs.com/comparison/net/ppsm/), [POT](https://products.groupdocs.com/comparison/net/pot/), [POTM](https://products.groupdocs.com/comparison/net/potm/), [POTX](https://products.groupdocs.com/comparison/net/potx/), [PPTM](https://products.groupdocs.com/comparison/net/pptm/)
+                * **Visio:** [VSD](https://products.groupdocs.com/comparison/net/vsd/), [VDX](https://products.groupdocs.com/comparison/net/vdx/), [VSS](https://products.groupdocs.com/comparison/net/vss/), [VSSX](https://products.groupdocs.com/comparison/net/vssx/), [VSX](https://products.groupdocs.com/comparison/net/vsx/), [VST](https://products.groupdocs.com/comparison/net/vst/), [VSTX](https://products.groupdocs.com/comparison/net/vstx/), [VTX](https://products.groupdocs.com/comparison/net/vtx/), [VSDX](https://products.groupdocs.com/comparison/net/vsdx/), [VDW](https://products.groupdocs.com/comparison/net/vdw/), [VSTM](https://products.groupdocs.com/comparison/net/vstm/), [VSSM](https://products.groupdocs.com/comparison/net/vssm/), [VSDM](https://products.groupdocs.com/comparison/net/vsdm/)
+                * **Outlook:** [MSG](https://products.groupdocs.com/comparison/net/msg/), [EML](https://products.groupdocs.com/comparison/net/eml/), [EMLX](https://products.groupdocs.com/comparison/net/emlx/), [PST](https://products.groupdocs.com/comparison/net/pst/), [OST](https://products.groupdocs.com/comparison/net/ost/)
+                * **OneNote:** [ONE](https://products.groupdocs.com/comparison/net/one/)
 
         right:
           enable: true
@@ -124,7 +122,7 @@ overview:
       tab_three:
         description: |
           GroupDocs.Comparison for .NET supports following Операционные системы, Frameworks & Менеджер пакетовs:
-        
+      
         left:
           enable: true
           table:
@@ -166,7 +164,7 @@ overview:
                 * Xamarin.Mac
                 * МоноДевелопмент
 
-############################# Функции ############################
+############################# Features ############################
 features:
     enable: true
     title: "GroupDocs.Comparison для функций .NET"

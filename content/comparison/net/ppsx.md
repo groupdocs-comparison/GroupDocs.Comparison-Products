@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:24+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Compare two PPSX files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (PPSX files in C# .NET applications. Retrieve differences summary in content, text &amp; style of PPSX files, images and document formats."
+head_description: "Compare and merge more than two (PPSX files in C# .NET applications. Retrieve differences summary in content, text & style of PPSX files, images and document formats."
 
 ############################# Header ############################
 title: "Compare PPSX Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing PPSX Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple PPSX files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.ppsx")
         {
-        	comparer.Add("target1.ppsx");
+        	  comparer.Add("target1.ppsx");
             comparer.Add("target2.ppsx");
             comparer.Add("target3.ppsx");
             comparer.Compare("result.ppsx"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.ppsx"))
         {
-        	comparer.Add(File.OpenRead("target1.ppsx"));
+        	  comparer.Add(File.OpenRead("target1.ppsx"));
             comparer.Add(File.OpenRead("target2.ppsx"));
             comparer.Add(File.OpenRead("target3.ppsx"));
             comparer.Compare(File.Create("result.ppsx")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between PPSX files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,8 +120,7 @@ about_formats:
           title: "About PPSX File Format"
           content: |
             PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. It is an update to the PPS file format that was supported by Microsoft PowerPoint 97-2003 versions. When a PPSX file is shared with another user and opened, it starts as PowerPoint show unlike PPTX file that opens in editable mode. The sequence of slide show is the same as in the original presentation. All the slides accompany the images, sounds and other embedded media accompany the presentation slides to the PPSX during the slideshow.
-
-          link: "https://docs.fileformat.com/presentation/ppsx/"
+          link: "https://docs.fileformat.com/image/ppsx/"
 
 ############################# More Formats ############################
 more_formats:
@@ -219,6 +218,11 @@ more_formats:
         - name: "Compare PPTX Files"
           link: "https://products.groupdocs.com/comparison/net/pptx/"
           description: "PowerPoint Open XML Presentation"
+
+        # format loop
+        - name: "Compare PPSX Files"
+          link: "https://products.groupdocs.com/comparison/net/ppsx/"
+          description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "Compare POT Files"

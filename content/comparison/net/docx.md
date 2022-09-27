@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:20+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Compare two DOCX files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (DOCX files in C# .NET applications. Retrieve differences summary in content, text &amp; style of DOCX files, images and document formats."
+head_description: "Compare and merge more than two (DOCX files in C# .NET applications. Retrieve differences summary in content, text & style of DOCX files, images and document formats."
 
 ############################# Header ############################
 title: "Compare DOCX Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing DOCX Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple DOCX files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.docx")
         {
-        	comparer.Add("target1.docx");
+        	  comparer.Add("target1.docx");
             comparer.Add("target2.docx");
             comparer.Add("target3.docx");
             comparer.Compare("result.docx"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.docx"))
         {
-        	comparer.Add(File.OpenRead("target1.docx"));
+        	  comparer.Add(File.OpenRead("target1.docx"));
             comparer.Add(File.OpenRead("target2.docx"));
             comparer.Add(File.OpenRead("target3.docx"));
             comparer.Compare(File.Create("result.docx")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between DOCX files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,8 +120,7 @@ about_formats:
           title: "About DOCX File Format"
           content: |
             DOCX is a well-known format for Microsoft Word documents. Introduced from 2007 with the release of Microsoft Office 2007, the structure of this new Document format was changed from plain binary to a combination of XML and binary files. Docx files can be opened with Word 2007 and lateral versions but not with the earlier versions of MS Word which support DOC file extensions.
-
-          link: "https://docs.fileformat.com/word-processing/docx/"
+          link: "https://docs.fileformat.com/image/docx/"
 
 ############################# More Formats ############################
 more_formats:
@@ -144,6 +143,11 @@ more_formats:
         - name: "Compare DOCM Files"
           link: "https://products.groupdocs.com/comparison/net/docm/"
           description: "Microsoft Word Macro-Enabled Document"
+
+        # format loop
+        - name: "Compare DOCX Files"
+          link: "https://products.groupdocs.com/comparison/net/docx/"
+          description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Compare DOT Files"

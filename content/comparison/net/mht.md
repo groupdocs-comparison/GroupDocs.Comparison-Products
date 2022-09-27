@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:22+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Compare two MHT files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (MHT files in C# .NET applications. Retrieve differences summary in content, text &amp; style of MHT files, images and document formats."
+head_description: "Compare and merge more than two (MHT files in C# .NET applications. Retrieve differences summary in content, text & style of MHT files, images and document formats."
 
 ############################# Header ############################
 title: "Compare MHT Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing MHT Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple MHT files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.mht")
         {
-        	comparer.Add("target1.mht");
+        	  comparer.Add("target1.mht");
             comparer.Add("target2.mht");
             comparer.Add("target3.mht");
             comparer.Compare("result.mht"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.mht"))
         {
-        	comparer.Add(File.OpenRead("target1.mht"));
+        	  comparer.Add(File.OpenRead("target1.mht"));
             comparer.Add(File.OpenRead("target2.mht"));
             comparer.Add(File.OpenRead("target3.mht"));
             comparer.Compare(File.Create("result.mht")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between MHT files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,8 +120,7 @@ about_formats:
           title: "About MHT File Format"
           content: |
             A file with .mht extension is a MIME enabled archiving file format that contains different types of data into a single file. It can store data such as text, images, page styling in the form of CSS files, JavaScript, and other resources as embedded resources in it. MHT files, having MIME type message/rfc822, encapsulate all the contents of an HTML file as a single archive file for storing on archiving on storage devices. Software applications such as Microsoft Word lets you convert your WORD documents to MHT by exporting as MHT file. MHT files can be opened using popular browsers such as Microsoft Internet Explore and Google Chrome.
-
-          link: "https://docs.fileformat.com/web/mht/"
+          link: "https://docs.fileformat.com/image/mht/"
 
 ############################# More Formats ############################
 more_formats:
@@ -289,6 +288,11 @@ more_formats:
         - name: "Compare HTML Files"
           link: "https://products.groupdocs.com/comparison/net/html/"
           description: "Hyper Text Markup Language"
+
+        # format loop
+        - name: "Compare MHT Files"
+          link: "https://products.groupdocs.com/comparison/net/mht/"
+          description: "Mime HTML"
 
         # format loop
         - name: "Compare MHTML Files"

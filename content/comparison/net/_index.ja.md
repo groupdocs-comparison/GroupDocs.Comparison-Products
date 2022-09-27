@@ -1,4 +1,5 @@
 ---
+############################# Static ############################
 layout: "product"
 date: 2021-04-27T09:31:06+03:00
 draft: false
@@ -8,9 +9,11 @@ product_tag: "comparison"
 platform: ".NET"
 platform_tag: "net"
 
+############################# Head ############################
 head_title: "C＃.NETドキュメント比較API | PDF Word Excel Web＆Textの比較とマージ"
 head_description: "C＃.NETドキュメント比較API。 PDF Word DOC DOCX、Excelスプレッドシート、PPT、PPTX、HTML、EMLX MSG、VSDX、DXF DWG、および画像ファイル形式の比較とマージ."
 
+############################# Header ############################
 title: ".ドキュメントを比較およびマージするためのNETAPI"
 description: "ドキュメント比較APIを使用して.NETアプリケーションを開発し、同じ形式のドキュメント間のコンテンツとスタイルの違いを比較および確認します."
 button:
@@ -19,6 +22,7 @@ button:
     label: "無料トライアルをダウンロード"
     link: "https://downloads.groupdocs.com/comparison/net"
 
+############################# SubMenu ############################
 submenu:
     enable: true
     
@@ -50,16 +54,17 @@ submenu:
         link_learn: "https://docs.groupdocs.com/comparison/net/"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# Overview ############################
 overview:
     enable: true
     content: |
       GroupDocs.Comparison for .NET APIは、C＃、ASP.NET、またはその他の.NET関連テクノロジの同じ形式のドキュメント間で差分チェッカーアプリケーションを構築するための高速で信頼性の高いソリューションです。 .NET比較ライブラリは、PDF、HTML、Outlook電子メール、Microsoft Office Wordドキュメント、Excelスプレッドシート、PowerPointプレゼンテーション、OneNote、Visioダイアグラム、テキストなどの一般的な画像およびドキュメント形式のコンテンツとテキストスタイルの両方の違いのチェックをサポートしますと画像。比較は、単語、段落、文字の内容の変更を検出すると同時に、違いの要約をリストした比較ドキュメントを提供するために実行できます。 GroupDocs.Comparison for .NET APIは、ソースドキュメントの基本情報を簡単に抽出できます。また、ファイルまたはストリームを介して、暗号化されたドキュメントだけでなく、簡単なパスワード有効化をフェッチ、比較、および保存することもできます。  
         
       GroupDocs.Comparison for .NETを使用して、.NETプラットフォームを対象とする任意の開発環境でアプリケーションを開発できます。すべての.NETベースの言語と互換性があり、Monoまたは.NETフレームワーク（.NET Coreを含む）をインストールできる一般的なオペレーティングシステム（Windows、Linux、MacOS）をサポートします。
-
     tabs:
       enable: true
       
+      ## TAB ONE ##
       tab_one:
         description: |
           以下は、GroupDocs.Comparisonfor.NETの概要です。
@@ -76,25 +81,27 @@ overview:
             *ファイルの内容を比較する
             *テキストスタイルを比較する
       
+      ## TAB TWO ##
       tab_two:
         description: |
           GroupDocs.Comparison for .NETは、Microsoft Office、PDF、画像など、一般的な[ドキュメントファイル形式]（https://docs.groupdocs.com/comparison/net/supported-document-formats/）をすべてサポートしています。
-
         left:
           enable: true
           table:
-            - title: "マイクロソフトオフィス"
+            # table loop
+            - title: "Microsoft Office"
               content: |
-                * **ワード：** DOC、DOCX、DOCM、DOT、DOTX、DOTM、RTF、TXT
-                * ** Excel：** XLS、XLSX、XLSM、XLSB、XLTM、XLT、XLTM、XLTX、XLAM、SXC、SpreadsheetML
-                * ** PowerPoint：** PPT、PPTX、PPS、PPSX、PPSM、POT、POTM、POTX、PPTM
-                * ** Visio：** VSD、VDX、VSS、VSSX、VSX、VST、VSTX、VTX、VSDX、VDW、VSTM、VSSM、VSDM
-                * ** Outlook：** MSG、EML、EMLX、PST、OST
-                * ** OneNote：** ONE
+                * **Word:** [DOC](https://products.groupdocs.com/comparison/net/doc/), [DOCX](https://products.groupdocs.com/comparison/net/docx/), [DOCM](https://products.groupdocs.com/comparison/net/docm/), [DOT](https://products.groupdocs.com/comparison/net/dot/), [DOTX](https://products.groupdocs.com/comparison/net/dotx/), [DOTM](https://products.groupdocs.com/comparison/net/dotm/), [RTF](https://products.groupdocs.com/comparison/net/rtf/), [TXT](https://products.groupdocs.com/comparison/net/txt/)
+                * **Excel:** [XLS](https://products.groupdocs.com/comparison/net/xls/), [XLSX](https://products.groupdocs.com/comparison/net/xlsx/), [XLSM](https://products.groupdocs.com/comparison/net/xlsm/), [XLSB](https://products.groupdocs.com/comparison/net/xlsb/), [XLTM](https://products.groupdocs.com/comparison/net/xltm/), [XLT](https://products.groupdocs.com/comparison/net/xlt/), [XLTM](https://products.groupdocs.com/comparison/net/xltm/), [XLTX](https://products.groupdocs.com/comparison/net/xltx/), [XLAM](https://products.groupdocs.com/comparison/net/xlam/), [SXC](https://products.groupdocs.com/comparison/net/sxc/), [SpreadsheetML](https://products.groupdocs.com/comparison/net/xml/)
+                * **PowerPoint:** [PPT](https://products.groupdocs.com/comparison/net/ppt/), [PPTX](https://products.groupdocs.com/comparison/net/pptx/), [PPS](https://products.groupdocs.com/comparison/net/pps/), [PPSX](https://products.groupdocs.com/comparison/net/ppsx/), [PPSM](https://products.groupdocs.com/comparison/net/ppsm/), [POT](https://products.groupdocs.com/comparison/net/pot/), [POTM](https://products.groupdocs.com/comparison/net/potm/), [POTX](https://products.groupdocs.com/comparison/net/potx/), [PPTM](https://products.groupdocs.com/comparison/net/pptm/)
+                * **Visio:** [VSD](https://products.groupdocs.com/comparison/net/vsd/), [VDX](https://products.groupdocs.com/comparison/net/vdx/), [VSS](https://products.groupdocs.com/comparison/net/vss/), [VSSX](https://products.groupdocs.com/comparison/net/vssx/), [VSX](https://products.groupdocs.com/comparison/net/vsx/), [VST](https://products.groupdocs.com/comparison/net/vst/), [VSTX](https://products.groupdocs.com/comparison/net/vstx/), [VTX](https://products.groupdocs.com/comparison/net/vtx/), [VSDX](https://products.groupdocs.com/comparison/net/vsdx/), [VDW](https://products.groupdocs.com/comparison/net/vdw/), [VSTM](https://products.groupdocs.com/comparison/net/vstm/), [VSSM](https://products.groupdocs.com/comparison/net/vssm/), [VSDM](https://products.groupdocs.com/comparison/net/vsdm/)
+                * **Outlook:** [MSG](https://products.groupdocs.com/comparison/net/msg/), [EML](https://products.groupdocs.com/comparison/net/eml/), [EMLX](https://products.groupdocs.com/comparison/net/emlx/), [PST](https://products.groupdocs.com/comparison/net/pst/), [OST](https://products.groupdocs.com/comparison/net/ost/)
+                * **OneNote:** [ONE](https://products.groupdocs.com/comparison/net/one/)
 
         right:
           enable: true
           table:
+            # table loop
             - title: "その他のフォーマット"
               content: |
                 * **プログラミング言語**：CS、Java、CPP、JS、PY、RB、PL、ASM、GROOVY、JSON、ActionScript、PHP、SQL、LOG、DIFF、LESS、SCALA
@@ -106,10 +113,11 @@ overview:
                 * ** Web **：HTM、HTML、MHTML
                 * **テキスト**：TXT
 
+      ## TAB THREE ##
       tab_three:
         description: |
           GroupDocs.Comparison for .NETは、次のオペレーティングシステム、フレームワーク、およびパッケージマネージャーをサポートしています。
-        
+      
         left:
           enable: true
           table:
@@ -147,6 +155,7 @@ overview:
                 * Xamarin.Mac
                 * MonoDevelop
 
+############################# Features ############################
 features:
     enable: true
     title: "GroupDocs.Comparisonfor.NET機能"
@@ -253,9 +262,11 @@ features:
 
           GroupDocs.Comparison for .NETは、必要に応じて、フッターの距離、ページの高さと向き、余白（左、右、上、下）、境界線の幅、境界線の色など、ページの他のセクションの比較もサポートします。  
 
+############################# Support ############################
 support:
     enable: true
 
+############################# Solutions ############################
 solutions:
     enable: true
     title: "GroupDocs.Comparisonは、他の一般的な開発環境向けのドキュメント表示APIを提供します"
@@ -267,6 +278,7 @@ solutions:
           platform: "Java"
           link: "/comparison/java/"
 
+############################# Back to top ###############################
 back_to_top:
   enable: true
 ---

@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:25+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Compare two VSS files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (VSS files in C# .NET applications. Retrieve differences summary in content, text &amp; style of VSS files, images and document formats."
+head_description: "Compare and merge more than two (VSS files in C# .NET applications. Retrieve differences summary in content, text & style of VSS files, images and document formats."
 
 ############################# Header ############################
 title: "Compare VSS Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing VSS Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple VSS files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.vss")
         {
-        	comparer.Add("target1.vss");
+        	  comparer.Add("target1.vss");
             comparer.Add("target2.vss");
             comparer.Add("target3.vss");
             comparer.Compare("result.vss"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.vss"))
         {
-        	comparer.Add(File.OpenRead("target1.vss"));
+        	  comparer.Add(File.OpenRead("target1.vss"));
             comparer.Add(File.OpenRead("target2.vss"));
             comparer.Add(File.OpenRead("target3.vss"));
             comparer.Compare(File.Create("result.vss")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between VSS files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,7 +120,6 @@ about_formats:
           title: "About VSS File Format"
           content: |
             VSS are stencil files created with Microsoft Visio 2007 and earlier. A relatively new file format is .VSSX that was introduced with Microsoft Visio 2013. Stencil files provide drawing objects that can be included in a .VSD Visio drawing. Microsoft Visio itself is known for creating drawing elements such as collection of shapes, connectors, flowcharts, network layout, UML diagrams, software diagrams, database models, objects mapping and other similar information. It also has rich conversion features of Visio documents to other file formats such as PNG, BMP, PDF and others. Visio is available for both Windows and Mac OS.
-
           link: "https://docs.fileformat.com/image/vss/"
 
 ############################# More Formats ############################
@@ -329,6 +328,11 @@ more_formats:
         - name: "Compare VSDX Files"
           link: "https://products.groupdocs.com/comparison/net/vsdx/"
           description: "Microsoft Visio Drawing"
+
+        # format loop
+        - name: "Compare VSS Files"
+          link: "https://products.groupdocs.com/comparison/net/vss/"
+          description: "Microsoft Visio 2003-2010 Stencil"
 
         # format loop
         - name: "Compare VST Files"

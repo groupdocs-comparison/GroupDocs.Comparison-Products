@@ -1,12 +1,16 @@
+
 ---
+############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:17+03:00
+date: 2021-05-13T12:45:11+03:00
 draft: false
 
-head_title: "JavaTXT比較API-TXTファイルの違いを比較します"
+############################# Head ############################
+head_title: "JavaTXT比較API-TXTファイルの違いを比較する"
 head_description: "Java、J2EE、J2SEアプリケーションのTXTファイルを比較してマージします。コンテンツ、テキスト、およびテキストの違いの要約を分析します。 TXTファイル、画像、ドキュメント形式のスタイル."
 
-title: "JavaでTXTファイルを比較する"
+############################# Header ############################
+title: "JavaのTXTファイルを比較する"
 description: "Javaで3つ以上のTXTファイル間で行ごとの比較を実行します。相違点のリストを取得し、比較したファイルを1つのドキュメントに保存します."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -16,6 +20,7 @@ button:
     label: "無料トライアルをダウンロード"
     link: "https://downloads.groupdocs.com/comparison/java"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -26,17 +31,20 @@ submenu:
         platform: "Java"
 
     middle:
-        button:
-
+        button: 
+            # button loop
             - link: "https://apireference.groupdocs.com/comparison/java"
               text: "APIリファレンス"
 
+            # button loop
             - link: "https://github.com/groupdocs-comparison"
               text: "コード例"
 
+            # button loop
             - link: "https://products.groupdocs.app/comparison/family"
               text: "ライブデモ"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/java"
               text: "価格設定"
 
@@ -45,31 +53,35 @@ submenu:
         link_learn: "https://docs.groupdocs.com/comparison/java"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
     title: "GroupDocs.Comparison for Java APIについて"
     content: |
         [GroupDocs.Comparison for Java](/Comparison/java/) APIを使用して、画像とドキュメントの比較機能でJavaアプリケーションを強化します。段落、単語、文字、図形、さらには同じ形式の比較されたドキュメントのテキストスタイル内の違いを識別し、変更をマージして最終的なドキュメントにエクスポートするのに役立ちます。外部ライブラリを使用せずに、PDF、Word、Excelワークシート、PowerPointプレゼンテーション、Visioダイアグラム、Outlook電子メール、HTML、図面、画像ファイル形式など、さまざまなドキュメントの比較とマージをサポートします。
 
+############################# Steps ############################
 steps:
     enable: true
     title_left: "JavaでTXTファイルを比較する手順"
     content_left: |
         [GroupDocs.Comparison](/Comparison/java/)を使用すると、Java開発者は数行のコードを使用してアプリケーション内のTXTファイルを簡単に比較できます。
-
+    
+        
         * ソースドキュメントパスまたはストリームを使用して**Comparer**オブジェクトをインスタンス化します。
         * addメソッドを呼び出し、ターゲットドキュメントのパスまたはストリームを指定します。
         * compareメソッドを呼び出します。
-        
+    
     title_right: "システム要求"
     content_right: |
         GroupDocs.Comparison for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
-
+    
+        
         *オペレーティングシステム：Microsoft Windows、Linux、MacOS
         *開発環境：NetBeans、Intellij IDEA、Eclipseなど
         * Javaランタイム環境：J2SE6.0以降
         * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)から最新バージョンのGroupDocs.Comparison for Javaを入手してください。
-        
+    
     code: |
         ```java
         //ローカルファイルのドキュメントを比較します
@@ -86,31 +98,34 @@ steps:
             comparer.compare(new FileOutputStream("C:\\result.txt")); // 指定された名前の結果ファイルを作成する
         }
         ```
-        
+
+############################# Demos ############################
 demos:
     enable: true
     title: "TXTファイルを比較するためのライブデモ"
     content: |
         [GroupDocs.Comparisonライブデモ](https://products.groupdocs.app/comparison/family)サイトにアクセスして、TXTファイルを今すぐ比較してください。  
         ライブデモには次の利点があります
-        
+
+############################# About Formats ############################
 about_formats:
     enable: true
     format:
+        # format loop
         - icon: "far fa-file-txt"
           title: "TXTファイル形式について"
           content: |
             拡張子が.TXTのファイルは、行形式のプレーンテキストを含むテキストドキュメントを表します。テキストドキュメントの段落は、キャリッジリターンによって認識され、ファイルの内容をより適切に配置するために使用されます。標準のテキストドキュメントは、さまざまなオペレーティングシステムの任意のテキストエディタまたはワードプロセッシングアプリケーションで開くことができます。このようなファイルに含まれるすべてのテキストは、人間が読める形式であり、一連の文字で表されます。
+          link: "https://docs.fileformat.com/image/txt/"
 
-          link: "https://docs.fileformat.com/word-processing/txt/"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
+    enable: true
     title: "他のファイル形式を比較する"
     content: |
         Java用のマルチフォーマット画像とドキュメント比較API。外部ソフトウェアを使用せずに、以下の一般的なファイル形式のいくつかを比較してください。
     format: 
-          link: "https://products.groupdocs.com/comparison/java/pdf/"
+        link: "https://products.groupdocs.com/comparison/java/pdf/"
           description: "AdobePortableドキュメント形式"
 
           link: "https://products.groupdocs.com/comparison/java/doc/"
@@ -133,6 +148,9 @@ more_formats:
 
           link: "https://products.groupdocs.com/comparison/java/rtf/"
           description: "リッチテキストファイル形式"
+
+          link: "https://products.groupdocs.com/comparison/java/txt/"
+          description: "プレーンテキストファイル形式"
 
           link: "https://products.groupdocs.com/comparison/java/xls/"
           description: "MicrosoftExcelバイナリファイル形式"
@@ -254,7 +272,20 @@ more_formats:
           link: "https://products.groupdocs.com/comparison/java/rb/"
           description: "Ruby言語"
 
+############################# Solutions ############################
+solutions:
+    enable: true
+    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
 
+    solution:
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for .NET TXT"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-net.png"
+          product: "GroupDocs.Comparison"
+          platform: ".NET"
+          link: "/comparison/net/txt/"
+
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

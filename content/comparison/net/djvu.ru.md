@@ -1,11 +1,14 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:20+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
+
 ############################# Head ############################
 head_title: "Сравните два файла DJVU в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов DJVU в приложениях C# .NET. Извлеките сводку различий в содержании, тексте и стиле файлов DJVU, изображений и форматов документов."
+head_description: "Сравните и объедините более двух файлов DJVU в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+
 ############################# Header ############################
 title: "Сравните файлы DJVU в C# .NET"
 description: ".NET API для сравнения документов для обнаружения изменений между двумя версиями файлов DJVU и экспорта в окончательный документ с подробным описанием различий между сравниваемыми документами."
@@ -16,60 +19,73 @@ button:
     icon: "fas fa-arrow-down"
     label: "Скачать бесплатную пробную версию"
     link: "https://downloads.groupdocs.com/comparison/net"
+
 ############################# SubMenu ############################
 submenu:
     enable: true
+
     left:
-        img_alt: "GroupDocs.Comparison for .NET"
+        img_alt: "GroupDocs.Comparison для .NET"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-net.png"
         product: "GroupDocs.Comparison"
         platform: ".NET"
+
     middle:
-        button:
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "Справочник по API"
+
             # button loop
             - link: "https://github.com/groupdocs-comparison"
               text: "Примеры кода"
+
             # button loop
             - link: "https://products.groupdocs.app/comparison/family"
               text: "Живые демонстрации"
+
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/net"
               text: "Цены"
+
     right:
         link_download: "https://downloads.groupdocs.com/comparison"
         link_learn: "https://docs.groupdocs.com/comparison/net"
         link_buy: "https://purchase.groupdocs.com"
+
 ############################# About ############################
 about:
     enable: true
     title: "О GroupDocs.Comparison для .NET API"
     content: |
         [GroupDocs.Comparison for .NET](/ru/comparison/net/) — это собственный API .NET для сравнения нескольких изображений и документов одного формата. Он помогает обнаруживать различия в абзацах, словах, символах, формах и даже стилях текста сравниваемых документов, объединять изменения и экспортировать их в окончательный документ. Он поддерживает сравнение и объединение PDF, документов Word, электронных таблиц Excel, презентаций PowerPoint, диаграмм Visio, электронных писем Outlook, HTML, рисунков и форматов файлов изображений без использования какой-либо внешней библиотеки.
+
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для сравнения файлов DJVU в C#"
     content_left: |
         [GroupDocs.Comparison](/ru/comparison/net/) позволяет разработчикам .NET легко сравнивать и объединять несколько файлов DJVU в своих приложениях, выполняя несколько простых шагов.
+        
         * Создание экземпляра объекта Comparer с путем или потоком исходного документа.
         * Вызовите метод Add и укажите путь к целевому документу или поток. Повторите этот шаг для каждого целевого документа.
         * Метод сравнения вызовов.
+    
     title_right: "Системные Требования"
     content_right: |
         API GroupDocs.Comparison для .NET поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
         * Получите последнюю версию GroupDocs.Comparison для .NET, загруженную с [NuGet](https://www.nuget.org/packages/groupdocs.comparison).
+    
     code: |
         ```cs
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.djvu")
         {
-        	comparer.Add("target1.djvu");
+        	  comparer.Add("target1.djvu");
             comparer.Add("target2.djvu");
             comparer.Add("target3.djvu");
             comparer.Compare("result.djvu"); // Создать результирующий файл с указанным именем
@@ -77,12 +93,13 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.djvu"))
         {
-        	comparer.Add(File.OpenRead("target1.djvu"));
+        	  comparer.Add(File.OpenRead("target1.djvu"));
             comparer.Add(File.OpenRead("target2.djvu"));
             comparer.Add(File.OpenRead("target3.djvu"));
             comparer.Compare(File.Create("result.djvu")); // Создать результирующий файл с указанным именем
         }
         ```
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -90,6 +107,7 @@ demos:
     content: |
         Обнаружьте различия между файлами DJVU прямо сейчас, посетив [живые демонстрации](https://products.groupdocs.app/comparison/family). 
         Живая демонстрация имеет следующие преимущества
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -100,6 +118,7 @@ about_formats:
           content: |
             DjVu, произносится как «дежа вю», представляет собой формат графических файлов, предназначенный для отсканированных документов и книг, особенно тех, которые содержат комбинацию текста, рисунков, изображений и фотографий. Он был разработан AT&T Labs. Он использует несколько методов, таких как разделение текстовых и фоновых изображений на уровне изображения, прогрессивная загрузка, арифметическое кодирование и сжатие с потерями для двухтональных изображений. Поскольку файл DJVU может содержать сжатые, но высококачественные цветные изображения, фотографии, текст и рисунки и может занимать меньше места, он используется в Интернете в качестве электронных книг, руководств, газет, древних документов и т. д.
           link: "https://docs.fileformat.com/image/djvu/"
+
 ############################# More Formats ############################
 more_formats:
     enable: true
@@ -307,6 +326,20 @@ more_formats:
         - name: "Сравнить файлы RB"
           link: "/comparison/net/rb/"
           description: "Рубиновый язык"
+
+############################# Solutions ############################
+solutions:
+    enable: true
+    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+
+    solution:
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for Java DJVU"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
+          product: "GroupDocs.Comparison"
+          platform: "Java"
+          link: "/comparison/java/djvu/"
+
 ############################# Back to top ###############################
 back_to_top:
     enable: true

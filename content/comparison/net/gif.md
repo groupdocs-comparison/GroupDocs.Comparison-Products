@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:21+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Compare two GIF files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (GIF files in C# .NET applications. Retrieve differences summary in content, text &amp; style of GIF files, images and document formats."
+head_description: "Compare and merge more than two (GIF files in C# .NET applications. Retrieve differences summary in content, text & style of GIF files, images and document formats."
 
 ############################# Header ############################
 title: "Compare GIF Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing GIF Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple GIF files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.gif")
         {
-        	comparer.Add("target1.gif");
+        	  comparer.Add("target1.gif");
             comparer.Add("target2.gif");
             comparer.Add("target3.gif");
             comparer.Compare("result.gif"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.gif"))
         {
-        	comparer.Add(File.OpenRead("target1.gif"));
+        	  comparer.Add(File.OpenRead("target1.gif"));
             comparer.Add(File.OpenRead("target2.gif"));
             comparer.Add(File.OpenRead("target3.gif"));
             comparer.Compare(File.Create("result.gif")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between GIF files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,7 +120,6 @@ about_formats:
           title: "About GIF File Format"
           content: |
             A GIF or Graphical Interchange Format is a type of highly compressed image. Owned by Unisys, GIF uses the LZW compression algorithm that does not degrade the image quality. For each image GIF typically allow up to 8 bits per pixel and up to 256 colours are allowed across the image. In contrast to a JPEG image, which can display up to 16 million colours and fairly touches the limits of the human eye. Back when the internet emerged, GIFs remained the best choice because they required low bandwidth and compatible for the graphics that consume solid areas of colour. An animated GIF combines numerous images or frames into a single file and displays them in a sequence to generate an animated clip or a short video. The colour limitations are up to 256 for each frame and are likely to be the least suitable for reproducing other images and photographs with colour gradient.
-
           link: "https://docs.fileformat.com/image/gif/"
 
 ############################# More Formats ############################
@@ -274,6 +273,11 @@ more_formats:
         - name: "Compare PNG Files"
           link: "https://products.groupdocs.com/comparison/net/png/"
           description: "Portable Network Graphic"
+
+        # format loop
+        - name: "Compare GIF Files"
+          link: "https://products.groupdocs.com/comparison/net/gif/"
+          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "Compare BMP Files"

@@ -1,11 +1,12 @@
+
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-07-05T12:44:18+03:00
 draft: false
 
 ############################# Head ############################
-head_title: ".Bibliothèque de comparaison de documents NET et Java | Comparer les documents pour le texte et le style"
+head_title: "Bibliothèque de comparaison de documents NET et Java | Comparer les documents pour le texte et le style"
 head_description: "Bibliothèque de comparaison de documents native pour C# ASP.NET et Java. Comparez le style et le contenu pour les différences afin d'identifier les changements parmi les fichiers comparés des formats pris en charge."
 
 ############################# Header ############################

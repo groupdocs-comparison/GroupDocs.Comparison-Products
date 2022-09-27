@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:24+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Compare two POTX files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (POTX files in C# .NET applications. Retrieve differences summary in content, text &amp; style of POTX files, images and document formats."
+head_description: "Compare and merge more than two (POTX files in C# .NET applications. Retrieve differences summary in content, text & style of POTX files, images and document formats."
 
 ############################# Header ############################
 title: "Compare POTX Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing POTX Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple POTX files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.potx")
         {
-        	comparer.Add("target1.potx");
+        	  comparer.Add("target1.potx");
             comparer.Add("target2.potx");
             comparer.Add("target3.potx");
             comparer.Compare("result.potx"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.potx"))
         {
-        	comparer.Add(File.OpenRead("target1.potx"));
+        	  comparer.Add(File.OpenRead("target1.potx"));
             comparer.Add(File.OpenRead("target2.potx"));
             comparer.Add(File.OpenRead("target3.potx"));
             comparer.Compare(File.Create("result.potx")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between POTX files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,8 +120,7 @@ about_formats:
           title: "About POTX File Format"
           content: |
             Files with .POTX extension represent Microsoft PowerPoint template presentations that are created with Microsoft PowerPoint 2007 and above. This format was created to replace the POT file format that is based on the binary file format and is supported with PowerPoint 97-2003. The files generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.
-
-          link: "https://docs.fileformat.com/presentation/potx/"
+          link: "https://docs.fileformat.com/image/potx/"
 
 ############################# More Formats ############################
 more_formats:
@@ -229,6 +228,11 @@ more_formats:
         - name: "Compare POT Files"
           link: "https://products.groupdocs.com/comparison/net/pot/"
           description: "Microsoft PowerPoint template"
+
+        # format loop
+        - name: "Compare POTX Files"
+          link: "https://products.groupdocs.com/comparison/net/potx/"
+          description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "Compare ODS Files"

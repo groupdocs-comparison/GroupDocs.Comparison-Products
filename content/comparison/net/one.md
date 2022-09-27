@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:23+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Compare two ONE files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (ONE files in C# .NET applications. Retrieve differences summary in content, text &amp; style of ONE files, images and document formats."
+head_description: "Compare and merge more than two (ONE files in C# .NET applications. Retrieve differences summary in content, text & style of ONE files, images and document formats."
 
 ############################# Header ############################
 title: "Compare ONE Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing ONE Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple ONE files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.one")
         {
-        	comparer.Add("target1.one");
+        	  comparer.Add("target1.one");
             comparer.Add("target2.one");
             comparer.Add("target3.one");
             comparer.Compare("result.one"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.one"))
         {
-        	comparer.Add(File.OpenRead("target1.one"));
+        	  comparer.Add(File.OpenRead("target1.one"));
             comparer.Add(File.OpenRead("target2.one"));
             comparer.Add(File.OpenRead("target3.one"));
             comparer.Compare(File.Create("result.one")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between ONE files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,8 +120,7 @@ about_formats:
           title: "About ONE File Format"
           content: |
             File represented by .ONE extension are created by Microsoft OneNote application. OneNote lets you gather information using the application as if you are using your draftpad for taking notes. OneNote files can contain different elements that can be placed at non-fixed locations on document pages. These elements may contain text, digitized handwriting, and objects copied from other applications including images, drawings and multimedia (audio/video) clips. Microsoft now offers online version of OneNote as part of Office365 where Notes can be shared with other OneNote users over the internet.
-
-          link: "https://docs.fileformat.com/note-taking/one/"
+          link: "https://docs.fileformat.com/image/one/"
 
 ############################# More Formats ############################
 more_formats:
@@ -314,6 +313,11 @@ more_formats:
         - name: "Compare EMLX Files"
           link: "https://products.groupdocs.com/comparison/net/emlx/"
           description: "Apple Mail E-mail File"
+
+        # format loop
+        - name: "Compare ONE Files"
+          link: "https://products.groupdocs.com/comparison/net/one/"
+          description: "Microsoft OneNote"
 
         # format loop
         - name: "Compare VSD Files"

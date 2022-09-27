@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:26+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Compare two XLSM files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (XLSM files in C# .NET applications. Retrieve differences summary in content, text &amp; style of XLSM files, images and document formats."
+head_description: "Compare and merge more than two (XLSM files in C# .NET applications. Retrieve differences summary in content, text & style of XLSM files, images and document formats."
 
 ############################# Header ############################
 title: "Compare XLSM Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing XLSM Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple XLSM files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.xlsm")
         {
-        	comparer.Add("target1.xlsm");
+        	  comparer.Add("target1.xlsm");
             comparer.Add("target2.xlsm");
             comparer.Add("target3.xlsm");
             comparer.Compare("result.xlsm"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.xlsm"))
         {
-        	comparer.Add(File.OpenRead("target1.xlsm"));
+        	  comparer.Add(File.OpenRead("target1.xlsm"));
             comparer.Add(File.OpenRead("target2.xlsm"));
             comparer.Add(File.OpenRead("target3.xlsm"));
             comparer.Compare(File.Create("result.xlsm")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between XLSM files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,8 +120,7 @@ about_formats:
           title: "About XLSM File Format"
           content: |
             Files with XLSM extension is a type of Spreasheet files that support Macros. From application point of view, a Macro is set of instructions that are used for automating processes. A macro is used to record the steps that are performed repeatedly and facilitates performing the actions by running the macro again. Macros are programmed with Microsoft's Visual Basic for Applications (VBA) from within the Excel Workbook using the Visual Basic Editor and can be run/debug directly from there.
-
-          link: "https://docs.fileformat.com/spreadsheet/xlsm/"
+          link: "https://docs.fileformat.com/image/xlsm/"
 
 ############################# More Formats ############################
 more_formats:
@@ -189,6 +188,11 @@ more_formats:
         - name: "Compare XLTM Files"
           link: "https://products.groupdocs.com/comparison/net/xltm/"
           description: "Microsoft Excel macro-enabled template"
+
+        # format loop
+        - name: "Compare XLSM Files"
+          link: "https://products.groupdocs.com/comparison/net/xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Compare XLSB Files"

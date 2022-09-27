@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:23+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Compare two PHP files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (PHP files in C# .NET applications. Retrieve differences summary in content, text &amp; style of PHP files, images and document formats."
+head_description: "Compare and merge more than two (PHP files in C# .NET applications. Retrieve differences summary in content, text & style of PHP files, images and document formats."
 
 ############################# Header ############################
 title: "Compare PHP Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing PHP Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple PHP files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.php")
         {
-        	comparer.Add("target1.php");
+        	  comparer.Add("target1.php");
             comparer.Add("target2.php");
             comparer.Add("target3.php");
             comparer.Compare("result.php"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.php"))
         {
-        	comparer.Add(File.OpenRead("target1.php"));
+        	  comparer.Add(File.OpenRead("target1.php"));
             comparer.Add(File.OpenRead("target2.php"));
             comparer.Add(File.OpenRead("target3.php"));
             comparer.Compare(File.Create("result.php")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between PHP files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,8 +120,7 @@ about_formats:
           title: "About PHP File Format"
           content: |
             A file with .php extension refers to open source programming language that is used to write server side scripts to be executed on the server. It is the most popular and powerful web-scripting language that is widely used for development of large-scale web applications. PHP is at the core of the biggest blogging system on the web i.e. WordPress and runs the largest social network Facebook. It runs on various platforms such as Windows, Linux, Unix, Mac OS X, etc. and is compatible with almost all servers used today i.e. Apache, IIS, etc. PHP supports wide range of databases including MySQL.
-
-          link: "https://docs.fileformat.com/programming/php/"
+          link: "https://docs.fileformat.com/image/php/"
 
 ############################# More Formats ############################
 more_formats:

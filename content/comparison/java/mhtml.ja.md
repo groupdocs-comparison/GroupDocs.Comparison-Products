@@ -1,12 +1,16 @@
+
 ---
+############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:14+03:00
+date: 2021-05-13T12:45:11+03:00
 draft: false
 
-head_title: "JavaMHTML比較API-MHTMLファイルの違いを比較します"
+############################# Head ############################
+head_title: "JavaMHTML比較API-MHTMLファイルの違いを比較する"
 head_description: "Java、J2EE、J2SEアプリケーションのMHTMLファイルを比較してマージします。コンテンツ、テキスト、およびテキストの違いの要約を分析します。 MHTMLファイル、画像、ドキュメント形式のスタイル."
 
-title: "JavaでMHTMLファイルを比較する"
+############################# Header ############################
+title: "JavaのMHTMLファイルを比較する"
 description: "Javaで3つ以上のMHTMLファイル間で行ごとの比較を実行します。相違点のリストを取得し、比較したファイルを1つのドキュメントに保存します."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -16,6 +20,7 @@ button:
     label: "無料トライアルをダウンロード"
     link: "https://downloads.groupdocs.com/comparison/java"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -26,17 +31,20 @@ submenu:
         platform: "Java"
 
     middle:
-        button:
-
+        button: 
+            # button loop
             - link: "https://apireference.groupdocs.com/comparison/java"
               text: "APIリファレンス"
 
+            # button loop
             - link: "https://github.com/groupdocs-comparison"
               text: "コード例"
 
+            # button loop
             - link: "https://products.groupdocs.app/comparison/family"
               text: "ライブデモ"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/java"
               text: "価格設定"
 
@@ -45,31 +53,35 @@ submenu:
         link_learn: "https://docs.groupdocs.com/comparison/java"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
     title: "GroupDocs.Comparison for Java APIについて"
     content: |
         [GroupDocs.Comparison for Java](/Comparison/java/) APIを使用して、画像とドキュメントの比較機能でJavaアプリケーションを強化します。段落、単語、文字、図形、さらには同じ形式の比較されたドキュメントのテキストスタイル内の違いを識別し、変更をマージして最終的なドキュメントにエクスポートするのに役立ちます。外部ライブラリを使用せずに、PDF、Word、Excelワークシート、PowerPointプレゼンテーション、Visioダイアグラム、Outlook電子メール、HTML、図面、画像ファイル形式など、さまざまなドキュメントの比較とマージをサポートします。
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "JavaでMHTMLファイルを比較するための手順"
+    title_left: "JavaでMHTMLファイルを比較する手順"
     content_left: |
         [GroupDocs.Comparison](/Comparison/java/)を使用すると、Java開発者は数行のコードを使用してアプリケーション内のMHTMLファイルを簡単に比較できます。
-
+    
+        
         * ソースドキュメントパスまたはストリームを使用して**Comparer**オブジェクトをインスタンス化します。
         * addメソッドを呼び出し、ターゲットドキュメントのパスまたはストリームを指定します。
         * compareメソッドを呼び出します。
-        
+    
     title_right: "システム要求"
     content_right: |
         GroupDocs.Comparison for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
-
+    
+        
         *オペレーティングシステム：Microsoft Windows、Linux、MacOS
         *開発環境：NetBeans、Intellij IDEA、Eclipseなど
         * Javaランタイム環境：J2SE6.0以降
         * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)から最新バージョンのGroupDocs.Comparison for Javaを入手してください。
-        
+    
     code: |
         ```java
         //ローカルファイルのドキュメントを比較します
@@ -86,31 +98,34 @@ steps:
             comparer.compare(new FileOutputStream("C:\\result.mhtml")); // 指定された名前の結果ファイルを作成する
         }
         ```
-        
+
+############################# Demos ############################
 demos:
     enable: true
     title: "MHTMLファイルを比較するためのライブデモ"
     content: |
         [GroupDocs.Comparisonライブデモ](https://products.groupdocs.app/comparison/family)サイトにアクセスして、MHTMLファイルを今すぐ比較してください。  
         ライブデモには次の利点があります
-        
+
+############################# About Formats ############################
 about_formats:
     enable: true
     format:
+        # format loop
         - icon: "far fa-file-mhtml"
           title: "MHTMLファイル形式について"
           content: |
             MHTML拡張子の付いたファイルは、さまざまなアプリケーションで作成できるWebページのアーカイブ形式を表しています。この形式は、Web HTMLコードと関連リソースを単一のファイルに保存するため、アーカイブ形式と呼ばれます。これらのリソースには、画像、アプレット、アニメーション、オーディオファイルなど、Webページにリンクされているものがすべて含まれます。 MHTMLファイルは、InternetExplorerやMicrosoftWordなどのさまざまなアプリケーションで開くことができます。 Microsoft Windowsは、問題を引き起こすWindows上のアプリケーションの使用中に観察された問題のシナリオを記録するために、MHTMLファイル形式を使用します。 MHTMLファイル形式は、プレーンテキストの電子メール関連の仕様であるmessage/rfc822で定義された仕様と同様のページコンテンツをエンコードします。フォーマットの実際の仕様は、RFC2557で詳しく説明されています。
+          link: "https://docs.fileformat.com/image/mhtml/"
 
-          link: "https://docs.fileformat.com/web/mhtml/"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
+    enable: true
     title: "他のファイル形式を比較する"
     content: |
         Java用のマルチフォーマット画像とドキュメント比較API。外部ソフトウェアを使用せずに、以下の一般的なファイル形式のいくつかを比較してください。
     format: 
-          link: "https://products.groupdocs.com/comparison/java/pdf/"
+        link: "https://products.groupdocs.com/comparison/java/pdf/"
           description: "AdobePortableドキュメント形式"
 
           link: "https://products.groupdocs.com/comparison/java/doc/"
@@ -209,6 +224,9 @@ more_formats:
           link: "https://products.groupdocs.com/comparison/java/mht/"
           description: "Mime HTML"
 
+          link: "https://products.groupdocs.com/comparison/java/mhtml/"
+          description: "集約HTMLのMIMEカプセル化"
+
           link: "https://products.groupdocs.com/comparison/java/msg/"
           description: "MicrosoftOutlookの電子メールメッセージ"
 
@@ -254,7 +272,20 @@ more_formats:
           link: "https://products.groupdocs.com/comparison/java/rb/"
           description: "Ruby言語"
 
+############################# Solutions ############################
+solutions:
+    enable: true
+    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
 
+    solution:
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for .NET MHTML"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-net.png"
+          product: "GroupDocs.Comparison"
+          platform: ".NET"
+          link: "/comparison/net/mhtml/"
+
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

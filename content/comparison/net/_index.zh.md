@@ -59,14 +59,13 @@ submenu:
         link_learn: "https://docs.groupdocs.com/comparison/net/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# 概述 ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
       GroupDocs.Comparison for .NET API 是一种快速可靠的解决方案，用于在 C#、ASP.NET 或其他 .NET 相关技术中相同格式的文档之间构建差异检查器应用程序。 .NET 比较库支持检查流行图像和文档格式（如 PDF、HTML、Outlook 电子邮件、微软办公软件 Word 文档、Excel 电子表格、PowerPoint 演示文稿、OneNote、Visio 图表、文字和图像。可以进行比较以检测单词、段落和字符的内容变化，同时提供列出差异摘要的比较文档。 GroupDocs.Comparison for .NET API 可以轻松提取源文档的基本信息。它还可以通过文件或流获取、比较和保存简单的密码启用以及加密文档。
         
       GroupDocs.Comparison for .NET 可用于在任何面向 .NET 平台的开发环境中开发应用程序。它与所有基于 .NET 的语言兼容，并支持可以安装 Mono 或 .NET 框架（包括 .NET Core）的流行操作系统（Windows、Linux、MacOS）。
-
     tabs:
       enable: true
       
@@ -91,19 +90,18 @@ overview:
       tab_two:
         description: |
           GroupDocs.Comparison for .NET 支持所有流行的 [文档文件格式](https://docs.groupdocs.com/comparison/net/supported-document-formats/)，包括：微软办公软件、PDF、图像等。
-
         left:
           enable: true
           table:
             # table loop
-            - title: "微软办公软件"
+            - title: "Microsoft Office"
               content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Outlook:** MSG, EML, EMLX, PST, OST
-                * **OneNote:** ONE
+                * **Word:** [DOC](https://products.groupdocs.com/comparison/net/doc/), [DOCX](https://products.groupdocs.com/comparison/net/docx/), [DOCM](https://products.groupdocs.com/comparison/net/docm/), [DOT](https://products.groupdocs.com/comparison/net/dot/), [DOTX](https://products.groupdocs.com/comparison/net/dotx/), [DOTM](https://products.groupdocs.com/comparison/net/dotm/), [RTF](https://products.groupdocs.com/comparison/net/rtf/), [TXT](https://products.groupdocs.com/comparison/net/txt/)
+                * **Excel:** [XLS](https://products.groupdocs.com/comparison/net/xls/), [XLSX](https://products.groupdocs.com/comparison/net/xlsx/), [XLSM](https://products.groupdocs.com/comparison/net/xlsm/), [XLSB](https://products.groupdocs.com/comparison/net/xlsb/), [XLTM](https://products.groupdocs.com/comparison/net/xltm/), [XLT](https://products.groupdocs.com/comparison/net/xlt/), [XLTM](https://products.groupdocs.com/comparison/net/xltm/), [XLTX](https://products.groupdocs.com/comparison/net/xltx/), [XLAM](https://products.groupdocs.com/comparison/net/xlam/), [SXC](https://products.groupdocs.com/comparison/net/sxc/), [SpreadsheetML](https://products.groupdocs.com/comparison/net/xml/)
+                * **PowerPoint:** [PPT](https://products.groupdocs.com/comparison/net/ppt/), [PPTX](https://products.groupdocs.com/comparison/net/pptx/), [PPS](https://products.groupdocs.com/comparison/net/pps/), [PPSX](https://products.groupdocs.com/comparison/net/ppsx/), [PPSM](https://products.groupdocs.com/comparison/net/ppsm/), [POT](https://products.groupdocs.com/comparison/net/pot/), [POTM](https://products.groupdocs.com/comparison/net/potm/), [POTX](https://products.groupdocs.com/comparison/net/potx/), [PPTM](https://products.groupdocs.com/comparison/net/pptm/)
+                * **Visio:** [VSD](https://products.groupdocs.com/comparison/net/vsd/), [VDX](https://products.groupdocs.com/comparison/net/vdx/), [VSS](https://products.groupdocs.com/comparison/net/vss/), [VSSX](https://products.groupdocs.com/comparison/net/vssx/), [VSX](https://products.groupdocs.com/comparison/net/vsx/), [VST](https://products.groupdocs.com/comparison/net/vst/), [VSTX](https://products.groupdocs.com/comparison/net/vstx/), [VTX](https://products.groupdocs.com/comparison/net/vtx/), [VSDX](https://products.groupdocs.com/comparison/net/vsdx/), [VDW](https://products.groupdocs.com/comparison/net/vdw/), [VSTM](https://products.groupdocs.com/comparison/net/vstm/), [VSSM](https://products.groupdocs.com/comparison/net/vssm/), [VSDM](https://products.groupdocs.com/comparison/net/vsdm/)
+                * **Outlook:** [MSG](https://products.groupdocs.com/comparison/net/msg/), [EML](https://products.groupdocs.com/comparison/net/eml/), [EMLX](https://products.groupdocs.com/comparison/net/emlx/), [PST](https://products.groupdocs.com/comparison/net/pst/), [OST](https://products.groupdocs.com/comparison/net/ost/)
+                * **OneNote:** [ONE](https://products.groupdocs.com/comparison/net/one/)
 
         right:
           enable: true
@@ -111,20 +109,17 @@ overview:
             # table loop
             - title: "其他格式"
               content: |
-                * **编程语言**：CS、Java、CPP、JS、PY、RB、PL、ASM、GROOVY、JSON、ActionScript、PHP、SQL、LOG、DIFF、LESS、SCALA
-                * **OpenDocument**：ODT、OTT、ODS、ODP、OTP
-                * **便携式**：PDF、MOBI
-                * **AutoCAD**：DXF、DWG
-                * **电子邮件**：EML、EMLX、MSG
-                * **图像**：JPEG、BMP、PNG、GIF、DCM、DICOM、DjVu
-                * **网络**：HTM、HTML、MHTML
-                * **文字**：TXT
+                * **Portable**: [PDF](/comparison/net/pdf/) (PDF/A-1a, PDF/A-1b, PDF/A-2a)
+                * **OpenDocument**: [ODT](/comparison/net/odt/), [ODS](/comparison/net/ods/), [ODP](/comparison/net/odp/)
+                * **Images**: [BMP](/comparison/net/bmp/), [JPG](/comparison/net/jpg/), [JPEG](/comparison/net/jpeg/), [TIFF](/comparison/net/tiff/), [TIF](/comparison/net/tif/), [PNG](/comparison/net/png/), [GIF](/comparison/net/gif/), [DCM](/comparison/net/dcm/), [DICOM](/comparison/net/dicom/)
+                * **AutoCAD**: [DWG](/comparison/net/dwg/), [DXF](/comparison/net/dxf/), [CAD](/comparison/net/cad/)
+                * **Other**: [HTM](/comparison/net/htm/), [HTML](/comparison/net/html/), [CSV](/comparison/net/csv/), [DJVU](/comparison/net/djvu/), [OTP](/comparison/net/otp/), [OTT](/comparison/net/ott/)
 
       ## TAB THREE ##
       tab_three:
         description: |
-         GroupDocs.Comparison for .NET 支持以下作品，Frameworks & 包管理器:
-        
+          GroupDocs.Comparison for .NET 支持以下作品，Frameworks & 包管理器:
+      
         left:
           enable: true
           table:
@@ -166,7 +161,7 @@ overview:
                 * Xamarin.Mac
                 * MonoDevelop
 
-############################# 特征 ############################
+############################# Features ############################
 features:
     enable: true
     title: ".NET 功能的 GroupDocs.Comparison"

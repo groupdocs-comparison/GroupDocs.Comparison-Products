@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:26+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Compare two XLS files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (XLS files in C# .NET applications. Retrieve differences summary in content, text &amp; style of XLS files, images and document formats."
+head_description: "Compare and merge more than two (XLS files in C# .NET applications. Retrieve differences summary in content, text & style of XLS files, images and document formats."
 
 ############################# Header ############################
 title: "Compare XLS Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing XLS Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple XLS files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.xls")
         {
-        	comparer.Add("target1.xls");
+        	  comparer.Add("target1.xls");
             comparer.Add("target2.xls");
             comparer.Add("target3.xls");
             comparer.Compare("result.xls"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.xls"))
         {
-        	comparer.Add(File.OpenRead("target1.xls"));
+        	  comparer.Add(File.OpenRead("target1.xls"));
             comparer.Add(File.OpenRead("target2.xls"));
             comparer.Add(File.OpenRead("target3.xls"));
             comparer.Compare(File.Create("result.xls")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between XLS files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,8 +120,7 @@ about_formats:
           title: "About XLS File Format"
           content: |
             Files with XLS extension represent Excel Binary File Format. Such files can be created by Microsoft Excel as well as other similar spreadsheet programs such as OpenOffice Calc or Apple Numbers. File saved by Excel is known as Workbook where each workbook can have one or more worksheets. Data is stored and displayed to users in table format in worksheet and can span numeric values, text data, formulas, external data connections, images, and charts. Applications like Microsoft Excel lets you export workbook data to several different formats including PDF, CSV, XLSX, TXT, HTML, XPS, and several others. The XLS file format was replaced with a more open and structured format, XLSX, with the release of Microsoft Excel 2007. The latest versions still provide support for creating and reading XLS files, though XLSX is the first choice of use now.
-
-          link: "https://docs.fileformat.com/spreadsheet/xls/"
+          link: "https://docs.fileformat.com/image/xls/"
 
 ############################# More Formats ############################
 more_formats:
@@ -174,6 +173,11 @@ more_formats:
         - name: "Compare TXT Files"
           link: "https://products.groupdocs.com/comparison/net/txt/"
           description: "Plain Text File Format"
+
+        # format loop
+        - name: "Compare XLS Files"
+          link: "https://products.groupdocs.com/comparison/net/xls/"
+          description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Compare XLSX Files"

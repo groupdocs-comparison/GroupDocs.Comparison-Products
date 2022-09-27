@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:23+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Compare two PDF files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (PDF files in C# .NET applications. Retrieve differences summary in content, text &amp; style of PDF files, images and document formats."
+head_description: "Compare and merge more than two (PDF files in C# .NET applications. Retrieve differences summary in content, text & style of PDF files, images and document formats."
 
 ############################# Header ############################
 title: "Compare PDF Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing PDF Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple PDF files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.pdf")
         {
-        	comparer.Add("target1.pdf");
+        	  comparer.Add("target1.pdf");
             comparer.Add("target2.pdf");
             comparer.Add("target3.pdf");
             comparer.Compare("result.pdf"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.pdf"))
         {
-        	comparer.Add(File.OpenRead("target1.pdf"));
+        	  comparer.Add(File.OpenRead("target1.pdf"));
             comparer.Add(File.OpenRead("target2.pdf"));
             comparer.Add(File.OpenRead("target3.pdf"));
             comparer.Compare(File.Create("result.pdf")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between PDF files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,8 +120,7 @@ about_formats:
           title: "About PDF File Format"
           content: |
             Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their documents to PDF file format without the requirement of any additional software component. Thus, PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features and 3D objects in it that can become as part of source document.
-
-          link: "https://docs.fileformat.com/view/pdf/"
+          link: "https://docs.fileformat.com/image/pdf/"
 
 ############################# More Formats ############################
 more_formats:
@@ -130,6 +129,11 @@ more_formats:
     content: |
         Multi format documents and images comparison API for .NET. Analyse the differences between documents of the same format without using any external tool.
     format: 
+        # format loop
+        - name: "Compare PDF Files"
+          link: "https://products.groupdocs.com/comparison/net/pdf/"
+          description: "Adobe Portable Document Format"
+
         # format loop
         - name: "Compare DOC Files"
           link: "https://products.groupdocs.com/comparison/net/doc/"

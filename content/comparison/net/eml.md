@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:21+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Compare two EML files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (EML files in C# .NET applications. Retrieve differences summary in content, text &amp; style of EML files, images and document formats."
+head_description: "Compare and merge more than two (EML files in C# .NET applications. Retrieve differences summary in content, text & style of EML files, images and document formats."
 
 ############################# Header ############################
 title: "Compare EML Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing EML Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple EML files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.eml")
         {
-        	comparer.Add("target1.eml");
+        	  comparer.Add("target1.eml");
             comparer.Add("target2.eml");
             comparer.Add("target3.eml");
             comparer.Compare("result.eml"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.eml"))
         {
-        	comparer.Add(File.OpenRead("target1.eml"));
+        	  comparer.Add(File.OpenRead("target1.eml"));
             comparer.Add(File.OpenRead("target2.eml"));
             comparer.Add(File.OpenRead("target3.eml"));
             comparer.Compare(File.Create("result.eml")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between EML files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,8 +120,7 @@ about_formats:
           title: "About EML File Format"
           content: |
             EML file format represents email messages saved using Outlook and other relevant applications. Almost all emailing clients support this file format for its compliance with RFC-822 Internet Message Format Standard. Microsoft Outlook is the default software for opening EML message types. EML files can be used for saving to disc as well as sending out to recipients using communication protocols.
-
-          link: "https://docs.fileformat.com/email/eml/"
+          link: "https://docs.fileformat.com/image/eml/"
 
 ############################# More Formats ############################
 more_formats:
@@ -304,6 +303,11 @@ more_formats:
         - name: "Compare MSG Files"
           link: "https://products.groupdocs.com/comparison/net/msg/"
           description: "Microsoft Outlook E-mail Message"
+
+        # format loop
+        - name: "Compare EML Files"
+          link: "https://products.groupdocs.com/comparison/net/eml/"
+          description: "E-mail Message"
 
         # format loop
         - name: "Compare EMLX Files"

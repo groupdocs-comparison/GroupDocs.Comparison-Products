@@ -1,11 +1,14 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:14+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
+
 ############################# Head ############################
 head_title: "API сравнения Java MHT — сравнение файлов MHT на наличие различий"
 head_description: "Сравнивайте и объединяйте файлы MHT в приложениях Java, J2EE, J2SE. Проанализируйте сводку различий в содержании, тексте и усилителях. стиль файлов MHT, изображений и форматов документов."
+
 ############################# Header ############################
 title: "Сравните файлы MHT в Java"
 description: "Выполните построчное сравнение между более чем двумя файлами MHT в Java. Получить список различий и сохранить сравниваемые файлы в один документ."
@@ -16,54 +19,67 @@ button:
     icon: "fas fa-arrow-down"
     label: "Скачать бесплатную пробную версию"
     link: "https://downloads.groupdocs.com/comparison/java"
+
 ############################# SubMenu ############################
 submenu:
     enable: true
+
     left:
-        img_alt: "GroupDocs.Comparison for Java"
+        img_alt: "GroupDocs.Comparison для Java"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-java.png"
         product: "GroupDocs.Comparison"
         platform: "Java"
+
     middle:
-        button:
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/java"
               text: "Справочник по API"
+
             # button loop
             - link: "https://github.com/groupdocs-comparison"
               text: "Примеры кода"
+
             # button loop
             - link: "https://products.groupdocs.app/comparison/family"
               text: "Живые демонстрации"
+
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/java"
               text: "Цены"
+
     right:
         link_download: "https://downloads.groupdocs.com/comparison"
         link_learn: "https://docs.groupdocs.com/comparison/java"
         link_buy: "https://purchase.groupdocs.com"
+
 ############################# About ############################
 about:
     enable: true
     title: "О GroupDocs.Comparison для Java API"
     content: |
         Расширьте возможности своих Java-приложений с помощью функций сравнения изображений и документов с помощью API [GroupDocs.Comparison for Java](/ru/comparison/java/). Это помогает вам определить различия в абзацах, словах, символах, формах и даже текстовых стилях сравниваемых документов одного формата, позволяет объединять изменения и экспортировать в окончательный документ. Он поддерживает сравнение и объединение широкого спектра документов, включая рабочие листы PDF, Word, Excel, презентации PowerPoint, диаграммы Visio, электронные письма Outlook, HTML, рисунки и форматы файлов изображений, без использования какой-либо внешней библиотеки.
+
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для сравнения файлов MHT в Java"
     content_left: |
         [GroupDocs.Comparison](/ru/comparison/java/) позволяет разработчикам Java легко сравнивать файлы MHT в своих приложениях с помощью нескольких строк кода.
+        
         * Создание экземпляра объекта Comparer с путем или потоком исходного документа.
         * Вызовите метод добавления и укажите путь к целевому документу или поток.
         * Метод сравнения вызовов.
+    
     title_right: "Системные Требования"
     content_right: |
         API GroupDocs.Comparison для Java поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среда разработки: NetBeans, Intellij IDEA, Eclipse и т. д.
         * Среда выполнения Java: J2SE 6.0 и выше
         * Получите последнюю версию GroupDocs.Comparison для Java от [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
+    
     code: |
         ```java
         // Сравните документы из локального файла
@@ -77,12 +93,14 @@ steps:
             comparer.compare(new FileOutputStream("C:\\result.mht")); // Создать результирующий файл с указанным именем
         }
         ```
+
 ############################# Demos ############################
 demos:
     enable: true
     title: "Живые демонстрации для сравнения файлов MHT"
     content: |
         Сравните файлы MHT прямо сейчас, посетив [живые демонстрации](https://products.groupdocs.app/comparison/family). Живая демонстрация имеет следующие преимущества
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -92,7 +110,8 @@ about_formats:
           title: "О формате файла MHT"
           content: |
             Файл с расширением .mht представляет собой формат архивного файла с поддержкой MIME, который содержит различные типы данных в одном файле. Он может хранить такие данные, как текст, изображения, стили страниц в виде файлов CSS, JavaScript и других ресурсов в виде встроенных в него ресурсов. Файлы MHT, имеющие тип MIME message/rfc822, инкапсулируют все содержимое файла HTML в виде единого архивного файла для хранения при архивировании на устройствах хранения. Программные приложения, такие как Microsoft Word, позволяют преобразовывать документы WORD в формат MHT путем экспорта в виде файла MHT. Файлы MHT можно открывать с помощью популярных браузеров, таких как Microsoft Internet Explorer и Google Chrome.
-          link: "https://docs.fileformat.com/web/mht/"
+          link: "https://docs.fileformat.com/image/mht/"
+
 ############################# More Formats ############################
 more_formats:
     enable: true
@@ -233,6 +252,10 @@ more_formats:
           link: "/comparison/java/html/"
           description: "Язык гипертекстовой разметки"
         # format loop
+        - name: "Сравнить файлы MHT"
+          link: "/comparison/java/mht/"
+          description: "HTML-пантомима"
+        # format loop
         - name: "Сравнить файлы MHTML"
           link: "/comparison/java/mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
@@ -296,6 +319,20 @@ more_formats:
         - name: "Сравнить файлы RB"
           link: "/comparison/java/rb/"
           description: "Рубиновый язык"
+
+############################# Solutions ############################
+solutions:
+    enable: true
+    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+
+    solution:
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for .NET MHT"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-net.png"
+          product: "GroupDocs.Comparison"
+          platform: ".NET"
+          link: "/comparison/net/mht/"
+
 ############################# Back to top ###############################
 back_to_top:
     enable: true

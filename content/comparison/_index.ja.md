@@ -1,18 +1,24 @@
+
 ---
+############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-07-05T12:44:18+03:00
 draft: false
 
+############################# Head ############################
 head_title: ".NETとJavaのドキュメント比較ライブラリ|テキストとスタイルのドキュメントを比較する"
 head_description: "C＃ASP.NETおよびJavaにネイティブなドキュメント比較ライブラリ。スタイルとコンテンツの違いを比較して、サポートされている形式の比較されたファイル間の変更を特定します."
 
+############################# Header ############################
 title: "一般的な形式のドキュメント比較API"
 description: "高度に構成可能な比較機能を備えたネイティブの.NETおよびJavaアプリを開発します。類似のドキュメント形式間でコンテンツとテキストスタイルを比較する."
 
+############################# APIs ###############################
 apis:
   enable: true
 
   api:
+    # api loop
     - title: "GroupDocs.ComparisonハイコードAPIには次のものが含まれます"
       link: "/comparison/"
       label: "すべてのハイコードAPIを表示"
@@ -31,6 +37,7 @@ apis:
           platform: "Java"
           content: "デスクトップ、Web、その他のJavaSEまたはEEベースのアプリケーション用のネイティブJavaAPI."
 
+    # api loop
     - title: "GroupDocs.ComparisonローコードAPIには次のものが含まれます"
       link: "https://products.groupdocs.cloud/comparison"
       label: "すべてのローコードAPIを表示"
@@ -56,6 +63,7 @@ apis:
           platform: "Cloud SDK for Java"
           content: "特別に設計されたJava用ドキュメント比較SDKを使用して、Javaアプリケーションに忠実度の高いドキュメント比較機能を追加します."
 
+    # api loop
     - title: "GroupDocs.Comparisonノーコードアプリには含まれていません"
       link: "https://products.groupdocs.app/comparison"
       label: "すべてのノーコードアプリを表示"
@@ -81,6 +89,7 @@ apis:
           platform: "PDF"
           content: "PDF比較オンラインアプリを使用してPDFをオンラインで比較."
 
+############################# Back to top ###############################
 back_to_top:
   enable: true
 ---

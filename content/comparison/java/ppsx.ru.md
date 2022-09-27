@@ -1,11 +1,14 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:16+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
+
 ############################# Head ############################
 head_title: "API сравнения Java PPSX — сравнение файлов PPSX на наличие различий"
 head_description: "Сравнивайте и объединяйте файлы PPSX в приложениях Java, J2EE, J2SE. Проанализируйте сводку различий в содержании, тексте и усилителях. стиль файлов PPSX, изображений и форматов документов."
+
 ############################# Header ############################
 title: "Сравните файлы PPSX в Java"
 description: "Выполните построчное сравнение между более чем двумя файлами PPSX в Java. Получить список различий и сохранить сравниваемые файлы в один документ."
@@ -16,54 +19,67 @@ button:
     icon: "fas fa-arrow-down"
     label: "Скачать бесплатную пробную версию"
     link: "https://downloads.groupdocs.com/comparison/java"
+
 ############################# SubMenu ############################
 submenu:
     enable: true
+
     left:
-        img_alt: "GroupDocs.Comparison for Java"
+        img_alt: "GroupDocs.Comparison для Java"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-java.png"
         product: "GroupDocs.Comparison"
         platform: "Java"
+
     middle:
-        button:
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/java"
               text: "Справочник по API"
+
             # button loop
             - link: "https://github.com/groupdocs-comparison"
               text: "Примеры кода"
+
             # button loop
             - link: "https://products.groupdocs.app/comparison/family"
               text: "Живые демонстрации"
+
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/java"
               text: "Цены"
+
     right:
         link_download: "https://downloads.groupdocs.com/comparison"
         link_learn: "https://docs.groupdocs.com/comparison/java"
         link_buy: "https://purchase.groupdocs.com"
+
 ############################# About ############################
 about:
     enable: true
     title: "О GroupDocs.Comparison для Java API"
     content: |
         Расширьте возможности своих Java-приложений с помощью функций сравнения изображений и документов с помощью API [GroupDocs.Comparison for Java](/ru/comparison/java/). Это помогает вам определить различия в абзацах, словах, символах, формах и даже текстовых стилях сравниваемых документов одного формата, позволяет объединять изменения и экспортировать в окончательный документ. Он поддерживает сравнение и объединение широкого спектра документов, включая рабочие листы PDF, Word, Excel, презентации PowerPoint, диаграммы Visio, электронные письма Outlook, HTML, рисунки и форматы файлов изображений, без использования какой-либо внешней библиотеки.
+
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для сравнения файлов PPSX в Java"
     content_left: |
         [GroupDocs.Comparison](/ru/comparison/java/) позволяет разработчикам Java легко сравнивать файлы PPSX в своих приложениях с помощью нескольких строк кода.
+        
         * Создание экземпляра объекта Comparer с путем или потоком исходного документа.
         * Вызовите метод добавления и укажите путь к целевому документу или поток.
         * Метод сравнения вызовов.
+    
     title_right: "Системные Требования"
     content_right: |
         API GroupDocs.Comparison для Java поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среда разработки: NetBeans, Intellij IDEA, Eclipse и т. д.
         * Среда выполнения Java: J2SE 6.0 и выше
         * Получите последнюю версию GroupDocs.Comparison для Java от [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
+    
     code: |
         ```java
         // Сравните документы из локального файла
@@ -77,12 +93,14 @@ steps:
             comparer.compare(new FileOutputStream("C:\\result.ppsx")); // Создать результирующий файл с указанным именем
         }
         ```
+
 ############################# Demos ############################
 demos:
     enable: true
     title: "Живые демонстрации для сравнения файлов PPSX"
     content: |
         Сравните файлы PPSX прямо сейчас, посетив [живые демонстрации](https://products.groupdocs.app/comparison/family). Живая демонстрация имеет следующие преимущества
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -92,7 +110,8 @@ about_formats:
           title: "О формате файла PPSX"
           content: |
             PPSX, слайд-шоу Power Point, файлы создаются с использованием Microsoft PowerPoint 2007 и выше для целей слайд-шоу. Это обновление формата файла PPS, которое поддерживалось версиями Microsoft PowerPoint 97-2003. Когда файл PPSX передается другому пользователю и открывается, он запускается в виде презентации PowerPoint, в отличие от файла PPTX, который открывается в редактируемом режиме. Последовательность показа слайдов такая же, как и в исходной презентации. Все слайды сопровождаются изображениями, звуками и другими встроенными мультимедийными данными, сопровождающими слайды презентации на PPSX во время показа слайдов.
-          link: "https://docs.fileformat.com/presentation/ppsx/"
+          link: "https://docs.fileformat.com/image/ppsx/"
+
 ############################# More Formats ############################
 more_formats:
     enable: true
@@ -172,6 +191,10 @@ more_formats:
         - name: "Сравнить файлы PPTX"
           link: "/comparison/java/pptx/"
           description: "Презентация PowerPoint Open XML"
+        # format loop
+        - name: "Сравнить файлы PPSX"
+          link: "/comparison/java/ppsx/"
+          description: "Слайд-шоу PowerPoint Open XML"
         # format loop
         - name: "Сравнить файлы POT"
           link: "/comparison/java/pot/"
@@ -296,6 +319,20 @@ more_formats:
         - name: "Сравнить файлы RB"
           link: "/comparison/java/rb/"
           description: "Рубиновый язык"
+
+############################# Solutions ############################
+solutions:
+    enable: true
+    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+
+    solution:
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for .NET PPSX"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-net.png"
+          product: "GroupDocs.Comparison"
+          platform: ".NET"
+          link: "/comparison/net/ppsx/"
+
 ############################# Back to top ###############################
 back_to_top:
     enable: true

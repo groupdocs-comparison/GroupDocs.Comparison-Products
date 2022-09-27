@@ -66,7 +66,6 @@ overview:
       GroupDocs.Comparison for .NET API is a fast and reliable solution ready for use when creating applications for searching and highlighting differences between documents of the same or different formats in C#, ASP.NET or other technologies related to the .NET software platform. The GroupDocs.Comparison library supports detecting differences in both content and text style between popular image and document formats such as PDF, HTML, e-mail Outlook, Microsoft Office Word documents, Excel spreadsheets, PowerPoint presentations, OneNote, Visio diagrams, texts, png, gif and bmp images as well as a hundred of other formats. Comparison can be performed to detect changes in the content of words, paragraphs, tables or charts and their styles, and will provide you with a comparison document that lists a summary of the differences, their number and type belonging. GroupDocs.Comparison for .NET can easily extract basic information about the source document, compare and save simple, password-protected and encrypted documents of various formats through a file or data stream. There is already a lot of documentation on using Comparison library on different platforms with code examples, so you don't have to think hard about how to work with GroupDocs.Comparison for .NET API in your application.
         
       You can use GroupDocs.Comparison for .NET to create applications in any development environment oriented on the .NET platform. It is compatible with all .NET-based languages and supports popular operating systems (Windows, Linux, MacOS) on which you can install Mono or .NET frameworks (including .NET Core).
-
     tabs:
       enable: true
       
@@ -91,7 +90,6 @@ overview:
       tab_two:
         description: |
           GroupDocs.Comparison for .NET supports all popular [document file formats](https://docs.groupdocs.com/comparison/net/supported-document-formats/) including: Microsoft Office, PDF, images and many others.
-
         left:
           enable: true
           table:
@@ -124,7 +122,7 @@ overview:
       tab_three:
         description: |
           GroupDocs.Comparison for .NET supports following Operating Systems, Frameworks & Package Managers:
-        
+      
         left:
           enable: true
           table:

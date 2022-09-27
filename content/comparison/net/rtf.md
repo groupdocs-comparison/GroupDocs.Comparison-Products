@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:25+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Compare two RTF files in .NET | Document Comparison APIs"
-head_description: "Compare and merge more than two (RTF files in C# .NET applications. Retrieve differences summary in content, text &amp; style of RTF files, images and document formats."
+head_description: "Compare and merge more than two (RTF files in C# .NET applications. Retrieve differences summary in content, text & style of RTF files, images and document formats."
 
 ############################# Header ############################
 title: "Compare RTF Files in C# .NET"
@@ -30,8 +31,7 @@ submenu:
         platform: ".NET"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API Reference"
@@ -66,27 +66,27 @@ steps:
     title_left: "Steps for Comparing RTF Files in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) makes it easy for .NET developers to compare & merge multiple RTF files in their applications by implementing a few easy steps.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call Add method and specify target document path or stream. Repeat this step for every target document.
         *   Call Compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         *   Get the latest version of GroupDocs.Comparison for .NET downloaded from [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-        
+    
     code: |
         ```cs
         // Compare multiple documents from local disk
         
         using (Comparer comparer = new Comparer("source.rtf")
         {
-        	comparer.Add("target1.rtf");
+        	  comparer.Add("target1.rtf");
             comparer.Add("target2.rtf");
             comparer.Add("target3.rtf");
             comparer.Compare("result.rtf"); // Create result file with the specified name
@@ -96,13 +96,13 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.rtf"))
         {
-        	comparer.Add(File.OpenRead("target1.rtf"));
+        	  comparer.Add(File.OpenRead("target1.rtf"));
             comparer.Add(File.OpenRead("target2.rtf"));
             comparer.Add(File.OpenRead("target3.rtf"));
             comparer.Compare(File.Create("result.rtf")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -110,7 +110,7 @@ demos:
     content: |
         Detect differences between RTF files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -120,8 +120,7 @@ about_formats:
           title: "About RTF File Format"
           content: |
             Introduced and documented by Microsoft, the Rich Text Format (RTF) represents a method of encoding formatted text and graphics for use within applications. The format facilitates cross-platform document exchange with other Microsoft Products, thus serving the purpose of interoperability. This capability makes it a standard of data transfer between word processing software and, hence, contents can be transferred from one operating system to another without losing document formatting. The file format specifications are available by Microsoft for public download and can be referred to from developer's perspective.
-
-          link: "https://docs.fileformat.com/word-processing/rtf/"
+          link: "https://docs.fileformat.com/image/rtf/"
 
 ############################# More Formats ############################
 more_formats:
@@ -164,6 +163,11 @@ more_formats:
         - name: "Compare DOTX Files"
           link: "https://products.groupdocs.com/comparison/net/dotx/"
           description: "Word Open XML Document Template"
+
+        # format loop
+        - name: "Compare RTF Files"
+          link: "https://products.groupdocs.com/comparison/net/rtf/"
+          description: "Rich Text File Format"
 
         # format loop
         - name: "Compare TXT Files"

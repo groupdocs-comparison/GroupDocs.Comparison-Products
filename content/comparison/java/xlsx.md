@@ -1,12 +1,13 @@
+
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:18+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Java XLSX Comparison API - Compare XLSX Files for Differences"
-head_description: "Compare and merge XLSX files in Java, J2EE, J2SE applications. Analyse differences summary in content, text &amp; style of XLSX files, images and document formats."
+head_description: "Compare and merge XLSX files in Java, J2EE, J2SE applications. Analyse differences summary in content, text & style of XLSX files, images and document formats."
 
 ############################# Header ############################
 title: "Compare XLSX Files in Java"
@@ -30,8 +31,7 @@ submenu:
         platform: "Java"
 
     middle:
-        button:
-
+        button: 
             # button loop
             - link: "https://apireference.groupdocs.com/comparison/java"
               text: "API Reference"
@@ -66,20 +66,20 @@ steps:
     title_left: "Steps for Comparing XLSX Files in Java"
     content_left: |
         [GroupDocs.Comparison](/comparison/java/) makes it easy for Java developers to compare XLSX files within their applications using a few lines of code.
-
+        
         *   Instantiate **Comparer** object with source document path or stream.
         *   Call add method and specify target document path or stream.
         *   Call compare method.
-        
+    
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Comparison for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
+    
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc
         *   Java Runtime Environment: J2SE 6.0 and above
         *   Get the latest version of GroupDocs.Comparison for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
-        
+    
     code: |
         ```java
         // Compare documents from local file
@@ -96,7 +96,7 @@ steps:
             comparer.compare(new FileOutputStream("C:\\result.xlsx")); // Create result file with the specified name
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -104,7 +104,7 @@ demos:
     content: |
         Compare XLSX files right now by visiting [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) website.  
         The live demo has the following benefits
-        
+
 ############################# About Formats ############################
 about_formats:
     enable: true
@@ -114,8 +114,7 @@ about_formats:
           title: "About XLSX File Format"
           content: |
             XLSX is well-known format for Microsoft Excel documents that was introduced by Microsoft with the release of Microsoft Office 2007. Based on structure organized according to the Open Packaging Conventions as outlined in Part 2 of the OOXML standard ECMA-376, the new format is a zip package that contains a number of XML files. The underlying structure and files can be examined by simply unzipping the .xlsx file.
-
-          link: "https://docs.fileformat.com/spreadsheet/xlsx/"
+          link: "https://docs.fileformat.com/image/xlsx/"
 
 ############################# More Formats ############################
 more_formats:
@@ -173,6 +172,11 @@ more_formats:
         - name: "Compare XLS Files"
           link: "https://products.groupdocs.com/comparison/java/xls/"
           description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "Compare XLSX Files"
+          link: "https://products.groupdocs.com/comparison/java/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Compare XLTM Files"
