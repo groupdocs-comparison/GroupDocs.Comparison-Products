@@ -14,7 +14,7 @@ head_title: "C# .NET Document Comparison API | Compare & Merge PDF Word Excel We
 head_description: "C# .NET Document Comparison API. Compare & merge PDF Word DOC DOCX, Excel Spreadsheet, PPT, PPTX, HTML, EMLX MSG, VSDX, DXF DWG & image file formats."
 
 ############################# Header ############################
-title: ".NET API to Compare Files & Get Changes"
+title: ".NET API to Compare Files"
 description: "Develop Applications using the .NET Document Comparison API to Check & Compare files for Differences in Content & Style."
 button:
     enable: true
