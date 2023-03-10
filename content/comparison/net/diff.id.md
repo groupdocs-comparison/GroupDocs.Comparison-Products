@@ -116,7 +116,7 @@ about_formats:
         - icon: "far fa-file-diff"
           title: "Tentang Format Berkas DIFF"
           content: |
-            {{DIFF}}
+            File DIFF adalah file tunggal yang menunjukkan perbedaan antara satu atau lebih teks atau file sumber. Itu dibuat oleh Mercurial, alat manajemen kontrol bagi pengembang untuk mendapatkan perbedaan antara file dan menerapkan tambalan. Melalui file DIFF, pengembang membagikan perubahan mereka dengan pengembang lain sehingga perubahan tersebut dapat diperbarui untuk menghasilkan versi file teks yang lebih baru. File DIFF dapat dibuka di Mercurial.
           link: "https://docs.fileformat.com/image/diff/"
 
 ############################# More Formats ############################

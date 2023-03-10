@@ -113,7 +113,7 @@ about_formats:
         - icon: "far fa-file-diff"
           title: "About DIFF File Format"
           content: |
-            {{diff}}
+            A DIFF file is a single file showing the differences between one or more text or source files. It is created by Mercurial, a control management tool for developers to obtain differences between files and apply the patches. Through DIFF files, developers share their changes with other developers so that the changes can be updated to generate a newer version of the text files. DIFF files can be opened in Mercurial.
           link: "https://docs.fileformat.com/image/diff/"
 
 ############################# More Formats ############################
