@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла PPSX в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов PPSX в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов PPSX в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов PPSX, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы PPSX в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.ppsx")
         {
-        	  comparer.Add("target1.ppsx");
+        	comparer.Add("target1.ppsx");
             comparer.Add("target2.ppsx");
             comparer.Add("target3.ppsx");
             comparer.Compare("result.ppsx"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.ppsx"))
         {
-        	  comparer.Add(File.OpenRead("target1.ppsx"));
+        	comparer.Add(File.OpenRead("target1.ppsx"));
             comparer.Add(File.OpenRead("target2.ppsx"));
             comparer.Add(File.OpenRead("target3.ppsx"));
             comparer.Compare(File.Create("result.ppsx")); // Создать результирующий файл с указанным именем

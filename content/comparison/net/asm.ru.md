@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла ASM в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов ASM в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов ASM в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов ASM, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы ASM в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.asm")
         {
-        	  comparer.Add("target1.asm");
+        	comparer.Add("target1.asm");
             comparer.Add("target2.asm");
             comparer.Add("target3.asm");
             comparer.Compare("result.asm"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.asm"))
         {
-        	  comparer.Add(File.OpenRead("target1.asm"));
+        	comparer.Add(File.OpenRead("target1.asm"));
             comparer.Add(File.OpenRead("target2.asm"));
             comparer.Add(File.OpenRead("target3.asm"));
             comparer.Compare(File.Create("result.asm")); // Создать результирующий файл с указанным именем

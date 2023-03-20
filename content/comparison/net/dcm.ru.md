@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла DCM в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов DCM в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов DCM в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DCM, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы DCM в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.dcm")
         {
-        	  comparer.Add("target1.dcm");
+        	comparer.Add("target1.dcm");
             comparer.Add("target2.dcm");
             comparer.Add("target3.dcm");
             comparer.Compare("result.dcm"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.dcm"))
         {
-        	  comparer.Add(File.OpenRead("target1.dcm"));
+        	comparer.Add(File.OpenRead("target1.dcm"));
             comparer.Add(File.OpenRead("target2.dcm"));
             comparer.Add(File.OpenRead("target3.dcm"));
             comparer.Compare(File.Create("result.dcm")); // Создать результирующий файл с указанным именем

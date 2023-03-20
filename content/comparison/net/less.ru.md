@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла LESS в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов LESS в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов LESS в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов LESS, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы LESS в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.less")
         {
-        	  comparer.Add("target1.less");
+        	comparer.Add("target1.less");
             comparer.Add("target2.less");
             comparer.Add("target3.less");
             comparer.Compare("result.less"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.less"))
         {
-        	  comparer.Add(File.OpenRead("target1.less"));
+        	comparer.Add(File.OpenRead("target1.less"));
             comparer.Add(File.OpenRead("target2.less"));
             comparer.Add(File.OpenRead("target3.less"));
             comparer.Compare(File.Create("result.less")); // Создать результирующий файл с указанным именем

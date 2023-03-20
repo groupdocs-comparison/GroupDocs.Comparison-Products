@@ -84,7 +84,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.java")
         {
-        	  comparer.Add("target1.java");
+        	comparer.Add("target1.java");
             comparer.Add("target2.java");
             comparer.Add("target3.java");
             comparer.Compare("result.java");
@@ -94,7 +94,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.java"))
         {
-        	  comparer.Add(File.OpenRead("target1.java"));
+        	comparer.Add(File.OpenRead("target1.java"));
             comparer.Add(File.OpenRead("target2.java"));
             comparer.Add(File.OpenRead("target3.java"));
             comparer.Compare(File.Create("result.java"));

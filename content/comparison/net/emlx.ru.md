@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла EMLX в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов EMLX в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов EMLX в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов EMLX, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы EMLX в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.emlx")
         {
-        	  comparer.Add("target1.emlx");
+        	comparer.Add("target1.emlx");
             comparer.Add("target2.emlx");
             comparer.Add("target3.emlx");
             comparer.Compare("result.emlx"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.emlx"))
         {
-        	  comparer.Add(File.OpenRead("target1.emlx"));
+        	comparer.Add(File.OpenRead("target1.emlx"));
             comparer.Add(File.OpenRead("target2.emlx"));
             comparer.Add(File.OpenRead("target3.emlx"));
             comparer.Compare(File.Create("result.emlx")); // Создать результирующий файл с указанным именем

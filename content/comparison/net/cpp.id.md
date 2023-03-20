@@ -84,7 +84,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.cpp")
         {
-        	  comparer.Add("target1.cpp");
+        	comparer.Add("target1.cpp");
             comparer.Add("target2.cpp");
             comparer.Add("target3.cpp");
             comparer.Compare("result.cpp");
@@ -94,7 +94,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.cpp"))
         {
-        	  comparer.Add(File.OpenRead("target1.cpp"));
+        	comparer.Add(File.OpenRead("target1.cpp"));
             comparer.Add(File.OpenRead("target2.cpp"));
             comparer.Add(File.OpenRead("target3.cpp"));
             comparer.Compare(File.Create("result.cpp"));

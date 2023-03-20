@@ -84,7 +84,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.asm")
         {
-        	  comparer.Add("target1.asm");
+        	comparer.Add("target1.asm");
             comparer.Add("target2.asm");
             comparer.Add("target3.asm");
             comparer.Compare("result.asm");
@@ -94,7 +94,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.asm"))
         {
-        	  comparer.Add(File.OpenRead("target1.asm"));
+        	comparer.Add(File.OpenRead("target1.asm"));
             comparer.Add(File.OpenRead("target2.asm"));
             comparer.Add(File.OpenRead("target3.asm"));
             comparer.Compare(File.Create("result.asm"));

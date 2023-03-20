@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла ODS в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов ODS в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов ODS в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов ODS, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы ODS в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.ods")
         {
-        	  comparer.Add("target1.ods");
+        	comparer.Add("target1.ods");
             comparer.Add("target2.ods");
             comparer.Add("target3.ods");
             comparer.Compare("result.ods"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.ods"))
         {
-        	  comparer.Add(File.OpenRead("target1.ods"));
+        	comparer.Add(File.OpenRead("target1.ods"));
             comparer.Add(File.OpenRead("target2.ods"));
             comparer.Add(File.OpenRead("target3.ods"));
             comparer.Compare(File.Create("result.ods")); // Создать результирующий файл с указанным именем

@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла PL в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов PL в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов PL в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов PL, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы PL в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.pl")
         {
-        	  comparer.Add("target1.pl");
+        	comparer.Add("target1.pl");
             comparer.Add("target2.pl");
             comparer.Add("target3.pl");
             comparer.Compare("result.pl"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.pl"))
         {
-        	  comparer.Add(File.OpenRead("target1.pl"));
+        	comparer.Add(File.OpenRead("target1.pl"));
             comparer.Add(File.OpenRead("target2.pl"));
             comparer.Add(File.OpenRead("target3.pl"));
             comparer.Compare(File.Create("result.pl")); // Создать результирующий файл с указанным именем

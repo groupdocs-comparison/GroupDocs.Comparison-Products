@@ -84,7 +84,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.log")
         {
-        	  comparer.Add("target1.log");
+        	comparer.Add("target1.log");
             comparer.Add("target2.log");
             comparer.Add("target3.log");
             comparer.Compare("result.log");
@@ -94,7 +94,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.log"))
         {
-        	  comparer.Add(File.OpenRead("target1.log"));
+        	comparer.Add(File.OpenRead("target1.log"));
             comparer.Add(File.OpenRead("target2.log"));
             comparer.Add(File.OpenRead("target3.log"));
             comparer.Compare(File.Create("result.log"));

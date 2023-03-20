@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла DJVU в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов DJVU в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов DJVU в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DJVU, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы DJVU в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.djvu")
         {
-        	  comparer.Add("target1.djvu");
+        	comparer.Add("target1.djvu");
             comparer.Add("target2.djvu");
             comparer.Add("target3.djvu");
             comparer.Compare("result.djvu"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.djvu"))
         {
-        	  comparer.Add(File.OpenRead("target1.djvu"));
+        	comparer.Add(File.OpenRead("target1.djvu"));
             comparer.Add(File.OpenRead("target2.djvu"));
             comparer.Add(File.OpenRead("target3.djvu"));
             comparer.Compare(File.Create("result.djvu")); // Создать результирующий файл с указанным именем

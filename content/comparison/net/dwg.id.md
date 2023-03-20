@@ -84,7 +84,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.dwg")
         {
-        	  comparer.Add("target1.dwg");
+        	comparer.Add("target1.dwg");
             comparer.Add("target2.dwg");
             comparer.Add("target3.dwg");
             comparer.Compare("result.dwg");
@@ -94,7 +94,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.dwg"))
         {
-        	  comparer.Add(File.OpenRead("target1.dwg"));
+        	comparer.Add(File.OpenRead("target1.dwg"));
             comparer.Add(File.OpenRead("target2.dwg"));
             comparer.Add(File.OpenRead("target3.dwg"));
             comparer.Compare(File.Create("result.dwg"));

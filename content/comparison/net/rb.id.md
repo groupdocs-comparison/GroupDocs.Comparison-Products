@@ -84,7 +84,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.rb")
         {
-        	  comparer.Add("target1.rb");
+        	comparer.Add("target1.rb");
             comparer.Add("target2.rb");
             comparer.Add("target3.rb");
             comparer.Compare("result.rb");
@@ -94,7 +94,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.rb"))
         {
-        	  comparer.Add(File.OpenRead("target1.rb"));
+        	comparer.Add(File.OpenRead("target1.rb"));
             comparer.Add(File.OpenRead("target2.rb"));
             comparer.Add(File.OpenRead("target3.rb"));
             comparer.Compare(File.Create("result.rb"));

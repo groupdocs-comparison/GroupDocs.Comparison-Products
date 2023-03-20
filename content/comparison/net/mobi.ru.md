@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла MOBI в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов MOBI в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов MOBI в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов MOBI, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы MOBI в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.mobi")
         {
-        	  comparer.Add("target1.mobi");
+        	comparer.Add("target1.mobi");
             comparer.Add("target2.mobi");
             comparer.Add("target3.mobi");
             comparer.Compare("result.mobi"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.mobi"))
         {
-        	  comparer.Add(File.OpenRead("target1.mobi"));
+        	comparer.Add(File.OpenRead("target1.mobi"));
             comparer.Add(File.OpenRead("target2.mobi"));
             comparer.Add(File.OpenRead("target3.mobi"));
             comparer.Compare(File.Create("result.mobi")); // Создать результирующий файл с указанным именем

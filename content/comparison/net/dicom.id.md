@@ -84,7 +84,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.dicom")
         {
-        	  comparer.Add("target1.dicom");
+        	comparer.Add("target1.dicom");
             comparer.Add("target2.dicom");
             comparer.Add("target3.dicom");
             comparer.Compare("result.dicom");
@@ -94,7 +94,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.dicom"))
         {
-        	  comparer.Add(File.OpenRead("target1.dicom"));
+        	comparer.Add(File.OpenRead("target1.dicom"));
             comparer.Add(File.OpenRead("target2.dicom"));
             comparer.Add(File.OpenRead("target3.dicom"));
             comparer.Compare(File.Create("result.dicom"));

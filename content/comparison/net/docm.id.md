@@ -84,7 +84,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.docm")
         {
-        	  comparer.Add("target1.docm");
+        	comparer.Add("target1.docm");
             comparer.Add("target2.docm");
             comparer.Add("target3.docm");
             comparer.Compare("result.docm");
@@ -94,7 +94,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.docm"))
         {
-        	  comparer.Add(File.OpenRead("target1.docm"));
+        	comparer.Add(File.OpenRead("target1.docm"));
             comparer.Add(File.OpenRead("target2.docm"));
             comparer.Add(File.OpenRead("target3.docm"));
             comparer.Compare(File.Create("result.docm"));

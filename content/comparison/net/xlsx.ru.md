@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла XLSX в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов XLSX в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов XLSX в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов XLSX, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы XLSX в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.xlsx")
         {
-        	  comparer.Add("target1.xlsx");
+        	comparer.Add("target1.xlsx");
             comparer.Add("target2.xlsx");
             comparer.Add("target3.xlsx");
             comparer.Compare("result.xlsx"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.xlsx"))
         {
-        	  comparer.Add(File.OpenRead("target1.xlsx"));
+        	comparer.Add(File.OpenRead("target1.xlsx"));
             comparer.Add(File.OpenRead("target2.xlsx"));
             comparer.Add(File.OpenRead("target3.xlsx"));
             comparer.Compare(File.Create("result.xlsx")); // Создать результирующий файл с указанным именем

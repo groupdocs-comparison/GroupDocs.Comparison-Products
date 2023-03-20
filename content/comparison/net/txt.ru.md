@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла TXT в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов TXT в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов TXT в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов TXT, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы TXT в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.txt")
         {
-        	  comparer.Add("target1.txt");
+        	comparer.Add("target1.txt");
             comparer.Add("target2.txt");
             comparer.Add("target3.txt");
             comparer.Compare("result.txt"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.txt"))
         {
-        	  comparer.Add(File.OpenRead("target1.txt"));
+        	comparer.Add(File.OpenRead("target1.txt"));
             comparer.Add(File.OpenRead("target2.txt"));
             comparer.Add(File.OpenRead("target3.txt"));
             comparer.Compare(File.Create("result.txt")); // Создать результирующий файл с указанным именем

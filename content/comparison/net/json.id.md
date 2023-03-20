@@ -84,7 +84,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.json")
         {
-        	  comparer.Add("target1.json");
+        	comparer.Add("target1.json");
             comparer.Add("target2.json");
             comparer.Add("target3.json");
             comparer.Compare("result.json");
@@ -94,7 +94,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.json"))
         {
-        	  comparer.Add(File.OpenRead("target1.json"));
+        	comparer.Add(File.OpenRead("target1.json"));
             comparer.Add(File.OpenRead("target2.json"));
             comparer.Add(File.OpenRead("target3.json"));
             comparer.Compare(File.Create("result.json"));

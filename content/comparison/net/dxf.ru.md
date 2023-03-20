@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла DXF в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов DXF в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов DXF в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DXF, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы DXF в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.dxf")
         {
-        	  comparer.Add("target1.dxf");
+        	comparer.Add("target1.dxf");
             comparer.Add("target2.dxf");
             comparer.Add("target3.dxf");
             comparer.Compare("result.dxf"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.dxf"))
         {
-        	  comparer.Add(File.OpenRead("target1.dxf"));
+        	comparer.Add(File.OpenRead("target1.dxf"));
             comparer.Add(File.OpenRead("target2.dxf"));
             comparer.Add(File.OpenRead("target3.dxf"));
             comparer.Compare(File.Create("result.dxf")); // Создать результирующий файл с указанным именем

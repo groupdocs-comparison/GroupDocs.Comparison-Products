@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла PPTX в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов PPTX в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов PPTX в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов PPTX, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы PPTX в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.pptx")
         {
-        	  comparer.Add("target1.pptx");
+        	comparer.Add("target1.pptx");
             comparer.Add("target2.pptx");
             comparer.Add("target3.pptx");
             comparer.Compare("result.pptx"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.pptx"))
         {
-        	  comparer.Add(File.OpenRead("target1.pptx"));
+        	comparer.Add(File.OpenRead("target1.pptx"));
             comparer.Add(File.OpenRead("target2.pptx"));
             comparer.Add(File.OpenRead("target3.pptx"));
             comparer.Compare(File.Create("result.pptx")); // Создать результирующий файл с указанным именем

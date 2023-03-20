@@ -84,7 +84,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.csv")
         {
-        	  comparer.Add("target1.csv");
+        	comparer.Add("target1.csv");
             comparer.Add("target2.csv");
             comparer.Add("target3.csv");
             comparer.Compare("result.csv");
@@ -94,7 +94,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.csv"))
         {
-        	  comparer.Add(File.OpenRead("target1.csv"));
+        	comparer.Add(File.OpenRead("target1.csv"));
             comparer.Add(File.OpenRead("target2.csv"));
             comparer.Add(File.OpenRead("target3.csv"));
             comparer.Compare(File.Create("result.csv"));

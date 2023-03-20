@@ -84,7 +84,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.ppt")
         {
-        	  comparer.Add("target1.ppt");
+        	comparer.Add("target1.ppt");
             comparer.Add("target2.ppt");
             comparer.Add("target3.ppt");
             comparer.Compare("result.ppt");
@@ -94,7 +94,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.ppt"))
         {
-        	  comparer.Add(File.OpenRead("target1.ppt"));
+        	comparer.Add(File.OpenRead("target1.ppt"));
             comparer.Add(File.OpenRead("target2.ppt"));
             comparer.Add(File.OpenRead("target3.ppt"));
             comparer.Compare(File.Create("result.ppt"));

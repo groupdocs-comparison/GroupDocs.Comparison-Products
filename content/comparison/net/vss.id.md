@@ -84,7 +84,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.vss")
         {
-        	  comparer.Add("target1.vss");
+        	comparer.Add("target1.vss");
             comparer.Add("target2.vss");
             comparer.Add("target3.vss");
             comparer.Compare("result.vss");
@@ -94,7 +94,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.vss"))
         {
-        	  comparer.Add(File.OpenRead("target1.vss"));
+        	comparer.Add(File.OpenRead("target1.vss"));
             comparer.Add(File.OpenRead("target2.vss"));
             comparer.Add(File.OpenRead("target3.vss"));
             comparer.Compare(File.Create("result.vss"));

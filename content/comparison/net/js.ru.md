@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла JS в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов JS в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов JS в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов JS, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы JS в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.js")
         {
-        	  comparer.Add("target1.js");
+        	comparer.Add("target1.js");
             comparer.Add("target2.js");
             comparer.Add("target3.js");
             comparer.Compare("result.js"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.js"))
         {
-        	  comparer.Add(File.OpenRead("target1.js"));
+        	comparer.Add(File.OpenRead("target1.js"));
             comparer.Add(File.OpenRead("target2.js"));
             comparer.Add(File.OpenRead("target3.js"));
             comparer.Compare(File.Create("result.js")); // Создать результирующий файл с указанным именем

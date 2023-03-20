@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла DOTM в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов DOTM в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов DOTM в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTM, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы DOTM в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.dotm")
         {
-        	  comparer.Add("target1.dotm");
+        	comparer.Add("target1.dotm");
             comparer.Add("target2.dotm");
             comparer.Add("target3.dotm");
             comparer.Compare("result.dotm"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.dotm"))
         {
-        	  comparer.Add(File.OpenRead("target1.dotm"));
+        	comparer.Add(File.OpenRead("target1.dotm"));
             comparer.Add(File.OpenRead("target2.dotm"));
             comparer.Add(File.OpenRead("target3.dotm"));
             comparer.Compare(File.Create("result.dotm")); // Создать результирующий файл с указанным именем

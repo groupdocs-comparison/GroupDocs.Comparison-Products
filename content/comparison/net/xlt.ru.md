@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла XLT в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов XLT в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов XLT в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов XLT, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы XLT в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.xlt")
         {
-        	  comparer.Add("target1.xlt");
+        	comparer.Add("target1.xlt");
             comparer.Add("target2.xlt");
             comparer.Add("target3.xlt");
             comparer.Compare("result.xlt"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.xlt"))
         {
-        	  comparer.Add(File.OpenRead("target1.xlt"));
+        	comparer.Add(File.OpenRead("target1.xlt"));
             comparer.Add(File.OpenRead("target2.xlt"));
             comparer.Add(File.OpenRead("target3.xlt"));
             comparer.Compare(File.Create("result.xlt")); // Создать результирующий файл с указанным именем

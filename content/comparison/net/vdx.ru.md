@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла VDX в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов VDX в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов VDX в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов VDX, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы VDX в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.vdx")
         {
-        	  comparer.Add("target1.vdx");
+        	comparer.Add("target1.vdx");
             comparer.Add("target2.vdx");
             comparer.Add("target3.vdx");
             comparer.Compare("result.vdx"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.vdx"))
         {
-        	  comparer.Add(File.OpenRead("target1.vdx"));
+        	comparer.Add(File.OpenRead("target1.vdx"));
             comparer.Add(File.OpenRead("target2.vdx"));
             comparer.Add(File.OpenRead("target3.vdx"));
             comparer.Compare(File.Create("result.vdx")); // Создать результирующий файл с указанным именем

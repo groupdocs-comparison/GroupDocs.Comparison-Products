@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла DICOM в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов DICOM в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов DICOM в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DICOM, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы DICOM в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.dicom")
         {
-        	  comparer.Add("target1.dicom");
+        	comparer.Add("target1.dicom");
             comparer.Add("target2.dicom");
             comparer.Add("target3.dicom");
             comparer.Compare("result.dicom"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.dicom"))
         {
-        	  comparer.Add(File.OpenRead("target1.dicom"));
+        	comparer.Add(File.OpenRead("target1.dicom"));
             comparer.Add(File.OpenRead("target2.dicom"));
             comparer.Add(File.OpenRead("target3.dicom"));
             comparer.Compare(File.Create("result.dicom")); // Создать результирующий файл с указанным именем

@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла DIFF в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов DIFF в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов DIFF в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DIFF, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы DIFF в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.diff")
         {
-        	  comparer.Add("target1.diff");
+        	comparer.Add("target1.diff");
             comparer.Add("target2.diff");
             comparer.Add("target3.diff");
             comparer.Compare("result.diff"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.diff"))
         {
-        	  comparer.Add(File.OpenRead("target1.diff"));
+        	comparer.Add(File.OpenRead("target1.diff"));
             comparer.Add(File.OpenRead("target2.diff"));
             comparer.Add(File.OpenRead("target3.diff"));
             comparer.Compare(File.Create("result.diff")); // Создать результирующий файл с указанным именем

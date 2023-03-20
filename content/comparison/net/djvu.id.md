@@ -84,7 +84,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.djvu")
         {
-        	  comparer.Add("target1.djvu");
+        	comparer.Add("target1.djvu");
             comparer.Add("target2.djvu");
             comparer.Add("target3.djvu");
             comparer.Compare("result.djvu");
@@ -94,7 +94,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.djvu"))
         {
-        	  comparer.Add(File.OpenRead("target1.djvu"));
+        	comparer.Add(File.OpenRead("target1.djvu"));
             comparer.Add(File.OpenRead("target2.djvu"));
             comparer.Add(File.OpenRead("target3.djvu"));
             comparer.Compare(File.Create("result.djvu"));

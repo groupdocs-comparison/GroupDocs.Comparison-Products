@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла GIF в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов GIF в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов GIF в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов GIF, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы GIF в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.gif")
         {
-        	  comparer.Add("target1.gif");
+        	comparer.Add("target1.gif");
             comparer.Add("target2.gif");
             comparer.Add("target3.gif");
             comparer.Compare("result.gif"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.gif"))
         {
-        	  comparer.Add(File.OpenRead("target1.gif"));
+        	comparer.Add(File.OpenRead("target1.gif"));
             comparer.Add(File.OpenRead("target2.gif"));
             comparer.Add(File.OpenRead("target3.gif"));
             comparer.Compare(File.Create("result.gif")); // Создать результирующий файл с указанным именем

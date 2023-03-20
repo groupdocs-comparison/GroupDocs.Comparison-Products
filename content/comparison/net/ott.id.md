@@ -84,7 +84,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.ott")
         {
-        	  comparer.Add("target1.ott");
+        	comparer.Add("target1.ott");
             comparer.Add("target2.ott");
             comparer.Add("target3.ott");
             comparer.Compare("result.ott");
@@ -94,7 +94,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.ott"))
         {
-        	  comparer.Add(File.OpenRead("target1.ott"));
+        	comparer.Add(File.OpenRead("target1.ott"));
             comparer.Add(File.OpenRead("target2.ott"));
             comparer.Add(File.OpenRead("target3.ott"));
             comparer.Compare(File.Create("result.ott"));

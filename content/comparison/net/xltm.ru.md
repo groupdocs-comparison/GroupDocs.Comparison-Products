@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла XLTM в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов XLTM в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов XLTM в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов XLTM, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы XLTM в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.xltm")
         {
-        	  comparer.Add("target1.xltm");
+        	comparer.Add("target1.xltm");
             comparer.Add("target2.xltm");
             comparer.Add("target3.xltm");
             comparer.Compare("result.xltm"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.xltm"))
         {
-        	  comparer.Add(File.OpenRead("target1.xltm"));
+        	comparer.Add(File.OpenRead("target1.xltm"));
             comparer.Add(File.OpenRead("target2.xltm"));
             comparer.Add(File.OpenRead("target3.xltm"));
             comparer.Compare(File.Create("result.xltm")); // Создать результирующий файл с указанным именем

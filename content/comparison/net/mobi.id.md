@@ -84,7 +84,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.mobi")
         {
-        	  comparer.Add("target1.mobi");
+        	comparer.Add("target1.mobi");
             comparer.Add("target2.mobi");
             comparer.Add("target3.mobi");
             comparer.Compare("result.mobi");
@@ -94,7 +94,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.mobi"))
         {
-        	  comparer.Add(File.OpenRead("target1.mobi"));
+        	comparer.Add(File.OpenRead("target1.mobi"));
             comparer.Add(File.OpenRead("target2.mobi"));
             comparer.Add(File.OpenRead("target3.mobi"));
             comparer.Compare(File.Create("result.mobi"));

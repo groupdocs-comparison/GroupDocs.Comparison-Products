@@ -84,7 +84,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.htm")
         {
-        	  comparer.Add("target1.htm");
+        	comparer.Add("target1.htm");
             comparer.Add("target2.htm");
             comparer.Add("target3.htm");
             comparer.Compare("result.htm");
@@ -94,7 +94,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.htm"))
         {
-        	  comparer.Add(File.OpenRead("target1.htm"));
+        	comparer.Add(File.OpenRead("target1.htm"));
             comparer.Add(File.OpenRead("target2.htm"));
             comparer.Add(File.OpenRead("target3.htm"));
             comparer.Compare(File.Create("result.htm"));

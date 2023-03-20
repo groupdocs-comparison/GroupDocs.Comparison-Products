@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла VST в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов VST в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов VST в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов VST, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы VST в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.vst")
         {
-        	  comparer.Add("target1.vst");
+        	comparer.Add("target1.vst");
             comparer.Add("target2.vst");
             comparer.Add("target3.vst");
             comparer.Compare("result.vst"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.vst"))
         {
-        	  comparer.Add(File.OpenRead("target1.vst"));
+        	comparer.Add(File.OpenRead("target1.vst"));
             comparer.Add(File.OpenRead("target2.vst"));
             comparer.Add(File.OpenRead("target3.vst"));
             comparer.Compare(File.Create("result.vst")); // Создать результирующий файл с указанным именем

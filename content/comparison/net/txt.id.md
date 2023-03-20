@@ -84,7 +84,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.txt")
         {
-        	  comparer.Add("target1.txt");
+        	comparer.Add("target1.txt");
             comparer.Add("target2.txt");
             comparer.Add("target3.txt");
             comparer.Compare("result.txt");
@@ -94,7 +94,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.txt"))
         {
-        	  comparer.Add(File.OpenRead("target1.txt"));
+        	comparer.Add(File.OpenRead("target1.txt"));
             comparer.Add(File.OpenRead("target2.txt"));
             comparer.Add(File.OpenRead("target3.txt"));
             comparer.Compare(File.Create("result.txt"));

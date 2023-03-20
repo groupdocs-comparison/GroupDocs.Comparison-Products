@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла SCALA в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов SCALA в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов SCALA в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов SCALA, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы SCALA в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.scala")
         {
-        	  comparer.Add("target1.scala");
+        	comparer.Add("target1.scala");
             comparer.Add("target2.scala");
             comparer.Add("target3.scala");
             comparer.Compare("result.scala"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.scala"))
         {
-        	  comparer.Add(File.OpenRead("target1.scala"));
+        	comparer.Add(File.OpenRead("target1.scala"));
             comparer.Add(File.OpenRead("target2.scala"));
             comparer.Add(File.OpenRead("target3.scala"));
             comparer.Compare(File.Create("result.scala")); // Создать результирующий файл с указанным именем

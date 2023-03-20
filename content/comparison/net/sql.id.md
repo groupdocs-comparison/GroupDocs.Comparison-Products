@@ -84,7 +84,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.sql")
         {
-        	  comparer.Add("target1.sql");
+        	comparer.Add("target1.sql");
             comparer.Add("target2.sql");
             comparer.Add("target3.sql");
             comparer.Compare("result.sql");
@@ -94,7 +94,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.sql"))
         {
-        	  comparer.Add(File.OpenRead("target1.sql"));
+        	comparer.Add(File.OpenRead("target1.sql"));
             comparer.Add(File.OpenRead("target2.sql"));
             comparer.Add(File.OpenRead("target3.sql"));
             comparer.Compare(File.Create("result.sql"));

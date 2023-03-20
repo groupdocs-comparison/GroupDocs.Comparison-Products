@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла PY в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов PY в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов PY в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов PY, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы PY в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.py")
         {
-        	  comparer.Add("target1.py");
+        	comparer.Add("target1.py");
             comparer.Add("target2.py");
             comparer.Add("target3.py");
             comparer.Compare("result.py"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.py"))
         {
-        	  comparer.Add(File.OpenRead("target1.py"));
+        	comparer.Add(File.OpenRead("target1.py"));
             comparer.Add(File.OpenRead("target2.py"));
             comparer.Add(File.OpenRead("target3.py"));
             comparer.Compare(File.Create("result.py")); // Создать результирующий файл с указанным именем

@@ -84,7 +84,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.js")
         {
-        	  comparer.Add("target1.js");
+        	comparer.Add("target1.js");
             comparer.Add("target2.js");
             comparer.Add("target3.js");
             comparer.Compare("result.js");
@@ -94,7 +94,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.js"))
         {
-        	  comparer.Add(File.OpenRead("target1.js"));
+        	comparer.Add(File.OpenRead("target1.js"));
             comparer.Add(File.OpenRead("target2.js"));
             comparer.Add(File.OpenRead("target3.js"));
             comparer.Compare(File.Create("result.js"));

@@ -84,7 +84,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.dot")
         {
-        	  comparer.Add("target1.dot");
+        	comparer.Add("target1.dot");
             comparer.Add("target2.dot");
             comparer.Add("target3.dot");
             comparer.Compare("result.dot");
@@ -94,7 +94,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.dot"))
         {
-        	  comparer.Add(File.OpenRead("target1.dot"));
+        	comparer.Add(File.OpenRead("target1.dot"));
             comparer.Add(File.OpenRead("target2.dot"));
             comparer.Add(File.OpenRead("target3.dot"));
             comparer.Compare(File.Create("result.dot"));

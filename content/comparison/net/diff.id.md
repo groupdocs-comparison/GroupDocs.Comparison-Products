@@ -84,7 +84,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.diff")
         {
-        	  comparer.Add("target1.diff");
+        	comparer.Add("target1.diff");
             comparer.Add("target2.diff");
             comparer.Add("target3.diff");
             comparer.Compare("result.diff");
@@ -94,7 +94,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.diff"))
         {
-        	  comparer.Add(File.OpenRead("target1.diff"));
+        	comparer.Add(File.OpenRead("target1.diff"));
             comparer.Add(File.OpenRead("target2.diff"));
             comparer.Add(File.OpenRead("target3.diff"));
             comparer.Compare(File.Create("result.diff"));

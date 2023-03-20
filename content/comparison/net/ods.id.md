@@ -84,7 +84,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.ods")
         {
-        	  comparer.Add("target1.ods");
+        	comparer.Add("target1.ods");
             comparer.Add("target2.ods");
             comparer.Add("target3.ods");
             comparer.Compare("result.ods");
@@ -94,7 +94,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.ods"))
         {
-        	  comparer.Add(File.OpenRead("target1.ods"));
+        	comparer.Add(File.OpenRead("target1.ods"));
             comparer.Add(File.OpenRead("target2.ods"));
             comparer.Add(File.OpenRead("target3.ods"));
             comparer.Compare(File.Create("result.ods"));

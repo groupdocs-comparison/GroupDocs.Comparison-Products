@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла GROOVY в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов GROOVY в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов GROOVY в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов GROOVY, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы GROOVY в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.groovy")
         {
-        	  comparer.Add("target1.groovy");
+        	comparer.Add("target1.groovy");
             comparer.Add("target2.groovy");
             comparer.Add("target3.groovy");
             comparer.Compare("result.groovy"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.groovy"))
         {
-        	  comparer.Add(File.OpenRead("target1.groovy"));
+        	comparer.Add(File.OpenRead("target1.groovy"));
             comparer.Add(File.OpenRead("target2.groovy"));
             comparer.Add(File.OpenRead("target3.groovy"));
             comparer.Compare(File.Create("result.groovy")); // Создать результирующий файл с указанным именем

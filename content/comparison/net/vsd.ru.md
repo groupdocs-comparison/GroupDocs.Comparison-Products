@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла VSD в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов VSD в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов VSD в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов VSD, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы VSD в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.vsd")
         {
-        	  comparer.Add("target1.vsd");
+        	comparer.Add("target1.vsd");
             comparer.Add("target2.vsd");
             comparer.Add("target3.vsd");
             comparer.Compare("result.vsd"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.vsd"))
         {
-        	  comparer.Add(File.OpenRead("target1.vsd"));
+        	comparer.Add(File.OpenRead("target1.vsd"));
             comparer.Add(File.OpenRead("target2.vsd"));
             comparer.Add(File.OpenRead("target3.vsd"));
             comparer.Compare(File.Create("result.vsd")); // Создать результирующий файл с указанным именем

@@ -10,7 +10,7 @@ head_title: ".NETの2つのODSファイルを比較する|ドキュメント比�
 head_description: "3つ以上を比較してマージします（C＃.NETアプリケーションのODSファイル。ODSファイル、画像、ドキュメント形式のコンテンツ、テキスト、スタイルの違いの概要を取得します."
 
 ############################# Header ############################
-title: "C＃.NETのODSファイルを比較する"
+title: "C＃.NETでODSファイルを比較する"
 description: ".2つのバージョンのODSファイル間の変更を検出し、比較されたドキュメント間の違いの詳細な要約を含む最終的なドキュメントにエクスポートするためのNETドキュメント比較API."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -88,7 +88,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.ods")
         {
-        	comparer.Add("target1.ods");
+        	  comparer.Add("target1.ods");
             comparer.Add("target2.ods");
             comparer.Add("target3.ods");
             comparer.Compare("result.ods"); // 指定された名前の結果ファイルを作成する
@@ -98,7 +98,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.ods"))
         {
-        	comparer.Add(File.OpenRead("target1.ods"));
+        	  comparer.Add(File.OpenRead("target1.ods"));
             comparer.Add(File.OpenRead("target2.ods"));
             comparer.Add(File.OpenRead("target3.ods"));
             comparer.Compare(File.Create("result.ods")); // 指定された名前の結果ファイルを作成する
@@ -131,150 +131,200 @@ more_formats:
     content: |
         .NET用のマルチフォーマットドキュメントと画像比較API。外部ツールを使用せずに、同じ形式のドキュメント間の違いを分析します。
     format: 
-        link: "https://products.groupdocs.com/comparison/net/pdf/"
+        
+        - name: "PDFファイルの比較"
+          link: "https://products.groupdocs.com/comparison/net/pdf/"
           description: "AdobePortableドキュメント形式"
 
+        - name: "DOCファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/doc/"
           description: "MicrosoftWordドキュメント"
 
+        - name: "DOCMファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/docm/"
           description: "MicrosoftWordマクロ対応ドキュメント"
 
+        - name: "DOCXファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/docx/"
           description: "Microsoft WordOpenXMLドキュメント"
 
+        - name: "DOTファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/dot/"
           description: "MicrosoftWord文書テンプレート"
 
+        - name: "DOTMファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/dotm/"
           description: "MicrosoftWordマクロ対応テンプレート"
 
+        - name: "DOTXファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/dotx/"
           description: "WordOpenXMLドキュメントテンプレート"
 
+        - name: "RTFファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/rtf/"
           description: "リッチテキストファイル形式"
 
+        - name: "TXTファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/txt/"
           description: "プレーンテキストファイル形式"
 
+        - name: "XLSファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/xls/"
           description: "MicrosoftExcelバイナリファイル形式"
 
+        - name: "XLSXファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/xlsx/"
           description: "Microsoft ExcelOpenXMLスプレッドシート"
 
+        - name: "XLTMファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/xltm/"
           description: "MicrosoftExcelマクロ対応テンプレート"
 
+        - name: "XLSMファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/xlsm/"
           description: "MicrosoftExcelマクロ対応スプレッドシート"
 
+        - name: "XLSBファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/xlsb/"
           description: "MicrosoftExcelバイナリスプレッドシートファイル"
 
+        - name: "CSVファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/csv/"
           description: "カンマ区切り値ファイル"
 
+        - name: "PPTファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/ppt/"
           description: "PowerPointプレゼンテーション"
 
+        - name: "PPSファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/pps/"
           description: "MicrosoftPowerPointスライドショー"
 
+        - name: "PPTXファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/pptx/"
           description: "PowerPointOpenXMLプレゼンテーション"
 
+        - name: "PPSXファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/ppsx/"
           description: "PowerPointOpenXMLスライドショー"
 
+        - name: "POTファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/pot/"
           description: "MicrosoftPowerPointテンプレート"
 
+        - name: "POTXファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/potx/"
           description: "Microsoft PowerPointOpenXMLテンプレート"
 
+        - name: "ODSファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/ods/"
           description: "ドキュメントスプレッドシートを開く"
 
+        - name: "ODPファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/odp/"
           description: "OpenDocumentプレゼンテーションファイル形式"
 
+        - name: "OTPファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/otp/"
           description: "原点グラフテンプレート"
 
+        - name: "ODTファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/odt/"
           description: "ドキュメントテキストを開く"
 
+        - name: "OTTファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/ott/"
           description: "ドキュメントテンプレートを開く"
 
+        - name: "VSTファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/vst/"
           description: "Microsoft Visio2003-2010XML図面"
 
+        - name: "JPEGファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/jpeg/"
           description: "JPEG画像"
 
+        - name: "PNGファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/png/"
           description: "ポータブルネットワークグラフィック"
 
+        - name: "GIFファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/gif/"
           description: "グラフィカルな交換フォーマットファイル"
 
+        - name: "BMPファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/bmp/"
           description: "ビットマップファイル形式"
 
+        - name: "HTMLファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/html/"
           description: "ハイパーテキストマークアップ言語"
 
+        - name: "MHTファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/mht/"
           description: "Mime HTML"
 
+        - name: "MHTMLファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/mhtml/"
           description: "集約HTMLのMIMEカプセル化"
 
+        - name: "MSGファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/msg/"
           description: "MicrosoftOutlookの電子メールメッセージ"
 
+        - name: "EMLファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/eml/"
           description: "電子メールメッセージ"
 
+        - name: "EMLXファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/emlx/"
           description: "AppleMailEメールファイル"
 
+        - name: "ONEファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/one/"
           description: "Microsoft OneNote"
 
+        - name: "VSDファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/vsd/"
           description: "MicrosoftVisio2003-2010図面"
 
+        - name: "VSDXファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/vsdx/"
           description: "MicrosoftVisio図面"
 
+        - name: "VSSファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/vss/"
           description: "MicrosoftVisio2003-2010ステンシル"
 
+        - name: "VSTファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/vst/"
           description: "MicrosoftVisio2003-2010テンプレート"
 
+        - name: "VDXファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/vdx/"
           description: "Microsoft Visio2003-2010XML図面"
 
+        - name: "CSファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/cs/"
           description: "CSharp言語"
 
+        - name: "JAVAファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/java/"
           description: "Java言語"
 
+        - name: "CPPファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/cpp/"
           description: "C++言語"
 
+        - name: "JSファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/js/"
           description: "JavaScript言語"
 
+        - name: "PYファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/py/"
           description: "Python言語"
 
+        - name: "RBファイルの比較"
           link: "https://products.groupdocs.com/comparison/net/rb/"
           description: "Ruby言語"
 

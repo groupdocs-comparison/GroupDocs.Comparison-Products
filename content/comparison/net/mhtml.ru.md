@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла MHTML в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов MHTML в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов MHTML в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов MHTML, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы MHTML в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.mhtml")
         {
-        	  comparer.Add("target1.mhtml");
+        	comparer.Add("target1.mhtml");
             comparer.Add("target2.mhtml");
             comparer.Add("target3.mhtml");
             comparer.Compare("result.mhtml"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.mhtml"))
         {
-        	  comparer.Add(File.OpenRead("target1.mhtml"));
+        	comparer.Add(File.OpenRead("target1.mhtml"));
             comparer.Add(File.OpenRead("target2.mhtml"));
             comparer.Add(File.OpenRead("target3.mhtml"));
             comparer.Compare(File.Create("result.mhtml")); // Создать результирующий файл с указанным именем

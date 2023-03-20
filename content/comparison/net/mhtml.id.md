@@ -84,7 +84,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.mhtml")
         {
-        	  comparer.Add("target1.mhtml");
+        	comparer.Add("target1.mhtml");
             comparer.Add("target2.mhtml");
             comparer.Add("target3.mhtml");
             comparer.Compare("result.mhtml");
@@ -94,7 +94,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.mhtml"))
         {
-        	  comparer.Add(File.OpenRead("target1.mhtml"));
+        	comparer.Add(File.OpenRead("target1.mhtml"));
             comparer.Add(File.OpenRead("target2.mhtml"));
             comparer.Add(File.OpenRead("target3.mhtml"));
             comparer.Compare(File.Create("result.mhtml"));

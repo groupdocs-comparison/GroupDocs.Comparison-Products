@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла PHP в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов PHP в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов PHP в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов PHP, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы PHP в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.php")
         {
-        	  comparer.Add("target1.php");
+        	comparer.Add("target1.php");
             comparer.Add("target2.php");
             comparer.Add("target3.php");
             comparer.Compare("result.php"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.php"))
         {
-        	  comparer.Add(File.OpenRead("target1.php"));
+        	comparer.Add(File.OpenRead("target1.php"));
             comparer.Add(File.OpenRead("target2.php"));
             comparer.Add(File.OpenRead("target3.php"));
             comparer.Compare(File.Create("result.php")); // Создать результирующий файл с указанным именем

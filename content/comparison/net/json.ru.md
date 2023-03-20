@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла JSON в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов JSON в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов JSON в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов JSON, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы JSON в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.json")
         {
-        	  comparer.Add("target1.json");
+        	comparer.Add("target1.json");
             comparer.Add("target2.json");
             comparer.Add("target3.json");
             comparer.Compare("result.json"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.json"))
         {
-        	  comparer.Add(File.OpenRead("target1.json"));
+        	comparer.Add(File.OpenRead("target1.json"));
             comparer.Add(File.OpenRead("target2.json"));
             comparer.Add(File.OpenRead("target3.json"));
             comparer.Compare(File.Create("result.json")); // Создать результирующий файл с указанным именем

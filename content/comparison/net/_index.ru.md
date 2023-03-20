@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Comparison для .NET поддерживает все популярные [форматы файлов документов] (https://docs.groupdocs.com/comparison/net/supported-document-formats/), включая: Microsoft Office, PDF, изображения и многие другие.
+          GroupDocs.Comparison для .NET поддерживает все популярные [форматы файлов документов](https://docs.groupdocs.com/comparison/net/supported-document-formats/), включая: Microsoft Office, PDF, изображения и многие другие.
         left:
           enable: true
           table:

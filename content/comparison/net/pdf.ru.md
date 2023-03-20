@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла PDF в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов PDF в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов PDF в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов PDF, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы PDF в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.pdf")
         {
-        	  comparer.Add("target1.pdf");
+        	comparer.Add("target1.pdf");
             comparer.Add("target2.pdf");
             comparer.Add("target3.pdf");
             comparer.Compare("result.pdf"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.pdf"))
         {
-        	  comparer.Add(File.OpenRead("target1.pdf"));
+        	comparer.Add(File.OpenRead("target1.pdf"));
             comparer.Add(File.OpenRead("target2.pdf"));
             comparer.Add(File.OpenRead("target3.pdf"));
             comparer.Compare(File.Create("result.pdf")); // Создать результирующий файл с указанным именем

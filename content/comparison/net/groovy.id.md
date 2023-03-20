@@ -84,7 +84,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.groovy")
         {
-        	  comparer.Add("target1.groovy");
+        	comparer.Add("target1.groovy");
             comparer.Add("target2.groovy");
             comparer.Add("target3.groovy");
             comparer.Compare("result.groovy");
@@ -94,7 +94,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.groovy"))
         {
-        	  comparer.Add(File.OpenRead("target1.groovy"));
+        	comparer.Add(File.OpenRead("target1.groovy"));
             comparer.Add(File.OpenRead("target2.groovy"));
             comparer.Add(File.OpenRead("target3.groovy"));
             comparer.Compare(File.Create("result.groovy"));

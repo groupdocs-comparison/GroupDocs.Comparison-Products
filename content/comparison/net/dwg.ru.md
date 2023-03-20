@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла DWG в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов DWG в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов DWG в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DWG, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы DWG в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.dwg")
         {
-        	  comparer.Add("target1.dwg");
+        	comparer.Add("target1.dwg");
             comparer.Add("target2.dwg");
             comparer.Add("target3.dwg");
             comparer.Compare("result.dwg"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.dwg"))
         {
-        	  comparer.Add(File.OpenRead("target1.dwg"));
+        	comparer.Add(File.OpenRead("target1.dwg"));
             comparer.Add(File.OpenRead("target2.dwg"));
             comparer.Add(File.OpenRead("target3.dwg"));
             comparer.Compare(File.Create("result.dwg")); // Создать результирующий файл с указанным именем

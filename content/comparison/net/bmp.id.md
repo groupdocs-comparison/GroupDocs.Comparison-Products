@@ -84,7 +84,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.bmp")
         {
-        	  comparer.Add("target1.bmp");
+        	comparer.Add("target1.bmp");
             comparer.Add("target2.bmp");
             comparer.Add("target3.bmp");
             comparer.Compare("result.bmp");
@@ -94,7 +94,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.bmp"))
         {
-        	  comparer.Add(File.OpenRead("target1.bmp"));
+        	comparer.Add(File.OpenRead("target1.bmp"));
             comparer.Add(File.OpenRead("target2.bmp"));
             comparer.Add(File.OpenRead("target3.bmp"));
             comparer.Compare(File.Create("result.bmp"));

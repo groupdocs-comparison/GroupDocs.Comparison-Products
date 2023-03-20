@@ -84,7 +84,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.py")
         {
-        	  comparer.Add("target1.py");
+        	comparer.Add("target1.py");
             comparer.Add("target2.py");
             comparer.Add("target3.py");
             comparer.Compare("result.py");
@@ -94,7 +94,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.py"))
         {
-        	  comparer.Add(File.OpenRead("target1.py"));
+        	comparer.Add(File.OpenRead("target1.py"));
             comparer.Add(File.OpenRead("target2.py"));
             comparer.Add(File.OpenRead("target3.py"));
             comparer.Compare(File.Create("result.py"));

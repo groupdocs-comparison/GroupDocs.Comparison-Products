@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла OTT в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов OTT в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов OTT в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов OTT, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы OTT в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.ott")
         {
-        	  comparer.Add("target1.ott");
+        	comparer.Add("target1.ott");
             comparer.Add("target2.ott");
             comparer.Add("target3.ott");
             comparer.Compare("result.ott"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.ott"))
         {
-        	  comparer.Add(File.OpenRead("target1.ott"));
+        	comparer.Add(File.OpenRead("target1.ott"));
             comparer.Add(File.OpenRead("target2.ott"));
             comparer.Add(File.OpenRead("target3.ott"));
             comparer.Compare(File.Create("result.ott")); // Создать результирующий файл с указанным именем

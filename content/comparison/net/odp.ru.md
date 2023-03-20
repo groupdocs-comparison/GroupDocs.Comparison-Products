@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла ODP в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов ODP в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов ODP в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов ODP, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы ODP в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.odp")
         {
-        	  comparer.Add("target1.odp");
+        	comparer.Add("target1.odp");
             comparer.Add("target2.odp");
             comparer.Add("target3.odp");
             comparer.Compare("result.odp"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.odp"))
         {
-        	  comparer.Add(File.OpenRead("target1.odp"));
+        	comparer.Add(File.OpenRead("target1.odp"));
             comparer.Add(File.OpenRead("target2.odp"));
             comparer.Add(File.OpenRead("target3.odp"));
             comparer.Compare(File.Create("result.odp")); // Создать результирующий файл с указанным именем

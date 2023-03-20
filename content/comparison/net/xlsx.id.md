@@ -84,7 +84,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.xlsx")
         {
-        	  comparer.Add("target1.xlsx");
+        	comparer.Add("target1.xlsx");
             comparer.Add("target2.xlsx");
             comparer.Add("target3.xlsx");
             comparer.Compare("result.xlsx");
@@ -94,7 +94,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.xlsx"))
         {
-        	  comparer.Add(File.OpenRead("target1.xlsx"));
+        	comparer.Add(File.OpenRead("target1.xlsx"));
             comparer.Add(File.OpenRead("target2.xlsx"));
             comparer.Add(File.OpenRead("target3.xlsx"));
             comparer.Compare(File.Create("result.xlsx"));

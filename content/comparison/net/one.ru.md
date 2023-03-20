@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла ONE в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов ONE в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов ONE в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов ONE, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы ONE в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.one")
         {
-        	  comparer.Add("target1.one");
+        	comparer.Add("target1.one");
             comparer.Add("target2.one");
             comparer.Add("target3.one");
             comparer.Compare("result.one"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.one"))
         {
-        	  comparer.Add(File.OpenRead("target1.one"));
+        	comparer.Add(File.OpenRead("target1.one"));
             comparer.Add(File.OpenRead("target2.one"));
             comparer.Add(File.OpenRead("target3.one"));
             comparer.Compare(File.Create("result.one")); // Создать результирующий файл с указанным именем

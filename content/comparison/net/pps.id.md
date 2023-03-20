@@ -84,7 +84,7 @@ steps:
         
         using (Comparer comparer = new Comparer("source.pps")
         {
-        	  comparer.Add("target1.pps");
+        	comparer.Add("target1.pps");
             comparer.Add("target2.pps");
             comparer.Add("target3.pps");
             comparer.Compare("result.pps");
@@ -94,7 +94,7 @@ steps:
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.pps"))
         {
-        	  comparer.Add(File.OpenRead("target1.pps"));
+        	comparer.Add(File.OpenRead("target1.pps"));
             comparer.Add(File.OpenRead("target2.pps"));
             comparer.Add(File.OpenRead("target3.pps"));
             comparer.Compare(File.Create("result.pps"));

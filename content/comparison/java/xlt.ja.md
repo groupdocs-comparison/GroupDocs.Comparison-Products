@@ -10,7 +10,7 @@ head_title: "JavaXLT比較API-XLTファイルの違いを比較する"
 head_description: "Java、J2EE、J2SEアプリケーションのXLTファイルを比較してマージします。コンテンツ、テキスト、およびテキストの違いの要約を分析します。 XLTファイル、画像、ドキュメント形式のスタイル."
 
 ############################# Header ############################
-title: "JavaのXLTファイルを比較する"
+title: "JavaでXLTファイルを比較する"
 description: "Javaで3つ以上のXLTファイル間で行ごとの比較を実行します。相違点のリストを取得し、比較したファイルを1つのドキュメントに保存します."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -125,150 +125,200 @@ more_formats:
     content: |
         Java用のマルチフォーマット画像とドキュメント比較API。外部ソフトウェアを使用せずに、以下の一般的なファイル形式のいくつかを比較してください。
     format: 
-        link: "https://products.groupdocs.com/comparison/java/pdf/"
+        
+        - name: "PDFファイルの比較"
+          link: "https://products.groupdocs.com/comparison/java/pdf/"
           description: "AdobePortableドキュメント形式"
 
+        - name: "DOCファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/doc/"
           description: "MicrosoftWordドキュメント"
 
+        - name: "DOCMファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/docm/"
           description: "MicrosoftWordマクロ対応ドキュメント"
 
+        - name: "DOCXファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/docx/"
           description: "Microsoft WordOpenXMLドキュメント"
 
+        - name: "DOTファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/dot/"
           description: "MicrosoftWord文書テンプレート"
 
+        - name: "DOTMファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/dotm/"
           description: "MicrosoftWordマクロ対応テンプレート"
 
+        - name: "DOTXファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/dotx/"
           description: "WordOpenXMLドキュメントテンプレート"
 
+        - name: "RTFファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/rtf/"
           description: "リッチテキストファイル形式"
 
+        - name: "TXTファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/txt/"
           description: "プレーンテキストファイル形式"
 
+        - name: "XLSファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/xls/"
           description: "MicrosoftExcelバイナリファイル形式"
 
+        - name: "XLSXファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/xlsx/"
           description: "Microsoft ExcelOpenXMLスプレッドシート"
 
+        - name: "XLTMファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/xltm/"
           description: "MicrosoftExcelマクロ対応テンプレート"
 
+        - name: "XLSMファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/xlsm/"
           description: "MicrosoftExcelマクロ対応スプレッドシート"
 
+        - name: "XLSBファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/xlsb/"
           description: "MicrosoftExcelバイナリスプレッドシートファイル"
 
+        - name: "CSVファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/csv/"
           description: "カンマ区切り値ファイル"
 
+        - name: "PPTファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/ppt/"
           description: "PowerPointプレゼンテーション"
 
+        - name: "PPSファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/pps/"
           description: "MicrosoftPowerPointスライドショー"
 
+        - name: "PPTXファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/pptx/"
           description: "PowerPointOpenXMLプレゼンテーション"
 
+        - name: "PPSXファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/ppsx/"
           description: "PowerPointOpenXMLスライドショー"
 
+        - name: "POTファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/pot/"
           description: "MicrosoftPowerPointテンプレート"
 
+        - name: "POTXファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/potx/"
           description: "Microsoft PowerPointOpenXMLテンプレート"
 
+        - name: "ODSファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/ods/"
           description: "ドキュメントスプレッドシートを開く"
 
+        - name: "ODPファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/odp/"
           description: "OpenDocumentプレゼンテーションファイル形式"
 
+        - name: "OTPファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/otp/"
           description: "原点グラフテンプレート"
 
+        - name: "ODTファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/odt/"
           description: "ドキュメントテキストを開く"
 
+        - name: "OTTファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/ott/"
           description: "ドキュメントテンプレートを開く"
 
+        - name: "VSTファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/vst/"
           description: "Microsoft Visio2003-2010XML図面"
 
+        - name: "JPEGファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/jpeg/"
           description: "JPEG画像"
 
+        - name: "PNGファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/png/"
           description: "ポータブルネットワークグラフィック"
 
+        - name: "GIFファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/gif/"
           description: "グラフィカルな交換フォーマットファイル"
 
+        - name: "BMPファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/bmp/"
           description: "ビットマップファイル形式"
 
+        - name: "HTMLファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/html/"
           description: "ハイパーテキストマークアップ言語"
 
+        - name: "MHTファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/mht/"
           description: "Mime HTML"
 
+        - name: "MHTMLファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/mhtml/"
           description: "集約HTMLのMIMEカプセル化"
 
+        - name: "MSGファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/msg/"
           description: "MicrosoftOutlookの電子メールメッセージ"
 
+        - name: "EMLファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/eml/"
           description: "電子メールメッセージ"
 
+        - name: "EMLXファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/emlx/"
           description: "AppleMailEメールファイル"
 
+        - name: "ONEファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/one/"
           description: "Microsoft OneNote"
 
+        - name: "VSDファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/vsd/"
           description: "MicrosoftVisio2003-2010図面"
 
+        - name: "VSDXファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/vsdx/"
           description: "MicrosoftVisio図面"
 
+        - name: "VSSファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/vss/"
           description: "MicrosoftVisio2003-2010ステンシル"
 
+        - name: "VSTファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/vst/"
           description: "MicrosoftVisio2003-2010テンプレート"
 
+        - name: "VDXファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/vdx/"
           description: "Microsoft Visio2003-2010XML図面"
 
+        - name: "CSファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/cs/"
           description: "CSharp言語"
 
+        - name: "JAVAファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/java/"
           description: "Java言語"
 
+        - name: "CPPファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/cpp/"
           description: "C++言語"
 
+        - name: "JSファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/js/"
           description: "JavaScript言語"
 
+        - name: "PYファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/py/"
           description: "Python言語"
 
+        - name: "RBファイルの比較"
           link: "https://products.groupdocs.com/comparison/java/rb/"
           description: "Ruby言語"
 

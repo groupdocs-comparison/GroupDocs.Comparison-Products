@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла EML в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов EML в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов EML в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов EML, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы EML в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.eml")
         {
-        	  comparer.Add("target1.eml");
+        	comparer.Add("target1.eml");
             comparer.Add("target2.eml");
             comparer.Add("target3.eml");
             comparer.Compare("result.eml"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.eml"))
         {
-        	  comparer.Add(File.OpenRead("target1.eml"));
+        	comparer.Add(File.OpenRead("target1.eml"));
             comparer.Add(File.OpenRead("target2.eml"));
             comparer.Add(File.OpenRead("target3.eml"));
             comparer.Compare(File.Create("result.eml")); // Создать результирующий файл с указанным именем

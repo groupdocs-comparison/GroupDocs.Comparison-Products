@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла JPG в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов JPG в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов JPG в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов JPG, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы JPG в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.jpg")
         {
-        	  comparer.Add("target1.jpg");
+        	comparer.Add("target1.jpg");
             comparer.Add("target2.jpg");
             comparer.Add("target3.jpg");
             comparer.Compare("result.jpg"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.jpg"))
         {
-        	  comparer.Add(File.OpenRead("target1.jpg"));
+        	comparer.Add(File.OpenRead("target1.jpg"));
             comparer.Add(File.OpenRead("target2.jpg"));
             comparer.Add(File.OpenRead("target3.jpg"));
             comparer.Compare(File.Create("result.jpg")); // Создать результирующий файл с указанным именем

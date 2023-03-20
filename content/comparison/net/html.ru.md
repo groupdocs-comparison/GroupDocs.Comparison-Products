@@ -7,7 +7,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "Сравните два файла HTML в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов HTML в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов DOTX, изображениях и форматах документов."
+head_description: "Сравните и объедините более двух файлов HTML в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов HTML, изображениях и форматах документов."
 
 ############################# Header ############################
 title: "Сравните файлы HTML в C# .NET"
@@ -85,7 +85,7 @@ steps:
         // Сравните несколько документов с локального диска
         using (Comparer comparer = new Comparer("source.html")
         {
-        	  comparer.Add("target1.html");
+        	comparer.Add("target1.html");
             comparer.Add("target2.html");
             comparer.Add("target3.html");
             comparer.Compare("result.html"); // Создать результирующий файл с указанным именем
@@ -93,7 +93,7 @@ steps:
         // Сравните несколько документов из потока
         using (Comparer comparer = new Comparer(File.OpenRead("source.html"))
         {
-        	  comparer.Add(File.OpenRead("target1.html"));
+        	comparer.Add(File.OpenRead("target1.html"));
             comparer.Add(File.OpenRead("target2.html"));
             comparer.Add(File.OpenRead("target3.html"));
             comparer.Compare(File.Create("result.html")); // Создать результирующий файл с указанным именем
