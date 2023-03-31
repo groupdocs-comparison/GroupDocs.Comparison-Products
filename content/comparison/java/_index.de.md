@@ -66,6 +66,10 @@ overview:
       GroupDocs.Comparison für Java ist die flexibelste und benutzerfreundlichste API, die bei der Entwicklung von Dokumentvergleichsanwendungen in einer Java-Umgebung hilft. Der Unterschiedsprüfer und die Dokumentzusammenführungs-API ermöglichen es Ihnen, Änderungen und Unterschiede im Inhalt sowie im Textstil zwischen ähnlichen Dokumentformaten zu erkennen. Es unterstützt den Vergleich aller branchenüblichen Dokumentformate wie PDF, HTML, Microsoft Office Word, Excel-Tabellen, PowerPoint-Präsentationen, Outlook-E-Mails, Visio-Diagramme, OpenDocument, AutoCAD und Bilder. Mithilfe der Änderungsverfolgungsfunktion wird die Zusammenfassung der Unterschiede zwischen Quell- und Zieldokument in einem umfassenden Vergleichsdokument dargestellt. GroupDocs.Comparison for Java API ermöglicht das Abrufen und Speichern von einfachen, passwortgeschützten sowie verschlüsselten Dokumenten per Datei sowie Stream.
         
       Für GroupDocs.Comparison für Java muss keine externe Software auf dem System installiert werden. Es ist mit allen Java-Versionen kompatibel und unterstützt gängige Betriebssysteme (Windows, Linux, MacOS), die Java-Runtime ausführen können.
+    examples:
+      enable: true
+      
+      
     tabs:
       enable: true
       

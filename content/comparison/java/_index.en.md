@@ -63,9 +63,56 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Comparison for Java is the most flexible and easy-to-use API to help you develop document comparison applications in the Java environment. The difference checker and document merge API allow you to detect changes and differences in content as well as in text style between similar document formats. It supports comparison of all standard document formats, such as PDF, HTML, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations, Outlook emails, Visio diagrams, OpenDocument, AutoCAD and images. With Change Tracking, the result of differences between the source and target document will be presented in a comprehensive comparison document. The comparison can be performed to detect changes in the content of words, paragraphs, tables or diagrams and their styles, and will provide you with a comparison document that lists a summary of the differences, their number and type belonging. GroupDocs.Comparison for Java can easily extract basic information about the source document, compare and save simple, password-protected and encrypted documents of various formats through a file or data stream. There is plenty of documentation on how to use the Comparison library on various platforms with code examples, so you don't have to think hard about how to include the GroupDocs.Comparison for Java API in your application.
+      
+    more_overview:
+      # more_overview_loop
+      - title: "What is GroupDocs.Comparison"
+        content: "GroupDocs.Comparison for Java is the most flexible and easy-to-use API to help you develop document comparison applications in the Java environment. The difference checker and document merge API allow you to detect changes and differences in content as well as in text style between similar document formats."
+
+      # more_overview_loop
+      - title: "Supported Formats"
+        content: "The GroupDocs.Comparison library supports detecting differences in both content and text style between popular image and document formats such as PDF, HTML, e-mail Outlook, Microsoft Office Word documents, Excel spreadsheets, PowerPoint presentations, OneNote, Visio diagrams, texts, png, gif and bmp images as well as a hundred of other formats."
         
-      GroupDocs.Comparison for Java does not require any external software to be installed in the system. It is compatible with all versions of Java and supports popular operating systems (Windows, Linux, MacOS) capable of running Java runtime environment.
+      # more_overview_loop
+      - title: "Comparison Capabilities"
+        content: "Comparison can be performed to detect changes in the content of words, paragraphs, tables or charts and their styles, and will provide you with a comparison document that lists a summary of the differences, their number and type belonging. GroupDocs.Comparison for Java can easily extract basic information about the source document, compare and save simple, password-protected and encrypted documents of various formats through a file or data stream."
+        
+      # more_overview_loop
+      - title: "Documentation and Examples"
+        content: "There is already a lot of documentation on using Comparison library on different platforms with code examples, so you don’t have to think hard about how to work with GroupDocs.Comparison for Java API in your application."
+        
+      # more_overview_loop
+      - title: "Compatibility"
+        content: "GroupDocs.Comparison for Java does not require any external software to be installed in the system. It is compatible with all versions of Java and supports popular operating systems (Windows, Linux, MacOS) capable of running Java runtime environment."
+    examples:
+      enable: true
+      
+    more_feature:
+      # more_feature_loop
+      - title: "Easily Compare Documents using Java API"
+        content: |
+          Through GroupDocs.Comparison for Java API you can easily compare documents of supported formats to find differences among them. Following example shows, how to compare two Microsoft Word documents using Java:
+          
+          ```java
+          try (Comparer comparer = new Comparer("D:\\source.pdf")) {
+              comparer.add("D:\\target.pdf");
+              comparer.compare("D:\\result.pdf");
+          }
+          ```
+      # more_feature_loop
+      - title: "Specify Comparison Detail Level"
+        content: "GroupDocs.Comparison for Java allows you to compare documents at three levels deep. You can set comparison intensity to be low (compare text word by word with accuracy for imaging grid = 50), middle (compare text character by character with accuracy for imaging grid = 100) or high (compare text character by character with accuracy for imaging grid = 150)."
+
+      # more_feature_loop
+      - title: "Compare Text Style"
+        content: "Along with document content, GroupDocs.Comparison for Java API allows to compare text style as well.
+
+        Font name, size, color, style (bold, italic, underline, small caps, and hyperlinks) and if applicable, under color can also be compared to check difference among compared documents, while words and characters are being compared.  
+
+        For paragraph comparison, alignment, indentation (left indent, right indent), spacing (space after, space before), first line indent and line spacing can also be compared.  
+
+        Similarly, wherever applicable, other sections of a page can also be compared through GroupDocs.Comparison for Java API. The sections include, footer distance, page margins (left, right, top, and bottom), page height, page orientation, border color and line width."
+      
     tabs:
       enable: true
       
@@ -249,31 +296,7 @@ features:
       - icon: "fas fa-file-excel"
         content: "[Compare Documents & Save Document Pages of Different Formats as Images](https://docs.groupdocs.com/comparison/java/generate-document-pages-preview/)"
 
-    more_feature:
-      # more_feature_loop
-      - title: "Easily Compare Documents using Java API"
-        content: |
-          Through GroupDocs.Comparison for Java API you can easily compare documents of supported formats to find differences among them. Following example shows, how to compare two Microsoft Word documents using Java:
-          
-          ```java
-          try (Comparer comparer = new Comparer("D:\\source.pdf")) {
-              comparer.add("D:\\target.pdf");
-              comparer.compare("D:\\result.pdf");
-          }
-          ```
-      # more_feature_loop
-      - title: "Specify Comparison Detail Level"
-        content: "GroupDocs.Comparison for Java allows you to compare documents at three levels deep. You can set comparison intensity to be low (compare text word by word with accuracy for imaging grid = 50), middle (compare text character by character with accuracy for imaging grid = 100) or high (compare text character by character with accuracy for imaging grid = 150)."
-
-      # more_feature_loop
-      - title: "Compare Text Style"
-        content: "Along with document content, GroupDocs.Comparison for Java API allows to compare text style as well.
-
-        Font name, size, color, style (bold, italic, underline, small caps, and hyperlinks) and if applicable, under color can also be compared to check difference among compared documents, while words and characters are being compared.  
-
-        For paragraph comparison, alignment, indentation (left indent, right indent), spacing (space after, space before), first line indent and line spacing can also be compared.  
-
-        Similarly, wherever applicable, other sections of a page can also be compared through GroupDocs.Comparison for Java API. The sections include, footer distance, page margins (left, right, top, and bottom), page height, page orientation, border color and line width."
+    
 
 ############################# Support ############################
 support:

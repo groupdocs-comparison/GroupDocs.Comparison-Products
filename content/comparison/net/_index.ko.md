@@ -61,6 +61,10 @@ overview:
       GroupDocs.Comparison for .NET API는 C#, ASP.NET 또는 기타 .NET 관련 기술에서 동일한 형식의 문서 간에 차이 검사기 응용 프로그램을 구축하는 빠르고 안정적인 솔루션입니다. .NET 비교 라이브러리는 PDF, HTML, Outlook 전자 메일, Microsoft Office Word 문서, Excel 스프레드시트, PowerPoint 프레젠테이션, OneNote, Visio 다이어그램, 텍스트와 같은 인기 있는 이미지 및 문서 형식의 텍스트 스타일과 콘텐츠의 차이점 확인을 지원합니다. 및 이미지. 차이점 요약을 나열하는 비교 문서를 제공하면서 단어, 단락 및 문자에 대한 내용 변경을 감지하기 위해 비교를 수행할 수 있습니다. GroupDocs.Comparison for .NET API는 소스 문서의 기본 정보를 쉽게 추출할 수 있습니다. 또한 파일이나 스트림을 통해 암호화된 문서를 가져올 뿐만 아니라 간단한 암호를 사용하여 가져오고, 비교하고, 저장할 수 있습니다.  
         
       GroupDocs.Comparison for .NET은 .NET 플랫폼을 대상으로 하는 모든 개발 환경에서 응용 프로그램을 개발하는 데 사용할 수 있습니다. 모든 .NET 기반 언어와 호환되며 Mono 또는 .NET 프레임워크(.NET Core 포함)를 설치할 수 있는 인기 있는 운영 체제(Windows, Linux, MacOS)를 지원합니다.
+    examples:
+      enable: true
+      
+      
     tabs:
       enable: true
       

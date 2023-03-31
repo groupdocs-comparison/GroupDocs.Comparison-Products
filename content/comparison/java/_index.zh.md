@@ -66,6 +66,10 @@ overview:
       GroupDocs.Comparison for Java 是最灵活和易于使用的 API，有助于在 Java 环境中开发文档比较应用程序。差异检查器和文档合并 API 使您能够检测相似文档格式之间的内容变化和差异以及文本样式。它支持比较所有行业标准文档格式，例如 PDF、HTML、微软办公软件 Word、Excel 电子表格、PowerPoint 演示文稿、Outlook 电子邮件、Visio 图表、OpenDocument、AutoCAD 和图像。使用更改跟踪功能，源文档和目标文档之间的差异摘要将呈现在一个全面的比较文档中。 GroupDocs.Comparison for Java API 允许通过文件和流获取和保存简单的、受密码保护的以及加密的文档。  
         
       GroupDocs.Comparison for Java 不需要在系统上安装任何外部软件。它与所有 Java 版本兼容，并支持能够运行 Java 运行时的流行操作系统（Windows、Linux、MacOS）。
+    examples:
+      enable: true
+      
+      
     tabs:
       enable: true
       

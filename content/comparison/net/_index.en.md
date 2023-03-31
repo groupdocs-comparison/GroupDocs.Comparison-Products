@@ -63,9 +63,61 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Comparison for .NET API is a fast and reliable solution ready for use when creating applications for searching and highlighting differences between documents of the same or different formats in C#, ASP.NET or other technologies related to the .NET software platform. The GroupDocs.Comparison library supports detecting differences in both content and text style between popular image and document formats such as PDF, HTML, e-mail Outlook, Microsoft Office Word documents, Excel spreadsheets, PowerPoint presentations, OneNote, Visio diagrams, texts, png, gif and bmp images as well as a hundred of other formats. Comparison can be performed to detect changes in the content of words, paragraphs, tables or charts and their styles, and will provide you with a comparison document that lists a summary of the differences, their number and type belonging. GroupDocs.Comparison for .NET can easily extract basic information about the source document, compare and save simple, password-protected and encrypted documents of various formats through a file or data stream. There is already a lot of documentation on using Comparison library on different platforms with code examples, so you don't have to think hard about how to work with GroupDocs.Comparison for .NET API in your application.
+      
+    more_overview:
+      # more_overview_loop
+      - title: "What is GroupDocs.Comparison"
+        content: "GroupDocs.Comparison for .NET API is a fast and reliable solution ready for use when creating applications for searching and highlighting differences between documents of the same or different formats in C#, ASP.NET or other technologies related to the .NET software platform."
+
+      # more_overview_loop
+      - title: "Supported Formats"
+        content: "The GroupDocs.Comparison library supports detecting differences in both content and text style between popular image and document formats such as PDF, HTML, e-mail Outlook, Microsoft Office Word documents, Excel spreadsheets, PowerPoint presentations, OneNote, Visio diagrams, texts, png, gif and bmp images as well as a hundred of other formats."
         
-      You can use GroupDocs.Comparison for .NET to create applications in any development environment oriented on the .NET platform. It is compatible with all .NET-based languages and supports popular operating systems (Windows, Linux, MacOS) on which you can install Mono or .NET frameworks (including .NET Core).
+      # more_overview_loop
+      - title: "Comparison Capabilities"
+        content: "Comparison can be performed to detect changes in the content of words, paragraphs, tables or charts and their styles, and will provide you with a comparison document that lists a summary of the differences, their number and type belonging. GroupDocs.Comparison for .NET can easily extract basic information about the source document, compare and save simple, password-protected and encrypted documents of various formats through a file or data stream."
+        
+      # more_overview_loop
+      - title: "Documentation and Examples"
+        content: "There is already a lot of documentation on using Comparison library on different platforms with code examples, so you don’t have to think hard about how to work with GroupDocs.Comparison for .NET API in your application."
+        
+      # more_overview_loop
+      - title: "Compatibility"
+        content: "You can use GroupDocs.Comparison for .NET to create applications in any development environment oriented on the .NET platform. It is compatible with all .NET-based languages and supports popular operating systems (Windows, Linux, MacOS) on which you can install Mono or .NET frameworks (including .NET Core)."
+    
+      
+    examples:
+      enable: true
+      
+    more_feature:
+      # more_feature_loop
+      - title: "Easily Compare Documents using .NET API"
+        content: |
+          GroupDocs.Comparison for .NET API provides you an easy and efficient way to compare your files. Following is an example that shows, how to compare two DOCX documents using C#:  
+
+          ```cs
+          //Source and target files to be compared
+          string source = @"source.docx";
+          string target = @"target.docx";
+          Comparer comparer = new Comparer();
+          //Compare two documents
+          ICompareResult result = comparer.Compare(source, target, new ComparisonSettings());
+          ```
+      # more_feature_loop
+      - title: "Choose Detail Level for Comparison"
+        content: "With GroupDocs.Comparison for .NET you can specify the extent to which you want the documents to be compared. You can choose among, low (compare text word by word with accuracy for imaging grid = 50), middle (compare text character by character with accuracy for imaging grid = 100) or high (compare text character by character with accuracy for imaging grid = 150)."
+
+      # more_feature_loop
+      - title: "Support for Text Style Comparison"
+        content: |
+          GroupDocs.Comparison for .NET offers feature to compare text style.  
+
+          While words and characters of documents are being compared, the font name, font size, font color, font style (Bold, Italic, Underline, Small Caps, Hyperlink) and underline color (if applicable) can be compared to find differences.  
+
+          While comparing paragraphs, you can compare styles such as, paragraph alignment, indentation (left indent, right indent), paragraph spacing (space after, space before), first line indent, and line spacing.  
+
+          GroupDocs.Comparison for .NET also supports comparing other sections of a page, where applicable, such as footer distance, page height & orientation, margins (left, right, top, and bottom), border line width, and border color.  
+      
     tabs:
       enable: true
       
@@ -270,34 +322,7 @@ features:
       - icon: "fab fa-uncharted"
         content: "[Compare Bookmarks, Variables & Custom Properties of Word Document Formats](https://docs.groupdocs.com/comparison/net/compare-bookmarks-in-word/)"
 
-    more_feature:
-      # more_feature_loop
-      - title: "Easily Compare Documents using .NET API"
-        content: |
-          GroupDocs.Comparison for .NET API provides you an easy and efficient way to compare your files. Following is an example that shows, how to compare two DOCX documents using C#:  
-
-          ```cs
-          //Source and target files to be compared
-          string source = @"source.docx";
-          string target = @"target.docx";
-          Comparer comparer = new Comparer();
-          //Compare two documents
-          ICompareResult result = comparer.Compare(source, target, new ComparisonSettings());
-          ```
-      # more_feature_loop
-      - title: "Choose Detail Level for Comparison"
-        content: "With GroupDocs.Comparison for .NET you can specify the extent to which you want the documents to be compared. You can choose among, low (compare text word by word with accuracy for imaging grid = 50), middle (compare text character by character with accuracy for imaging grid = 100) or high (compare text character by character with accuracy for imaging grid = 150)."
-
-      # more_feature_loop
-      - title: "Support for Text Style Comparison"
-        content: |
-          GroupDocs.Comparison for .NET offers feature to compare text style.  
-
-          While words and characters of documents are being compared, the font name, font size, font color, font style (Bold, Italic, Underline, Small Caps, Hyperlink) and underline color (if applicable) can be compared to find differences.  
-
-          While comparing paragraphs, you can compare styles such as, paragraph alignment, indentation (left indent, right indent), paragraph spacing (space after, space before), first line indent, and line spacing.  
-
-          GroupDocs.Comparison for .NET also supports comparing other sections of a page, where applicable, such as footer distance, page height & orientation, margins (left, right, top, and bottom), border line width, and border color.  
+    
 
 ############################# Support ############################
 support:
