@@ -62,6 +62,7 @@ submenu:
 ############################# Overview ############################
 overview:
     enable: true
+    example_image: "/images/Comparison-example.jpg"
     content: |
       GroupDocs.Comparison pour l'API .NET est une solution rapide et fiable pour créer des applications de vérification des différences entre des documents de même format en C#, ASP.NET ou d'autres technologies liées à .NET. La bibliothèque de comparaison .NET prend en charge la vérification des différences dans le contenu ainsi que le style de texte des formats d'image et de document populaires tels que PDF, HTML, e-mail Outlook, documents Microsoft Office Word, feuilles de calcul Excel, présentations PowerPoint, OneNote, diagrammes Visio, texte et images. La comparaison peut être effectuée pour détecter les changements de contenu pour les mots, les paragraphes et les caractères tout en fournissant un document de comparaison qui répertorie le résumé des différences. L'API GroupDocs.Comparison pour .NET peut facilement extraire les informations de base du document source. Il peut également récupérer, comparer et enregistrer des mots de passe simples, ainsi que des documents cryptés via un fichier ou un flux.
         
