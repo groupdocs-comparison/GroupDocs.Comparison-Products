@@ -57,7 +57,7 @@ submenu:
 ############################# Overview ############################
 overview:
     enable: true
-    example_image: "/images/Comparison-example.jpg"
+    example_image: "/border/Comparison-example.jpg"
     content: |
       GroupDocs.Comparison for Java adalah API yang paling fleksibel dan mudah digunakan yang membantu mengembangkan aplikasi perbandingan dokumen di lingkungan Java. Pemeriksa perbedaan dan API penggabungan dokumen memungkinkan Anda mendeteksi perubahan dan perbedaan konten serta gaya teks antara format dokumen yang serupa. Mendukung membandingkan semua format dokumen standar industri seperti PDF, HTML, Microsoft Office Word, spreadsheet Excel, presentasi PowerPoint, email Outlook, diagram Visio, OpenDocument, AutoCAD dan gambar. Dengan menggunakan fitur pelacakan perubahan, ringkasan perbedaan antara dokumen sumber dan dokumen target akan disajikan dalam dokumen perbandingan yang komprehensif. GroupDocs.Comparison for Java API memungkinkan pengambilan dan penyimpanan sederhana, dilindungi kata sandi, serta dokumen terenkripsi melalui file dan juga streaming.  
         

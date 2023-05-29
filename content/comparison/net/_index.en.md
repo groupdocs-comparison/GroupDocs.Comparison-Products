@@ -62,7 +62,7 @@ submenu:
 ############################# Overview ############################
 overview:
     enable: true
-    example_image: "/images/Comparison-example.jpg"
+    example_image: "/border/Comparison-example.jpg"
     content: |
       
     more_overview:
