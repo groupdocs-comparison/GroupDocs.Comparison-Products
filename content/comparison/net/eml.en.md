@@ -84,7 +84,7 @@ steps:
         ```cs
         // Compare multiple documents from local disk
         
-        using (Comparer comparer = new Comparer("source.eml")
+        using (Comparer comparer = new Comparer("source.eml"))
         {
         	comparer.Add("target1.eml");
             comparer.Add("target2.eml");
@@ -94,7 +94,7 @@ steps:
         
         // Compare multiple documents from stream
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.eml"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.eml")))
         {
         	comparer.Add(File.OpenRead("target1.eml"));
             comparer.Add(File.OpenRead("target2.eml"));

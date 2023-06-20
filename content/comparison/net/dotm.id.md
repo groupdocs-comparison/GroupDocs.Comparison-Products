@@ -82,17 +82,17 @@ steps:
         ```cs
         // Bandingkan beberapa dokumen dari disk lokal
         
-        using (Comparer comparer = new Comparer("source.dotm")
+        using (Comparer comparer = new Comparer("source.dotm"))
         {
         	comparer.Add("target1.dotm");
             comparer.Add("target2.dotm");
             comparer.Add("target3.dotm");
-            comparer.Compare("result.dotm");
+            comparer.Compare("result.dotm"); //
         }
         
         // Bandingkan beberapa dokumen dari aliran
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.dotm"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.dotm")))
         {
         	comparer.Add(File.OpenRead("target1.dotm"));
             comparer.Add(File.OpenRead("target2.dotm"));
@@ -332,7 +332,12 @@ solutions:
     title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
 
     solution:
-        
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for Java DOTM"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
+          product: "GroupDocs.Comparison"
+          platform: "Java"
+          link: "/comparison/java/dotm/"
 
 ############################# Back to top ###############################
 back_to_top:

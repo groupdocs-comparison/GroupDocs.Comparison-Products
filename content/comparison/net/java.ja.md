@@ -58,14 +58,14 @@ about:
     enable: true
     title: "GroupDocs.Comparison for .NET APIについて"
     content: |
-        [GroupDocs.Comparison for .NET](/Comparison/net/)は、同じ形式の複数の画像とドキュメントを比較するためのネイティブ.NETAPIです。段落、単語、文字、図形、さらには比較されたドキュメントのテキストスタイル内の違いを検出し、変更をマージして最終的なドキュメントにエクスポートするのに役立ちます。外部ライブラリを使用せずに、PDF、Word文書、Excelスプレッドシート、PowerPointプレゼンテーション、Visioダイアグラム、Outlook電子メール、HTML、図面、および画像ファイル形式の比較とマージをサポートします。
+        [GroupDocs.Comparison for .NET](/ja/comparison/net/)は、同じ形式の複数の画像とドキュメントを比較するためのネイティブ.NETAPIです。段落、単語、文字、図形、さらには比較されたドキュメントのテキストスタイル内の違いを検出し、変更をマージして最終的なドキュメントにエクスポートするのに役立ちます。外部ライブラリを使用せずに、PDF、Word文書、Excelスプレッドシート、PowerPointプレゼンテーション、Visioダイアグラム、Outlook電子メール、HTML、図面、および画像ファイル形式の比較とマージをサポートします。
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "C＃でJAVAファイルを比較する手順"
     content_left: |
-        [GroupDocs.Comparison](/Comparison/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実装することで、アプリケーション内の複数のJAVAファイルを簡単に比較およびマージできます。
+        [GroupDocs.Comparison](/ja/comparison/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実装することで、アプリケーション内の複数のJAVAファイルを簡単に比較およびマージできます。
     
         
         * ソースドキュメントパスまたはストリームを使用して**Comparer**オブジェクトをインスタンス化します。
@@ -86,9 +86,9 @@ steps:
         ```cs
         //ローカルディスクの複数のドキュメントを比較します
         
-        using (Comparer comparer = new Comparer("source.java")
+        using (Comparer comparer = new Comparer("source.java"))
         {
-        	  comparer.Add("target1.java");
+        	comparer.Add("target1.java");
             comparer.Add("target2.java");
             comparer.Add("target3.java");
             comparer.Compare("result.java"); // 指定された名前の結果ファイルを作成する
@@ -96,9 +96,9 @@ steps:
         
         //ストリームからの複数のドキュメントを比較します
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.java"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.java")))
         {
-        	  comparer.Add(File.OpenRead("target1.java"));
+        	comparer.Add(File.OpenRead("target1.java"));
             comparer.Add(File.OpenRead("target2.java"));
             comparer.Add(File.OpenRead("target3.java"));
             comparer.Compare(File.Create("result.java")); // 指定された名前の結果ファイルを作成する

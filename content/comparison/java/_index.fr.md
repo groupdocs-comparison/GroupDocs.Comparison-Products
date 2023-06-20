@@ -62,7 +62,7 @@ submenu:
 ############################# Overview ############################
 overview:
     enable: true
-    example_image: "/border/Comparison-example.jpg"
+    example_image: "/comparison/comparison-example.png"
     content: |
       GroupDocs.Comparison pour Java est l'API la plus flexible et la plus facile à utiliser pour développer des applications de comparaison de documents dans un environnement Java. Le vérificateur de différences et l'API de fusion de documents vous permettent de détecter les changements et les différences de contenu ainsi que le style de texte entre des formats de documents similaires. Il prend en charge la comparaison de tous les formats de documents standard de l'industrie tels que PDF, HTML, Microsoft Office Word, les feuilles de calcul Excel, les présentations PowerPoint, les e-mails Outlook, les diagrammes Visio, OpenDocument, AutoCAD et les images. Grâce à la fonction de suivi des modifications, le résumé des différences entre le document source et le document cible sera présenté dans un document de comparaison complet. L'API GroupDocs.Comparison pour Java permet de récupérer et d'enregistrer des documents simples, protégés par un mot de passe, ainsi que des documents cryptés via un fichier ou un flux.
         

@@ -83,7 +83,7 @@ steps:
     code: |
         ```cs
         // Сравните несколько документов с локального диска
-        using (Comparer comparer = new Comparer("source.xls")
+        using (Comparer comparer = new Comparer("source.xls"))
         {
         	comparer.Add("target1.xls");
             comparer.Add("target2.xls");
@@ -91,7 +91,7 @@ steps:
             comparer.Compare("result.xls"); // Создать результирующий файл с указанным именем
         }
         // Сравните несколько документов из потока
-        using (Comparer comparer = new Comparer(File.OpenRead("source.xls"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.xls")))
         {
         	comparer.Add(File.OpenRead("target1.xls"));
             comparer.Add(File.OpenRead("target2.xls"));

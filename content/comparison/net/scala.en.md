@@ -84,7 +84,7 @@ steps:
         ```cs
         // Compare multiple documents from local disk
         
-        using (Comparer comparer = new Comparer("source.scala")
+        using (Comparer comparer = new Comparer("source.scala"))
         {
         	comparer.Add("target1.scala");
             comparer.Add("target2.scala");
@@ -94,7 +94,7 @@ steps:
         
         // Compare multiple documents from stream
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.scala"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.scala")))
         {
         	comparer.Add(File.OpenRead("target1.scala"));
             comparer.Add(File.OpenRead("target2.scala"));

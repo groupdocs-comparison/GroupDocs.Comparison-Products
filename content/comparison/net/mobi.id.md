@@ -82,17 +82,17 @@ steps:
         ```cs
         // Bandingkan beberapa dokumen dari disk lokal
         
-        using (Comparer comparer = new Comparer("source.mobi")
+        using (Comparer comparer = new Comparer("source.mobi"))
         {
         	comparer.Add("target1.mobi");
             comparer.Add("target2.mobi");
             comparer.Add("target3.mobi");
-            comparer.Compare("result.mobi");
+            comparer.Compare("result.mobi"); //
         }
         
         // Bandingkan beberapa dokumen dari aliran
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.mobi"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.mobi")))
         {
         	comparer.Add(File.OpenRead("target1.mobi"));
             comparer.Add(File.OpenRead("target2.mobi"));
@@ -332,7 +332,12 @@ solutions:
     title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
 
     solution:
-        
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for Java MOBI"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
+          product: "GroupDocs.Comparison"
+          platform: "Java"
+          link: "/comparison/java/mobi/"
 
 ############################# Back to top ###############################
 back_to_top:

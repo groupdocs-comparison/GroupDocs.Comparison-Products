@@ -82,17 +82,17 @@ steps:
         ```cs
         // Bandingkan beberapa dokumen dari disk lokal
         
-        using (Comparer comparer = new Comparer("source.rtf")
+        using (Comparer comparer = new Comparer("source.rtf"))
         {
         	comparer.Add("target1.rtf");
             comparer.Add("target2.rtf");
             comparer.Add("target3.rtf");
-            comparer.Compare("result.rtf");
+            comparer.Compare("result.rtf"); //
         }
         
         // Bandingkan beberapa dokumen dari aliran
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.rtf"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.rtf")))
         {
         	comparer.Add(File.OpenRead("target1.rtf"));
             comparer.Add(File.OpenRead("target2.rtf"));
@@ -332,7 +332,12 @@ solutions:
     title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
 
     solution:
-        
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for Java RTF"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
+          product: "GroupDocs.Comparison"
+          platform: "Java"
+          link: "/comparison/java/rtf/"
 
 ############################# Back to top ###############################
 back_to_top:

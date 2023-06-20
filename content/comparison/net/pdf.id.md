@@ -82,17 +82,17 @@ steps:
         ```cs
         // Bandingkan beberapa dokumen dari disk lokal
         
-        using (Comparer comparer = new Comparer("source.pdf")
+        using (Comparer comparer = new Comparer("source.pdf"))
         {
         	comparer.Add("target1.pdf");
             comparer.Add("target2.pdf");
             comparer.Add("target3.pdf");
-            comparer.Compare("result.pdf");
+            comparer.Compare("result.pdf"); //
         }
         
         // Bandingkan beberapa dokumen dari aliran
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.pdf"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.pdf")))
         {
         	comparer.Add(File.OpenRead("target1.pdf"));
             comparer.Add(File.OpenRead("target2.pdf"));
@@ -332,7 +332,12 @@ solutions:
     title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
 
     solution:
-        
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for Java PDF"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
+          product: "GroupDocs.Comparison"
+          platform: "Java"
+          link: "/comparison/java/pdf/"
 
 ############################# Back to top ###############################
 back_to_top:

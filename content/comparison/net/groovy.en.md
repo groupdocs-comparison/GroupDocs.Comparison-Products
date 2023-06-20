@@ -84,7 +84,7 @@ steps:
         ```cs
         // Compare multiple documents from local disk
         
-        using (Comparer comparer = new Comparer("source.groovy")
+        using (Comparer comparer = new Comparer("source.groovy"))
         {
         	comparer.Add("target1.groovy");
             comparer.Add("target2.groovy");
@@ -94,7 +94,7 @@ steps:
         
         // Compare multiple documents from stream
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.groovy"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.groovy")))
         {
         	comparer.Add(File.OpenRead("target1.groovy"));
             comparer.Add(File.OpenRead("target2.groovy"));

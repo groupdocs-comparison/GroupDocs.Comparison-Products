@@ -82,17 +82,17 @@ steps:
         ```cs
         // Bandingkan beberapa dokumen dari disk lokal
         
-        using (Comparer comparer = new Comparer("source.dicom")
+        using (Comparer comparer = new Comparer("source.dicom"))
         {
         	comparer.Add("target1.dicom");
             comparer.Add("target2.dicom");
             comparer.Add("target3.dicom");
-            comparer.Compare("result.dicom");
+            comparer.Compare("result.dicom"); //
         }
         
         // Bandingkan beberapa dokumen dari aliran
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.dicom"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.dicom")))
         {
         	comparer.Add(File.OpenRead("target1.dicom"));
             comparer.Add(File.OpenRead("target2.dicom"));
@@ -332,7 +332,12 @@ solutions:
     title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
 
     solution:
-        
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for Java DICOM"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
+          product: "GroupDocs.Comparison"
+          platform: "Java"
+          link: "/comparison/java/dicom/"
 
 ############################# Back to top ###############################
 back_to_top:

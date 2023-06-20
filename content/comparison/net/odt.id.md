@@ -82,17 +82,17 @@ steps:
         ```cs
         // Bandingkan beberapa dokumen dari disk lokal
         
-        using (Comparer comparer = new Comparer("source.odt")
+        using (Comparer comparer = new Comparer("source.odt"))
         {
         	comparer.Add("target1.odt");
             comparer.Add("target2.odt");
             comparer.Add("target3.odt");
-            comparer.Compare("result.odt");
+            comparer.Compare("result.odt"); //
         }
         
         // Bandingkan beberapa dokumen dari aliran
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.odt"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.odt")))
         {
         	comparer.Add(File.OpenRead("target1.odt"));
             comparer.Add(File.OpenRead("target2.odt"));
@@ -332,7 +332,12 @@ solutions:
     title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
 
     solution:
-        
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for Java ODT"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
+          product: "GroupDocs.Comparison"
+          platform: "Java"
+          link: "/comparison/java/odt/"
 
 ############################# Back to top ###############################
 back_to_top:

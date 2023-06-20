@@ -82,17 +82,17 @@ steps:
         ```cs
         // Bandingkan beberapa dokumen dari disk lokal
         
-        using (Comparer comparer = new Comparer("source.js")
+        using (Comparer comparer = new Comparer("source.js"))
         {
         	comparer.Add("target1.js");
             comparer.Add("target2.js");
             comparer.Add("target3.js");
-            comparer.Compare("result.js");
+            comparer.Compare("result.js"); //
         }
         
         // Bandingkan beberapa dokumen dari aliran
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.js"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.js")))
         {
         	comparer.Add(File.OpenRead("target1.js"));
             comparer.Add(File.OpenRead("target2.js"));
@@ -332,7 +332,12 @@ solutions:
     title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
 
     solution:
-        
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for Java JS"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
+          product: "GroupDocs.Comparison"
+          platform: "Java"
+          link: "/comparison/java/js/"
 
 ############################# Back to top ###############################
 back_to_top:

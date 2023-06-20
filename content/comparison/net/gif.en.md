@@ -84,7 +84,7 @@ steps:
         ```cs
         // Compare multiple documents from local disk
         
-        using (Comparer comparer = new Comparer("source.gif")
+        using (Comparer comparer = new Comparer("source.gif"))
         {
         	comparer.Add("target1.gif");
             comparer.Add("target2.gif");
@@ -94,7 +94,7 @@ steps:
         
         // Compare multiple documents from stream
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.gif"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.gif")))
         {
         	comparer.Add(File.OpenRead("target1.gif"));
             comparer.Add(File.OpenRead("target2.gif"));

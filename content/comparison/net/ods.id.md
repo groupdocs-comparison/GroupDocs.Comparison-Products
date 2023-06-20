@@ -82,17 +82,17 @@ steps:
         ```cs
         // Bandingkan beberapa dokumen dari disk lokal
         
-        using (Comparer comparer = new Comparer("source.ods")
+        using (Comparer comparer = new Comparer("source.ods"))
         {
         	comparer.Add("target1.ods");
             comparer.Add("target2.ods");
             comparer.Add("target3.ods");
-            comparer.Compare("result.ods");
+            comparer.Compare("result.ods"); //
         }
         
         // Bandingkan beberapa dokumen dari aliran
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.ods"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.ods")))
         {
         	comparer.Add(File.OpenRead("target1.ods"));
             comparer.Add(File.OpenRead("target2.ods"));
@@ -332,7 +332,12 @@ solutions:
     title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
 
     solution:
-        
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for Java ODS"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
+          product: "GroupDocs.Comparison"
+          platform: "Java"
+          link: "/comparison/java/ods/"
 
 ############################# Back to top ###############################
 back_to_top:

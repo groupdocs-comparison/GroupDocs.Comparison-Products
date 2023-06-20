@@ -82,17 +82,17 @@ steps:
         ```cs
         // Bandingkan beberapa dokumen dari disk lokal
         
-        using (Comparer comparer = new Comparer("source.xlsb")
+        using (Comparer comparer = new Comparer("source.xlsb"))
         {
         	comparer.Add("target1.xlsb");
             comparer.Add("target2.xlsb");
             comparer.Add("target3.xlsb");
-            comparer.Compare("result.xlsb");
+            comparer.Compare("result.xlsb"); //
         }
         
         // Bandingkan beberapa dokumen dari aliran
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.xlsb"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.xlsb")))
         {
         	comparer.Add(File.OpenRead("target1.xlsb"));
             comparer.Add(File.OpenRead("target2.xlsb"));
@@ -332,7 +332,12 @@ solutions:
     title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
 
     solution:
-        
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for Java XLSB"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
+          product: "GroupDocs.Comparison"
+          platform: "Java"
+          link: "/comparison/java/xlsb/"
 
 ############################# Back to top ###############################
 back_to_top:

@@ -84,7 +84,7 @@ steps:
         ```cs
         // Compare multiple documents from local disk
         
-        using (Comparer comparer = new Comparer("source.js")
+        using (Comparer comparer = new Comparer("source.js"))
         {
         	comparer.Add("target1.js");
             comparer.Add("target2.js");
@@ -94,7 +94,7 @@ steps:
         
         // Compare multiple documents from stream
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.js"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.js")))
         {
         	comparer.Add(File.OpenRead("target1.js"));
             comparer.Add(File.OpenRead("target2.js"));

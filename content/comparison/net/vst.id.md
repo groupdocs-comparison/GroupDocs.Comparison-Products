@@ -82,17 +82,17 @@ steps:
         ```cs
         // Bandingkan beberapa dokumen dari disk lokal
         
-        using (Comparer comparer = new Comparer("source.vst")
+        using (Comparer comparer = new Comparer("source.vst"))
         {
         	comparer.Add("target1.vst");
             comparer.Add("target2.vst");
             comparer.Add("target3.vst");
-            comparer.Compare("result.vst");
+            comparer.Compare("result.vst"); //
         }
         
         // Bandingkan beberapa dokumen dari aliran
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.vst"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.vst")))
         {
         	comparer.Add(File.OpenRead("target1.vst"));
             comparer.Add(File.OpenRead("target2.vst"));
@@ -332,7 +332,12 @@ solutions:
     title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
 
     solution:
-        
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for Java VST"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
+          product: "GroupDocs.Comparison"
+          platform: "Java"
+          link: "/comparison/java/vst/"
 
 ############################# Back to top ###############################
 back_to_top:

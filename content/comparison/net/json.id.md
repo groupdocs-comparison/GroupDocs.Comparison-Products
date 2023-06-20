@@ -82,17 +82,17 @@ steps:
         ```cs
         // Bandingkan beberapa dokumen dari disk lokal
         
-        using (Comparer comparer = new Comparer("source.json")
+        using (Comparer comparer = new Comparer("source.json"))
         {
         	comparer.Add("target1.json");
             comparer.Add("target2.json");
             comparer.Add("target3.json");
-            comparer.Compare("result.json");
+            comparer.Compare("result.json"); //
         }
         
         // Bandingkan beberapa dokumen dari aliran
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.json"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.json")))
         {
         	comparer.Add(File.OpenRead("target1.json"));
             comparer.Add(File.OpenRead("target2.json"));
@@ -332,7 +332,12 @@ solutions:
     title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
 
     solution:
-        
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for Java JSON"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
+          product: "GroupDocs.Comparison"
+          platform: "Java"
+          link: "/comparison/java/json/"
 
 ############################# Back to top ###############################
 back_to_top:

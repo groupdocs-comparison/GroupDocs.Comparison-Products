@@ -82,17 +82,17 @@ steps:
         ```cs
         // Bandingkan beberapa dokumen dari disk lokal
         
-        using (Comparer comparer = new Comparer("source.scala")
+        using (Comparer comparer = new Comparer("source.scala"))
         {
         	comparer.Add("target1.scala");
             comparer.Add("target2.scala");
             comparer.Add("target3.scala");
-            comparer.Compare("result.scala");
+            comparer.Compare("result.scala"); //
         }
         
         // Bandingkan beberapa dokumen dari aliran
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.scala"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.scala")))
         {
         	comparer.Add(File.OpenRead("target1.scala"));
             comparer.Add(File.OpenRead("target2.scala"));
@@ -332,7 +332,12 @@ solutions:
     title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
 
     solution:
-        
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for Java SCALA"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
+          product: "GroupDocs.Comparison"
+          platform: "Java"
+          link: "/comparison/java/scala/"
 
 ############################# Back to top ###############################
 back_to_top:

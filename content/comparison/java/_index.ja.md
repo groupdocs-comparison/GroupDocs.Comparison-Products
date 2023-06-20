@@ -57,7 +57,7 @@ submenu:
 ############################# Overview ############################
 overview:
     enable: true
-    example_image: "/border/Comparison-example.jpg"
+    example_image: "/comparison/comparison-example.png"
     content: |
       GroupDocs.Comparison for Javaは、Java環境でドキュメント比較アプリケーションを開発するのに役立つ最も柔軟で使いやすいAPIです。差分チェッカーとドキュメントマージAPIを使用すると、コンテンツの変更と相違、および類似のドキュメント形式間のテキストスタイルを検出できます。 PDF、HTML、Microsoft Office Word、Excelスプレッドシート、PowerPointプレゼンテーション、Outlook電子メール、Visioダイアグラム、OpenDocument、AutoCAD、画像など、すべての業界標準のドキュメント形式の比較をサポートしています。変更追跡機能を使用して、ソースドキュメントとターゲットドキュメントの違いの概要が包括的な比較ドキュメントに表示されます。 GroupDocs.Comparison for Java APIを使用すると、ファイルやストリームを介して、パスワードで保護された単純なドキュメントや暗号化されたドキュメントを取得して保存できます。  
         

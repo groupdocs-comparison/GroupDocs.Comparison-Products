@@ -73,7 +73,7 @@ steps:
     title_right: "Persyaratan sistem"
     content_right: |
         GroupDocs.Comparison untuk Java API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
-        * Sistem Operasi: Microsoft Windows, Linux, MacOS
+        *   Sistem Operasi: Microsoft Windows, Linux, MacOS
         * Lingkungan Pengembangan: NetBeans, Intellij IDEA, Eclipse dll
         * Lingkungan Runtime Java: J2SE 6.0 dan yang lebih baru
         * Dapatkan versi terbaru GroupDocs.Comparison untuk Java dari [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
@@ -325,7 +325,12 @@ solutions:
     title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
 
     solution:
-        
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for .NET DIFF"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-net.png"
+          product: "GroupDocs.Comparison"
+          platform: ".NET"
+          link: "/comparison/net/diff/"
 
 ############################# Back to top ###############################
 back_to_top:

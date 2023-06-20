@@ -82,17 +82,17 @@ steps:
         ```cs
         // Bandingkan beberapa dokumen dari disk lokal
         
-        using (Comparer comparer = new Comparer("source.bmp")
+        using (Comparer comparer = new Comparer("source.bmp"))
         {
         	comparer.Add("target1.bmp");
             comparer.Add("target2.bmp");
             comparer.Add("target3.bmp");
-            comparer.Compare("result.bmp");
+            comparer.Compare("result.bmp"); //
         }
         
         // Bandingkan beberapa dokumen dari aliran
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.bmp"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.bmp")))
         {
         	comparer.Add(File.OpenRead("target1.bmp"));
             comparer.Add(File.OpenRead("target2.bmp"));
@@ -332,7 +332,12 @@ solutions:
     title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
 
     solution:
-        
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for Java BMP"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
+          product: "GroupDocs.Comparison"
+          platform: "Java"
+          link: "/comparison/java/bmp/"
 
 ############################# Back to top ###############################
 back_to_top:

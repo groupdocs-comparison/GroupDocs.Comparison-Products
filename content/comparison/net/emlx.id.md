@@ -82,17 +82,17 @@ steps:
         ```cs
         // Bandingkan beberapa dokumen dari disk lokal
         
-        using (Comparer comparer = new Comparer("source.emlx")
+        using (Comparer comparer = new Comparer("source.emlx"))
         {
         	comparer.Add("target1.emlx");
             comparer.Add("target2.emlx");
             comparer.Add("target3.emlx");
-            comparer.Compare("result.emlx");
+            comparer.Compare("result.emlx"); //
         }
         
         // Bandingkan beberapa dokumen dari aliran
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.emlx"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.emlx")))
         {
         	comparer.Add(File.OpenRead("target1.emlx"));
             comparer.Add(File.OpenRead("target2.emlx"));
@@ -332,7 +332,12 @@ solutions:
     title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
 
     solution:
-        
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for Java EMLX"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
+          product: "GroupDocs.Comparison"
+          platform: "Java"
+          link: "/comparison/java/emlx/"
 
 ############################# Back to top ###############################
 back_to_top:

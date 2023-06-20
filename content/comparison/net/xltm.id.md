@@ -82,17 +82,17 @@ steps:
         ```cs
         // Bandingkan beberapa dokumen dari disk lokal
         
-        using (Comparer comparer = new Comparer("source.xltm")
+        using (Comparer comparer = new Comparer("source.xltm"))
         {
         	comparer.Add("target1.xltm");
             comparer.Add("target2.xltm");
             comparer.Add("target3.xltm");
-            comparer.Compare("result.xltm");
+            comparer.Compare("result.xltm"); //
         }
         
         // Bandingkan beberapa dokumen dari aliran
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.xltm"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.xltm")))
         {
         	comparer.Add(File.OpenRead("target1.xltm"));
             comparer.Add(File.OpenRead("target2.xltm"));
@@ -332,7 +332,12 @@ solutions:
     title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
 
     solution:
-        
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for Java XLTM"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
+          product: "GroupDocs.Comparison"
+          platform: "Java"
+          link: "/comparison/java/xltm/"
 
 ############################# Back to top ###############################
 back_to_top:

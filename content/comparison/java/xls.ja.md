@@ -58,14 +58,14 @@ about:
     enable: true
     title: "GroupDocs.Comparison for Java APIについて"
     content: |
-        [GroupDocs.Comparison for Java](/Comparison/java/) APIを使用して、画像とドキュメントの比較機能でJavaアプリケーションを強化します。段落、単語、文字、図形、さらには同じ形式の比較されたドキュメントのテキストスタイル内の違いを識別し、変更をマージして最終的なドキュメントにエクスポートするのに役立ちます。外部ライブラリを使用せずに、PDF、Word、Excelワークシート、PowerPointプレゼンテーション、Visioダイアグラム、Outlook電子メール、HTML、図面、画像ファイル形式など、さまざまなドキュメントの比較とマージをサポートします。
+        [GroupDocs.Comparison for Java](/ja/comparison/java/) APIを使用して、画像とドキュメントの比較機能でJavaアプリケーションを強化します。段落、単語、文字、図形、さらには同じ形式の比較されたドキュメントのテキストスタイル内の違いを識別し、変更をマージして最終的なドキュメントにエクスポートするのに役立ちます。外部ライブラリを使用せずに、PDF、Word、Excelワークシート、PowerPointプレゼンテーション、Visioダイアグラム、Outlook電子メール、HTML、図面、画像ファイル形式など、さまざまなドキュメントの比較とマージをサポートします。
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "JavaでXLSファイルを比較する手順"
     content_left: |
-        [GroupDocs.Comparison](/Comparison/java/)を使用すると、Java開発者は数行のコードを使用してアプリケーション内のXLSファイルを簡単に比較できます。
+        [GroupDocs.Comparison](/ja/comparison/java/)を使用すると、Java開発者は数行のコードを使用してアプリケーション内のXLSファイルを簡単に比較できます。
     
         
         * ソースドキュメントパスまたはストリームを使用して**Comparer**オブジェクトをインスタンス化します。

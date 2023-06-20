@@ -82,17 +82,17 @@ steps:
         ```cs
         // Bandingkan beberapa dokumen dari disk lokal
         
-        using (Comparer comparer = new Comparer("source.pptx")
+        using (Comparer comparer = new Comparer("source.pptx"))
         {
         	comparer.Add("target1.pptx");
             comparer.Add("target2.pptx");
             comparer.Add("target3.pptx");
-            comparer.Compare("result.pptx");
+            comparer.Compare("result.pptx"); //
         }
         
         // Bandingkan beberapa dokumen dari aliran
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.pptx"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.pptx")))
         {
         	comparer.Add(File.OpenRead("target1.pptx"));
             comparer.Add(File.OpenRead("target2.pptx"));
@@ -332,7 +332,12 @@ solutions:
     title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
 
     solution:
-        
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for Java PPTX"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
+          product: "GroupDocs.Comparison"
+          platform: "Java"
+          link: "/comparison/java/pptx/"
 
 ############################# Back to top ###############################
 back_to_top:

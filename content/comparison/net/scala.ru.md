@@ -83,7 +83,7 @@ steps:
     code: |
         ```cs
         // Сравните несколько документов с локального диска
-        using (Comparer comparer = new Comparer("source.scala")
+        using (Comparer comparer = new Comparer("source.scala"))
         {
         	comparer.Add("target1.scala");
             comparer.Add("target2.scala");
@@ -91,7 +91,7 @@ steps:
             comparer.Compare("result.scala"); // Создать результирующий файл с указанным именем
         }
         // Сравните несколько документов из потока
-        using (Comparer comparer = new Comparer(File.OpenRead("source.scala"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.scala")))
         {
         	comparer.Add(File.OpenRead("target1.scala"));
             comparer.Add(File.OpenRead("target2.scala"));

@@ -83,7 +83,7 @@ steps:
     code: |
         ```cs
         // Сравните несколько документов с локального диска
-        using (Comparer comparer = new Comparer("source.rtf")
+        using (Comparer comparer = new Comparer("source.rtf"))
         {
         	comparer.Add("target1.rtf");
             comparer.Add("target2.rtf");
@@ -91,7 +91,7 @@ steps:
             comparer.Compare("result.rtf"); // Создать результирующий файл с указанным именем
         }
         // Сравните несколько документов из потока
-        using (Comparer comparer = new Comparer(File.OpenRead("source.rtf"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.rtf")))
         {
         	comparer.Add(File.OpenRead("target1.rtf"));
             comparer.Add(File.OpenRead("target2.rtf"));

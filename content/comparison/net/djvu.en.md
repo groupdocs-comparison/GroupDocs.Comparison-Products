@@ -84,7 +84,7 @@ steps:
         ```cs
         // Compare multiple documents from local disk
         
-        using (Comparer comparer = new Comparer("source.djvu")
+        using (Comparer comparer = new Comparer("source.djvu"))
         {
         	comparer.Add("target1.djvu");
             comparer.Add("target2.djvu");
@@ -94,7 +94,7 @@ steps:
         
         // Compare multiple documents from stream
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.djvu"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.djvu")))
         {
         	comparer.Add(File.OpenRead("target1.djvu"));
             comparer.Add(File.OpenRead("target2.djvu"));
@@ -119,7 +119,7 @@ about_formats:
         - icon: "far fa-file-djvu"
           title: "About DJVU File Format"
           content: |
-            DjVu, pronounced as “déjà vu”, is a graphics file format intended for scanned documents and books especially those which contain the combination of text, drawings, images and photographs. It was developed by AT&T Labs. It uses multiple techniques like image layer separation of text and background images, progressive loading, arithmetic coding and lossy compression for bitonal images. Since DJVU file can contain compressed yet high-quality colour images, photographs, text, and drawings and can be saved in less space therefore, it's used on web as eBooks, manuals, newspapers, ancient documents, etc.
+            DjVu, pronounced as "déjà vu", is a graphics file format intended for scanned documents and books especially those which contain the combination of text, drawings, images and photographs. It was developed by AT&T Labs. It uses multiple techniques like image layer separation of text and background images, progressive loading, arithmetic coding and lossy compression for bitonal images. Since DJVU file can contain compressed yet high-quality colour images, photographs, text, and drawings and can be saved in less space therefore, it's used on web as eBooks, manuals, newspapers, ancient documents, etc.
           link: "https://docs.fileformat.com/image/djvu/"
 
 ############################# More Formats ############################

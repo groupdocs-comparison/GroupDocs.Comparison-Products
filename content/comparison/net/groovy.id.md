@@ -82,17 +82,17 @@ steps:
         ```cs
         // Bandingkan beberapa dokumen dari disk lokal
         
-        using (Comparer comparer = new Comparer("source.groovy")
+        using (Comparer comparer = new Comparer("source.groovy"))
         {
         	comparer.Add("target1.groovy");
             comparer.Add("target2.groovy");
             comparer.Add("target3.groovy");
-            comparer.Compare("result.groovy");
+            comparer.Compare("result.groovy"); //
         }
         
         // Bandingkan beberapa dokumen dari aliran
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.groovy"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.groovy")))
         {
         	comparer.Add(File.OpenRead("target1.groovy"));
             comparer.Add(File.OpenRead("target2.groovy"));
@@ -332,7 +332,12 @@ solutions:
     title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
 
     solution:
-        
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for Java GROOVY"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
+          product: "GroupDocs.Comparison"
+          platform: "Java"
+          link: "/comparison/java/groovy/"
 
 ############################# Back to top ###############################
 back_to_top:

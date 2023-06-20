@@ -82,17 +82,17 @@ steps:
         ```cs
         // Bandingkan beberapa dokumen dari disk lokal
         
-        using (Comparer comparer = new Comparer("source.cpp")
+        using (Comparer comparer = new Comparer("source.cpp"))
         {
         	comparer.Add("target1.cpp");
             comparer.Add("target2.cpp");
             comparer.Add("target3.cpp");
-            comparer.Compare("result.cpp");
+            comparer.Compare("result.cpp"); //
         }
         
         // Bandingkan beberapa dokumen dari aliran
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.cpp"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.cpp")))
         {
         	comparer.Add(File.OpenRead("target1.cpp"));
             comparer.Add(File.OpenRead("target2.cpp"));
@@ -332,7 +332,12 @@ solutions:
     title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
 
     solution:
-        
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for Java CPP"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
+          product: "GroupDocs.Comparison"
+          platform: "Java"
+          link: "/comparison/java/cpp/"
 
 ############################# Back to top ###############################
 back_to_top:

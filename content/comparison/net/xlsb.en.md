@@ -84,7 +84,7 @@ steps:
         ```cs
         // Compare multiple documents from local disk
         
-        using (Comparer comparer = new Comparer("source.xlsb")
+        using (Comparer comparer = new Comparer("source.xlsb"))
         {
         	comparer.Add("target1.xlsb");
             comparer.Add("target2.xlsb");
@@ -94,7 +94,7 @@ steps:
         
         // Compare multiple documents from stream
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.xlsb"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.xlsb")))
         {
         	comparer.Add(File.OpenRead("target1.xlsb"));
             comparer.Add(File.OpenRead("target2.xlsb"));

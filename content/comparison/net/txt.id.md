@@ -82,17 +82,17 @@ steps:
         ```cs
         // Bandingkan beberapa dokumen dari disk lokal
         
-        using (Comparer comparer = new Comparer("source.txt")
+        using (Comparer comparer = new Comparer("source.txt"))
         {
         	comparer.Add("target1.txt");
             comparer.Add("target2.txt");
             comparer.Add("target3.txt");
-            comparer.Compare("result.txt");
+            comparer.Compare("result.txt"); //
         }
         
         // Bandingkan beberapa dokumen dari aliran
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.txt"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.txt")))
         {
         	comparer.Add(File.OpenRead("target1.txt"));
             comparer.Add(File.OpenRead("target2.txt"));
@@ -332,7 +332,12 @@ solutions:
     title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
 
     solution:
-        
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for Java TXT"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
+          product: "GroupDocs.Comparison"
+          platform: "Java"
+          link: "/comparison/java/txt/"
 
 ############################# Back to top ###############################
 back_to_top:

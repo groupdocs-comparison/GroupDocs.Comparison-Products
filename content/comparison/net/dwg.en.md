@@ -84,7 +84,7 @@ steps:
         ```cs
         // Compare multiple documents from local disk
         
-        using (Comparer comparer = new Comparer("source.dwg")
+        using (Comparer comparer = new Comparer("source.dwg"))
         {
         	comparer.Add("target1.dwg");
             comparer.Add("target2.dwg");
@@ -94,7 +94,7 @@ steps:
         
         // Compare multiple documents from stream
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.dwg"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.dwg")))
         {
         	comparer.Add(File.OpenRead("target1.dwg"));
             comparer.Add(File.OpenRead("target2.dwg"));

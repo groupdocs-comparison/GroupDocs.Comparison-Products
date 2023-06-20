@@ -82,17 +82,17 @@ steps:
         ```cs
         // Bandingkan beberapa dokumen dari disk lokal
         
-        using (Comparer comparer = new Comparer("source.asm")
+        using (Comparer comparer = new Comparer("source.asm"))
         {
         	comparer.Add("target1.asm");
             comparer.Add("target2.asm");
             comparer.Add("target3.asm");
-            comparer.Compare("result.asm");
+            comparer.Compare("result.asm"); //
         }
         
         // Bandingkan beberapa dokumen dari aliran
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.asm"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.asm")))
         {
         	comparer.Add(File.OpenRead("target1.asm"));
             comparer.Add(File.OpenRead("target2.asm"));
@@ -332,7 +332,12 @@ solutions:
     title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
 
     solution:
-        
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for Java ASM"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
+          product: "GroupDocs.Comparison"
+          platform: "Java"
+          link: "/comparison/java/asm/"
 
 ############################# Back to top ###############################
 back_to_top:

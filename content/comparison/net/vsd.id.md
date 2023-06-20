@@ -82,17 +82,17 @@ steps:
         ```cs
         // Bandingkan beberapa dokumen dari disk lokal
         
-        using (Comparer comparer = new Comparer("source.vsd")
+        using (Comparer comparer = new Comparer("source.vsd"))
         {
         	comparer.Add("target1.vsd");
             comparer.Add("target2.vsd");
             comparer.Add("target3.vsd");
-            comparer.Compare("result.vsd");
+            comparer.Compare("result.vsd"); //
         }
         
         // Bandingkan beberapa dokumen dari aliran
         
-        using (Comparer comparer = new Comparer(File.OpenRead("source.vsd"))
+        using (Comparer comparer = new Comparer(File.OpenRead("source.vsd")))
         {
         	comparer.Add(File.OpenRead("target1.vsd"));
             comparer.Add(File.OpenRead("target2.vsd"));
@@ -332,7 +332,12 @@ solutions:
     title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
 
     solution:
-        
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for Java VSD"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
+          product: "GroupDocs.Comparison"
+          platform: "Java"
+          link: "/comparison/java/vsd/"
 
 ############################# Back to top ###############################
 back_to_top:
