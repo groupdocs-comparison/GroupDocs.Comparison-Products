@@ -24,7 +24,7 @@ apis:
       label: "Visualizar todas as APIs de código alto"
       api_product:
         # loop api_product
-        - link: "/comparison/rede/"
+        - link: "/comparison/net/"
           img_alt: "GroupDocs.Сomparison para .NET"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-net.png"
           product: "GroupDocs.Сomparison para"
