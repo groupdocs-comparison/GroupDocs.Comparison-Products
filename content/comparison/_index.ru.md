@@ -1,4 +1,3 @@
-
 ---
 ############################# Static ############################
 layout: "product"
@@ -6,12 +5,12 @@ date: 2022-07-05T12:44:18+03:00
 draft: false
 
 ############################# Head ############################
-head_title: ".NET и библиотека сравнения документов Java | Сравните документы для текста и стиля"
-head_description: "Библиотека сравнения документов, встроенная в C#, ASP.NET и Java. Сравните стиль и содержимое для выявления различий между сравниваемыми файлами поддерживаемых форматов."
+head_title: "Библиотека сравнения документов .NET и Java | Сравните документы по тексту и стилю"
+head_description: "Библиотека сравнения документов, встроенная в C# ASP.NET и Java. Сравните стиль и содержимое на наличие различий, чтобы выявить изменения среди сравниваемых файлов поддерживаемых форматов."
 
 ############################# Header ############################
-title: "API сравнения документов для популярных форматов"
-description: "Разрабатывайте нативные приложения .NET и Java с гибко настраиваемыми функциями сравнения. Сравните содержимое и стиль текста в похожих форматах документов."
+title: "API-интерфейсы сравнения документов для сравнения популярных форматов файлов"
+description: "Разрабатывайте собственные приложения .NET и Java с настраиваемыми функциями сравнения. Сравнивайте файлы, их содержимое и стиль текста в документах схожих форматов."
 
 ############################# APIs ###############################
 apis:
@@ -19,14 +18,14 @@ apis:
 
   api:
     # api loop
-    - title: "API High Code GroupDocs.Comparison включает"
+    - title: "API-интерфейсы GroupDocs.Comparison High Code включают в себя"
       link: "/comparison/"
       label: "Просмотреть все API High Code"
       api_product:
         # api_product loop
         - link: "/comparison/net/"
           img_alt: "GroupDocs.Comparison for .NET"
-          image: "/border/groupdocs-comparison-net.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-net.png"
           product: "GroupDocs.Comparison for"
           platform: ".NET"
           content: "Собственный .NET API для Windows Forms, ASP.NET, WPF, WCF и других приложений на основе .NET Framework."
@@ -34,39 +33,39 @@ apis:
         # api_product loop
         - link: "/comparison/java/"
           img_alt: "GroupDocs.Comparison for Java"
-          image: "/border/groupdocs-comparison-java.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
           product: "GroupDocs.Comparison for"
           platform: "Java"
-          content: "Собственный Java API для настольных компьютеров, Интернета и других приложений на основе Java SE или EE.."
+          content: "Собственный Java API для настольных компьютеров, веб-приложений и других приложений на базе Java SE или EE."
 
     # api loop
-    - title: "API-интерфейсы GroupDocs.Comparison Low Code включают"
+    - title: "GroupDocs.Comparison API с низким кодом включает в себя"
       link: "https://products.groupdocs.cloud/comparison"
-      label: "Просмотреть все API с низким кодом"
+      label: "Просмотреть все API Low Code"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.cloud/comparison/curl"
           img_alt: "GroupDocs.Comparison Cloud for cURL"
-          image: "/sdk/groupdocs_comparison-for-curl.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_comparison-for-curl.png"
           product: "GroupDocs.Comparison"
           platform: "Cloud for cURL"
-          content: "Работайте с API сравнения документов cURL RESTful для сравнения файлов Word, Excel, PowerPoint и других популярных форматов.."
+          content: "Работайте с API сравнения документов cURL RESTful для сравнения файлов Word, Excel, PowerPoint и других популярных форматов."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/comparison/net"
           img_alt: "GroupDocs.Comparison Cloud SDK for .NET"
-          image: "/sdk/groupdocs_comparison-for-net.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_comparison-for-net.png"
           product: "GroupDocs.Comparison"
           platform: "Cloud SDK for .NET"
-          content: "Добавьте мощные возможности сравнения документов в приложения .NET с помощью Cloud SDK для .NET. Сравните DOCX, XLSX, PPTX и другие форматы."
+          content: "Добавьте мощные возможности сравнения документов в приложения .NET с помощью Cloud SDK для .NET. Сравните DOCX, XLSX, PPTX и другие."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/comparison/java"
           img_alt: "GroupDocs.Comparison Cloud SDK for Java"
-          image: "/sdk/groupdocs_comparison-for-java.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_comparison-for-java.png"
           product: "GroupDocs.Comparison"
           platform: "Cloud SDK for Java"
-          content: "Добавьте высокоточные функции сравнения документов в свои Java-приложения с помощью специально разработанного пакета SDK для сравнения документов для Java.."
+          content: "Добавьте функции высокоточного сравнения документов в свои Java-приложения с помощью специально разработанного SDK для сравнения документов для Java."
 
     # api loop
     - title: "GroupDocs.Comparison Приложения без кода включают"
@@ -76,15 +75,15 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/comparison/total"
           img_alt: "GroupDocs.Comparison Total"
-          image: "/app/groupdocs_comparison-app.svg"
+          image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_comparison-app.png"
           product: "GroupDocs.Comparison"
           platform: "Total"
-          content: "Бесплатное приложение для сравнения документов Office онлайн."
+          content: "Бесплатное приложение для сравнения документов Office в Интернете."
 
         # api_product loop
         - link: "https://products.groupdocs.app/comparison/docx"
           img_alt: "GroupDocs.Comparison DOCX"
-          image: "/app/groupdocs_words-app.svg"
+          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.png"
           product: "GroupDocs.Comparison"
           platform: "DOCX"
           content: "Сравните DOCX онлайн бесплатно."
@@ -92,10 +91,10 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/comparison/pdf"
           img_alt: "GroupDocs.Comparison PDF"
-          image: "/app/groupdocs_pdf-app.svg"
+          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.png"
           product: "GroupDocs.Comparison"
           platform: "PDF"
-          content: "Diff pdf онлайн с помощью онлайн-приложения для сравнения PDF."
+          content: "Сравните PDF-файлы онлайн с помощью онлайн-приложения для сравнения PDF-файлов."
 
 ############################# Back to top ###############################
 back_to_top:

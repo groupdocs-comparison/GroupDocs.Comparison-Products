@@ -10,12 +10,12 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "API zum Vergleich von Java-Dokumenten | Vergleichen Sie Text und Stil von PDF Word Excel HTML"
-head_description: "Java-Dokumentvergleichs-API zum Vergleichen und Zusammenführen von Word Excel PPTX OpenOffice, Web, PDF, AutoCAD und anderen Dateiformaten. Vergleichen Sie Dokumente mit Nachverfolgung von Änderungen."
+head_title: "Java-Dokumentvergleichs-API | Vergleichen Sie Text und Stil von PDF, Word, Excel und HTML"
+head_description: "Java-Dokumentvergleichs-API zum Vergleichen und Zusammenführen von Word Excel PPTX OpenOffice, Web, PDF, AutoCAD und anderen Dateiformaten. Vergleichen Sie Dokumente und verfolgen Sie Änderungen."
 
 ############################# Header ############################
-title: "Java-API zum Vergleichen und Zusammenführen von Dokumenten"
-description: "Erstellen Sie Java-Anwendungen zum effizienten Vergleichen von Inhalt und Textstil zur Überprüfung von Unterschieden in allen branchenüblichen Dokument- und Bilddateiformaten."
+title: "Java-API zum Vergleichen von Dateien"
+description: "Erstellen Sie Java-Anwendungen, um Dateiinhalte effektiv auf Unterschiede in allen Standarddokument- und Bilddateiformaten zu vergleichen."
 button:
     enable: true
     icon: "fas fa-arrow-down"
@@ -28,7 +28,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Comparison for Java"
-        image: "/border/groupdocs-comparison-java.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
         product: "GroupDocs.Comparison"
         platform: "Java"
 
@@ -44,11 +44,11 @@ submenu:
 
             # button loop
             - link: "#support"
-              text: "Support"
+              text: "Unterstützung"
 
             # button loop
             - link: "https://products.groupdocs.app/comparison"
-              text: "Live Demo"
+              text: "Live-Demo"
 
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/java"
@@ -64,12 +64,55 @@ overview:
     enable: true
     example_image: "/comparison/comparison-example.png"
     content: |
-      GroupDocs.Comparison für Java ist die flexibelste und benutzerfreundlichste API, die bei der Entwicklung von Dokumentvergleichsanwendungen in einer Java-Umgebung hilft. Der Unterschiedsprüfer und die Dokumentzusammenführungs-API ermöglichen es Ihnen, Änderungen und Unterschiede im Inhalt sowie im Textstil zwischen ähnlichen Dokumentformaten zu erkennen. Es unterstützt den Vergleich aller branchenüblichen Dokumentformate wie PDF, HTML, Microsoft Office Word, Excel-Tabellen, PowerPoint-Präsentationen, Outlook-E-Mails, Visio-Diagramme, OpenDocument, AutoCAD und Bilder. Mithilfe der Änderungsverfolgungsfunktion wird die Zusammenfassung der Unterschiede zwischen Quell- und Zieldokument in einem umfassenden Vergleichsdokument dargestellt. GroupDocs.Comparison for Java API ermöglicht das Abrufen und Speichern von einfachen, passwortgeschützten sowie verschlüsselten Dokumenten per Datei sowie Stream.
+      
+    more_overview:
+      # more_overview_loop
+      - title: "Was ist GroupDocs.Comparison for Java?"
+        content: "GroupDocs.Comparison for Java ist die flexibelste und benutzerfreundlichste API, die Sie bei der Entwicklung von Dokumentvergleichsanwendungen in der Java-Umgebung unterstützt. Mit der Differenzprüfung und der Dokumentzusammenführungs-API können Sie Änderungen und Unterschiede im Inhalt sowie im Textstil zwischen ähnlichen Dokumentformaten erkennen."
+
+      # more_overview_loop
+      - title: "Unterstützte Formate"
+        content: "Die GroupDocs.Comparison-Bibliothek unterstützt die Erkennung von Unterschieden im Inhalt und Textstil zwischen gängigen Bild- und Dokumentformaten wie PDF, HTML, E-Mail-Outlook, Microsoft Office Word-Dokumenten, Excel-Tabellen, PowerPoint-Präsentationen, OneNote, Visio-Diagrammen, Texten und PNG , GIF- und BMP-Bilder sowie Hunderte anderer Formate."
         
-      Für GroupDocs.Comparison für Java muss keine externe Software auf dem System installiert werden. Es ist mit allen Java-Versionen kompatibel und unterstützt gängige Betriebssysteme (Windows, Linux, MacOS), die Java-Runtime ausführen können.
+      # more_overview_loop
+      - title: "Vergleichsmöglichkeiten"
+        content: "Ein Vergleich kann durchgeführt werden, um Änderungen im Inhalt von Wörtern, Absätzen, Tabellen oder Diagrammen und deren Stilen zu erkennen. Sie erhalten ein Vergleichsdokument, das eine Zusammenfassung der Unterschiede sowie deren Anzahl und Artzugehörigkeit auflistet. GroupDocs.Comparison for Java kann problemlos grundlegende Informationen über das Quelldokument extrahieren, einfache, passwortgeschützte und verschlüsselte Dokumente verschiedener Formate über eine Datei oder einen Datenstrom vergleichen und speichern."
+        
+      # more_overview_loop
+      - title: "Dokumentation und Beispiele"
+        content: "Es gibt bereits zahlreiche Dokumentationen zur Verwendung der Vergleichsbibliothek auf verschiedenen Plattformen mit Codebeispielen, sodass Sie nicht lange darüber nachdenken müssen, wie Sie mit der GroupDocs.Comparison für die Java-API in Ihrer Anwendung arbeiten."
+        
+      # more_overview_loop
+      - title: "Kompatibilität"
+        content: "Für GroupDocs.Comparison for Java muss keine externe Software im System installiert werden. Es ist mit allen Java-Versionen kompatibel und unterstützt gängige Betriebssysteme (Windows, Linux, MacOS), auf denen die Java-Laufzeitumgebung ausgeführt werden kann."
     examples:
       enable: true
       
+    more_feature:
+      # more_feature_loop
+      - title: "Vergleichen Sie Dokumente ganz einfach mit der Java-API"
+        content: |
+          Über die GroupDocs.Comparison for Java-API können Sie Dokumente unterstützter Formate einfach vergleichen, um Unterschiede zwischen ihnen zu finden. Das folgende Beispiel zeigt, wie man zwei Microsoft Word-Dokumente mit Java vergleicht:
+          
+          ```java
+          try (Comparer comparer = new Comparer("D:\\source.pdf")) {
+              comparer.add("D:\\target.pdf");
+              comparer.compare("D:\\result.pdf");
+          }
+          ```
+      # more_feature_loop
+      - title: "Geben Sie die Vergleichsdetailebene an"
+        content: "Mit GroupDocs.Comparison for Java können Sie Dokumente auf drei Ebenen vergleichen. Sie können die Vergleichsintensität auf niedrig (Text Wort für Wort mit Genauigkeit für Bildraster = 50 vergleichen), mittel (Text Zeichen für Zeichen mit Genauigkeit für Bildraster = 100 vergleichen) oder hoch (Text Zeichen für Zeichen mit Genauigkeit für Bildgebung vergleichen) einstellen Raster = 150)."
+
+      # more_feature_loop
+      - title: "Vergleichen Sie den Textstil"
+        content: "Neben dem Dokumentinhalt ermöglicht die GroupDocs.Comparison for Java-API auch den Vergleich des Textstils.
+
+        Schriftartname, -größe, -farbe, -stil (fett, kursiv, unterstrichen, Kapitälchen und Hyperlinks) und gegebenenfalls die Unterfarbe können ebenfalls verglichen werden, um Unterschiede zwischen verglichenen Dokumenten zu überprüfen, während Wörter und Zeichen verglichen werden.  
+
+        Für den Absatzvergleich können auch Ausrichtung, Einzug (linker Einzug, rechter Einzug), Abstand (Leerzeichen danach, Leerzeichen davor), Einzug der ersten Zeile und Zeilenabstand verglichen werden.  
+
+        Ebenso können ggf. auch andere Abschnitte einer Seite über die GroupDocs.Comparison for Java-API verglichen werden. Zu den Abschnitten gehören Fußzeilenabstand, Seitenränder (links, rechts, oben und unten), Seitenhöhe, Seitenausrichtung, Rahmenfarbe und Linienbreite."
       
     tabs:
       enable: true
@@ -77,7 +120,7 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          Nachfolgend finden Sie eine Übersicht über GroupDocs.Comparison für Java:
+          Nachfolgend finden Sie eine Übersicht über GroupDocs.Comparison for Java:
       
         right:
           enable: true
@@ -85,22 +128,22 @@ overview:
           title: "Überblick"
           content: |
             * Vergleichen Sie Inhalte und Stile
-            * Holen Sie sich eine Vergleichszusammenfassung
-            * Akzeptieren/Ablehnen von Änderungen in Word
+            * Vergleichszusammenfassung abrufen
+            * Änderungen in Word akzeptieren/ablehnen
             * 3 Word-Dateien zusammenführen und vergleichen
             * Unterstützung für Streams
             * Dateityperkennung über Stream
-            * Vergleichen Sie geschützte Dateien
+            * Geschützte Dateien vergleichen
             * Vergleichen Sie verschlüsselte Dateien
             * Vergleich als Bild speichern
-            * Vergleichen Sie bestimmte Seiten in Word
-            * Wasserzeichen in PDF vergleichen
-            * Änderungen anwenden/verwerfen
+            * Vergleichen Sie eine bestimmte Seite in Word
+            * Wasserzeichen im PDF vergleichen
+            * Änderungen übernehmen/verwerfen
       
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Comparison für Java unterstützt alle gängigen [Dokumentdateiformate](https://docs.groupdocs.com/comparison/java/supported-document-formats/) einschließlich: Microsoft Office, Bilder, Diagramme und viele andere.
+          GroupDocs.Comparison for Java unterstützt alle gängigen [Dokumentdateiformate](https://docs.groupdocs.com/comparison/java/supported-document-formats/), einschließlich: Microsoft Office, Bilder, Diagramme und viele andere .
         left:
           enable: true
           table:
@@ -120,19 +163,19 @@ overview:
             # table loop
             - title: "Andere Formate"
               content: |
-                * **Programmiersprachen**: CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, ActionScript, PHP, SQL, LOG, DIFF, LESS, SCALA
-                * **OpenDocument**: ODT, OTT, ODS, ODP, OTP
-                * **Tragbar**: PDF, MOBI
-                * **AutoCAD**: DXF, DWG
-                * **E-Mail**: EML, EMLX, MSG
-                * **Bilder**: JPEG, BMP, PNG, GIF, DCM, DICOM, DjVu
-                * **Web**: HTM, HTML, MHTML
-                * **Text**: TXT
+                * **Programmiersprachen**: [CS](https://products.groupdocs.com/comparison/java/cs/), [Java](https://products.groupdocs.com/comparison/java/java/), [CPP](https://products.groupdocs.com/comparison/java/cpp/), [JS](https://products.groupdocs.com/comparison/java/js/), [PY](https://products.groupdocs.com/comparison/java/py/), [RB](https://products.groupdocs.com/comparison/java/rb/), [PL](https://products.groupdocs.com/comparison/java/pl/), [ASM](https://products.groupdocs.com/comparison/java/asm/), [GROOVY](https://products.groupdocs.com/comparison/java/groovy/), [JSON](https://products.groupdocs.com/comparison/java/json/), [PHP](https://products.groupdocs.com/comparison/java/php/), [SQL](https://products.groupdocs.com/comparison/java/sql/), [LOG](https://products.groupdocs.com/comparison/java/log/), [DIFF](https://products.groupdocs.com/comparison/java/diff/), [LESS](https://products.groupdocs.com/comparison/java/less/), [SCALA](https://products.groupdocs.com/comparison/java/scala/)
+                * **OpenDocument**: [ODT](https://products.groupdocs.com/comparison/java/odt/), [OTT](https://products.groupdocs.com/comparison/java/ott/), [ODS](https://products.groupdocs.com/comparison/java/ods/), [ODP](https://products.groupdocs.com/comparison/java/odp/), [OTP](https://products.groupdocs.com/comparison/java/otp/)
+                * **Portable**: [PDF](https://products.groupdocs.com/comparison/java/pdf/), [MOBI](https://products.groupdocs.com/comparison/java/mobi/)
+                * **AutoCAD**: [DXF](https://products.groupdocs.com/comparison/java/dxf/), [DWG](https://products.groupdocs.com/comparison/java/dwg/)
+                * **Email**: [EML](https://products.groupdocs.com/comparison/java/eml/), [EMLX](https://products.groupdocs.com/comparison/java/emlx/), [MSG](https://products.groupdocs.com/comparison/java/msg/)
+                * **Images**: [JPEG](https://products.groupdocs.com/comparison/java/jpeg/), [BMP](https://products.groupdocs.com/comparison/java/bmp/), [PNG](https://products.groupdocs.com/comparison/java/png/), [GIF](https://products.groupdocs.com/comparison/java/gif/), [DCM](https://products.groupdocs.com/comparison/java/dcm/), [DICOM](https://products.groupdocs.com/comparison/java/dicom/), [DjVu](https://products.groupdocs.com/comparison/java/djvu/)
+                * **Web**: [HTM](https://products.groupdocs.com/comparison/java/htm/), [HTML](https://products.groupdocs.com/comparison/java/html/), [MHTML](https://products.groupdocs.com/comparison/java/mhtml/)
+                * **Text**: [TXT](https://products.groupdocs.com/comparison/java/txt/)
 
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Comparison for Java unterstützt das Folgen Betriebssysteme, Frameworks & Paket-Managers:
+          GroupDocs.Comparison for Java unterstützt folgende Betriebssysteme, Frameworks und Paketmanager:
       
         left:
           enable: true
@@ -150,11 +193,12 @@ overview:
             - icon: "fas fa-code"
               title: "Unterstützte Frameworks"
               content: |
-                * Java 7 (1.7) und höher
+                * Java 7 (1.7) oder höher
 
         right:
           enable: true
           table:
+            
             # table loop
             - icon: "fas fa-cogs"
               title: "Entwicklungsumgebungen"
@@ -171,114 +215,89 @@ overview:
 ############################# Features ############################
 features:
     enable: true
-    title: "GroupDocs.Comparison für Java-Merkmale"
+    title: "GroupDocs.Comparison for Java Funktionen"
 
     feature:
       # feature loop
       - icon: "fas fa-copy"
-        content: "Vergleichen und identifizieren Sie Änderungen in Inhalt und Textstil"
+        content: "[Vergleichen und identifizieren Sie Änderungen im Inhalts- und Textstil](https://docs.groupdocs.com/comparison/java/compare-documents/)"
 
       # feature loop
       - icon: "fas fa-eye"
-        content: "Zusammengefasste Vergleichsliste über verglichene Dokumente speichern"
+        content: "[Speichern Sie die zusammengefasste Vergleichsliste der verglichenen Dokumente](https://docs.groupdocs.com/comparison/java/get-extended-information-on-the-summary-page/)"
 
       # feature loop
       - icon: "fas fa-bolt"
-        content: "Vergleichen Sie bestimmte Seiten von Word-Dokumenten"
+        content: "[Vergleichen Sie bestimmte Seiten von Word-Dokumenten](https://docs.groupdocs.com/comparison/java/accept-or-reject-detected-changes/)"
       
       # feature loop
       - icon: "fas fa-file-powerpoint"
-        content: "Zusammenführen von bis zu 3 Microsoft Word-Dateien zum Vergleichen mit Unterstützung für „Änderungen nachverfolgen“"
+        content: "[Führen Sie bis zu drei Microsoft Word-Dateien zum Vergleich zusammen und unterstützen Sie die Funktion „Änderungen verfolgen“.](https://docs.groupdocs.com/comparison/java/compare-multiple-documents-with-specific-compare-settings/)"
 
       # feature loop
       - icon: "fas fa-code"
-        content: "Erkennen Sie während des Vergleichs ganz einfach, welche Änderungen aus welchem Dokument stammen"
+        content: "[Erkennen Sie beim Vergleich ganz einfach, welche Änderungen aus welchem ​​Dokument stammen](https://docs.groupdocs.com/comparison/java/get-list-of-changes/)"
 
       # feature loop
       - icon: "fas fa-cloud"
-        content: "Unterstützung zum Lesen von Quelldokumenten und Senden des resultierenden Dokuments über Streams"
+        content: "[Unterstützung zum Lesen von Quelldokumenten und Senden des resultierenden Dokuments über Streams](https://docs.groupdocs.com/comparison/java/load-file-from-stream/)"
 
       # feature loop
       - icon: "fas fa-remove-format"
-        content: "Dateiformattyp beim Abrufen aus dem Stream erkennen"
+        content: "[Erkennen Sie den Dateiformattyp beim Abrufen aus dem Stream](https://docs.groupdocs.com/comparison/java/get-file-info/)"
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "Vergleichen Sie passwortgeschützte Dokumente"
+        content: "[Vergleichen Sie passwortgeschützte Dokumente](https://docs.groupdocs.com/comparison/java/load-password-protected-documents/)"
 
       # feature loop
       - icon: "fas fa-location-arrow"
-        content: "Vergleichsergebnis als Bild speichern"
+        content: "[Vergleichsergebnis als Bild speichern](https://docs.groupdocs.com/comparison/java/generate-document-pages-preview/)"
 
       # feature loop
       - icon: "fas fa-border-all"
-        content: "Vergleichen Sie verschiedene Dateiformate als Bild"
+        content: "[Vergleichen Sie verschiedene Dateiformate als Bild](https://docs.groupdocs.com/comparison/java/generate-document-pages-preview/)"
 
       # feature loop
       - icon: "fas fa-wrench"
-        content: "Vergleichen Sie Wasserzeichen in PDF-Dokumenten"
+        content: "[Vergleichen Sie Wasserzeichen in PDF-Dokumenten](https://docs.groupdocs.com/comparison/java/how-to-spot-photos-differences-in-java-or-kotlin/)"
 
       # feature loop
       - icon: "fas fa-columns"
-        content: "Vergleichen Sie Dokumente aus Datei oder Stream und senden Sie das Ergebnisdokument über Stream oder Datei"
+        content: "[Vergleichen Sie Dokumente aus einer Datei oder einem Stream und senden Sie das Ergebnisdokument per Stream oder Datei](https://docs.groupdocs.com/comparison/java/load-file-from-stream/)"
 
       # feature loop
       - icon: "fas fa-file-word"
-        content: "Akzeptieren oder verwerfen Sie Änderungen nach dem Vergleich von Word-, PDF- oder Excel-Dateien"
+        content: "[Akzeptieren oder verwerfen Sie Änderungen nach dem Vergleich von Word-, PDF- oder Excel-Dateien](https://docs.groupdocs.com/comparison/java/accept-or-reject-detected-changes/)"
 
       # feature loop
       - icon: "fas fa-envelope"
-        content: "Vergleichen Sie verschlüsselte Dokumente per Datei oder Stream"
+        content: "[Vergleichen Sie verschlüsselte Dokumente per Datei oder Stream](https://docs.groupdocs.com/comparison/java/load-file-from-stream/)"
 
       # feature loop
       - icon: "fas fa-print"
-        content: "Gemessene Lizenzierungsoption für Vergleichsvorgänge"
+        content: "[Gemessene Lizenzierungsoption für Vergleichsvorgänge](https://docs.groupdocs.com/comparison/java/evaluation-limitations-and-licensing-of-groupdocs-comparison/)"
 
       # feature loop
       - icon: "fas fa-file-archive"
-        content: "Hervorheben von Text für markierte Änderungen beim Vergleichen von PDF-, Word-, Excel-, PowerPoint- und Note-Dokumenten"
+        content: "[Markieren Sie Text für markierte Änderungen beim Vergleich von PDF-, Word-, Excel-, PowerPoint- und Notizdokumenten](https://docs.groupdocs.com/comparison/java/customize-changes-styles/)"
 
       # feature loop
       - icon: "fas fa-lock"
-        content: "Berechnen Sie die korrekten Koordinaten von Änderungen in PDF-, PowerPoint-Folien und Diagrammen"
+        content: "[Berechnen Sie die korrekten Koordinaten von Änderungen in PDF-, PowerPoint-Folien und Diagrammen](https://docs.groupdocs.com/comparison/java/get-changes-coordinates/)"
 
       # feature loop
       - icon: "fas fa-file-code"
-        content: "Vergleichen Sie mehrere (mehr als zwei) PDF-, Excel-, OneNote-, Diagramm-, E-Mail- und Textdokumente"
+        content: "[Vergleichen Sie mehrere (mehr als zwei) PDF-, Excel-, OneNote-, Diagramm-, E-Mail- und Textdokumente](https://docs.groupdocs.com/comparison/java/compare-multiple-documents/)"
       
       # feature loop
       - icon: "fas fa-fill-drip"
-        content: "Vergleichen Sie Kopf- und Fußzeile der unterstützten Dateiformate"
+        content: "[Vergleichen Sie Kopf- und Fußzeile der unterstützten Dateiformate](https://docs.groupdocs.com/comparison/net/how-to-select-options-for-flexible-comparing/)"
 
       # feature loop
       - icon: "fas fa-file-excel"
-        content: "Vergleichen Sie Dokumente und speichern Sie Dokumentseiten verschiedener Formate als Bilder"
+        content: "[Vergleichen Sie Dokumente und speichern Sie Dokumentseiten verschiedener Formate als Bilder](https://docs.groupdocs.com/comparison/java/generate-document-pages-preview/)"
 
-    more_feature:
-      # more_feature_loop
-      - title: "Vergleichen Sie Dokumente einfach mit der Java-API"
-        content: |
-          Über GroupDocs.Comparison for Java API können Sie problemlos Dokumente unterstützter Formate vergleichen, um Unterschiede zwischen ihnen zu finden. Das folgende Beispiel zeigt, wie Sie zwei Microsoft Word-Dokumente mit Java vergleichen:
-          
-          ```java
-          try (Comparer comparer = new Comparer("D:\\source.pdf")) {
-              comparer.add("D:\\target.pdf");
-              comparer.compare("D:\\result.pdf");
-          }
-          ```
-      # more_feature_loop
-      - title: "Geben Sie die Vergleichsdetailebene an"
-        content: "GroupDocs.Comparison für Java ermöglicht es Ihnen, Dokumente auf drei Ebenen zu vergleichen. Sie können die Vergleichsintensität auf niedrig (Text Wort für Wort mit Genauigkeit für Abbildungsraster = 50 vergleichen), mittel (Text Zeichen für Zeichen mit Genauigkeit für Abbildungsraster = 100 vergleichen) oder hoch (Text Zeichen für Zeichen mit Genauigkeit für Abbildungsraster vergleichen) einstellen Raster = 150)."
-
-      # more_feature_loop
-      - title: "Textstil vergleichen"
-        content: "Zusammen mit dem Dokumentinhalt ermöglicht GroupDocs.Comparison für die Java-API auch den Vergleich des Textstils.
-
-        Schriftname, -größe, -farbe, -stil (fett, kursiv, unterstrichen, Kapitälchen und Hyperlinks) und ggf. Unterfarbe können ebenfalls verglichen werden, um den Unterschied zwischen verglichenen Dokumenten zu überprüfen, während Wörter und Zeichen verglichen werden.
-
-        Beim Absatzvergleich können auch Ausrichtung, Einzug (linker Einzug, rechter Einzug), Abstand (Abstand danach, Abstand davor), erster Zeileneinzug und Zeilenabstand verglichen werden.
-
-        Ebenso können gegebenenfalls auch andere Abschnitte einer Seite über die GroupDocs.Comparison for Java API verglichen werden. Die Abschnitte umfassen Fußzeilenabstand, Seitenränder (links, rechts, oben und unten), Seitenhöhe, Seitenausrichtung, Rahmenfarbe und Linienbreite."
 
 ############################# Support ############################
 support:
@@ -287,12 +306,12 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison bietet APIs zum Anzeigen von Dokumenten für andere beliebte Entwicklungsumgebungen"
+    title: "GroupDocs.Comparison bietet APIs zum Anzeigen von Dokumenten für andere gängige Entwicklungsumgebungen"
 
     solution:
         # solution loop
         - img_alt: "GroupDocs.Comparison for .NET"
-          image: "/border/groupdocs-comparison-net.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-net.png"
           product: "GroupDocs.Comparison"
           platform: ".NET"
           link: "/comparison/net/"

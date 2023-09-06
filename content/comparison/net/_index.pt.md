@@ -15,11 +15,11 @@ head_description: "API de comparação de documentos C# .NET. Compare e mescle P
 
 ############################# Header ############################
 title: "API .NET para comparar arquivos"
-description: "Desenvolva aplicativos usando a API de comparação de documentos .NET para verificar e comparar arquivos quanto a diferenças de conteúdo e estilo."
+description: "Desenvolva aplicativos usando a API de comparação de documentos .NET para verificar e comparar arquivos em busca de diferenças de conteúdo e estilo."
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Baixar Teste Gratuito"
+    label: "Baixe a avaliação gratuita"
     link: "https://downloads.groupdocs.com/comparison/net"
 
 ############################# SubMenu ############################
@@ -27,30 +27,30 @@ submenu:
     enable: true
     
     left:
-        img_alt: "GroupDocs.Comparison para .NET"
+        img_alt: "GroupDocs.Comparison for .NET"
         image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-net.png"
         product: "GroupDocs.Comparison"
         platform: ".NET"
 
     middle:
         button:
-            # loop de botão
+            # button loop
             - link: "#overview"
               text: "Visão geral"
 
-            # loop de botão
+            # button loop
             - link: "#features"
               text: "Características"
 
-            # loop de botão
+            # button loop
             - link: "#support"
-              text: "Suporte"
+              text: "Apoiar"
 
-            # loop de botão
+            # button loop
             - link: "https://products.groupdocs.app/comparison"
               text: "Demonstração ao vivo"
 
-            # loop de botão
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/net"
               text: "Preços"
 
@@ -67,24 +67,24 @@ overview:
       
     more_overview:
       # more_overview_loop
-      - title: "O que é GroupDocs.Сomparison"
-        content: "GroupDocs.Comparison for .NET API é uma solução rápida e confiável, pronta para uso na criação de aplicativos para pesquisar e destacar diferenças entre documentos do mesmo ou de diferentes formatos em C#, ASP.NET ou outras tecnologias relacionadas ao software .NET plataforma."
+      - title: "O que é GroupDocs.Comparison for .NET"
+        content: "A API GroupDocs.Comparison for .NET é uma solução rápida e confiável, pronta para uso na criação de aplicativos para pesquisar e destacar diferenças entre documentos do mesmo ou de diferentes formatos em C#, ASP.NET ou outras tecnologias relacionadas à plataforma de software .NET."
 
       # more_overview_loop
-      - title: "Formatos suportados"
-        content: "A biblioteca GroupDocs.Comparison suporta a detecção de diferenças em conteúdo e estilo de texto entre formatos populares de imagens e documentos, como PDF, HTML, e-mail do Outlook, documentos do Microsoft Office Word, planilhas do Excel, apresentações do PowerPoint, OneNote, diagramas do Visio, textos, imagens png, gif e bmp, bem como uma centena de outros formatos."
+      - title: "Formatos Suportados"
+        content: "A biblioteca GroupDocs.Comparison suporta a detecção de diferenças no conteúdo e no estilo de texto entre formatos populares de imagens e documentos, como PDF, HTML, Outlook por e-mail, documentos do Microsoft Office Word, planilhas do Excel, apresentações em PowerPoint, OneNote, diagramas do Visio, textos, png , imagens gif e bmp, bem como uma centena de outros formatos."
         
       # more_overview_loop
-      - title: "Capacidade de comparação"
-        content: "A comparação pode ser realizada para detectar alterações no conteúdo de palavras, parágrafos, tabelas ou gráficos e seus estilos, e fornecerá um documento de comparação que lista um resumo das diferenças, seu número e tipo pertencente. GroupDocs.Comparison para .NET pode facilmente extrair informações básicas sobre o documento de origem, comparar e salvar documentos simples, protegidos por senha e criptografados de vários formatos por meio de um arquivo ou fluxo de dados."
+      - title: "Capacidades de comparação"
+        content: "A comparação pode ser realizada para detectar alterações no conteúdo de palavras, parágrafos, tabelas ou gráficos e seus estilos, e fornecerá um documento de comparação que lista um resumo das diferenças, seu número e tipo de pertença. GroupDocs.Comparison for .NET pode extrair facilmente informações básicas sobre o documento de origem, comparar e salvar documentos simples, protegidos por senha e criptografados de vários formatos por meio de um arquivo ou fluxo de dados."
         
       # more_overview_loop
-      - title: "Documentação e Exemplos"
-        content: "Já existe muita documentação sobre como usar a biblioteca Comparison em diferentes plataformas com exemplos de código, então você não precisa pensar muito sobre como trabalhar com GroupDocs.Comparison for .NET API em seu aplicativo."
+      - title: "Documentação e exemplos"
+        content: "Já existe muita documentação sobre o uso da biblioteca Comparison em diferentes plataformas com exemplos de código, então você não precisa pensar muito sobre como trabalhar com GroupDocs.Comparison for .NET API em seu aplicativo."
         
       # more_overview_loop
       - title: "Compatibilidade"
-        content: "Você pode usar o GroupDocs.Comparison for .NET para criar aplicativos em qualquer ambiente de desenvolvimento orientado na plataforma .NET. Ele é compatível com todas as linguagens baseadas em .NET e oferece suporte a sistemas operacionais populares (Windows, Linux, MacOS) nos quais você pode instalar estruturas Mono ou .NET (incluindo .NET Core)."
+        content: "Você pode usar GroupDocs.Comparison for .NET para criar aplicativos em qualquer ambiente de desenvolvimento orientado à plataforma .NET. É compatível com todas as linguagens baseadas em .NET e oferece suporte a sistemas operacionais populares (Windows, Linux, MacOS) nos quais você pode instalar estruturas Mono ou .NET (incluindo .NET Core)."
     examples:
       enable: true
       
@@ -92,30 +92,30 @@ overview:
       # more_feature_loop
       - title: "Compare facilmente documentos usando a API .NET"
         content: |
-          GroupDocs.Comparison para .NET API fornece uma maneira fácil e eficiente de comparar seus arquivos. A seguir está um exemplo que mostra como comparar dois documentos DOCX usando C#:
+          A API GroupDocs.Comparison for .NET oferece uma maneira fácil e eficiente de comparar seus arquivos. A seguir está um exemplo que mostra como comparar dois documentos DOCX usando C#:  
 
           ```cs
-          //Arquivos de origem e destino a serem comparados
+          // Arquivos de origem e de destino a serem comparados
           string source = @"source.docx";
           string target = @"target.docx";
           Comparer comparer = new Comparer();
-          //Compara dois documentos
+          // Compare dois documentos
           ICompareResult result = comparer.Compare(source, target, new ComparisonSettings());
           ```
       # more_feature_loop
       - title: "Escolha o nível de detalhe para comparação"
-        content: "Com GroupDocs.Comparison for .NET, você pode especificar até que ponto deseja que os documentos sejam comparados. Você pode escolher entre, baixo (comparar texto palavra por palavra com precisão para grade de imagem = 50), meio (comparar texto caractere por caractere com precisão para grade de imagem = 100) ou alto (compare caractere de texto por caractere com precisão para grade de imagem = 150)."
+        content: "Com GroupDocs.Comparison for .NET você pode especificar até que ponto deseja que os documentos sejam comparados. Você pode escolher entre baixo (comparar texto palavra por palavra com precisão para grade de imagem = 50), médio (comparar texto caractere por caractere com precisão para grade de imagem = 100) ou alto (comparar texto caractere por caractere com precisão para grade de imagem = 150)."
 
       # more_feature_loop
       - title: "Suporte para comparação de estilos de texto"
         content: |
-          GroupDocs.Comparison for .NET oferece recurso para comparar estilo de texto.
+          GroupDocs.Comparison for .NET oferece recurso para comparar estilos de texto.  
 
-          Enquanto palavras e caracteres de documentos estão sendo comparados, o nome da fonte, tamanho da fonte, cor da fonte, estilo da fonte (negrito, itálico, sublinhado, versalete, hiperlink) e cor do sublinhado (se aplicável) podem ser comparados para encontrar diferenças.
+          Enquanto palavras e caracteres de documentos estão sendo comparados, o nome da fonte, o tamanho da fonte, a cor da fonte, o estilo da fonte (negrito, itálico, sublinhado, versalete, hiperlink) e a cor do sublinhado (se aplicável) podem ser comparados para encontrar diferenças.  
 
-          Ao comparar parágrafos, você pode comparar estilos como alinhamento de parágrafo, recuo (recuo à esquerda, recuo à direita), espaçamento de parágrafo (espaço depois, espaço antes), recuo da primeira linha e espaçamento entre linhas.
+          Ao comparar parágrafos, você pode comparar estilos como alinhamento de parágrafo, recuo (recuo à esquerda, recuo à direita), espaçamento de parágrafo (espaço depois, espaço antes), recuo da primeira linha e espaçamento entre linhas.  
 
-          GroupDocs.Comparison para .NET também oferece suporte à comparação de outras seções de uma página, quando aplicável, como distância do rodapé, altura e orientação da página, margens (esquerda, direita, superior e inferior), largura da linha da borda e cor da borda.
+          GroupDocs.Comparison for .NET também oferece suporte à comparação de outras seções de uma página, quando aplicável, como distância do rodapé, altura e orientação da página, margens (esquerda, direita, superior e inferior), largura da linha da borda e cor da borda.  
       
     tabs:
       enable: true
@@ -123,7 +123,7 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          A seguir está uma visão geral do GroupDocs.Comparison para .NET:
+          A seguir está uma visão geral do GroupDocs.Comparison for .NET:
       
         right:
           enable: true
@@ -132,15 +132,15 @@ overview:
           content: |
             * Comparação de documentos
             * Comparação de arquivos HTML
-            * Comparação de PDF
-            * Comparação de Diagramas
+            * Comparação de PDFs
+            * Comparação de diagramas
             * Compare o conteúdo do arquivo
-            * Comparar estilos de texto
+            * Compare estilos de texto
       
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Comparison for .NET oferece suporte a todos os [formatos de arquivo de documento](https://docs.groupdocs.com/comparison/net/supported-document-formats/) populares, incluindo: Microsoft Office, PDF, imagens e muitos outros.
+          O GroupDocs.Comparison for .NET é compatível com todos os [formatos de arquivo de documentos](https://docs.groupdocs.com/comparison/net/supported-document-formats/) populares, incluindo: Microsoft Office, PDF, imagens e muitos outros .
         left:
           enable: true
           table:
@@ -160,7 +160,7 @@ overview:
             # table loop
             - title: "Outros formatos"
               content: |
-                * **Programming Languages**: [CS](https://products.groupdocs.com/comparison/net/cs/), [Java](https://products.groupdocs.com/comparison/net/java/), [CPP](https://products.groupdocs.com/comparison/net/cpp/), [JS](https://products.groupdocs.com/comparison/net/js/), [PY](https://products.groupdocs.com/comparison/net/py/), [RB](https://products.groupdocs.com/comparison/net/rb/), [PL](https://products.groupdocs.com/comparison/net/pl/), [ASM](https://products.groupdocs.com/comparison/net/asm/), [GROOVY](https://products.groupdocs.com/comparison/net/groovy/), [JSON](https://products.groupdocs.com/comparison/net/json/), [PHP](https://products.groupdocs.com/comparison/net/php/), [SQL](https://products.groupdocs.com/comparison/net/sql/), [LOG](https://products.groupdocs.com/comparison/net/log/), [DIFF](https://products.groupdocs.com/comparison/net/diff/), [LESS](https://products.groupdocs.com/comparison/net/less/), [SCALA](https://products.groupdocs.com/comparison/net/scala/)
+                * **Linguagens de programação**: [CS](https://products.groupdocs.com/comparison/net/cs/), [Java](https://products.groupdocs.com/comparison/net/java/), [CPP](https://products.groupdocs.com/comparison/net/cpp/), [JS](https://products.groupdocs.com/comparison/net/js/), [PY](https://products.groupdocs.com/comparison/net/py/), [RB](https://products.groupdocs.com/comparison/net/rb/), [PL](https://products.groupdocs.com/comparison/net/pl/), [ASM](https://products.groupdocs.com/comparison/net/asm/), [GROOVY](https://products.groupdocs.com/comparison/net/groovy/), [JSON](https://products.groupdocs.com/comparison/net/json/), [PHP](https://products.groupdocs.com/comparison/net/php/), [SQL](https://products.groupdocs.com/comparison/net/sql/), [LOG](https://products.groupdocs.com/comparison/net/log/), [DIFF](https://products.groupdocs.com/comparison/net/diff/), [LESS](https://products.groupdocs.com/comparison/net/less/), [SCALA](https://products.groupdocs.com/comparison/net/scala/)
                 * **OpenDocument**: [ODT](https://products.groupdocs.com/comparison/net/odt/), [OTT](https://products.groupdocs.com/comparison/net/ott/), [ODS](https://products.groupdocs.com/comparison/net/ods/), [ODP](https://products.groupdocs.com/comparison/net/odp/), [OTP](https://products.groupdocs.com/comparison/net/otp/)
                 * **Portable**: [PDF](https://products.groupdocs.com/comparison/net/pdf/), [MOBI](https://products.groupdocs.com/comparison/net/mobi/)
                 * **AutoCAD**: [DXF](https://products.groupdocs.com/comparison/net/dxf/), [DWG](https://products.groupdocs.com/comparison/net/dwg/)
@@ -172,14 +172,14 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Comparison para .NET oferece suporte aos seguintes sistemas operacionais, estruturas e gerenciadores de pacotes:
+          GroupDocs.Comparison for .NET oferece suporte aos seguintes sistemas operacionais, estruturas e gerenciadores de pacotes:
       
         left:
           enable: true
           table:
-            # loop de tabela
+            # table loop
             - icon: "fab fa-windows"
-              title: "Sistemas Operacionais"
+              title: "Sistemas operacionais"
               content: |
                 * Windows Desktop
                 * Windows Server
@@ -187,27 +187,27 @@ overview:
                 * Linux
                 * MacOS
 
-            # loop de tabela
+            # table loop
             - icon: "fas fa-code"
               title: "Estruturas suportadas"
               content: |
-                * .NET Framework 2.0 or higher
-                * Mono Framework 1.2 or higher
+                * .NET Framework 2.0 ou mais alto
+                * Mono Framework 1.2 ou mais alto
                 * .NET Standard 2.0
                 * .NET Core 2.0
 
         right:
           enable: true
           table:
-            # loop de tabela
+            # table loop
             - icon: "fas fa-box"
-              title: "Gerenciador de Pacotes"
+              title: "Gerenciador de pacotes"
               content: |
                 * NuGet
 
-            # loop de tabela
+            # table loop
             - icon: "fas fa-tools"
-              title: "Ambientes de Desenvolvimento"
+              title: "Ambientes de desenvolvimento"
               content: |
                 * Microsoft Visual Studio
                 * Xamarin.Android
@@ -218,108 +218,108 @@ overview:
 ############################# Features ############################
 features:
     enable: true
-    title: "GroupDocs.Comparison de recursos .NET"
+    title: "Recursos do GroupDocs.Comparison for .NET"
 
     feature:
-      # loop de recursos
+      # feature loop
       - icon: "fas fa-copy"
-        content: "[Identificar diferenças no conteúdo e estilos de fonte](https://docs.groupdocs.com/comparison/net/compare-documents/)"
+        content: "[Identifique diferenças no conteúdo e nos estilos de fonte](https://docs.groupdocs.com/comparison/net/compare-documents/)"
 
-      # loop de recursos
+      # feature loop
       - icon: "fas fa-eye"
         content: "[Salve um relatório resumido de todas as diferenças encontradas após a comparação de arquivos](https://docs.groupdocs.com/comparison/net/get-extended-information-on-the-summary-page/)"
 
-      # loop de recursos
+      # feature loop
       - icon: "fas fa-bolt"
-        content: "[Aplicar ou rejeitar alterações após analisar as diferenças e exportar o arquivo resultante](https://docs.groupdocs.com/comparison/net/accept-or-reject-detected-changes/)"
+        content: "[Aplicar ou rejeitar alterações após analisar diferenças e exportar o arquivo resultante](https://docs.groupdocs.com/comparison/net/accept-or-reject-detected-changes/)"
       
-      # loop de recursos
+      # feature loop
       - icon: "fas fa-file-powerpoint"
-        content: "[Suporte para a funcionalidade \"Rastrear alterações\" do Microsoft Word ao comparar arquivos do Word](https://docs.groupdocs.com/comparison/net/show-revisions/)"
+        content: "[Suporte para a funcionalidade “Rastrear alterações” do Microsoft Word ao comparar arquivos do Word](https://docs.groupdocs.com/comparison/net/show-revisions/)"
 
-      # loop de recursos
+      # feature loop
       - icon: "fas fa-code"
-        content: "[Mudanças pontuais exclusivas provenientes de cada documento sendo comparado](https://docs.groupdocs.com/comparison/net/get-list-of-changes/)"
+        content: "[Identifique exclusivamente alterações provenientes de cada documento que está sendo comparado](https://docs.groupdocs.com/comparison/net/get-list-of-changes/)"
 
-      # loop de recursos
+      # feature loop
       - icon: "fas fa-cloud"
         content: "[Ler e enviar documentos via Streams](https://docs.groupdocs.com/comparison/net/load-file-from-stream/)"
 
-      # loop de recursos
+      # feature loop
       - icon: "fas fa-remove-format"
-        content: "[Licenciamento medido – Cobrança de acordo com o uso da API](https://docs.groupdocs.com/comparison/net/licensing-and-evaluation-limitations/)"
+        content: "[Licenciamento medido – Faturamento de acordo com o uso da API](https://docs.groupdocs.com/comparison/net/licensing-and-evaluation-limitations/)"
 
-      # loop de recursos
-      - icon: "fas fa-comentário-barra"
+      # feature loop
+      - icon: "fas fa-comment-slash"
         content: "[Compare vários documentos de origem com um único documento de destino](https://docs.groupdocs.com/comparison/net/compare-multiple-documents/)"
 
-      # loop de recursos
+      # feature loop
       - icon: "fas fa-location-arrow"
-        content: "[Comparar páginas específicas de arquivos do Word entre si – aceitar ou rejeitar todas as alterações em um único documento do Word](https://docs.groupdocs.com/comparison/net/accept-or-reject-detected-changes/)"
+        content: "[Compare páginas específicas de arquivos do Word entre si – aceite ou rejeite todas as alterações em um único documento do Word](https://docs.groupdocs.com/comparison/net/accept-or-reject-detected-changes/)"
 
-      # loop de recursos
+      # feature loop
       - icon: "fas fa-border-all"
         content: "[Mesclar até 3 documentos do Word e comparar fórmulas usadas em arquivos do Word](https://docs.groupdocs.com/comparison/net/how-to-merge-source-code-files/)"
 
-      # loop de recursos
+      # feature loop
       - icon: "fas fa-wrench"
-        content: "[Obter informações sobre documentos de filePath](https://docs.groupdocs.com/comparison/net/get-file-info/)"
+        content: "[Obtenha informações sobre documentos do filePath](https://docs.groupdocs.com/comparison/net/get-file-info/)"
 
-      # loop de recursos
+      # feature loop
       - icon: "fas fa-columns"
-        content: "[Salvar resultado da comparação HTML como imagens](https://docs.groupdocs.com/comparison/net/generate-document-pages-preview/)"
+        content: "[Salvar o resultado da comparação HTML como imagens](https://docs.groupdocs.com/comparison/net/generate-document-pages-preview/)"
 
-      # loop de recursos
+      # feature loop
       - icon: "fas fa-file-word"
         content: "[Opção para mostrar ou ocultar conteúdo excluído](https://docs.groupdocs.com/comparison/net/show-gap-lines/)"
 
-      # loop de recursos
+      # feature loop
       - icon: "fas fa-envelope"
         content: "[Opção para ativar ou desativar a comparação de estilos de documentos](https://docs.groupdocs.com/comparison/net/how-to-select-options-for-flexible-comparing/)"
 
-      # loop de recursos
+      # feature loop
       - icon: "fas fa-print"
-        content: "[Especificar strings para marcar itens inseridos, excluídos e de alteração de estilo no documento de comparação](https://docs.groupdocs.com/comparison/net/customize-changes-styles/)"
+        content: "[Especifique strings para marcar itens inseridos, excluídos e com alteração de estilo no documento de comparação](https://docs.groupdocs.com/comparison/net/customize-changes-styles/)"
 
-      # loop de recursos
+      # feature loop
       - icon: "fas fa-file-archive"
-        content: "[Especificar o separador de palavras e a cor da fonte para estilizar o texto comparado](https://docs.groupdocs.com/comparison/net/customize-changes-styles/)"
+        content: "[Especifique o separador de palavras e a cor da fonte para estilizar o texto comparado](https://docs.groupdocs.com/comparison/net/customize-changes-styles/)"
 
-      # loop de recursos
+      # feature loop
       - icon: "fas fa-lock"
-        content: "[Calcular as coordenadas corretas de alterações em PDF, Word, slides e diagramas do PowerPoint](https://docs.groupdocs.com/comparison/net/get-changes-coordinates/)"
+        content: "[Calcule as coordenadas corretas de alterações em PDF, Word, slides e diagramas de PowerPoint](https://docs.groupdocs.com/comparison/net/get-changes-coordinates/)"
 
-      # loop de recursos
+      # feature loop
       - icon: "fas fa-file-code"
-        content: "[Comparar arquivos protegidos por senha](https://docs.groupdocs.com/comparison/net/how-to-compare-password-protected-files/)"
+        content: "[Compare arquivos protegidos por senha](https://docs.groupdocs.com/comparison/net/how-to-compare-password-protected-files/)"
       
-      # loop de recursos
+      # feature loop
       - icon: "fas fa-fill-drip"
-        content: "[Comparar títulos de gráfico em planilhas - Gerar gráfico nos arquivos de células resultantes](https://docs.groupdocs.com/comparison/net/how-to-compare-spreadsheet-or-tables/)"
+        content: "[Compare títulos de gráficos em planilhas – Gere gráfico nos arquivos de células resultantes](https://docs.groupdocs.com/comparison/net/how-to-compare-spreadsheet-or-tables/)"
 
-      # loop de recursos
+      # feature loop
       - icon: "fas fa-file-excel"
-        content: "[Dimensionar automaticamente as formas automáticas no arquivo resultante do documento Cells](https://docs.groupdocs.com/comparison/net/how-to-compare-spreadsheet-or-tables/)"
+        content: "[Dimensionar automaticamente as formas automáticas no arquivo resultante do documento de células](https://docs.groupdocs.com/comparison/net/how-to-compare-spreadsheet-or-tables/)"
 
-      # loop de recursos
+      # feature loop
       - icon: "fas fa-heading"
-        content: "[Acesse a página de resumo detalhado para detectar alterações entre os arquivos de documento de origem e destino](https://docs.groupdocs.com/comparison/net/get-extended-information-on-the-summary-page/)"
+        content: "[Acesse a página de resumo detalhado para detectar alterações entre arquivos de documentos de origem e de destino](https://docs.groupdocs.com/comparison/net/get-extended-information-on-the-summary-page/)"
 
-      # loop de recursos
+      # feature loop
       - icon: "fas fa-project-diagram"
         content: "[Compare os arquivos de linguagem de programação e script mais populares](https://docs.groupdocs.com/comparison/net/get-supported-document-formats/)"
 
-      # loop de recursos
+      # feature loop
       - icon: "fas fa-cube"
-        content: "[Comparar vários (mais de dois) PDF, Word, Excel, diagrama, e-mail, texto e documentos do OneNote](https://docs.groupdocs.com/comparison/net/compare-multiple-documents-with-specific-compare-settings/)"
+        content: "[Compare vários (mais de dois) documentos PDF, Word, Excel, Diagrama, Email, Texto e OneNote](https://docs.groupdocs.com/comparison/net/compare-multiple-documents-with-specific-compare-settings/)"
 
-      # loop de recursos
+      # feature loop
       - icon: "fab fa-uncharted"
-        content: "[Compare Cabeçalho e Rodapé de Formatos de Arquivo Suportados](https://docs.groupdocs.com/comparison/net/how-to-select-options-for-flexible-comparing/)"
+        content: "[Compare o cabeçalho e o rodapé dos formatos de arquivo suportados](https://docs.groupdocs.com/comparison/net/how-to-select-options-for-flexible-comparing/)"
 
-      # loop de recursos
+      # feature loop
       - icon: "fab fa-uncharted"
-        content: "[Comparar marcadores, variáveis ​​e propriedades personalizadas de formatos de documento do Word](https://docs.groupdocs.com/comparison/net/compare-bookmarks-in-word/)"
+        content: "[Compare marcadores, variáveis ​​e propriedades personalizadas de formatos de documentos do Word](https://docs.groupdocs.com/comparison/net/compare-bookmarks-in-word/)"
 
 ############################# Support ############################
 support:
@@ -331,8 +331,8 @@ solutions:
     title: "GroupDocs.Comparison oferece APIs de visualização de documentos para outros ambientes de desenvolvimento populares"
 
     solution:
-        # ciclo de solução
-        - img_alt: "GroupDocs.Сomparison para Java"
+        # solution loop
+        - img_alt: "GroupDocs.Comparison for Java"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
           product: "GroupDocs.Comparison"
           platform: "Java"

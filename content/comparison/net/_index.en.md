@@ -67,7 +67,7 @@ overview:
       
     more_overview:
       # more_overview_loop
-      - title: "What is GroupDocs.Comparison"
+      - title: "What is GroupDocs.Comparison for .NET"
         content: "GroupDocs.Comparison for .NET API is a fast and reliable solution ready for use when creating applications for searching and highlighting differences between documents of the same or different formats in C#, ASP.NET or other technologies related to the .NET software platform."
 
       # more_overview_loop
@@ -85,8 +85,6 @@ overview:
       # more_overview_loop
       - title: "Compatibility"
         content: "You can use GroupDocs.Comparison for .NET to create applications in any development environment oriented on the .NET platform. It is compatible with all .NET-based languages and supports popular operating systems (Windows, Linux, MacOS) on which you can install Mono or .NET frameworks (including .NET Core)."
-    
-      
     examples:
       enable: true
       
@@ -97,11 +95,11 @@ overview:
           GroupDocs.Comparison for .NET API provides you an easy and efficient way to compare your files. Following is an example that shows, how to compare two DOCX documents using C#:  
 
           ```cs
-          //Source and target files to be compared
+          // Source and target files to be compared
           string source = @"source.docx";
           string target = @"target.docx";
           Comparer comparer = new Comparer();
-          //Compare two documents
+          // Compare two documents
           ICompareResult result = comparer.Compare(source, target, new ComparisonSettings());
           ```
       # more_feature_loop
@@ -322,8 +320,6 @@ features:
       # feature loop
       - icon: "fab fa-uncharted"
         content: "[Compare Bookmarks, Variables & Custom Properties of Word Document Formats](https://docs.groupdocs.com/comparison/net/compare-bookmarks-in-word/)"
-
-    
 
 ############################# Support ############################
 support:

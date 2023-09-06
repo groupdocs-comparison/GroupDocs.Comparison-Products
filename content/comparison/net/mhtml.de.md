@@ -1,4 +1,3 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -25,28 +24,28 @@ submenu:
     enable: true
 
     left:
-        img_alt: "GroupDocs.Comparison für .NET"
+        img_alt: "GroupDocs.Comparison for .NET"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-net.png"
         product: "GroupDocs.Comparison"
         platform: ".NET"
 
     middle:
         button: 
-            #-Tastenschleife
+            # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API-Referenz"
 
-            #-Tastenschleife
+            # button loop
             - link: "https://github.com/groupdocs-comparison"
               text: "Codebeispiele"
 
-            #-Tastenschleife
+            # button loop
             - link: "https://products.groupdocs.app/comparison/family"
               text: "Live-Demos"
 
-            #-Tastenschleife
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/net"
-              text: "Preise"
+              text: "Preisgestaltung"
 
     right:
         link_download: "https://downloads.groupdocs.com/comparison"
@@ -56,9 +55,9 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Informationen zu GroupDocs.Comparison für die .NET-API"
+    title: "Informationen zur GroupDocs.Comparison for .NET-API"
     content: |
-        [GroupDocs.Comparison für .NET](/de/comparison/net/) ist eine native .NET-API zum Vergleichen mehrerer Bilder und Dokumente desselben Formats. Es hilft Ihnen, die Unterschiede in Absätzen, Wörtern, Zeichen, Formen und sogar den Textstilen der verglichenen Dokumente zu erkennen, die Änderungen zusammenzuführen und in ein endgültiges Dokument zu exportieren. Es unterstützt den Vergleich und das Zusammenführen von PDF-, Word-Dokumenten, Excel-Tabellen, PowerPoint-Präsentationen, Visio-Diagrammen, Outlook-E-Mails, HTML, Zeichnungen und Bilddateiformaten ohne Verwendung einer externen Bibliothek.
+        [GroupDocs.Comparison for .NET](/comparison/net/) ist eine native .NET-API zum Vergleichen mehrerer Bilder und Dokumente desselben Formats. Es hilft Ihnen, die Unterschiede in Absätzen, Wörtern, Zeichen, Formen und sogar den Textstilen der verglichenen Dokumente zu erkennen, die Änderungen zusammenzuführen und in ein endgültiges Dokument zu exportieren. Es unterstützt den Vergleich und das Zusammenführen von PDF-, Word-Dokumenten, Excel-Tabellen, PowerPoint-Präsentationen, Visio-Diagrammen, Outlook-E-Mails, HTML, Zeichnungen und Bilddateiformaten ohne Verwendung einer externen Bibliothek.
 
 ############################# Steps ############################
 steps:
@@ -66,20 +65,19 @@ steps:
     title_left: "Schritte zum Vergleichen von MHTML-Dateien in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) erleichtert .NET-Entwicklern das Vergleichen und Zusammenführen mehrerer MHTML-Dateien in ihren Anwendungen durch die Implementierung einiger einfacher Schritte.
-        
-        *   Instanziieren Sie das **Comparer**-Objekt mit dem Pfad oder Stream des Quelldokuments.
-        *   Rufen Sie die Add-Methode auf und geben Sie den Zieldokumentpfad oder -stream an. Wiederholen Sie diesen Schritt für jedes Zieldokument.
-        *   Vergleichsmethode aufrufen.
+        * Instanziieren Sie das **Comparer**-Objekt mit dem Pfad oder Stream des Quelldokuments.
+        * Rufen Sie die Add-Methode auf und geben Sie den Zieldokumentpfad oder -stream an. Wiederholen Sie diesen Schritt für jedes Zieldokument.
+        * Vergleichsmethode aufrufen.
     title_right: "System Anforderungen"
     content_right: |
-        GroupDocs.Comparison für .NET-APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.
-        *   Betriebssysteme: Microsoft Windows, Linux, MacOS
-        *   Entwicklungsumgebungen: Microsoft Visual Studio, Xamarin, MonoDevelop
-        *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        *   Holen Sie sich die neueste Version von GroupDocs.Comparison für .NET, heruntergeladen von [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
+        GroupDocs.Comparison for .NET APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.
+        * Betriebssysteme: Microsoft Windows, Linux, MacOS
+        * Entwicklungsumgebungen: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Holen Sie sich die neueste Version von GroupDocs.Comparison for .NET, heruntergeladen von [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
     code: |
         ```cs
-        // Mehrere Dokumente von der lokalen Festplatte vergleichen
+        // Vergleichen Sie mehrere Dokumente von der lokalen Festplatte
         
         using (Comparer comparer = new Comparer("source.mhtml"))
         {
@@ -89,7 +87,7 @@ steps:
             comparer.Compare("result.mhtml"); // Ergebnisdatei mit dem angegebenen Namen erstellen
         }
         
-        // Mehrere Dokumente aus dem Stream vergleichen
+        // Vergleichen Sie mehrere Dokumente aus dem Stream
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.mhtml")))
         {
@@ -114,7 +112,7 @@ about_formats:
     format:
         # format loop
         - icon: "far fa-file-mhtml"
-          title: "Informationen zum MHTML-Dateiformat"
+          title: "Informationen zum Dateiformat MHTML"
           content: |
             Dateien mit der Erweiterung MHTML stellen ein Webseitenarchivformat dar, das von verschiedenen Anwendungen erstellt werden kann. Das Format wird als Archivformat bezeichnet, da es den Web-HTML-Code und die zugehörigen Ressourcen in einer einzigen Datei speichert. Zu diesen Ressourcen gehört alles, was mit der Webseite verknüpft ist, beispielsweise Bilder, Applets, Animationen, Audiodateien usw. MHTML-Dateien können in einer Vielzahl von Anwendungen wie Internet Explorer und Microsoft Word geöffnet werden. Microsoft Windows verwendet das MHTML-Dateiformat zum Aufzeichnen von Problemszenarien, die bei der Verwendung einer Anwendung unter Windows beobachtet werden und Probleme aufwerfen. Das MHTML-Dateiformat kodiert den Seiteninhalt ähnlich den in message/rfc822 definierten Spezifikationen, bei denen es sich um Klartext-E-Mail-bezogene Spezifikationen handelt. Die tatsächlichen Spezifikationen des Formats entsprechen RFC 2557.
           link: "https://docs.fileformat.com/image/mhtml/"
@@ -374,7 +372,7 @@ more_formats:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison bietet APIs zum Anzeigen von Dokumenten für andere gängige Entwicklungsumgebungen"
 
     solution:
         # solution loop

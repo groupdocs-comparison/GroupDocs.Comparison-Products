@@ -1,4 +1,3 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -6,12 +5,12 @@ date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "Java PPSX API di confronto - Confronta PPSX file per le differenze"
-head_description: "Confronta e unisci PPSX file in applicazioni Java, J2EE, J2SE. Analizza il riepilogo delle differenze nel contenuto, nel testo e nello stile di PPSX file, immagini e formati di documenti."
+head_title: "API di confronto Java PPSX: confronta i file PPSX per le differenze"
+head_description: "Confronta e unisci file PPSX nelle applicazioni Java, J2EE, J2SE. Analizza il riepilogo delle differenze nel contenuto, nel testo e nello stile di file, immagini e formati di documenti PPSX."
 
 ############################# Header ############################
-title: "Confronta PPSX File in Java"
-description: "Esegui un confronto riga per riga tra più di due file PPSX in Java. Recupera un elenco di differenze e salva i file confrontati in un unico documento."
+title: "Confronta i file PPSX in Java"
+description: "Esegui un confronto riga per riga tra più di due file PPSX in Java. Recupera un elenco di differenze e salva i file confrontati in un singolo documento."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -25,26 +24,26 @@ submenu:
     enable: true
 
     left:
-        img_alt: "GroupDocs.Comparison per Java"
+        img_alt: "GroupDocs.Comparison for Java"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-java.png"
         product: "GroupDocs.Comparison"
-        platform: "Giava"
+        platform: "Java"
 
     middle:
         button: 
-            # ciclo di pulsanti
+            # button loop
             - link: "https://apireference.groupdocs.com/comparison/java"
               text: "Riferimento API"
 
-            # ciclo di pulsanti
+            # button loop
             - link: "https://github.com/groupdocs-comparison"
-              text: "Esempi di codice"
+              text: "Esempi di codici"
 
-            # ciclo di pulsanti
+            # button loop
             - link: "https://products.groupdocs.app/comparison/family"
               text: "Demo dal vivo"
 
-            # ciclo di pulsanti
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/java"
               text: "Prezzi"
 
@@ -56,26 +55,26 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Informazioni su GroupDocs.Comparison per l'API Java"
+    title: "Informazioni sull'API GroupDocs.Comparison for Java"
     content: |
-        Potenzia le tue applicazioni Java con funzionalità di confronto di immagini e documenti utilizzando l'API [GroupDocs.Comparison for Java](/it/comparison/java/). Ti aiuta a identificare le differenze all'interno di paragrafi, parole, caratteri, forme, persino gli stili di testo dei documenti confrontati dello stesso formato, consente di unire le modifiche e di esportarle in un documento finale. Supporta il confronto e l'unione di un'ampia gamma di documenti tra cui PDF, Word, fogli di lavoro Excel, presentazioni PowerPoint, diagrammi Visio, e-mail di Outlook, HTML, disegni e formati di file immagine senza utilizzare alcuna libreria esterna.
+        Potenzia le tue applicazioni Java con funzionalità di confronto di immagini e documenti utilizzando l'API [GroupDocs.Comparison for Java](/comparison/java/). Ti aiuta a identificare le differenze all'interno di paragrafi, parole, caratteri, forme e persino negli stili di testo dei documenti confrontati dello stesso formato, consente di unire le modifiche ed esportarle in un documento finale. Supporta il confronto e l'unione di un'ampia gamma di documenti tra cui PDF, Word, fogli di lavoro Excel, presentazioni PowerPoint, diagrammi Visio, e-mail di Outlook, HTML, disegni e formati di file immagine senza utilizzare alcuna libreria esterna.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Passi per confrontare i file PPSX in Java"
+    title_left: "Passaggi per confrontare i file PPSX in Java"
     content_left: |
         [GroupDocs.Comparison](/comparison/java/) consente agli sviluppatori Java di confrontare facilmente i file PPSX all'interno delle loro applicazioni utilizzando poche righe di codice.
-        *   Crea un'istanza dell'oggetto **Comparer** con il percorso o il flusso del documento di origine.
-        * Chiama il metodo add e specifica il percorso o il flusso del documento di destinazione.
-        * Chiama il metodo di confronto.
+        * Crea un'istanza dell'oggetto **Comparer** con il percorso o il flusso del documento di origine.
+        * Chiama il metodo Aggiungi e specifica il percorso o il flusso del documento di destinazione.
+        * Metodo di confronto delle chiamate.
     title_right: "Requisiti di sistema"
     content_right: |
-        GroupDocs.Comparison per le API Java sono supportate su tutte le principali piattaforme e sistemi operativi. Prima di eseguire il codice seguente, assicurati di avere i seguenti prerequisiti installati sul tuo sistema.
-        *   Sistemi operativi: Microsoft Windows, Linux, Mac OS
-        * Ambiente di sviluppo: NetBeans, Intellij IDEA, Eclipse ecc
-        * Java Runtime Environment: J2SE 6.0 e versioni successive
-        * Ottieni l'ultima versione di GroupDocs.Comparison per Java da [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
+        Le API GroupDocs.Comparison for Java sono supportate su tutte le principali piattaforme e sistemi operativi. Prima di eseguire il codice seguente, assicurati di avere i seguenti prerequisiti installati sul tuo sistema.
+        * Sistemi operativi: Microsoft Windows, Linux, MacOS
+        * Ambienti di sviluppo: NetBeans, Intellij IDEA, Eclipse etc
+        * Ambiente runtime Java: J2SE 6.0 e versioni successive
+        * Ottieni l'ultima versione di GroupDocs.Comparison for Java da [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
     code: |
         ```java
         // Confronta i documenti dal file locale
@@ -85,7 +84,7 @@ steps:
             comparer.compare("C:\\result.ppsx"); // Crea il file dei risultati con il nome specificato
         }
         
-        // Confronta i documenti dallo stream
+        // Confronta i documenti dal flusso
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.ppsx"))) {
             comparer.add(new FileInputStream("C:\\target.ppsx"));
@@ -96,10 +95,10 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Demo dal vivo per confrontare PPSX file"
+    title: "Demo dal vivo per confrontare file PPSX"
     content: |
-        Confronta subito PPSX file visitando il sito web [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family).
-        La demo dal vivo ha i seguenti vantaggi
+        Confronta subito i file PPSX visitando il sito web [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family).
+        La demo live presenta i seguenti vantaggi
 
 ############################# About Formats ############################
 about_formats:
@@ -109,7 +108,7 @@ about_formats:
         - icon: "far fa-file-ppsx"
           title: "Informazioni sul formato file PPSX"
           content: |
-            PPSX, Power Point Slide Show, il file viene creato utilizzando Microsoft PowerPoint 2007 e versioni successive per lo scopo della presentazione. Si tratta di un aggiornamento del formato di file PPS supportato dalle versioni di Microsoft PowerPoint 97-2003. Quando un file PPSX viene condiviso con un altro utente e aperto, si avvia come presentazione di PowerPoint a differenza del file PPTX che si apre in modalità modificabile. La sequenza della presentazione è la stessa della presentazione originale. Tutte le diapositive accompagnano le immagini, i suoni e altri media incorporati accompagnano le diapositive della presentazione al PPSX durante la presentazione.
+            I file PPSX, Power Point Slide Show, vengono creati utilizzando Microsoft PowerPoint 2007 e versioni successive per scopi di presentazione. Si tratta di un aggiornamento del formato file PPS supportato dalle versioni Microsoft PowerPoint 97-2003. Quando un file PPSX viene condiviso con un altro utente e aperto, si avvia come spettacolo PowerPoint a differenza del file PPTX che si apre in modalità modificabile. La sequenza della presentazione è la stessa della presentazione originale. Tutte le diapositive accompagnano le immagini, i suoni e altri media incorporati accompagnano le diapositive della presentazione sul PPSX durante la presentazione.
           link: "https://docs.fileformat.com/image/ppsx/"
 
 ############################# More Formats ############################
@@ -117,7 +116,7 @@ more_formats:
     enable: true
     title: "Confronta altri formati di file"
     content: |
-        API di confronto di immagini e documenti multiformato per Java. Confronta alcuni dei formati di file più diffusi di seguito senza alcun software esterno.
+        API per il confronto di immagini e documenti multiformato per Java. Confronta alcuni dei formati di file più diffusi di seguito senza alcun software esterno.
     format: 
         # format loop
         - name: "Compare PDF Files"
@@ -367,7 +366,7 @@ more_formats:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison offre API di visualizzazione di documenti per altri ambienti di sviluppo popolari"
 
     solution:
         # solution loop

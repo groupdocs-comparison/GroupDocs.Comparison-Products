@@ -1,4 +1,3 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -6,18 +5,18 @@ date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "Java XLS 比较 API - 比较 XLS 文件的差异"
-head_description: "比较和合并 Java、J2EE、J2SE 应用程序中的 XLS 文件。分析 XLS 文件、图像和文档格式在内容、文本和样式方面的差异摘要。"
+head_title: "Java XLS 比較 API - 比較 XLS 文件的差異"
+head_description: "比較並合併 Java、J2EE、J2SE 應用程序中的 XLS 文件。分析 XLS 文件、圖像和文檔格式的內容、文本和風格的差異摘要。"
 
 ############################# Header ############################
-title: "在Java中比较XLS文件"
-description: "在 Java 中对两个以上的 XLS 文件进行逐行比较。检索差异列表并将比较的文件保存到单个文档中。"
+title: "在 Java 中比較 XLS 文件"
+description: "在 Java 中對兩個以上的 XLS 文件進行逐行比較。檢索差異列表並將比較的文件保存到單個文檔中。"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "下载免费试用版"
+    label: "下載免費試用版"
     link: "https://downloads.groupdocs.com/comparison/java"
 
 ############################# SubMenu ############################
@@ -28,25 +27,25 @@ submenu:
         img_alt: "GroupDocs.Comparison for Java"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-java.png"
         product: "GroupDocs.Comparison"
-        platform: "爪哇"
+        platform: "Java"
 
     middle:
         button: 
-            # 按钮循环
+            # button loop
             - link: "https://apireference.groupdocs.com/comparison/java"
-              text: "API 参考"
+              text: "API參考"
 
-            # 按钮循环
+            # button loop
             - link: "https://github.com/groupdocs-comparison"
-              text: "代码示例"
+              text: "代碼示例"
 
-            # 按钮循环
+            # button loop
             - link: "https://products.groupdocs.app/comparison/family"
-              text: "现场演示"
+              text: "現場演示"
 
-            # 按钮循环
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/java"
-              text: "定价"
+              text: "價錢"
 
     right:
         link_download: "https://downloads.groupdocs.com/comparison"
@@ -56,50 +55,50 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "关于 GroupDocs.Comparison for Java API"
+    title: "關於 GroupDocs.Comparison for Java API"
     content: |
-        使用 [GroupDocs.Comparison for Java](/zh/comparison/java/) API 为您的 Java 应用程序提供图像和文档比较功能。它可以帮助您识别段落、单词、字符、形状之间的差异，甚至是相同格式的比较文档的文本样式，允许合并更改并导出到最终文档。它支持比较和合并各种文档，包括 PDF、Word、Excel 工作表、PowerPoint 演示文稿、Visio 图表、Outlook 电子邮件、HTML、绘图和图像文件格式，而无需使用任何外部库。
+        使用 [GroupDocs.Comparison for Java](/comparison/java/) API 為您的 Java 應用程序提供圖像和文檔比較功能。它可以幫助您識別相同格式的比較文檔的段落、單詞、字符、形狀甚至文本樣式之間的差異，允許合併更改並導出到最終文檔。它支持比較和合併各種文檔，包括 PDF、Word、Excel 工作表、PowerPoint 演示文稿、Visio 圖表、Outlook 電子郵件、HTML、繪圖和圖像文件格式，而無需使用任何外部庫。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "在 Java 中比较 XLS 文件的步骤"
+    title_left: "在 Java 中比較 XLS 文件的步驟"
     content_left: |
-        [GroupDocs.Comparison](/comparison/java/) 使 Java 开发人员可以使用几行代码轻松比较其应用程序中的 XLS 文件。
-        *   使用源文档路径或流实例化 **Comparer** 对象。
-        * 调用add方法并指定目标文档路径或流。
-        * 调用比较方法。
-    title_right: "系统要求"
+        [GroupDocs.Comparison](/comparison/java/) 使 Java 開發人員可以使用幾行代碼輕鬆比較應用程序中的 XLS 文件。
+        * 使用源文檔路徑或流實例化 **Comparer** 對象。
+        * 調用add方法並指定目標文檔路徑或流。
+        * 調用比較方法。
+    title_right: "系統要求"
     content_right: |
-        所有主要平台和操作系统都支持 Java API 的 GroupDocs.Comparison。在执行下面的代码之前，请确保您的系统上安装了以下先决条件。
-        *   操作系统：Microsoft Windows、Linux、MacOS
-        * 开发环境：NetBeans、Intellij IDEA、Eclipse等
-        * Java运行环境：J2SE 6.0及以上
-        * 从 [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison) 获取最新版本的 GroupDocs.Comparison for Java
+        所有主要平台和操作系統均支持 GroupDocs.Comparison for Java API。在執行下面的代碼之前，請確保您的系統上安裝了以下先決條件。
+        * 操作系統：Microsoft Windows、Linux、MacOS
+        * 開發環境：NetBeans, Intellij IDEA, Eclipse etc
+        * Java運行環境：J2SE 6.0及以上
+        * 從 [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison) 獲取最新版本的 GroupDocs.Comparison for Java
     code: |
         ```java
-        // 比较本地文件中的文档
+        // 比較本地文件中的文檔
         
         try (Comparer comparer = new Comparer("C:\\source.xls")) {
             comparer.add("C:\\target.xls");
-            comparer.compare("C:\\result.xls"); // 创建指定名称的结果文件
+            comparer.compare("C:\\result.xls"); // 創建指定名稱的結果文件
         }
         
-        // 比较流中的文档
+        // 比較流中的文檔
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.xls"))) {
             comparer.add(new FileInputStream("C:\\target.xls"));
-            comparer.compare(new FileOutputStream("C:\\result.xls")); // 创建指定名称的结果文件
+            comparer.compare(new FileOutputStream("C:\\result.xls")); // 創建指定名稱的結果文件
         }
         ```
 
 ############################# Demos ############################
 demos:
     enable: true
-    title: "比较 XLS 文件的现场演示"
+    title: "比較 XLS 文件的現場演示"
     content: |
-        立即访问 [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) 网站比较 XLS 文件。
-        现场演示有以下好处
+        立即訪問 [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) 網站比較 XLS 文件。
+        現場演示有以下好處
 
 ############################# About Formats ############################
 about_formats:
@@ -107,17 +106,17 @@ about_formats:
     format:
         # format loop
         - icon: "far fa-file-xls"
-          title: "关于 XLS 文件格式"
+          title: "關於 XLS 文件格式"
           content: |
-            带有 XLS 扩展名的文件代表 Excel 二进制文件格式。此类文件可以由 Microsoft Excel 以及其他类似的电子表格程序（例如 OpenOffice Calc 或 Apple Numbers）创建。 Excel 保存的文件称为工作簿，其中每个工作簿可以有一个或多个工作表。数据在工作表中以表格格式存储和显示给用户，可以跨越数值、文本数据、公式、外部数据连接、图像和图表。 Microsoft Excel 等应用程序允许您将工作簿数据导出为多种不同的格式，包括 PDF、CSV、XLSX、TXT、HTML、XPS 等。随着 Microsoft Excel 2007 的发布，XLS 文件格式被更开放和结构化的格式 XLSX 所取代。最新版本仍然支持创建和读取 XLS 文件，尽管 XLSX 是现在使用的首选。
+            帶有 XLS 擴展名的文件代表 Excel 二進製文件格式。此類文件可以由 Microsoft Excel 以及其他類似的電子表格程序（例如 OpenOffice Calc 或 Apple Numbers）創建。 Excel保存的文件稱為工作簿，每個工作簿可以有一個或多個工作表。數據以工作表中的表格格式存儲並顯示給用戶，可以涵蓋數值、文本數據、公式、外部數據連接、圖像和圖表。 Microsoft Excel 等應用程序可讓您將工作簿數據導出為多種不同的格式，包括 PDF、CSV、XLSX、TXT、HTML、XPS 等。隨著 Microsoft Excel 2007 的發布，XLS 文件格式被更開放和結構化的格式 XLSX 所取代。最新版本仍然支持創建和讀取 XLS 文件，儘管 XLSX 是現在的首選。
           link: "https://docs.fileformat.com/image/xls/"
 
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "比较其他文件格式"
+    title: "比較其他文件格式"
     content: |
-        用于 Java 的多格式图像和文档比较 API。在没有任何外部软件的情况下比较以下一些流行的文件格式。
+        適用於 Java 的多格式圖像和文檔比較 API。無需任何外部軟件即可比較以下一些流行的文件格式。
     format: 
         # format loop
         - name: "Compare PDF Files"
@@ -367,7 +366,7 @@ more_formats:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison 為其他流行的開發環境提供文檔查看 API"
 
     solution:
         # solution loop

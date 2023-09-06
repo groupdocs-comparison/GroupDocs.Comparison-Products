@@ -1,16 +1,15 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2022-07-07T12:44:18+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "API Perbandingan MOBI Java - Bandingkan File MOBI untuk Perbedaan"
-head_description: "Bandingkan dan gabungkan file MOBI di aplikasi Java, J2EE, J2SE. Analisis perbedaan ringkasan dalam konten, teks & gaya file MOBI, gambar, dan format dokumen."
+head_title: "API Perbandingan Java MOBI - Bandingkan File MOBI untuk Mengetahui Perbedaannya"
+head_description: "Bandingkan dan gabungkan file MOBI dalam aplikasi Java, J2EE, J2SE. Analisis ringkasan perbedaan dalam konten, teks & gaya file MOBI, gambar dan format dokumen."
 
 ############################# Header ############################
-title: "Bandingkan File MOBI di Jawa"
+title: "Bandingkan File MOBI di Java"
 description: "Lakukan perbandingan baris demi baris antara lebih dari dua file MOBI di Java. Ambil daftar perbedaan dan simpan file yang dibandingkan ke satu dokumen."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -56,50 +55,50 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Tentang GroupDocs.Perbandingan untuk Java API"
+    title: "Tentang API GroupDocs.Comparison for Java"
     content: |
-        Berdayakan aplikasi Java Anda dengan fitur perbandingan gambar dan dokumen menggunakan [GroupDocs.Comparison for Java](/id/comparison/java/) API. Ini membantu Anda mengidentifikasi perbedaan dalam paragraf, kata, karakter, bentuk, bahkan gaya teks dari dokumen yang dibandingkan dengan format yang sama, memungkinkan penggabungan perubahan dan ekspor ke dokumen akhir. Mendukung membandingkan dan menggabungkan berbagai dokumen termasuk PDF, Word, lembar kerja Excel, presentasi PowerPoint, diagram Visio, email Outlook, HTML, gambar dan format file gambar tanpa menggunakan perpustakaan eksternal.
+        Berdayakan aplikasi Java Anda dengan fitur perbandingan gambar dan dokumen menggunakan [GroupDocs.Comparison for Java](/comparison/java/) API. Ini membantu Anda mengidentifikasi perbedaan dalam paragraf, kata, karakter, bentuk, bahkan gaya teks dari dokumen yang dibandingkan dalam format yang sama, memungkinkan penggabungan perubahan dan ekspor ke dokumen akhir. Ini mendukung perbandingan dan penggabungan berbagai dokumen termasuk PDF, Word, lembar kerja Excel, presentasi PowerPoint, diagram Visio, email Outlook, HTML, gambar dan format file gambar tanpa menggunakan perpustakaan eksternal apa pun.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Langkah-langkah untuk Membandingkan File MOBI di Java"
+    title_left: "Langkah-langkah Membandingkan File MOBI di Java"
     content_left: |
-        [GroupDocs.Comparison](/id/comparison/java/) memudahkan pengembang Java untuk membandingkan file MOBI dalam aplikasi mereka menggunakan beberapa baris kode.
-        
-        * Buat instance objek **Comparer** dengan jalur atau aliran dokumen sumber.
-        * Panggil metode tambah dan tentukan jalur atau aliran dokumen target.
-        * Metode bandingkan panggilan.
+        [GroupDocs.Comparison](/comparison/java/) memudahkan pengembang Java untuk membandingkan file MOBI dalam aplikasi mereka menggunakan beberapa baris kode.
+        * Buat instance objek **Pembanding** dengan jalur atau aliran dokumen sumber.
+        * Panggil metode penambahan dan tentukan jalur atau aliran dokumen target.
+        * Metode perbandingan panggilan.
     title_right: "Persyaratan sistem"
     content_right: |
-        GroupDocs.Comparison untuk Java API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
-        *   Sistem Operasi: Microsoft Windows, Linux, MacOS
-        * Lingkungan Pengembangan: NetBeans, Intellij IDEA, Eclipse dll
+        GroupDocs.Comparison for Java API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
+        * Sistem Operasi: Microsoft Windows, Linux, MacOS
+        * Lingkungan Pengembangan: NetBeans, Intellij IDEA, Eclipse etc
         * Lingkungan Runtime Java: J2SE 6.0 dan yang lebih baru
-        * Dapatkan versi terbaru GroupDocs.Comparison untuk Java dari [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
+        * Dapatkan versi terbaru GroupDocs.Comparison for Java dari [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
     code: |
         ```java
         // Bandingkan dokumen dari file lokal
         
         try (Comparer comparer = new Comparer("C:\\source.mobi")) {
             comparer.add("C:\\target.mobi");
-            comparer.compare("C:\\result.mobi");
+            comparer.compare("C:\\result.mobi"); // Buat file hasil dengan nama yang ditentukan
         }
         
         // Bandingkan dokumen dari aliran
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.mobi"))) {
             comparer.add(new FileInputStream("C:\\target.mobi"));
-            comparer.compare(new FileOutputStream("C:\\result.mobi"));
+            comparer.compare(new FileOutputStream("C:\\result.mobi")); // Buat file hasil dengan nama yang ditentukan
         }
         ```
 
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Demo Langsung untuk Membandingkan MOBI File"
+    title: "Demo Langsung untuk Membandingkan File MOBI"
     content: |
-        Bandingkan file MOBI sekarang dengan mengunjungi situs web [GroupDocs.Comparison](https://products.groupdocs.app/comparison/family). Demo langsung memiliki manfaat sebagai berikut.
+        Bandingkan file MOBI sekarang dengan mengunjungi situs web [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family).
+        Demo langsung memiliki manfaat sebagai berikut
 
 ############################# About Formats ############################
 about_formats:
@@ -107,222 +106,267 @@ about_formats:
     format:
         # format loop
         - icon: "far fa-file-mobi"
-          title: "Tentang Format Berkas MOBI"
+          title: "Tentang Format File MOBI"
           content: |
-            Format file MOBI adalah salah satu format file ebook yang paling banyak digunakan. Format ini merupakan penyempurnaan dari format lama OEB (Open Ebook Format) dan digunakan sebagai format eksklusif untuk Mobipocket Reader. Seperti EPUB, didukung oleh hampir semua e-reader modern khususnya perangkat seluler dengan bandwidth rendah. Format dapat dikonversi ke beberapa format lain seperti PDF, EPUB dan beberapa format lain menggunakan aplikasi perangkat lunak yang tersedia untuk umum seperti aplikasi Kindle. Ada beberapa perusahaan yang menawarkan buku MOBI gratis seperti Project Gutenberg, Feedbooks, dan Open Library.
+            Format file MOBI merupakan salah satu format file ebook yang paling banyak digunakan. Format ini merupakan penyempurnaan dari format OEB (Open Ebook Format) lama dan digunakan sebagai format kepemilikan untuk Mobipocket Reader. Seperti EPUB, ini didukung oleh hampir semua e-reader modern khususnya pada perangkat seluler dengan bandwidth rendah. Format tersebut dapat dikonversi ke beberapa format lain seperti PDF, EPUB dan beberapa format lainnya menggunakan aplikasi perangkat lunak yang tersedia untuk umum seperti aplikasi Kindle. Ada beberapa perusahaan yang menawarkan buku MOBI gratis seperti Project Gutenberg, Feedbooks, dan Open Library.
           link: "https://docs.fileformat.com/image/mobi/"
 
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Bandingkan Format File Lain"
+    title: "Bandingkan Format File Lainnya"
     content: |
         API perbandingan gambar & dokumen multi format untuk Java. Bandingkan beberapa format file populer di bawah ini tanpa perangkat lunak eksternal apa pun.
     format: 
-        - name: "Bandingkan File PDF"
-          link: "/comparison/java/pdf/"
-          description: "Format Dokumen Portabel Adobe"
+        # format loop
+        - name: "Compare PDF Files"
+          link: "https://products.groupdocs.com/comparison/java/pdf/"
+          description: "Adobe Portable Document Format"
 
-        - name: "Bandingkan File DOC"
-          link: "/comparison/java/doc/"
-          description: "Dokumen Microsoft Word"
+        # format loop
+        - name: "Compare DOC Files"
+          link: "https://products.groupdocs.com/comparison/java/doc/"
+          description: "Microsoft Word Document"
 
-        - name: "Bandingkan File DOCM"
-          link: "/comparison/java/docm/"
-          description: "Dokumen Berkemampuan Makro Microsoft Word"
+        # format loop
+        - name: "Compare DOCM Files"
+          link: "https://products.groupdocs.com/comparison/java/docm/"
+          description: "Microsoft Word Macro-Enabled Document"
 
-        - name: "Bandingkan File DOCX"
-          link: "/comparison/java/docx/"
-          description: "Microsoft Word Buka Dokumen XML"
+        # format loop
+        - name: "Compare DOCX Files"
+          link: "https://products.groupdocs.com/comparison/java/docx/"
+          description: "Microsoft Word Open XML Document"
 
-        - name: "Bandingkan File DOT"
-          link: "/comparison/java/dot/"
-          description: "Templat Dokumen Microsoft Word"
+        # format loop
+        - name: "Compare DOT Files"
+          link: "https://products.groupdocs.com/comparison/java/dot/"
+          description: "Microsoft Word Document Template"
 
-        - name: "Bandingkan File DOTM"
-          link: "/comparison/java/dotm/"
-          description: "Templat Microsoft Word Macro-Enabled"
+        # format loop
+        - name: "Compare DOTM Files"
+          link: "https://products.groupdocs.com/comparison/java/dotm/"
+          description: "Microsoft Word Macro-Enabled Template"
 
-        - name: "Bandingkan File DOTX"
-          link: "/comparison/java/dotx/"
-          description: "Templat Dokumen XML Word Terbuka"
+        # format loop
+        - name: "Compare DOTX Files"
+          link: "https://products.groupdocs.com/comparison/java/dotx/"
+          description: "Word Open XML Document Template"
 
-        - name: "Bandingkan File RTF"
-          link: "/comparison/java/rtf/"
-          description: "Format File Teks Kaya"
+        # format loop
+        - name: "Compare RTF Files"
+          link: "https://products.groupdocs.com/comparison/java/rtf/"
+          description: "Rich Text File Format"
 
-        - name: "Bandingkan File TXT"
-          link: "/comparison/java/txt/"
-          description: "Format File Teks Biasa"
+        # format loop
+        - name: "Compare TXT Files"
+          link: "https://products.groupdocs.com/comparison/java/txt/"
+          description: "Plain Text File Format"
 
-        - name: "Bandingkan File XLS"
-          link: "/comparison/java/xls/"
-          description: "Format File Biner Microsoft Excel"
+        # format loop
+        - name: "Compare XLS Files"
+          link: "https://products.groupdocs.com/comparison/java/xls/"
+          description: "Microsoft Excel Binary File Format"
 
-        - name: "Bandingkan File XLSX"
-          link: "/comparison/java/xlsx/"
-          description: "Microsoft Excel Buka XML Spreadsheet"
+        # format loop
+        - name: "Compare XLSX Files"
+          link: "https://products.groupdocs.com/comparison/java/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
 
-        - name: "Bandingkan File XLTM"
-          link: "/comparison/java/xltm/"
-          description: "Templat berkemampuan makro Microsoft Excel"
+        # format loop
+        - name: "Compare XLTM Files"
+          link: "https://products.groupdocs.com/comparison/java/xltm/"
+          description: "Microsoft Excel macro-enabled template"
 
-        - name: "Bandingkan File XLSM"
-          link: "/comparison/java/xlsm/"
-          description: "Spreadsheet Berkemampuan Makro Microsoft Excel"
+        # format loop
+        - name: "Compare XLSM Files"
+          link: "https://products.groupdocs.com/comparison/java/xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
-        - name: "Bandingkan File XLSB"
-          link: "/comparison/java/xlsb/"
-          description: "File Spreadsheet Biner Microsoft Excel"
+        # format loop
+        - name: "Compare XLSB Files"
+          link: "https://products.groupdocs.com/comparison/java/xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
 
-        - name: "Bandingkan File CSV"
-          link: "/comparison/java/csv/"
-          description: "File Nilai Dipisahkan Koma"
+        # format loop
+        - name: "Compare CSV Files"
+          link: "https://products.groupdocs.com/comparison/java/csv/"
+          description: "Comma Separated Values File"
 
-        - name: "Bandingkan File PPT"
-          link: "/comparison/java/ppt/"
-          description: "Presentasi powerpoint"
+        # format loop
+        - name: "Compare PPT Files"
+          link: "https://products.groupdocs.com/comparison/java/ppt/"
+          description: "PowerPoint Presentation"
 
-        - name: "Bandingkan File PPS"
-          link: "/comparison/java/pps/"
-          description: "Pertunjukan Slide Microsoft PowerPoint"
+        # format loop
+        - name: "Compare PPS Files"
+          link: "https://products.groupdocs.com/comparison/java/pps/"
+          description: "Microsoft PowerPoint Slide Show"
 
-        - name: "Bandingkan File PPTX"
-          link: "/comparison/java/pptx/"
-          description: "Presentasi PowerPoint Terbuka XML"
+        # format loop
+        - name: "Compare PPTX Files"
+          link: "https://products.groupdocs.com/comparison/java/pptx/"
+          description: "PowerPoint Open XML Presentation"
 
-        - name: "Bandingkan File PPSX"
-          link: "/comparison/java/ppsx/"
-          description: "PowerPoint Terbuka XML Slide Show"
+        # format loop
+        - name: "Compare PPSX Files"
+          link: "https://products.groupdocs.com/comparison/java/ppsx/"
+          description: "PowerPoint Open XML Slide Show"
 
-        - name: "Bandingkan File POT"
-          link: "/comparison/java/pot/"
-          description: "Templat Microsoft PowerPoint"
+        # format loop
+        - name: "Compare POT Files"
+          link: "https://products.groupdocs.com/comparison/java/pot/"
+          description: "Microsoft PowerPoint template"
 
-        - name: "Bandingkan File POTX"
-          link: "/comparison/java/potx/"
-          description: "Templat XML Terbuka Microsoft PowerPoint"
+        # format loop
+        - name: "Compare POTX Files"
+          link: "https://products.groupdocs.com/comparison/java/potx/"
+          description: "Microsoft PowerPoint Open XML Template"
 
-        - name: "Bandingkan File ODS"
-          link: "/comparison/java/ods/"
-          description: "Buka Spreadsheet Dokumen"
+        # format loop
+        - name: "Compare ODS Files"
+          link: "https://products.groupdocs.com/comparison/java/ods/"
+          description: "Open Document Spreadsheet"
 
-        - name: "Bandingkan File ODP"
-          link: "/comparison/java/odp/"
-          description: "Format File Presentasi OpenDocument"
+        # format loop
+        - name: "Compare ODP Files"
+          link: "https://products.groupdocs.com/comparison/java/odp/"
+          description: "OpenDocument Presentation File Format"
 
-        - name: "Bandingkan File OTP"
-          link: "/comparison/java/otp/"
-          description: "Templat Grafik Asal"
+        # format loop
+        - name: "Compare OTP Files"
+          link: "https://products.groupdocs.com/comparison/java/otp/"
+          description: "Origin Graph Template"
 
-        - name: "Bandingkan File ODT"
-          link: "/comparison/java/odt/"
-          description: "Buka Teks Dokumen"
+        # format loop
+        - name: "Compare ODT Files"
+          link: "https://products.groupdocs.com/comparison/java/odt/"
+          description: "Open Document Text"
 
-        - name: "Bandingkan File OTT"
-          link: "/comparison/java/ott/"
-          description: "Buka Templat Dokumen"
+        # format loop
+        - name: "Compare OTT Files"
+          link: "https://products.groupdocs.com/comparison/java/ott/"
+          description: "Open Document Template"
 
-        - name: "Bandingkan File VST"
-          link: "/comparison/java/vst/"
-          description: "Gambar XML Microsoft Visio 2003-2010"
+        # format loop
+        - name: "Compare VST Files"
+          link: "https://products.groupdocs.com/comparison/java/vst/"
+          description: "Microsoft Visio 2003-2010 XML Drawing"
 
-        - name: "Bandingkan File TIFF"
-          link: "/comparison/java/tiff/"
-          description: "Format File Gambar yang Ditandai"
+        # format loop
+        - name: "Compare JPEG Files"
+          link: "https://products.groupdocs.com/comparison/java/jpeg/"
+          description: "JPEG Image"
 
-        - name: "Bandingkan File JPEG"
-          link: "/comparison/java/jpeg/"
-          description: "Gambar JPEG"
+        # format loop
+        - name: "Compare PNG Files"
+          link: "https://products.groupdocs.com/comparison/java/png/"
+          description: "Portable Network Graphic"
 
-        - name: "Bandingkan File PNG"
-          link: "/comparison/java/png/"
-          description: "Grafik Jaringan Portabel"
+        # format loop
+        - name: "Compare GIF Files"
+          link: "https://products.groupdocs.com/comparison/java/gif/"
+          description: "Graphical Interchange Format File"
 
-        - name: "Bandingkan File GIF"
-          link: "/comparison/java/gif/"
-          description: "File Format Pertukaran Grafis"
+        # format loop
+        - name: "Compare BMP Files"
+          link: "https://products.groupdocs.com/comparison/java/bmp/"
+          description: "Bitmap File Format"
 
-        - name: "Bandingkan File BMP"
-          link: "/comparison/java/bmp/"
-          description: "Format File Bitmap"
-
-        - name: "Bandingkan File HTML"
-          link: "/comparison/java/html/"
+        # format loop
+        - name: "Compare HTML Files"
+          link: "https://products.groupdocs.com/comparison/java/html/"
           description: "Hyper Text Markup Language"
 
-        - name: "Bandingkan File MHT"
-          link: "/comparison/java/mht/"
+        # format loop
+        - name: "Compare MHT Files"
+          link: "https://products.groupdocs.com/comparison/java/mht/"
           description: "Mime HTML"
 
-        - name: "Bandingkan File MHTML"
-          link: "/comparison/java/mhtml/"
-          description: "Enkapsulasi MIME dari HTML Agregat"
+        # format loop
+        - name: "Compare MHTML Files"
+          link: "https://products.groupdocs.com/comparison/java/mhtml/"
+          description: "MIME Encapsulation of Aggregate HTML"
 
-        - name: "Bandingkan File MSG"
-          link: "/comparison/java/msg/"
-          description: "Pesan Email Microsoft Outlook"
+        # format loop
+        - name: "Compare MSG Files"
+          link: "https://products.groupdocs.com/comparison/java/msg/"
+          description: "Microsoft Outlook E-mail Message"
 
-        - name: "Bandingkan File EML"
-          link: "/comparison/java/eml/"
-          description: "Pesan email"
+        # format loop
+        - name: "Compare EML Files"
+          link: "https://products.groupdocs.com/comparison/java/eml/"
+          description: "E-mail Message"
 
-        - name: "Bandingkan File EMLX"
-          link: "/comparison/java/emlx/"
-          description: "File Email Apple Mail"
+        # format loop
+        - name: "Compare EMLX Files"
+          link: "https://products.groupdocs.com/comparison/java/emlx/"
+          description: "Apple Mail E-mail File"
 
-        - name: "Bandingkan SATU File"
-          link: "/comparison/java/one/"
+        # format loop
+        - name: "Compare ONE Files"
+          link: "https://products.groupdocs.com/comparison/java/one/"
           description: "Microsoft OneNote"
 
-        - name: "Bandingkan File VSD"
-          link: "/comparison/java/vsd/"
-          description: "Gambar Microsoft Visio 2003-2010"
+        # format loop
+        - name: "Compare VSD Files"
+          link: "https://products.groupdocs.com/comparison/java/vsd/"
+          description: "Microsoft Visio 2003-2010 Drawing"
 
-        - name: "Bandingkan File VSDX"
-          link: "/comparison/java/vsdx/"
-          description: "Gambar Microsoft Visio"
+        # format loop
+        - name: "Compare VSDX Files"
+          link: "https://products.groupdocs.com/comparison/java/vsdx/"
+          description: "Microsoft Visio Drawing"
 
-        - name: "Bandingkan File VSS"
-          link: "/comparison/java/vss/"
-          description: "Microsoft Visio 2003-2010 Stensil"
+        # format loop
+        - name: "Compare VSS Files"
+          link: "https://products.groupdocs.com/comparison/java/vss/"
+          description: "Microsoft Visio 2003-2010 Stencil"
 
-        - name: "Bandingkan File VST"
-          link: "/comparison/java/vst/"
-          description: "Templat Microsoft Visio 2003-2010"
+        # format loop
+        - name: "Compare VST Files"
+          link: "https://products.groupdocs.com/comparison/java/vst/"
+          description: "Microsoft Visio 2003-2010 Template"
 
-        - name: "Bandingkan File VDX"
-          link: "/comparison/java/vdx/"
-          description: "Gambar XML Microsoft Visio 2003-2010"
+        # format loop
+        - name: "Compare VDX Files"
+          link: "https://products.groupdocs.com/comparison/java/vdx/"
+          description: "Microsoft Visio 2003-2010 XML Drawing"
 
-        - name: "Bandingkan File CS"
-          link: "/comparison/java/cs/"
-          description: "Bahasa CSharp"
+        # format loop
+        - name: "Compare CS Files"
+          link: "https://products.groupdocs.com/comparison/java/cs/"
+          description: "CSharp Language"
 
-        - name: "Bandingkan File Java"
-          link: "/comparison/java/java/"
-          description: "bahasa jawa"
+        # format loop
+        - name: "Compare Java Files"
+          link: "https://products.groupdocs.com/comparison/java/java/"
+          description: "Java Language"
 
-        - name: "Bandingkan File CPP"
-          link: "/comparison/java/cpp/"
-          description: "Bahasa C++"
+        # format loop
+        - name: "Compare CPP Files"
+          link: "https://products.groupdocs.com/comparison/java/cpp/"
+          description: "C++ Language"
 
-        - name: "Bandingkan File JS"
-          link: "/comparison/java/js/"
-          description: "Bahasa JavaScript"
+        # format loop
+        - name: "Compare JS Files"
+          link: "https://products.groupdocs.com/comparison/java/js/"
+          description: "JavaScript Language"
 
-        - name: "Bandingkan File PY"
-          link: "/comparison/java/py/"
-          description: "Bahasa Python"
+        # format loop
+        - name: "Compare PY Files"
+          link: "https://products.groupdocs.com/comparison/java/py/"
+          description: "Python Language"
 
-        - name: "Bandingkan File RB"
-          link: "/comparison/java/rb/"
-          description: "Bahasa Ruby"
+        # format loop
+        - name: "Compare RB Files"
+          link: "https://products.groupdocs.com/comparison/java/rb/"
+          description: "Ruby Language"
 
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison menawarkan API tampilan dokumen untuk lingkungan pengembangan populer lainnya"
 
     solution:
         # solution loop

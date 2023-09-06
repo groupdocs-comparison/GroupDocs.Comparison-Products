@@ -1,4 +1,3 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -6,7 +5,7 @@ date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "Java GIF Vergleichs-API – Vergleichen Sie GIF-Dateien auf Unterschiede"
+head_title: "Java GIF-Vergleichs-API – Vergleichen Sie GIF-Dateien auf Unterschiede"
 head_description: "Vergleichen und führen Sie GIF-Dateien in Java-, J2EE- und J2SE-Anwendungen zusammen. Analysieren Sie eine Zusammenfassung der Unterschiede in Inhalt, Text und Stil von GIF-Dateien, Bildern und Dokumentformaten."
 
 ############################# Header ############################
@@ -25,28 +24,28 @@ submenu:
     enable: true
 
     left:
-        img_alt: "GroupDocs.Comparison für Java"
+        img_alt: "GroupDocs.Comparison for Java"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-java.png"
         product: "GroupDocs.Comparison"
         platform: "Java"
 
     middle:
         button: 
-            #-Tastenschleife
+            # button loop
             - link: "https://apireference.groupdocs.com/comparison/java"
               text: "API-Referenz"
 
-            #-Tastenschleife
+            # button loop
             - link: "https://github.com/groupdocs-comparison"
               text: "Codebeispiele"
 
-            #-Tastenschleife
+            # button loop
             - link: "https://products.groupdocs.app/comparison/family"
               text: "Live-Demos"
 
-            #-Tastenschleife
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/java"
-              text: "Preise"
+              text: "Preisgestaltung"
 
     right:
         link_download: "https://downloads.groupdocs.com/comparison"
@@ -56,37 +55,36 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Über GroupDocs.Comparison für Java API"
+    title: "Informationen zur GroupDocs.Comparison for Java-API"
     content: |
-        Erweitern Sie Ihre Java-Anwendungen mit Funktionen zum Vergleichen von Bildern und Dokumenten mithilfe der API [GroupDocs.Comparison for Java](/de/comparison/java/). Es hilft Ihnen, die Unterschiede innerhalb von Absätzen, Wörtern, Zeichen, Formen und sogar den Textstilen der verglichenen Dokumente desselben Formats zu erkennen, ermöglicht das Zusammenführen der Änderungen und den Export in ein endgültiges Dokument. Es unterstützt den Vergleich und das Zusammenführen einer Vielzahl von Dokumenten, darunter PDF-, Word-, Excel-Arbeitsblätter, PowerPoint-Präsentationen, Visio-Diagramme, Outlook-E-Mails, HTML, Zeichnungen und Bilddateiformate, ohne dass eine externe Bibliothek verwendet werden muss.
+        Stärken Sie Ihre Java-Anwendungen mit Funktionen zum Vergleichen von Bildern und Dokumenten mithilfe der API [GroupDocs.Comparison for Java](/comparison/java/). Es hilft Ihnen, die Unterschiede innerhalb von Absätzen, Wörtern, Zeichen, Formen und sogar den Textstilen der verglichenen Dokumente desselben Formats zu erkennen, ermöglicht das Zusammenführen der Änderungen und den Export in ein endgültiges Dokument. Es unterstützt den Vergleich und das Zusammenführen einer Vielzahl von Dokumenten, darunter PDF-, Word-, Excel-Arbeitsblätter, PowerPoint-Präsentationen, Visio-Diagramme, Outlook-E-Mails, HTML, Zeichnungen und Bilddateiformate, ohne dass eine externe Bibliothek verwendet werden muss.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Schritte zum Vergleichen von GIF-Dateien in Java"
     content_left: |
-        [GroupDocs.Comparison](/comparison/java/) erleichtert Java-Entwicklern den Vergleich von GIF-Dateien in ihren Anwendungen mithilfe weniger Codezeilen.
-        
-        *   Instanziieren Sie das **Comparer**-Objekt mit dem Pfad oder Stream des Quelldokuments.
-        *   Rufen Sie die Add-Methode auf und geben Sie den Pfad oder Stream des Zieldokuments an.
-        *   Vergleichsmethode aufrufen.
+        [GroupDocs.Comparison](/comparison/java/) erleichtert Java-Entwicklern den Vergleich von GIF-Dateien in ihren Anwendungen mit nur wenigen Codezeilen.
+        * Instanziieren Sie das **Comparer**-Objekt mit dem Pfad oder Stream des Quelldokuments.
+        * Rufen Sie die Add-Methode auf und geben Sie den Pfad oder Stream des Zieldokuments an.
+        * Vergleichsmethode aufrufen.
     title_right: "System Anforderungen"
     content_right: |
-        GroupDocs.Comparison für Java-APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.
-        *   Betriebssysteme: Microsoft Windows, Linux, MacOS
-        *   Entwicklungsumgebung: NetBeans, Intellij IDEA, Eclipse usw
-        *   Java Runtime Environment: J2SE 6.0 und höher
-        *   Holen Sie sich die neueste Version von GroupDocs.Comparison für Java von [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
+        GroupDocs.Comparison for Java APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.
+        * Betriebssysteme: Microsoft Windows, Linux, MacOS
+        * Entwicklungsumgebungen: NetBeans, Intellij IDEA, Eclipse etc
+        * Java Runtime Environment: J2SE 6.0 und höher
+        * Holen Sie sich die neueste Version von GroupDocs.Comparison for Java von [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
     code: |
         ```java
-        // Dokumente aus lokaler Datei vergleichen
+        // Vergleichen Sie Dokumente aus einer lokalen Datei
         
         try (Comparer comparer = new Comparer("C:\\source.gif")) {
             comparer.add("C:\\target.gif");
             comparer.compare("C:\\result.gif"); // Ergebnisdatei mit dem angegebenen Namen erstellen
         }
         
-        // Dokumente aus Stream vergleichen
+        // Vergleichen Sie Dokumente aus dem Stream
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.gif"))) {
             comparer.add(new FileInputStream("C:\\target.gif"));
@@ -108,7 +106,7 @@ about_formats:
     format:
         # format loop
         - icon: "far fa-file-gif"
-          title: "Informationen zum GIF-Dateiformat"
+          title: "Informationen zum Dateiformat GIF"
           content: |
             Ein GIF oder Graphical Interchange Format ist eine Art stark komprimiertes Bild. GIF gehört Unisys und verwendet den LZW-Komprimierungsalgorithmus, der die Bildqualität nicht beeinträchtigt. Für jedes GIF-Bild sind normalerweise bis zu 8 Bit pro Pixel und bis zu 256 Farben im gesamten Bild zulässig. Im Gegensatz zu einem JPEG-Bild, das bis zu 16 Millionen Farben darstellen kann und ziemlich an die Grenzen des menschlichen Auges stößt. Als das Internet aufkam, blieben GIFs die beste Wahl, da sie eine geringe Bandbreite erforderten und mit Grafiken kompatibel waren, die einfarbige Farbbereiche verbrauchen. Ein animiertes GIF kombiniert zahlreiche Bilder oder Frames in einer einzigen Datei und zeigt sie in einer Reihenfolge an, um einen animierten Clip oder ein kurzes Video zu erstellen. Die Farbbeschränkungen liegen bei bis zu 256 pro Bild und dürften für die Wiedergabe anderer Bilder und Fotos mit Farbverlauf am wenigsten geeignet sein.
           link: "https://docs.fileformat.com/image/gif/"
@@ -368,7 +366,7 @@ more_formats:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison bietet APIs zum Anzeigen von Dokumenten für andere gängige Entwicklungsumgebungen"
 
     solution:
         # solution loop

@@ -1,4 +1,3 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -6,18 +5,18 @@ date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "Java HTML 比较 API - 比较 HTML 文件的差异"
-head_description: "比较和合并 Java、J2EE、J2SE 应用程序中的 HTML 文件。分析 HTML 文件、图像和文档格式在内容、文本和样式方面的差异摘要。"
+head_title: "Java HTML 比較 API - 比較 HTML 文件的差異"
+head_description: "比較並合併 Java、J2EE、J2SE 應用程序中的 HTML 文件。分析 HTML 文件、圖像和文檔格式的內容、文本和風格的差異摘要。"
 
 ############################# Header ############################
-title: "在Java中比较HTML文件"
-description: "在 Java 中对两个以上的 HTML 文件进行逐行比较。检索差异列表并将比较的文件保存到单个文档中。"
+title: "在 Java 中比較 HTML 文件"
+description: "在 Java 中對兩個以上的 HTML 文件進行逐行比較。檢索差異列表並將比較的文件保存到單個文檔中。"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "下载免费试用版"
+    label: "下載免費試用版"
     link: "https://downloads.groupdocs.com/comparison/java"
 
 ############################# SubMenu ############################
@@ -28,25 +27,25 @@ submenu:
         img_alt: "GroupDocs.Comparison for Java"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-java.png"
         product: "GroupDocs.Comparison"
-        platform: "爪哇"
+        platform: "Java"
 
     middle:
         button: 
-            # 按钮循环
+            # button loop
             - link: "https://apireference.groupdocs.com/comparison/java"
-              text: "API 参考"
+              text: "API參考"
 
-            # 按钮循环
+            # button loop
             - link: "https://github.com/groupdocs-comparison"
-              text: "代码示例"
+              text: "代碼示例"
 
-            # 按钮循环
+            # button loop
             - link: "https://products.groupdocs.app/comparison/family"
-              text: "现场演示"
+              text: "現場演示"
 
-            # 按钮循环
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/java"
-              text: "定价"
+              text: "價錢"
 
     right:
         link_download: "https://downloads.groupdocs.com/comparison"
@@ -56,50 +55,50 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "关于 GroupDocs.Comparison for Java API"
+    title: "關於 GroupDocs.Comparison for Java API"
     content: |
-        使用 [GroupDocs.Comparison for Java](/zh/comparison/java/) API 为您的 Java 应用程序提供图像和文档比较功能。它可以帮助您识别段落、单词、字符、形状之间的差异，甚至是相同格式的比较文档的文本样式，允许合并更改并导出到最终文档。它支持比较和合并各种文档，包括 PDF、Word、Excel 工作表、PowerPoint 演示文稿、Visio 图表、Outlook 电子邮件、HTML、绘图和图像文件格式，而无需使用任何外部库。
+        使用 [GroupDocs.Comparison for Java](/comparison/java/) API 為您的 Java 應用程序提供圖像和文檔比較功能。它可以幫助您識別相同格式的比較文檔的段落、單詞、字符、形狀甚至文本樣式之間的差異，允許合併更改並導出到最終文檔。它支持比較和合併各種文檔，包括 PDF、Word、Excel 工作表、PowerPoint 演示文稿、Visio 圖表、Outlook 電子郵件、HTML、繪圖和圖像文件格式，而無需使用任何外部庫。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "在 Java 中比较 HTML 文件的步骤"
+    title_left: "在 Java 中比較 HTML 文件的步驟"
     content_left: |
-        [GroupDocs.Comparison](/comparison/java/) 使 Java 开发人员可以使用几行代码轻松比较其应用程序中的 HTML 文件。
-        *   使用源文档路径或流实例化 **Comparer** 对象。
-        * 调用add方法并指定目标文档路径或流。
-        * 调用比较方法。
-    title_right: "系统要求"
+        [GroupDocs.Comparison](/comparison/java/) 使 Java 開發人員可以使用幾行代碼輕鬆比較應用程序中的 HTML 文件。
+        * 使用源文檔路徑或流實例化 **Comparer** 對象。
+        * 調用add方法並指定目標文檔路徑或流。
+        * 調用比較方法。
+    title_right: "系統要求"
     content_right: |
-        所有主要平台和操作系统都支持 Java API 的 GroupDocs.Comparison。在执行下面的代码之前，请确保您的系统上安装了以下先决条件。
-        *   操作系统：Microsoft Windows、Linux、MacOS
-        * 开发环境：NetBeans、Intellij IDEA、Eclipse等
-        * Java运行环境：J2SE 6.0及以上
-        * 从 [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison) 获取最新版本的 GroupDocs.Comparison for Java
+        所有主要平台和操作系統均支持 GroupDocs.Comparison for Java API。在執行下面的代碼之前，請確保您的系統上安裝了以下先決條件。
+        * 操作系統：Microsoft Windows、Linux、MacOS
+        * 開發環境：NetBeans, Intellij IDEA, Eclipse etc
+        * Java運行環境：J2SE 6.0及以上
+        * 從 [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison) 獲取最新版本的 GroupDocs.Comparison for Java
     code: |
         ```java
-        // 比较本地文件中的文档
+        // 比較本地文件中的文檔
         
         try (Comparer comparer = new Comparer("C:\\source.html")) {
             comparer.add("C:\\target.html");
-            comparer.compare("C:\\result.html"); // 创建指定名称的结果文件
+            comparer.compare("C:\\result.html"); // 創建指定名稱的結果文件
         }
         
-        // 比较流中的文档
+        // 比較流中的文檔
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.html"))) {
             comparer.add(new FileInputStream("C:\\target.html"));
-            comparer.compare(new FileOutputStream("C:\\result.html")); // 创建指定名称的结果文件
+            comparer.compare(new FileOutputStream("C:\\result.html")); // 創建指定名稱的結果文件
         }
         ```
 
 ############################# Demos ############################
 demos:
     enable: true
-    title: "比较 HTML 文件的现场演示"
+    title: "比較 HTML 文件的現場演示"
     content: |
-        立即访问 [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) 网站比较 HTML 文件。
-        现场演示有以下好处
+        立即訪問 [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) 網站比較 HTML 文件。
+        現場演示有以下好處
 
 ############################# About Formats ############################
 about_formats:
@@ -107,17 +106,17 @@ about_formats:
     format:
         # format loop
         - icon: "far fa-file-html"
-          title: "关于 HTML 文件格式"
+          title: "關於 HTML 文件格式"
           content: |
-            HTML（超文本标记语言）是为在浏览器中显示而创建的网页的扩展。 HTML 被称为网络语言，它随着新信息要求的发展而发展，以作为网页的一部分显示。最新的变体称为 HTML 5，它为使用该语言提供了很大的灵活性。 HTML 页面要么从托管这些页面的服务器接收，要么也可以从本地系统加载。每个 HTML 页面都由 HTML 元素组成，例如表单、文本、图像、动画、链接等。这些元素由 img、a、p 等标签表示，每个标签都有开始和结束。它还可以嵌入使用脚本语言（如 JavaScript 和样式表 (CSS)）编写的应用程序，用于整体布局表示。
+            HTML（超文本標記語言）是為在瀏覽器中顯示而創建的網頁的擴展。 HTML 被稱為網絡語言，隨著新信息要求作為網頁的一部分顯示的要求而發展。最新的變體被稱為 HTML 5，它為使用該語言提供了很大的靈活性。 HTML 頁面可以從託管這些頁面的服務器接收，也可以從本地系統加載。每個 HTML 頁面都由 HTML 元素組成，例如表單、文本、圖像、動畫、鏈接等。這些元素由 img、a、p 等標籤表示，其中每個標籤都有開始和結束。它還可以嵌入用 JavaScript 和样式表 (CSS) 等腳本語言編寫的應用程序，以實現整體佈局表示。
           link: "https://docs.fileformat.com/image/html/"
 
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "比较其他文件格式"
+    title: "比較其他文件格式"
     content: |
-        用于 Java 的多格式图像和文档比较 API。在没有任何外部软件的情况下比较以下一些流行的文件格式。
+        適用於 Java 的多格式圖像和文檔比較 API。無需任何外部軟件即可比較以下一些流行的文件格式。
     format: 
         # format loop
         - name: "Compare PDF Files"
@@ -367,7 +366,7 @@ more_formats:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison 為其他流行的開發環境提供文檔查看 API"
 
     solution:
         # solution loop

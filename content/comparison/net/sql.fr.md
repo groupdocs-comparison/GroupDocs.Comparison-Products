@@ -1,4 +1,3 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -7,17 +6,17 @@ draft: false
 
 ############################# Head ############################
 head_title: "Comparez deux fichiers SQL dans .NET | API de comparaison de documents"
-head_description: "Comparez et fusionnez plus de deux fichiers SQL dans des applications C# .NET. Récupérez le résumé des différences dans le contenu, le texte et le style des fichiers, images et formats de document SQL."
+head_description: "Comparez et fusionnez plus de deux fichiers SQL dans des applications C# .NET. Récupérez le résumé des différences dans le contenu, le texte et le style des fichiers, images et formats de documents SQL."
 
 ############################# Header ############################
 title: "Comparez les fichiers SQL en C# .NET"
-description: "API de comparaison de documents .NET pour détecter les changements entre deux versions de fichiers SQL et exporter vers un document final avec un résumé détaillé des différences entre les documents comparés."
+description: "API de comparaison de documents .NET pour détecter les modifications entre deux versions de fichiers SQL et exporter vers un document final avec un résumé détaillé des différences entre les documents comparés."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Télécharger la version d'essai gratuite"
+    label: "Télécharger l'essai gratuit"
     link: "https://downloads.groupdocs.com/comparison/net"
 
 ############################# SubMenu ############################
@@ -25,28 +24,28 @@ submenu:
     enable: true
 
     left:
-        img_alt: "GroupDocs.Comparison pour .NET"
+        img_alt: "GroupDocs.Comparison for .NET"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-net.png"
         product: "GroupDocs.Comparison"
-        platform: ".FILET"
+        platform: ".NET"
 
     middle:
         button: 
-            # boucle de bouton
+            # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "Référence API"
 
-            # boucle de bouton
+            # button loop
             - link: "https://github.com/groupdocs-comparison"
-              text: "Exemples de code"
+              text: "Exemples de codes"
 
-            # boucle de bouton
+            # button loop
             - link: "https://products.groupdocs.app/comparison/family"
               text: "Démos en direct"
 
-            # boucle de bouton
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/net"
-              text: "Prix"
+              text: "Tarifs"
 
     right:
         link_download: "https://downloads.groupdocs.com/comparison"
@@ -56,53 +55,53 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "À propos de GroupDocs.Comparison pour l'API .NET"
+    title: "À propos de l'API GroupDocs.Comparison for .NET"
     content: |
-        [GroupDocs.Comparison pour .NET](/fr/comparison/net/) est une API .NET native permettant de comparer plusieurs images et documents du même format. Il vous aide à détecter les différences entre les paragraphes, les mots, les caractères, les formes, même les styles de texte des documents comparés, à fusionner les modifications et à les exporter vers un document final. Il prend en charge la comparaison et la fusion de PDF, de documents Word, de feuilles de calcul Excel, de présentations PowerPoint, de diagrammes Visio, d'e-mails Outlook, de HTML, de dessins et de formats de fichiers image sans utiliser de bibliothèque externe.
+        [GroupDocs.Comparison for .NET](/comparison/net/) est une API .NET native permettant de comparer plusieurs images et documents du même format. Il vous aide à détecter les différences entre les paragraphes, les mots, les caractères, les formes et même les styles de texte des documents comparés, à fusionner les modifications et à les exporter vers un document final. Il prend en charge la comparaison et la fusion de documents PDF, Word, feuilles de calcul Excel, présentations PowerPoint, diagrammes Visio, e-mails Outlook, HTML, dessins et formats de fichiers image sans utiliser de bibliothèque externe.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Étapes pour comparer les fichiers SQL en C#"
     content_left: |
-        [GroupDocs.Comparison](/comparison/net/) permet aux développeurs .NET de comparer et de fusionner facilement plusieurs fichiers SQL dans leurs applications en mettant en œuvre quelques étapes simples.
-        *   Instanciez l'objet **Comparateur** avec le chemin ou le flux du document source.
-        *   Appelez la méthode Add et spécifiez le chemin ou le flux du document cible. Répétez cette étape pour chaque document cible.
-        *   Appelez la méthode de comparaison.
+        [GroupDocs.Comparison](/comparison/net/) permet aux développeurs .NET de comparer et de fusionner facilement plusieurs fichiers SQL dans leurs applications en implémentant quelques étapes simples.
+        * Instanciez l'objet **Comparer** avec le chemin ou le flux du document source.
+        * Appelez la méthode Add et spécifiez le chemin ou le flux du document cible. Répétez cette étape pour chaque document cible.
+        * Appelez la méthode Compare.
     title_right: "Configuration requise"
     content_right: |
-        Les API GroupDocs.Comparison pour .NET sont prises en charge sur toutes les principales plateformes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.
-        *   Systèmes d'exploitation : Microsoft Windows, Linux, MacOS
-        *   Environnements de développement : Microsoft Visual Studio, Xamarin, MonoDevelop
-        *   Frameworks : .NET Framework, .NET Standard, .NET Core, Mono
-        *   Obtenez la dernière version de GroupDocs.Comparison pour .NET téléchargée depuis [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
+        Les API GroupDocs.Comparison for .NET sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les conditions préalables suivantes sont installées sur votre système.
+        * Systèmes d'exploitation : Microsoft Windows, Linux, MacOS
+        * Environnements de développement : Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Frameworks : .NET Framework, .NET Standard, .NET Core, Mono
+        * Obtenez la dernière version de GroupDocs.Comparison for .NET téléchargée depuis [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
     code: |
         ```cs
-        // Comparer plusieurs documents à partir du disque local
+        // Comparez plusieurs documents à partir du disque local
         
         using (Comparer comparer = new Comparer("source.sql"))
         {
         	comparer.Add("target1.sql");
             comparer.Add("target2.sql");
             comparer.Add("target3.sql");
-            comparer.Compare("result.sql"); // Crée un fichier résultat avec le nom spécifié
+            comparer.Compare("result.sql"); // Créer un fichier de résultats avec le nom spécifié
         }
         
-        // Comparer plusieurs documents à partir du flux
+        // Comparer plusieurs documents du flux
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.sql")))
         {
         	comparer.Add(File.OpenRead("target1.sql"));
             comparer.Add(File.OpenRead("target2.sql"));
             comparer.Add(File.OpenRead("target3.sql"));
-            comparer.Compare(File.Create("result.sql")); // Crée un fichier résultat avec le nom spécifié
+            comparer.Compare(File.Create("result.sql")); // Créer un fichier de résultats avec le nom spécifié
         }
         ```
 
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Démonstrations en direct de la comparaison de fichiers SQL"
+    title: "Démonstrations en direct de comparaison de fichiers SQL"
     content: |
         Détectez dès maintenant les différences entre les fichiers SQL en visitant le site Web [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family).
         La démo en direct présente les avantages suivants
@@ -115,7 +114,7 @@ about_formats:
         - icon: "far fa-file-sql"
           title: "À propos du format de fichier SQL"
           content: |
-            Un fichier avec l'extension .sql est un fichier SQL (Structured Query Language) qui contient du code pour fonctionner avec des bases de données relationnelles. Il est utilisé pour écrire des instructions SQL pour les opérations CRUD (créer, lire, mettre à jour et supprimer) sur les bases de données. Les fichiers SQL sont courants lorsque vous travaillez avec des bases de données de bureau et Web. Il existe plusieurs alternatives à SQL telles que Java Persistence Query Language (JPQL), LINQ, HTSQL, 4D QL et plusieurs autres. Les fichiers SQL peuvent être ouverts par les éditeurs de requêtes de Microsoft SQL Server, MySQL et d'autres éditeurs de texte brut tels que le Bloc-notes sur le système d'exploitation Windows.
+            Un fichier avec l'extension .sql est un fichier SQL (Structured Query Language) qui contient du code permettant de travailler avec des bases de données relationnelles. Il est utilisé pour écrire des instructions SQL pour les opérations CRUD (Créer, Lire, Mettre à jour et Supprimer) sur les bases de données. Les fichiers SQL sont courants lorsque vous travaillez avec des bases de données de bureau et Web. Il existe plusieurs alternatives à SQL telles que Java Persistence Query Language (JPQL), LINQ, HTSQL, 4D QL et plusieurs autres. Les fichiers SQL peuvent être ouverts par les éditeurs de requêtes de Microsoft SQL Server, MySQL et d'autres éditeurs de texte brut tels que le Bloc-notes sur le système d'exploitation Windows.
           link: "https://docs.fileformat.com/image/sql/"
 
 ############################# More Formats ############################
@@ -123,7 +122,7 @@ more_formats:
     enable: true
     title: "Comparaison d'autres formats de fichiers"
     content: |
-        API de comparaison de documents et d'images multiformats pour .NET. Analysez les différences entre des documents d'un même format sans utiliser d'outil externe.
+        API de comparaison de documents et d'images multiformats pour .NET. Analysez les différences entre des documents de même format sans utiliser d'outil externe.
     format: 
         # format loop
         - name: "Compare PDF Files"
@@ -373,7 +372,7 @@ more_formats:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison propose des API de visualisation de documents pour d'autres environnements de développement populaires"
 
     solution:
         # solution loop

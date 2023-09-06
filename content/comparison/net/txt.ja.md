@@ -1,17 +1,16 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:11+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
-head_title: ".NETの2つのTXTファイルを比較する|ドキュメント比較API"
-head_description: "3つ以上を比較してマージします（C＃.NETアプリケーションのTXTファイル。TXTファイル、画像、ドキュメント形式のコンテンツ、テキスト、スタイルの違いの概要を取得します."
+head_title: ".NET で 2 つの TXT ファイルを比較する |ドキュメント比較 API"
+head_description: "C# .NET アプリケーションで 3 つ以上の TXT ファイルを比較およびマージします。 TXT ファイル、画像、ドキュメント形式のコンテンツ、テキスト、スタイルの相違点の概要を取得します。"
 
 ############################# Header ############################
-title: "C＃.NETでTXTファイルを比較する"
-description: ".2つのバージョンのTXTファイル間の変更を検出し、比較されたドキュメント間の違いの詳細な要約を含む最終的なドキュメントにエクスポートするためのNETドキュメント比較API."
+title: "C# .NET での TXT ファイルの比較"
+description: ".NET ドキュメント比較 API。TXT ファイルの 2 つのバージョン間の変更を検出し、比較されたドキュメント間の相違点の詳細な概要を含む最終ドキュメントにエクスポートします。"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -56,62 +55,56 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Comparison for .NET APIについて"
+    title: "GroupDocs.Comparison for .NET API について"
     content: |
-        [GroupDocs.Comparison for .NET](/ja/comparison/net/)は、同じ形式の複数の画像とドキュメントを比較するためのネイティブ.NETAPIです。段落、単語、文字、図形、さらには比較されたドキュメントのテキストスタイル内の違いを検出し、変更をマージして最終的なドキュメントにエクスポートするのに役立ちます。外部ライブラリを使用せずに、PDF、Word文書、Excelスプレッドシート、PowerPointプレゼンテーション、Visioダイアグラム、Outlook電子メール、HTML、図面、および画像ファイル形式の比較とマージをサポートします。
+        [GroupDocs.Comparison for .NET](/comparison/net/) は、同じ形式の複数の画像とドキュメントを比較するためのネイティブ .NET API です。比較した文書の段落、単語、文字、図形、さらにはテキスト スタイル内の相違点を検出し、変更を結合して最終文書にエクスポートするのに役立ちます。外部ライブラリを使用せずに、PDF、Word 文書、Excel スプレッドシート、PowerPoint プレゼンテーション、Visio 図、Outlook 電子メール、HTML、図面、画像ファイル形式の比較と結合をサポートします。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "C＃でTXTファイルを比較する手順"
+    title_left: "C# で TXT ファイルを比較する手順"
     content_left: |
-        [GroupDocs.Comparison](/ja/comparison/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実装することで、アプリケーション内の複数のTXTファイルを簡単に比較およびマージできます。
-    
-        
-        * ソースドキュメントパスまたはストリームを使用して**Comparer**オブジェクトをインスタンス化します。
-        * Addメソッドを呼び出し、ターゲットドキュメントのパスまたはストリームを指定します。ターゲットドキュメントごとにこの手順を繰り返します。
-        * compareメソッドを呼び出します。
-    
+        [GroupDocs.Comparison](/comparison/net/) を使用すると、.NET 開発者は、いくつかの簡単な手順を実装することで、アプリケーション内の複数の TXT ファイルを簡単に比較およびマージできます。
+        * ソース ドキュメント パスまたはストリームを使用して **Comparer** オブジェクトをインスタンス化します。
+        * Add メソッドを呼び出し、対象のドキュメント パスまたはストリームを指定します。ターゲットドキュメントごとにこの手順を繰り返します。
+        * Compare メソッドを呼び出します。
     title_right: "システム要求"
     content_right: |
-        GroupDocs.Comparison for .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
-    
-        
-        *オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        *開発環境：Microsoft Visual Studio、Xamarin、MonoDevelop
-        *フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
-        * [NuGet](https://www.nuget.org/packages/groupdocs.comparison)からダウンロードしたGroupDocs.Comparisonfor.NETの最新バージョンを入手します。
-    
+        GroupDocs.Comparison for .NET API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、次の前提条件がシステムにインストールされていることを確認してください。
+        * オペレーティング システム: Microsoft Windows、Linux、MacOS
+        * 開発環境: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * フレームワーク: .NET Framework、.NET Standard、.NET Core、Mono
+        * [NuGet](https://www.nuget.org/packages/groupdocs.comparison) からダウンロードした GroupDocs.Comparison for .NET の最新バージョンを入手します。
     code: |
         ```cs
-        //ローカルディスクの複数のドキュメントを比較します
+        // ローカルディスクから複数のドキュメントを比較する
         
         using (Comparer comparer = new Comparer("source.txt"))
         {
         	comparer.Add("target1.txt");
             comparer.Add("target2.txt");
             comparer.Add("target3.txt");
-            comparer.Compare("result.txt"); // 指定された名前の結果ファイルを作成する
+            comparer.Compare("result.txt"); // 指定された名前で結果ファイルを作成します
         }
         
-        //ストリームからの複数のドキュメントを比較します
+        // ストリームからの複数のドキュメントを比較する
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.txt")))
         {
         	comparer.Add(File.OpenRead("target1.txt"));
             comparer.Add(File.OpenRead("target2.txt"));
             comparer.Add(File.OpenRead("target3.txt"));
-            comparer.Compare(File.Create("result.txt")); // 指定された名前の結果ファイルを作成する
+            comparer.Compare(File.Create("result.txt")); // 指定された名前で結果ファイルを作成します
         }
         ```
 
 ############################# Demos ############################
 demos:
     enable: true
-    title: "TXTファイルの比較のライブデモ"
+    title: "TXT ファイルを比較するライブ デモ"
     content: |
-        [GroupDocs.Comparisonライブデモ](https://products.groupdocs.app/comparison/family)サイトにアクセスして、TXTファイル間の違いを今すぐ検出してください。  
-        ライブデモには次の利点があります
+        [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) Web サイトにアクセスして、今すぐ TXT ファイル間の違いを検出してください。
+        ライブデモには次のようなメリットがあります
 
 ############################# About Formats ############################
 about_formats:
@@ -119,9 +112,9 @@ about_formats:
     format:
         # format loop
         - icon: "far fa-file-txt"
-          title: "TXTファイル形式について"
+          title: "TXT ファイル形式について"
           content: |
-            拡張子が.TXTのファイルは、行形式のプレーンテキストを含むテキストドキュメントを表します。テキストドキュメントの段落は、キャリッジリターンによって認識され、ファイルの内容をより適切に配置するために使用されます。標準のテキストドキュメントは、さまざまなオペレーティングシステムの任意のテキストエディタまたはワードプロセッシングアプリケーションで開くことができます。このようなファイルに含まれるすべてのテキストは、人間が読める形式であり、一連の文字で表されます。
+            拡張子が .TXT のファイルは、行形式のプレーン テキストを含むテキスト ドキュメントを表します。テキスト文書内の段落は改行によって認識され、ファイルの内容をより適切に配置するために使用されます。標準のテキスト文書は、さまざまなオペレーティング システム上の任意のテキスト エディタまたはワード プロセッシング アプリケーションで開くことができます。このようなファイルに含まれるテキストはすべて人間が判読できる形式であり、一連の文字で表されます。
           link: "https://docs.fileformat.com/image/txt/"
 
 ############################# More Formats ############################
@@ -129,209 +122,257 @@ more_formats:
     enable: true
     title: "他のファイル形式の比較"
     content: |
-        .NET用のマルチフォーマットドキュメントと画像比較API。外部ツールを使用せずに、同じ形式のドキュメント間の違いを分析します。
+        .NET 用のマルチフォーマットのドキュメントと画像比較 API。外部ツールを使用せずに、同じ形式のドキュメント間の差異を分析します。
     format: 
-        
-        - name: "PDFファイルの比較"
+        # format loop
+        - name: "Compare PDF Files"
           link: "https://products.groupdocs.com/comparison/net/pdf/"
-          description: "AdobePortableドキュメント形式"
+          description: "Adobe Portable Document Format"
 
-        - name: "DOCファイルの比較"
+        # format loop
+        - name: "Compare DOC Files"
           link: "https://products.groupdocs.com/comparison/net/doc/"
-          description: "MicrosoftWordドキュメント"
+          description: "Microsoft Word Document"
 
-        - name: "DOCMファイルの比較"
+        # format loop
+        - name: "Compare DOCM Files"
           link: "https://products.groupdocs.com/comparison/net/docm/"
-          description: "MicrosoftWordマクロ対応ドキュメント"
+          description: "Microsoft Word Macro-Enabled Document"
 
-        - name: "DOCXファイルの比較"
+        # format loop
+        - name: "Compare DOCX Files"
           link: "https://products.groupdocs.com/comparison/net/docx/"
-          description: "Microsoft WordOpenXMLドキュメント"
+          description: "Microsoft Word Open XML Document"
 
-        - name: "DOTファイルの比較"
+        # format loop
+        - name: "Compare DOT Files"
           link: "https://products.groupdocs.com/comparison/net/dot/"
-          description: "MicrosoftWord文書テンプレート"
+          description: "Microsoft Word Document Template"
 
-        - name: "DOTMファイルの比較"
+        # format loop
+        - name: "Compare DOTM Files"
           link: "https://products.groupdocs.com/comparison/net/dotm/"
-          description: "MicrosoftWordマクロ対応テンプレート"
+          description: "Microsoft Word Macro-Enabled Template"
 
-        - name: "DOTXファイルの比較"
+        # format loop
+        - name: "Compare DOTX Files"
           link: "https://products.groupdocs.com/comparison/net/dotx/"
-          description: "WordOpenXMLドキュメントテンプレート"
+          description: "Word Open XML Document Template"
 
-        - name: "RTFファイルの比較"
+        # format loop
+        - name: "Compare RTF Files"
           link: "https://products.groupdocs.com/comparison/net/rtf/"
-          description: "リッチテキストファイル形式"
+          description: "Rich Text File Format"
 
-        - name: "TXTファイルの比較"
+        # format loop
+        - name: "Compare TXT Files"
           link: "https://products.groupdocs.com/comparison/net/txt/"
-          description: "プレーンテキストファイル形式"
+          description: "Plain Text File Format"
 
-        - name: "XLSファイルの比較"
+        # format loop
+        - name: "Compare XLS Files"
           link: "https://products.groupdocs.com/comparison/net/xls/"
-          description: "MicrosoftExcelバイナリファイル形式"
+          description: "Microsoft Excel Binary File Format"
 
-        - name: "XLSXファイルの比較"
+        # format loop
+        - name: "Compare XLSX Files"
           link: "https://products.groupdocs.com/comparison/net/xlsx/"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
+          description: "Microsoft Excel Open XML Spreadsheet"
 
-        - name: "XLTMファイルの比較"
+        # format loop
+        - name: "Compare XLTM Files"
           link: "https://products.groupdocs.com/comparison/net/xltm/"
-          description: "MicrosoftExcelマクロ対応テンプレート"
+          description: "Microsoft Excel macro-enabled template"
 
-        - name: "XLSMファイルの比較"
+        # format loop
+        - name: "Compare XLSM Files"
           link: "https://products.groupdocs.com/comparison/net/xlsm/"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
-        - name: "XLSBファイルの比較"
+        # format loop
+        - name: "Compare XLSB Files"
           link: "https://products.groupdocs.com/comparison/net/xlsb/"
-          description: "MicrosoftExcelバイナリスプレッドシートファイル"
+          description: "Microsoft Excel Binary Spreadsheet File"
 
-        - name: "CSVファイルの比較"
+        # format loop
+        - name: "Compare CSV Files"
           link: "https://products.groupdocs.com/comparison/net/csv/"
-          description: "カンマ区切り値ファイル"
+          description: "Comma Separated Values File"
 
-        - name: "PPTファイルの比較"
+        # format loop
+        - name: "Compare PPT Files"
           link: "https://products.groupdocs.com/comparison/net/ppt/"
-          description: "PowerPointプレゼンテーション"
+          description: "PowerPoint Presentation"
 
-        - name: "PPSファイルの比較"
+        # format loop
+        - name: "Compare PPS Files"
           link: "https://products.groupdocs.com/comparison/net/pps/"
-          description: "MicrosoftPowerPointスライドショー"
+          description: "Microsoft PowerPoint Slide Show"
 
-        - name: "PPTXファイルの比較"
+        # format loop
+        - name: "Compare PPTX Files"
           link: "https://products.groupdocs.com/comparison/net/pptx/"
-          description: "PowerPointOpenXMLプレゼンテーション"
+          description: "PowerPoint Open XML Presentation"
 
-        - name: "PPSXファイルの比較"
+        # format loop
+        - name: "Compare PPSX Files"
           link: "https://products.groupdocs.com/comparison/net/ppsx/"
-          description: "PowerPointOpenXMLスライドショー"
+          description: "PowerPoint Open XML Slide Show"
 
-        - name: "POTファイルの比較"
+        # format loop
+        - name: "Compare POT Files"
           link: "https://products.groupdocs.com/comparison/net/pot/"
-          description: "MicrosoftPowerPointテンプレート"
+          description: "Microsoft PowerPoint template"
 
-        - name: "POTXファイルの比較"
+        # format loop
+        - name: "Compare POTX Files"
           link: "https://products.groupdocs.com/comparison/net/potx/"
-          description: "Microsoft PowerPointOpenXMLテンプレート"
+          description: "Microsoft PowerPoint Open XML Template"
 
-        - name: "ODSファイルの比較"
+        # format loop
+        - name: "Compare ODS Files"
           link: "https://products.groupdocs.com/comparison/net/ods/"
-          description: "ドキュメントスプレッドシートを開く"
+          description: "Open Document Spreadsheet"
 
-        - name: "ODPファイルの比較"
+        # format loop
+        - name: "Compare ODP Files"
           link: "https://products.groupdocs.com/comparison/net/odp/"
-          description: "OpenDocumentプレゼンテーションファイル形式"
+          description: "OpenDocument Presentation File Format"
 
-        - name: "OTPファイルの比較"
+        # format loop
+        - name: "Compare OTP Files"
           link: "https://products.groupdocs.com/comparison/net/otp/"
-          description: "原点グラフテンプレート"
+          description: "Origin Graph Template"
 
-        - name: "ODTファイルの比較"
+        # format loop
+        - name: "Compare ODT Files"
           link: "https://products.groupdocs.com/comparison/net/odt/"
-          description: "ドキュメントテキストを開く"
+          description: "Open Document Text"
 
-        - name: "OTTファイルの比較"
+        # format loop
+        - name: "Compare OTT Files"
           link: "https://products.groupdocs.com/comparison/net/ott/"
-          description: "ドキュメントテンプレートを開く"
+          description: "Open Document Template"
 
-        - name: "VSTファイルの比較"
+        # format loop
+        - name: "Compare VST Files"
           link: "https://products.groupdocs.com/comparison/net/vst/"
-          description: "Microsoft Visio2003-2010XML図面"
+          description: "Microsoft Visio 2003-2010 XML Drawing"
 
-        - name: "JPEGファイルの比較"
+        # format loop
+        - name: "Compare JPEG Files"
           link: "https://products.groupdocs.com/comparison/net/jpeg/"
-          description: "JPEG画像"
+          description: "JPEG Image"
 
-        - name: "PNGファイルの比較"
+        # format loop
+        - name: "Compare PNG Files"
           link: "https://products.groupdocs.com/comparison/net/png/"
-          description: "ポータブルネットワークグラフィック"
+          description: "Portable Network Graphic"
 
-        - name: "GIFファイルの比較"
+        # format loop
+        - name: "Compare GIF Files"
           link: "https://products.groupdocs.com/comparison/net/gif/"
-          description: "グラフィカルな交換フォーマットファイル"
+          description: "Graphical Interchange Format File"
 
-        - name: "BMPファイルの比較"
+        # format loop
+        - name: "Compare BMP Files"
           link: "https://products.groupdocs.com/comparison/net/bmp/"
-          description: "ビットマップファイル形式"
+          description: "Bitmap File Format"
 
-        - name: "HTMLファイルの比較"
+        # format loop
+        - name: "Compare HTML Files"
           link: "https://products.groupdocs.com/comparison/net/html/"
-          description: "ハイパーテキストマークアップ言語"
+          description: "Hyper Text Markup Language"
 
-        - name: "MHTファイルの比較"
+        # format loop
+        - name: "Compare MHT Files"
           link: "https://products.groupdocs.com/comparison/net/mht/"
           description: "Mime HTML"
 
-        - name: "MHTMLファイルの比較"
+        # format loop
+        - name: "Compare MHTML Files"
           link: "https://products.groupdocs.com/comparison/net/mhtml/"
-          description: "集約HTMLのMIMEカプセル化"
+          description: "MIME Encapsulation of Aggregate HTML"
 
-        - name: "MSGファイルの比較"
+        # format loop
+        - name: "Compare MSG Files"
           link: "https://products.groupdocs.com/comparison/net/msg/"
-          description: "MicrosoftOutlookの電子メールメッセージ"
+          description: "Microsoft Outlook E-mail Message"
 
-        - name: "EMLファイルの比較"
+        # format loop
+        - name: "Compare EML Files"
           link: "https://products.groupdocs.com/comparison/net/eml/"
-          description: "電子メールメッセージ"
+          description: "E-mail Message"
 
-        - name: "EMLXファイルの比較"
+        # format loop
+        - name: "Compare EMLX Files"
           link: "https://products.groupdocs.com/comparison/net/emlx/"
-          description: "AppleMailEメールファイル"
+          description: "Apple Mail E-mail File"
 
-        - name: "ONEファイルの比較"
+        # format loop
+        - name: "Compare ONE Files"
           link: "https://products.groupdocs.com/comparison/net/one/"
           description: "Microsoft OneNote"
 
-        - name: "VSDファイルの比較"
+        # format loop
+        - name: "Compare VSD Files"
           link: "https://products.groupdocs.com/comparison/net/vsd/"
-          description: "MicrosoftVisio2003-2010図面"
+          description: "Microsoft Visio 2003-2010 Drawing"
 
-        - name: "VSDXファイルの比較"
+        # format loop
+        - name: "Compare VSDX Files"
           link: "https://products.groupdocs.com/comparison/net/vsdx/"
-          description: "MicrosoftVisio図面"
+          description: "Microsoft Visio Drawing"
 
-        - name: "VSSファイルの比較"
+        # format loop
+        - name: "Compare VSS Files"
           link: "https://products.groupdocs.com/comparison/net/vss/"
-          description: "MicrosoftVisio2003-2010ステンシル"
+          description: "Microsoft Visio 2003-2010 Stencil"
 
-        - name: "VSTファイルの比較"
+        # format loop
+        - name: "Compare VST Files"
           link: "https://products.groupdocs.com/comparison/net/vst/"
-          description: "MicrosoftVisio2003-2010テンプレート"
+          description: "Microsoft Visio 2003-2010 Template"
 
-        - name: "VDXファイルの比較"
+        # format loop
+        - name: "Compare VDX Files"
           link: "https://products.groupdocs.com/comparison/net/vdx/"
-          description: "Microsoft Visio2003-2010XML図面"
+          description: "Microsoft Visio 2003-2010 XML Drawing"
 
-        - name: "CSファイルの比較"
+        # format loop
+        - name: "Compare CS Files"
           link: "https://products.groupdocs.com/comparison/net/cs/"
-          description: "CSharp言語"
+          description: "CSharp Language"
 
-        - name: "JAVAファイルの比較"
+        # format loop
+        - name: "Compare Java Files"
           link: "https://products.groupdocs.com/comparison/net/java/"
-          description: "Java言語"
+          description: "Java Language"
 
-        - name: "CPPファイルの比較"
+        # format loop
+        - name: "Compare CPP Files"
           link: "https://products.groupdocs.com/comparison/net/cpp/"
-          description: "C++言語"
+          description: "C++ Language"
 
-        - name: "JSファイルの比較"
+        # format loop
+        - name: "Compare JS Files"
           link: "https://products.groupdocs.com/comparison/net/js/"
-          description: "JavaScript言語"
+          description: "JavaScript Language"
 
-        - name: "PYファイルの比較"
+        # format loop
+        - name: "Compare PY Files"
           link: "https://products.groupdocs.com/comparison/net/py/"
-          description: "Python言語"
+          description: "Python Language"
 
-        - name: "RBファイルの比較"
+        # format loop
+        - name: "Compare RB Files"
           link: "https://products.groupdocs.com/comparison/net/rb/"
-          description: "Ruby言語"
+          description: "Ruby Language"
 
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison は、他の一般的な開発環境向けのドキュメント表示 API を提供します"
 
     solution:
         # solution loop

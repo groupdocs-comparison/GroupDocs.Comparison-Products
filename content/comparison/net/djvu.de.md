@@ -1,4 +1,3 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -25,28 +24,28 @@ submenu:
     enable: true
 
     left:
-        img_alt: "GroupDocs.Comparison für .NET"
+        img_alt: "GroupDocs.Comparison for .NET"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-net.png"
         product: "GroupDocs.Comparison"
         platform: ".NET"
 
     middle:
         button: 
-            #-Tastenschleife
+            # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API-Referenz"
 
-            #-Tastenschleife
+            # button loop
             - link: "https://github.com/groupdocs-comparison"
               text: "Codebeispiele"
 
-            #-Tastenschleife
+            # button loop
             - link: "https://products.groupdocs.app/comparison/family"
               text: "Live-Demos"
 
-            #-Tastenschleife
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/net"
-              text: "Preise"
+              text: "Preisgestaltung"
 
     right:
         link_download: "https://downloads.groupdocs.com/comparison"
@@ -56,9 +55,9 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Informationen zu GroupDocs.Comparison für die .NET-API"
+    title: "Informationen zur GroupDocs.Comparison for .NET-API"
     content: |
-        [GroupDocs.Comparison für .NET](/de/comparison/net/) ist eine native .NET-API zum Vergleichen mehrerer Bilder und Dokumente desselben Formats. Es hilft Ihnen, die Unterschiede in Absätzen, Wörtern, Zeichen, Formen und sogar den Textstilen der verglichenen Dokumente zu erkennen, die Änderungen zusammenzuführen und in ein endgültiges Dokument zu exportieren. Es unterstützt den Vergleich und das Zusammenführen von PDF-, Word-Dokumenten, Excel-Tabellen, PowerPoint-Präsentationen, Visio-Diagrammen, Outlook-E-Mails, HTML, Zeichnungen und Bilddateiformaten ohne Verwendung einer externen Bibliothek.
+        [GroupDocs.Comparison for .NET](/comparison/net/) ist eine native .NET-API zum Vergleichen mehrerer Bilder und Dokumente desselben Formats. Es hilft Ihnen, die Unterschiede in Absätzen, Wörtern, Zeichen, Formen und sogar den Textstilen der verglichenen Dokumente zu erkennen, die Änderungen zusammenzuführen und in ein endgültiges Dokument zu exportieren. Es unterstützt den Vergleich und das Zusammenführen von PDF-, Word-Dokumenten, Excel-Tabellen, PowerPoint-Präsentationen, Visio-Diagrammen, Outlook-E-Mails, HTML, Zeichnungen und Bilddateiformaten ohne Verwendung einer externen Bibliothek.
 
 ############################# Steps ############################
 steps:
@@ -66,20 +65,19 @@ steps:
     title_left: "Schritte zum Vergleichen von DJVU-Dateien in C#"
     content_left: |
         [GroupDocs.Comparison](/comparison/net/) erleichtert .NET-Entwicklern das Vergleichen und Zusammenführen mehrerer DJVU-Dateien in ihren Anwendungen durch die Implementierung einiger einfacher Schritte.
-        
-        *   Instanziieren Sie das **Comparer**-Objekt mit dem Pfad oder Stream des Quelldokuments.
-        *   Rufen Sie die Add-Methode auf und geben Sie den Zieldokumentpfad oder -stream an. Wiederholen Sie diesen Schritt für jedes Zieldokument.
-        *   Vergleichsmethode aufrufen.
+        * Instanziieren Sie das **Comparer**-Objekt mit dem Pfad oder Stream des Quelldokuments.
+        * Rufen Sie die Add-Methode auf und geben Sie den Zieldokumentpfad oder -stream an. Wiederholen Sie diesen Schritt für jedes Zieldokument.
+        * Vergleichsmethode aufrufen.
     title_right: "System Anforderungen"
     content_right: |
-        GroupDocs.Comparison für .NET-APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.
-        *   Betriebssysteme: Microsoft Windows, Linux, MacOS
-        *   Entwicklungsumgebungen: Microsoft Visual Studio, Xamarin, MonoDevelop
-        *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        *   Holen Sie sich die neueste Version von GroupDocs.Comparison für .NET, heruntergeladen von [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
+        GroupDocs.Comparison for .NET APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.
+        * Betriebssysteme: Microsoft Windows, Linux, MacOS
+        * Entwicklungsumgebungen: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Holen Sie sich die neueste Version von GroupDocs.Comparison for .NET, heruntergeladen von [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
     code: |
         ```cs
-        // Mehrere Dokumente von der lokalen Festplatte vergleichen
+        // Vergleichen Sie mehrere Dokumente von der lokalen Festplatte
         
         using (Comparer comparer = new Comparer("source.djvu"))
         {
@@ -89,7 +87,7 @@ steps:
             comparer.Compare("result.djvu"); // Ergebnisdatei mit dem angegebenen Namen erstellen
         }
         
-        // Mehrere Dokumente aus dem Stream vergleichen
+        // Vergleichen Sie mehrere Dokumente aus dem Stream
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.djvu")))
         {
@@ -114,9 +112,9 @@ about_formats:
     format:
         # format loop
         - icon: "far fa-file-djvu"
-          title: "Informationen zum DJVU-Dateiformat"
+          title: "Informationen zum Dateiformat DJVU"
           content: |
-            DjVu, ausgesprochen "déjà vu", ist ein Grafikdateiformat für gescannte Dokumente und Bücher, insbesondere solche, die eine Kombination aus Text, Zeichnungen, Bildern und Fotos enthalten. Es wurde von AT&T Labs entwickelt. Es verwendet mehrere Techniken wie die Bildebenentrennung von Text und Hintergrundbildern, progressives Laden, arithmetische Codierung und verlustbehaftete Komprimierung für bitonale Bilder. Da die DJVU-Datei komprimierte, aber dennoch hochwertige Farbbilder, Fotos, Texte und Zeichnungen enthalten kann und daher weniger Platz benötigt, wird sie im Internet als E-Books, Handbücher, Zeitungen, alte Dokumente usw. verwendet.
+            DjVu, ausgesprochen „déjà vu“, ist ein Grafikdateiformat, das für gescannte Dokumente und Bücher gedacht ist, insbesondere solche, die eine Kombination aus Text, Zeichnungen, Bildern und Fotos enthalten. Es wurde von AT&T Labs entwickelt. Es verwendet mehrere Techniken wie die Bildebenentrennung von Text und Hintergrundbildern, progressives Laden, arithmetische Codierung und verlustbehaftete Komprimierung für bitonale Bilder. Da die DJVU-Datei komprimierte, aber dennoch hochwertige Farbbilder, Fotos, Texte und Zeichnungen enthalten kann und daher weniger Platz benötigt, wird sie im Internet als E-Books, Handbücher, Zeitungen, alte Dokumente usw. verwendet.
           link: "https://docs.fileformat.com/image/djvu/"
 
 ############################# More Formats ############################
@@ -374,7 +372,7 @@ more_formats:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison bietet APIs zum Anzeigen von Dokumenten für andere gängige Entwicklungsumgebungen"
 
     solution:
         # solution loop

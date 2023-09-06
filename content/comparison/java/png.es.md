@@ -1,4 +1,3 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -6,11 +5,11 @@ date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "API de comparación de Java PNG - Compara archivos de PNG en busca de diferencias"
+head_title: "API de comparación Java PNG: compare archivos PNG en busca de diferencias"
 head_description: "Compare y combine archivos PNG en aplicaciones Java, J2EE, J2SE. Analice el resumen de diferencias en contenido, texto y estilo de PNG archivos, imágenes y formatos de documentos."
 
 ############################# Header ############################
-title: "Compara archivos PNG en Java"
+title: "Comparar archivos PNG en Java"
 description: "Realice una comparación línea por línea entre más de dos archivos PNG en Java. Recupere una lista de diferencias y guarde los archivos comparados en un solo documento."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -25,26 +24,26 @@ submenu:
     enable: true
 
     left:
-        img_alt: "GroupDocs.Comparison para Java"
+        img_alt: "GroupDocs.Comparison for Java"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-java.png"
         product: "GroupDocs.Comparison"
         platform: "Java"
 
     middle:
         button: 
-            # bucle de botón
+            # button loop
             - link: "https://apireference.groupdocs.com/comparison/java"
-              text: "Referencia API"
+              text: "Referencia de API"
 
-            # bucle de botón
+            # button loop
             - link: "https://github.com/groupdocs-comparison"
               text: "Ejemplos de código"
 
-            # bucle de botón
+            # button loop
             - link: "https://products.groupdocs.app/comparison/family"
               text: "Demostraciones en vivo"
 
-            # bucle de botón
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/java"
               text: "Precios"
 
@@ -56,9 +55,9 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Acerca de GroupDocs. Comparación para la API de Java"
+    title: "Acerca de la API GroupDocs.Comparison for Java"
     content: |
-        Potencie sus aplicaciones Java con funciones de comparación de imágenes y documentos utilizando la API [GroupDocs.Comparison for Java](/es/comparison/java/). Le ayuda a identificar las diferencias dentro de los párrafos, palabras, caracteres, formas, incluso los estilos de texto de los documentos comparados del mismo formato, permite fusionar los cambios y exportarlos a un documento final. Admite la comparación y combinación de una amplia gama de documentos, incluidos PDF, Word, hojas de cálculo de Excel, presentaciones de PowerPoint, diagramas de Visio, correos electrónicos de Outlook, HTML, dibujos y formatos de archivo de imagen sin utilizar ninguna biblioteca externa.
+        Mejore sus aplicaciones Java con funciones de comparación de imágenes y documentos utilizando la API [GroupDocs.Comparison for Java](/comparison/java/). Le ayuda a identificar las diferencias dentro de párrafos, palabras, caracteres, formas, incluso los estilos de texto de los documentos comparados del mismo formato, permite fusionar los cambios y exportarlos a un documento final. Admite comparar y fusionar una amplia gama de documentos, incluidos PDF, Word, hojas de cálculo de Excel, presentaciones de PowerPoint, diagramas de Visio, correos electrónicos de Outlook, HTML, dibujos y formatos de archivos de imágenes sin utilizar ninguna biblioteca externa.
 
 ############################# Steps ############################
 steps:
@@ -66,16 +65,16 @@ steps:
     title_left: "Pasos para comparar archivos PNG en Java"
     content_left: |
         [GroupDocs.Comparison](/comparison/java/) facilita a los desarrolladores de Java comparar archivos PNG dentro de sus aplicaciones utilizando unas pocas líneas de código.
-        *   Crea una instancia del objeto **Comparador** con la ruta o flujo del documento de origen.
-        *   Llame al método add y especifique la ruta o secuencia del documento de destino.
-        *   Método de comparación de llamadas.
+        * Crear una instancia del objeto **Comparador** con la ruta o flujo del documento fuente.
+        * Llame al método add y especifique la ruta o secuencia del documento de destino.
+        * Llame al método de comparación.
     title_right: "Requisitos del sistema"
     content_right: |
-        Las API de GroupDocs.Comparison para Java son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.
-        *   Sistemas Operativos: Microsoft Windows, Linux, Mac OS
-        *   Entorno de desarrollo: NetBeans, Intellij IDEA, Eclipse, etc.
-        *   Java Runtime Environment: J2SE 6.0 y superior
-        *   Obtenga la última versión de GroupDocs.Comparison para Java de [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
+        Las API de GroupDocs.Comparison for Java son compatibles con las principales plataformas y sistemas operativos. Antes de ejecutar el código siguiente, asegúrese de tener los siguientes requisitos previos instalados en su sistema.
+        * Sistemas operativos: Microsoft Windows, Linux, MacOS
+        * Entornos de desarrollo: NetBeans, Intellij IDEA, Eclipse etc
+        * Entorno de ejecución Java: J2SE 6.0 y superior
+        * Obtenga la última versión de GroupDocs.Comparison for Java de [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
     code: |
         ```java
         // Comparar documentos del archivo local
@@ -85,7 +84,7 @@ steps:
             comparer.compare("C:\\result.png"); // Crear archivo de resultados con el nombre especificado
         }
         
-        // Comparar documentos de stream
+        // Comparar documentos de la secuencia
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.png"))) {
             comparer.add(new FileInputStream("C:\\target.png"));
@@ -109,7 +108,7 @@ about_formats:
         - icon: "far fa-file-png"
           title: "Acerca del formato de archivo PNG"
           content: |
-            PNG, Portable Network Graphics, se refiere a un tipo de formato de archivo de imagen de trama que utiliza compresión sin pérdidas. Este formato de archivo se creó como reemplazo del formato de intercambio de gráficos (GIF) y no tiene limitaciones de derechos de autor. Sin embargo, el formato de archivo PNG no admite animaciones. El formato de archivo PNG admite la compresión de imágenes sin pérdida que lo hace popular entre sus usuarios. Con el paso del tiempo, PNG se ha convertido en uno de los formatos de archivo de imagen más utilizados. Casi todos los sistemas operativos tienen soporte para abrir archivos PNG. Por ejemplo, el visor de Microsoft Windows tiene la capacidad de abrir archivos PNG ya que el sistema operativo tiene el soporte disponible de forma predeterminada como parte de la instalación.
+            PNG, Portable Network Graphics, se refiere a un tipo de formato de archivo de imagen rasterizada que utiliza compresión sin pérdidas. Este formato de archivo se creó como reemplazo del formato de intercambio de gráficos (GIF) y no tiene limitaciones de derechos de autor. Sin embargo, el formato de archivo PNG no admite animaciones. El formato de archivo PNG admite la compresión de imágenes sin pérdidas, lo que lo hace popular entre sus usuarios. Con el paso del tiempo, PNG ha evolucionado hasta convertirse en uno de los formatos de archivo de imagen más utilizados. Casi todos los sistemas operativos admiten la apertura de archivos PNG. Por ejemplo, el visor de Microsoft Windows tiene la capacidad de abrir archivos PNG, ya que el sistema operativo tiene soporte disponible de forma predeterminada como parte de la instalación.
           link: "https://docs.fileformat.com/image/png/"
 
 ############################# More Formats ############################
@@ -367,7 +366,7 @@ more_formats:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison ofrece API de visualización de documentos para otros entornos de desarrollo populares"
 
     solution:
         # solution loop

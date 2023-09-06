@@ -67,7 +67,7 @@ overview:
       
     more_overview:
       # more_overview_loop
-      - title: "What is GroupDocs.Comparison"
+      - title: "What is GroupDocs.Comparison for Java"
         content: "GroupDocs.Comparison for Java is the most flexible and easy-to-use API to help you develop document comparison applications in the Java environment. The difference checker and document merge API allow you to detect changes and differences in content as well as in text style between similar document formats."
 
       # more_overview_loop
@@ -193,11 +193,12 @@ overview:
             - icon: "fas fa-code"
               title: "Supported Frameworks"
               content: |
-                * Java 7 (1.7) and above
+                * Java 7 (1.7) or higher
 
         right:
           enable: true
           table:
+            
             # table loop
             - icon: "fas fa-cogs"
               title: "Development Environments"
@@ -297,7 +298,6 @@ features:
       - icon: "fas fa-file-excel"
         content: "[Compare Documents & Save Document Pages of Different Formats as Images](https://docs.groupdocs.com/comparison/java/generate-document-pages-preview/)"
 
-    
 
 ############################# Support ############################
 support:

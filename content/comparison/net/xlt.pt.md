@@ -1,4 +1,3 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -7,17 +6,17 @@ draft: false
 
 ############################# Head ############################
 head_title: "Compare dois arquivos XLT em .NET | APIs de comparação de documentos"
-head_description: "Compare e mescle mais de dois arquivos XLT em aplicativos C# .NET. Recupere o resumo das diferenças no conteúdo, texto e estilo de XLT arquivos, imagens e formatos de documento."
+head_description: "Compare e mescle mais de dois arquivos XLT em aplicativos C# .NET. Recupere resumos de diferenças em conteúdo, texto e estilo de XLT arquivos, imagens e formatos de documentos."
 
 ############################# Header ############################
-title: "Comparar arquivos XLT em C# .NET"
+title: "Compare arquivos XLT em C# .NET"
 description: "API de comparação de documentos .NET para detectar as alterações entre duas versões de arquivos XLT e exportar para um documento final com um resumo detalhado das diferenças entre os documentos comparados."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Baixar Teste Gratuito"
+    label: "Baixe a avaliação gratuita"
     link: "https://downloads.groupdocs.com/comparison/net"
 
 ############################# SubMenu ############################
@@ -25,26 +24,26 @@ submenu:
     enable: true
 
     left:
-        img_alt: "GroupDocs.Comparison para .NET"
+        img_alt: "GroupDocs.Comparison for .NET"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-net.png"
         product: "GroupDocs.Comparison"
         platform: ".NET"
 
     middle:
         button: 
-            # loop de botão
+            # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
-              text: "Referência da API"
+              text: "Referência de API"
 
-            # loop de botão
+            # button loop
             - link: "https://github.com/groupdocs-comparison"
               text: "Exemplos de código"
 
-            # loop de botão
+            # button loop
             - link: "https://products.groupdocs.app/comparison/family"
               text: "Demonstrações ao vivo"
 
-            # loop de botão
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/net"
               text: "Preços"
 
@@ -56,47 +55,46 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Sobre GroupDocs.Comparison para .NET API"
+    title: "Sobre a API GroupDocs.Comparison for .NET"
     content: |
-        [GroupDocs.Comparison for .NET](/pt/comparison/net/) é uma API .NET nativa para comparar várias imagens e documentos do mesmo formato. Ele ajuda você a detectar as diferenças dentro de parágrafos, palavras, caracteres, formas, até mesmo os estilos de texto dos documentos comparados, mesclar as alterações e exportar para um documento final. Ele suporta comparar e mesclar PDF, documentos do Word, planilhas do Excel, apresentações do PowerPoint, diagramas do Visio, e-mails do Outlook, HTML, desenhos e formatos de arquivo de imagem sem usar nenhuma biblioteca externa.
+        [GroupDocs.Comparison for .NET](/comparison/net/) é uma API .NET nativa para comparar várias imagens e documentos do mesmo formato. Ele ajuda a detectar diferenças em parágrafos, palavras, caracteres, formas e até mesmo nos estilos de texto dos documentos comparados, mesclar as alterações e exportar para um documento final. Ele suporta comparação e mesclagem de PDF, documentos do Word, planilhas do Excel, apresentações do PowerPoint, diagramas do Visio, e-mails do Outlook, HTML, desenhos e formatos de arquivo de imagem sem usar qualquer biblioteca externa.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Etapas para comparar arquivos XLT em C#"
     content_left: |
-        [GroupDocs.Comparison](/comparison/net/) torna mais fácil para os desenvolvedores .NET comparar e mesclar vários arquivos XLT em seus aplicativos implementando algumas etapas fáceis.
-        
-        *   Instancie o objeto **Comparer** com o caminho ou fluxo do documento de origem.
-        *   Chame o método Add e especifique o caminho ou fluxo do documento de destino. Repita esta etapa para cada documento de destino.
-        *   Chame o método Compare.
+        [GroupDocs.Comparison](/comparison/net/) torna mais fácil para os desenvolvedores .NET comparar e mesclar vários arquivos XLT em seus aplicativos, implementando algumas etapas fáceis.
+        * Instancie o objeto **Comparador** com o caminho ou fluxo do documento de origem.
+        * Chame o método Add e especifique o caminho ou fluxo do documento de destino. Repita esta etapa para cada documento de destino.
+        * Chame o método Comparar.
     title_right: "Requisitos de sistema"
     content_right: |
-        As APIs do GroupDocs.Comparison para .NET são suportadas em todas as principais plataformas e sistemas operacionais. Antes de executar o código abaixo, certifique-se de ter os seguintes pré-requisitos instalados em seu sistema.
-        *   Sistemas operacionais: Microsoft Windows, Linux, MacOS
-        *   Ambientes de desenvolvimento: Microsoft Visual Studio, Xamarin, MonoDevelop
-        *   Estruturas: .NET Framework, .NET Standard, .NET Core, Mono
-        *   Obtenha a versão mais recente do GroupDocs.Comparison para .NET baixado de [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
+        As APIs do GroupDocs.Comparison for .NET são compatíveis com todas as principais plataformas e sistemas operacionais. Antes de executar o código abaixo, certifique-se de ter os seguintes pré-requisitos instalados em seu sistema.
+        * Sistemas Operacionais: Microsoft Windows, Linux, MacOS
+        * Ambientes de desenvolvimento: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Estruturas: .NET Framework, .NET Standard, .NET Core, Mono
+        * Obtenha a versão mais recente do GroupDocs.Comparison for .NET baixada do [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
     code: |
         ```cs
-        // Compara vários documentos do disco local
+        // Compare vários documentos do disco local
         
         using (Comparer comparer = new Comparer("source.xlt"))
         {
         	comparer.Add("target1.xlt");
             comparer.Add("target2.xlt");
             comparer.Add("target3.xlt");
-            comparer.Compare("result.xlt"); // Cria arquivo de resultado com o nome especificado
+            comparer.Compare("result.xlt"); // Crie um arquivo de resultado com o nome especificado
         }
         
-        // Compara vários documentos do stream
+        // Compare vários documentos do fluxo
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.xlt")))
         {
         	comparer.Add(File.OpenRead("target1.xlt"));
             comparer.Add(File.OpenRead("target2.xlt"));
             comparer.Add(File.OpenRead("target3.xlt"));
-            comparer.Compare(File.Create("result.xlt")); // Cria arquivo de resultado com o nome especificado
+            comparer.Compare(File.Create("result.xlt")); // Crie um arquivo de resultado com o nome especificado
         }
         ```
 
@@ -116,7 +114,7 @@ about_formats:
         - icon: "far fa-file-xlt"
           title: "Sobre o formato de arquivo XLT"
           content: |
-            Arquivos com extensão .XLT são arquivos de modelo criados com o Microsoft Excel, que é um aplicativo de planilha que vem como parte do pacote do Microsoft Office. O Microsoft Office 97-2003 suportava a criação de novos arquivos XLT, bem como sua abertura. A versão mais recente do Excel ainda é capaz de abrir esses arquivos de modelo de formato antigo. Esse arquivo de modelo é usado para criar rapidamente novos arquivos do Excel com dados e configurações padrão, como formatação de página, tamanho da fonte, margens, gráficos, etc., que podem ser salvos como novos arquivos .XLS.
+            Arquivos com extensão .XLT são arquivos de modelo criados com o Microsoft Excel, que é um aplicativo de planilha que faz parte do pacote Microsoft Office. O Microsoft Office 97-2003 suportava a criação de novos arquivos XLT, bem como sua abertura. A versão mais recente do Excel ainda é capaz de abrir arquivos de modelo de formato antigo. Esse arquivo de modelo é usado para criar rapidamente novos arquivos Excel com dados e configurações padrão, como formatação de página, tamanho da fonte, margens, gráficos, etc., que podem ser salvos posteriormente como novos arquivos .XLS.
           link: "https://docs.fileformat.com/image/xlt/"
 
 ############################# More Formats ############################
@@ -124,7 +122,7 @@ more_formats:
     enable: true
     title: "Comparando outros formatos de arquivo"
     content: |
-        API de comparação de imagens e documentos multiformato para .NET. Analise as diferenças entre documentos do mesmo formato sem usar nenhuma ferramenta externa.
+        API de comparação de documentos e imagens em vários formatos para .NET. Analise as diferenças entre documentos do mesmo formato sem utilizar nenhuma ferramenta externa.
     format: 
         # format loop
         - name: "Compare PDF Files"
@@ -374,7 +372,7 @@ more_formats:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison oferece APIs de visualização de documentos para outros ambientes de desenvolvimento populares"
 
     solution:
         # solution loop

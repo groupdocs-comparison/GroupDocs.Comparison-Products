@@ -1,4 +1,3 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -6,18 +5,18 @@ date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "API de comparação Java MHT - compare arquivos MHT para diferenças"
+head_title: "API de comparação Java MHT - Compare arquivos MHT em busca de diferenças"
 head_description: "Compare e mescle arquivos MHT em aplicativos Java, J2EE, J2SE. Analise o resumo das diferenças no conteúdo, texto e estilo de MHT arquivos, imagens e formatos de documentos."
 
 ############################# Header ############################
-title: "Comparar arquivos MHT em Java"
+title: "Compare arquivos MHT em Java"
 description: "Execute uma comparação linha por linha entre mais de dois arquivos MHT em Java. Recupere uma lista de diferenças e salve os arquivos comparados em um único documento."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Baixar Teste Gratuito"
+    label: "Baixe a avaliação gratuita"
     link: "https://downloads.groupdocs.com/comparison/java"
 
 ############################# SubMenu ############################
@@ -25,26 +24,26 @@ submenu:
     enable: true
 
     left:
-        img_alt: "GroupDocs.Comparison para Java"
+        img_alt: "GroupDocs.Comparison for Java"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-java.png"
         product: "GroupDocs.Comparison"
         platform: "Java"
 
     middle:
         button: 
-            # loop de botão
+            # button loop
             - link: "https://apireference.groupdocs.com/comparison/java"
-              text: "Referência da API"
+              text: "Referência de API"
 
-            # loop de botão
+            # button loop
             - link: "https://github.com/groupdocs-comparison"
               text: "Exemplos de código"
 
-            # loop de botão
+            # button loop
             - link: "https://products.groupdocs.app/comparison/family"
               text: "Demonstrações ao vivo"
 
-            # loop de botão
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/java"
               text: "Preços"
 
@@ -56,9 +55,9 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Sobre GroupDocs.Comparison para API Java"
+    title: "Sobre a API GroupDocs.Comparison for Java"
     content: |
-        Capacite seus aplicativos Java com recursos de comparação de imagens e documentos usando a API [GroupDocs.Comparison for Java](/pt/comparison/java/). Ele ajuda você a identificar as diferenças dentro de parágrafos, palavras, caracteres, formas, até mesmo os estilos de texto dos documentos comparados do mesmo formato, permite mesclar as alterações e exportar para um documento final. Ele suporta comparar e mesclar uma ampla gama de documentos, incluindo PDF, Word, planilhas do Excel, apresentações do PowerPoint, diagramas do Visio, e-mails do Outlook, HTML, desenhos e formatos de arquivo de imagem sem usar nenhuma biblioteca externa.
+        Capacite seus aplicativos Java com recursos de comparação de imagens e documentos usando a API [GroupDocs.Comparison for Java](/comparison/java/). Ajuda a identificar as diferenças entre parágrafos, palavras, caracteres, formas, até mesmo os estilos de texto dos documentos comparados do mesmo formato, permite mesclar as alterações e exportar para um documento final. Ele suporta comparação e mesclagem de uma ampla variedade de documentos, incluindo PDF, Word, planilhas do Excel, apresentações em PowerPoint, diagramas do Visio, e-mails do Outlook, HTML, desenhos e formatos de arquivo de imagem sem usar qualquer biblioteca externa.
 
 ############################# Steps ############################
 steps:
@@ -66,31 +65,30 @@ steps:
     title_left: "Etapas para comparar arquivos MHT em Java"
     content_left: |
         [GroupDocs.Comparison](/comparison/java/) torna mais fácil para os desenvolvedores Java comparar arquivos MHT em seus aplicativos usando algumas linhas de código.
-        
-        *   Instancie o objeto **Comparer** com o caminho ou fluxo do documento de origem.
-        *   Chame o método add e especifique o caminho ou fluxo do documento de destino.
-        *   Chame o método de comparação.
+        * Instancie o objeto **Comparador** com o caminho ou fluxo do documento de origem.
+        * Chame o método add e especifique o caminho ou fluxo do documento de destino.
+        * Chame o método de comparação.
     title_right: "Requisitos de sistema"
     content_right: |
-        GroupDocs.Comparison para APIs Java são suportados em todas as principais plataformas e sistemas operacionais. Antes de executar o código abaixo, certifique-se de ter os seguintes pré-requisitos instalados em seu sistema.
-        *   Sistemas operacionais: Microsoft Windows, Linux, MacOS
-        *   Ambiente de Desenvolvimento: NetBeans, Intellij IDEA, Eclipse etc
-        *   Java Runtime Environment: J2SE 6.0 e superior
-        *   Obtenha a versão mais recente do GroupDocs.Comparison para Java no [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
+        As APIs do GroupDocs.Comparison for Java são compatíveis com todas as principais plataformas e sistemas operacionais. Antes de executar o código abaixo, certifique-se de ter os seguintes pré-requisitos instalados em seu sistema.
+        * Sistemas Operacionais: Microsoft Windows, Linux, MacOS
+        * Ambientes de desenvolvimento: NetBeans, Intellij IDEA, Eclipse etc
+        * Java Runtime Environment: J2SE 6.0 e superior
+        * Obtenha a versão mais recente do GroupDocs.Comparison for Java em [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
     code: |
         ```java
-        // Compara documentos do arquivo local
+        // Compare documentos do arquivo local
         
         try (Comparer comparer = new Comparer("C:\\source.mht")) {
             comparer.add("C:\\target.mht");
-            comparer.compare("C:\\result.mht"); // Cria arquivo de resultado com o nome especificado
+            comparer.compare("C:\\result.mht"); // Crie um arquivo de resultado com o nome especificado
         }
         
-        // Compara documentos do stream
+        // Compare documentos do fluxo
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.mht"))) {
             comparer.add(new FileInputStream("C:\\target.mht"));
-            comparer.compare(new FileOutputStream("C:\\result.mht")); // Cria arquivo de resultado com o nome especificado
+            comparer.compare(new FileOutputStream("C:\\result.mht")); // Crie um arquivo de resultado com o nome especificado
         }
         ```
 
@@ -99,7 +97,7 @@ demos:
     enable: true
     title: "Demonstrações ao vivo para comparar arquivos MHT"
     content: |
-        Compare os arquivos MHT agora mesmo visitando o site [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family).
+        Compare arquivos MHT agora mesmo visitando o site [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family).
         A demonstração ao vivo tem os seguintes benefícios
 
 ############################# About Formats ############################
@@ -110,15 +108,15 @@ about_formats:
         - icon: "far fa-file-mht"
           title: "Sobre o formato de arquivo MHT"
           content: |
-            Um arquivo com extensão .mht é um formato de arquivo de arquivamento habilitado para MIME que contém diferentes tipos de dados em um único arquivo. Ele pode armazenar dados como texto, imagens, estilo de página na forma de arquivos CSS, JavaScript e outros recursos como recursos incorporados a ele. Os arquivos MHT, com mensagem do tipo MIME/rfc822, encapsulam todo o conteúdo de um arquivo HTML como um único arquivo para armazenamento em dispositivos de armazenamento. Aplicativos de software como o Microsoft Word permitem que você converta seus documentos WORD em MHT exportando como arquivo MHT. Os arquivos MHT podem ser abertos usando navegadores populares, como o Microsoft Internet Explorer e o Google Chrome.
+            Um arquivo com extensão .mht é um formato de arquivo de arquivamento habilitado para MIME que contém diferentes tipos de dados em um único arquivo. Ele pode armazenar dados como texto, imagens, estilo de página na forma de arquivos CSS, JavaScript e outros recursos como recursos incorporados nele. Os arquivos MHT, tendo o tipo MIME message/rfc822, encapsulam todo o conteúdo de um arquivo HTML como um único arquivo para armazenamento em arquivamento em dispositivos de armazenamento. Aplicativos de software como o Microsoft Word permitem converter seus documentos WORD em MHT exportando como arquivo MHT. Os arquivos MHT podem ser abertos usando navegadores populares como Microsoft Internet Explore e Google Chrome.
           link: "https://docs.fileformat.com/image/mht/"
 
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Comparar outros formatos de arquivo"
+    title: "Compare outros formatos de arquivo"
     content: |
-        API de comparação de imagens e documentos em vários formatos para Java. Compare alguns dos formatos de arquivo populares abaixo sem nenhum software externo.
+        API de comparação de imagens e documentos em vários formatos para Java. Compare alguns dos formatos de arquivo populares abaixo, sem qualquer software externo.
     format: 
         # format loop
         - name: "Compare PDF Files"
@@ -368,7 +366,7 @@ more_formats:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison oferece APIs de visualização de documentos para outros ambientes de desenvolvimento populares"
 
     solution:
         # solution loop

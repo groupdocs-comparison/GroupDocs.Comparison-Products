@@ -1,4 +1,3 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -6,18 +5,18 @@ date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "在 .NET 中比较两个 DOCX 文件 |文档比较 API"
-head_description: "在 C# .NET 应用程序中比较和合并两个以上的 DOCX 文件。检索 DOCX 文件、图像和文档格式的内容、文本和样式的差异摘要。"
+head_title: "比較 .NET 中的兩個 DOCX 文件 |文檔比較 API"
+head_description: "在 C# .NET 應用程序中比較並合併兩個以上的 DOCX 文件。檢索 DOCX 文件、圖像和文檔格式的內容、文本和样式的差異摘要。"
 
 ############################# Header ############################
-title: "在 C# .NET 中比较 DOCX 文件"
-description: ".NET 文档比较 API 检测两个版本的 DOCX 文件之间的变化，并导出到最终文档，其中包含比较文档之间差异的详细摘要。"
+title: "比較 C# .NET 中的 DOCX 文件"
+description: ".NET 文檔比較 API 用於檢測兩個版本的 DOCX 文件之間的更改，並導出到最終文檔，其中包含所比較文檔之間差異的詳細摘要。"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "下载免费试用版"
+    label: "下載免費試用版"
     link: "https://downloads.groupdocs.com/comparison/net"
 
 ############################# SubMenu ############################
@@ -28,25 +27,25 @@ submenu:
         img_alt: "GroupDocs.Comparison for .NET"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-net.png"
         product: "GroupDocs.Comparison"
-        platform: "。网"
+        platform: ".NET"
 
     middle:
         button: 
-            # 按钮循环
+            # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
-              text: "API 参考"
+              text: "API參考"
 
-            # 按钮循环
+            # button loop
             - link: "https://github.com/groupdocs-comparison"
-              text: "代码示例"
+              text: "代碼示例"
 
-            # 按钮循环
+            # button loop
             - link: "https://products.groupdocs.app/comparison/family"
-              text: "现场演示"
+              text: "現場演示"
 
-            # 按钮循环
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/net"
-              text: "定价"
+              text: "價錢"
 
     right:
         link_download: "https://downloads.groupdocs.com/comparison"
@@ -56,56 +55,56 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "关于 .NET API 的 GroupDocs.Comparison"
+    title: "關於 GroupDocs.Comparison for .NET API"
     content: |
-        [GroupDocs.Comparison for .NET](/zh/comparison/net/) 是一种本机 .NET API，用于比较相同格式的多个图像和文档。它可以帮助您检测段落、单词、字符、形状甚至比较文档的文本样式之间的差异，合并更改并导出到最终文档。它支持比较和合并 PDF、Word 文档、Excel 电子表格、PowerPoint 演示文稿、Visio 图表、Outlook 电子邮件、HTML、绘图和图像文件格式，而无需使用任何外部库。
+        [GroupDocs.Comparison for .NET](/comparison/net/) 是一個本機 .NET API，用於比較相同格式的多個圖像和文檔。它可以幫助您檢測比較文檔的段落、單詞、字符、形狀甚至文本樣式之間的差異，合併更改並導出到最終文檔。它支持比較和合併 PDF、Word 文檔、Excel 電子表格、PowerPoint 演示文稿、Visio 圖表、Outlook 電子郵件、HTML、繪圖和圖像文件格式，而無需使用任何外部庫。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "在 C# 中比较 DOCX 文件的步骤"
+    title_left: "在 C# 中比較 DOCX 文件的步驟"
     content_left: |
-        [GroupDocs.Comparison](/comparison/net/) 使 .NET 开发人员可以通过实施几个简单的步骤轻松地比较和合并应用程序中的多个 DOCX 文件。
-        *   使用源文档路径或流实例化 **Comparer** 对象。
-        * 调用 Add 方法并指定目标文档路径或流。对每个目标文档重复此步骤。
-        * 调用比较方法。
-    title_right: "系统要求"
+        [GroupDocs.Comparison](/comparison/net/) 使 .NET 開發人員可以通過實施幾個簡單的步驟輕鬆比較和合併應用程序中的多個 DOCX 文件。
+        * 使用源文檔路徑或流實例化 **Comparer** 對象。
+        * 調用Add方法並指定目標文檔路徑或流。對每個目標文檔重複此步驟。
+        * 調用Compare方法。
+    title_right: "系統要求"
     content_right: |
-        所有主要平台和操作系统都支持 .NET API 的 GroupDocs.Comparison。在执行下面的代码之前，请确保您的系统上安装了以下先决条件。
-        *   操作系统：Microsoft Windows、Linux、MacOS
-        * 开发环境：Microsoft Visual Studio、Xamarin、MonoDevelop
+        所有主要平台和操作系統均支持 GroupDocs.Comparison for .NET API。在執行下面的代碼之前，請確保您的系統上安裝了以下先決條件。
+        * 操作系統：Microsoft Windows、Linux、MacOS
+        * 開發環境：Microsoft Visual Studio, Xamarin, MonoDevelop
         * 框架：.NET Framework、.NET Standard、.NET Core、Mono
-        * 从 [NuGet](https://www.nuget.org/packages/groupdocs.comparison) 下载最新版本的 GroupDocs.Comparison for .NET
+        * 獲取從 [NuGet](https://www.nuget.org/packages/groupdocs.comparison) 下載的最新版本的 GroupDocs.Comparison for .NET
     code: |
         ```cs
-        // 比较本地磁盘中的多个文档
+        // 比較本地磁盤中的多個文檔
         
         using (Comparer comparer = new Comparer("source.docx"))
         {
         	comparer.Add("target1.docx");
             comparer.Add("target2.docx");
             comparer.Add("target3.docx");
-            comparer.Compare("result.docx"); // 创建指定名称的结果文件
+            comparer.Compare("result.docx"); // 創建指定名稱的結果文件
         }
         
-        // 比较流中的多个文档
+        // 比較流中的多個文檔
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.docx")))
         {
         	comparer.Add(File.OpenRead("target1.docx"));
             comparer.Add(File.OpenRead("target2.docx"));
             comparer.Add(File.OpenRead("target3.docx"));
-            comparer.Compare(File.Create("result.docx")); // 创建指定名称的结果文件
+            comparer.Compare(File.Create("result.docx")); // 創建指定名稱的結果文件
         }
         ```
 
 ############################# Demos ############################
 demos:
     enable: true
-    title: "比较 DOCX 文件的现场演示"
+    title: "比較 DOCX 文件的現場演示"
     content: |
-        通过访问 [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) 网站立即检测 DOCX 文件之间的差异。
-        现场演示有以下好处
+        立即訪問 [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) 網站檢測 DOCX 文件之間的差異。
+        現場演示有以下好處
 
 ############################# About Formats ############################
 about_formats:
@@ -113,17 +112,17 @@ about_formats:
     format:
         # format loop
         - icon: "far fa-file-docx"
-          title: "关于 DOCX 文件格式"
+          title: "關於 DOCX 文件格式"
           content: |
-            DOCX 是一种众所周知的 Microsoft Word 文档格式。随着 Microsoft Office 2007 的发布从 2007 年引入，这种新文档格式的结构从普通二进制文件更改为 XML 和二进制文件的组合。 Docx 文件可以用 Word 2007 和横向版本打开，但不能用支持 DOC 文件扩展名的早期版本的 MS Word 打开。
+            DOCX 是一種眾所周知的 Microsoft Word 文檔格式。自 2007 年 Microsoft Office 2007 發布以來，這種新文檔格式的結構已從純二進制更改為 XML 和二進製文件的組合。 Docx 文件可以使用 Word 2007 和橫向版本打開，但不能使用支持 DOC 文件擴展名的早期版本的 MS Word 打開。
           link: "https://docs.fileformat.com/image/docx/"
 
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "比较其他文件格式"
+    title: "比較其他文件格式"
     content: |
-        .NET 的多格式文档和图像比较 API。在不使用任何外部工具的情况下分析相同格式文档之间的差异。
+        適用於 .NET 的多格式文檔和圖像比較 API。無需使用任何外部工具即可分析相同格式文檔之間的差異。
     format: 
         # format loop
         - name: "Compare PDF Files"
@@ -373,7 +372,7 @@ more_formats:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison 為其他流行的開發環境提供文檔查看 API"
 
     solution:
         # solution loop

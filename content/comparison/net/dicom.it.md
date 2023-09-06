@@ -1,4 +1,3 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -7,11 +6,11 @@ draft: false
 
 ############################# Head ############################
 head_title: "Confronta due file DICOM in .NET | API di confronto dei documenti"
-head_description: "Confronta e unisci più di due file DICOM in applicazioni C# .NET. Recupera il riepilogo delle differenze nel contenuto, nel testo e nello stile di DICOM file, immagini e formati di documenti."
+head_description: "Confronta e unisci più di due file DICOM nelle applicazioni C# .NET. Recupera il riepilogo delle differenze nel contenuto, nel testo e nello stile di file, immagini e formati di documenti DICOM."
 
 ############################# Header ############################
 title: "Confronta i file DICOM in C# .NET"
-description: "API di confronto dei documenti .NET per rilevare le modifiche tra due versioni di file DICOM ed esportare in un documento finale con un riepilogo dettagliato delle differenze tra i documenti confrontati."
+description: "API di confronto dei documenti .NET per rilevare le modifiche tra due versioni di file DICOM ed esportarle in un documento finale con un riepilogo dettagliato delle differenze tra i documenti confrontati."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -25,26 +24,26 @@ submenu:
     enable: true
 
     left:
-        img_alt: "GroupDocs.Comparison per .NET"
+        img_alt: "GroupDocs.Comparison for .NET"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-net.png"
         product: "GroupDocs.Comparison"
-        platform: ".NETTO"
+        platform: ".NET"
 
     middle:
         button: 
-            # ciclo di pulsanti
+            # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "Riferimento API"
 
-            # ciclo di pulsanti
+            # button loop
             - link: "https://github.com/groupdocs-comparison"
-              text: "Esempi di codice"
+              text: "Esempi di codici"
 
-            # ciclo di pulsanti
+            # button loop
             - link: "https://products.groupdocs.app/comparison/family"
               text: "Demo dal vivo"
 
-            # ciclo di pulsanti
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/net"
               text: "Prezzi"
 
@@ -56,26 +55,26 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Informazioni su GroupDocs.Comparison per l'API .NET"
+    title: "Informazioni sull'API GroupDocs.Comparison for .NET"
     content: |
-        [GroupDocs.Comparison per .NET](/it/comparison/net/) è un'API .NET nativa per il confronto di più immagini e documenti dello stesso formato. Ti aiuta a rilevare le differenze all'interno di paragrafi, parole, caratteri, forme, persino gli stili di testo dei documenti confrontati, unire le modifiche ed esportare in un documento finale. Supporta il confronto e l'unione di PDF, documenti Word, fogli di calcolo Excel, presentazioni PowerPoint, diagrammi Visio, e-mail di Outlook, HTML, disegni e formati di file immagine senza utilizzare alcuna libreria esterna.
+        [GroupDocs.Comparison for .NET](/comparison/net/) è un'API .NET nativa per confrontare più immagini e documenti dello stesso formato. Ti aiuta a rilevare le differenze all'interno di paragrafi, parole, caratteri, forme e persino negli stili di testo dei documenti confrontati, unire le modifiche ed esportarle in un documento finale. Supporta il confronto e l'unione di PDF, documenti Word, fogli di calcolo Excel, presentazioni PowerPoint, diagrammi Visio, e-mail di Outlook, HTML, disegni e formati di file immagine senza utilizzare alcuna libreria esterna.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Passaggi per confrontare i file DICOM in C#"
     content_left: |
-        [GroupDocs.Comparison](/comparison/net/) semplifica agli sviluppatori .NET il confronto e l'unione di più file DICOM nelle loro applicazioni implementando pochi semplici passaggi.
-        *   Crea un'istanza dell'oggetto **Comparer** con il percorso o il flusso del documento di origine.
-        * Chiamare il metodo Add e specificare il percorso o il flusso del documento di destinazione. Ripetere questo passaggio per ogni documento di destinazione.
-        * Chiama il metodo Confronta.
+        [GroupDocs.Comparison](/comparison/net/) semplifica agli sviluppatori .NET il confronto e l'unione di più file DICOM nelle loro applicazioni implementando alcuni semplici passaggi.
+        * Crea un'istanza dell'oggetto **Comparer** con il percorso o il flusso del documento di origine.
+        * Chiama il metodo Aggiungi e specifica il percorso o il flusso del documento di destinazione. Ripetere questo passaggio per ogni documento di destinazione.
+        * Metodo di confronto delle chiamate.
     title_right: "Requisiti di sistema"
     content_right: |
-        GroupDocs.Comparison per le API .NET è supportato su tutte le principali piattaforme e sistemi operativi. Prima di eseguire il codice seguente, assicurati di avere i seguenti prerequisiti installati sul tuo sistema.
-        *   Sistemi operativi: Microsoft Windows, Linux, Mac OS
+        Le API GroupDocs.Comparison for .NET sono supportate su tutte le principali piattaforme e sistemi operativi. Prima di eseguire il codice seguente, assicurati di avere i seguenti prerequisiti installati sul tuo sistema.
+        * Sistemi operativi: Microsoft Windows, Linux, MacOS
         * Ambienti di sviluppo: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Framework: .NET Framework, .NET Standard, .NET Core, Mono
-        * Ottieni l'ultima versione di GroupDocs.Comparison per .NET scaricata da [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
+        * Ottieni la versione più recente di GroupDocs.Comparison for .NET scaricata da [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
     code: |
         ```cs
         // Confronta più documenti dal disco locale
@@ -88,7 +87,7 @@ steps:
             comparer.Compare("result.dicom"); // Crea il file dei risultati con il nome specificato
         }
         
-        // Confronta più documenti dallo stream
+        // Confronta più documenti dallo streaming
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.dicom")))
         {
@@ -102,10 +101,10 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Demo live di confronto di DICOM file"
+    title: "Demo dal vivo del confronto di file DICOM"
     content: |
         Rileva subito le differenze tra i file DICOM visitando il sito web [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family).
-        La demo dal vivo ha i seguenti vantaggi
+        La demo live presenta i seguenti vantaggi
 
 ############################# About Formats ############################
 about_formats:
@@ -115,15 +114,15 @@ about_formats:
         - icon: "far fa-file-dicom"
           title: "Informazioni sul formato file DICOM"
           content: |
-            DICOM è l'acronimo di Digital Imaging and Communications in Medicine e appartiene al campo dell'informatica medica. DICOM è la combinazione della definizione del formato file e di un protocollo di comunicazione di rete. DICOM utilizza l'estensione .DCM. .DCM esiste in due diversi formati, ovvero il formato 1.x e il formato 2.x. Il formato DCM 1.x è inoltre disponibile in due versioni normale ed estesa. DICOM viene utilizzato per l'integrazione di dispositivi di imaging medico come stampanti, server, scanner ecc. di vari fornitori e contiene anche i dati di identificazione di ciascun paziente per l'unicità. I file DICOM possono essere condivisi tra due parti se sono in grado di ricevere dati immagine in formato DICOM. La parte di comunicazione di DICOM è il protocollo a livello di applicazione e utilizza TCP/IP per comunicare tra le entità. I protocolli HTTP e HTTPS vengono utilizzati per i servizi Web di DICOM. Le versioni supportate dai servizi Web sono 1.0, 1.1, 2 o successive.
+            DICOM è l'acronimo di Digital Imaging and Communications in Medicine e appartiene al campo dell'informatica medica. DICOM è la combinazione della definizione del formato file e di un protocollo di comunicazione di rete. DICOM utilizza l'estensione .DCM. .DCM esiste in due formati diversi, ovvero il formato 1.x e il formato 2.x. DCM Format 1.x è inoltre disponibile in due versioni, normale ed estesa. DICOM viene utilizzato per l'integrazione di dispositivi di imaging medico come stampanti, server, scanner, ecc. di vari fornitori e contiene anche dati identificativi di ciascun paziente per univocità. I file DICOM possono essere condivisi tra due parti se sono in grado di ricevere dati di immagine in formato DICOM. La parte di comunicazione di DICOM è un protocollo a livello di applicazione e utilizza TCP/IP per comunicare tra entità. Per i servizi web di DICOM vengono utilizzati i protocolli HTTP e HTTPS. Le versioni supportate dai servizi Web sono 1.0, 1.1, 2 o successive.
           link: "https://docs.fileformat.com/image/dicom/"
 
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Confronto di altri formati di file"
+    title: "Confronto tra altri formati di file"
     content: |
-        API di confronto di immagini e documenti multiformato per .NET. Analizza le differenze tra documenti dello stesso formato senza utilizzare alcuno strumento esterno.
+        API per il confronto di documenti e immagini multiformato per .NET. Analizza le differenze tra documenti dello stesso formato senza utilizzare nessuno strumento esterno.
     format: 
         # format loop
         - name: "Compare PDF Files"
@@ -373,7 +372,7 @@ more_formats:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison offre API di visualizzazione di documenti per altri ambienti di sviluppo popolari"
 
     solution:
         # solution loop

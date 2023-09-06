@@ -1,4 +1,3 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -6,11 +5,11 @@ date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "API de comparación de Java HTML - Compara archivos de HTML en busca de diferencias"
+head_title: "API de comparación Java HTML: compare archivos HTML en busca de diferencias"
 head_description: "Compare y combine archivos HTML en aplicaciones Java, J2EE, J2SE. Analice el resumen de diferencias en contenido, texto y estilo de HTML archivos, imágenes y formatos de documentos."
 
 ############################# Header ############################
-title: "Compara archivos HTML en Java"
+title: "Comparar archivos HTML en Java"
 description: "Realice una comparación línea por línea entre más de dos archivos HTML en Java. Recupere una lista de diferencias y guarde los archivos comparados en un solo documento."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -25,26 +24,26 @@ submenu:
     enable: true
 
     left:
-        img_alt: "GroupDocs.Comparison para Java"
+        img_alt: "GroupDocs.Comparison for Java"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-java.png"
         product: "GroupDocs.Comparison"
         platform: "Java"
 
     middle:
         button: 
-            # bucle de botón
+            # button loop
             - link: "https://apireference.groupdocs.com/comparison/java"
-              text: "Referencia API"
+              text: "Referencia de API"
 
-            # bucle de botón
+            # button loop
             - link: "https://github.com/groupdocs-comparison"
               text: "Ejemplos de código"
 
-            # bucle de botón
+            # button loop
             - link: "https://products.groupdocs.app/comparison/family"
               text: "Demostraciones en vivo"
 
-            # bucle de botón
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/java"
               text: "Precios"
 
@@ -56,9 +55,9 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Acerca de GroupDocs. Comparación para la API de Java"
+    title: "Acerca de la API GroupDocs.Comparison for Java"
     content: |
-        Potencie sus aplicaciones Java con funciones de comparación de imágenes y documentos utilizando la API [GroupDocs.Comparison for Java](/es/comparison/java/). Le ayuda a identificar las diferencias dentro de los párrafos, palabras, caracteres, formas, incluso los estilos de texto de los documentos comparados del mismo formato, permite fusionar los cambios y exportarlos a un documento final. Admite la comparación y combinación de una amplia gama de documentos, incluidos PDF, Word, hojas de cálculo de Excel, presentaciones de PowerPoint, diagramas de Visio, correos electrónicos de Outlook, HTML, dibujos y formatos de archivo de imagen sin utilizar ninguna biblioteca externa.
+        Mejore sus aplicaciones Java con funciones de comparación de imágenes y documentos utilizando la API [GroupDocs.Comparison for Java](/comparison/java/). Le ayuda a identificar las diferencias dentro de párrafos, palabras, caracteres, formas, incluso los estilos de texto de los documentos comparados del mismo formato, permite fusionar los cambios y exportarlos a un documento final. Admite comparar y fusionar una amplia gama de documentos, incluidos PDF, Word, hojas de cálculo de Excel, presentaciones de PowerPoint, diagramas de Visio, correos electrónicos de Outlook, HTML, dibujos y formatos de archivos de imágenes sin utilizar ninguna biblioteca externa.
 
 ############################# Steps ############################
 steps:
@@ -66,16 +65,16 @@ steps:
     title_left: "Pasos para comparar archivos HTML en Java"
     content_left: |
         [GroupDocs.Comparison](/comparison/java/) facilita a los desarrolladores de Java comparar archivos HTML dentro de sus aplicaciones utilizando unas pocas líneas de código.
-        *   Crea una instancia del objeto **Comparador** con la ruta o flujo del documento de origen.
-        *   Llame al método add y especifique la ruta o secuencia del documento de destino.
-        *   Método de comparación de llamadas.
+        * Crear una instancia del objeto **Comparador** con la ruta o flujo del documento fuente.
+        * Llame al método add y especifique la ruta o secuencia del documento de destino.
+        * Llame al método de comparación.
     title_right: "Requisitos del sistema"
     content_right: |
-        Las API de GroupDocs.Comparison para Java son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.
-        *   Sistemas Operativos: Microsoft Windows, Linux, Mac OS
-        *   Entorno de desarrollo: NetBeans, Intellij IDEA, Eclipse, etc.
-        *   Java Runtime Environment: J2SE 6.0 y superior
-        *   Obtenga la última versión de GroupDocs.Comparison para Java de [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
+        Las API de GroupDocs.Comparison for Java son compatibles con las principales plataformas y sistemas operativos. Antes de ejecutar el código siguiente, asegúrese de tener los siguientes requisitos previos instalados en su sistema.
+        * Sistemas operativos: Microsoft Windows, Linux, MacOS
+        * Entornos de desarrollo: NetBeans, Intellij IDEA, Eclipse etc
+        * Entorno de ejecución Java: J2SE 6.0 y superior
+        * Obtenga la última versión de GroupDocs.Comparison for Java de [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
     code: |
         ```java
         // Comparar documentos del archivo local
@@ -85,7 +84,7 @@ steps:
             comparer.compare("C:\\result.html"); // Crear archivo de resultados con el nombre especificado
         }
         
-        // Comparar documentos de stream
+        // Comparar documentos de la secuencia
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.html"))) {
             comparer.add(new FileInputStream("C:\\target.html"));
@@ -109,7 +108,7 @@ about_formats:
         - icon: "far fa-file-html"
           title: "Acerca del formato de archivo HTML"
           content: |
-            HTML (Hyper Text Markup Language) es la extensión de las páginas web creadas para mostrarse en los navegadores. Conocido como el lenguaje de la web, HTML ha evolucionado con los requisitos de nuevos requisitos de información para mostrarse como parte de las páginas web. La última variante se conoce como HTML 5 que brinda mucha flexibilidad para trabajar con el lenguaje. Las páginas HTML se reciben del servidor, donde están alojadas, o también se pueden cargar desde el sistema local. Cada página HTML se compone de elementos HTML como formularios, texto, imágenes, animaciones, enlaces, etc. Estos elementos están representados por etiquetas como img, a, p y varias otras donde cada etiqueta tiene un inicio y un final. También puede incrustar aplicaciones escritas en lenguajes de secuencias de comandos como JavaScript y hojas de estilo (CSS) para la representación general del diseño.
+            HTML (Lenguaje de marcado de hipertexto) es la extensión para páginas web creadas para mostrarse en los navegadores. Conocido como lenguaje de la web, HTML ha evolucionado con la exigencia de nuevos requisitos de información para mostrarse como parte de las páginas web. La última variante se conoce como HTML 5 y ofrece mucha flexibilidad para trabajar con el lenguaje. Las páginas HTML se reciben desde el servidor, donde están alojadas, o también se pueden cargar desde el sistema local. Cada página HTML se compone de elementos HTML como formularios, texto, imágenes, animaciones, enlaces, etc. Estos elementos están representados por etiquetas como img, a, p y varias otras donde cada etiqueta tiene inicio y fin. También puede incorporar aplicaciones escritas en lenguajes de programación como JavaScript y hojas de estilo (CSS) para una representación general del diseño.
           link: "https://docs.fileformat.com/image/html/"
 
 ############################# More Formats ############################
@@ -367,7 +366,7 @@ more_formats:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison ofrece API de visualización de documentos para otros entornos de desarrollo populares"
 
     solution:
         # solution loop

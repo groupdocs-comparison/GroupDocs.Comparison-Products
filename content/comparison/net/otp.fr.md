@@ -1,4 +1,3 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -7,17 +6,17 @@ draft: false
 
 ############################# Head ############################
 head_title: "Comparez deux fichiers OTP dans .NET | API de comparaison de documents"
-head_description: "Comparez et fusionnez plus de deux fichiers OTP dans des applications C# .NET. Récupérez le résumé des différences dans le contenu, le texte et le style des fichiers, images et formats de document OTP."
+head_description: "Comparez et fusionnez plus de deux fichiers OTP dans des applications C# .NET. Récupérez le résumé des différences dans le contenu, le texte et le style des fichiers, images et formats de documents OTP."
 
 ############################# Header ############################
 title: "Comparez les fichiers OTP en C# .NET"
-description: "API de comparaison de documents .NET pour détecter les changements entre deux versions de fichiers OTP et exporter vers un document final avec un résumé détaillé des différences entre les documents comparés."
+description: "API de comparaison de documents .NET pour détecter les modifications entre deux versions de fichiers OTP et exporter vers un document final avec un résumé détaillé des différences entre les documents comparés."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Télécharger la version d'essai gratuite"
+    label: "Télécharger l'essai gratuit"
     link: "https://downloads.groupdocs.com/comparison/net"
 
 ############################# SubMenu ############################
@@ -25,28 +24,28 @@ submenu:
     enable: true
 
     left:
-        img_alt: "GroupDocs.Comparison pour .NET"
+        img_alt: "GroupDocs.Comparison for .NET"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-net.png"
         product: "GroupDocs.Comparison"
-        platform: ".FILET"
+        platform: ".NET"
 
     middle:
         button: 
-            # boucle de bouton
+            # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "Référence API"
 
-            # boucle de bouton
+            # button loop
             - link: "https://github.com/groupdocs-comparison"
-              text: "Exemples de code"
+              text: "Exemples de codes"
 
-            # boucle de bouton
+            # button loop
             - link: "https://products.groupdocs.app/comparison/family"
               text: "Démos en direct"
 
-            # boucle de bouton
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/net"
-              text: "Prix"
+              text: "Tarifs"
 
     right:
         link_download: "https://downloads.groupdocs.com/comparison"
@@ -56,53 +55,53 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "À propos de GroupDocs.Comparison pour l'API .NET"
+    title: "À propos de l'API GroupDocs.Comparison for .NET"
     content: |
-        [GroupDocs.Comparison pour .NET](/fr/comparison/net/) est une API .NET native permettant de comparer plusieurs images et documents du même format. Il vous aide à détecter les différences entre les paragraphes, les mots, les caractères, les formes, même les styles de texte des documents comparés, à fusionner les modifications et à les exporter vers un document final. Il prend en charge la comparaison et la fusion de PDF, de documents Word, de feuilles de calcul Excel, de présentations PowerPoint, de diagrammes Visio, d'e-mails Outlook, de HTML, de dessins et de formats de fichiers image sans utiliser de bibliothèque externe.
+        [GroupDocs.Comparison for .NET](/comparison/net/) est une API .NET native permettant de comparer plusieurs images et documents du même format. Il vous aide à détecter les différences entre les paragraphes, les mots, les caractères, les formes et même les styles de texte des documents comparés, à fusionner les modifications et à les exporter vers un document final. Il prend en charge la comparaison et la fusion de documents PDF, Word, feuilles de calcul Excel, présentations PowerPoint, diagrammes Visio, e-mails Outlook, HTML, dessins et formats de fichiers image sans utiliser de bibliothèque externe.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Étapes pour comparer les fichiers OTP en C#"
     content_left: |
-        [GroupDocs.Comparison](/comparison/net/) permet aux développeurs .NET de comparer et de fusionner facilement plusieurs fichiers OTP dans leurs applications en mettant en œuvre quelques étapes simples.
-        *   Instanciez l'objet **Comparateur** avec le chemin ou le flux du document source.
-        *   Appelez la méthode Add et spécifiez le chemin ou le flux du document cible. Répétez cette étape pour chaque document cible.
-        *   Appelez la méthode de comparaison.
+        [GroupDocs.Comparison](/comparison/net/) permet aux développeurs .NET de comparer et de fusionner facilement plusieurs fichiers OTP dans leurs applications en implémentant quelques étapes simples.
+        * Instanciez l'objet **Comparer** avec le chemin ou le flux du document source.
+        * Appelez la méthode Add et spécifiez le chemin ou le flux du document cible. Répétez cette étape pour chaque document cible.
+        * Appelez la méthode Compare.
     title_right: "Configuration requise"
     content_right: |
-        Les API GroupDocs.Comparison pour .NET sont prises en charge sur toutes les principales plateformes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.
-        *   Systèmes d'exploitation : Microsoft Windows, Linux, MacOS
-        *   Environnements de développement : Microsoft Visual Studio, Xamarin, MonoDevelop
-        *   Frameworks : .NET Framework, .NET Standard, .NET Core, Mono
-        *   Obtenez la dernière version de GroupDocs.Comparison pour .NET téléchargée depuis [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
+        Les API GroupDocs.Comparison for .NET sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les conditions préalables suivantes sont installées sur votre système.
+        * Systèmes d'exploitation : Microsoft Windows, Linux, MacOS
+        * Environnements de développement : Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Frameworks : .NET Framework, .NET Standard, .NET Core, Mono
+        * Obtenez la dernière version de GroupDocs.Comparison for .NET téléchargée depuis [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
     code: |
         ```cs
-        // Comparer plusieurs documents à partir du disque local
+        // Comparez plusieurs documents à partir du disque local
         
         using (Comparer comparer = new Comparer("source.otp"))
         {
         	comparer.Add("target1.otp");
             comparer.Add("target2.otp");
             comparer.Add("target3.otp");
-            comparer.Compare("result.otp"); // Crée un fichier résultat avec le nom spécifié
+            comparer.Compare("result.otp"); // Créer un fichier de résultats avec le nom spécifié
         }
         
-        // Comparer plusieurs documents à partir du flux
+        // Comparer plusieurs documents du flux
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.otp")))
         {
         	comparer.Add(File.OpenRead("target1.otp"));
             comparer.Add(File.OpenRead("target2.otp"));
             comparer.Add(File.OpenRead("target3.otp"));
-            comparer.Compare(File.Create("result.otp")); // Crée un fichier résultat avec le nom spécifié
+            comparer.Compare(File.Create("result.otp")); // Créer un fichier de résultats avec le nom spécifié
         }
         ```
 
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Démonstrations en direct de la comparaison de fichiers OTP"
+    title: "Démonstrations en direct de comparaison de fichiers OTP"
     content: |
         Détectez dès maintenant les différences entre les fichiers OTP en visitant le site Web [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family).
         La démo en direct présente les avantages suivants
@@ -115,7 +114,7 @@ about_formats:
         - icon: "far fa-file-otp"
           title: "À propos du format de fichier OTP"
           content: |
-            Les fichiers avec l'extension .OTP représentent des fichiers de modèle de présentation créés par des applications au format standard OASIS OpenDocument. Le contenu d'un tel fichier comprend des informations de présentation sous forme de diapositives avec du texte, des images, des formes, du contenu multimédia, des effets de transition et d'autres éléments de diapositive. Ces fichiers de modèle sont utilisés pour créer rapidement de nouvelles présentations en fonction des informations de style stockées dans le modèle lui-même. Les fichiers OTP peuvent être créés et enregistrés avec plusieurs applications différentes telles que Impress fourni avec la suite OpenOffice et Microsoft PowerPoint. Le format de fichier OTP est similaire aux fichiers de modèle Microsoft PowerPoint .POT et .POTX.
+            Les fichiers avec l'extension .OTP représentent des fichiers de modèles de présentation créés par des applications au format standard OASIS OpenDocument. Le contenu d'un tel fichier comprend des informations de présentation sous forme de diapositives avec du texte, des images, des formes, du contenu multimédia, des effets de transition et d'autres éléments de diapositive. Ces fichiers modèles sont utilisés pour créer rapidement de nouvelles présentations en fonction des informations de style stockées dans le modèle lui-même. Les fichiers OTP peuvent être créés et enregistrés avec plusieurs applications différentes telles que Impress fournie avec la suite OpenOffice et Microsoft PowerPoint. Le format de fichier OTP est similaire aux fichiers modèles Microsoft PowerPoint .POT et .POTX.
           link: "https://docs.fileformat.com/image/otp/"
 
 ############################# More Formats ############################
@@ -123,7 +122,7 @@ more_formats:
     enable: true
     title: "Comparaison d'autres formats de fichiers"
     content: |
-        API de comparaison de documents et d'images multiformats pour .NET. Analysez les différences entre des documents d'un même format sans utiliser d'outil externe.
+        API de comparaison de documents et d'images multiformats pour .NET. Analysez les différences entre des documents de même format sans utiliser d'outil externe.
     format: 
         # format loop
         - name: "Compare PDF Files"
@@ -373,7 +372,7 @@ more_formats:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison propose des API de visualisation de documents pour d'autres environnements de développement populaires"
 
     solution:
         # solution loop

@@ -1,4 +1,3 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -7,11 +6,11 @@ draft: false
 
 ############################# Head ############################
 head_title: "Compara dos archivos GIF en .NET | API de comparación de documentos"
-head_description: "Compare y combine más de dos archivos GIF en aplicaciones C# .NET. Recupere el resumen de diferencias en contenido, texto y estilo de GIF archivos, imágenes y formatos de documentos."
+head_description: "Compare y combine más de dos archivos GIF en aplicaciones C# .NET. Recupere un resumen de diferencias en contenido, texto y estilo de GIF archivos, imágenes y formatos de documentos."
 
 ############################# Header ############################
 title: "Comparar archivos GIF en C# .NET"
-description: "API de comparación de documentos .NET para detectar los cambios entre dos versiones de archivos GIF y exportar a un documento final con un resumen detallado de las diferencias entre los documentos comparados."
+description: "API de comparación de documentos .NET para detectar los cambios entre dos versiones de archivos GIF y exportarlos a un documento final con un resumen detallado de las diferencias entre los documentos comparados."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -25,26 +24,26 @@ submenu:
     enable: true
 
     left:
-        img_alt: "GroupDocs.Comparison para .NET"
+        img_alt: "GroupDocs.Comparison for .NET"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-net.png"
         product: "GroupDocs.Comparison"
-        platform: ".NETO"
+        platform: ".NET"
 
     middle:
         button: 
-            # bucle de botón
+            # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
-              text: "Referencia API"
+              text: "Referencia de API"
 
-            # bucle de botón
+            # button loop
             - link: "https://github.com/groupdocs-comparison"
               text: "Ejemplos de código"
 
-            # bucle de botón
+            # button loop
             - link: "https://products.groupdocs.app/comparison/family"
               text: "Demostraciones en vivo"
 
-            # bucle de botón
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/net"
               text: "Precios"
 
@@ -56,29 +55,29 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Acerca de GroupDocs.Comparison para la API de .NET"
+    title: "Acerca de la API GroupDocs.Comparison for .NET"
     content: |
-        [GroupDocs.Comparison for .NET](/es/comparison/net/) es una API nativa de .NET para comparar varias imágenes y documentos del mismo formato. Le ayuda a detectar las diferencias dentro de los párrafos, palabras, caracteres, formas, incluso los estilos de texto de los documentos comparados, fusionar los cambios y exportar a un documento final. Admite la comparación y combinación de PDF, documentos de Word, hojas de cálculo de Excel, presentaciones de PowerPoint, diagramas de Visio, correos electrónicos de Outlook, HTML, dibujos y formatos de archivo de imagen sin utilizar ninguna biblioteca externa.
+        [GroupDocs.Comparison for .NET](/comparison/net/) es una API .NET nativa para comparar múltiples imágenes y documentos del mismo formato. Le ayuda a detectar las diferencias dentro de párrafos, palabras, caracteres, formas e incluso los estilos de texto de los documentos comparados, fusionar los cambios y exportarlos a un documento final. Admite comparar y combinar PDF, documentos de Word, hojas de cálculo de Excel, presentaciones de PowerPoint, diagramas de Visio, correos electrónicos de Outlook, HTML, dibujos y formatos de archivos de imágenes sin utilizar ninguna biblioteca externa.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Pasos para comparar archivos GIF en C#"
     content_left: |
-        [GroupDocs.Comparison](/comparison/net/) facilita a los desarrolladores de .NET comparar y fusionar varios archivos GIF en sus aplicaciones mediante la implementación de unos sencillos pasos.
-        *   Crea una instancia del objeto **Comparador** con la ruta o flujo del documento de origen.
-        *   Llame al método Agregar y especifique la ruta o secuencia del documento de destino. Repita este paso para cada documento de destino.
-        *   Método de comparación de llamadas.
+        [GroupDocs.Comparison](/comparison/net/) facilita a los desarrolladores .NET comparar y fusionar múltiples archivos GIF en sus aplicaciones implementando unos sencillos pasos.
+        * Crear una instancia del objeto **Comparador** con la ruta o flujo del documento fuente.
+        * Llame al método Agregar y especifique la ruta o secuencia del documento de destino. Repita este paso para cada documento de destino.
+        * Llamar al método de comparación.
     title_right: "Requisitos del sistema"
     content_right: |
-        Las API de GroupDocs.Comparison para .NET son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.
-        *   Sistemas Operativos: Microsoft Windows, Linux, Mac OS
-        *   Entornos de desarrollo: Microsoft Visual Studio, Xamarin, MonoDevelop
-        *   Marcos: .NET Framework, .NET Standard, .NET Core, Mono
-        *   Obtenga la última versión de GroupDocs.Comparison para .NET descargada de [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
+        Las API de GroupDocs.Comparison for .NET son compatibles con las principales plataformas y sistemas operativos. Antes de ejecutar el código siguiente, asegúrese de tener los siguientes requisitos previos instalados en su sistema.
+        * Sistemas operativos: Microsoft Windows, Linux, MacOS
+        * Entornos de desarrollo: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Marcos: .NET Framework, .NET Standard, .NET Core, Mono
+        * Obtenga la última versión de GroupDocs.Comparison for .NET descargada de [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
     code: |
         ```cs
-        // Compara múltiples documentos del disco local
+        // Comparar varios documentos desde el disco local
         
         using (Comparer comparer = new Comparer("source.gif"))
         {
@@ -88,7 +87,7 @@ steps:
             comparer.Compare("result.gif"); // Crear archivo de resultados con el nombre especificado
         }
         
-        // Comparar múltiples documentos de flujo
+        // Compara varios documentos de la secuencia
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.gif")))
         {
@@ -102,9 +101,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Demostraciones en vivo de la comparación de archivos GIF"
+    title: "Demostraciones en vivo de comparación de archivos GIF"
     content: |
-        Detecte las diferencias entre los archivos GIF ahora mismo visitando el sitio web [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family).
+        Detecte diferencias entre archivos GIF ahora mismo visitando el sitio web [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family).
         La demostración en vivo tiene los siguientes beneficios
 
 ############################# About Formats ############################
@@ -115,13 +114,13 @@ about_formats:
         - icon: "far fa-file-gif"
           title: "Acerca del formato de archivo GIF"
           content: |
-            Un GIF o formato de intercambio gráfico es un tipo de imagen altamente comprimida. GIF, propiedad de Unisys, utiliza el algoritmo de compresión LZW que no degrada la calidad de la imagen. Para cada imagen, el GIF generalmente permite hasta 8 bits por píxel y hasta 256 colores en la imagen. A diferencia de una imagen JPEG, que puede mostrar hasta 16 millones de colores y toca bastante los límites del ojo humano. Cuando surgió Internet, los GIF seguían siendo la mejor opción porque requerían un ancho de banda bajo y eran compatibles con los gráficos que consumen áreas sólidas de color. Un GIF animado combina numerosas imágenes o marcos en un solo archivo y los muestra en una secuencia para generar un clip animado o un video corto. Las limitaciones de color son de hasta 256 para cada fotograma y es probable que sean las menos adecuadas para reproducir otras imágenes y fotografías con degradado de color.
+            Un GIF o formato de intercambio gráfico es un tipo de imagen altamente comprimida. Propiedad de Unisys, GIF utiliza el algoritmo de compresión LZW que no degrada la calidad de la imagen. Para cada imagen, GIF normalmente permite hasta 8 bits por píxel y se permiten hasta 256 colores en la imagen. A diferencia de una imagen JPEG, que puede mostrar hasta 16 millones de colores y roza bastante los límites del ojo humano. Cuando surgió Internet, los GIF seguían siendo la mejor opción porque requerían poco ancho de banda y eran compatibles con los gráficos que consumen áreas sólidas de color. Un GIF animado combina numerosas imágenes o fotogramas en un solo archivo y los muestra en una secuencia para generar un clip animado o un vídeo corto. Las limitaciones de color son de hasta 256 para cada cuadro y probablemente sean las menos adecuadas para reproducir otras imágenes y fotografías con degradado de color.
           link: "https://docs.fileformat.com/image/gif/"
 
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Comparación de otros formatos de archivo"
+    title: "Comparar otros formatos de archivo"
     content: |
         API de comparación de imágenes y documentos multiformato para .NET. Analiza las diferencias entre documentos del mismo formato sin utilizar ninguna herramienta externa.
     format: 
@@ -373,7 +372,7 @@ more_formats:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison ofrece API de visualización de documentos para otros entornos de desarrollo populares"
 
     solution:
         # solution loop

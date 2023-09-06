@@ -1,4 +1,3 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -6,11 +5,11 @@ date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "API de comparación de Java DOC - Compara archivos de DOC en busca de diferencias"
+head_title: "API de comparación Java DOC: compare archivos DOC en busca de diferencias"
 head_description: "Compare y combine archivos DOC en aplicaciones Java, J2EE, J2SE. Analice el resumen de diferencias en contenido, texto y estilo de DOC archivos, imágenes y formatos de documentos."
 
 ############################# Header ############################
-title: "Compara archivos DOC en Java"
+title: "Comparar archivos DOC en Java"
 description: "Realice una comparación línea por línea entre más de dos archivos DOC en Java. Recupere una lista de diferencias y guarde los archivos comparados en un solo documento."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -25,26 +24,26 @@ submenu:
     enable: true
 
     left:
-        img_alt: "GroupDocs.Comparison para Java"
+        img_alt: "GroupDocs.Comparison for Java"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-java.png"
         product: "GroupDocs.Comparison"
         platform: "Java"
 
     middle:
         button: 
-            # bucle de botón
+            # button loop
             - link: "https://apireference.groupdocs.com/comparison/java"
-              text: "Referencia API"
+              text: "Referencia de API"
 
-            # bucle de botón
+            # button loop
             - link: "https://github.com/groupdocs-comparison"
               text: "Ejemplos de código"
 
-            # bucle de botón
+            # button loop
             - link: "https://products.groupdocs.app/comparison/family"
               text: "Demostraciones en vivo"
 
-            # bucle de botón
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/java"
               text: "Precios"
 
@@ -56,9 +55,9 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Acerca de GroupDocs. Comparación para la API de Java"
+    title: "Acerca de la API GroupDocs.Comparison for Java"
     content: |
-        Potencie sus aplicaciones Java con funciones de comparación de imágenes y documentos utilizando la API [GroupDocs.Comparison for Java](/es/comparison/java/). Le ayuda a identificar las diferencias dentro de los párrafos, palabras, caracteres, formas, incluso los estilos de texto de los documentos comparados del mismo formato, permite fusionar los cambios y exportarlos a un documento final. Admite la comparación y combinación de una amplia gama de documentos, incluidos PDF, Word, hojas de cálculo de Excel, presentaciones de PowerPoint, diagramas de Visio, correos electrónicos de Outlook, HTML, dibujos y formatos de archivo de imagen sin utilizar ninguna biblioteca externa.
+        Mejore sus aplicaciones Java con funciones de comparación de imágenes y documentos utilizando la API [GroupDocs.Comparison for Java](/comparison/java/). Le ayuda a identificar las diferencias dentro de párrafos, palabras, caracteres, formas, incluso los estilos de texto de los documentos comparados del mismo formato, permite fusionar los cambios y exportarlos a un documento final. Admite comparar y fusionar una amplia gama de documentos, incluidos PDF, Word, hojas de cálculo de Excel, presentaciones de PowerPoint, diagramas de Visio, correos electrónicos de Outlook, HTML, dibujos y formatos de archivos de imágenes sin utilizar ninguna biblioteca externa.
 
 ############################# Steps ############################
 steps:
@@ -66,16 +65,16 @@ steps:
     title_left: "Pasos para comparar archivos DOC en Java"
     content_left: |
         [GroupDocs.Comparison](/comparison/java/) facilita a los desarrolladores de Java comparar archivos DOC dentro de sus aplicaciones utilizando unas pocas líneas de código.
-        *   Crea una instancia del objeto **Comparador** con la ruta o flujo del documento de origen.
-        *   Llame al método add y especifique la ruta o secuencia del documento de destino.
-        *   Método de comparación de llamadas.
+        * Crear una instancia del objeto **Comparador** con la ruta o flujo del documento fuente.
+        * Llame al método add y especifique la ruta o secuencia del documento de destino.
+        * Llame al método de comparación.
     title_right: "Requisitos del sistema"
     content_right: |
-        Las API de GroupDocs.Comparison para Java son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.
-        *   Sistemas Operativos: Microsoft Windows, Linux, Mac OS
-        *   Entorno de desarrollo: NetBeans, Intellij IDEA, Eclipse, etc.
-        *   Java Runtime Environment: J2SE 6.0 y superior
-        *   Obtenga la última versión de GroupDocs.Comparison para Java de [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
+        Las API de GroupDocs.Comparison for Java son compatibles con las principales plataformas y sistemas operativos. Antes de ejecutar el código siguiente, asegúrese de tener los siguientes requisitos previos instalados en su sistema.
+        * Sistemas operativos: Microsoft Windows, Linux, MacOS
+        * Entornos de desarrollo: NetBeans, Intellij IDEA, Eclipse etc
+        * Entorno de ejecución Java: J2SE 6.0 y superior
+        * Obtenga la última versión de GroupDocs.Comparison for Java de [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
     code: |
         ```java
         // Comparar documentos del archivo local
@@ -85,7 +84,7 @@ steps:
             comparer.compare("C:\\result.doc"); // Crear archivo de resultados con el nombre especificado
         }
         
-        // Comparar documentos de stream
+        // Comparar documentos de la secuencia
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.doc"))) {
             comparer.add(new FileInputStream("C:\\target.doc"));
@@ -109,7 +108,7 @@ about_formats:
         - icon: "far fa-file-doc"
           title: "Acerca del formato de archivo DOC"
           content: |
-            Los archivos con extensión .doc representan documentos generados por Microsoft Word u otros documentos de procesamiento de texto en formato de archivo binario. La extensión se usó inicialmente para la documentación de texto sin formato en varios sistemas operativos diferentes. Puede contener varios tipos diferentes de datos, como imágenes, texto formateado y sin formato, gráficos, tablas, objetos incrustados, enlaces, páginas, formato de página, configuraciones de impresión y muchos otros. El formato fue popular para todo tipo de documentación debido a la variedad de opciones que ofrece a los usuarios para escribir manuales, propuestas, especificaciones, currículos, artículos o cualquier documento similar. La versión actualizada de DOC es DOCX, que se basa en Office OpenXML cuyas especificaciones están disponibles abiertamente.
+            Los archivos con extensión .doc representan documentos generados por Microsoft Word u otros documentos de procesamiento de textos en formato de archivo binario. La extensión se utilizó inicialmente para documentación de texto plano en varios sistemas operativos diferentes. Puede contener varios tipos diferentes de datos, como imágenes, texto formateado y sin formato, gráficos, tablas, objetos incrustados, enlaces, páginas, formato de página, configuraciones de impresión y muchos otros. El formato fue popular para todo tipo de documentación debido a la variedad de opciones que ofrece a los usuarios para redactar manuales, propuestas, especificaciones, currículums, artículos o cualquier documento similar. La versión actualizada de DOC es DOCX, que se basa en Office OpenXML cuyas especificaciones están disponibles abiertamente.
           link: "https://docs.fileformat.com/image/doc/"
 
 ############################# More Formats ############################
@@ -367,7 +366,7 @@ more_formats:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison ofrece API de visualización de documentos para otros entornos de desarrollo populares"
 
     solution:
         # solution loop

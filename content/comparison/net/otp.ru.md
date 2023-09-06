@@ -1,4 +1,3 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -6,12 +5,12 @@ date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "Сравните два файла OTP в .NET | API сравнения документов"
-head_description: "Сравните и объедините более двух файлов OTP в приложениях C# .NET. Получите сводку о различиях в содержимом, тексте и стиле файлов OTP, изображениях и форматах документов."
+head_title: "Сравните два файла OTP в .NET | API-интерфейсы сравнения документов"
+head_description: "Сравнивайте и объединяйте более двух файлов OTP в приложениях C# .NET. Получите сводную информацию о различиях в содержании, тексте и стиле файлов, изображений и форматов документов OTP."
 
 ############################# Header ############################
-title: "Сравните файлы OTP в C# .NET"
-description: ".NET API для сравнения документов для обнаружения изменений между двумя версиями файлов OTP и экспорта в окончательный документ с подробным описанием различий между сравниваемыми документами."
+title: "Сравнить файлы OTP в C# .NET"
+description: "API сравнения документов .NET для обнаружения изменений между двумя версиями файлов OTP и экспорта в окончательный документ с подробным описанием различий между сравниваемыми документами."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -25,7 +24,7 @@ submenu:
     enable: true
 
     left:
-        img_alt: "GroupDocs.Comparison для .NET"
+        img_alt: "GroupDocs.Comparison for .NET"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-net.png"
         product: "GroupDocs.Comparison"
         platform: ".NET"
@@ -42,7 +41,7 @@ submenu:
 
             # button loop
             - link: "https://products.groupdocs.app/comparison/family"
-              text: "Живые демонстрации"
+              text: "Живые Демо"
 
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/net"
@@ -56,47 +55,46 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "О GroupDocs.Comparison для .NET API"
+    title: "Об API GroupDocs.Comparison for .NET"
     content: |
-        [GroupDocs.Comparison for .NET](/ru/comparison/net/) — это собственный API .NET для сравнения нескольких изображений и документов одного формата. Он помогает обнаруживать различия в абзацах, словах, символах, формах и даже стилях текста сравниваемых документов, объединять изменения и экспортировать их в окончательный документ. Он поддерживает сравнение и объединение PDF, документов Word, электронных таблиц Excel, презентаций PowerPoint, диаграмм Visio, электронных писем Outlook, HTML, рисунков и форматов файлов изображений без использования какой-либо внешней библиотеки.
+        [GroupDocs.Comparison for .NET](/comparison/net/) — это собственный API .NET для сравнения нескольких изображений и документов одного и того же формата. Он помогает обнаружить различия в абзацах, словах, символах, фигурах и даже в стилях текста сравниваемых документов, объединить изменения и экспортировать их в окончательный документ. Он поддерживает сравнение и объединение PDF-файлов, документов Word, электронных таблиц Excel, презентаций PowerPoint, диаграмм Visio, электронных писем Outlook, HTML, рисунков и форматов файлов изображений без использования какой-либо внешней библиотеки.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги для сравнения файлов OTP в C#"
+    title_left: "Действия по сравнению файлов OTP в C#"
     content_left: |
-        [GroupDocs.Comparison](/ru/comparison/net/) позволяет разработчикам .NET легко сравнивать и объединять несколько файлов OTP в своих приложениях, выполняя несколько простых шагов.
-        
-        * Создание экземпляра объекта Comparer с путем или потоком исходного документа.
-        * Вызовите метод Add и укажите путь к целевому документу или поток. Повторите этот шаг для каждого целевого документа.
-        * Метод сравнения вызовов.
-    
+        [GroupDocs.Comparison](/comparison/net/) позволяет разработчикам .NET сравнивать и объединять несколько файлов OTP в своих приложениях, выполнив несколько простых шагов.
+        * Создайте экземпляр объекта **Comparer** с путем или потоком исходного документа.
+        * Вызовите метод Add и укажите путь или поток целевого документа. Повторите этот шаг для каждого целевого документа.
+        * Вызов метода сравнения.
     title_right: "Системные Требования"
     content_right: |
-        API GroupDocs.Comparison для .NET поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
-        
-        * Операционные системы: Microsoft Windows, Linux, MacOS
+        API GroupDocs.Comparison for .NET поддерживаются на всех основных платформах и операционных системах. Прежде чем выполнять приведенный ниже код, убедитесь, что в вашей системе установлены следующие необходимые компоненты.
+        * Операционные системы: Microsoft Windows, Linux, MacOS.
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
-        * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Comparison для .NET, загруженную с [NuGet](https://www.nuget.org/packages/groupdocs.comparison).
-    
+        * Платформы: .NET Framework, .NET Standard, .NET Core, Mono.
+        * Загрузите последнюю версию GroupDocs.Comparison for .NET с сайта [NuGet](https://www.nuget.org/packages/groupdocs.comparison).
     code: |
         ```cs
-        // Сравните несколько документов с локального диска
+        // Сравнить несколько документов с локального диска
+        
         using (Comparer comparer = new Comparer("source.otp"))
         {
         	comparer.Add("target1.otp");
             comparer.Add("target2.otp");
             comparer.Add("target3.otp");
-            comparer.Compare("result.otp"); // Создать результирующий файл с указанным именем
+            comparer.Compare("result.otp"); // Создать файл результатов с указанным именем
         }
-        // Сравните несколько документов из потока
+        
+        // Сравнить несколько документов из потока
+        
         using (Comparer comparer = new Comparer(File.OpenRead("source.otp")))
         {
         	comparer.Add(File.OpenRead("target1.otp"));
             comparer.Add(File.OpenRead("target2.otp"));
             comparer.Add(File.OpenRead("target3.otp"));
-            comparer.Compare(File.Create("result.otp")); // Создать результирующий файл с указанным именем
+            comparer.Compare(File.Create("result.otp")); // Создать файл результатов с указанным именем
         }
         ```
 
@@ -105,7 +103,7 @@ demos:
     enable: true
     title: "Живые демонстрации сравнения файлов OTP"
     content: |
-        Обнаружьте различия между файлами OTP прямо сейчас, посетив [живые демонстрации](https://products.groupdocs.app/comparison/family). 
+        Обнаружьте различия между файлами OTP прямо сейчас, посетив веб-сайт [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family).
         Живая демонстрация имеет следующие преимущества
 
 ############################# About Formats ############################
@@ -116,7 +114,7 @@ about_formats:
         - icon: "far fa-file-otp"
           title: "О формате файла OTP"
           content: |
-            Файлы с расширением .OTP представляют собой файлы шаблонов презентаций, созданные приложениями в стандартном формате OASIS OpenDocument. Содержимое такого файла включает презентационную информацию в виде слайдов с текстом, изображениями, фигурами, мультимедийным содержимым, эффектами перехода и другими элементами слайдов. Эти файлы шаблонов используются для быстрого создания новых презентаций на основе информации о стилях, хранящейся в самом шаблоне. Файлы OTP можно создавать и сохранять с помощью нескольких различных приложений, таких как Impress, поставляемый с пакетом OpenOffice, и Microsoft PowerPoint. Формат файла OTP аналогичен файлам шаблонов Microsoft PowerPoint .POT и .POTX.
+            Файлы с расширением .OTP представляют собой файлы шаблонов презентаций, созданные приложениями в стандартном формате OASIS OpenDocument. Содержимое такого файла включает в себя презентационную информацию в виде слайдов с текстом, изображениями, фигурами, мультимедийным контентом, эффектами перехода и другими элементами слайда. Эти файлы шаблонов используются для быстрого создания новых презентаций на основе информации о стиле, хранящейся в самом шаблоне. Файлы OTP можно создавать и сохранять с помощью нескольких различных приложений, таких как Impress, входящий в состав пакета OpenOffice, и Microsoft PowerPoint. Формат файла OTP аналогичен файлам шаблонов Microsoft PowerPoint .POT и .POTX.
           link: "https://docs.fileformat.com/image/otp/"
 
 ############################# More Formats ############################
@@ -124,213 +122,257 @@ more_formats:
     enable: true
     title: "Сравнение других форматов файлов"
     content: |
-        API сравнения мультиформатных документов и изображений для .NET. Анализируйте различия между документами одного формата без использования каких-либо внешних инструментов.
+        API сравнения многоформатных документов и изображений для .NET. Анализируйте различия между документами одного и того же формата без использования каких-либо внешних инструментов.
     format: 
         # format loop
-        - name: "Сравнить файлы PDF"
-          link: "/comparison/net/pdf/"
+        - name: "Compare PDF Files"
+          link: "https://products.groupdocs.com/comparison/net/pdf/"
           description: "Adobe Portable Document Format"
+
         # format loop
-        - name: "Сравнить файлы DOC"
-          link: "/comparison/net/doc/"
-          description: "Документ Microsoft Word"
+        - name: "Compare DOC Files"
+          link: "https://products.groupdocs.com/comparison/net/doc/"
+          description: "Microsoft Word Document"
+
         # format loop
-        - name: "Сравнить файлы DOCM"
-          link: "/comparison/net/docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
+        - name: "Compare DOCM Files"
+          link: "https://products.groupdocs.com/comparison/net/docm/"
+          description: "Microsoft Word Macro-Enabled Document"
+
         # format loop
-        - name: "Сравнить файлы DOCX"
-          link: "/comparison/net/docx/"
-          description: "Документ Microsoft Word с открытым XML"
+        - name: "Compare DOCX Files"
+          link: "https://products.groupdocs.com/comparison/net/docx/"
+          description: "Microsoft Word Open XML Document"
+
         # format loop
-        - name: "Сравнить файлы DOT"
-          link: "/comparison/net/dot/"
-          description: "Шаблон документа Microsoft Word"
+        - name: "Compare DOT Files"
+          link: "https://products.groupdocs.com/comparison/net/dot/"
+          description: "Microsoft Word Document Template"
+
         # format loop
-        - name: "Сравнить файлы DOTM"
-          link: "/comparison/net/dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
+        - name: "Compare DOTM Files"
+          link: "https://products.groupdocs.com/comparison/net/dotm/"
+          description: "Microsoft Word Macro-Enabled Template"
+
         # format loop
-        - name: "Сравнить файлы DOTX"
-          link: "/comparison/net/dotx/"
-          description: "Шаблон документа Word Open XML"
+        - name: "Compare DOTX Files"
+          link: "https://products.groupdocs.com/comparison/net/dotx/"
+          description: "Word Open XML Document Template"
+
         # format loop
-        - name: "Сравнить файлы RTF"
-          link: "/comparison/net/rtf/"
-          description: "Расширенный текстовый формат файла"
+        - name: "Compare RTF Files"
+          link: "https://products.groupdocs.com/comparison/net/rtf/"
+          description: "Rich Text File Format"
+
         # format loop
-        - name: "Сравнить файлы TXT"
-          link: "/comparison/net/txt/"
-          description: "Формат обычного текстового файла"
+        - name: "Compare TXT Files"
+          link: "https://products.groupdocs.com/comparison/net/txt/"
+          description: "Plain Text File Format"
+
         # format loop
-        - name: "Сравнить файлы XLS"
-          link: "/comparison/net/xls/"
-          description: "Формат двоичного файла Microsoft Excel"
+        - name: "Compare XLS Files"
+          link: "https://products.groupdocs.com/comparison/net/xls/"
+          description: "Microsoft Excel Binary File Format"
+
         # format loop
-        - name: "Сравнить файлы XLSX"
-          link: "/comparison/net/xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
+        - name: "Compare XLSX Files"
+          link: "https://products.groupdocs.com/comparison/net/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
         # format loop
-        - name: "Сравнить файлы XLTM"
-          link: "/comparison/net/xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
+        - name: "Compare XLTM Files"
+          link: "https://products.groupdocs.com/comparison/net/xltm/"
+          description: "Microsoft Excel macro-enabled template"
+
         # format loop
-        - name: "Сравнить файлы XLSM"
-          link: "/comparison/net/xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
+        - name: "Compare XLSM Files"
+          link: "https://products.groupdocs.com/comparison/net/xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+
         # format loop
-        - name: "Сравнить файлы XLSB"
-          link: "/comparison/net/xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
+        - name: "Compare XLSB Files"
+          link: "https://products.groupdocs.com/comparison/net/xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
+
         # format loop
-        - name: "Сравнить файлы CSV"
-          link: "/comparison/net/csv/"
-          description: "Файл значений, разделенных запятыми"
+        - name: "Compare CSV Files"
+          link: "https://products.groupdocs.com/comparison/net/csv/"
+          description: "Comma Separated Values File"
+
         # format loop
-        - name: "Сравнить файлы PPT"
-          link: "/comparison/net/ppt/"
-          description: "Презентация PowerPoint"
+        - name: "Compare PPT Files"
+          link: "https://products.groupdocs.com/comparison/net/ppt/"
+          description: "PowerPoint Presentation"
+
         # format loop
-        - name: "Сравнить файлы PPS"
-          link: "/comparison/net/pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
+        - name: "Compare PPS Files"
+          link: "https://products.groupdocs.com/comparison/net/pps/"
+          description: "Microsoft PowerPoint Slide Show"
+
         # format loop
-        - name: "Сравнить файлы PPTX"
-          link: "/comparison/net/pptx/"
-          description: "Презентация PowerPoint Open XML"
+        - name: "Compare PPTX Files"
+          link: "https://products.groupdocs.com/comparison/net/pptx/"
+          description: "PowerPoint Open XML Presentation"
+
         # format loop
-        - name: "Сравнить файлы PPSX"
-          link: "/comparison/net/ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
+        - name: "Compare PPSX Files"
+          link: "https://products.groupdocs.com/comparison/net/ppsx/"
+          description: "PowerPoint Open XML Slide Show"
+
         # format loop
-        - name: "Сравнить файлы POT"
-          link: "/comparison/net/pot/"
-          description: "Шаблон Microsoft PowerPoint"
+        - name: "Compare POT Files"
+          link: "https://products.groupdocs.com/comparison/net/pot/"
+          description: "Microsoft PowerPoint template"
+
         # format loop
-        - name: "Сравнить файлы POTX"
-          link: "/comparison/net/potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
+        - name: "Compare POTX Files"
+          link: "https://products.groupdocs.com/comparison/net/potx/"
+          description: "Microsoft PowerPoint Open XML Template"
+
         # format loop
-        - name: "Сравнить файлы ODS"
-          link: "/comparison/net/ods/"
-          description: "Открыть электронную таблицу документов"
+        - name: "Compare ODS Files"
+          link: "https://products.groupdocs.com/comparison/net/ods/"
+          description: "Open Document Spreadsheet"
+
         # format loop
-        - name: "Сравнить файлы ODP"
-          link: "/comparison/net/odp/"
-          description: "Формат файла презентации OpenDocument"
+        - name: "Compare ODP Files"
+          link: "https://products.groupdocs.com/comparison/net/odp/"
+          description: "OpenDocument Presentation File Format"
+
         # format loop
-        - name: "Сравнить файлы OTP"
-          link: "/comparison/net/otp/"
-          description: "Шаблон графика происхождения"
+        - name: "Compare OTP Files"
+          link: "https://products.groupdocs.com/comparison/net/otp/"
+          description: "Origin Graph Template"
+
         # format loop
-        - name: "Сравнить файлы ODT"
-          link: "/comparison/net/odt/"
-          description: "Открыть текст документа"
+        - name: "Compare ODT Files"
+          link: "https://products.groupdocs.com/comparison/net/odt/"
+          description: "Open Document Text"
+
         # format loop
-        - name: "Сравнить файлы OTT"
-          link: "/comparison/net/ott/"
-          description: "Открыть шаблон документа"
+        - name: "Compare OTT Files"
+          link: "https://products.groupdocs.com/comparison/net/ott/"
+          description: "Open Document Template"
+
         # format loop
-        - name: "Сравнить файлы VST"
-          link: "/comparison/net/vst/"
-          description: "Microsoft Visio 2003-2010 XML-чертеж"
+        - name: "Compare VST Files"
+          link: "https://products.groupdocs.com/comparison/net/vst/"
+          description: "Microsoft Visio 2003-2010 XML Drawing"
+
         # format loop
-        - name: "Сравнить файлы TIFF"
-          link: "/comparison/net/tiff/"
-          description: "Формат файла изображения с тегами"
+        - name: "Compare JPEG Files"
+          link: "https://products.groupdocs.com/comparison/net/jpeg/"
+          description: "JPEG Image"
+
         # format loop
-        - name: "Сравнить файлы JPEG"
-          link: "/comparison/net/jpeg/"
-          description: "Изображение в формате JPEG"
+        - name: "Compare PNG Files"
+          link: "https://products.groupdocs.com/comparison/net/png/"
+          description: "Portable Network Graphic"
+
         # format loop
-        - name: "Сравнить файлы PNG"
-          link: "/comparison/net/png/"
-          description: "Портативная сетевая графика"
+        - name: "Compare GIF Files"
+          link: "https://products.groupdocs.com/comparison/net/gif/"
+          description: "Graphical Interchange Format File"
+
         # format loop
-        - name: "Сравнить файлы GIF"
-          link: "/comparison/net/gif/"
-          description: "Графический файл формата обмена"
+        - name: "Compare BMP Files"
+          link: "https://products.groupdocs.com/comparison/net/bmp/"
+          description: "Bitmap File Format"
+
         # format loop
-        - name: "Сравнить файлы BMP"
-          link: "/comparison/net/bmp/"
-          description: "Формат растрового файла"
+        - name: "Compare HTML Files"
+          link: "https://products.groupdocs.com/comparison/net/html/"
+          description: "Hyper Text Markup Language"
+
         # format loop
-        - name: "Сравнить файлы HTML"
-          link: "/comparison/net/html/"
-          description: "Язык гипертекстовой разметки"
+        - name: "Compare MHT Files"
+          link: "https://products.groupdocs.com/comparison/net/mht/"
+          description: "Mime HTML"
+
         # format loop
-        - name: "Сравнить файлы MHT"
-          link: "/comparison/net/mht/"
-          description: "HTML-пантомима"
+        - name: "Compare MHTML Files"
+          link: "https://products.groupdocs.com/comparison/net/mhtml/"
+          description: "MIME Encapsulation of Aggregate HTML"
+
         # format loop
-        - name: "Сравнить файлы MHTML"
-          link: "/comparison/net/mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
+        - name: "Compare MSG Files"
+          link: "https://products.groupdocs.com/comparison/net/msg/"
+          description: "Microsoft Outlook E-mail Message"
+
         # format loop
-        - name: "Сравнить файлы MSG"
-          link: "/comparison/net/msg/"
-          description: "Сообщение электронной почты Microsoft Outlook"
+        - name: "Compare EML Files"
+          link: "https://products.groupdocs.com/comparison/net/eml/"
+          description: "E-mail Message"
+
         # format loop
-        - name: "Сравнить файлы EML"
-          link: "/comparison/net/eml/"
-          description: "Сообщение электронной почты"
+        - name: "Compare EMLX Files"
+          link: "https://products.groupdocs.com/comparison/net/emlx/"
+          description: "Apple Mail E-mail File"
+
         # format loop
-        - name: "Сравнить файлы EMLX"
-          link: "/comparison/net/emlx/"
-          description: "Файл электронной почты Apple Mail"
+        - name: "Compare ONE Files"
+          link: "https://products.groupdocs.com/comparison/net/one/"
+          description: "Microsoft OneNote"
+
         # format loop
-        - name: "Сравнить файлы ONE"
-          link: "/comparison/net/one/"
-          description: "Майкрософт OneNote"
+        - name: "Compare VSD Files"
+          link: "https://products.groupdocs.com/comparison/net/vsd/"
+          description: "Microsoft Visio 2003-2010 Drawing"
+
         # format loop
-        - name: "Сравнить файлы VSD"
-          link: "/comparison/net/vsd/"
-          description: "Чертеж Microsoft Visio 2003-2010"
+        - name: "Compare VSDX Files"
+          link: "https://products.groupdocs.com/comparison/net/vsdx/"
+          description: "Microsoft Visio Drawing"
+
         # format loop
-        - name: "Сравнить файлы VSDX"
-          link: "/comparison/net/vsdx/"
-          description: "Рисование Microsoft Visio"
+        - name: "Compare VSS Files"
+          link: "https://products.groupdocs.com/comparison/net/vss/"
+          description: "Microsoft Visio 2003-2010 Stencil"
+
         # format loop
-        - name: "Сравнить файлы VSS"
-          link: "/comparison/net/vss/"
-          description: "Трафарет Microsoft Visio 2003-2010"
+        - name: "Compare VST Files"
+          link: "https://products.groupdocs.com/comparison/net/vst/"
+          description: "Microsoft Visio 2003-2010 Template"
+
         # format loop
-        - name: "Сравнить файлы VST"
-          link: "/comparison/net/vst/"
-          description: "Шаблон Microsoft Visio 2003-2010"
+        - name: "Compare VDX Files"
+          link: "https://products.groupdocs.com/comparison/net/vdx/"
+          description: "Microsoft Visio 2003-2010 XML Drawing"
+
         # format loop
-        - name: "Сравнить файлы VDX"
-          link: "/comparison/net/vdx/"
-          description: "Microsoft Visio 2003-2010 XML-чертеж"
+        - name: "Compare CS Files"
+          link: "https://products.groupdocs.com/comparison/net/cs/"
+          description: "CSharp Language"
+
         # format loop
-        - name: "Сравнить файлы CS"
-          link: "/comparison/net/cs/"
-          description: "Язык CSharp"
+        - name: "Compare Java Files"
+          link: "https://products.groupdocs.com/comparison/net/java/"
+          description: "Java Language"
+
         # format loop
-        - name: "Сравнить файлы Java"
-          link: "/comparison/net/java/"
-          description: "Язык Java"
+        - name: "Compare CPP Files"
+          link: "https://products.groupdocs.com/comparison/net/cpp/"
+          description: "C++ Language"
+
         # format loop
-        - name: "Сравнить файлы CPP"
-          link: "/comparison/net/cpp/"
-          description: "Язык С++"
+        - name: "Compare JS Files"
+          link: "https://products.groupdocs.com/comparison/net/js/"
+          description: "JavaScript Language"
+
         # format loop
-        - name: "Сравнить файлы JS"
-          link: "/comparison/net/js/"
-          description: "Язык JavaScript"
+        - name: "Compare PY Files"
+          link: "https://products.groupdocs.com/comparison/net/py/"
+          description: "Python Language"
+
         # format loop
-        - name: "Сравнить файлы PY"
-          link: "/comparison/net/py/"
-          description: "Язык Python"
-        # format loop
-        - name: "Сравнить файлы RB"
-          link: "/comparison/net/rb/"
-          description: "Рубиновый язык"
+        - name: "Compare RB Files"
+          link: "https://products.groupdocs.com/comparison/net/rb/"
+          description: "Ruby Language"
 
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison предлагает API-интерфейсы просмотра документов для других популярных сред разработки."
 
     solution:
         # solution loop

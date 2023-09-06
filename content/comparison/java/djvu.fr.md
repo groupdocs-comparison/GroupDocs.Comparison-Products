@@ -1,4 +1,3 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -6,18 +5,18 @@ date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "Java API de comparaison DJVU - Comparez les fichiers DJVU pour les différences"
-head_description: "Comparez et fusionnez les fichiers DJVU dans les applications Java, J2EE, J2SE. Analysez le résumé des différences dans le contenu, le texte et le style des fichiers, images et formats de document DJVU."
+head_title: "API de comparaison Java DJVU - Comparez les fichiers DJVU pour les différences"
+head_description: "Comparez et fusionnez des fichiers DJVU dans des applications Java, J2EE, J2SE. Analysez le résumé des différences dans le contenu, le texte et le style des fichiers, images et formats de documents DJVU."
 
 ############################# Header ############################
-title: "Comparez les fichiers DJVU dans Java"
+title: "Comparez les fichiers DJVU en Java"
 description: "Effectuez une comparaison ligne par ligne entre plus de deux fichiers DJVU en Java. Récupérez une liste des différences et enregistrez les fichiers comparés dans un seul document."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Télécharger la version d'essai gratuite"
+    label: "Télécharger l'essai gratuit"
     link: "https://downloads.groupdocs.com/comparison/java"
 
 ############################# SubMenu ############################
@@ -25,28 +24,28 @@ submenu:
     enable: true
 
     left:
-        img_alt: "GroupDocs.Comparison pour Java"
+        img_alt: "GroupDocs.Comparison for Java"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-java.png"
         product: "GroupDocs.Comparison"
         platform: "Java"
 
     middle:
         button: 
-            # boucle de bouton
+            # button loop
             - link: "https://apireference.groupdocs.com/comparison/java"
               text: "Référence API"
 
-            # boucle de bouton
+            # button loop
             - link: "https://github.com/groupdocs-comparison"
-              text: "Exemples de code"
+              text: "Exemples de codes"
 
-            # boucle de bouton
+            # button loop
             - link: "https://products.groupdocs.app/comparison/family"
               text: "Démos en direct"
 
-            # boucle de bouton
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/java"
-              text: "Prix"
+              text: "Tarifs"
 
     right:
         link_download: "https://downloads.groupdocs.com/comparison"
@@ -56,9 +55,9 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "À propos de GroupDocs.Comparison pour l'API Java"
+    title: "À propos de l'API GroupDocs.Comparison for Java"
     content: |
-        Optimisez vos applications Java avec des fonctionnalités de comparaison d'images et de documents à l'aide de l'API [GroupDocs.Comparison for Java](/fr/comparison/java/). Il vous aide à identifier les différences entre les paragraphes, les mots, les caractères, les formes, même les styles de texte des documents comparés du même format, permet de fusionner les modifications et de les exporter vers un document final. Il prend en charge la comparaison et la fusion d'un large éventail de documents, notamment PDF, Word, feuilles de calcul Excel, présentations PowerPoint, diagrammes Visio, e-mails Outlook, HTML, dessins et formats de fichiers image sans utiliser de bibliothèque externe.
+        Renforcez vos applications Java avec des fonctionnalités de comparaison d'images et de documents à l'aide de l'API [GroupDocs.Comparison for Java](/comparison/java/). Il vous aide à identifier les différences au sein des paragraphes, des mots, des caractères, des formes, voire des styles de texte des documents comparés du même format, permet de fusionner les modifications et d'exporter vers un document final. Il prend en charge la comparaison et la fusion d'un large éventail de documents, notamment PDF, Word, feuilles de calcul Excel, présentations PowerPoint, diagrammes Visio, e-mails Outlook, HTML, dessins et formats de fichiers image sans utiliser de bibliothèque externe.
 
 ############################# Steps ############################
 steps:
@@ -66,30 +65,30 @@ steps:
     title_left: "Étapes pour comparer les fichiers DJVU en Java"
     content_left: |
         [GroupDocs.Comparison](/comparison/java/) permet aux développeurs Java de comparer facilement les fichiers DJVU au sein de leurs applications à l'aide de quelques lignes de code.
-        *   Instanciez l'objet **Comparateur** avec le chemin ou le flux du document source.
-        *   Appelez la méthode d'ajout et spécifiez le chemin ou le flux du document cible.
-        *   Appelez la méthode de comparaison.
+        * Instanciez l'objet **Comparer** avec le chemin ou le flux du document source.
+        * Appelez la méthode add et spécifiez le chemin ou le flux du document cible.
+        * Appelez la méthode de comparaison.
     title_right: "Configuration requise"
     content_right: |
-        Les API GroupDocs.Comparison pour Java sont prises en charge sur toutes les principales plateformes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.
-        *   Systèmes d'exploitation : Microsoft Windows, Linux, MacOS
-        *   Environnement de développement : NetBeans, Intellij IDEA, Eclipse, etc.
-        *   Environnement d'exécution Java : J2SE 6.0 et supérieur
-        *   Obtenez la dernière version de GroupDocs.Comparison pour Java sur [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
+        Les API GroupDocs.Comparison for Java sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les conditions préalables suivantes sont installées sur votre système.
+        * Systèmes d'exploitation : Microsoft Windows, Linux, MacOS
+        * Environnements de développement : NetBeans, Intellij IDEA, Eclipse etc
+        * Environnement d'exécution Java : J2SE 6.0 et supérieur
+        * Obtenez la dernière version de GroupDocs.Comparison for Java auprès de [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
     code: |
         ```java
         // Comparer les documents du fichier local
         
         try (Comparer comparer = new Comparer("C:\\source.djvu")) {
             comparer.add("C:\\target.djvu");
-            comparer.compare("C:\\result.djvu"); // Crée un fichier résultat avec le nom spécifié
+            comparer.compare("C:\\result.djvu"); // Créer un fichier de résultats avec le nom spécifié
         }
         
-        // Comparer les documents du stream
+        // Comparer les documents du flux
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.djvu"))) {
             comparer.add(new FileInputStream("C:\\target.djvu"));
-            comparer.compare(new FileOutputStream("C:\\result.djvu")); // Crée un fichier résultat avec le nom spécifié
+            comparer.compare(new FileOutputStream("C:\\result.djvu")); // Créer un fichier de résultats avec le nom spécifié
         }
         ```
 
@@ -98,7 +97,7 @@ demos:
     enable: true
     title: "Démos en direct pour comparer les fichiers DJVU"
     content: |
-        Comparez les fichiers DJVU dès maintenant en visitant le site Web [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family).
+        Comparez dès maintenant les fichiers DJVU en visitant le site Web [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family).
         La démo en direct présente les avantages suivants
 
 ############################# About Formats ############################
@@ -109,13 +108,13 @@ about_formats:
         - icon: "far fa-file-djvu"
           title: "À propos du format de fichier DJVU"
           content: |
-            DjVu, prononcé comme "déjà vu", est un format de fichier graphique destiné aux documents numérisés et aux livres, en particulier ceux qui contiennent la combinaison de texte, dessins, images et photographies. Il a été développé par AT&T Labs. Il utilise plusieurs techniques telles que la séparation des couches d'image du texte et des images d'arrière-plan, le chargement progressif, le codage arithmétique et la compression avec perte pour les images bitonales. Étant donné que le fichier DJVU peut contenir des images, des photographies, du texte et des dessins en couleur compressés mais de haute qualité et peut donc être enregistré dans moins d'espace, il est utilisé sur le Web sous forme de livres électroniques, de manuels, de journaux, de documents anciens, etc.
+            DjVu, prononcé comme « déjà vu », est un format de fichier graphique destiné aux documents numérisés et aux livres, en particulier ceux qui contiennent une combinaison de texte, de dessins, d'images et de photographies. Il a été développé par AT&T Labs. Il utilise plusieurs techniques telles que la séparation des couches d'images du texte et des images d'arrière-plan, le chargement progressif, le codage arithmétique et la compression avec perte pour les images bitonales. Étant donné que le fichier DJVU peut contenir des images couleur, des photographies, du texte et des dessins compressés mais de haute qualité et peut donc être enregistré dans moins d'espace, il est utilisé sur le Web sous forme de livres électroniques, de manuels, de journaux, de documents anciens, etc.
           link: "https://docs.fileformat.com/image/djvu/"
 
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Comparer d'autres formats de fichiers"
+    title: "Comparez d'autres formats de fichiers"
     content: |
         API de comparaison d'images et de documents multiformats pour Java. Comparez certains des formats de fichiers populaires ci-dessous sans aucun logiciel externe.
     format: 
@@ -367,7 +366,7 @@ more_formats:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison propose des API de visualisation de documents pour d'autres environnements de développement populaires"
 
     solution:
         # solution loop

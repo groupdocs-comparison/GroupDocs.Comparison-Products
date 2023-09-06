@@ -1,4 +1,3 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -76,7 +75,7 @@ steps:
         GroupDocs.Comparison for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
     
         *   Operating Systems: Microsoft Windows, Linux, MacOS
-        *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc
+        *   Development Environments: NetBeans, Intellij IDEA, Eclipse etc
         *   Java Runtime Environment: J2SE 6.0 and above
         *   Get the latest version of GroupDocs.Comparison for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
     
@@ -371,7 +370,7 @@ more_formats:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison offers document viewing APIs for other popular development environments"
 
     solution:
         # solution loop

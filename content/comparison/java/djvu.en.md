@@ -1,4 +1,3 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -76,7 +75,7 @@ steps:
         GroupDocs.Comparison for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
     
         *   Operating Systems: Microsoft Windows, Linux, MacOS
-        *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc
+        *   Development Environments: NetBeans, Intellij IDEA, Eclipse etc
         *   Java Runtime Environment: J2SE 6.0 and above
         *   Get the latest version of GroupDocs.Comparison for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
     
@@ -113,7 +112,7 @@ about_formats:
         - icon: "far fa-file-djvu"
           title: "About DJVU File Format"
           content: |
-            DjVu, pronounced as "déjà vu", is a graphics file format intended for scanned documents and books especially those which contain the combination of text, drawings, images and photographs. It was developed by AT&T Labs. It uses multiple techniques like image layer separation of text and background images, progressive loading, arithmetic coding and lossy compression for bitonal images. Since DJVU file can contain compressed yet high-quality colour images, photographs, text, and drawings and can be saved in less space therefore, it's used on web as eBooks, manuals, newspapers, ancient documents, etc.
+            DjVu, pronounced as “déjà vu”, is a graphics file format intended for scanned documents and books especially those which contain the combination of text, drawings, images and photographs. It was developed by AT&T Labs. It uses multiple techniques like image layer separation of text and background images, progressive loading, arithmetic coding and lossy compression for bitonal images. Since DJVU file can contain compressed yet high-quality colour images, photographs, text, and drawings and can be saved in less space therefore, it's used on web as eBooks, manuals, newspapers, ancient documents, etc.
           link: "https://docs.fileformat.com/image/djvu/"
 
 ############################# More Formats ############################
@@ -371,7 +370,7 @@ more_formats:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison offers document viewing APIs for other popular development environments"
 
     solution:
         # solution loop

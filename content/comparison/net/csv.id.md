@@ -1,17 +1,16 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2022-07-07T12:44:18+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
 head_title: "Bandingkan dua file CSV di .NET | API Perbandingan Dokumen"
-head_description: "Bandingkan dan gabungkan lebih dari dua (file CSV dalam aplikasi C# .NET. Dapatkan ringkasan perbedaan dalam konten, teks & gaya file CSV, gambar, dan format dokumen."
+head_description: "Bandingkan dan gabungkan lebih dari dua file CSV dalam aplikasi C# .NET. Ambil ringkasan perbedaan dalam konten, teks & gaya file CSV, gambar dan format dokumen."
 
 ############################# Header ############################
 title: "Bandingkan File CSV di C# .NET"
-description: ".API perbandingan dokumen .NET untuk mendeteksi perubahan antara dua versi file CSV dan mengekspor ke dokumen akhir dengan ringkasan terperinci tentang perbedaan antara dokumen yang dibandingkan."
+description: "API perbandingan dokumen .NET untuk mendeteksi perubahan antara dua versi file CSV dan mengekspor ke dokumen akhir dengan ringkasan mendetail tentang perbedaan antara dokumen yang dibandingkan."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -56,28 +55,26 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Tentang GroupDocs.Perbandingan untuk .NET API"
+    title: "Tentang API GroupDocs.Comparison for .NET"
     content: |
-        [GroupDocs.Comparison for .NET](/id/comparison/net/) adalah .NET API asli untuk membandingkan beberapa gambar dan dokumen dengan format yang sama. Ini membantu Anda mendeteksi perbedaan dalam paragraf, kata, karakter, bentuk, bahkan gaya teks dari dokumen yang dibandingkan, menggabungkan perubahan dan mengekspor ke dokumen akhir. Mendukung membandingkan dan menggabungkan PDF, dokumen Word, spreadsheet Excel, presentasi PowerPoint, diagram Visio, email Outlook, HTML, gambar dan format file gambar tanpa menggunakan perpustakaan eksternal.
+        [GroupDocs.Comparison for .NET](/comparison/net/) adalah .NET API asli untuk membandingkan beberapa gambar dan dokumen dengan format yang sama. Ini membantu Anda mendeteksi perbedaan dalam paragraf, kata, karakter, bentuk, bahkan gaya teks dari dokumen yang dibandingkan, menggabungkan perubahan dan mengekspor ke dokumen akhir. Mendukung perbandingan dan penggabungan PDF, dokumen Word, spreadsheet Excel, presentasi PowerPoint, diagram Visio, email Outlook, HTML, gambar dan format file gambar tanpa menggunakan perpustakaan eksternal apa pun.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Langkah-langkah untuk Membandingkan File CSV di C#"
+    title_left: "Langkah-langkah Membandingkan File CSV di C#"
     content_left: |
-        [GroupDocs.Comparison](/id/comparison/net/) memudahkan pengembang .NET untuk membandingkan & menggabungkan beberapa file CSV dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
-        
-        * Buat instance objek **Comparer** dengan jalur atau aliran dokumen sumber.
+        [GroupDocs.Comparison](/comparison/net/) memudahkan pengembang .NET untuk membandingkan & menggabungkan beberapa file CSV dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
+        * Buat instance objek **Pembanding** dengan jalur atau aliran dokumen sumber.
         * Panggil metode Tambah dan tentukan jalur atau aliran dokumen target. Ulangi langkah ini untuk setiap dokumen target.
-        * Metode Panggil Bandingkan.
+        * Metode Panggilan Bandingkan.
     title_right: "Persyaratan sistem"
     content_right: |
-        GroupDocs.Comparison untuk .NET API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
-        
+        GroupDocs.Comparison for .NET API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
         * Sistem Operasi: Microsoft Windows, Linux, MacOS
         * Lingkungan Pengembangan: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Kerangka: .NET Framework, .NET Standard, .NET Core, Mono
-        * Dapatkan GroupDocs.Comparison versi terbaru untuk .NET yang diunduh dari [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
+        * Dapatkan versi terbaru GroupDocs.Comparison for .NET yang diunduh dari [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
     code: |
         ```cs
         // Bandingkan beberapa dokumen dari disk lokal
@@ -87,7 +84,7 @@ steps:
         	comparer.Add("target1.csv");
             comparer.Add("target2.csv");
             comparer.Add("target3.csv");
-            comparer.Compare("result.csv"); //
+            comparer.Compare("result.csv"); // Buat file hasil dengan nama yang ditentukan
         }
         
         // Bandingkan beberapa dokumen dari aliran
@@ -97,7 +94,7 @@ steps:
         	comparer.Add(File.OpenRead("target1.csv"));
             comparer.Add(File.OpenRead("target2.csv"));
             comparer.Add(File.OpenRead("target3.csv"));
-            comparer.Compare(File.Create("result.csv"));
+            comparer.Compare(File.Create("result.csv")); // Buat file hasil dengan nama yang ditentukan
         }
         ```
 
@@ -106,7 +103,8 @@ demos:
     enable: true
     title: "Demo Langsung Membandingkan File CSV"
     content: |
-        Deteksi perbedaan antara file CSV sekarang juga dengan mengunjungi situs web [GroupDocs.Comparison](https://products.groupdocs.app/comparison/family). Demo langsung memiliki manfaat sebagai berikut.
+        Deteksi perbedaan antara file CSV sekarang dengan mengunjungi situs web [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family).
+        Demo langsung memiliki manfaat sebagai berikut
 
 ############################# About Formats ############################
 about_formats:
@@ -114,222 +112,267 @@ about_formats:
     format:
         # format loop
         - icon: "far fa-file-csv"
-          title: "Tentang Format Berkas CSV"
+          title: "Tentang Format File CSV"
           content: |
-            File dengan ekstensi CSV (Comma Separated Values) mewakili file teks biasa yang berisi catatan data dengan nilai yang dipisahkan koma. Setiap baris dalam file CSV adalah catatan baru dari kumpulan catatan yang terdapat dalam file. File tersebut dihasilkan ketika transfer data dimaksudkan dari satu sistem penyimpanan ke sistem penyimpanan lainnya. Karena semua aplikasi dapat mengenali record yang dipisahkan dengan koma, impor file data tersebut ke database dilakukan dengan sangat mudah. Hampir semua aplikasi spreadsheet seperti Microsoft Excel atau OpenOffice Calc dapat mengimpor CSV tanpa banyak usaha. Data yang diimpor dari file tersebut diatur dalam sel spreadsheet untuk representasi kepada pengguna.
+            File dengan ekstensi CSV (Comma Separated Values) mewakili file teks biasa yang berisi catatan data dengan nilai yang dipisahkan koma. Setiap baris dalam file CSV merupakan record baru dari kumpulan record yang terdapat dalam file tersebut. File tersebut dihasilkan ketika transfer data dimaksudkan dari satu sistem penyimpanan ke sistem penyimpanan lainnya. Karena semua aplikasi dapat mengenali catatan yang dipisahkan dengan koma, impor file data tersebut ke database dilakukan dengan sangat mudah. Hampir semua aplikasi spreadsheet seperti Microsoft Excel atau OpenOffice Calc dapat mengimpor CSV tanpa banyak usaha. Data yang diimpor dari file tersebut disusun dalam sel spreadsheet untuk direpresentasikan kepada pengguna.
           link: "https://docs.fileformat.com/image/csv/"
 
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Membandingkan Format File Lain"
+    title: "Membandingkan Format File Lainnya"
     content: |
         Dokumen multi format dan API perbandingan gambar untuk .NET. Analisis perbedaan antara dokumen dengan format yang sama tanpa menggunakan alat eksternal apa pun.
     format: 
-        - name: "Bandingkan File PDF"
-          link: "/comparison/net/pdf/"
-          description: "Format Dokumen Portabel Adobe"
+        # format loop
+        - name: "Compare PDF Files"
+          link: "https://products.groupdocs.com/comparison/net/pdf/"
+          description: "Adobe Portable Document Format"
 
-        - name: "Bandingkan File DOC"
-          link: "/comparison/net/doc/"
-          description: "Dokumen Microsoft Word"
+        # format loop
+        - name: "Compare DOC Files"
+          link: "https://products.groupdocs.com/comparison/net/doc/"
+          description: "Microsoft Word Document"
 
-        - name: "Bandingkan File DOCM"
-          link: "/comparison/net/docm/"
-          description: "Dokumen Berkemampuan Makro Microsoft Word"
+        # format loop
+        - name: "Compare DOCM Files"
+          link: "https://products.groupdocs.com/comparison/net/docm/"
+          description: "Microsoft Word Macro-Enabled Document"
 
-        - name: "Bandingkan File DOCX"
-          link: "/comparison/net/docx/"
-          description: "Microsoft Word Buka Dokumen XML"
+        # format loop
+        - name: "Compare DOCX Files"
+          link: "https://products.groupdocs.com/comparison/net/docx/"
+          description: "Microsoft Word Open XML Document"
 
-        - name: "Bandingkan File DOT"
-          link: "/comparison/net/dot/"
-          description: "Templat Dokumen Microsoft Word"
+        # format loop
+        - name: "Compare DOT Files"
+          link: "https://products.groupdocs.com/comparison/net/dot/"
+          description: "Microsoft Word Document Template"
 
-        - name: "Bandingkan File DOTM"
-          link: "/comparison/net/dotm/"
-          description: "Templat Microsoft Word Macro-Enabled"
+        # format loop
+        - name: "Compare DOTM Files"
+          link: "https://products.groupdocs.com/comparison/net/dotm/"
+          description: "Microsoft Word Macro-Enabled Template"
 
-        - name: "Bandingkan File DOTX"
-          link: "/comparison/net/dotx/"
-          description: "Templat Dokumen XML Word Terbuka"
+        # format loop
+        - name: "Compare DOTX Files"
+          link: "https://products.groupdocs.com/comparison/net/dotx/"
+          description: "Word Open XML Document Template"
 
-        - name: "Bandingkan File RTF"
-          link: "/comparison/net/rtf/"
-          description: "Format File Teks Kaya"
+        # format loop
+        - name: "Compare RTF Files"
+          link: "https://products.groupdocs.com/comparison/net/rtf/"
+          description: "Rich Text File Format"
 
-        - name: "Bandingkan File TXT"
-          link: "/comparison/net/txt/"
-          description: "Format File Teks Biasa"
+        # format loop
+        - name: "Compare TXT Files"
+          link: "https://products.groupdocs.com/comparison/net/txt/"
+          description: "Plain Text File Format"
 
-        - name: "Bandingkan File XLS"
-          link: "/comparison/net/xls/"
-          description: "Format File Biner Microsoft Excel"
+        # format loop
+        - name: "Compare XLS Files"
+          link: "https://products.groupdocs.com/comparison/net/xls/"
+          description: "Microsoft Excel Binary File Format"
 
-        - name: "Bandingkan File XLSX"
-          link: "/comparison/net/xlsx/"
-          description: "Microsoft Excel Buka XML Spreadsheet"
+        # format loop
+        - name: "Compare XLSX Files"
+          link: "https://products.groupdocs.com/comparison/net/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
 
-        - name: "Bandingkan File XLTM"
-          link: "/comparison/net/xltm/"
-          description: "Templat berkemampuan makro Microsoft Excel"
+        # format loop
+        - name: "Compare XLTM Files"
+          link: "https://products.groupdocs.com/comparison/net/xltm/"
+          description: "Microsoft Excel macro-enabled template"
 
-        - name: "Bandingkan File XLSM"
-          link: "/comparison/net/xlsm/"
-          description: "Spreadsheet Berkemampuan Makro Microsoft Excel"
+        # format loop
+        - name: "Compare XLSM Files"
+          link: "https://products.groupdocs.com/comparison/net/xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
-        - name: "Bandingkan File XLSB"
-          link: "/comparison/net/xlsb/"
-          description: "File Spreadsheet Biner Microsoft Excel"
+        # format loop
+        - name: "Compare XLSB Files"
+          link: "https://products.groupdocs.com/comparison/net/xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
 
-        - name: "Bandingkan File CSV"
-          link: "/comparison/net/csv/"
-          description: "File Nilai Dipisahkan Koma"
+        # format loop
+        - name: "Compare CSV Files"
+          link: "https://products.groupdocs.com/comparison/net/csv/"
+          description: "Comma Separated Values File"
 
-        - name: "Bandingkan File PPT"
-          link: "/comparison/net/ppt/"
-          description: "Presentasi powerpoint"
+        # format loop
+        - name: "Compare PPT Files"
+          link: "https://products.groupdocs.com/comparison/net/ppt/"
+          description: "PowerPoint Presentation"
 
-        - name: "Bandingkan File PPS"
-          link: "/comparison/net/pps/"
-          description: "Pertunjukan Slide Microsoft PowerPoint"
+        # format loop
+        - name: "Compare PPS Files"
+          link: "https://products.groupdocs.com/comparison/net/pps/"
+          description: "Microsoft PowerPoint Slide Show"
 
-        - name: "Bandingkan File PPTX"
-          link: "/comparison/net/pptx/"
-          description: "Presentasi PowerPoint Terbuka XML"
+        # format loop
+        - name: "Compare PPTX Files"
+          link: "https://products.groupdocs.com/comparison/net/pptx/"
+          description: "PowerPoint Open XML Presentation"
 
-        - name: "Bandingkan File PPSX"
-          link: "/comparison/net/ppsx/"
-          description: "PowerPoint Terbuka XML Slide Show"
+        # format loop
+        - name: "Compare PPSX Files"
+          link: "https://products.groupdocs.com/comparison/net/ppsx/"
+          description: "PowerPoint Open XML Slide Show"
 
-        - name: "Bandingkan File POT"
-          link: "/comparison/net/pot/"
-          description: "Templat Microsoft PowerPoint"
+        # format loop
+        - name: "Compare POT Files"
+          link: "https://products.groupdocs.com/comparison/net/pot/"
+          description: "Microsoft PowerPoint template"
 
-        - name: "Bandingkan File POTX"
-          link: "/comparison/net/potx/"
-          description: "Templat XML Terbuka Microsoft PowerPoint"
+        # format loop
+        - name: "Compare POTX Files"
+          link: "https://products.groupdocs.com/comparison/net/potx/"
+          description: "Microsoft PowerPoint Open XML Template"
 
-        - name: "Bandingkan File ODS"
-          link: "/comparison/net/ods/"
-          description: "Buka Spreadsheet Dokumen"
+        # format loop
+        - name: "Compare ODS Files"
+          link: "https://products.groupdocs.com/comparison/net/ods/"
+          description: "Open Document Spreadsheet"
 
-        - name: "Bandingkan File ODP"
-          link: "/comparison/net/odp/"
-          description: "Format File Presentasi OpenDocument"
+        # format loop
+        - name: "Compare ODP Files"
+          link: "https://products.groupdocs.com/comparison/net/odp/"
+          description: "OpenDocument Presentation File Format"
 
-        - name: "Bandingkan File OTP"
-          link: "/comparison/net/otp/"
-          description: "Templat Grafik Asal"
+        # format loop
+        - name: "Compare OTP Files"
+          link: "https://products.groupdocs.com/comparison/net/otp/"
+          description: "Origin Graph Template"
 
-        - name: "Bandingkan File ODT"
-          link: "/comparison/net/odt/"
-          description: "Buka Teks Dokumen"
+        # format loop
+        - name: "Compare ODT Files"
+          link: "https://products.groupdocs.com/comparison/net/odt/"
+          description: "Open Document Text"
 
-        - name: "Bandingkan File OTT"
-          link: "/comparison/net/ott/"
-          description: "Buka Templat Dokumen"
+        # format loop
+        - name: "Compare OTT Files"
+          link: "https://products.groupdocs.com/comparison/net/ott/"
+          description: "Open Document Template"
 
-        - name: "Bandingkan File VST"
-          link: "/comparison/net/vst/"
-          description: "Gambar XML Microsoft Visio 2003-2010"
+        # format loop
+        - name: "Compare VST Files"
+          link: "https://products.groupdocs.com/comparison/net/vst/"
+          description: "Microsoft Visio 2003-2010 XML Drawing"
 
-        - name: "Bandingkan File TIFF"
-          link: "/comparison/net/tiff/"
-          description: "Format File Gambar yang Ditandai"
+        # format loop
+        - name: "Compare JPEG Files"
+          link: "https://products.groupdocs.com/comparison/net/jpeg/"
+          description: "JPEG Image"
 
-        - name: "Bandingkan File JPEG"
-          link: "/comparison/net/jpeg/"
-          description: "Gambar JPEG"
+        # format loop
+        - name: "Compare PNG Files"
+          link: "https://products.groupdocs.com/comparison/net/png/"
+          description: "Portable Network Graphic"
 
-        - name: "Bandingkan File PNG"
-          link: "/comparison/net/png/"
-          description: "Grafik Jaringan Portabel"
+        # format loop
+        - name: "Compare GIF Files"
+          link: "https://products.groupdocs.com/comparison/net/gif/"
+          description: "Graphical Interchange Format File"
 
-        - name: "Bandingkan File GIF"
-          link: "/comparison/net/gif/"
-          description: "File Format Pertukaran Grafis"
+        # format loop
+        - name: "Compare BMP Files"
+          link: "https://products.groupdocs.com/comparison/net/bmp/"
+          description: "Bitmap File Format"
 
-        - name: "Bandingkan File BMP"
-          link: "/comparison/net/bmp/"
-          description: "Format File Bitmap"
-
-        - name: "Bandingkan File HTML"
-          link: "/comparison/net/html/"
+        # format loop
+        - name: "Compare HTML Files"
+          link: "https://products.groupdocs.com/comparison/net/html/"
           description: "Hyper Text Markup Language"
 
-        - name: "Bandingkan File MHT"
-          link: "/comparison/net/mht/"
+        # format loop
+        - name: "Compare MHT Files"
+          link: "https://products.groupdocs.com/comparison/net/mht/"
           description: "Mime HTML"
 
-        - name: "Bandingkan File MHTML"
-          link: "/comparison/net/mhtml/"
-          description: "Enkapsulasi MIME dari HTML Agregat"
+        # format loop
+        - name: "Compare MHTML Files"
+          link: "https://products.groupdocs.com/comparison/net/mhtml/"
+          description: "MIME Encapsulation of Aggregate HTML"
 
-        - name: "Bandingkan File MSG"
-          link: "/comparison/net/msg/"
-          description: "Pesan Email Microsoft Outlook"
+        # format loop
+        - name: "Compare MSG Files"
+          link: "https://products.groupdocs.com/comparison/net/msg/"
+          description: "Microsoft Outlook E-mail Message"
 
-        - name: "Bandingkan File EML"
-          link: "/comparison/net/eml/"
-          description: "Pesan email"
+        # format loop
+        - name: "Compare EML Files"
+          link: "https://products.groupdocs.com/comparison/net/eml/"
+          description: "E-mail Message"
 
-        - name: "Bandingkan File EMLX"
-          link: "/comparison/net/emlx/"
-          description: "File Email Apple Mail"
+        # format loop
+        - name: "Compare EMLX Files"
+          link: "https://products.groupdocs.com/comparison/net/emlx/"
+          description: "Apple Mail E-mail File"
 
-        - name: "Bandingkan SATU File"
-          link: "/comparison/net/one/"
+        # format loop
+        - name: "Compare ONE Files"
+          link: "https://products.groupdocs.com/comparison/net/one/"
           description: "Microsoft OneNote"
 
-        - name: "Bandingkan File VSD"
-          link: "/comparison/net/vsd/"
-          description: "Gambar Microsoft Visio 2003-2010"
+        # format loop
+        - name: "Compare VSD Files"
+          link: "https://products.groupdocs.com/comparison/net/vsd/"
+          description: "Microsoft Visio 2003-2010 Drawing"
 
-        - name: "Bandingkan File VSDX"
-          link: "/comparison/net/vsdx/"
-          description: "Gambar Microsoft Visio"
+        # format loop
+        - name: "Compare VSDX Files"
+          link: "https://products.groupdocs.com/comparison/net/vsdx/"
+          description: "Microsoft Visio Drawing"
 
-        - name: "Bandingkan File VSS"
-          link: "/comparison/net/vss/"
-          description: "Microsoft Visio 2003-2010 Stensil"
+        # format loop
+        - name: "Compare VSS Files"
+          link: "https://products.groupdocs.com/comparison/net/vss/"
+          description: "Microsoft Visio 2003-2010 Stencil"
 
-        - name: "Bandingkan File VST"
-          link: "/comparison/net/vst/"
-          description: "Templat Microsoft Visio 2003-2010"
+        # format loop
+        - name: "Compare VST Files"
+          link: "https://products.groupdocs.com/comparison/net/vst/"
+          description: "Microsoft Visio 2003-2010 Template"
 
-        - name: "Bandingkan File VDX"
-          link: "/comparison/net/vdx/"
-          description: "Gambar XML Microsoft Visio 2003-2010"
+        # format loop
+        - name: "Compare VDX Files"
+          link: "https://products.groupdocs.com/comparison/net/vdx/"
+          description: "Microsoft Visio 2003-2010 XML Drawing"
 
-        - name: "Bandingkan File CS"
-          link: "/comparison/net/cs/"
-          description: "Bahasa CSharp"
+        # format loop
+        - name: "Compare CS Files"
+          link: "https://products.groupdocs.com/comparison/net/cs/"
+          description: "CSharp Language"
 
-        - name: "Bandingkan File Java"
-          link: "/comparison/net/java/"
-          description: "bahasa jawa"
+        # format loop
+        - name: "Compare Java Files"
+          link: "https://products.groupdocs.com/comparison/net/java/"
+          description: "Java Language"
 
-        - name: "Bandingkan File CPP"
-          link: "/comparison/net/cpp/"
-          description: "Bahasa C++"
+        # format loop
+        - name: "Compare CPP Files"
+          link: "https://products.groupdocs.com/comparison/net/cpp/"
+          description: "C++ Language"
 
-        - name: "Bandingkan File JS"
-          link: "/comparison/net/js/"
-          description: "Bahasa JavaScript"
+        # format loop
+        - name: "Compare JS Files"
+          link: "https://products.groupdocs.com/comparison/net/js/"
+          description: "JavaScript Language"
 
-        - name: "Bandingkan File PY"
-          link: "/comparison/net/py/"
-          description: "Bahasa Python"
+        # format loop
+        - name: "Compare PY Files"
+          link: "https://products.groupdocs.com/comparison/net/py/"
+          description: "Python Language"
 
-        - name: "Bandingkan File RB"
-          link: "/comparison/net/rb/"
-          description: "Bahasa Ruby"
+        # format loop
+        - name: "Compare RB Files"
+          link: "https://products.groupdocs.com/comparison/net/rb/"
+          description: "Ruby Language"
 
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison menawarkan API tampilan dokumen untuk lingkungan pengembangan populer lainnya"
 
     solution:
         # solution loop

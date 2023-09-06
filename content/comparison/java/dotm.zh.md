@@ -1,4 +1,3 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -6,18 +5,18 @@ date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "Java DOTM 比较 API - 比较 DOTM 文件的差异"
-head_description: "比较和合并 Java、J2EE、J2SE 应用程序中的 DOTM 文件。分析 DOTM 文件、图像和文档格式在内容、文本和样式方面的差异摘要。"
+head_title: "Java DOTM 比較 API - 比較 DOTM 文件的差異"
+head_description: "比較並合併 Java、J2EE、J2SE 應用程序中的 DOTM 文件。分析 DOTM 文件、圖像和文檔格式的內容、文本和風格的差異摘要。"
 
 ############################# Header ############################
-title: "在Java中比较DOTM文件"
-description: "在 Java 中对两个以上的 DOTM 文件进行逐行比较。检索差异列表并将比较的文件保存到单个文档中。"
+title: "在 Java 中比較 DOTM 文件"
+description: "在 Java 中對兩個以上的 DOTM 文件進行逐行比較。檢索差異列表並將比較的文件保存到單個文檔中。"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "下载免费试用版"
+    label: "下載免費試用版"
     link: "https://downloads.groupdocs.com/comparison/java"
 
 ############################# SubMenu ############################
@@ -28,25 +27,25 @@ submenu:
         img_alt: "GroupDocs.Comparison for Java"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-java.png"
         product: "GroupDocs.Comparison"
-        platform: "爪哇"
+        platform: "Java"
 
     middle:
         button: 
-            # 按钮循环
+            # button loop
             - link: "https://apireference.groupdocs.com/comparison/java"
-              text: "API 参考"
+              text: "API參考"
 
-            # 按钮循环
+            # button loop
             - link: "https://github.com/groupdocs-comparison"
-              text: "代码示例"
+              text: "代碼示例"
 
-            # 按钮循环
+            # button loop
             - link: "https://products.groupdocs.app/comparison/family"
-              text: "现场演示"
+              text: "現場演示"
 
-            # 按钮循环
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/java"
-              text: "定价"
+              text: "價錢"
 
     right:
         link_download: "https://downloads.groupdocs.com/comparison"
@@ -56,50 +55,50 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "关于 GroupDocs.Comparison for Java API"
+    title: "關於 GroupDocs.Comparison for Java API"
     content: |
-        使用 [GroupDocs.Comparison for Java](/zh/comparison/java/) API 为您的 Java 应用程序提供图像和文档比较功能。它可以帮助您识别段落、单词、字符、形状之间的差异，甚至是相同格式的比较文档的文本样式，允许合并更改并导出到最终文档。它支持比较和合并各种文档，包括 PDF、Word、Excel 工作表、PowerPoint 演示文稿、Visio 图表、Outlook 电子邮件、HTML、绘图和图像文件格式，而无需使用任何外部库。
+        使用 [GroupDocs.Comparison for Java](/comparison/java/) API 為您的 Java 應用程序提供圖像和文檔比較功能。它可以幫助您識別相同格式的比較文檔的段落、單詞、字符、形狀甚至文本樣式之間的差異，允許合併更改並導出到最終文檔。它支持比較和合併各種文檔，包括 PDF、Word、Excel 工作表、PowerPoint 演示文稿、Visio 圖表、Outlook 電子郵件、HTML、繪圖和圖像文件格式，而無需使用任何外部庫。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "在 Java 中比较 DOTM 文件的步骤"
+    title_left: "在 Java 中比較 DOTM 文件的步驟"
     content_left: |
-        [GroupDocs.Comparison](/comparison/java/) 使 Java 开发人员可以使用几行代码轻松比较其应用程序中的 DOTM 文件。
-        *   使用源文档路径或流实例化 **Comparer** 对象。
-        * 调用add方法并指定目标文档路径或流。
-        * 调用比较方法。
-    title_right: "系统要求"
+        [GroupDocs.Comparison](/comparison/java/) 使 Java 開發人員可以使用幾行代碼輕鬆比較應用程序中的 DOTM 文件。
+        * 使用源文檔路徑或流實例化 **Comparer** 對象。
+        * 調用add方法並指定目標文檔路徑或流。
+        * 調用比較方法。
+    title_right: "系統要求"
     content_right: |
-        所有主要平台和操作系统都支持 Java API 的 GroupDocs.Comparison。在执行下面的代码之前，请确保您的系统上安装了以下先决条件。
-        *   操作系统：Microsoft Windows、Linux、MacOS
-        * 开发环境：NetBeans、Intellij IDEA、Eclipse等
-        * Java运行环境：J2SE 6.0及以上
-        * 从 [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison) 获取最新版本的 GroupDocs.Comparison for Java
+        所有主要平台和操作系統均支持 GroupDocs.Comparison for Java API。在執行下面的代碼之前，請確保您的系統上安裝了以下先決條件。
+        * 操作系統：Microsoft Windows、Linux、MacOS
+        * 開發環境：NetBeans, Intellij IDEA, Eclipse etc
+        * Java運行環境：J2SE 6.0及以上
+        * 從 [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison) 獲取最新版本的 GroupDocs.Comparison for Java
     code: |
         ```java
-        // 比较本地文件中的文档
+        // 比較本地文件中的文檔
         
         try (Comparer comparer = new Comparer("C:\\source.dotm")) {
             comparer.add("C:\\target.dotm");
-            comparer.compare("C:\\result.dotm"); // 创建指定名称的结果文件
+            comparer.compare("C:\\result.dotm"); // 創建指定名稱的結果文件
         }
         
-        // 比较流中的文档
+        // 比較流中的文檔
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.dotm"))) {
             comparer.add(new FileInputStream("C:\\target.dotm"));
-            comparer.compare(new FileOutputStream("C:\\result.dotm")); // 创建指定名称的结果文件
+            comparer.compare(new FileOutputStream("C:\\result.dotm")); // 創建指定名稱的結果文件
         }
         ```
 
 ############################# Demos ############################
 demos:
     enable: true
-    title: "比较 DOTM 文件的现场演示"
+    title: "比較 DOTM 文件的現場演示"
     content: |
-        立即访问 [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) 网站比较 DOTM 文件。
-        现场演示有以下好处
+        立即訪問 [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) 網站比較 DOTM 文件。
+        現場演示有以下好處
 
 ############################# About Formats ############################
 about_formats:
@@ -107,17 +106,17 @@ about_formats:
     format:
         # format loop
         - icon: "far fa-file-dotm"
-          title: "关于 DOTM 文件格式"
+          title: "關於 DOTM 文件格式"
           content: |
-            带有 DOTM 扩展名的文件代表使用 Microsoft Word 2007 或更高版本创建的模板文件。它类似于流行的 DOCX 文件格式，不同之处在于它保留了用户定义的设置以供在创建新文档时重复使用。此类文档更常用于办公室，在这些办公室中会生成标准模板文件，其中包含页面信息、页边距、默认布局和宏等设置，并在需要时用于从中创建新文档。然而，DOTM 文件保存了宏，它是一系列以记录的动作形式出现的命令，用于自动完成任务。这有助于节省执行完成任务时重复执行的操作的时间。
+            帶有 DOTM 擴展名的文件表示使用 Microsoft Word 2007 或更高版本創建的模板文件。它與流行的 DOCX 文件格式類似，但它保留用戶定義的設置以便在創建新文檔時重複使用。此類文檔更常用於辦公室，其中使用頁面信息、頁邊距、默認佈局和宏等設置生成標準模板文件，並在需要時用於從中創建新文檔。然而，DOTM 文件保存宏，這是一系列以記錄動作形式的命令，用於自動完成任務。這有助於節省執行完成任務時重複的操作的時間。
           link: "https://docs.fileformat.com/image/dotm/"
 
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "比较其他文件格式"
+    title: "比較其他文件格式"
     content: |
-        用于 Java 的多格式图像和文档比较 API。在没有任何外部软件的情况下比较以下一些流行的文件格式。
+        適用於 Java 的多格式圖像和文檔比較 API。無需任何外部軟件即可比較以下一些流行的文件格式。
     format: 
         # format loop
         - name: "Compare PDF Files"
@@ -367,7 +366,7 @@ more_formats:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison 為其他流行的開發環境提供文檔查看 API"
 
     solution:
         # solution loop

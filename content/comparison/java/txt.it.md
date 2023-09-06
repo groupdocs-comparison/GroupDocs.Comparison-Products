@@ -1,4 +1,3 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -6,12 +5,12 @@ date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "Java TXT API di confronto - Confronta TXT file per le differenze"
-head_description: "Confronta e unisci TXT file in applicazioni Java, J2EE, J2SE. Analizza il riepilogo delle differenze nel contenuto, nel testo e nello stile di TXT file, immagini e formati di documenti."
+head_title: "API di confronto Java TXT: confronta i file TXT per le differenze"
+head_description: "Confronta e unisci file TXT nelle applicazioni Java, J2EE, J2SE. Analizza il riepilogo delle differenze nel contenuto, nel testo e nello stile di file, immagini e formati di documenti TXT."
 
 ############################# Header ############################
-title: "Confronta TXT File in Java"
-description: "Esegui un confronto riga per riga tra più di due file TXT in Java. Recupera un elenco di differenze e salva i file confrontati in un unico documento."
+title: "Confronta i file TXT in Java"
+description: "Esegui un confronto riga per riga tra più di due file TXT in Java. Recupera un elenco di differenze e salva i file confrontati in un singolo documento."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -25,26 +24,26 @@ submenu:
     enable: true
 
     left:
-        img_alt: "GroupDocs.Comparison per Java"
+        img_alt: "GroupDocs.Comparison for Java"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-java.png"
         product: "GroupDocs.Comparison"
-        platform: "Giava"
+        platform: "Java"
 
     middle:
         button: 
-            # ciclo di pulsanti
+            # button loop
             - link: "https://apireference.groupdocs.com/comparison/java"
               text: "Riferimento API"
 
-            # ciclo di pulsanti
+            # button loop
             - link: "https://github.com/groupdocs-comparison"
-              text: "Esempi di codice"
+              text: "Esempi di codici"
 
-            # ciclo di pulsanti
+            # button loop
             - link: "https://products.groupdocs.app/comparison/family"
               text: "Demo dal vivo"
 
-            # ciclo di pulsanti
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/java"
               text: "Prezzi"
 
@@ -56,26 +55,26 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Informazioni su GroupDocs.Comparison per l'API Java"
+    title: "Informazioni sull'API GroupDocs.Comparison for Java"
     content: |
-        Potenzia le tue applicazioni Java con funzionalità di confronto di immagini e documenti utilizzando l'API [GroupDocs.Comparison for Java](/it/comparison/java/). Ti aiuta a identificare le differenze all'interno di paragrafi, parole, caratteri, forme, persino gli stili di testo dei documenti confrontati dello stesso formato, consente di unire le modifiche e di esportarle in un documento finale. Supporta il confronto e l'unione di un'ampia gamma di documenti tra cui PDF, Word, fogli di lavoro Excel, presentazioni PowerPoint, diagrammi Visio, e-mail di Outlook, HTML, disegni e formati di file immagine senza utilizzare alcuna libreria esterna.
+        Potenzia le tue applicazioni Java con funzionalità di confronto di immagini e documenti utilizzando l'API [GroupDocs.Comparison for Java](/comparison/java/). Ti aiuta a identificare le differenze all'interno di paragrafi, parole, caratteri, forme e persino negli stili di testo dei documenti confrontati dello stesso formato, consente di unire le modifiche ed esportarle in un documento finale. Supporta il confronto e l'unione di un'ampia gamma di documenti tra cui PDF, Word, fogli di lavoro Excel, presentazioni PowerPoint, diagrammi Visio, e-mail di Outlook, HTML, disegni e formati di file immagine senza utilizzare alcuna libreria esterna.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Passi per confrontare i file TXT in Java"
+    title_left: "Passaggi per confrontare i file TXT in Java"
     content_left: |
         [GroupDocs.Comparison](/comparison/java/) consente agli sviluppatori Java di confrontare facilmente i file TXT all'interno delle loro applicazioni utilizzando poche righe di codice.
-        *   Crea un'istanza dell'oggetto **Comparer** con il percorso o il flusso del documento di origine.
-        * Chiama il metodo add e specifica il percorso o il flusso del documento di destinazione.
-        * Chiama il metodo di confronto.
+        * Crea un'istanza dell'oggetto **Comparer** con il percorso o il flusso del documento di origine.
+        * Chiama il metodo Aggiungi e specifica il percorso o il flusso del documento di destinazione.
+        * Metodo di confronto delle chiamate.
     title_right: "Requisiti di sistema"
     content_right: |
-        GroupDocs.Comparison per le API Java sono supportate su tutte le principali piattaforme e sistemi operativi. Prima di eseguire il codice seguente, assicurati di avere i seguenti prerequisiti installati sul tuo sistema.
-        *   Sistemi operativi: Microsoft Windows, Linux, Mac OS
-        * Ambiente di sviluppo: NetBeans, Intellij IDEA, Eclipse ecc
-        * Java Runtime Environment: J2SE 6.0 e versioni successive
-        * Ottieni l'ultima versione di GroupDocs.Comparison per Java da [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
+        Le API GroupDocs.Comparison for Java sono supportate su tutte le principali piattaforme e sistemi operativi. Prima di eseguire il codice seguente, assicurati di avere i seguenti prerequisiti installati sul tuo sistema.
+        * Sistemi operativi: Microsoft Windows, Linux, MacOS
+        * Ambienti di sviluppo: NetBeans, Intellij IDEA, Eclipse etc
+        * Ambiente runtime Java: J2SE 6.0 e versioni successive
+        * Ottieni l'ultima versione di GroupDocs.Comparison for Java da [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
     code: |
         ```java
         // Confronta i documenti dal file locale
@@ -85,7 +84,7 @@ steps:
             comparer.compare("C:\\result.txt"); // Crea il file dei risultati con il nome specificato
         }
         
-        // Confronta i documenti dallo stream
+        // Confronta i documenti dal flusso
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.txt"))) {
             comparer.add(new FileInputStream("C:\\target.txt"));
@@ -96,10 +95,10 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Demo dal vivo per confrontare TXT file"
+    title: "Demo dal vivo per confrontare file TXT"
     content: |
-        Confronta subito TXT file visitando il sito web [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family).
-        La demo dal vivo ha i seguenti vantaggi
+        Confronta subito i file TXT visitando il sito web [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family).
+        La demo live presenta i seguenti vantaggi
 
 ############################# About Formats ############################
 about_formats:
@@ -109,7 +108,7 @@ about_formats:
         - icon: "far fa-file-txt"
           title: "Informazioni sul formato file TXT"
           content: |
-            Un file con estensione .TXT rappresenta un documento di testo che contiene testo semplice sotto forma di righe. I paragrafi in un documento di testo sono riconosciuti dai ritorni a capo e vengono utilizzati per una migliore disposizione dei contenuti del file. Un documento di testo standard può essere aperto in qualsiasi editor di testo o applicazione di elaborazione testi su diversi sistemi operativi. Tutto il testo contenuto in tale file è in formato leggibile dall'uomo e rappresentato da una sequenza di caratteri.
+            Un file con estensione .TXT rappresenta un documento di testo che contiene testo semplice sotto forma di righe. I paragrafi in un documento di testo vengono riconosciuti dai ritorni a capo e vengono utilizzati per una migliore disposizione del contenuto del file. Un documento di testo standard può essere aperto in qualsiasi editor di testo o applicazione di elaborazione testi su diversi sistemi operativi. Tutto il testo contenuto in tale file è in formato leggibile dall'uomo e rappresentato da una sequenza di caratteri.
           link: "https://docs.fileformat.com/image/txt/"
 
 ############################# More Formats ############################
@@ -117,7 +116,7 @@ more_formats:
     enable: true
     title: "Confronta altri formati di file"
     content: |
-        API di confronto di immagini e documenti multiformato per Java. Confronta alcuni dei formati di file più diffusi di seguito senza alcun software esterno.
+        API per il confronto di immagini e documenti multiformato per Java. Confronta alcuni dei formati di file più diffusi di seguito senza alcun software esterno.
     format: 
         # format loop
         - name: "Compare PDF Files"
@@ -367,7 +366,7 @@ more_formats:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison offre API di visualizzazione di documenti per altri ambienti di sviluppo popolari"
 
     solution:
         # solution loop

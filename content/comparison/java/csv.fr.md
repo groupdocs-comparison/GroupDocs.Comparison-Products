@@ -1,4 +1,3 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -6,18 +5,18 @@ date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "Java API de comparaison CSV - Comparez les fichiers CSV pour les différences"
-head_description: "Comparez et fusionnez les fichiers CSV dans les applications Java, J2EE, J2SE. Analysez le résumé des différences dans le contenu, le texte et le style des fichiers, images et formats de document CSV."
+head_title: "API de comparaison Java CSV - Comparez les fichiers CSV pour les différences"
+head_description: "Comparez et fusionnez des fichiers CSV dans des applications Java, J2EE, J2SE. Analysez le résumé des différences dans le contenu, le texte et le style des fichiers, images et formats de documents CSV."
 
 ############################# Header ############################
-title: "Comparez les fichiers CSV dans Java"
+title: "Comparez les fichiers CSV en Java"
 description: "Effectuez une comparaison ligne par ligne entre plus de deux fichiers CSV en Java. Récupérez une liste des différences et enregistrez les fichiers comparés dans un seul document."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Télécharger la version d'essai gratuite"
+    label: "Télécharger l'essai gratuit"
     link: "https://downloads.groupdocs.com/comparison/java"
 
 ############################# SubMenu ############################
@@ -25,28 +24,28 @@ submenu:
     enable: true
 
     left:
-        img_alt: "GroupDocs.Comparison pour Java"
+        img_alt: "GroupDocs.Comparison for Java"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-java.png"
         product: "GroupDocs.Comparison"
         platform: "Java"
 
     middle:
         button: 
-            # boucle de bouton
+            # button loop
             - link: "https://apireference.groupdocs.com/comparison/java"
               text: "Référence API"
 
-            # boucle de bouton
+            # button loop
             - link: "https://github.com/groupdocs-comparison"
-              text: "Exemples de code"
+              text: "Exemples de codes"
 
-            # boucle de bouton
+            # button loop
             - link: "https://products.groupdocs.app/comparison/family"
               text: "Démos en direct"
 
-            # boucle de bouton
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/java"
-              text: "Prix"
+              text: "Tarifs"
 
     right:
         link_download: "https://downloads.groupdocs.com/comparison"
@@ -56,9 +55,9 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "À propos de GroupDocs.Comparison pour l'API Java"
+    title: "À propos de l'API GroupDocs.Comparison for Java"
     content: |
-        Optimisez vos applications Java avec des fonctionnalités de comparaison d'images et de documents à l'aide de l'API [GroupDocs.Comparison for Java](/fr/comparison/java/). Il vous aide à identifier les différences entre les paragraphes, les mots, les caractères, les formes, même les styles de texte des documents comparés du même format, permet de fusionner les modifications et de les exporter vers un document final. Il prend en charge la comparaison et la fusion d'un large éventail de documents, notamment PDF, Word, feuilles de calcul Excel, présentations PowerPoint, diagrammes Visio, e-mails Outlook, HTML, dessins et formats de fichiers image sans utiliser de bibliothèque externe.
+        Renforcez vos applications Java avec des fonctionnalités de comparaison d'images et de documents à l'aide de l'API [GroupDocs.Comparison for Java](/comparison/java/). Il vous aide à identifier les différences au sein des paragraphes, des mots, des caractères, des formes, voire des styles de texte des documents comparés du même format, permet de fusionner les modifications et d'exporter vers un document final. Il prend en charge la comparaison et la fusion d'un large éventail de documents, notamment PDF, Word, feuilles de calcul Excel, présentations PowerPoint, diagrammes Visio, e-mails Outlook, HTML, dessins et formats de fichiers image sans utiliser de bibliothèque externe.
 
 ############################# Steps ############################
 steps:
@@ -66,30 +65,30 @@ steps:
     title_left: "Étapes pour comparer les fichiers CSV en Java"
     content_left: |
         [GroupDocs.Comparison](/comparison/java/) permet aux développeurs Java de comparer facilement les fichiers CSV au sein de leurs applications à l'aide de quelques lignes de code.
-        *   Instanciez l'objet **Comparateur** avec le chemin ou le flux du document source.
-        *   Appelez la méthode d'ajout et spécifiez le chemin ou le flux du document cible.
-        *   Appelez la méthode de comparaison.
+        * Instanciez l'objet **Comparer** avec le chemin ou le flux du document source.
+        * Appelez la méthode add et spécifiez le chemin ou le flux du document cible.
+        * Appelez la méthode de comparaison.
     title_right: "Configuration requise"
     content_right: |
-        Les API GroupDocs.Comparison pour Java sont prises en charge sur toutes les principales plateformes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.
-        *   Systèmes d'exploitation : Microsoft Windows, Linux, MacOS
-        *   Environnement de développement : NetBeans, Intellij IDEA, Eclipse, etc.
-        *   Environnement d'exécution Java : J2SE 6.0 et supérieur
-        *   Obtenez la dernière version de GroupDocs.Comparison pour Java sur [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
+        Les API GroupDocs.Comparison for Java sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les conditions préalables suivantes sont installées sur votre système.
+        * Systèmes d'exploitation : Microsoft Windows, Linux, MacOS
+        * Environnements de développement : NetBeans, Intellij IDEA, Eclipse etc
+        * Environnement d'exécution Java : J2SE 6.0 et supérieur
+        * Obtenez la dernière version de GroupDocs.Comparison for Java auprès de [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
     code: |
         ```java
         // Comparer les documents du fichier local
         
         try (Comparer comparer = new Comparer("C:\\source.csv")) {
             comparer.add("C:\\target.csv");
-            comparer.compare("C:\\result.csv"); // Crée un fichier résultat avec le nom spécifié
+            comparer.compare("C:\\result.csv"); // Créer un fichier de résultats avec le nom spécifié
         }
         
-        // Comparer les documents du stream
+        // Comparer les documents du flux
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.csv"))) {
             comparer.add(new FileInputStream("C:\\target.csv"));
-            comparer.compare(new FileOutputStream("C:\\result.csv")); // Crée un fichier résultat avec le nom spécifié
+            comparer.compare(new FileOutputStream("C:\\result.csv")); // Créer un fichier de résultats avec le nom spécifié
         }
         ```
 
@@ -98,7 +97,7 @@ demos:
     enable: true
     title: "Démos en direct pour comparer les fichiers CSV"
     content: |
-        Comparez les fichiers CSV dès maintenant en visitant le site Web [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family).
+        Comparez dès maintenant les fichiers CSV en visitant le site Web [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family).
         La démo en direct présente les avantages suivants
 
 ############################# About Formats ############################
@@ -109,13 +108,13 @@ about_formats:
         - icon: "far fa-file-csv"
           title: "À propos du format de fichier CSV"
           content: |
-            Les fichiers avec l'extension CSV (Comma Separated Values) représentent des fichiers de texte brut qui contiennent des enregistrements de données avec des valeurs séparées par des virgules. Chaque ligne d'un fichier CSV est un nouvel enregistrement de l'ensemble d'enregistrements contenus dans le fichier. De tels fichiers sont générés lorsque le transfert de données est prévu d'un système de stockage à un autre. Étant donné que toutes les applications peuvent reconnaître les enregistrements séparés par des virgules, l'importation de ces fichiers de données dans la base de données se fait de manière très pratique. Presque toutes les applications de tableur telles que Microsoft Excel ou OpenOffice Calc peuvent importer du CSV sans trop d'effort. Les données importées à partir de ces fichiers sont disposées dans des cellules d'une feuille de calcul pour être présentées à l'utilisateur.
+            Les fichiers avec l'extension CSV (Comma Separated Values) représentent des fichiers en texte brut qui contiennent des enregistrements de données avec des valeurs séparées par des virgules. Chaque ligne d'un fichier CSV est un nouvel enregistrement de l'ensemble des enregistrements contenus dans le fichier. De tels fichiers sont générés lorsque le transfert de données est prévu d'un système de stockage à un autre. Étant donné que toutes les applications peuvent reconnaître les enregistrements séparés par des virgules, l'importation de ces fichiers de données dans la base de données se fait très facilement. Presque toutes les applications de feuilles de calcul telles que Microsoft Excel ou OpenOffice Calc peuvent importer du CSV sans trop d'effort. Les données importées à partir de ces fichiers sont organisées dans les cellules d'une feuille de calcul pour être présentées à l'utilisateur.
           link: "https://docs.fileformat.com/image/csv/"
 
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Comparer d'autres formats de fichiers"
+    title: "Comparez d'autres formats de fichiers"
     content: |
         API de comparaison d'images et de documents multiformats pour Java. Comparez certains des formats de fichiers populaires ci-dessous sans aucun logiciel externe.
     format: 
@@ -367,7 +366,7 @@ more_formats:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison propose des API de visualisation de documents pour d'autres environnements de développement populaires"
 
     solution:
         # solution loop

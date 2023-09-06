@@ -1,4 +1,3 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -6,7 +5,7 @@ date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "Java DOTX Vergleichs-API – Vergleichen Sie DOTX-Dateien auf Unterschiede"
+head_title: "Java DOTX-Vergleichs-API – Vergleichen Sie DOTX-Dateien auf Unterschiede"
 head_description: "Vergleichen und führen Sie DOTX-Dateien in Java-, J2EE- und J2SE-Anwendungen zusammen. Analysieren Sie eine Zusammenfassung der Unterschiede in Inhalt, Text und Stil von DOTX-Dateien, Bildern und Dokumentformaten."
 
 ############################# Header ############################
@@ -25,28 +24,28 @@ submenu:
     enable: true
 
     left:
-        img_alt: "GroupDocs.Comparison für Java"
+        img_alt: "GroupDocs.Comparison for Java"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-java.png"
         product: "GroupDocs.Comparison"
         platform: "Java"
 
     middle:
         button: 
-            #-Tastenschleife
+            # button loop
             - link: "https://apireference.groupdocs.com/comparison/java"
               text: "API-Referenz"
 
-            #-Tastenschleife
+            # button loop
             - link: "https://github.com/groupdocs-comparison"
               text: "Codebeispiele"
 
-            #-Tastenschleife
+            # button loop
             - link: "https://products.groupdocs.app/comparison/family"
               text: "Live-Demos"
 
-            #-Tastenschleife
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/java"
-              text: "Preise"
+              text: "Preisgestaltung"
 
     right:
         link_download: "https://downloads.groupdocs.com/comparison"
@@ -56,37 +55,36 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Über GroupDocs.Comparison für Java API"
+    title: "Informationen zur GroupDocs.Comparison for Java-API"
     content: |
-        Erweitern Sie Ihre Java-Anwendungen mit Funktionen zum Vergleichen von Bildern und Dokumenten mithilfe der API [GroupDocs.Comparison for Java](/de/comparison/java/). Es hilft Ihnen, die Unterschiede innerhalb von Absätzen, Wörtern, Zeichen, Formen und sogar den Textstilen der verglichenen Dokumente desselben Formats zu erkennen, ermöglicht das Zusammenführen der Änderungen und den Export in ein endgültiges Dokument. Es unterstützt den Vergleich und das Zusammenführen einer Vielzahl von Dokumenten, darunter PDF-, Word-, Excel-Arbeitsblätter, PowerPoint-Präsentationen, Visio-Diagramme, Outlook-E-Mails, HTML, Zeichnungen und Bilddateiformate, ohne dass eine externe Bibliothek verwendet werden muss.
+        Stärken Sie Ihre Java-Anwendungen mit Funktionen zum Vergleichen von Bildern und Dokumenten mithilfe der API [GroupDocs.Comparison for Java](/comparison/java/). Es hilft Ihnen, die Unterschiede innerhalb von Absätzen, Wörtern, Zeichen, Formen und sogar den Textstilen der verglichenen Dokumente desselben Formats zu erkennen, ermöglicht das Zusammenführen der Änderungen und den Export in ein endgültiges Dokument. Es unterstützt den Vergleich und das Zusammenführen einer Vielzahl von Dokumenten, darunter PDF-, Word-, Excel-Arbeitsblätter, PowerPoint-Präsentationen, Visio-Diagramme, Outlook-E-Mails, HTML, Zeichnungen und Bilddateiformate, ohne dass eine externe Bibliothek verwendet werden muss.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Schritte zum Vergleichen von DOTX-Dateien in Java"
     content_left: |
-        [GroupDocs.Comparison](/comparison/java/) erleichtert Java-Entwicklern den Vergleich von DOTX-Dateien in ihren Anwendungen mithilfe weniger Codezeilen.
-        
-        *   Instanziieren Sie das **Comparer**-Objekt mit dem Pfad oder Stream des Quelldokuments.
-        *   Rufen Sie die Add-Methode auf und geben Sie den Pfad oder Stream des Zieldokuments an.
-        *   Vergleichsmethode aufrufen.
+        [GroupDocs.Comparison](/comparison/java/) erleichtert Java-Entwicklern den Vergleich von DOTX-Dateien in ihren Anwendungen mit nur wenigen Codezeilen.
+        * Instanziieren Sie das **Comparer**-Objekt mit dem Pfad oder Stream des Quelldokuments.
+        * Rufen Sie die Add-Methode auf und geben Sie den Pfad oder Stream des Zieldokuments an.
+        * Vergleichsmethode aufrufen.
     title_right: "System Anforderungen"
     content_right: |
-        GroupDocs.Comparison für Java-APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.
-        *   Betriebssysteme: Microsoft Windows, Linux, MacOS
-        *   Entwicklungsumgebung: NetBeans, Intellij IDEA, Eclipse usw
-        *   Java Runtime Environment: J2SE 6.0 und höher
-        *   Holen Sie sich die neueste Version von GroupDocs.Comparison für Java von [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
+        GroupDocs.Comparison for Java APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.
+        * Betriebssysteme: Microsoft Windows, Linux, MacOS
+        * Entwicklungsumgebungen: NetBeans, Intellij IDEA, Eclipse etc
+        * Java Runtime Environment: J2SE 6.0 und höher
+        * Holen Sie sich die neueste Version von GroupDocs.Comparison for Java von [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
     code: |
         ```java
-        // Dokumente aus lokaler Datei vergleichen
+        // Vergleichen Sie Dokumente aus einer lokalen Datei
         
         try (Comparer comparer = new Comparer("C:\\source.dotx")) {
             comparer.add("C:\\target.dotx");
             comparer.compare("C:\\result.dotx"); // Ergebnisdatei mit dem angegebenen Namen erstellen
         }
         
-        // Dokumente aus Stream vergleichen
+        // Vergleichen Sie Dokumente aus dem Stream
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.dotx"))) {
             comparer.add(new FileInputStream("C:\\target.dotx"));
@@ -108,7 +106,7 @@ about_formats:
     format:
         # format loop
         - icon: "far fa-file-dotx"
-          title: "Informationen zum DOTX-Dateiformat"
+          title: "Informationen zum Dateiformat DOTX"
           content: |
             Dateien mit der Erweiterung DOTX sind von Microsoft Word erstellte Vorlagendateien mit vorformatierten Einstellungen für die Generierung weiterer DOCX-Dateien. Es wird eine Vorlagendatei erstellt, um spezifische Benutzereinstellungen zu haben, die auf nachfolgende daraus erstellte Fliegen angewendet werden sollen. Zu diesen Einstellungen gehören Seitenränder, Rahmen, Kopfzeilen, Fußzeilen und andere Seiteneinstellungen. Solche Vorlagen werden in offiziellen Dokumenten wie Firmenbriefköpfen und standardisierten Formularen verwendet. Das DOTX-Dateiformat wurde mit der Veröffentlichung von Microsoft Office 2007 eingeführt, um das binäre DOT-Dateiformat zu ersetzen, wird aber auch von höheren Versionen unterstützt. Microsoft Word öffnet standardmäßig jedes neue Dokument basierend auf der normalen.dot-Datei. Bei einer Änderung führen alle neu erstellten Dateien zu denselben Einstellungen wie in der Vorlagendatei. In Microsoft Word 2007 wurde das DOT-Dateiformat durch das auf Office OpenXML basierende DOTX-Dateiformat ersetzt.
           link: "https://docs.fileformat.com/image/dotx/"
@@ -368,7 +366,7 @@ more_formats:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison bietet APIs zum Anzeigen von Dokumenten für andere gängige Entwicklungsumgebungen"
 
     solution:
         # solution loop

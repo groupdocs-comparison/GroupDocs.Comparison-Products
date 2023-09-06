@@ -1,17 +1,16 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:11+03:00
+date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "JavaJPG比較API-JPGファイルの違いを比較する"
-head_description: "Java、J2EE、J2SEアプリケーションのJPGファイルを比較してマージします。コンテンツ、テキスト、およびテキストの違いの要約を分析します。 JPGファイル、画像、ドキュメント形式のスタイル."
+head_title: "Java JPG 比較 API - JPG ファイルの相違点を比較"
+head_description: "Java、J2EE、J2SE アプリケーションの JPG ファイルを比較およびマージします。 JPG ファイル、画像、ドキュメント形式のコンテンツ、テキスト、スタイルの違いの概要を分析します。"
 
 ############################# Header ############################
-title: "JavaでJPGファイルを比較する"
-description: "Javaで3つ以上のJPGファイル間で行ごとの比較を実行します。相違点のリストを取得し、比較したファイルを1つのドキュメントに保存します."
+title: "Java での JPG ファイルの比較"
+description: "Java で 2 つ以上の JPG ファイル間の行ごとの比較を実行します。相違点のリストを取得し、比較したファイルを 1 つのドキュメントに保存します。"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -56,56 +55,50 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Comparison for Java APIについて"
+    title: "GroupDocs.Comparison for Java API について"
     content: |
-        [GroupDocs.Comparison for Java](/ja/comparison/java/) APIを使用して、画像とドキュメントの比較機能でJavaアプリケーションを強化します。段落、単語、文字、図形、さらには同じ形式の比較されたドキュメントのテキストスタイル内の違いを識別し、変更をマージして最終的なドキュメントにエクスポートするのに役立ちます。外部ライブラリを使用せずに、PDF、Word、Excelワークシート、PowerPointプレゼンテーション、Visioダイアグラム、Outlook電子メール、HTML、図面、画像ファイル形式など、さまざまなドキュメントの比較とマージをサポートします。
+        [GroupDocs.Comparison for Java](/comparison/java/) API を使用して、画像とドキュメントの比較機能を Java アプリケーションに提供します。段落、単語、文字、図形、さらには同じ形式の比較ドキュメントのテキスト スタイル内の違いを識別するのに役立ち、変更をマージして最終ドキュメントにエクスポートできます。外部ライブラリを使用せずに、PDF、Word、Excel ワークシート、PowerPoint プレゼンテーション、Visio 図、Outlook 電子メール、HTML、図面、画像ファイル形式を含む幅広いドキュメントの比較と結合をサポートします。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "JavaでJPGファイルを比較する手順"
+    title_left: "Java で JPG ファイルを比較する手順"
     content_left: |
-        [GroupDocs.Comparison](/ja/comparison/java/)を使用すると、Java開発者は数行のコードを使用してアプリケーション内のJPGファイルを簡単に比較できます。
-    
-        
-        * ソースドキュメントパスまたはストリームを使用して**Comparer**オブジェクトをインスタンス化します。
-        * addメソッドを呼び出し、ターゲットドキュメントのパスまたはストリームを指定します。
-        * compareメソッドを呼び出します。
-    
+        [GroupDocs.Comparison](/comparison/java/) を使用すると、Java 開発者は数行のコードを使用してアプリケーション内の JPG ファイルを簡単に比較できます。
+        * ソース ドキュメント パスまたはストリームを使用して **Comparer** オブジェクトをインスタンス化します。
+        * add メソッドを呼び出し、対象のドキュメント パスまたはストリームを指定します。
+        * 比較メソッドを呼び出します。
     title_right: "システム要求"
     content_right: |
-        GroupDocs.Comparison for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
-    
-        
-        *オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        *開発環境：NetBeans、Intellij IDEA、Eclipseなど
-        * Javaランタイム環境：J2SE6.0以降
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)から最新バージョンのGroupDocs.Comparison for Javaを入手してください。
-    
+        GroupDocs.Comparison for Java API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、次の前提条件がシステムにインストールされていることを確認してください。
+        * オペレーティング システム: Microsoft Windows、Linux、MacOS
+        * 開発環境: NetBeans, Intellij IDEA, Eclipse etc
+        * Java 実行環境: J2SE 6.0 以降
+        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison) から GroupDocs.Comparison for Java の最新バージョンを入手します。
     code: |
         ```java
-        //ローカルファイルのドキュメントを比較します
+        // ローカル ファイルからドキュメントを比較する
         
         try (Comparer comparer = new Comparer("C:\\source.jpg")) {
             comparer.add("C:\\target.jpg");
-            comparer.compare("C:\\result.jpg"); // 指定された名前の結果ファイルを作成する
+            comparer.compare("C:\\result.jpg"); // 指定された名前で結果ファイルを作成します
         }
         
-        //ストリームからのドキュメントを比較します
+        // ストリームからのドキュメントを比較する
         
         try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.jpg"))) {
             comparer.add(new FileInputStream("C:\\target.jpg"));
-            comparer.compare(new FileOutputStream("C:\\result.jpg")); // 指定された名前の結果ファイルを作成する
+            comparer.compare(new FileOutputStream("C:\\result.jpg")); // 指定された名前で結果ファイルを作成します
         }
         ```
 
 ############################# Demos ############################
 demos:
     enable: true
-    title: "JPGファイルを比較するためのライブデモ"
+    title: "JPG ファイルを比較するためのライブ デモ"
     content: |
-        [GroupDocs.Comparisonライブデモ](https://products.groupdocs.app/comparison/family)サイトにアクセスして、JPGファイルを今すぐ比較してください。  
-        ライブデモには次の利点があります
+        [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) Web サイトにアクセスして、今すぐ JPG ファイルを比較してください。
+        ライブデモには次のようなメリットがあります
 
 ############################# About Formats ############################
 about_formats:
@@ -113,9 +106,9 @@ about_formats:
     format:
         # format loop
         - icon: "far fa-file-jpg"
-          title: "JPGファイル形式について"
+          title: "JPG ファイル形式について"
           content: |
-            JPEGは、非可逆圧縮方式を使用して保存される画像形式の一種です。圧縮の結果としての出力画像は、ストレージサイズと画質の間のトレードオフです。ユーザーは、圧縮レベルを調整して目的の品質レベルを達成すると同時に、ストレージサイズを減らすことができます。 10：1の圧縮が画像に適用されている場合、画質への影響はごくわずかです。圧縮値が高いほど、画質の低下が大きくなります。
+            JPEG は、非可逆圧縮方法を使用して保存される画像形式の一種です。圧縮の結果としての出力イメージは、ストレージ サイズと画質の間のトレードオフになります。ユーザーは圧縮レベルを調整して必要な品質レベルを達成しながら、同時にストレージ サイズを削減できます。 10:1 圧縮が画像に適用される場合、画像品質への影響はほとんどありません。圧縮値が高くなるほど、画質の劣化が大きくなります。
           link: "https://docs.fileformat.com/image/jpg/"
 
 ############################# More Formats ############################
@@ -123,209 +116,257 @@ more_formats:
     enable: true
     title: "他のファイル形式を比較する"
     content: |
-        Java用のマルチフォーマット画像とドキュメント比較API。外部ソフトウェアを使用せずに、以下の一般的なファイル形式のいくつかを比較してください。
+        Java 用の複数形式の画像とドキュメントの比較 API。外部ソフトウェアを使用せずに、以下の一般的なファイル形式のいくつかを比較してください。
     format: 
-        
-        - name: "PDFファイルの比較"
+        # format loop
+        - name: "Compare PDF Files"
           link: "https://products.groupdocs.com/comparison/java/pdf/"
-          description: "AdobePortableドキュメント形式"
+          description: "Adobe Portable Document Format"
 
-        - name: "DOCファイルの比較"
+        # format loop
+        - name: "Compare DOC Files"
           link: "https://products.groupdocs.com/comparison/java/doc/"
-          description: "MicrosoftWordドキュメント"
+          description: "Microsoft Word Document"
 
-        - name: "DOCMファイルの比較"
+        # format loop
+        - name: "Compare DOCM Files"
           link: "https://products.groupdocs.com/comparison/java/docm/"
-          description: "MicrosoftWordマクロ対応ドキュメント"
+          description: "Microsoft Word Macro-Enabled Document"
 
-        - name: "DOCXファイルの比較"
+        # format loop
+        - name: "Compare DOCX Files"
           link: "https://products.groupdocs.com/comparison/java/docx/"
-          description: "Microsoft WordOpenXMLドキュメント"
+          description: "Microsoft Word Open XML Document"
 
-        - name: "DOTファイルの比較"
+        # format loop
+        - name: "Compare DOT Files"
           link: "https://products.groupdocs.com/comparison/java/dot/"
-          description: "MicrosoftWord文書テンプレート"
+          description: "Microsoft Word Document Template"
 
-        - name: "DOTMファイルの比較"
+        # format loop
+        - name: "Compare DOTM Files"
           link: "https://products.groupdocs.com/comparison/java/dotm/"
-          description: "MicrosoftWordマクロ対応テンプレート"
+          description: "Microsoft Word Macro-Enabled Template"
 
-        - name: "DOTXファイルの比較"
+        # format loop
+        - name: "Compare DOTX Files"
           link: "https://products.groupdocs.com/comparison/java/dotx/"
-          description: "WordOpenXMLドキュメントテンプレート"
+          description: "Word Open XML Document Template"
 
-        - name: "RTFファイルの比較"
+        # format loop
+        - name: "Compare RTF Files"
           link: "https://products.groupdocs.com/comparison/java/rtf/"
-          description: "リッチテキストファイル形式"
+          description: "Rich Text File Format"
 
-        - name: "TXTファイルの比較"
+        # format loop
+        - name: "Compare TXT Files"
           link: "https://products.groupdocs.com/comparison/java/txt/"
-          description: "プレーンテキストファイル形式"
+          description: "Plain Text File Format"
 
-        - name: "XLSファイルの比較"
+        # format loop
+        - name: "Compare XLS Files"
           link: "https://products.groupdocs.com/comparison/java/xls/"
-          description: "MicrosoftExcelバイナリファイル形式"
+          description: "Microsoft Excel Binary File Format"
 
-        - name: "XLSXファイルの比較"
+        # format loop
+        - name: "Compare XLSX Files"
           link: "https://products.groupdocs.com/comparison/java/xlsx/"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
+          description: "Microsoft Excel Open XML Spreadsheet"
 
-        - name: "XLTMファイルの比較"
+        # format loop
+        - name: "Compare XLTM Files"
           link: "https://products.groupdocs.com/comparison/java/xltm/"
-          description: "MicrosoftExcelマクロ対応テンプレート"
+          description: "Microsoft Excel macro-enabled template"
 
-        - name: "XLSMファイルの比較"
+        # format loop
+        - name: "Compare XLSM Files"
           link: "https://products.groupdocs.com/comparison/java/xlsm/"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
-        - name: "XLSBファイルの比較"
+        # format loop
+        - name: "Compare XLSB Files"
           link: "https://products.groupdocs.com/comparison/java/xlsb/"
-          description: "MicrosoftExcelバイナリスプレッドシートファイル"
+          description: "Microsoft Excel Binary Spreadsheet File"
 
-        - name: "CSVファイルの比較"
+        # format loop
+        - name: "Compare CSV Files"
           link: "https://products.groupdocs.com/comparison/java/csv/"
-          description: "カンマ区切り値ファイル"
+          description: "Comma Separated Values File"
 
-        - name: "PPTファイルの比較"
+        # format loop
+        - name: "Compare PPT Files"
           link: "https://products.groupdocs.com/comparison/java/ppt/"
-          description: "PowerPointプレゼンテーション"
+          description: "PowerPoint Presentation"
 
-        - name: "PPSファイルの比較"
+        # format loop
+        - name: "Compare PPS Files"
           link: "https://products.groupdocs.com/comparison/java/pps/"
-          description: "MicrosoftPowerPointスライドショー"
+          description: "Microsoft PowerPoint Slide Show"
 
-        - name: "PPTXファイルの比較"
+        # format loop
+        - name: "Compare PPTX Files"
           link: "https://products.groupdocs.com/comparison/java/pptx/"
-          description: "PowerPointOpenXMLプレゼンテーション"
+          description: "PowerPoint Open XML Presentation"
 
-        - name: "PPSXファイルの比較"
+        # format loop
+        - name: "Compare PPSX Files"
           link: "https://products.groupdocs.com/comparison/java/ppsx/"
-          description: "PowerPointOpenXMLスライドショー"
+          description: "PowerPoint Open XML Slide Show"
 
-        - name: "POTファイルの比較"
+        # format loop
+        - name: "Compare POT Files"
           link: "https://products.groupdocs.com/comparison/java/pot/"
-          description: "MicrosoftPowerPointテンプレート"
+          description: "Microsoft PowerPoint template"
 
-        - name: "POTXファイルの比較"
+        # format loop
+        - name: "Compare POTX Files"
           link: "https://products.groupdocs.com/comparison/java/potx/"
-          description: "Microsoft PowerPointOpenXMLテンプレート"
+          description: "Microsoft PowerPoint Open XML Template"
 
-        - name: "ODSファイルの比較"
+        # format loop
+        - name: "Compare ODS Files"
           link: "https://products.groupdocs.com/comparison/java/ods/"
-          description: "ドキュメントスプレッドシートを開く"
+          description: "Open Document Spreadsheet"
 
-        - name: "ODPファイルの比較"
+        # format loop
+        - name: "Compare ODP Files"
           link: "https://products.groupdocs.com/comparison/java/odp/"
-          description: "OpenDocumentプレゼンテーションファイル形式"
+          description: "OpenDocument Presentation File Format"
 
-        - name: "OTPファイルの比較"
+        # format loop
+        - name: "Compare OTP Files"
           link: "https://products.groupdocs.com/comparison/java/otp/"
-          description: "原点グラフテンプレート"
+          description: "Origin Graph Template"
 
-        - name: "ODTファイルの比較"
+        # format loop
+        - name: "Compare ODT Files"
           link: "https://products.groupdocs.com/comparison/java/odt/"
-          description: "ドキュメントテキストを開く"
+          description: "Open Document Text"
 
-        - name: "OTTファイルの比較"
+        # format loop
+        - name: "Compare OTT Files"
           link: "https://products.groupdocs.com/comparison/java/ott/"
-          description: "ドキュメントテンプレートを開く"
+          description: "Open Document Template"
 
-        - name: "VSTファイルの比較"
+        # format loop
+        - name: "Compare VST Files"
           link: "https://products.groupdocs.com/comparison/java/vst/"
-          description: "Microsoft Visio2003-2010XML図面"
+          description: "Microsoft Visio 2003-2010 XML Drawing"
 
-        - name: "JPEGファイルの比較"
+        # format loop
+        - name: "Compare JPEG Files"
           link: "https://products.groupdocs.com/comparison/java/jpeg/"
-          description: "JPEG画像"
+          description: "JPEG Image"
 
-        - name: "PNGファイルの比較"
+        # format loop
+        - name: "Compare PNG Files"
           link: "https://products.groupdocs.com/comparison/java/png/"
-          description: "ポータブルネットワークグラフィック"
+          description: "Portable Network Graphic"
 
-        - name: "GIFファイルの比較"
+        # format loop
+        - name: "Compare GIF Files"
           link: "https://products.groupdocs.com/comparison/java/gif/"
-          description: "グラフィカルな交換フォーマットファイル"
+          description: "Graphical Interchange Format File"
 
-        - name: "BMPファイルの比較"
+        # format loop
+        - name: "Compare BMP Files"
           link: "https://products.groupdocs.com/comparison/java/bmp/"
-          description: "ビットマップファイル形式"
+          description: "Bitmap File Format"
 
-        - name: "HTMLファイルの比較"
+        # format loop
+        - name: "Compare HTML Files"
           link: "https://products.groupdocs.com/comparison/java/html/"
-          description: "ハイパーテキストマークアップ言語"
+          description: "Hyper Text Markup Language"
 
-        - name: "MHTファイルの比較"
+        # format loop
+        - name: "Compare MHT Files"
           link: "https://products.groupdocs.com/comparison/java/mht/"
           description: "Mime HTML"
 
-        - name: "MHTMLファイルの比較"
+        # format loop
+        - name: "Compare MHTML Files"
           link: "https://products.groupdocs.com/comparison/java/mhtml/"
-          description: "集約HTMLのMIMEカプセル化"
+          description: "MIME Encapsulation of Aggregate HTML"
 
-        - name: "MSGファイルの比較"
+        # format loop
+        - name: "Compare MSG Files"
           link: "https://products.groupdocs.com/comparison/java/msg/"
-          description: "MicrosoftOutlookの電子メールメッセージ"
+          description: "Microsoft Outlook E-mail Message"
 
-        - name: "EMLファイルの比較"
+        # format loop
+        - name: "Compare EML Files"
           link: "https://products.groupdocs.com/comparison/java/eml/"
-          description: "電子メールメッセージ"
+          description: "E-mail Message"
 
-        - name: "EMLXファイルの比較"
+        # format loop
+        - name: "Compare EMLX Files"
           link: "https://products.groupdocs.com/comparison/java/emlx/"
-          description: "AppleMailEメールファイル"
+          description: "Apple Mail E-mail File"
 
-        - name: "ONEファイルの比較"
+        # format loop
+        - name: "Compare ONE Files"
           link: "https://products.groupdocs.com/comparison/java/one/"
           description: "Microsoft OneNote"
 
-        - name: "VSDファイルの比較"
+        # format loop
+        - name: "Compare VSD Files"
           link: "https://products.groupdocs.com/comparison/java/vsd/"
-          description: "MicrosoftVisio2003-2010図面"
+          description: "Microsoft Visio 2003-2010 Drawing"
 
-        - name: "VSDXファイルの比較"
+        # format loop
+        - name: "Compare VSDX Files"
           link: "https://products.groupdocs.com/comparison/java/vsdx/"
-          description: "MicrosoftVisio図面"
+          description: "Microsoft Visio Drawing"
 
-        - name: "VSSファイルの比較"
+        # format loop
+        - name: "Compare VSS Files"
           link: "https://products.groupdocs.com/comparison/java/vss/"
-          description: "MicrosoftVisio2003-2010ステンシル"
+          description: "Microsoft Visio 2003-2010 Stencil"
 
-        - name: "VSTファイルの比較"
+        # format loop
+        - name: "Compare VST Files"
           link: "https://products.groupdocs.com/comparison/java/vst/"
-          description: "MicrosoftVisio2003-2010テンプレート"
+          description: "Microsoft Visio 2003-2010 Template"
 
-        - name: "VDXファイルの比較"
+        # format loop
+        - name: "Compare VDX Files"
           link: "https://products.groupdocs.com/comparison/java/vdx/"
-          description: "Microsoft Visio2003-2010XML図面"
+          description: "Microsoft Visio 2003-2010 XML Drawing"
 
-        - name: "CSファイルの比較"
+        # format loop
+        - name: "Compare CS Files"
           link: "https://products.groupdocs.com/comparison/java/cs/"
-          description: "CSharp言語"
+          description: "CSharp Language"
 
-        - name: "JAVAファイルの比較"
+        # format loop
+        - name: "Compare Java Files"
           link: "https://products.groupdocs.com/comparison/java/java/"
-          description: "Java言語"
+          description: "Java Language"
 
-        - name: "CPPファイルの比較"
+        # format loop
+        - name: "Compare CPP Files"
           link: "https://products.groupdocs.com/comparison/java/cpp/"
-          description: "C++言語"
+          description: "C++ Language"
 
-        - name: "JSファイルの比較"
+        # format loop
+        - name: "Compare JS Files"
           link: "https://products.groupdocs.com/comparison/java/js/"
-          description: "JavaScript言語"
+          description: "JavaScript Language"
 
-        - name: "PYファイルの比較"
+        # format loop
+        - name: "Compare PY Files"
           link: "https://products.groupdocs.com/comparison/java/py/"
-          description: "Python言語"
+          description: "Python Language"
 
-        - name: "RBファイルの比較"
+        # format loop
+        - name: "Compare RB Files"
           link: "https://products.groupdocs.com/comparison/java/rb/"
-          description: "Ruby言語"
+          description: "Ruby Language"
 
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison は、他の一般的な開発環境向けのドキュメント表示 API を提供します"
 
     solution:
         # solution loop

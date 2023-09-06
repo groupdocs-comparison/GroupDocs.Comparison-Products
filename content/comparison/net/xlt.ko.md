@@ -1,4 +1,3 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-comparison"
@@ -6,12 +5,12 @@ date: 2021-05-13T12:45:19+03:00
 draft: false
 
 ############################# Head ############################
-head_title: ".NET에서 두 XLT 파일 비교 | 문서 비교 API"
+head_title: ".NET에서 두 개의 XLT 파일 비교 | 문서 비교 API"
 head_description: "C# .NET 애플리케이션에서 두 개 이상의 XLT 파일을 비교하고 병합합니다. XLT 파일, 이미지 및 문서 형식의 콘텐츠, 텍스트 및 스타일의 차이점 요약을 검색합니다."
 
 ############################# Header ############################
-title: "C# .NET에서 XLT 파일 비교"
-description: ".NET 문서 비교 API는 XLT 파일의 두 버전 간 변경 사항을 감지하고 비교된 문서 간의 차이점에 대한 자세한 요약과 함께 최종 문서로 내보냅니다."
+title: "C# .NET의 XLT 파일 비교"
+description: ".NET 문서 비교 API는 XLT 파일의 두 버전 간의 변경 사항을 감지하고 비교된 문서 간의 차이점에 대한 자세한 요약과 함께 최종 문서로 내보냅니다."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -28,23 +27,23 @@ submenu:
         img_alt: "GroupDocs.Comparison for .NET"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-net.png"
         product: "GroupDocs.Comparison"
-        platform: ".그물"
+        platform: ".NET"
 
     middle:
         button: 
-            # 버튼 루프
+            # button loop
             - link: "https://apireference.groupdocs.com/comparison/net"
               text: "API 참조"
 
-            # 버튼 루프
+            # button loop
             - link: "https://github.com/groupdocs-comparison"
-              text: "코드 예제"
+              text: "코드 예"
 
-            # 버튼 루프
+            # button loop
             - link: "https://products.groupdocs.app/comparison/family"
               text: "라이브 데모"
 
-            # 버튼 루프
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/comparison/net"
               text: "가격"
 
@@ -56,29 +55,29 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: ".NET API용 GroupDocs.Comparison 정보"
+    title: "GroupDocs.Comparison for .NET API 정보"
     content: |
-        [GroupDocs.Comparison for .NET](/ko/comparison/net/)은 동일한 형식의 여러 이미지와 문서를 비교하기 위한 기본 .NET API입니다. 비교 문서의 단락, 단어, 문자, 모양, 심지어 텍스트 스타일 내의 차이점을 감지하고 변경 사항을 병합하고 최종 문서로 내보낼 수 있습니다. 외부 라이브러리를 사용하지 않고 PDF, Word 문서, Excel 스프레드시트, PowerPoint 프레젠테이션, Visio 다이어그램, Outlook 이메일, HTML, 그림 및 이미지 파일 형식을 비교하고 병합할 수 있습니다.
+        [GroupDocs.Comparison for .NET](/comparison/net/)은 동일한 형식의 여러 이미지와 문서를 비교하기 위한 기본 .NET API입니다. 비교된 문서의 단락, 단어, 문자, 모양, 심지어 텍스트 스타일의 차이점을 감지하고 변경 사항을 병합하여 최종 문서로 내보내는 데 도움이 됩니다. 외부 라이브러리를 사용하지 않고도 PDF, Word 문서, Excel 스프레드시트, PowerPoint 프레젠테이션, Visio 다이어그램, Outlook 이메일, HTML, 그림 및 이미지 파일 형식의 비교 및 ​​병합을 지원합니다.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "C#에서 XLT 파일을 비교하는 단계"
     content_left: |
-        [GroupDocs.Comparison](/comparison/net/)을 사용하면 .NET 개발자가 몇 가지 간단한 단계를 구현하여 애플리케이션에서 여러 XLT 파일을 쉽게 비교 및 ​​병합할 수 있습니다.
-        *   소스 문서 경로 또는 스트림으로 **Comparer** 개체를 인스턴스화합니다.
-        * Add 메서드를 호출하고 대상 문서 경로 또는 스트림을 지정합니다. 모든 대상 문서에 대해 이 단계를 반복합니다.
+        [GroupDocs.Comparison](/comparison/net/)을 사용하면 .NET 개발자가 몇 가지 간단한 단계를 구현하여 애플리케이션에서 여러 XLT 파일을 쉽게 비교하고 병합할 수 있습니다.
+        * 소스 문서 경로 또는 스트림으로 **Comparer** 개체를 인스턴스화합니다.
+        * Add 메소드를 호출하고 대상 문서 경로 또는 스트림을 지정합니다. 모든 대상 문서에 대해 이 단계를 반복합니다.
         * 호출 비교 방법.
     title_right: "시스템 요구 사항"
     content_right: |
-        GroupDocs.Comparison for .NET API는 모든 주요 플랫폼 및 운영 체제에서 지원됩니다. 아래 코드를 실행하기 전에 시스템에 다음 필수 구성 요소가 설치되어 있는지 확인하십시오.
-        *   운영 체제: Microsoft Windows, Linux, MacOS
+        GroupDocs.Comparison for .NET API는 모든 주요 플랫폼과 운영 체제에서 지원됩니다. 아래 코드를 실행하기 전에 시스템에 다음 필수 구성 요소가 설치되어 있는지 확인하세요.
+        * 운영 체제: 마이크로소프트 윈도우, 리눅스, 맥OS
         * 개발 환경: Microsoft Visual Studio, Xamarin, MonoDevelop
         * 프레임워크: .NET Framework, .NET Standard, .NET Core, Mono
-        * [NuGet](https://www.nuget.org/packages/groupdocs.comparison)에서 다운로드한 .NET용 GroupDocs.Comparison의 최신 버전을 받으세요.
+        * [NuGet](https://www.nuget.org/packages/groupdocs.comparison)에서 최신 버전의 GroupDocs.Comparison for .NET을(를) 다운로드하세요.
     code: |
         ```cs
-        // 로컬 디스크에서 여러 문서를 비교합니다.
+        // 로컬 디스크의 여러 문서 비교
         
         using (Comparer comparer = new Comparer("source.xlt"))
         {
@@ -88,7 +87,7 @@ steps:
             comparer.Compare("result.xlt"); // 지정된 이름으로 결과 파일 생성
         }
         
-        // 스트림에서 여러 문서 비교
+        // 스트림의 여러 문서 비교
         
         using (Comparer comparer = new Comparer(File.OpenRead("source.xlt")))
         {
@@ -102,9 +101,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "XLT 파일 비교 라이브 데모"
+    title: "XLT 파일 비교에 대한 라이브 데모"
     content: |
-        지금 바로 [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) 웹사이트를 방문하여 XLT 파일 간의 차이점을 감지하세요.
+        지금 바로 [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) 웹사이트를 방문하여 XLT 파일 간의 차이점을 찾아보세요.
         라이브 데모에는 다음과 같은 이점이 있습니다.
 
 ############################# About Formats ############################
@@ -115,7 +114,7 @@ about_formats:
         - icon: "far fa-file-xlt"
           title: "XLT 파일 형식 정보"
           content: |
-            확장자가 .XLT인 파일은 Microsoft Office 제품군의 일부로 제공되는 스프레드시트 응용 프로그램인 Microsoft Excel로 만든 템플릿 파일입니다. Microsoft Office 97-2003은 새 XLT 파일 생성 및 열기를 지원했습니다. 최신 버전의 Excel에서는 여전히 이 이전 형식 템플릿 파일을 열 수 있습니다. 이러한 템플릿 파일은 새 .XLS 파일로 추가로 저장할 수 있는 페이지 서식, 글꼴 크기, 여백, 차트 등과 같은 기본 데이터 및 설정으로 새 Excel 파일을 빠르게 만드는 데 사용됩니다.
+            .XLT 확장자를 가진 파일은 Microsoft Office 제품군의 일부로 제공되는 스프레드시트 응용 프로그램인 Microsoft Excel로 생성된 템플릿 파일입니다. Microsoft Office 97-2003에서는 새 XLT 파일 생성 및 열기를 지원했습니다. 최신 버전의 Excel에서는 여전히 이 이전 형식 템플릿 파일을 열 수 있습니다. 이러한 템플릿 파일은 새 .XLS 파일로 추가로 저장할 수 있는 페이지 형식, 글꼴 크기, 여백, 차트 등과 같은 기본 데이터 및 설정을 사용하여 새 Excel 파일을 빠르게 만드는 데 사용됩니다.
           link: "https://docs.fileformat.com/image/xlt/"
 
 ############################# More Formats ############################
@@ -123,7 +122,7 @@ more_formats:
     enable: true
     title: "다른 파일 형식 비교"
     content: |
-        .NET용 다중 형식 문서 및 이미지 비교 API. 외부 도구를 사용하지 않고 동일한 형식의 문서 간의 차이점을 분석합니다.
+        .NET용 다중 형식 문서 및 이미지 비교 API. 외부 도구를 사용하지 않고도 동일한 형식의 문서 간의 차이점을 분석합니다.
     format: 
         # format loop
         - name: "Compare PDF Files"
@@ -373,7 +372,7 @@ more_formats:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular formats"
+    title: "GroupDocs.Comparison은 기타 널리 사용되는 개발 환경을 위한 문서 보기 API를 제공합니다."
 
     solution:
         # solution loop
