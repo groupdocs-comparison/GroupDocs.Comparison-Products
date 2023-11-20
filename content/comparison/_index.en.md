@@ -38,6 +38,14 @@ apis:
           platform: "Java"
           content: "Native Java API for the Desktop, Web & other Java SE or EE based applications."
 
+        # api_product loop
+        - link: "/comparison/nodejs-java/"
+          img_alt: "GroupDocs.Comparison for Node.js via Java"
+          image: "/border/groupdocs-comparison-nodejs-java.svg"
+          product: "GroupDocs.Comparison for"
+          platform: "Node.js via Java"
+          content: "JavaScript API for the Desktop, Web & other applications."
+
     # api loop
     - title: "GroupDocs.Comparison Low Code APIs Include"
       link: "https://products.groupdocs.cloud/comparison"
