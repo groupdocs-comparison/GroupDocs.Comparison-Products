@@ -1,344 +1,234 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+layout: "landing"
+date: 2023-12-11T13:24:02
 draft: false
-
 product: "Comparison"
 product_tag: "comparison"
-platform: ".NET"
+platform: "Net"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "C# .NET Document Comparison API | Compare & Merge PDF Word Excel Web & Text"
-head_description: "C# .NET Document Comparison API. Compare & merge PDF Word DOC DOCX, Excel Spreadsheet, PPT, PPTX, HTML, EMLX MSG, VSDX, DXF DWG & image file formats."
+head_title: "#Comparison Solution | On Premise APIs and Free App - GroupDocs"
+head_description: "#Add watermark to PDF, images and documents. Watermarking Solution for Microsoft Office, PDF, OpenDocument, Image File Formats and more."
 
 ############################# Header ############################
-title: ".NET API to Compare Files"
-description: "Develop Applications using the .NET Document Comparison API to Check & Compare files for Differences in Content & Style."
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/comparison/net"
+title: "Sign documents<br>via .NET API"
+description: "#Quickly apply & manipulate text and image based watermarks of your documents and images with smart search."
+words:
+  for: "for"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Comparison for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-net.png"
-        product: "GroupDocs.Comparison"
-        platform: ".NET"
+actions:
+  main: "Free NuGet Download"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Comparison"
+  alt: "Licensing"
+  alt_link: "https://purchase.groupdocs.com/pricing/comparison/net"
+  title: "Ready to get started?"
+  description: "Try GroupDocs.Signature features for free or request a license"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Overview"
+release:
+  title: "Version {0} released"
+  notes: "See what’s new"
+  downloads: "Downloads"
 
-            # button loop
-            - link: "#features"
-              text: "Features"
-
-            # button loop
-            - link: "#support"
-              text: "Support"
-
-            # button loop
-            - link: "https://products.groupdocs.app/comparison"
-              text: "Live Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/comparison/net"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/comparison"
-        link_learn: "https://docs.groupdocs.com/comparison/net/"
-        link_buy: "https://purchase.groupdocs.com"
+code:
+  title: "Sign PDF files in C#"
+  more: "More examples"
+  more_link: "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-.NET"
+  install: "dotnet add package GroupDocs.Signature"
+  content: |
+    ```csharp {style=abap}   
+    // Select PDF document
+    using (Signature signature = new Signature("sample.pdf"))
+    {
+        // Provide text
+        var options = new TextSignOptions("John Smith")
+        {
+            // Set color
+            ForeColor = Color.Red
+        };
+        // Sign document and save to file
+        signature.Sign("signed.pdf", options);
+    }
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    example_image: "/comparison/comparison-example.webp"
-    content: |
-      
-    more_overview:
-      # more_overview_loop
-      - title: "What is GroupDocs.Comparison for .NET"
-        content: "GroupDocs.Comparison for .NET API is a fast and reliable solution ready for use when creating applications for searching and highlighting differences between documents of the same or different formats in C#, ASP.NET or other technologies related to the .NET software platform."
+  enable: true
+  title: "GroupDocs.Signature Overview"
+  description: "API for performing document signing and related operations in .NET applications"
+  features:
+    # feature loop
+    - title: "Adding signatures to business documents in C#"
+      content: "Documents signing: With GroupDocs.Signature for .NET, you can add various types of signatures, such as text, images, barcodes, and digital certificates, to PDF and Office documents. This API allows you to sign your documents with nearly any data type, including hidden metadata."
 
-      # more_overview_loop
-      - title: "Supported Formats"
-        content: "The GroupDocs.Comparison library supports detecting differences in both content and text style between popular image and document formats such as PDF, HTML, e-mail Outlook, Microsoft Office Word documents, Excel spreadsheets, PowerPoint presentations, OneNote, Visio diagrams, texts, png, gif and bmp images as well as a hundred of other formats."
-        
-      # more_overview_loop
-      - title: "Comparison Capabilities"
-        content: "Comparison can be performed to detect changes in the content of words, paragraphs, tables or charts and their styles, and will provide you with a comparison document that lists a summary of the differences, their number and type belonging. GroupDocs.Comparison for .NET can easily extract basic information about the source document, compare and save simple, password-protected and encrypted documents of various formats through a file or data stream."
-        
-      # more_overview_loop
-      - title: "Documentation and Examples"
-        content: "There is already a lot of documentation on using Comparison library on different platforms with code examples, so you don’t have to think hard about how to work with GroupDocs.Comparison for .NET API in your application."
-        
-      # more_overview_loop
-      - title: "Compatibility"
-        content: "You can use GroupDocs.Comparison for .NET to create applications in any development environment oriented on the .NET platform. It is compatible with all .NET-based languages and supports popular operating systems (Windows, Linux, MacOS) on which you can install Mono or .NET frameworks (including .NET Core)."
-    examples:
-      enable: true
-      
-    more_feature:
-      # more_feature_loop
-      - title: "Easily Compare Documents using .NET API"
-        content: |
-          GroupDocs.Comparison for .NET API provides you an easy and efficient way to compare your files. Following is an example that shows, how to compare two DOCX documents using C#:  
+    # feature loop
+    - title: "Processing signed documents"
+      content: "Additional processing: You can perform powerful operations on signed documents using GroupDocs.Signature. This includes searching for existing signatures within business documents and verifying them using specific criteria. Additionally, you can retrieve document information and preview pages through this .NET API."
 
-          ```cs
-          // Source and target files to be compared
-          string source = @"source.docx";
-          string target = @"target.docx";
-          Comparer comparer = new Comparer();
-          // Compare two documents
-          ICompareResult result = comparer.Compare(source, target, new ComparisonSettings());
-          ```
-      # more_feature_loop
-      - title: "Choose Detail Level for Comparison"
-        content: "With GroupDocs.Comparison for .NET you can specify the extent to which you want the documents to be compared. You can choose among, low (compare text word by word with accuracy for imaging grid = 50), middle (compare text character by character with accuracy for imaging grid = 100) or high (compare text character by character with accuracy for imaging grid = 150)."
+    # feature loop
+    - title: "Customizing results"
+      content: "GroupDocs.Signature for .NET offers extensive customization options. You can precisely position signatures anywhere on a document page and adjust their appearance using a variety of settings. Furthermore, this API supports saving processed documents in a wide range of supported formats."
 
-      # more_feature_loop
-      - title: "Support for Text Style Comparison"
-        content: |
-          GroupDocs.Comparison for .NET offers feature to compare text style.  
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Platform independence"
+  description: "GroupDocs.Signature for .NET supports the following operating systems, frameworks and package managers"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-          While words and characters of documents are being compared, the font name, font size, font color, font style (Bold, Italic, Underline, Small Caps, Hyperlink) and underline color (if applicable) can be compared to find differences.  
-
-          While comparing paragraphs, you can compare styles such as, paragraph alignment, indentation (left indent, right indent), paragraph spacing (space after, space before), first line indent, and line spacing.  
-
-          GroupDocs.Comparison for .NET also supports comparing other sections of a page, where applicable, such as footer distance, page height & orientation, margins (left, right, top, and bottom), border line width, and border color.  
-      
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Following is an overview of GroupDocs.Comparison for .NET:
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Overview"
-          content: |
-            * Document Comparison
-            * HTML Files Comparison
-            * PDF Comparison
-            * Diagram Comparison
-            * Compare File Content
-            * Compare Text Styles
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Comparison for .NET supports all popular [document file formats](https://docs.groupdocs.com/comparison/net/supported-document-formats/) including: Microsoft Office, PDF, images and many others.
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** [DOC](https://products.groupdocs.com/comparison/net/doc/), [DOCX](https://products.groupdocs.com/comparison/net/docx/), [DOCM](https://products.groupdocs.com/comparison/net/docm/), [DOT](https://products.groupdocs.com/comparison/net/dot/), [DOTX](https://products.groupdocs.com/comparison/net/dotx/), [DOTM](https://products.groupdocs.com/comparison/net/dotm/), [RTF](https://products.groupdocs.com/comparison/net/rtf/), [TXT](https://products.groupdocs.com/comparison/net/txt/)
-                * **Excel:** [XLS](https://products.groupdocs.com/comparison/net/xls/), [XLSX](https://products.groupdocs.com/comparison/net/xlsx/), [XLSM](https://products.groupdocs.com/comparison/net/xlsm/), [XLSB](https://products.groupdocs.com/comparison/net/xlsb/), [XLTM](https://products.groupdocs.com/comparison/net/xltm/), [XLT](https://products.groupdocs.com/comparison/net/xlt/), [XLTM](https://products.groupdocs.com/comparison/net/xltm/), [XLTX](https://products.groupdocs.com/comparison/net/xltx/), [XLAM](https://products.groupdocs.com/comparison/net/xlam/), [SXC](https://products.groupdocs.com/comparison/net/sxc/), [SpreadsheetML](https://products.groupdocs.com/comparison/net/xml/)
-                * **PowerPoint:** [PPT](https://products.groupdocs.com/comparison/net/ppt/), [PPTX](https://products.groupdocs.com/comparison/net/pptx/), [PPS](https://products.groupdocs.com/comparison/net/pps/), [PPSX](https://products.groupdocs.com/comparison/net/ppsx/), [PPSM](https://products.groupdocs.com/comparison/net/ppsm/), [POT](https://products.groupdocs.com/comparison/net/pot/), [POTM](https://products.groupdocs.com/comparison/net/potm/), [POTX](https://products.groupdocs.com/comparison/net/potx/), [PPTM](https://products.groupdocs.com/comparison/net/pptm/)
-                * **Visio:** [VSD](https://products.groupdocs.com/comparison/net/vsd/), [VDX](https://products.groupdocs.com/comparison/net/vdx/), [VSS](https://products.groupdocs.com/comparison/net/vss/), [VSSX](https://products.groupdocs.com/comparison/net/vssx/), [VSX](https://products.groupdocs.com/comparison/net/vsx/), [VST](https://products.groupdocs.com/comparison/net/vst/), [VSTX](https://products.groupdocs.com/comparison/net/vstx/), [VTX](https://products.groupdocs.com/comparison/net/vtx/), [VSDX](https://products.groupdocs.com/comparison/net/vsdx/), [VDW](https://products.groupdocs.com/comparison/net/vdw/), [VSTM](https://products.groupdocs.com/comparison/net/vstm/), [VSSM](https://products.groupdocs.com/comparison/net/vssm/), [VSDM](https://products.groupdocs.com/comparison/net/vsdm/)
-                * **Outlook:** [MSG](https://products.groupdocs.com/comparison/net/msg/), [EML](https://products.groupdocs.com/comparison/net/eml/), [EMLX](https://products.groupdocs.com/comparison/net/emlx/), [PST](https://products.groupdocs.com/comparison/net/pst/), [OST](https://products.groupdocs.com/comparison/net/ost/)
-                * **OneNote:** [ONE](https://products.groupdocs.com/comparison/net/one/)
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Other Formats"
-              content: |
-                * **Programming Languages**: [CS](https://products.groupdocs.com/comparison/net/cs/), [Java](https://products.groupdocs.com/comparison/net/java/), [CPP](https://products.groupdocs.com/comparison/net/cpp/), [JS](https://products.groupdocs.com/comparison/net/js/), [PY](https://products.groupdocs.com/comparison/net/py/), [RB](https://products.groupdocs.com/comparison/net/rb/), [PL](https://products.groupdocs.com/comparison/net/pl/), [ASM](https://products.groupdocs.com/comparison/net/asm/), [GROOVY](https://products.groupdocs.com/comparison/net/groovy/), [JSON](https://products.groupdocs.com/comparison/net/json/), [PHP](https://products.groupdocs.com/comparison/net/php/), [SQL](https://products.groupdocs.com/comparison/net/sql/), [LOG](https://products.groupdocs.com/comparison/net/log/), [DIFF](https://products.groupdocs.com/comparison/net/diff/), [LESS](https://products.groupdocs.com/comparison/net/less/), [SCALA](https://products.groupdocs.com/comparison/net/scala/)
-                * **OpenDocument**: [ODT](https://products.groupdocs.com/comparison/net/odt/), [OTT](https://products.groupdocs.com/comparison/net/ott/), [ODS](https://products.groupdocs.com/comparison/net/ods/), [ODP](https://products.groupdocs.com/comparison/net/odp/), [OTP](https://products.groupdocs.com/comparison/net/otp/)
-                * **Portable**: [PDF](https://products.groupdocs.com/comparison/net/pdf/), [MOBI](https://products.groupdocs.com/comparison/net/mobi/)
-                * **AutoCAD**: [DXF](https://products.groupdocs.com/comparison/net/dxf/), [DWG](https://products.groupdocs.com/comparison/net/dwg/)
-                * **Email**: [EML](https://products.groupdocs.com/comparison/net/eml/), [EMLX](https://products.groupdocs.com/comparison/net/emlx/), [MSG](https://products.groupdocs.com/comparison/net/msg/)
-                * **Images**: [JPEG](https://products.groupdocs.com/comparison/net/jpeg/), [BMP](https://products.groupdocs.com/comparison/net/bmp/), [PNG](https://products.groupdocs.com/comparison/net/png/), [GIF](https://products.groupdocs.com/comparison/net/gif/), [DCM](https://products.groupdocs.com/comparison/net/dcm/), [DICOM](https://products.groupdocs.com/comparison/net/dicom/), [DjVu](https://products.groupdocs.com/comparison/net/djvu/)
-                * **Web**: [HTM](https://products.groupdocs.com/comparison/net/htm/), [HTML](https://products.groupdocs.com/comparison/net/html/), [MHTML](https://products.groupdocs.com/comparison/net/mhtml/)
-                * **Text**: [TXT](https://products.groupdocs.com/comparison/net/txt/)
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Comparison for .NET supports following Operating Systems, Frameworks & Package Managers:
-      
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operating Systems"
-              content: |
-                * Windows Desktop
-                * Windows Server
-                * Windows Azure
-                * Linux
-                * MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Supported Frameworks"
-              content: |
-                * .NET Framework 2.0 or higher
-                * Mono Framework 1.2 or higher
-                * .NET Standard 2.0
-                * .NET Core 2.0
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Package Manager"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Development Environments"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Supported file formats"
+  description: |
+    GroupDocs.Signature for .NET supports operations with the following [file formats](https://docs.groupdocs.com/signature/net/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office formats
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+    # group loop
+    - color: "blue"
+      content: |
+        ### Images & Other Formats
+        * **Portable:** PDF
+        * **Images:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Other office formats:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+      # group loop
+    - color: "red"
+      content: |
+        ### Other formats
+        * **Web:** HTML, MHTML
+        * **Archives:** ZIP, TAR, 7Z
+        * **Certificates:** PFX
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Comparison for .NET Features"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "[Identify Differences in Content and Font Styles](https://docs.groupdocs.com/comparison/net/compare-documents/)"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "[Save a Summarized Report of All Differences Found after File Comparison](https://docs.groupdocs.com/comparison/net/get-extended-information-on-the-summary-page/)"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "[Apply or Reject Changes after Analyzing Differences and Export Resulting File](https://docs.groupdocs.com/comparison/net/accept-or-reject-detected-changes/)"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "[Support for Microsoft Word “Track Changes” Functionality while Comparing Word Files](https://docs.groupdocs.com/comparison/net/show-revisions/)"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "[Uniquely Spot Changes Coming from Each Document being Compared](https://docs.groupdocs.com/comparison/net/get-list-of-changes/)"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "[Read and Send Documents via Streams](https://docs.groupdocs.com/comparison/net/load-file-from-stream/)"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "[Metered Licensing – Billing According to API Usage](https://docs.groupdocs.com/comparison/net/licensing-and-evaluation-limitations/)"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "[Compare Multiple Source Documents with a Single Target Document](https://docs.groupdocs.com/comparison/net/compare-multiple-documents/)"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "[Compare Specific Pages of Word Files with each other – Accept or reject all changes in a single Word Document](https://docs.groupdocs.com/comparison/net/accept-or-reject-detected-changes/)"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "[Merge up to 3 Word Documents and Compare Formulae used in Word Files](https://docs.groupdocs.com/comparison/net/how-to-merge-source-code-files/)"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "[Get Information about Documents from filePath](https://docs.groupdocs.com/comparison/net/get-file-info/)"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "[Save HTML Comparison Result as Images](https://docs.groupdocs.com/comparison/net/generate-document-pages-preview/)"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "[Option to Show or Hide Deleted Content](https://docs.groupdocs.com/comparison/net/show-gap-lines/)"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "[Option to Turn Style Comparison of Documents ON or OFF](https://docs.groupdocs.com/comparison/net/how-to-select-options-for-flexible-comparing/)"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "[Specify Strings to Mark Inserted, Deleted & Style Change Items in Comparison Document](https://docs.groupdocs.com/comparison/net/customize-changes-styles/)"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "[Specify Word Separator & Font Color to Stylize Compared Text](https://docs.groupdocs.com/comparison/net/customize-changes-styles/)"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "[Calculate Correct Coordinates of Changes in PDF, Word, PowerPoint Slides & Diagrams](https://docs.groupdocs.com/comparison/net/get-changes-coordinates/)"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "[Compare Password Protected Files](https://docs.groupdocs.com/comparison/net/how-to-compare-password-protected-files/)"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "[Compare Chart Titles in Spreadsheets – Generate Chart in the resulted Cells Files](https://docs.groupdocs.com/comparison/net/how-to-compare-spreadsheet-or-tables/)"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "[Autosize the auto-shapes in resulted file of Cells document](https://docs.groupdocs.com/comparison/net/how-to-compare-spreadsheet-or-tables/)"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "[Access Detailed Summary Page to Detect Changes Between Source & Target Document Files](https://docs.groupdocs.com/comparison/net/get-extended-information-on-the-summary-page/)"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "[Compare Most Popular Programming & Scripting Language Files](https://docs.groupdocs.com/comparison/net/get-supported-document-formats/)"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "[Compare Multiple (more than two) PDF, Word, Excel, Diagram, Email, Text & OneNote Documents](https://docs.groupdocs.com/comparison/net/compare-multiple-documents-with-specific-compare-settings/)"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "[Compare Header & Footer of Supported File Formats](https://docs.groupdocs.com/comparison/net/how-to-select-options-for-flexible-comparing/)"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "[Compare Bookmarks, Variables & Custom Properties of Word Document Formats](https://docs.groupdocs.com/comparison/net/compare-bookmarks-in-word/)"
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular development environments"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Comparison for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
-          product: "GroupDocs.Comparison"
-          platform: "Java"
-          link: "/comparison/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Signature features"
+  description: "Signing PDFs, Office Documents, and Images swiftly and accurately"
+
+  items:
+    # feature loop
+    - icon: "sign"
+      title: "Document signing"
+      content: "Add one or multiple supported types of signatures accurately at any specified position on business documents."
+
+    # feature loop
+    - icon: "custom"
+      title: "Customize signatures"
+      content: "Utilize features such as color, font, border, rotation, etc., to configure the appearance of signatures."
+
+    # feature loop
+    - icon: "password"
+      title: "Document password protection"
+      content: "Secure certain document types by setting a password after signing."
+
+    # feature loop
+    - icon: "protect"
+      title: "Protection from changes"
+      content: "Prevent changes to important business documents after appending a signature with a digital certificate."
+
+    # feature loop
+    - icon: "convert"
+      title: "Convert signed files to other formats"
+      content: "Convert signed files to desired formats, such as saving a Word document as a PDF."
+
+    # feature loop
+    - icon: "preview"
+      title: "Extract page previews"
+      content: "Extract pages from signed documents as individual images for future processing."
+
+    # feature loop
+    - icon: "search"
+      title: "Signature search in documents"
+      content: "Retrieve information about previously added signatures in specific documents."
+
+    # feature loop
+    - icon: "validate"
+      title: "Validate signed documents"
+      content: "Verify the proper signing of documents using validation features."
+
+    # feature loop
+    - icon: "update"
+      title: "Update or delete signatures"
+      content: "Easily reposition specific signatures on a page, modify their text, or delete them without any issues."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Code samples"
+  description: "Some use cases of typical GroupDocs.Signature for .NET operations"
+  items:
+    # code sample loop
+    - title: "Add QR-code to PDF"
+      content: |
+        Adding [QR-codes](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) to specific pages of PDF documents can enhance business processes. Below is an example of how to add a QR code using GroupDocs.Signature.
+        {{< landing/code title="How to put QR code to PDF.">}}
+        ```csharp {style=abap}
+        // Load the document to sign
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // Create QR code options with predefined text
+            QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
+            {
+                // Configure QR code encoding type and position on the page
+                EncodeType = QrCodeTypes.QR,
+                Left = 100,
+                Top = 100
+            };
+            // Sign the document and save it as the result file
+            signature.Sign("file_with_QR.pdf", options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Protecting a DOCX document using a digital certificate"
+      content: |
+        You can [Protect a Document](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) using personal or corporate signatures stored as digital certificates. Such protected documents cannot be modified without invalidating the signature.
+        {{< landing/code title="Here is how to ensure document integrity.">}}
+        ```csharp {style=abap}   
+        // Load the document to be digitally signed
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // Specify digital signing options and provide the path to the certificate file
+            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+            {
+                // Set the certificate password
+                Password = "1234567890"
+            };
+            // Sign the document and save it to the desired path
+            signature.Sign("digitally_signed.pdf", options);
+        }
+        ```
+        {{< /landing/code >}}
+
 ---

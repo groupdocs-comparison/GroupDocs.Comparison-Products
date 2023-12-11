@@ -1,0 +1,38 @@
+{
+    "products": {
+      "net": {
+        "name": ".NET",
+        "fullName": "GroupDocs.Comparison for .NET",
+        "code": "net",
+        "progLang": "C#",
+        "srcFileExt": ".cs",
+        "syntax": "csharp",
+        "devEnv": "Microsoft Visual Studio, Xamarin, MonoDevelop",
+        "runtime": "Frameworks: .NET Framework, .NET Standard, .NET Core, Mono",
+        "repoName": "Nuget",
+        "repoUrl": "https://www.nuget.org/packages/groupdocs.comparison",
+        "url": "https://products.groupdocs.com/comparison/net/",
+        "logo_url": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-net.png",
+        "main_link": "https://www.nuget.org/packages/GroupDocs.Comparison",
+        "alt_link": "https://purchase.groupdocs.com/pricing/comparison/net",
+        "more_link": "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-.NET"
+      },
+      "java": {
+        "name": "Java",
+        "fullName": "GroupDocs.Comparison for Java",
+        "code": "java",
+        "progLang": "Java",
+        "srcFileExt": ".java",
+        "syntax": "java",
+        "devEnv": "NetBeans, Intellij IDEA, Eclipse, etc.",
+        "runtime": "Java runtime: J2SE 6.0 and above",
+        "repoName": "Maven",
+        "repoUrl": "https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison",
+        "url": "https://products.groupdocs.com/comparison/java/",
+        "logo_url": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png",
+        "main_link": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/",
+        "alt_link": "https://purchase.groupdocs.com/pricing/comparison/java",
+        "more_link": "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Java"
+      }
+    }
+}

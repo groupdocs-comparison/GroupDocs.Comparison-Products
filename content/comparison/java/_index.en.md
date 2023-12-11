@@ -1,322 +1,236 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+layout: "landing"
+date: 2023-12-11T13:24:02
 draft: false
-
 product: "Comparison"
 product_tag: "comparison"
 platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Java Document Comparison API | Compare Text & Style of PDF Word Excel HTML"
-head_description: "Java Document Comparison API to compare & merge Word Excel PPTX OpenOffice, Web, PDF, AutoCAD & other file formats. Compare documents with track changes."
+head_title: "#Comparison Solution | On Premise APIs and Free App - GroupDocs"
+head_description: "#Add watermark to PDF, images and documents. Watermarking Solution for Microsoft Office, PDF, OpenDocument, Image File Formats and more."
 
 ############################# Header ############################
-title: "Java API to Compare Files"
-description: "Create Java applications to effectively compare files content for differences in all standard document and image file formats."
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/comparison/java"
+title: "Sign documents<br>via Java API"
+description: "#Quickly apply & manipulate text and image based watermarks of your documents and images with smart search."
+words:
+  for: "for"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
+actions:
+  main: "Free Maven Download"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/"
+  alt: "Licensing"
+  alt_link: "https://purchase.groupdocs.com/pricing/comparison/java"
+  title: "Ready to get started?"
+  description: "Try GroupDocs.Signature features for free or request a license"
+
+release:
+  title: "Version {0} released"
+  notes: "See what’s new"
+  downloads: "Downloads"
+
+code:
+  title: "Sign PDF files in Java"
+  more: "More examples"
+  more_link: "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Java"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-signature</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}  
+    // Select PDF document
+    Signature signature = new Signature("sample.pdf");
     
-    left:
-        img_alt: "GroupDocs.Comparison for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
-        product: "GroupDocs.Comparison"
-        platform: "Java"
+    // Provide text
+    TextSignOptions options = new TextSignOptions("John Smith");
+    options.setForeColor(Color.RED);
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Overview"
-
-            # button loop
-            - link: "#features"
-              text: "Features"
-
-            # button loop
-            - link: "#support"
-              text: "Support"
-
-            # button loop
-            - link: "https://products.groupdocs.app/comparison"
-              text: "Live Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/comparison/java"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/comparison"
-        link_learn: "https://docs.groupdocs.com/comparison/java/"
-        link_buy: "https://purchase.groupdocs.com"
+    // Sign document and save to file
+    signature.sign("signed.pdf", options);
+    
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    example_image: "/comparison/comparison-example.webp"
-    content: |
-      
-    more_overview:
-      # more_overview_loop
-      - title: "What is GroupDocs.Comparison for Java"
-        content: "GroupDocs.Comparison for Java is the most flexible and easy-to-use API to help you develop document comparison applications in the Java environment. The difference checker and document merge API allow you to detect changes and differences in content as well as in text style between similar document formats."
+  enable: true
+  title: "GroupDocs.Signature Overview"
+  description: "API for performing document signing and related operations in Java applications"
+  features:
+    # feature loop
+    - title: "Improved business documents with digital signatures in Java"
+      content: "Swift and customizable signing: GroupDocs.Signature for Java offers a wide range of digital signature options for PDFs, images, and Office documents. You can use text, barcodes, QR-codes, digital certificates, pictures, or hidden metadata. The document processing is fast and efficient."
 
-      # more_overview_loop
-      - title: "Supported Formats"
-        content: "The GroupDocs.Comparison library supports detecting differences in both content and text style between popular image and document formats such as PDF, HTML, e-mail Outlook, Microsoft Office Word documents, Excel spreadsheets, PowerPoint presentations, OneNote, Visio diagrams, texts, png, gif and bmp images as well as a hundred of other formats."
-        
-      # more_overview_loop
-      - title: "Comparison Capabilities"
-        content: "Comparison can be performed to detect changes in the content of words, paragraphs, tables or charts and their styles, and will provide you with a comparison document that lists a summary of the differences, their number and type belonging. GroupDocs.Comparison for Java can easily extract basic information about the source document, compare and save simple, password-protected and encrypted documents of various formats through a file or data stream."
-        
-      # more_overview_loop
-      - title: "Documentation and Examples"
-        content: "There is already a lot of documentation on using Comparison library on different platforms with code examples, so you don’t have to think hard about how to work with GroupDocs.Comparison for Java API in your application."
-        
-      # more_overview_loop
-      - title: "Compatibility"
-        content: "GroupDocs.Comparison for Java does not require any external software to be installed in the system. It is compatible with all versions of Java and supports popular operating systems (Windows, Linux, MacOS) capable of running Java runtime environment."
-    examples:
-      enable: true
-      
-    more_feature:
-      # more_feature_loop
-      - title: "Easily Compare Documents using Java API"
-        content: |
-          Through GroupDocs.Comparison for Java API you can easily compare documents of supported formats to find differences among them. Following example shows, how to compare two Microsoft Word documents using Java:
-          
-          ```java
-          try (Comparer comparer = new Comparer("D:\\source.pdf")) {
-              comparer.add("D:\\target.pdf");
-              comparer.compare("D:\\result.pdf");
-          }
-          ```
-      # more_feature_loop
-      - title: "Specify Comparison Detail Level"
-        content: "GroupDocs.Comparison for Java allows you to compare documents at three levels deep. You can set comparison intensity to be low (compare text word by word with accuracy for imaging grid = 50), middle (compare text character by character with accuracy for imaging grid = 100) or high (compare text character by character with accuracy for imaging grid = 150)."
+    # feature loop
+    - title: "Manipulating signed documents"
+      content: "Advanced document processing involves powerful operations on signed documents using GroupDocs.Signature for Java. You can search for and validate signatures that have been added to business documents using various useful criteria. Additionally, you can access detailed information about the document or obtain preview images of its pages."
 
-      # more_feature_loop
-      - title: "Compare Text Style"
-        content: "Along with document content, GroupDocs.Comparison for Java API allows to compare text style as well.
+    # feature loop
+    - title: "Variety of output choices"
+      content: "Robust signing options allow you to customize the output for documents signed with GroupDocs.Signature for Java. You can precisely position any signature on any document page and configure its appearance in various ways. The Java API supports saving signed business documents in numerous supported formats and provides options for securing them with passwords."
 
-        Font name, size, color, style (bold, italic, underline, small caps, and hyperlinks) and if applicable, under color can also be compared to check difference among compared documents, while words and characters are being compared.  
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Platform independence"
+  description: "GroupDocs.Signature for Java supports the following operating systems, frameworks and package managers"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
 
-        For paragraph comparison, alignment, indentation (left indent, right indent), spacing (space after, space before), first line indent and line spacing can also be compared.  
-
-        Similarly, wherever applicable, other sections of a page can also be compared through GroupDocs.Comparison for Java API. The sections include, footer distance, page margins (left, right, top, and bottom), page height, page orientation, border color and line width."
-      
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Following is an overview of GroupDocs.Comparison for Java:
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Overview"
-          content: |
-            * Compare Contents & Styles
-            * Get Comparison Summary
-            * Accept/Reject Changes in Word
-            * Merge & Compare 3 Word Files
-            * Support for Streams
-            * File Type Detection via Stream
-            * Compare Protected Files
-            * Compare Encrypted Files
-            * Save Comparison as Image
-            * Compare Specific Page in Word
-            * Compare Watermark in PDF
-            * Apply/Discard Changes
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Comparison for Java supports all popular [document file formats](https://docs.groupdocs.com/comparison/java/supported-document-formats/) including: Microsoft Office, images, diagrams and many others.
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** [DOC](https://products.groupdocs.com/comparison/java/doc/), [DOCX](https://products.groupdocs.com/comparison/java/docx/), [DOCM](https://products.groupdocs.com/comparison/java/docm/), [DOT](https://products.groupdocs.com/comparison/java/dot/), [DOTX](https://products.groupdocs.com/comparison/java/dotx/), [DOTM](https://products.groupdocs.com/comparison/java/dotm/), [RTF](https://products.groupdocs.com/comparison/java/rtf/), [TXT](https://products.groupdocs.com/comparison/java/txt/)
-                * **Excel:** [XLS](https://products.groupdocs.com/comparison/java/xls/), [XLSX](https://products.groupdocs.com/comparison/java/xlsx/), [XLSM](https://products.groupdocs.com/comparison/java/xlsm/), [XLSB](https://products.groupdocs.com/comparison/java/xlsb/), [XLTM](https://products.groupdocs.com/comparison/java/xltm/), [XLT](https://products.groupdocs.com/comparison/java/xlt/), [XLTM](https://products.groupdocs.com/comparison/java/xltm/), [XLTX](https://products.groupdocs.com/comparison/java/xltx/), [XLAM](https://products.groupdocs.com/comparison/java/xlam/), [SXC](https://products.groupdocs.com/comparison/java/sxc/), [SpreadsheetML](https://products.groupdocs.com/comparison/java/xml/)
-                * **PowerPoint:** [PPT](https://products.groupdocs.com/comparison/java/ppt/), [PPTX](https://products.groupdocs.com/comparison/java/pptx/), [PPS](https://products.groupdocs.com/comparison/java/pps/), [PPSX](https://products.groupdocs.com/comparison/java/ppsx/), [PPSM](https://products.groupdocs.com/comparison/java/ppsm/), [POT](https://products.groupdocs.com/comparison/java/pot/), [POTM](https://products.groupdocs.com/comparison/java/potm/), [POTX](https://products.groupdocs.com/comparison/java/potx/), [PPTM](https://products.groupdocs.com/comparison/java/pptm/)
-                * **Visio:** [VSD](https://products.groupdocs.com/comparison/java/vsd/), [VDX](https://products.groupdocs.com/comparison/java/vdx/), [VSS](https://products.groupdocs.com/comparison/java/vss/), [VSSX](https://products.groupdocs.com/comparison/java/vssx/), [VSX](https://products.groupdocs.com/comparison/java/vsx/), [VST](https://products.groupdocs.com/comparison/java/vst/), [VSTX](https://products.groupdocs.com/comparison/java/vstx/), [VTX](https://products.groupdocs.com/comparison/java/vtx/), [VSDX](https://products.groupdocs.com/comparison/java/vsdx/), [VDW](https://products.groupdocs.com/comparison/java/vdw/), [VSTM](https://products.groupdocs.com/comparison/java/vstm/), [VSSM](https://products.groupdocs.com/comparison/java/vssm/), [VSDM](https://products.groupdocs.com/comparison/java/vsdm/)
-                * **Outlook:** [MSG](https://products.groupdocs.com/comparison/java/msg/), [EML](https://products.groupdocs.com/comparison/java/eml/), [EMLX](https://products.groupdocs.com/comparison/java/emlx/), [PST](https://products.groupdocs.com/comparison/java/pst/), [OST](https://products.groupdocs.com/comparison/java/ost/)
-                * **OneNote:** [ONE](https://products.groupdocs.com/comparison/java/one/)
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Other Formats"
-              content: |
-                * **Programming Languages**: [CS](https://products.groupdocs.com/comparison/java/cs/), [Java](https://products.groupdocs.com/comparison/java/java/), [CPP](https://products.groupdocs.com/comparison/java/cpp/), [JS](https://products.groupdocs.com/comparison/java/js/), [PY](https://products.groupdocs.com/comparison/java/py/), [RB](https://products.groupdocs.com/comparison/java/rb/), [PL](https://products.groupdocs.com/comparison/java/pl/), [ASM](https://products.groupdocs.com/comparison/java/asm/), [GROOVY](https://products.groupdocs.com/comparison/java/groovy/), [JSON](https://products.groupdocs.com/comparison/java/json/), [PHP](https://products.groupdocs.com/comparison/java/php/), [SQL](https://products.groupdocs.com/comparison/java/sql/), [LOG](https://products.groupdocs.com/comparison/java/log/), [DIFF](https://products.groupdocs.com/comparison/java/diff/), [LESS](https://products.groupdocs.com/comparison/java/less/), [SCALA](https://products.groupdocs.com/comparison/java/scala/)
-                * **OpenDocument**: [ODT](https://products.groupdocs.com/comparison/java/odt/), [OTT](https://products.groupdocs.com/comparison/java/ott/), [ODS](https://products.groupdocs.com/comparison/java/ods/), [ODP](https://products.groupdocs.com/comparison/java/odp/), [OTP](https://products.groupdocs.com/comparison/java/otp/)
-                * **Portable**: [PDF](https://products.groupdocs.com/comparison/java/pdf/), [MOBI](https://products.groupdocs.com/comparison/java/mobi/)
-                * **AutoCAD**: [DXF](https://products.groupdocs.com/comparison/java/dxf/), [DWG](https://products.groupdocs.com/comparison/java/dwg/)
-                * **Email**: [EML](https://products.groupdocs.com/comparison/java/eml/), [EMLX](https://products.groupdocs.com/comparison/java/emlx/), [MSG](https://products.groupdocs.com/comparison/java/msg/)
-                * **Images**: [JPEG](https://products.groupdocs.com/comparison/java/jpeg/), [BMP](https://products.groupdocs.com/comparison/java/bmp/), [PNG](https://products.groupdocs.com/comparison/java/png/), [GIF](https://products.groupdocs.com/comparison/java/gif/), [DCM](https://products.groupdocs.com/comparison/java/dcm/), [DICOM](https://products.groupdocs.com/comparison/java/dicom/), [DjVu](https://products.groupdocs.com/comparison/java/djvu/)
-                * **Web**: [HTM](https://products.groupdocs.com/comparison/java/htm/), [HTML](https://products.groupdocs.com/comparison/java/html/), [MHTML](https://products.groupdocs.com/comparison/java/mhtml/)
-                * **Text**: [TXT](https://products.groupdocs.com/comparison/java/txt/)
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Comparison for Java supports following Operating Systems, Frameworks & Package Managers:
-      
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operating Systems"
-              content: |
-                * Microsoft Windows Desktop
-                * Microsoft Windows Server
-                * Linux
-                * MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Supported Frameworks"
-              content: |
-                * Java 7 (1.7) or higher
-
-        right:
-          enable: true
-          table:
-            
-            # table loop
-            - icon: "fas fa-cogs"
-              title: "Development Environments"
-              content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Build Automation Tool"
-              content: |
-                * Maven
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Supported file formats"
+  description: |
+    GroupDocs.Signature for Java supports operations with the following [file formats](https://docs.groupdocs.com/signature/java/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office formats
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+    # group loop
+    - color: "blue"
+      content: |
+        ### Images & Other Formats
+        * **Portable:** PDF
+        * **Images:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Other office formats:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+      # group loop
+    - color: "red"
+      content: |
+        ### Other formats
+        * **Web:** HTML, MHTML
+        * **Archives:** ZIP, TAR, 7Z
+        * **Certificates:** PFX
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Comparison for Java Features"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "[Compare and Identify Changes in both Content & Text Style](https://docs.groupdocs.com/comparison/java/compare-documents/)"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "[Save Summarized Comparison List about Compared Documents](https://docs.groupdocs.com/comparison/java/get-extended-information-on-the-summary-page/)"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "[Compare Specific Pages of Word Documents](https://docs.groupdocs.com/comparison/java/accept-or-reject-detected-changes/)"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "[Merge up to 3 Microsoft Word Files to Compare with Support for “Track Changes”](https://docs.groupdocs.com/comparison/java/compare-multiple-documents-with-specific-compare-settings/)"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "[Easily Spot which Changes are coming from which Document during Comparison](https://docs.groupdocs.com/comparison/java/get-list-of-changes/)"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "[Support to Read Source Documents and Send Resultant Document via Streams](https://docs.groupdocs.com/comparison/java/load-file-from-stream/)"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "[Detect Type of File Format while Fetching from Stream](https://docs.groupdocs.com/comparison/java/get-file-info/)"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "[Compare Documents Protected by Password](https://docs.groupdocs.com/comparison/java/load-password-protected-documents/)"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "[Save Comparison Result as Image](https://docs.groupdocs.com/comparison/java/generate-document-pages-preview/)"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "[Compare Different File Formats as Image](https://docs.groupdocs.com/comparison/java/generate-document-pages-preview/)"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "[Compare Watermarks in PDF Documents](https://docs.groupdocs.com/comparison/java/how-to-spot-photos-differences-in-java-or-kotlin/)"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "[Compare Documents from File or Stream and Send Result Document via Stream or File](https://docs.groupdocs.com/comparison/java/load-file-from-stream/)"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "[Accept or Discard Changes after Comparison of Word, PDF or Excel Files](https://docs.groupdocs.com/comparison/java/accept-or-reject-detected-changes/)"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "[Compare Encrypted Documents via File or Stream](https://docs.groupdocs.com/comparison/java/load-file-from-stream/)"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "[Metered Licensing Option for Comparison Operations](https://docs.groupdocs.com/comparison/java/evaluation-limitations-and-licensing-of-groupdocs-comparison/)"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "[Highlight Text for Marked Changes when Comparing PDF, Word, Excel, PowerPoint & Note Documents](https://docs.groupdocs.com/comparison/java/customize-changes-styles/)"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "[Calculate Correct Coordinates of Changes in PDF, PowerPoint Slides & Diagrams](https://docs.groupdocs.com/comparison/java/get-changes-coordinates/)"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "[Compare Multiple (more than two) PDF, Excel, OneNote, Diagram, Email, & Text Documents](https://docs.groupdocs.com/comparison/java/compare-multiple-documents/)"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "[Compare Header & Footer of Supported File Formats](https://docs.groupdocs.com/comparison/net/how-to-select-options-for-flexible-comparing/)"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "[Compare Documents & Save Document Pages of Different Formats as Images](https://docs.groupdocs.com/comparison/java/generate-document-pages-preview/)"
-
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Comparison offers document viewing APIs for other popular development environments"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Comparison for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-net.png"
-          product: "GroupDocs.Comparison"
-          platform: ".NET"
-          link: "/comparison/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Signature features"
+  description: "Signing PDFs, Office Documents, and images with digital signatures"
+
+  items:
+    # feature loop
+    - icon: "sign"
+      title: "Adding Signatures"
+      content: "Sign a document using various supported signature types by placing a digital signature precisely at any position on any page."
+
+    # feature loop
+    - icon: "custom"
+      title: "Customizing results"
+      content: "Customize the signature appearance by adjusting color, font, border, rotation, and other features to achieve the desired result."
+
+    # feature loop
+    - icon: "password"
+      title: "Securing documents with password"
+      content: "For many supported document types, you can protect the signed document with a password."
+
+    # feature loop
+    - icon: "protect"
+      title: "Preventing unauthorized changes"
+      content: "Protect important business documents signed with a digital certificate from unauthorized modifications."
+
+    # feature loop
+    - icon: "convert"
+      title: "Obtaining results in desired formats"
+      content: "Easily obtain signed result files in any supported format. You can also convert MS Word documents to PDF effortlessly."
+
+    # feature loop
+    - icon: "preview"
+      title: "Document preview"
+      content: "Save any page of a document as an image for future processing."
+
+    # feature loop
+    - icon: "search"
+      title: "Searching for signatures"
+      content: "It is possible to get information about previously added signatures in specific documents."
+
+    # feature loop
+    - icon: "validate"
+      title: "Validating documents"
+      content: "Validate the correctness of signatures on any signed document."
+
+    # feature loop
+    - icon: "update"
+      title: "Managing signatures"
+      content: "Once a signature is placed on a document page, it can be deleted, moved, or updated as needed."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Code samples"
+  description: "Some use cases of typical GroupDocs.Signature for Java operations"
+  items:
+    # code sample loop
+    - title: "Enchance PDF document with QR-code"
+      content: |
+        Enhancing business processes by adding [QR-codes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) to specific pages of PDF documents can be valuable. There is an example of how to add a QR code using GroupDocs.Signature for Java.
+        {{< landing/code title="Enchance PDF document with QR-code">}}
+        ```java {style=abap}
+        // Load the document to sign
+        Signature signature = new Signature("file_to_sign.pdf");
+        
+        // Create QR code options with predefined text
+        QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
+        
+        // Configure QR code encoding type and position on the page
+        options.setEncodeType(QrCodeTypes.QR);
+        options.setLeft(100);
+        options.setTop(100);
+
+        // Sign the document and save it as the result file
+        signature.sign("file_with_QR.pdf", options);
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Use digital signature to protect a DOCX"
+      content: |
+        You can [Safeguard a Document](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) using personal or corporate signatures stored as digital certificates. Documents secured with certificate cannot be altered without invalidating the signature.
+        {{< landing/code title="Use digital signature to protect a DOCX">}}
+        ```java {style=abap}   
+        // Load the document to be digitally signed
+        Signature signature = new Signature("file_to_sign.pdf");
+        
+        // Specify digital signing options and provide the path to the certificate file
+        DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
+
+        // Set the certificate password
+        options.setPassword("1234567890");
+
+        // Sign the document and save it to the desired path
+        signature.sign("digitally_signed.pdf", options);
+        ```
+        {{< /landing/code >}}
+
 ---
+
