@@ -1,0 +1,7 @@
+inherits: ..\\products_nodejs-java.yml
+
+dimensions:  
+- alias:  operation
+  values: [index] 
+
+outputPath: "comparison\\{product}\\_index.{lang}.md"

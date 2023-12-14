@@ -21,7 +21,7 @@
     "words_for": "for",
     "actions_alt": "Licensing",
     "actions_title": "Ready to get started?",
-    "actions_description": "Try GroupDocs.Signature features for free or request a license",
+    "actions_description": "Try GroupDocs.Comparison features for free or request a license",
     "release_title": "Version {0} released",
     "release_notes": "See what’s new",
     "release_downloads": "Downloads",
@@ -30,7 +30,7 @@
     "code_comment_2": "Provide text",
     "code_comment_3": "Set color",
     "code_comment_4": "Sign document and save to file",
-    "overview_title": "GroupDocs.Signature Overview",
+    "overview_title": "GroupDocs.Comparison Overview",
     "platforms_title": "Platform independence",
     "formats_title": "Supported file formats",
     "formats_groups": {
@@ -70,18 +70,18 @@
     "overview_description": "API for performing document signing and related operations in .NET applications",
     "overview_feature_1": {
       "title": "Adding signatures to business documents in C#",
-      "description": "Documents signing: With GroupDocs.Signature for .NET, you can add various types of signatures, such as text, images, barcodes, and digital certificates, to PDF and Office documents. This API allows you to sign your documents with nearly any data type, including hidden metadata."
+      "description": "Documents signing: With GroupDocs.Comparison for .NET, you can add various types of signatures, such as text, images, barcodes, and digital certificates, to PDF and Office documents. This API allows you to sign your documents with nearly any data type, including hidden metadata."
     },
     "overview_feature_2": {
       "title": "Processing signed documents",
-      "description": "Additional processing: You can perform powerful operations on signed documents using GroupDocs.Signature. This includes searching for existing signatures within business documents and verifying them using specific criteria. Additionally, you can retrieve document information and preview pages through this .NET API."
+      "description": "Additional processing: You can perform powerful operations on signed documents using GroupDocs.Comparison. This includes searching for existing signatures within business documents and verifying them using specific criteria. Additionally, you can retrieve document information and preview pages through this .NET API."
     },
     "overview_feature_3": {
       "title": "Customizing results",
-      "description": "GroupDocs.Signature for .NET offers extensive customization options. You can precisely position signatures anywhere on a document page and adjust their appearance using a variety of settings. Furthermore, this API supports saving processed documents in a wide range of supported formats."
+      "description": "GroupDocs.Comparison for .NET offers extensive customization options. You can precisely position signatures anywhere on a document page and adjust their appearance using a variety of settings. Furthermore, this API supports saving processed documents in a wide range of supported formats."
     },
     "features": {
-      "title": "GroupDocs.Signature features",
+      "title": "GroupDocs.Comparison features",
       "description": "Signing PDFs, Office Documents, and Images swiftly and accurately",
       "feature_1": {
         "title": "Document signing",
@@ -120,12 +120,12 @@
         "content": "Easily reposition specific signatures on a page, modify their text, or delete them without any issues."
       }
     },
-    "platforms_description": "GroupDocs.Signature for .NET supports the following operating systems, frameworks and package managers",
-    "formats_description": "GroupDocs.Signature for .NET supports operations with the following [file formats](https://docs.groupdocs.com/signature/net/supported-document-formats/).",
-    "code_samples_description": "Some use cases of typical GroupDocs.Signature for .NET operations",
+    "platforms_description": "GroupDocs.Comparison for .NET supports the following operating systems, frameworks and package managers",
+    "formats_description": "GroupDocs.Comparison for .NET supports operations with the following [file formats](https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "code_samples_description": "Some use cases of typical GroupDocs.Comparison for .NET operations",
     "code_title_sample_1": "Add QR-code to PDF",
     "code_samples_sample_1_content_1": "Adding [QR-codes](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) to specific pages of PDF documents can enhance business processes.",
-    "code_samples_sample_1_content_2": "Below is an example of how to add a QR code using GroupDocs.Signature.",
+    "code_samples_sample_1_content_2": "Below is an example of how to add a QR code using GroupDocs.Comparison.",
     "code_title_sample_2": "Protecting a DOCX document using a digital certificate",
     "code_samples_sample_2_content_1": "You can [Protect a Document](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) using personal or corporate signatures stored as digital certificates.",
     "code_samples_sample_2_content_2": "Such protected documents cannot be modified without invalidating the signature."
@@ -138,18 +138,18 @@
     "overview_description": "API for performing document signing and related operations in Java applications",
     "overview_feature_1": {
       "title": "Improved business documents with digital signatures in Java",
-      "description": "Swift and customizable signing: GroupDocs.Signature for Java offers a wide range of digital signature options for PDFs, images, and Office documents. You can use text, barcodes, QR-codes, digital certificates, pictures, or hidden metadata. The document processing is fast and efficient."
+      "description": "Swift and customizable signing: GroupDocs.Comparison for Java offers a wide range of digital signature options for PDFs, images, and Office documents. You can use text, barcodes, QR-codes, digital certificates, pictures, or hidden metadata. The document processing is fast and efficient."
     },
     "overview_feature_2": {
       "title": "Manipulating signed documents",
-      "description": "Advanced document processing involves powerful operations on signed documents using GroupDocs.Signature for Java. You can search for and validate signatures that have been added to business documents using various useful criteria. Additionally, you can access detailed information about the document or obtain preview images of its pages."
+      "description": "Advanced document processing involves powerful operations on signed documents using GroupDocs.Comparison for Java. You can search for and validate signatures that have been added to business documents using various useful criteria. Additionally, you can access detailed information about the document or obtain preview images of its pages."
     },
     "overview_feature_3": {
       "title": "Variety of output choices",
-      "description": "Robust signing options allow you to customize the output for documents signed with GroupDocs.Signature for Java. You can precisely position any signature on any document page and configure its appearance in various ways. The Java API supports saving signed business documents in numerous supported formats and provides options for securing them with passwords."
+      "description": "Robust signing options allow you to customize the output for documents signed with GroupDocs.Comparison for Java. You can precisely position any signature on any document page and configure its appearance in various ways. The Java API supports saving signed business documents in numerous supported formats and provides options for securing them with passwords."
     },
     "features": {
-      "title": "GroupDocs.Signature features",
+      "title": "GroupDocs.Comparison features",
       "description": "Signing PDFs, Office Documents, and images with digital signatures",
       "feature_1": {
         "title": "Adding Signatures",
@@ -188,14 +188,132 @@
         "content": "Once a signature is placed on a document page, it can be deleted, moved, or updated as needed."
       }
     },
-    "platforms_description": "GroupDocs.Signature for Java supports the following operating systems, frameworks and package managers",
-    "formats_description": "GroupDocs.Signature for Java supports operations with the following [file formats](https://docs.groupdocs.com/signature/java/supported-document-formats/).",
-    "code_samples_description": "Some use cases of typical GroupDocs.Signature for Java operations",
+    "platforms_description": "GroupDocs.Comparison for Java supports the following operating systems, frameworks and package managers",
+    "formats_description": "GroupDocs.Comparison for Java supports operations with the following [file formats](https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "code_samples_description": "Some use cases of typical GroupDocs.Comparison for Java operations",
     "code_title_sample_1": "Enchance PDF document with QR-code",
     "code_samples_sample_1_content_1": "Enhancing business processes by adding [QR-codes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) to specific pages of PDF documents can be valuable.",
-    "code_samples_sample_1_content_2": "There is an example of how to add a QR code using GroupDocs.Signature for Java.",
+    "code_samples_sample_1_content_2": "There is an example of how to add a QR code using GroupDocs.Comparison for Java.",
     "code_title_sample_2": "Use digital signature to protect a DOCX",
     "code_samples_sample_2_content_1": "You can [Safeguard a Document](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) using personal or corporate signatures stored as digital certificates.",
     "code_samples_sample_2_content_2": "Documents secured with certificate cannot be altered without invalidating the signature."
+  },
+  "index-content-nodejs-java": {
+    "head_title": "Node.js Document Comparison Library | Compare Docs for Text & Style",
+    "head_description": "Node.js documents style & content comparison API. Compare documents of multiple supported formats for the difference to identify changes between files.",
+    "title": "Node.js API to compare popular file formats",
+    "description": "Document Comparison library to develop native JavaScript applications with highly configurable comparison features. Compare files, their content & text style between similar document formats.",
+    "words_for": "for",
+    "actions_main": "Free NPM Download",
+    "actions_alt": "Licensing",
+    "actions_title": "Ready to get started?",
+    "actions_description": "Try GroupDocs.Comparison features for free, or request a license",
+    "release_title": "Version {0} released",
+    "release_notes": "See what’s new",
+    "release_downloads": "Downloads",
+    "code_title": "Compare BMP images in JavaScript",
+    "code_more": "More examples",
+    "code_comment_1": "Instantiate Comparer",
+    "code_comment_2": "Set up another file for comparison",
+    "code_comment_3": "Save comparison result to specified file",
+    "overview_title": "GroupDocs.Comparison at a glance",
+    "overview_description": "API to compare various types of documents such as PDF, Microsoft Office, HTML, e-mails, or images within Node.js applications",
+    "overview_feature_1": {
+      "title": "Detailed output reports",
+      "description": "GroupDocs.Comparison identifies changes in document content (characters, words, paragraphs, tables, charts), as well as, changes in document style. It provides customers with a resulting report that contains rich information about differences, their number, and type."
+    },
+    "overview_feature_2": {
+      "title": "Most popular file and document formats are supported",
+      "description": "With GroupDocs.Comparison API you can efficiently compare documents of any supported formats like PDF, HTML, e-mail, Microsoft Office Word documents, Excel spreadsheets, PowerPoint presentations, OneNote, Visio diagrams, texts, JPEG, PNG, GIF, and BMP images as well as many other formats."
+    },
+    "overview_feature_3": {
+      "title": "Documentation and examples",
+      "description": "There is already a lot of documentation on using Comparison library on different platforms with code examples, so you don’t have to think hard about how to work with GroupDocs.Comparison API in your Node.js application."
+    },
+    "platforms_title": "Platform independence",
+    "platforms_description": "GroupDocs.Comparison for Node.js supports the following operating systems, frameworks and package managers",
+    "formats_title": "Supported file formats",
+    "formats_description": "GroupDocs.Comparison for Node.js via Java supports operations with the following [file formats](https://docs.groupdocs.com/comparison/nodejs-java/supported-document-formats/).",
+    "formats_groups": {
+      "title_1": "Microsoft Office & OpenDocument formats",
+      "title_2": "Images, Graphics & Diagrams",
+      "title_3": "Other",
+      "format_1_7": "Fixed Page Layout",
+      "format_2_1": "Raster images",
+      "format_2_2": "Medical Imaging",
+      "format_2_4": "AutoCAD Drawing",
+      "format_3_1": "Text",
+      "format_3_2": "Programming Languages",
+      "format_3_3": "Web",
+      "format_3_4": "e-Books",
+      "format_3_5": "Delimiter-Separated Values"
+    },
+    "features": {
+      "title": "GroupDocs.Comparison for Node.js features",
+      "description": "Easily compare PDF and Office documents, images and other formats",
+      "feature_1": {
+        "title": "Side by side comparison",
+        "content": "Analyze and identify differences within two documents."
+      },
+      "feature_2": {
+        "title": "Compare multiple documents",
+        "content": "Analyze and identify differences within multiple documents simultaneously."
+      },
+      "feature_3": {
+        "title": "Supported formats",
+        "content": "Supports more than 50 popular document formats from various categories."
+      },
+      "feature_4": {
+        "title": "Accept or reject changes",
+        "content": "Clear visual representation of identified changes, providing the option to accept or reject modifications."
+      },
+      "feature_5": {
+        "title": "Generate previews",
+        "content": "Save the results of the comparison as images."
+      },
+      "feature_6": {
+        "title": "Content comparison",
+        "content": "Compare text content line-by-line, by paragraphs, by words, by characters. Highlight the changes."
+      },
+      "feature_7": {
+        "title": "Style comparison",
+        "content": "Detect changes in formatting and styles."
+      },
+      "feature_8": {
+        "title": "Set metadata",
+        "content": "Keep metadata from either the source or target files or allow it to be specified by users."
+      },
+      "feature_9": {
+        "title": "Password protection",
+        "content": "Analyze the encrypted documents, or secure the resulting document with a password."
+      },
+      "feature_10": {
+        "title": "Compare specific pages",
+        "content": "Load just the particular sections or pages of the document."
+      },
+      "feature_11": {
+        "title": "Display comments",
+        "content": "When loading the source document you can choose whether to hide or show comments."
+      }
+    },
+    "code_samples": {
+      "title": "Code samples",
+      "description": "Some use cases of typical GroupDocs.Comparison for Node.js via Java operations",
+      "sample_1": {
+        "title": "Comparing password-protected documents.",
+        "content": "To compare documents that are protected with a password, you need to specify it then loading the documents:",
+        "comment_1": "Instantiate Comparer",
+        "comment_2": "Specify another file for comparison",
+        "comment_3": "Save comparison result to specified file"
+      },
+      "sample_2": {
+        "title": "Comparing multiple PDF documents.",
+        "content": "GroupDocs.Comparison allows you to compare more than two documents. The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class.",
+        "comment_1": "Instantiate Comparer",
+        "comment_2": "Specify the second file for comparison",
+        "comment_3": "Specify the third file for comparison",
+        "comment_4": "Save comparison result to specified file"
+      }
+    }
   }
 }

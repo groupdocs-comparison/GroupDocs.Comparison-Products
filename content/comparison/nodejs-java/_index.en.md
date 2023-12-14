@@ -1,28 +1,12 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-06-29T12:38:08
+date: 2023-12-14T14:24:25
 draft: false
-
-lang: en
 product: "Comparison"
 product_tag: "comparison"
 platform: "Node.js via Java"
 platform_tag: "nodejs-java"
-
-############################# Drop-down ############################
-supported_platforms:
-  items:
-    # supported_platforms loop
-    - title: ".NET"
-      tag: "net"
-    # supported_platforms loop
-    - title: "Java"
-      tag: "java"
-    # supported_platforms loop
-    - title: "Node.js"
-      tag: "nodejs-java" 
-
 
 ############################# Head ############################
 head_title: "Node.js Document Comparison Library | Compare Docs for Text & Style"
@@ -43,7 +27,7 @@ actions:
   description: "Try GroupDocs.Comparison features for free, or request a license"
 
 release:
-  title: "Version {0}&nbsp;released"
+  title: "Version {0} released"
   notes: "See what’s new"
   downloads: "Downloads"
   link: "https://releases.groupdocs.com/comparison/nodejs-java/release-notes/latest/"
@@ -54,25 +38,25 @@ code:
   more_link: "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.comparison"
   content: |
-    ```javascript {style=abap}   
+    ```javascript {style=abap}
 
     // Instantiate Comparer
-    let comparer = new Comparer("C:\\source.bmp"); 
+    let comparer = new Comparer("C:\\source.bmp");
 
-    //Set up another file for comparison
+    // Set up another file for comparison
     comparer.add("C:\\target.bmp");
 
-    //Save comparison result to specified file
-    comparer.compare("C:\\result.bmp"); 
-
+    // Save comparison result to specified file
+    comparer.compare("C:\\result.pdf"); 
     ```
+
 ############################# Overview ############################
 overview:
   enable: true
   title: "GroupDocs.Comparison at a glance"
   description: "API to compare various types of documents such as PDF, Microsoft Office, HTML, e-mails, or images within Node.js applications"
   features:
-      # feature loop
+    # feature loop
     - title: "Detailed output reports"
       content: "GroupDocs.Comparison identifies changes in document content (characters, words, paragraphs, tables, charts), as well as, changes in document style. It provides customers with a resulting report that contains rich information about differences, their number, and type."
 
@@ -83,7 +67,6 @@ overview:
     # feature loop
     - title: "Documentation and examples"
       content: "There is already a lot of documentation on using Comparison library on different platforms with code examples, so you don’t have to think hard about how to work with GroupDocs.Comparison API in your Node.js application."
-
 
 ############################# Platforms ############################
 platforms:
@@ -125,7 +108,6 @@ platforms:
     - title: "IntelliJ"
       image: "intellij"
 
-
 ############################# File formats ############################
 formats:
   enable: true
@@ -143,7 +125,7 @@ formats:
         * **Outlook:** EML, EMLX, MSG
         * **OneNote:** ONE
         * **OpenDocument:** ODT, ODP, OTP, ODS, OTT
-        * **Fixed Page Layout:** PDF        
+        * **Fixed Page Layout:** PDF  
     # group loop
     - color: "blue"
       content: |
@@ -155,7 +137,7 @@ formats:
       # group loop
     - color: "red"
       content: |
-        ### Other        
+        ### Other
         * **Text:** TXT
         * **Programming Languages:** CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, PHP, SQL, LOG, DIFF, LESS, SCALA
         * **Web:** HTM, HTML, MHT, MHTML
@@ -182,7 +164,7 @@ features:
     # feature loop
     - icon: "complex"
       title: "Supported formats"
-      content: "Supports more than 50 popular document formats from various categories."      
+      content: "Supports more than 50 popular document formats from various categories."
 
     # feature loop
     - icon: "adjustment"
@@ -202,7 +184,7 @@ features:
     # feature loop
     - icon: "fas fa-remove-format"
       title: "Style comparison"
-      content: "Detect changes in formatting and styles."      
+      content: "Detect changes in formatting and styles."
 
     # feature loop
     - icon: "fas fa-wrench"
@@ -213,7 +195,7 @@ features:
     - icon: "fas fa-lock"
       title: "Password protection"
       content: "Analyze the encrypted documents, or secure the resulting document with a password."
-    
+
     # feature loop
     - icon: "fas fa-copy"
       title: "Compare specific pages"
@@ -269,4 +251,5 @@ code_samples:
         comparer.compare("C:\\result.pdf");
         ```
         {{< /landing/code >}}
+
 ---
