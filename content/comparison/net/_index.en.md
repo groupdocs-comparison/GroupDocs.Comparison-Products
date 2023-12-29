@@ -9,12 +9,12 @@ platform: "Net"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "#Comparison Solution | On Premise APIs and Free App - GroupDocs"
-head_description: "#Add watermark to PDF, images and documents. Watermarking Solution for Microsoft Office, PDF, OpenDocument, Image File Formats and more."
+head_title: ".NET Document Comparison Library | Compare Docs for Text & Style"
+head_description: ".NET API to compare document style & content. Compare documents of multiple supported formats for the difference to identify changes between files."
 
 ############################# Header ############################
-title: "Sign documents<br>via .NET API"
-description: "#Quickly apply & manipulate text and image based watermarks of your documents and images with smart search."
+title: "Compare & check files using .NET API"
+description: "Develop .NET applications with a highly configurable document comparison API. Compare files based on content and text style across similar document formats."
 words:
   for: "for"
 
@@ -24,7 +24,7 @@ actions:
   alt: "Licensing"
   alt_link: "https://purchase.groupdocs.com/pricing/comparison/net"
   title: "Ready to get started?"
-  description: "Try GroupDocs.Signature features for free or request a license"
+  description: "Try GroupDocs.Comparison features for free or request a license"
 
 release:
   title: "Version {0} released"
@@ -32,49 +32,53 @@ release:
   downloads: "Downloads"
 
 code:
-  title: "Sign PDF files in C#"
+  title: "Compare DOCX files in C#"
   more: "More examples"
   more_link: "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-.NET"
-  install: "dotnet add package GroupDocs.Signature"
+  install: "dotnet add package GroupDocs.Comparison"
   content: |
     ```csharp {style=abap}   
-    // Select PDF document
-    using (Signature signature = new Signature("sample.pdf"))
+    // Specify the source document
+    using (Comparer comparer = new Comparer("C:\\source.docx"))
     {
-        // Provide text
-        var options = new TextSignOptions("John Smith")
-        {
-            // Set color
-            ForeColor = Color.Red
-        };
-        // Sign document and save to file
-        signature.Sign("signed.pdf", options);
+      // Add one or more target documents
+      comparer.Add("C:\\target.docx");
+
+      // Specify comparison options
+      CompareOptions options = new CompareOptions() {ShowRevisions = false};
+
+      // Perform the comparison and save the resulting document
+      comparer.Compare("C:\\result.docx", options);
     }
     ```
 
 ############################# Overview ############################
 overview:
   enable: true
-  title: "GroupDocs.Signature Overview"
-  description: "API for performing document signing and related operations in .NET applications"
+  title: "GroupDocs.Comparison at a glance"
+  description: "API to compare differences between documents in .NET applications"
   features:
     # feature loop
-    - title: "Adding signatures to business documents in C#"
-      content: "Documents signing: With GroupDocs.Signature for .NET, you can add various types of signatures, such as text, images, barcodes, and digital certificates, to PDF and Office documents. This API allows you to sign your documents with nearly any data type, including hidden metadata."
+    - title: "File comparison in C#"
+      content: "Detect differences between source and target files for changes at paragraphs, words, and character levels. Identify styling and formatting changes like bold, italic, underlines, strike-troughs, font types, etc."
 
     # feature loop
-    - title: "Processing signed documents"
-      content: "Additional processing: You can perform powerful operations on signed documents using GroupDocs.Signature. This includes searching for existing signatures within business documents and verifying them using specific criteria. Additionally, you can retrieve document information and preview pages through this .NET API."
+    - title: "Most popular file and document formats are supported"
+      content: "With GroupDocs.Comparison API you can efficiently compare documents of any supported formats like PDF, HTML, e-mail, Microsoft Office Word documents, Excel spreadsheets, PowerPoint presentations, OneNote, Visio diagrams, texts, JPEG, PNG, GIF, and BMP images as well as many other formats."
 
     # feature loop
-    - title: "Customizing results"
-      content: "GroupDocs.Signature for .NET offers extensive customization options. You can precisely position signatures anywhere on a document page and adjust their appearance using a variety of settings. Furthermore, this API supports saving processed documents in a wide range of supported formats."
+    - title: "Apply or reject changes easily"
+      content: "Every difference between the compared documents can be applied or rejected and then exported to the output document."
+
+    # feature loop
+    - title: "Comparison summary report"
+      content: "Save a differences summary report that lists all changes in compared documents."      
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "Platform independence"
-  description: "GroupDocs.Signature for .NET supports the following operating systems, frameworks and package managers"
+  description: "GroupDocs.Comparison for .NET supports the following operating systems, frameworks and package managers"
   items:
     # platform loop
     - title: "Amazon"
@@ -106,127 +110,139 @@ formats:
   enable: true
   title: "Supported file formats"
   description: |
-    GroupDocs.Signature for .NET supports operations with the following [file formats](https://docs.groupdocs.com/signature/net/supported-document-formats/).
+    GroupDocs.Comparison for .NET supports operations with the following [file formats](https://docs.groupdocs.com/comparison/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### Microsoft Office formats
-        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
-        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+        ### Microsoft Office & OpenDocument formats
+        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTX, RTF, TXT
+        * **Excel:** XLS, XLT, XLSX, XLTM, XLSB, XLSM, XLSX
+        * **PowerPoint:** POT, POTX, PPS, PPSX, PPTX, PPT        
+        * **Outlook:** EML, EMLX, MSG
+        * **OneNote:** ONE
+        * **OpenDocument:** ODT, ODP, OTP, ODS, OTT
+        * **Fixed Page Layout:** PDF        
     # group loop
     - color: "blue"
       content: |
-        ### Images & Other Formats
-        * **Portable:** PDF
-        * **Images:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **Other office formats:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Images, Graphics & Diagrams
+        * **Raster images:** BMP, GIF, JPG, JPEG, PNG
+        * **Medical Imaging:** DICOM
+        * **Microsoft Visio:** VSDX, VSD, VSS, VST, VDX
+        * **AutoCAD Drawing:** DWG, DXF
       # group loop
     - color: "red"
       content: |
-        ### Other formats
-        * **Web:** HTML, MHTML
-        * **Archives:** ZIP, TAR, 7Z
-        * **Certificates:** PFX
+        ### Other        
+        * **Text:** TXT
+        * **Programming Languages:** CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, PHP, SQL, LOG, DIFF, LESS, SCALA
+        * **Web:** HTM, HTML, MHT, MHTML
+        * **e-Books:** MOBI, DjVu
+        * **Delimiter-Separated Values:** CSV
 
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Signature features"
-  description: "Signing PDFs, Office Documents, and Images swiftly and accurately"
+  title: "GroupDocs.Comparison features"
+  description: "Easily compare PDF and Office documents, images and other formats"
 
   items:
     # feature loop
-    - icon: "sign"
-      title: "Document signing"
-      content: "Add one or multiple supported types of signatures accurately at any specified position on business documents."
+    - icon: "fas fa-columns"
+      title: "Side by side comparison"
+      content: "Analyze and identify differences within two documents."
 
     # feature loop
-    - icon: "custom"
-      title: "Customize signatures"
-      content: "Utilize features such as color, font, border, rotation, etc., to configure the appearance of signatures."
+    - icon: "fas fa-border-all"
+      title: "Compare multiple documents"
+      content: "Analyze and identify differences within multiple documents simultaneously."
 
     # feature loop
-    - icon: "password"
-      title: "Document password protection"
-      content: "Secure certain document types by setting a password after signing."
+    - icon: "complex"
+      title: "Supported formats"
+      content: "Supports more than 50 popular document formats from various categories."      
 
     # feature loop
-    - icon: "protect"
-      title: "Protection from changes"
-      content: "Prevent changes to important business documents after appending a signature with a digital certificate."
+    - icon: "adjustment"
+      title: "Accept or reject changes"
+      content: "Clear visual representation of identified changes, providing the option to accept or reject modifications."
 
     # feature loop
-    - icon: "convert"
-      title: "Convert signed files to other formats"
-      content: "Convert signed files to desired formats, such as saving a Word document as a PDF."
+    - icon: "fas fa-eye"
+      title: "Generate previews"
+      content: "Save the results of the comparison as images."
 
     # feature loop
-    - icon: "preview"
-      title: "Extract page previews"
-      content: "Extract pages from signed documents as individual images for future processing."
+    - icon: "fas fa-comment-slash"
+      title: "Content comparison"
+      content: "Compare text content line-by-line, by paragraphs, by words, by characters. Highlight the changes."
 
     # feature loop
-    - icon: "search"
-      title: "Signature search in documents"
-      content: "Retrieve information about previously added signatures in specific documents."
+    - icon: "fas fa-remove-format"
+      title: "Style comparison"
+      content: "Detect changes in formatting and styles."      
 
     # feature loop
-    - icon: "validate"
-      title: "Validate signed documents"
-      content: "Verify the proper signing of documents using validation features."
+    - icon: "fas fa-wrench"
+      title: "Set metadata"
+      content: "Keep metadata from either the source or target files or allow it to be specified by users."
 
     # feature loop
-    - icon: "update"
-      title: "Update or delete signatures"
-      content: "Easily reposition specific signatures on a page, modify their text, or delete them without any issues."
+    - icon: "fas fa-lock"
+      title: "Password protection"
+      content: "Analyze the encrypted documents, or secure the resulting document with a password."
+    
+    # feature loop
+    - icon: "fas fa-copy"
+      title: "Compare specific pages"
+      content: "Load just the particular sections or pages of the document."
+
+    # feature loop
+    - icon: "fas fa-envelope"
+      title: "Display comments"
+      content: "When loading the source document you can choose whether to hide or show comments."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "Code samples"
-  description: "Some use cases of typical GroupDocs.Signature for .NET operations"
+  description: "Some use cases of typical GroupDocs.Comparison for .NET operations"
   items:
     # code sample loop
-    - title: "Add QR-code to PDF"
+    - title: "Comparing password-protected documents."
       content: |
-        Adding [QR-codes](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) to specific pages of PDF documents can enhance business processes. Below is an example of how to add a QR code using GroupDocs.Signature.
-        {{< landing/code title="How to put QR code to PDF.">}}
+        To compare documents that are [protected with a password](https://docs.groupdocs.com/comparison/net/load-password-protected-documents/), you need to specify it then loading the documents:
+        {{< landing/code title="How to compare password-protected documents.">}}
         ```csharp {style=abap}
-        // Load the document to sign
-        using (Signature signature = new Signature("file_to_sign.pdf"))
+        // Load the source document and specify its password
+        using(Comparer comparer = new Comparer("C:\\source.doc", new LoadOptions() {Password = "1234"})) 
         {
-            // Create QR code options with predefined text
-            QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
-            {
-                // Configure QR code encoding type and position on the page
-                EncodeType = QrCodeTypes.QR,
-                Left = 100,
-                Top = 100
-            };
-            // Sign the document and save it as the result file
-            signature.Sign("file_with_QR.pdf", options);
+        	// Load the target document and specify its password
+            comparer.Add("C:\\target.docx", new LoadOptions() {Password = "5678"});
+        	
+          // Save comparison result to a specified file
+            comparer.Compare("C:\\result.docx");
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "Protecting a DOCX document using a digital certificate"
+    - title: "Comparing multiple PDF documents."
       content: |
-        You can [Protect a Document](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) using personal or corporate signatures stored as digital certificates. Such protected documents cannot be modified without invalidating the signature.
-        {{< landing/code title="Here is how to ensure document integrity.">}}
-        ```csharp {style=abap}   
-        // Load the document to be digitally signed
-        using (Signature signature = new Signature("file_to_sign.pdf"))
+        GroupDocs.Comparison allows you to [compare more than two documents](https://docs.groupdocs.com/comparison/net/compare-multiple-documents/). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class.
+        {{< landing/code title="How to compare three or more documents.">}}
+        ```csharp {style=abap}
+        // Load the source document
+        using(Comparer comparer = new Comparer("C:\\source.doc") 
         {
-            // Specify digital signing options and provide the path to the certificate file
-            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
-            {
-                // Set the certificate password
-                Password = "1234567890"
-            };
-            // Sign the document and save it to the desired path
-            signature.Sign("digitally_signed.pdf", options);
+        	// Specify the second file for comparison
+            comparer.Add("C:\\target2.docx");
+
+        	// Specify the third file for comparison
+            comparer.Add("C:\\target3.docx");
+
+          // Save comparison result to a specified file
+            comparer.Compare("C:\\result.docx");
         }
         ```
         {{< /landing/code >}}

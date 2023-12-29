@@ -226,7 +226,7 @@ code_samples:
         // Specify another file for comparison
         comparer.add("C:\\target.doc", new LoadOptions("5678"));
 
-        // Save comparison result to specified file
+        // Save comparison result to a specified file
         comparer.compare("C:\\result.pdf");
         ```
         {{< /landing/code >}}
@@ -247,7 +247,7 @@ code_samples:
         // Specify the third file for comparison
         comparer.add("C:\\target3.pdf");
 
-        // Save comparison result to specified file
+        // Save comparison result to a specified file
         comparer.compare("C:\\result.pdf");
         ```
         {{< /landing/code >}}

@@ -9,12 +9,12 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "#Comparison Solution | On Premise APIs and Free App - GroupDocs"
-head_description: "#Add watermark to PDF, images and documents. Watermarking Solution for Microsoft Office, PDF, OpenDocument, Image File Formats and more."
+head_title: "Java Document Comparison Library | Compare Docs for Text & Style"
+head_description: "Java API to compare document style & content. Compare documents of multiple formats to identify differences."
 
 ############################# Header ############################
-title: "Sign documents<br>via Java API"
-description: "#Quickly apply & manipulate text and image based watermarks of your documents and images with smart search."
+title: "Compare & check files using Java API"
+description: "Develop Java applications with a highly configurable document comparison library to compare similar document formats, including files, their content, and text style."
 words:
   for: "for"
 
@@ -24,7 +24,7 @@ actions:
   alt: "Licensing"
   alt_link: "https://purchase.groupdocs.com/pricing/comparison/java"
   title: "Ready to get started?"
-  description: "Try GroupDocs.Signature features for free or request a license"
+  description: "Try GroupDocs.Comparison features for free or request a license"
 
 release:
   title: "Version {0} released"
@@ -32,52 +32,59 @@ release:
   downloads: "Downloads"
 
 code:
-  title: "Sign PDF files in Java"
+  title: "Compare DOCX files in Java"
   more: "More examples"
   more_link: "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Java"
   install: |
     <dependency>
       <groupId>com.groupdocs</groupId>
-      <artifactId>groupdocs-signature</artifactId>
+      <artifactId>groupdocs-comparison</artifactId>
       <version>{0}</version>
     </dependency>
   content: |
     ```java {style=abap}  
-    // Select PDF document
-    Signature signature = new Signature("sample.pdf");
-    
-    // Provide text
-    TextSignOptions options = new TextSignOptions("John Smith");
-    options.setForeColor(Color.RED);
+    // Specify the source document
+    try (Comparer comparer = new Comparer("C:\\source.docx"))
+    {
+      // Add one or more target documents
+      comparer.add("C:\\target.docx");
 
-    // Sign document and save to file
-    signature.sign("signed.pdf", options);
-    
+      // Specify comparison options
+      CompareOptions options = new CompareOptions();
+        options.setShowRevisions(false);
+
+      // Perform the comparison and save the resulting document
+      final comparer.compare("C:\\result.docx", options);
+    }
     ```
 
 ############################# Overview ############################
 overview:
   enable: true
-  title: "GroupDocs.Signature Overview"
-  description: "API for performing document signing and related operations in Java applications"
+  title: "GroupDocs.Comparison at a glance"
+  description: "API to compare differences between documents in Java applications"
   features:
     # feature loop
-    - title: "Improved business documents with digital signatures in Java"
-      content: "Swift and customizable signing: GroupDocs.Signature for Java offers a wide range of digital signature options for PDFs, images, and Office documents. You can use text, barcodes, QR-codes, digital certificates, pictures, or hidden metadata. The document processing is fast and efficient."
+    - title: "File comparison in Java"
+      content: "Detect changes between source and target files at paragraph, word, and character levels. Identify styling and formatting changes such as bold, italic, underlines, strike-throughs, font types, and more."
 
     # feature loop
-    - title: "Manipulating signed documents"
-      content: "Advanced document processing involves powerful operations on signed documents using GroupDocs.Signature for Java. You can search for and validate signatures that have been added to business documents using various useful criteria. Additionally, you can access detailed information about the document or obtain preview images of its pages."
+    - title: "Vast number of supported formats"
+      content: "With the GroupDocs.Comparison API, you can easily compare documents of multiple supported formats. This includes PDF, HTML, email, Microsoft Office Word documents, Excel spreadsheets, PowerPoint presentations, OneNote, Visio diagrams, texts, JPEG, PNG, GIF, and BMP images, as well as many other formats."
 
     # feature loop
-    - title: "Variety of output choices"
-      content: "Robust signing options allow you to customize the output for documents signed with GroupDocs.Signature for Java. You can precisely position any signature on any document page and configure its appearance in various ways. The Java API supports saving signed business documents in numerous supported formats and provides options for securing them with passwords."
+    - title: "Apply or reject changes easily"
+      content: "Every difference between the compared documents can be applied or rejected and then exported to the output document."
+
+    # feature loop
+    - title: "Comparison summary report"
+      content: "Generate a summary report that lists all changes in the compared documents."      
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "Platform independence"
-  description: "GroupDocs.Signature for Java supports the following operating systems, frameworks and package managers"
+  description: "GroupDocs.Comparison for Java supports the following operating systems, frameworks and package managers"
   items:
     # platform loop
     - title: "Amazon"
@@ -109,126 +116,140 @@ formats:
   enable: true
   title: "Supported file formats"
   description: |
-    GroupDocs.Signature for Java supports operations with the following [file formats](https://docs.groupdocs.com/signature/java/supported-document-formats/).
+    GroupDocs.Comparison for Java supports operations with the following [file formats](https://docs.groupdocs.com/comparison/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### Microsoft Office formats
-        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
-        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+        ### Microsoft Office & OpenDocument formats
+        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTX, RTF, TXT
+        * **Excel:** XLS, XLT, XLSX, XLTM, XLSB, XLSM, XLSX
+        * **PowerPoint:** POT, POTX, PPS, PPSX, PPTX, PPT        
+        * **Outlook:** EML, EMLX, MSG
+        * **OneNote:** ONE
+        * **OpenDocument:** ODT, ODP, OTP, ODS, OTT
+        * **Fixed Page Layout:** PDF        
     # group loop
     - color: "blue"
       content: |
-        ### Images & Other Formats
-        * **Portable:** PDF
-        * **Images:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **Other office formats:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Images, Graphics & Diagrams
+        * **Raster images:** BMP, GIF, JPG, JPEG, PNG
+        * **Medical Imaging:** DICOM
+        * **Microsoft Visio:** VSDX, VSD, VSS, VST, VDX
+        * **AutoCAD Drawing:** DWG, DXF
       # group loop
     - color: "red"
       content: |
-        ### Other formats
-        * **Web:** HTML, MHTML
-        * **Archives:** ZIP, TAR, 7Z
-        * **Certificates:** PFX
+        ### Other        
+        * **Text:** TXT
+        * **Programming Languages:** CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, PHP, SQL, LOG, DIFF, LESS, SCALA
+        * **Web:** HTM, HTML, MHT, MHTML
+        * **e-Books:** MOBI, DjVu
+        * **Delimiter-Separated Values:** CSV
 
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Signature features"
-  description: "Signing PDFs, Office Documents, and images with digital signatures"
+  title: "GroupDocs.Comparison features"
+  description: "Easily compare PDF and Office documents, images and other formats"
 
   items:
     # feature loop
-    - icon: "sign"
-      title: "Adding Signatures"
-      content: "Sign a document using various supported signature types by placing a digital signature precisely at any position on any page."
+    - icon: "fas fa-columns"
+      title: "Side by side comparison"
+      content: "Analyze and identify differences within two documents."
 
     # feature loop
-    - icon: "custom"
-      title: "Customizing results"
-      content: "Customize the signature appearance by adjusting color, font, border, rotation, and other features to achieve the desired result."
+    - icon: "fas fa-border-all"
+      title: "Compare multiple documents"
+      content: "Analyze and identify differences within multiple documents simultaneously."
 
     # feature loop
-    - icon: "password"
-      title: "Securing documents with password"
-      content: "For many supported document types, you can protect the signed document with a password."
+    - icon: "complex"
+      title: "Supported formats"
+      content: "Supports more than 50 popular document formats from various categories."      
 
     # feature loop
-    - icon: "protect"
-      title: "Preventing unauthorized changes"
-      content: "Protect important business documents signed with a digital certificate from unauthorized modifications."
+    - icon: "adjustment"
+      title: "Accept or reject changes"
+      content: "Clear visual representation of identified changes, providing the option to accept or reject modifications."
 
     # feature loop
-    - icon: "convert"
-      title: "Obtaining results in desired formats"
-      content: "Easily obtain signed result files in any supported format. You can also convert MS Word documents to PDF effortlessly."
+    - icon: "fas fa-eye"
+      title: "Generate previews"
+      content: "Save the results of the comparison as images."
 
     # feature loop
-    - icon: "preview"
-      title: "Document preview"
-      content: "Save any page of a document as an image for future processing."
+    - icon: "fas fa-comment-slash"
+      title: "Content comparison"
+      content: "Compare text content line-by-line, by paragraphs, by words, by characters. Highlight the changes."
 
     # feature loop
-    - icon: "search"
-      title: "Searching for signatures"
-      content: "It is possible to get information about previously added signatures in specific documents."
+    - icon: "fas fa-remove-format"
+      title: "Style comparison"
+      content: "Detect changes in formatting and styles."      
 
     # feature loop
-    - icon: "validate"
-      title: "Validating documents"
-      content: "Validate the correctness of signatures on any signed document."
+    - icon: "fas fa-wrench"
+      title: "Set metadata"
+      content: "Keep metadata from either the source or target files or allow it to be specified by users."
 
     # feature loop
-    - icon: "update"
-      title: "Managing signatures"
-      content: "Once a signature is placed on a document page, it can be deleted, moved, or updated as needed."
+    - icon: "fas fa-lock"
+      title: "Password protection"
+      content: "Analyze the encrypted documents, or secure the resulting document with a password."
+    
+    # feature loop
+    - icon: "fas fa-copy"
+      title: "Compare specific pages"
+      content: "Load just the particular sections or pages of the document."
+
+    # feature loop
+    - icon: "fas fa-envelope"
+      title: "Display comments"
+      content: "When loading the source document you can choose whether to hide or show comments."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "Code samples"
-  description: "Some use cases of typical GroupDocs.Signature for Java operations"
+  description: "Some use cases of typical GroupDocs.Comparison for Java operations"
   items:
     # code sample loop
-    - title: "Enchance PDF document with QR-code"
+    - title: "Comparing password-protected documents."
       content: |
-        Enhancing business processes by adding [QR-codes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) to specific pages of PDF documents can be valuable. There is an example of how to add a QR code using GroupDocs.Signature for Java.
-        {{< landing/code title="Enchance PDF document with QR-code">}}
+        To compare documents that are [protected with a password](https://docs.groupdocs.com/comparison/java/load-password-protected-documents/), you need to specify it then loading the documents:
+        {{< landing/code title="How to compare password-protected documents.">}}
         ```java {style=abap}
-        // Load the document to sign
-        Signature signature = new Signature("file_to_sign.pdf");
-        
-        // Create QR code options with predefined text
-        QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
-        
-        // Configure QR code encoding type and position on the page
-        options.setEncodeType(QrCodeTypes.QR);
-        options.setLeft(100);
-        options.setTop(100);
-
-        // Sign the document and save it as the result file
-        signature.sign("file_with_QR.pdf", options);
-        ```
+        // Load the source document and specify its password
+        try (Comparer comparer = new Comparer("C:\\source.doc", new LoadOptions("1234")))
+        {
+            // Load the target document and specify its password
+            comparer.add("C:\\target.docx", new LoadOptions("5678"));
+            
+          // Save comparison result to a specified file
+          comparer.compare("C:\\result.docx");
+        }
+        ```        
         {{< /landing/code >}}
     # code sample loop
-    - title: "Use digital signature to protect a DOCX"
+    - title: "Comparing multiple PDF documents."
       content: |
-        You can [Safeguard a Document](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) using personal or corporate signatures stored as digital certificates. Documents secured with certificate cannot be altered without invalidating the signature.
-        {{< landing/code title="Use digital signature to protect a DOCX">}}
-        ```java {style=abap}   
-        // Load the document to be digitally signed
-        Signature signature = new Signature("file_to_sign.pdf");
-        
-        // Specify digital signing options and provide the path to the certificate file
-        DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
+        GroupDocs.Comparison allows you to [compare more than two documents](https://docs.groupdocs.com/comparison/java/compare-multiple-documents/). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class.
+        {{< landing/code title="How to compare three or more documents.">}}
+        ```java {style=abap}
+        // Load the source document
+        try (Comparer comparer = new Comparer("C:\\source.doc") 
+        {
+        	// Specify the second file for comparison
+            comparer.add("C:\\target2.docx");
 
-        // Set the certificate password
-        options.setPassword("1234567890");
+        	// Specify the third file for comparison
+            comparer.add("C:\\target3.docx");
 
-        // Sign the document and save it to the desired path
-        signature.sign("digitally_signed.pdf", options);
+          // Save comparison result to a specified file
+            comparer.compare("C:\\result.docx");
+        }
         ```
         {{< /landing/code >}}
 
