@@ -5,15 +5,15 @@ date:  2023-12-14T08:51:15
 draft: false
 
 ############################# Head ############################
-head_title: "#Comparison Solution | On Premise APIs and Free App - GroupDocs"
-head_description: "#Add watermark to PDF, images and documents. Watermarking Solution for Microsoft Office, PDF, OpenDocument, Image File Formats and more."
+head_title: "Comparison Solution | On Premise APIs and Free App - GroupDocs"
+head_description: "The API to compare document content and styles across multiple formats."
 
 ############################# Header ############################
-title: "#Comparison Solution for Documents"
+title: "Comparison Solution for Documents"
 description: | 
-            "#Quickly apply & manipulate text and image based watermarks of your documents and images with smart search."
-            "#Quickly apply & manipulate text and image based watermarks of your documents and images with smart search."
-            "#Quickly apply & manipulate text and image based watermarks of your documents and images with smart search."
+            "The API to compare document content and styles across multiple formats."
+            "Identify and highlight changes between documents."
+            "Highly configurable comparison settings."
 
 ############################# Supported Platforms ###############################
 supported_platforms:
@@ -32,86 +32,112 @@ supported_platforms:
       title: "Java"
       description: "GroupDocs.Comparison for Java"
 
+    # items loop
+    - link: "/comparison/nodejs-java/"
+      color: "green"
+      title: "Node.js"
+      description: "Comparison for Node.js via Java"
+
 ############################# Features ###############################
 features:
   enable: true
   title: "GroupDocs.Comparison at a glance"
-  description: "API to combine, split, swap, reorder or remove document pages, slides, and diagrams."
+  description: "API to compare differences between documents."
 
   items:
     # items loop
-    - icon: "merge"
-      title: "Merge multiple file formats"
-      content: "Seamlessly combine multiple PDF and Office files into a single document, with support for a wide range of formats"
+    - icon: "compare"
+      title: "Side by side comparison"
+      content: "Detect and identify differences between two or more documents."
 
     # items loop
-    - icon: "split"
-      title: "Split large documents"
-      content: "Split documents based on specific pages, ranges, or even extract individual pages"
+    - icon: "accept"
+      title: "Accept or reject changes"
+      content: "Visual separation of detected changes with the ability to accept or reject modifications."
 
     # items loop
-    - icon: "structure"
-      title: "Customize document structure"
-      content: "Take control of your documents by rearranging pages, removing unwanted pages, or adding new ones"
+    - icon: "content"
+      title: "Compare content and styling"
+      content: "Compare text contents, as well as changes in formatting and style."
 
     # items loop
-    - icon: "preview"
-      title: "Preview document pages"
-      content: "Generate image representations of document pages to understand the content and structure better"
+    - icon: "pages"
+      title: "Compare specific pages"
+      content: "Load just the particular sections or pages of the document to be compared."
 
 ############################# Code Samples ###############################
 code_samples:
   enable: true
   title: "Practical code showcase"
-  description: "Some use cases of typical GroupDocs.Merger operations."
+  description: "Some use cases of typical GroupDocs.Comparison operations."
 
   items:
     # items loop
-    - title: "Merging several files"
-      content: "GroupDocs.Merger allows you to combine several files together into a single file. You can merge whole documents or particular pages from your documents."
+    - title: "Comparing two files"
+      content: "To compare two files you need to load the source and target documents and then call the `compare` method. Additionally, you can specify comparison options."
       samples:
           # samples loop
           - language: "C#"
             color: "blue"
             content: |
                     <code class="language-csharp" data-lang="csharp">
-                    <span style="display:flex"><span><span style="color:#888;font-style:italic">// Specify desired page numbers or page range to join</span></span></span>
-                    <span style="display:flex"><span><span style="color:#000">PageJoinOptions joinOptions</span> = <span style="color:#00f">new</span> <span style="color:#000">PageJoinOptions</span> (<span style="color:#00f">1</span>, <span style="color:#00f">4</span>, <span style="color:#000">RangeMode.OddPages</span>);</span></span>
-                    <span style="display:flex"><span></span></span>
-                    <span style="display:flex"><span><span style="color:#888;font-style:italic">// Load the source DOCX file</span></span></span>
-                    <span style="display:flex"><span><span style="color:#00f">using</span> (<span style="color:#000">Merger</span> <span style="color:#000">merger</span> = <span style="color:#00f">new</span> <span style="color:#000">Merger</span>(<span style="color:#5a2">@"c:\sample.docx"</span>))</span></span>
-                    <span style="display:flex"><span>{</span></span>
-                    <span style="display:flex"><span><span style="color:#888;font-style:italic">// Add another DOCX file to merge</span></span></span>
-                    <span style="display:flex"><span><span style="color:#000">merger</span>.<span style="color:#000">Join</span>(<span style="color:#5a2">@"c:\sample2.docx"</span>, <span style="color:#000">joinOptions</span>);</span></span>
-                    <span style="display:flex"><span></span></span>
-                    <span style="display:flex"><span><span style="color:#888;font-style:italic">// Merge DOCX files and save result</span></span></span>
-                    <span style="display:flex"><span><span style="color:#000">merger</span>.<span style="color:#000">Save</span>(<span style="color:#5a2">@"c:\result.docx"</span>);</span></span>
-                    <span style="display:flex"><span>}</span></span>
+    // Specify the source document
+    using (Comparer comparer = new Comparer("C:\\source.docx"))
+    {
+      // Add one or more target documents
+      comparer.Add("C:\\target.docx");
+
+      // Specify comparison options
+      CompareOptions options = new CompareOptions() {ShowRevisions = false};
+
+      // Perform the comparison and save the resulting document
+      comparer.Compare("C:\\result.docx", options);
+    }                    
                     </code>
           # samples loop
           - language: "Java"
             color: "red"
             content: |
-                    <code class="language-csharp" data-lang="java">
-                    <span style="display:flex"><span><span style="color:#888;font-style:italic">// Specify desired page numbers or page range to join</span></span></span>
-                    <span style="display:flex"><span><span style="color:#000">PageJoinOptions joinOptions</span> = <span style="color:#00f">new</span> <span style="color:#000">PageJoinOptions</span> (<span style="color:#00f">1</span>, <span style="color:#00f">4</span>, <span style="color:#000">RangeMode.OddPages</span>);</span></span>
-                    <span style="display:flex"><span></span></span>
-                    <span style="display:flex"><span><span style="color:#888;font-style:italic">// Load the source DOCX file</span></span></span>
-                    <span style="display:flex"><span><span style="color:#000">Merger</span> <span style="color:#000">merger</span> = <span style="color:#00f">new</span> <span style="color:#000">Merger</span>(<span style="color:#5a2">@"c:\sample.docx"</span>);</span></span>
-                    <span style="display:flex"><span></span></span>
-                    <span style="display:flex"><span><span style="color:#888;font-style:italic">// Add another DOCX file to merge</span></span></span>
-                    <span style="display:flex"><span><span style="color:#000">merger</span>.<span style="color:#000">join</span>(<span style="color:#5a2">@"c:\sample2.docx"</span>, <span style="color:#000">joinOptions</span>);</span></span>
-                    <span style="display:flex"><span></span></span>
-                    <span style="display:flex"><span><span style="color:#888;font-style:italic">// Merge DOCX files and save result</span></span></span>
-                    <span style="display:flex"><span><span style="color:#000">merger</span>.<span style="color:#000">save</span>(<span style="color:#5a2">@"c:\result.docx"</span>);</span></span>
+                    <code class="language-java" data-lang="java">
+    // Specify the source document
+    try (Comparer comparer = new Comparer("C:\\source.docx"))
+    {
+      // Add one or more target documents
+      comparer.add("C:\\target.docx");
+
+      // Specify comparison options
+      CompareOptions options = new CompareOptions();
+        options.setShowRevisions(false);
+
+      // Perform the comparison and save the resulting document
+      final comparer.compare("C:\\result.docx", options);
+    }
                     </code>
 
+          # samples loop
+          - language: "JavaScript"
+            color: "green"
+            content: |
+                    <code class="language-java" data-lang="javascript">
+    // Specify the source document
+    const comparer = new groupdocs.comparison.Comparer("C:\\source.docx");
+    
+    // Add one or more target documents
+    comparer.add("C:\\target.docx");
+
+    // Specify comparison options
+    const options = new groupdocs.comparison.CompareOptions();
+    options.setShowRevisions(false);
+
+    // Perform the comparison and save the resulting document
+    comparer.compare("C:\\result.docx", options);    
+                    </code>
 
 ############################# Supported Formats ###############################
 formats:
   enable: true
-  title: "60+ file formats supported"
-  description: "GroupDocs.Merger supports operations with a wide range of document formats."
+  title: "55+ file formats supported"
+  description: "GroupDocs.Comparison supports operations with a wide range of document formats."
 
 
 ############################# Metrics ###############################
@@ -122,19 +148,19 @@ metrics:
 
   items:
     # items loop
-    - number: "60+"
+    - number: "55+"
       title: "Supported formats"
       content: "Each library supports processing more than 50 of most popular file and document formats."
 
     # items loop
-    - number: "274k"
+    - number: "780k"
       title: "NuGet downloads"
-      content: "GroupDocs.Merger for .NET has more than 274K downloads from the NuGet package manager."
+      content: "GroupDocs.Comparison for .NET has more than 274K downloads from the NuGet package manager."
 
     # items loop
-    - number: "5.5k"
+    - number: "15k"
       title: "Maven downloads"
-      content: "GroupDocs.Merger for Java has more than 5.5K downloads from our Maven repository."
+      content: "GroupDocs.Comparison for Java has more than 15K downloads from our Maven repository."
 
     # items loop
     - number: "140+"
@@ -194,7 +220,7 @@ customers:
 supported_platforms:
   enable: true
   title: "Platform independence"
-  description: "GroupDocs.Merger library supports the following operating systems and frameworks:"
+  description: "GroupDocs.Comparison library supports the following operating systems and frameworks:"
   details_link_title: "Learn more"
 
   items:
@@ -209,7 +235,6 @@ supported_platforms:
                     .NET Framework 4.6.2 or higher
                     .NET Core 2.0 or higher
                     .NET 6.0 or higher
-                    Mono Framework 2.6.7 or higher
       
           # features loop
           - rows: "1"
@@ -220,13 +245,12 @@ supported_platforms:
           - rows: "3"
             content: |
                     Microsoft Visual Studio
-                    Xamarin (Android, iOS, Mac)
-                    MonoDevelop
+                    JetBrains Rider
       
           # features loop
           - rows: "1"
             content: |
-                    60+ file formats
+                    55+ file formats
       
 
     # items loop
@@ -237,7 +261,8 @@ supported_platforms:
           # features loop
           - rows: "4"
             content: |
-                    J2SE 8.0 or higher
+                    Java 8 or higher
+                    Kotlin
       
           # features loop
           - rows: "1"
@@ -256,6 +281,34 @@ supported_platforms:
             content: |
                     50+ file formats
 
+    # items loop
+    - title: "Node.js"
+      color: "green"
+      features_link: "https://docs.groupdocs.com/comparison/nodejs-java/system-requirements/"
+      features:
+          # features loop
+          - rows: "4"
+            content: |
+                    Java 8 or higher
+                    Kotlin
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows, Linux, Mac OS
+      
+          # features loop
+          - rows: "3"
+            content: |
+                    Atom
+                    Sublime
+                    Visual Studio Code
+                    Any other text editor
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    50+ file formats
 
 ############################# Actions ###############################
 actions:
@@ -273,7 +326,11 @@ actions:
     - title: "Java"
       color: "red"
       link: "/comparison/java/"
-     
+
+    # items loop
+    - title: "Node.js"
+      color: "green"
+      link: "/comparison/nodejs-java/"     
 
 ############################# FAQ ###############################
 faq:
@@ -283,12 +340,12 @@ faq:
 
   items:
     # items loop
-    - question: "Does the GroupDocs.Merger library need any other third-party software to manipulate documents?"
-      answer: "GroupDocs.Merger does not require any external software to be installed such as Adobe Acrobat, Microsoft Office, or any other."
+    - question: "Does the GroupDocs.Comparison library need any other third-party software to manipulate documents?"
+      answer: "GroupDocs.Comparison does not require any external software to be installed such as Adobe Acrobat, Microsoft Office, or any other."
 
     # items loop
-    - question: "Can I try the GroupDocs.Merger library before purchasing it?"
-      answer: "Yes, you can try GroupDocs.Merger without buying a license. Once installed without a license, the library works in trial mode. In this mode, trial badges are added to the resultant document, and it is trimmed to the first 3 pages. If you wish to test GroupDocs.Merger without the limitations of the trial version, you can also request a 30-day temporary license. For more details, see "
+    - question: "Can I try the GroupDocs.Comparison library before purchasing it?"
+      answer: "Yes, you can try GroupDocs.Comparison without buying a license. Once installed without a license, the library works in trial mode. In this mode, trial badges are added to the resultant document, and it is trimmed to the first 3 pages. If you wish to test GroupDocs.Comparison without the limitations of the trial version, you can also request a 30-day temporary license. For more details, see "
 
     # items loop
     - question: "What licenses do you have?"
@@ -298,53 +355,53 @@ faq:
 ############################# Cloud Links ###############################
 cloud_links:
   enable: true
-  title: "GroupDocs.Merger low code APIs"
+  title: "GroupDocs.Comparison low code APIs"
   description: "Accelerate documents merging in any type of application with our cloud-based REST API."
 
   items:
     # items loop
-    - title: "GroupDocs.Merger Cloud for cURL"
-      content: "Simple cURL commands for RESTful document merger Cloud API to merge and split documents."
-      icon: "groupdocs_merger-for-curl"
-      link: "https://products.groupdocs.cloud/merger/curl"
+    - title: "GroupDocs.Comparison Cloud for cURL"
+      content: "Work with cURL RESTful document comparison API to compare Word, Excel, PowerPoint and other popular file formats."
+      icon: "groupdocs_comparison-for-curl"
+      link: "https://products.groupdocs.cloud/comparison/curl"
 
     # items loop
-    - title: "GroupDocs.Merger Cloud for .NET"
-      content: "Cloud SDK for Microsoft .NET to implement quick merge and split feature in .NET based applications."
-      icon: "groupdocs_merger-for-net"
-      link: "https://products.groupdocs.cloud/merger/net"
+    - title: "GroupDocs.Comparison Cloud for .NET"
+      content: "Add powerful document comparison capabilities in .NET applications using Cloud SDK for .NET. Compare DOCX, XLSX, PPTX and more."
+      icon: "groupdocs_comparison-for-net"
+      link: "https://products.groupdocs.cloud/comparison/net"
 
     # items loop
-    - title: "GroupDocs.Merger Cloud for Java"
-      content: "Combine multiple documents into one, split any document to multiple in your Java applications."
-      icon: "groupdocs_merger-for-java"
-      link: "https://products.groupdocs.cloud/merger/java"
+    - title: "GroupDocs.Comparison Cloud for Java"
+      content: "Add high fidelity document comparison features to your java applications with specially designed document comparison SDK for Java."
+      icon: "groupdocs_comparison-for-java"
+      link: "https://products.groupdocs.cloud/comparison/java"
 
 
 ############################# App links ###############################
 app_links:
   enable: true
-  title: "GroupDocs.Merger NoCode apps"
-  description: "Online application allowing you to merge and split 170+ popular file formats in browser."
+  title: "GroupDocs.Comparison NoCode apps"
+  description: "Online application allowing you to compare 50+ popular file formats in browser."
 
   items:
     # items loop
-    - title: "GroupDocs.Merger Total"
-      content: "Try our free online app to concatenate more than 30 types of files without leaving your favorite web browser."
-      icon: "groupdocs_merger-app"
-      link: "https://products.groupdocs.app/merger/total"
+    - title: "GroupDocs.Comparison Total"
+      content: "Online diff tool to compare two documents from any device."
+      icon: "groupdocs_comparison-app"
+      link: "https://products.groupdocs.app/comparison/total"
 
     # items loop
-    - title: "GroupDocs.Merger DOCX"
-      content: "Concatenate multiple DOCX files to generate a single document."
+    - title: "GroupDocs.Comparison DOCX"
+      content: "Compare DOCX files online."
       icon: "groupdocs_words-app"
-      link: "https://products.groupdocs.app/merger/docx"
+      link: "https://products.groupdocs.app/comparison/docx"
 
     # items loop
-    - title: "GroupDocs.Merger PDF"
-      content: "Merge multiple PDF files to generate a single document directly from the web browser."
+    - title: "GroupDocs.Comparison PDF"
+      content: "Diff PDF documents online using PDF comparison app."
       icon: "groupdocs_pdf-app"
-      link: "https://products.groupdocs.app/merger/pdf"
+      link: "https://products.groupdocs.app/comparison/pdf"
 
 
       
