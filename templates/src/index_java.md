@@ -10,12 +10,12 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "<% "{index-content.head_title}" %>"
-head_description: "<% "{index-content.head_description}" %>"
+head_title: "<% "{index-content-java.head_title}" %>"
+head_description: "<% "{index-content-java.head_description}" %>"
 
 ############################# Header ############################
-title: "<% "{index-content.title_1}" %><br><% "{index-content-java.title_2}" %>"
-description: "<% "{index-content.description}" %>"
+title: "<% "{index-content-java.title}" %>"
+description: "<% "{index-content-java.description}" %>"
 words:
   for: "<% "{index-content.words_for}" %>"
 
@@ -39,21 +39,24 @@ code:
   install: |
     <dependency>
       <groupId>com.groupdocs</groupId>
-      <artifactId>groupdocs-signature</artifactId>
+      <artifactId>groupdocs-comparison</artifactId>
       <version>{0}</version>
     </dependency>
   content: |
     ```java {style=abap}  
     // <% "{index-content.code_comment_1}" %>
-    Signature signature = new Signature("sample.pdf");
-    
-    // <% "{index-content.code_comment_2}" %>
-    TextSignOptions options = new TextSignOptions("John Smith");
-    options.setForeColor(Color.RED);
+    try (Comparer comparer = new Comparer("C:\\source.docx"))
+    {    
+      // <% "{index-content.code_comment_2}" %>
+      comparer.add("C:\\target.docx");
 
-    // <% "{index-content.code_comment_4}" %>
-    signature.sign("signed.pdf", options);
-    
+      // <% "{index-content.code_comment_3}" %>
+      CompareOptions options = new CompareOptions();
+      options.setShowRevisions(false);
+
+      // <% "{index-content.code_comment_4}" %>
+      final comparer.compare("C:\\result.docx", options);
+    }    
     ```
 
 ############################# Overview ############################
@@ -73,6 +76,10 @@ overview:
     # feature loop
     - title: "<% "{index-content-java.overview_feature_3.title}" %>"
       content: "<% "{index-content-java.overview_feature_3.description}" %>"
+
+    # feature loop
+    - title: "<% "{index-content-java.overview_feature_4.title}" %>"
+      content: "<% "{index-content-java.overview_feature_4.description}" %>"
 
 ############################# Platforms ############################
 platforms:
@@ -116,23 +123,30 @@ formats:
     - color: "green"
       content: |
         ### <% "{index-content.formats_groups.title_1}" %>
-        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
-        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTX, RTF, TXT
+        * **Excel:** XLS, XLT, XLSX, XLTM, XLSB, XLSM, XLSX
+        * **PowerPoint:** POT, POTX, PPS, PPSX, PPTX, PPT        
+        * **Outlook:** EML, EMLX, MSG
+        * **OneNote:** ONE
+        * **OpenDocument:** ODT, ODP, OTP, ODS, OTT
+        * **<% "{index-content.formats_groups.format_fixed_page_layout}" %>:** PDF        
     # group loop
     - color: "blue"
       content: |
         ### <% "{index-content.formats_groups.title_2}" %>
-        * **<% "{index-content.formats_groups.format_portable}" %>:** PDF
-        * **<% "{index-content.formats_groups.format_images}" %>:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **<% "{index-content.formats_groups.format_other_office}" %>:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        * **<% "{index-content.formats_groups.format_raster_images}" %>:** BMP, GIF, JPG, JPEG, PNG
+        * **<% "{index-content.formats_groups.format_medical_imaging}" %>:** DICOM
+        * **Microsoft Visio:** VSDX, VSD, VSS, VST, VDX
+        * **AutoCAD Drawing:** DWG, DXF
       # group loop
     - color: "red"
       content: |
         ### <% "{index-content.formats_groups.title_3}" %>
-        * **<% "{index-content.formats_groups.format_web}" %>:** HTML, MHTML
-        * **<% "{index-content.formats_groups.format_archives}" %>:** ZIP, TAR, 7Z
-        * **<% "{index-content.formats_groups.format_certificates}" %>:** PFX
+        * **<% "{index-content.formats_groups.format_text}" %>:** TXT
+        * **<% "{index-content.formats_groups.format_programming_languages}" %>:** CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, PHP, SQL, LOG, DIFF, LESS, SCALA
+        * **<% "{index-content.formats_groups.format_web}" %>:** HTM, HTML, MHT, MHTML
+        * **<% "{index-content.formats_groups.format_e_books}" %>:** MOBI, DjVu
+        * **<% "{index-content.formats_groups.format_delimiter_separated_values}" %>:** CSV
 
 ############################# Features ############################
 features:
@@ -142,49 +156,59 @@ features:
 
   items:
     # feature loop
-    - icon: "sign"
+    - icon: "fas fa-columns"
       title: "<% "{index-content-java.features.feature_1.title}" %>"
       content: "<% "{index-content-java.features.feature_1.content}" %>"
 
     # feature loop
-    - icon: "custom"
+    - icon: "fas fa-border-all"
       title: "<% "{index-content-java.features.feature_2.title}" %>"
       content: "<% "{index-content-java.features.feature_2.content}" %>"
 
     # feature loop
-    - icon: "password"
+    - icon: "complex"
       title: "<% "{index-content-java.features.feature_3.title}" %>"
       content: "<% "{index-content-java.features.feature_3.content}" %>"
 
     # feature loop
-    - icon: "protect"
+    - icon: "adjustment"
       title: "<% "{index-content-java.features.feature_4.title}" %>"
       content: "<% "{index-content-java.features.feature_4.content}" %>"
 
     # feature loop
-    - icon: "convert"
+    - icon: "fas fa-eye"
       title: "<% "{index-content-java.features.feature_5.title}" %>"
       content: "<% "{index-content-java.features.feature_5.content}" %>"
 
     # feature loop
-    - icon: "preview"
+    - icon: "fas fa-comment-slash"
       title: "<% "{index-content-java.features.feature_6.title}" %>"
       content: "<% "{index-content-java.features.feature_6.content}" %>"
 
     # feature loop
-    - icon: "search"
+    - icon: "fas fa-remove-format"
       title: "<% "{index-content-java.features.feature_7.title}" %>"
       content: "<% "{index-content-java.features.feature_7.content}" %>"
 
     # feature loop
-    - icon: "validate"
+    - icon: "fas fa-wrench"
       title: "<% "{index-content-java.features.feature_8.title}" %>"
       content: "<% "{index-content-java.features.feature_8.content}" %>"
 
     # feature loop
-    - icon: "update"
+    - icon: "fas fa-lock"
       title: "<% "{index-content-java.features.feature_9.title}" %>"
       content: "<% "{index-content-java.features.feature_9.content}" %>"
+
+    # feature loop
+    - icon: "fas fa-copy"
+      title: "<% "{index-content-java.features.feature_10.title}" %>"
+      content: "<% "{index-content-java.features.feature_10.content}" %>"
+
+    # feature loop
+    - icon: "fas fa-envelope"
+      title: "<% "{index-content-java.features.feature_11.title}" %>"
+      content: "<% "{index-content-java.features.feature_11.content}" %>"
 
 ############################# Code samples ############################
 code_samples:
@@ -195,41 +219,38 @@ code_samples:
     # code sample loop
     - title: "<% "{index-content-java.code_title_sample_1}" %>"
       content: |
-        <% "{index-content-java.code_samples_sample_1_content_1}" %> <% "{index-content-java.code_samples_sample_1_content_2}" %>
-        {{< landing/code title="<% "{index-content-java.code_title_sample_1}" %>">}}
+        <% "{index-content-java.code_samples_sample_1_content}" %>
+        {{< landing/code title="<% "{index-content.code_samples.sample_1.code_title}" %>">}}
         ```java {style=abap}
         // <% "{index-content.code_samples.sample_1.comment_1}" %>
-        Signature signature = new Signature("file_to_sign.pdf");
+        try (Comparer comparer = new Comparer("C:\\source.doc", new LoadOptions("1234")))
+        {
+            // <% "{index-content.code_samples.sample_1.comment_2}" %>
+            comparer.add("C:\\target.docx", new LoadOptions("5678"));
         
-        // <% "{index-content.code_samples.sample_1.comment_2}" %>
-        QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
-        
-        // <% "{index-content.code_samples.sample_1.comment_3}" %>
-        options.setEncodeType(QrCodeTypes.QR);
-        options.setLeft(100);
-        options.setTop(100);
-
-        // <% "{index-content.code_samples.sample_1.comment_4}" %>
-        signature.sign("file_with_QR.pdf", options);
+            // <% "{index-content.code_samples.sample_1.comment_3}" %>
+            comparer.compare("C:\\result.docx");
+        }
         ```
         {{< /landing/code >}}
     # code sample loop
     - title: "<% "{index-content-java.code_title_sample_2}" %>"
       content: |
-        <% "{index-content-java.code_samples_sample_2_content_1}" %> <% "{index-content-java.code_samples_sample_2_content_2}" %>
-        {{< landing/code title="<% "{index-content-java.code_title_sample_2}" %>">}}
+        <% "{index-content-java.code_samples_sample_2_content}" %>
+        {{< landing/code title="<% "{index-content.code_samples.sample_2.code_title}" %>">}}
         ```java {style=abap}   
         // <% "{index-content.code_samples.sample_2.comment_1}" %>
-        Signature signature = new Signature("file_to_sign.pdf");
-        
-        // <% "{index-content.code_samples.sample_2.comment_2}" %>
-        DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
+        try (Comparer comparer = new Comparer("C:\\source.doc") 
+        {
+            // <% "{index-content.code_samples.sample_2.comment_2}" %>
+            comparer.add("C:\\target2.docx");
 
-        // <% "{index-content.code_samples.sample_2.comment_3}" %>
-        options.setPassword("1234567890");
+            // <% "{index-content.code_samples.sample_2.comment_3}" %>
+            comparer.add("C:\\target3.docx");
 
-        // <% "{index-content.code_samples.sample_2.comment_4}" %>
-        signature.sign("digitally_signed.pdf", options);
+            // <% "{index-content.code_samples.sample_2.comment_4}" %>
+            comparer.compare("C:\\result.docx");
+        }
         ```
         {{< /landing/code >}}
 
