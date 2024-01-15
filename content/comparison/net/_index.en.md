@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-01-15T14:25:32
+date: 2024-01-15T14:44:37
 draft: false
 product: "Comparison"
 product_tag: "comparison"
@@ -45,7 +45,8 @@ code:
         comparer.Add("C:\\target.docx");
 
         // Specify comparison options
-        CompareOptions options = new CompareOptions() {ShowRevisions = false};
+        CompareOptions options = new CompareOptions() 
+        {ShowRevisions = false};
 
         // Perform the comparison and save the resulting document
         comparer.Compare("C:\\result.docx", options);
