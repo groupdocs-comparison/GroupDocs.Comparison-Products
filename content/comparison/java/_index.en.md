@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-12-11T13:24:02
+date: 2024-01-15T14:25:32
 draft: false
 product: "Comparison"
 product_tag: "comparison"
@@ -45,17 +45,17 @@ code:
     ```java {style=abap}  
     // Specify the source document
     try (Comparer comparer = new Comparer("C:\\source.docx"))
-    {
+    {    
       // Add one or more target documents
       comparer.add("C:\\target.docx");
 
       // Specify comparison options
       CompareOptions options = new CompareOptions();
-        options.setShowRevisions(false);
+      options.setShowRevisions(false);
 
       // Perform the comparison and save the resulting document
       final comparer.compare("C:\\result.docx", options);
-    }
+    }    
     ```
 
 ############################# Overview ############################
@@ -78,7 +78,7 @@ overview:
 
     # feature loop
     - title: "Comparison summary report"
-      content: "Generate a summary report that lists all changes in the compared documents."      
+      content: "Generate a summary report that lists all changes in the compared documents."
 
 ############################# Platforms ############################
 platforms:
@@ -140,7 +140,7 @@ formats:
       # group loop
     - color: "red"
       content: |
-        ### Other        
+        ### Other
         * **Text:** TXT
         * **Programming Languages:** CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, PHP, SQL, LOG, DIFF, LESS, SCALA
         * **Web:** HTM, HTML, MHT, MHTML
@@ -167,7 +167,7 @@ features:
     # feature loop
     - icon: "complex"
       title: "Supported formats"
-      content: "Supports more than 50 popular document formats from various categories."      
+      content: "Supports more than 50 popular document formats from various categories."
 
     # feature loop
     - icon: "adjustment"
@@ -187,7 +187,7 @@ features:
     # feature loop
     - icon: "fas fa-remove-format"
       title: "Style comparison"
-      content: "Detect changes in formatting and styles."      
+      content: "Detect changes in formatting and styles."
 
     # feature loop
     - icon: "fas fa-wrench"
@@ -198,7 +198,7 @@ features:
     - icon: "fas fa-lock"
       title: "Password protection"
       content: "Analyze the encrypted documents, or secure the resulting document with a password."
-    
+
     # feature loop
     - icon: "fas fa-copy"
       title: "Compare specific pages"
@@ -226,28 +226,28 @@ code_samples:
         {
             // Load the target document and specify its password
             comparer.add("C:\\target.docx", new LoadOptions("5678"));
-            
-          // Save comparison result to a specified file
-          comparer.compare("C:\\result.docx");
+        
+            // Save comparison result to a specified file
+            comparer.compare("C:\\result.docx");
         }
-        ```        
+        ```
         {{< /landing/code >}}
     # code sample loop
     - title: "Comparing multiple PDF documents."
       content: |
         GroupDocs.Comparison allows you to [compare more than two documents](https://docs.groupdocs.com/comparison/java/compare-multiple-documents/). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class.
         {{< landing/code title="How to compare three or more documents.">}}
-        ```java {style=abap}
+        ```java {style=abap}   
         // Load the source document
         try (Comparer comparer = new Comparer("C:\\source.doc") 
         {
-        	// Specify the second file for comparison
+            // Specify the second file for comparison
             comparer.add("C:\\target2.docx");
 
-        	// Specify the third file for comparison
+            // Specify the third file for comparison
             comparer.add("C:\\target3.docx");
 
-          // Save comparison result to a specified file
+            // Save comparison result to a specified file
             comparer.compare("C:\\result.docx");
         }
         ```

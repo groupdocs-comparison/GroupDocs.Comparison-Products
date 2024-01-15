@@ -1,178 +1,183 @@
+<% configRef "..\\configs\\index\\index.yml" %>
 ---
 ############################# Static ############################
 layout: "family"
-date:  2023-12-14T08:51:15
+date:  <% date "utcnow" %>
 draft: false
 
 ############################# Head ############################
-head_title: "Comparison Solution | On Premise APIs and Free App - GroupDocs"
-head_description: "The API to compare document content and styles across multiple formats."
+head_title: "<% "{index-content.head_title}" %>"
+head_description: "<% "{index-content.head_description}" %>"
 
 ############################# Header ############################
-title: "Comparison Solution for Documents"
+title: "<% "{index-content.title}" %>"
 description: | 
-            "The API to compare document content and styles across multiple formats."
-            "Identify and highlight changes between documents."
-            "Highly configurable comparison settings."
+            "<% "{index-content.description_1}" %>"
+            "<% "{index-content.description_2}" %>"
+            "<% "{index-content.description_3}" %>"
 
 ############################# Supported Platforms ###############################
 supported_platforms:
-  head_title: Choose your platform
+  enable: true 
+  head_title: "<% "{index-content.supported_platforms.head_title}" %>"
 
   items:
     # items loop
     - link: "/comparison/net/"
       color: "blue"
       title: ".NET"
-      description: "GroupDocs.Comparison for .NET"
+      description: "<% "{index-content.supported_platforms.net.description}" %>"
+      tag: "net"
 
     # items loop
     - link: "/comparison/java/"
       color: "red"
       title: "Java"
-      description: "GroupDocs.Comparison for Java"
+      description: "<% "{index-content.supported_platforms.net.description}" %>"
+      tag: "java"
 
     # items loop
     - link: "/comparison/nodejs-java/"
       color: "green"
       title: "Node.js"
-      description: "Comparison for Node.js via Java"
+      description: "<% "{index-content.supported_platforms.net.description}" %>"
+      tag: "nodejs"
 
 ############################# Features ###############################
 features:
   enable: true
-  title: "GroupDocs.Comparison at a glance"
-  description: "API to compare differences between documents."
+  title: "<% "{index-content.features.title}" %>"
+  description: "<% "{index-content.features.description}" %>"
 
   items:
     # items loop
     - icon: "compare"
-      title: "Side by side comparison"
-      content: "Detect and identify differences between two or more documents."
+      title: "<% "{index-content.features.feature_1.title}" %>"
+      content: "<% "{index-content.features.feature_1.content}" %>"
 
     # items loop
     - icon: "accept"
-      title: "Accept or reject changes"
-      content: "Visual separation of detected changes with the ability to accept or reject modifications."
+      title: "<% "{index-content.features.feature_2.title}" %>"
+      content: "<% "{index-content.features.feature_2.content}" %>"
 
     # items loop
     - icon: "content"
-      title: "Compare content and styling"
-      content: "Compare text contents, as well as changes in formatting and style."
+      title: "<% "{index-content.features.feature_3.title}" %>"
+      content: "<% "{index-content.features.feature_3.content}" %>"
 
     # items loop
     - icon: "pages"
-      title: "Compare specific pages"
-      content: "Load just the particular sections or pages of the document to be compared."
+      title: "<% "{index-content.features.feature_4.title}" %>"
+      content: "<% "{index-content.features.feature_4.content}" %>"
 
 ############################# Code Samples ###############################
 code_samples:
   enable: true
-  title: "Practical code showcase"
-  description: "Some use cases of typical GroupDocs.Comparison operations."
+  title: "<% "{index-content.code_samples.index_title}" %>"
+  description: "<% "{index-content.code_samples.index_description}" %>"
 
   items:
     # items loop
-    - title: "Comparing two files"
-      content: "To compare two files you need to load the source and target documents and then call the `compare` method. Additionally, you can specify comparison options."
+    - title: "<% "{index-content.sample_index_title}" %>"
+      content: "<% "{index-content.sample_index_content}" %>"
       samples:
           # samples loop
           - language: "C#"
             color: "blue"
             content: |
                     <code class="language-csharp" data-lang="csharp">
-    // Specify the source document
-    using (Comparer comparer = new Comparer("C:\\source.docx"))
-    {
-      // Add one or more target documents
-      comparer.Add("C:\\target.docx");
+                        // <% "{index-content.code_comment_1}" %>
+                        using (Comparer comparer = new Comparer("C:\\source.docx"))
+                        {
+                          // <% "{index-content.code_comment_2}" %>
+                          comparer.Add("C:\\target.docx");
 
-      // Specify comparison options
-      CompareOptions options = new CompareOptions() {ShowRevisions = false};
+                          // <% "{index-content.code_comment_3}" %>
+                          CompareOptions options = new CompareOptions() {ShowRevisions = false};
 
-      // Perform the comparison and save the resulting document
-      comparer.Compare("C:\\result.docx", options);
-    }                    
+                          // <% "{index-content.code_comment_4}" %>
+                          comparer.Compare("C:\\result.docx", options);
+                        }                    
                     </code>
+
           # samples loop
           - language: "Java"
             color: "red"
             content: |
                     <code class="language-java" data-lang="java">
-    // Specify the source document
-    try (Comparer comparer = new Comparer("C:\\source.docx"))
-    {
-      // Add one or more target documents
-      comparer.add("C:\\target.docx");
+                        // <% "{index-content.code_comment_1}" %>
+                        try (Comparer comparer = new Comparer("C:\\source.docx"))
+                        {
+                          // <% "{index-content.code_comment_2}" %>
+                          comparer.add("C:\\target.docx");
 
-      // Specify comparison options
-      CompareOptions options = new CompareOptions();
-        options.setShowRevisions(false);
+                          // <% "{index-content.code_comment_3}" %>
+                          CompareOptions options = new CompareOptions();
+                          options.setShowRevisions(false);
 
-      // Perform the comparison and save the resulting document
-      final comparer.compare("C:\\result.docx", options);
-    }
+                          // <% "{index-content.code_comment_4}" %>
+                          final comparer.compare("C:\\result.docx", options);
+                        }
                     </code>
 
           # samples loop
-          - language: "JavaScript"
+          - language: "TypeScript"
             color: "green"
             content: |
                     <code class="language-java" data-lang="javascript">
-    // Specify the source document
-    const comparer = new groupdocs.comparison.Comparer("C:\\source.docx");
+                        // <% "{index-content.code_comment_1}" %>
+                        const comparer = new groupdocs.comparison.Comparer("C:\\source.docx");
     
-    // Add one or more target documents
-    comparer.add("C:\\target.docx");
+                        // <% "{index-content.code_comment_2}" %>
+                        comparer.add("C:\\target.docx");
 
-    // Specify comparison options
-    const options = new groupdocs.comparison.CompareOptions();
-    options.setShowRevisions(false);
+                        // <% "{index-content.code_comment_3}" %>
+                        const options = new groupdocs.comparison.CompareOptions();
+                        options.setShowRevisions(false);
 
-    // Perform the comparison and save the resulting document
-    comparer.compare("C:\\result.docx", options);    
+                        // <% "{index-content.code_comment_4}" %>
+                        comparer.compare("C:\\result.docx", options);    
                     </code>
 
 ############################# Supported Formats ###############################
 formats:
   enable: true
-  title: "55+ file formats supported"
-  description: "GroupDocs.Comparison supports operations with a wide range of document formats."
-
+  title: "<% "{index-content.formats_title_index}" %>"
+  description: "<% "{index-content.formats_description_index}" %>"
 
 ############################# Metrics ###############################
 metrics:
   enable: true
-  title: "In-depth metrics and statistical insights"
-  description: "Dive into a detailed breakdown of our key figures, providing comprehensive metrics and statistical insights into our achievements, impact, and growth."
+  title: "<% "{index-content.metrics.title}" %>"
+  description: "<% "{index-content.metrics.description}" %>"
 
   items:
     # items loop
     - number: "55+"
-      title: "Supported formats"
-      content: "Each library supports processing more than 50 of most popular file and document formats."
+      title: "<% "{index-content.metrics.item_1.title}" %>"
+      content: "<% "{index-content.metrics.item_1.description}" %>"
 
     # items loop
     - number: "780k"
-      title: "NuGet downloads"
-      content: "GroupDocs.Comparison for .NET has more than 274K downloads from the NuGet package manager."
+      title: "<% "{index-content.metrics.item_2.title}" %>"
+      content: "<% "{index-content.metrics.item_2.description}" %>"
 
     # items loop
     - number: "15k"
-      title: "Maven downloads"
-      content: "GroupDocs.Comparison for Java has more than 15K downloads from our Maven repository."
+      title: "<% "{index-content.metrics.item_3.title}" %>"
+      content: "<% "{index-content.metrics.item_3.description}" %>"
 
     # items loop
     - number: "140+"
-      title: "Happy customers"
-      content: "Our libraries are used by both small individual developers as well as by leading companies all over the world."
+      title: "<% "{index-content.metrics.item_4.title}" %>"
+      content: "<% "{index-content.metrics.item_4.description}" %>"
 
 
 ############################# Customers ###############################
 customers:
   enable: true
-  title: "Our happy customers"
-  description: "GroupDocs libraries are employed by globally renowned and distinguished brands across the world."
+  title: "<% "{index-content.customers_title}" %>"
+  description: "<% "{index-content.customers_description}" %>"
 
   items:
     # items loop
@@ -219,9 +224,9 @@ customers:
 ############################# Supported Platforms ###############################
 supported_platforms:
   enable: true
-  title: "Platform independence"
-  description: "GroupDocs.Comparison library supports the following operating systems and frameworks:"
-  details_link_title: "Learn more"
+  title: "<% "{index-content.platforms.title}" %>"
+  description: "<% "{index-content.platforms.description}" %>"
+  details_link_title: "<% "{index-content.platforms.learn_more}" %>"
 
   items:
     # items loop
@@ -313,8 +318,8 @@ supported_platforms:
 ############################# Actions ###############################
 actions:
   enable: true
-  title: "Ready to get started?"
-  description: "Try GroupDocs.Comparison features for free on your platform"
+  title: "<% "{index-content.actions_title}" %>"
+  description: "<% "{index-content.actions_description_index}" %>"
 
   items:
     # items loop
@@ -330,76 +335,74 @@ actions:
     # items loop
     - title: "Node.js"
       color: "green"
-      link: "/comparison/nodejs-java/"     
+      link: "/comparison/nodejs-java/"      
 
 ############################# FAQ ###############################
 faq:
   enable: true
-  title: "Frequently asked questions"
-  description: "Answers to most commonly asked questions."
+  title: "<% "{index-content.faq.title}" %>"
+  description: "<% "{index-content.faq.description}" %>"
 
   items:
     # items loop
-    - question: "Does the GroupDocs.Comparison library need any other third-party software to manipulate documents?"
-      answer: "GroupDocs.Comparison does not require any external software to be installed such as Adobe Acrobat, Microsoft Office, or any other."
+    - question: "<% "{index-content.faq.item_1.question}" %>"
+      answer: "<% "{index-content.faq.item_1.answer}" %>"
 
     # items loop
-    - question: "Can I try the GroupDocs.Comparison library before purchasing it?"
-      answer: "Yes, you can try GroupDocs.Comparison without buying a license. Once installed without a license, the library works in trial mode. In this mode, trial badges are added to the resultant document, and it is trimmed to the first 3 pages. If you wish to test GroupDocs.Comparison without the limitations of the trial version, you can also request a 30-day temporary license. For more details, see "
+    - question: "<% "{index-content.faq.item_2.question}" %>"
+      answer: "<% "{index-content.faq.item_2.answer}" %>"
 
     # items loop
-    - question: "What licenses do you have?"
-      answer: "We offer several license types to fit the needs of particular developers or companies. License types depend on the number of developers, the number of developer site locations, and whether you need to deliver our SDK/API to your end customers. Alternatively, you can choose Metered licenses based on monthly usage of the product. Learn more at "
-
+    - question: "<% "{index-content.faq.item_3.question}" %>"
+      answer: "<% "{index-content.faq.item_3.answer}" %>"
 
 ############################# Cloud Links ###############################
 cloud_links:
   enable: true
-  title: "GroupDocs.Comparison low code APIs"
-  description: "Accelerate documents merging in any type of application with our cloud-based REST API."
-
+  title: "<% "{index-content.cloud_links.title}" %>"
+  description: "<% "{index-content.cloud_links.description}" %>"
+  
   items:
     # items loop
     - title: "GroupDocs.Comparison Cloud for cURL"
-      content: "Work with cURL RESTful document comparison API to compare Word, Excel, PowerPoint and other popular file formats."
+      content: "<% "{index-content.cloud_links.item_1.content}" %>"
       icon: "groupdocs_comparison-for-curl"
       link: "https://products.groupdocs.cloud/comparison/curl"
 
     # items loop
     - title: "GroupDocs.Comparison Cloud for .NET"
-      content: "Add powerful document comparison capabilities in .NET applications using Cloud SDK for .NET. Compare DOCX, XLSX, PPTX and more."
+      content: "<% "{index-content.cloud_links.item_2.content}" %>"
       icon: "groupdocs_comparison-for-net"
       link: "https://products.groupdocs.cloud/comparison/net"
 
     # items loop
     - title: "GroupDocs.Comparison Cloud for Java"
-      content: "Add high fidelity document comparison features to your java applications with specially designed document comparison SDK for Java."
+      content: "<% "{index-content.cloud_links.item_3.content}" %>"
       icon: "groupdocs_comparison-for-java"
       link: "https://products.groupdocs.cloud/comparison/java"
-
 
 ############################# App links ###############################
 app_links:
   enable: true
-  title: "GroupDocs.Comparison NoCode apps"
-  description: "Online application allowing you to compare 50+ popular file formats in browser."
+  title: "<% "{index-content.app_links.title}" %>"
+  description: "<% "{index-content.app_links.description}" %>"
 
   items:
     # items loop
     - title: "GroupDocs.Comparison Total"
-      content: "Online diff tool to compare two documents from any device."
+      content: "<% "{index-content.app_links.item_1.content}" %>"
       icon: "groupdocs_comparison-app"
       link: "https://products.groupdocs.app/comparison/total"
 
     # items loop
     - title: "GroupDocs.Comparison DOCX"
-      content: "Compare DOCX files online."
+      content: "<% "{index-content.app_links.item_2.content}" %>"
       icon: "groupdocs_words-app"
       link: "https://products.groupdocs.app/comparison/docx"
 
     # items loop
     - title: "GroupDocs.Comparison PDF"
-      content: "Diff PDF documents online using PDF comparison app."
+      content: "<% "{index-content.app_links.item_3.content}" %>"
       icon: "groupdocs_pdf-app"
       link: "https://products.groupdocs.app/comparison/pdf"
 

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-12-14T14:24:25
+date: 2024-01-15T14:25:32
 draft: false
 product: "Comparison"
 product_tag: "comparison"

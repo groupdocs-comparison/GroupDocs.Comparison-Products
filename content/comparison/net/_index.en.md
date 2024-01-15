@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-12-11T13:24:02
+date: 2024-01-15T14:25:32
 draft: false
 product: "Comparison"
 product_tag: "comparison"
@@ -41,14 +41,14 @@ code:
     // Specify the source document
     using (Comparer comparer = new Comparer("C:\\source.docx"))
     {
-      // Add one or more target documents
-      comparer.Add("C:\\target.docx");
+        // Add one or more target documents
+        comparer.Add("C:\\target.docx");
 
-      // Specify comparison options
-      CompareOptions options = new CompareOptions() {ShowRevisions = false};
+        // Specify comparison options
+        CompareOptions options = new CompareOptions() {ShowRevisions = false};
 
-      // Perform the comparison and save the resulting document
-      comparer.Compare("C:\\result.docx", options);
+        // Perform the comparison and save the resulting document
+        comparer.Compare("C:\\result.docx", options);
     }
     ```
 
@@ -72,7 +72,7 @@ overview:
 
     # feature loop
     - title: "Comparison summary report"
-      content: "Save a differences summary report that lists all changes in compared documents."      
+      content: "Save a differences summary report that lists all changes in compared documents."
 
 ############################# Platforms ############################
 platforms:
@@ -134,7 +134,7 @@ formats:
       # group loop
     - color: "red"
       content: |
-        ### Other        
+        ### Other
         * **Text:** TXT
         * **Programming Languages:** CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, PHP, SQL, LOG, DIFF, LESS, SCALA
         * **Web:** HTM, HTML, MHT, MHTML
@@ -161,7 +161,7 @@ features:
     # feature loop
     - icon: "complex"
       title: "Supported formats"
-      content: "Supports more than 50 popular document formats from various categories."      
+      content: "Supports more than 50 popular document formats from various categories."
 
     # feature loop
     - icon: "adjustment"
@@ -181,7 +181,7 @@ features:
     # feature loop
     - icon: "fas fa-remove-format"
       title: "Style comparison"
-      content: "Detect changes in formatting and styles."      
+      content: "Detect changes in formatting and styles."
 
     # feature loop
     - icon: "fas fa-wrench"
@@ -192,7 +192,7 @@ features:
     - icon: "fas fa-lock"
       title: "Password protection"
       content: "Analyze the encrypted documents, or secure the resulting document with a password."
-    
+
     # feature loop
     - icon: "fas fa-copy"
       title: "Compare specific pages"
@@ -216,12 +216,12 @@ code_samples:
         {{< landing/code title="How to compare password-protected documents.">}}
         ```csharp {style=abap}
         // Load the source document and specify its password
-        using(Comparer comparer = new Comparer("C:\\source.doc", new LoadOptions() {Password = "1234"})) 
+        using(Comparer comparer = new Comparer("C:\\source.doc", new LoadOptions() {Password = "1234"}))  
         {
-        	// Load the target document and specify its password
+            // Load the target document and specify its password
             comparer.Add("C:\\target.docx", new LoadOptions() {Password = "5678"});
-        	
-          // Save comparison result to a specified file
+
+            // Save comparison result to a specified file
             comparer.Compare("C:\\result.docx");
         }
         ```
@@ -231,17 +231,17 @@ code_samples:
       content: |
         GroupDocs.Comparison allows you to [compare more than two documents](https://docs.groupdocs.com/comparison/net/compare-multiple-documents/). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class.
         {{< landing/code title="How to compare three or more documents.">}}
-        ```csharp {style=abap}
+        ```csharp {style=abap}   
         // Load the source document
         using(Comparer comparer = new Comparer("C:\\source.doc") 
         {
-        	// Specify the second file for comparison
+            // Specify the second file for comparison
             comparer.Add("C:\\target2.docx");
-
-        	// Specify the third file for comparison
+            
+            // Specify the third file for comparison
             comparer.Add("C:\\target3.docx");
-
-          // Save comparison result to a specified file
+            
+            // Save comparison result to a specified file
             comparer.Compare("C:\\result.docx");
         }
         ```

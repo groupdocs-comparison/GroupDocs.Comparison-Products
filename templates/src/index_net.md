@@ -46,7 +46,8 @@ code:
         comparer.Add("C:\\target.docx");
 
         // <% "{index-content.code_comment_3}" %>
-        CompareOptions options = new CompareOptions() {ShowRevisions = false};
+        CompareOptions options = new CompareOptions() 
+        {ShowRevisions = false};
 
         // <% "{index-content.code_comment_4}" %>
         comparer.Compare("C:\\result.docx", options);

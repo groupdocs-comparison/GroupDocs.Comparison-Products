@@ -4,4 +4,4 @@ dimensions:
 - alias:  operation
   values: [index] 
 
-outputPath: "comparison\\new\\_index.{lang}.md"
+outputPath: "comparison\\_index.{lang}.md"
