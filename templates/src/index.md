@@ -5,43 +5,124 @@ layout: "family"
 date:  <% date "utcnow" %>
 draft: false
 
+lang: <% lower ( get "lang") %>
+
 ############################# Head ############################
 head_title: "<% "{index-content.head_title}" %>"
 head_description: "<% "{index-content.head_description}" %>"
 
 ############################# Header ############################
 title: "<% "{index-content.title}" %>"
-description: | 
-            "<% "{index-content.description_1}" %>"
-            "<% "{index-content.description_2}" %>"
-            "<% "{index-content.description_3}" %>"
+description: |
+  <% "{index-content.description_1}" %>
+
+  <% "{index-content.description_2}" %>
+
+  <% "{index-content.description_3}" %>
 
 ############################# Supported Platforms ###############################
 supported_platforms:
-  enable: true 
-  head_title: "<% "{index-content.supported_platforms.head_title}" %>"
+  enable: true
+  head_title: "<% "{index-content.platforms.head_title}" %>"
+  title: "<% "{index-content.platforms.title}" %>"
+  description: "<% "{index-content.platforms.description}" %>"
+  details_link_title: "<% "{index-content.platforms.learn_more}" %>"
 
   items:
     # items loop
-    - link: "/comparison/net/"
+    - title: ".NET"
+      description: GroupDocs.Comparison "<% "{index-content.words_for}" %>" .NET 
       color: "blue"
-      title: ".NET"
-      description: "<% "{index-content.supported_platforms.net.description}" %>"
       tag: "net"
+      link: "/comparison/net/"
+      features_link: "https://docs.groupdocs.com/comparison/net/system-requirements/"
+      features:
+          # features loop
+          - rows: "4"
+            content: |
+                    .NET Framework 4.6.2 or higher
+                    .NET Core 2.0 or higher
+                    .NET 6.0 or higher
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows, Linux, Mac OS
+      
+          # features loop
+          - rows: "3"
+            content: |
+                    Microsoft Visual Studio
+                    JetBrains Rider
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    55+ file formats
+      
 
     # items loop
-    - link: "/comparison/java/"
+    - title: "Java"
+      description: GroupDocs.Comparison "<% "{index-content.words_for}" %>" Java
       color: "red"
-      title: "Java"
-      description: "<% "{index-content.supported_platforms.net.description}" %>"
       tag: "java"
+      link: "/comparison/java/"
+      features_link: "https://docs.groupdocs.com/comparison/java/system-requirements/"
+      features:
+          # features loop
+          - rows: "4"
+            content: |
+                    Java 8 or higher
+                    Kotlin
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows, Linux, Mac OS
+      
+          # features loop
+          - rows: "3"
+            content: |
+                    IntelliJ IDEA
+                    Eclipse
+                    NetBeans
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    50+ file formats
 
     # items loop
-    - link: "/comparison/nodejs-java/"
+    - title: "Node.js"
+      description: GroupDocs.Comparison "<% "{index-content.words_for}" %>" Node.js
       color: "green"
-      title: "Node.js"
-      description: "<% "{index-content.supported_platforms.net.description}" %>"
-      tag: "nodejs"
+      tag: "nodejs-java"
+      link: "/comparison/nodejs-java/"
+      features_link: "https://docs.groupdocs.com/comparison/nodejs-java/system-requirements/"
+      features:
+          # features loop
+          - rows: "4"
+            content: |
+                    Java 8 or higher
+                    Kotlin
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows, Linux, Mac OS
+      
+          # features loop
+          - rows: "3"
+            content: |
+                    Atom
+                    Sublime
+                    Visual Studio Code
+                    Any other text editor
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    50+ file formats
 
 ############################# Features ###############################
 features:
@@ -220,100 +301,6 @@ customers:
     - title: "Wipro"
       logo: "wipro"
 
-
-############################# Supported Platforms ###############################
-supported_platforms:
-  enable: true
-  title: "<% "{index-content.platforms.title}" %>"
-  description: "<% "{index-content.platforms.description}" %>"
-  details_link_title: "<% "{index-content.platforms.learn_more}" %>"
-
-  items:
-    # items loop
-    - title: ".NET"
-      color: "blue"
-      features_link: "https://docs.groupdocs.com/comparison/net/system-requirements/"
-      features:
-          # features loop
-          - rows: "4"
-            content: |
-                    .NET Framework 4.6.2 or higher
-                    .NET Core 2.0 or higher
-                    .NET 6.0 or higher
-      
-          # features loop
-          - rows: "1"
-            content: |
-                    Windows, Linux, Mac OS
-      
-          # features loop
-          - rows: "3"
-            content: |
-                    Microsoft Visual Studio
-                    JetBrains Rider
-      
-          # features loop
-          - rows: "1"
-            content: |
-                    55+ file formats
-      
-
-    # items loop
-    - title: "Java"
-      color: "red"
-      features_link: "https://docs.groupdocs.com/comparison/java/system-requirements/"
-      features:
-          # features loop
-          - rows: "4"
-            content: |
-                    Java 8 or higher
-                    Kotlin
-      
-          # features loop
-          - rows: "1"
-            content: |
-                    Windows, Linux, Mac OS
-      
-          # features loop
-          - rows: "3"
-            content: |
-                    IntelliJ IDEA
-                    Eclipse
-                    NetBeans
-      
-          # features loop
-          - rows: "1"
-            content: |
-                    50+ file formats
-
-    # items loop
-    - title: "Node.js"
-      color: "green"
-      features_link: "https://docs.groupdocs.com/comparison/nodejs-java/system-requirements/"
-      features:
-          # features loop
-          - rows: "4"
-            content: |
-                    Java 8 or higher
-                    Kotlin
-      
-          # features loop
-          - rows: "1"
-            content: |
-                    Windows, Linux, Mac OS
-      
-          # features loop
-          - rows: "3"
-            content: |
-                    Atom
-                    Sublime
-                    Visual Studio Code
-                    Any other text editor
-      
-          # features loop
-          - rows: "1"
-            content: |
-                    50+ file formats
 
 ############################# Actions ###############################
 actions:

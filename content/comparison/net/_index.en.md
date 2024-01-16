@@ -1,8 +1,10 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-01-15T14:44:37
+date: 2024-01-16T13:00:43
 draft: false
+
+lang: en
 product: "Comparison"
 product_tag: "comparison"
 platform: "Net"

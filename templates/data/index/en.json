@@ -24,18 +24,6 @@
     "sample_index_content": "To compare two files you need to load the source and target documents and then call the `compare` method. Additionally, you can specify comparison options.",
     "overview_title": "GroupDocs.Comparison at a glance",
     "platforms_title": "Platform independence",
-    "supported_platforms": {
-      "head_title": "Choose your platform",
-      "net": {
-        "description": "GroupDocs.Comparison for .NET"
-      },
-      "java": {
-        "description": "GroupDocs.Comparison for Java"
-      },
-      "node-js": {
-        "description": "GroupDocs.Comparison for Node.js"
-      }
-    },
     "features": {
       "title": "GroupDocs.Comparison at a glance",
       "description": "API to compare differences between documents.",
@@ -119,6 +107,7 @@
     },
     "platforms": {
       "title": "Platform independence",
+      "head_title": "Choose your platform",
       "description": "GroupDocs.Comparison library supports the following operating systems and frameworks:",
       "learn_more": "Learn more"
     },

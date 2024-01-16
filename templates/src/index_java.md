@@ -4,6 +4,8 @@
 layout: "landing"
 date: <% date "utcnow" %>
 draft: false
+
+lang: <% lower ( get "lang") %>
 product: "Comparison"
 product_tag: "comparison"
 platform: "Java"
