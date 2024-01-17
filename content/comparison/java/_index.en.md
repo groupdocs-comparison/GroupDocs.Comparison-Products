@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-01-16T13:00:43
+date: 2024-01-17T11:37:16
 draft: false
 
 lang: en
@@ -9,6 +9,19 @@ product: "Comparison"
 product_tag: "comparison"
 platform: "Java"
 platform_tag: "java"
+
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: "Java Document Comparison Library | Compare Docs for Text & Style"
