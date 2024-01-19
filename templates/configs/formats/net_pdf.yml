@@ -1,0 +1,10 @@
+inherits: ..\\products_net.yml
+
+dimensions:  
+- alias:  operation
+  values: [format_net] 
+
+- alias:  fileformat
+  values: [pdf] 
+
+outputPath: "comparison\\{product}\\{fileformat}.{lang}.md"

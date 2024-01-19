@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-18T18:25:20
+date:  2024-01-19T15:25:57
 draft: false
 lang: en
 format: Vsdx
@@ -104,7 +104,7 @@ actions:
 more_formats:
     enable: true
     title: "Compare popular file formats using C#"
-    exclude: "PDF"
+    exclude: "VSDX"
     description: ".NET API for document formats comparison. Stay well-informed about changes at your documents processing them without extra efforts."
     items: 
         # format loop 1

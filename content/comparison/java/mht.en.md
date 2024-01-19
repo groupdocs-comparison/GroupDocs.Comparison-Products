@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-18T18:25:20
+date:  2024-01-19T15:25:57
 draft: false
 lang: en
 format: Mht
@@ -12,72 +12,72 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "{common.head.title}"
-head_description: "{common.head.description}"
+head_title: ".NET MHT Comparison API - compare documents using C# .NET"
+head_description: "GroupDocs.Comparison for .NET provides the API to get detailed documents comparison reports in any type of C#, ASP.NET, VB.NET & .NET Core applications."
 
 ############################# Header ############################
-title: "{common.header.title}" 
-description: "{common.header.description}"
-subtitle: "{common.header.subtitle}" 
+title: "MHT files Comparison for C# .NET applications" 
+description: ".NET documents comparing API for getting and display info about any distinctions in MHT files at applications based on C#, ASP.NET, VB.NET & .NET Core. Enjoy getting detailed reports quickly and easily."
+subtitle: "Document comparing solution" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "{common.header.action_title}"
+    - title: "Free Nuget download"
       link: "https://releases.groupdocs.com/comparison/net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "{common.about.title}"
+    title: "Discover GroupDocs.Comparison for .NET API"
     link: "/comparison/net/"
-    link_title: "{common.about.link_title}"
+    link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       {common.about.content}
+       Get detailed reports about differences at documents of popular formats at your .NET applications. Use GroupDocs.Comparison for .NET APIs by adding a couple lines of code. Developers can easily display MHT, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing additional software or any other external libraries.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{common.steps.title}"
+    title: "How to compare multiple MHT files using C#"
     content: |
-      {common.steps.content.title}
+      It is possible to use <a href='https://products.groupdocs.com/comparison/net/'>GroupDocs.Comparison</a> for getting report about differences in many MHT files.
       
-      1. {common.steps.content.step_1}
-      2. {common.steps.content.step_2}
-      3. {common.steps.content.step_3}
-      4. {common.steps.content.step_4}
+      1. Install <a href='https://www.nuget.org/packages/groupdocs.comparison'>GroupDocs.Comparison for .NET</a> using your favorite package manager.
+      2. Provide an instance of Comparer class with full path to first MHT file.
+      3. Append at least one other MHT to Comparer.
+      4. Get a final report with precisely described differences.
    
     code:
       platform: "net"
-      copy_title: "{common.steps.code.copy_title}"
+      copy_title: "Copy"
       install:
         command: "dotnet add package GroupDocs.Comparison"
-        copy_tip: "{common.steps.code.copy_tip}"
-        copy_done: "{common.steps.code.copy_done}"
+        copy_tip: "click to copy"
+        copy_done: "copied"
       links:
         #  loop
-        - title: "{common.steps.code.links.title_1}"
+        - title: "More examples"
           link: "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-.NET"
         #  loop
-        - title: "{common.steps.code.links.title_2}"
+        - title: "Documentation"
           link: "https://docs.groupdocs.com/comparison/net/"
           
       content: |
         ```csharp {style=abap}
 
-        // {common.steps.code.comments.comment_1}
+        // Compare multiple documents from local disk
 
-        // {common.steps.code.comments.comment_2}
+        // Instantiate Comparer providing a first file
         using (Comparer comparer = new Comparer("source.mht"))
         {
-            // {common.steps.code.comments.comment_3}
+            // Add other files
         	comparer.Add("target1.mht");
             comparer.Add("target2.mht");
             comparer.Add("target3.mht");
 
-            // {common.steps.code.comments.comment_4}
+            // Get result file with the specified name
             comparer.Compare("result.mht"); 
         }
         
@@ -87,15 +87,15 @@ steps:
 
 actions:
   enable: true
-  title: "{common.actions.title}"
-  description: "{common.actions.description}"
+  title: "Ready to get started?"
+  description: "Try GroupDocs.Comparison features for free or request a license"
   items:
     #  loop
-    - title: "{common.actions.items.comment_1}"
+    - title: "Nuget download"
       link: "https://releases.groupdocs.com/comparison/net/"
       color: "red"
         #  loop
-    - title: "{common.actions.items.comment_2}"
+    - title: "Licensing"
       link: "https://purchase.groupdocs.com/pricing/comparison/net/"
       color: "light"
 
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "{common.formats.title}"
-    exclude: "PDF"
-    description: "{common.formats.description}"
+    title: "Compare popular file formats using C#"
+    exclude: "MHT"
+    description: ".NET API for document formats comparison. Stay well-informed about changes at your documents processing them without extra efforts."
     items: 
         # format loop 1
         - name: "Compare PDF Files"

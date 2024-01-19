@@ -107,7 +107,7 @@ actions:
 more_formats:
     enable: true
     title: "<% "{common.formats.title}" %>"
-    exclude: "PDF"
+    exclude: "<% get "FileFormatUp" %>"
     description: "<% "{common.formats.description}" %>"
     items: 
         # format loop 1
