@@ -1,0 +1,10 @@
+inherits: ..\\products_nodejs.yml
+
+dimensions:  
+- alias:  operation
+  values: [format_nodejs] 
+
+- alias:  fileformat
+  values: [pdf] 
+
+outputPath: "comparison\\{product}\\{fileformat}.{lang}.md"

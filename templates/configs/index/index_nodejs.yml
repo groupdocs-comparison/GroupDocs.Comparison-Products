@@ -1,4 +1,4 @@
-inherits: ..\\products_nodejs-java.yml
+inherits: ..\\products_nodejs.yml
 
 dimensions:  
 - alias:  operation

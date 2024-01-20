@@ -1,4 +1,4 @@
-<% configRef "..\\configs\\index\\index_nodejs-java.yml" %>
+<% configRef "..\\configs\\index\\index_nodejs.yml" %>
 ---
 ############################# Static ############################
 layout: "landing"
