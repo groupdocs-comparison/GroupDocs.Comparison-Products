@@ -1,5 +1,6 @@
 deploy_key
-
+[Bb]in/
+[Oo]bj/
 #License files
 *.lic
 /.vs
