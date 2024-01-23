@@ -1,12 +1,11 @@
 {
   "index-content": {
-    "head_title": "Comparison Solution | On Premise APIs and Free App - GroupDocs",
+    "head_title": "Document Comparison API | On Premise APIs and Free App - GroupDocs",
     "head_description": "The API to compare document content and styles across multiple formats.",
     "title": "Comparison Solution for Documents",
-    "description_1": "The API to compare document content and styles across multiple formats.",
-    "description_2": "Identify and highlight changes between documents.",
-    "description_3": "Highly configurable comparison settings.",
-    "title_1": "Sign documents",
+    "description_1": "Robust API for document comparison across various file formats.",
+    "description_2": "Identify and highlight content differences with minimal coding effort.",
+    "description_3": "Highlight visible differences and uncover changes in hidden properties.",
     "words_for": "for",
     "actions_alt": "Licensing",
     "actions_title": "Ready to get started?",
@@ -21,19 +20,19 @@
     "code_comment_3": "Specify comparison options",
     "code_comment_4": "Perform the comparison and save the resulting document",
     "sample_index_title": "Comparing two files",
-    "sample_index_content": "To compare two files you need to load the source and target documents and then call the `compare` method. Additionally, you can specify comparison options.",
+    "sample_index_content": "To compare two documents, start by loading both the source and target files, and then apply the `compare` method. You have the flexibility to choose specific comparison settings for a more tailored analysis.",
     "overview_title": "GroupDocs.Comparison at a glance",
     "platforms_title": "Platform independence",
     "features": {
       "title": "GroupDocs.Comparison at a glance",
-      "description": "API to compare differences between documents.",
+      "description": "API for comparing and diff viewing across PDF, Word, Excel, source code files, and more.",
       "feature_1": {
-        "title": "Side by side comparison",
-        "content": "Detect and identify differences between two or more documents."
+        "title": "Intuitive diff view result",
+        "content": "Analyze changes easily with highlighted differences in a single-document report."
       },
       "feature_2": {
-        "title": "Accept or reject changes",
-        "content": "Visual separation of detected changes with the ability to accept or reject modifications."
+        "title": "Efficient change review process",
+        "content": "Accept or reject changes with visually distinct modifications for easy decision-making."
       },
       "feature_3": {
         "title": "Compare content and styling",
@@ -45,29 +44,29 @@
       }
     },
     "metrics": {
-      "title": "In-depth metrics and statistical insights",
-      "description": "Dive into a detailed breakdown of our key figures, providing comprehensive metrics and statistical insights into our achievements, impact, and growth.",
+      "title": "Detailed metrics and statistical insights",
+      "description": "Explore a thorough analysis of our key figures, offering comprehensive metrics and statistical insights into our accomplishments, influence, and expansion.",
       "item_1": {
         "title": "Supported formats",
-        "description": "Each library supports processing more than 50 of most popular file and document formats."
+        "description": "The API accommodates more than 50 of the most widely used file and document formats."
       },
       "item_2": {
         "title": "NuGet downloads",
-        "description": "GroupDocs.Comparison for .NET has more than 274K downloads from the NuGet package manager."
+        "description": "GroupDocs.Comparison for .NET has received over 800K downloads through the NuGet package manager."
       },
       "item_3": {
         "title": "Maven downloads",
-        "description": "GroupDocs.Comparison for Java has more than 15K downloads from our Maven repository."
+        "description": "GroupDocs.Comparison for Java has accumulated over 15K downloads from our Maven repository."
       },
       "item_4": {
         "title": "Happy customers",
-        "description": "Our libraries are used by both small individual developers as well as by leading companies all over the world."
+        "description": "Our libraries see adoption by both individual developers and top-tier companies worldwide"
       }
     },
     "customers_title": "Our happy customers",
     "customers_description": "GroupDocs libraries are employed by globally renowned and distinguished brands across the world.",
-    "formats_title_index": "55+ file formats supported",
-    "formats_description_index": "GroupDocs.Comparison supports operations with a wide range of document formats.",
+    "formats_title_index": "50+ file formats supported",
+    "formats_description_index": "GroupDocs.Comparison enables comparison operations within various format families.",
     "formats_title": "Supported file formats",
     "formats_groups": {
       "title_1": "Microsoft Office & OpenDocument formats",
@@ -129,7 +128,7 @@
     },
     "cloud_links": {
       "title": "GroupDocs.Comparison low code APIs",
-      "description": "Accelerate documents merging in any type of application with our cloud-based REST API.",
+      "description": "Incorporate document comparison capabilities into any application using our cloud-based REST API.",
       "item_1": {
         "content": "Work with cURL RESTful document comparison API to compare Word, Excel, PowerPoint and other popular file formats."
       },
@@ -142,7 +141,7 @@
     },
     "app_links": {
       "title": "GroupDocs.Comparison NoCode apps",
-      "description": "Online application allowing you to compare 50+ popular file formats in browser.",
+      "description": "Web-based application that enables you to perform comparisons across more than 50 popular file formats directly in your browser.",
       "item_1": {
         "content": "Online diff tool to compare two documents from any device."
       },

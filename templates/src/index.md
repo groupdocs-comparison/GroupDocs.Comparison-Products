@@ -31,7 +31,7 @@ supported_platforms:
   items:
     # items loop
     - title: ".NET"
-      description: GroupDocs.Comparison "<% "{index-content.words_for}" %>" .NET 
+      description: GroupDocs.Comparison <% "{index-content.words_for}" %> .NET 
       color: "blue"
       tag: "net"
       link: "/comparison/net/"
@@ -58,12 +58,12 @@ supported_platforms:
           # features loop
           - rows: "1"
             content: |
-                    55+ file formats
+                    50+ file formats
       
 
     # items loop
     - title: "Java"
-      description: GroupDocs.Comparison "<% "{index-content.words_for}" %>" Java
+      description: GroupDocs.Comparison <% "{index-content.words_for}" %> Java
       color: "red"
       tag: "java"
       link: "/comparison/java/"
@@ -94,7 +94,7 @@ supported_platforms:
 
     # items loop
     - title: "Node.js"
-      description: GroupDocs.Comparison "<% "{index-content.words_for}" %>" Node.js
+      description: GroupDocs.Comparison <% "{index-content.words_for}" %> Node.js
       color: "green"
       tag: "nodejs-java"
       link: "/comparison/nodejs-java/"
@@ -234,12 +234,12 @@ metrics:
 
   items:
     # items loop
-    - number: "55+"
+    - number: "50+"
       title: "<% "{index-content.metrics.item_1.title}" %>"
       content: "<% "{index-content.metrics.item_1.description}" %>"
 
     # items loop
-    - number: "780k"
+    - number: "800k"
       title: "<% "{index-content.metrics.item_2.title}" %>"
       content: "<% "{index-content.metrics.item_2.description}" %>"
 

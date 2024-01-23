@@ -1,23 +1,23 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-01-16T13:00:43
+date:  2024-01-23T21:02:23
 draft: false
 
 lang: en
 
 ############################# Head ############################
-head_title: "Comparison Solution | On Premise APIs and Free App - GroupDocs"
+head_title: "Document Comparison API | On Premise APIs and Free App - GroupDocs"
 head_description: "The API to compare document content and styles across multiple formats."
 
 ############################# Header ############################
 title: "Comparison Solution for Documents"
 description: |
-  The API to compare document content and styles across multiple formats.
+  Robust API for document comparison across various file formats.
 
-  Identify and highlight changes between documents.
+  Identify and highlight content differences with minimal coding effort.
 
-  Highly configurable comparison settings.
+  Highlight visible differences and uncover changes in hidden properties.
 
 ############################# Supported Platforms ###############################
 supported_platforms:
@@ -30,7 +30,7 @@ supported_platforms:
   items:
     # items loop
     - title: ".NET"
-      description: GroupDocs.Comparison "for" .NET 
+      description: GroupDocs.Comparison for .NET 
       color: "blue"
       tag: "net"
       link: "/comparison/net/"
@@ -57,12 +57,12 @@ supported_platforms:
           # features loop
           - rows: "1"
             content: |
-                    55+ file formats
+                    50+ file formats
       
 
     # items loop
     - title: "Java"
-      description: GroupDocs.Comparison "for" Java
+      description: GroupDocs.Comparison for Java
       color: "red"
       tag: "java"
       link: "/comparison/java/"
@@ -93,7 +93,7 @@ supported_platforms:
 
     # items loop
     - title: "Node.js"
-      description: GroupDocs.Comparison "for" Node.js
+      description: GroupDocs.Comparison for Node.js
       color: "green"
       tag: "nodejs-java"
       link: "/comparison/nodejs-java/"
@@ -127,18 +127,18 @@ supported_platforms:
 features:
   enable: true
   title: "GroupDocs.Comparison at a glance"
-  description: "API to compare differences between documents."
+  description: "API for comparing and diff viewing across PDF, Word, Excel, source code files, and more."
 
   items:
     # items loop
     - icon: "compare"
-      title: "Side by side comparison"
-      content: "Detect and identify differences between two or more documents."
+      title: "Intuitive diff view result"
+      content: "Analyze changes easily with highlighted differences in a single-document report."
 
     # items loop
     - icon: "accept"
-      title: "Accept or reject changes"
-      content: "Visual separation of detected changes with the ability to accept or reject modifications."
+      title: "Efficient change review process"
+      content: "Accept or reject changes with visually distinct modifications for easy decision-making."
 
     # items loop
     - icon: "content"
@@ -159,7 +159,7 @@ code_samples:
   items:
     # items loop
     - title: "Comparing two files"
-      content: "To compare two files you need to load the source and target documents and then call the `compare` method. Additionally, you can specify comparison options."
+      content: "To compare two documents, start by loading both the source and target files, and then apply the `compare` method. You have the flexibility to choose specific comparison settings for a more tailored analysis."
       samples:
           # samples loop
           - language: "C#"
@@ -222,35 +222,35 @@ code_samples:
 ############################# Supported Formats ###############################
 formats:
   enable: true
-  title: "55+ file formats supported"
-  description: "GroupDocs.Comparison supports operations with a wide range of document formats."
+  title: "50+ file formats supported"
+  description: "GroupDocs.Comparison enables comparison operations within various format families."
 
 ############################# Metrics ###############################
 metrics:
   enable: true
-  title: "In-depth metrics and statistical insights"
-  description: "Dive into a detailed breakdown of our key figures, providing comprehensive metrics and statistical insights into our achievements, impact, and growth."
+  title: "Detailed metrics and statistical insights"
+  description: "Explore a thorough analysis of our key figures, offering comprehensive metrics and statistical insights into our accomplishments, influence, and expansion."
 
   items:
     # items loop
-    - number: "55+"
+    - number: "50+"
       title: "Supported formats"
-      content: "Each library supports processing more than 50 of most popular file and document formats."
+      content: "The API accommodates more than 50 of the most widely used file and document formats."
 
     # items loop
-    - number: "780k"
+    - number: "800k"
       title: "NuGet downloads"
-      content: "GroupDocs.Comparison for .NET has more than 274K downloads from the NuGet package manager."
+      content: "GroupDocs.Comparison for .NET has received over 800K downloads through the NuGet package manager."
 
     # items loop
     - number: "15k"
       title: "Maven downloads"
-      content: "GroupDocs.Comparison for Java has more than 15K downloads from our Maven repository."
+      content: "GroupDocs.Comparison for Java has accumulated over 15K downloads from our Maven repository."
 
     # items loop
     - number: "140+"
       title: "Happy customers"
-      content: "Our libraries are used by both small individual developers as well as by leading companies all over the world."
+      content: "Our libraries see adoption by both individual developers and top-tier companies worldwide"
 
 
 ############################# Customers ###############################
@@ -346,7 +346,7 @@ faq:
 cloud_links:
   enable: true
   title: "GroupDocs.Comparison low code APIs"
-  description: "Accelerate documents merging in any type of application with our cloud-based REST API."
+  description: "Incorporate document comparison capabilities into any application using our cloud-based REST API."
   
   items:
     # items loop
@@ -371,7 +371,7 @@ cloud_links:
 app_links:
   enable: true
   title: "GroupDocs.Comparison NoCode apps"
-  description: "Online application allowing you to compare 50+ popular file formats in browser."
+  description: "Web-based application that enables you to perform comparisons across more than 50 popular file formats directly in your browser."
 
   items:
     # items loop
