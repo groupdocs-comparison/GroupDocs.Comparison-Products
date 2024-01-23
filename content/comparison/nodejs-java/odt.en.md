@@ -2,49 +2,49 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-19T15:25:57
+date:  2024-01-23T16:16:22
 draft: false
 lang: en
 format: Odt
 product: "Comparison"
 product_tag: "comparison"
-platform: ".NET"
-platform_tag: "net"
+platform: "Node.js via Java"
+platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ".NET ODT Comparison API - compare documents using C# .NET"
-head_description: "GroupDocs.Comparison for .NET provides the API to get detailed documents comparison reports in any type of C#, ASP.NET, VB.NET & .NET Core applications."
+head_title: "Effortlessly compare ODT documents using the Node.js PDF Comparison API with JavaScript."
+head_description: "GroupDocs.Comparison for .NET offers an API to generate detailed document comparison reports for Node.js applications."
 
 ############################# Header ############################
-title: "ODT files Comparison for C# .NET applications" 
-description: ".NET documents comparing API for getting and display info about any distinctions in ODT files at applications based on C#, ASP.NET, VB.NET & .NET Core. Enjoy getting detailed reports quickly and easily."
-subtitle: "Document comparing solution" 
+title: "Comparing your ODT files with Node.js GroupDocs.Comparison" 
+description: "Documents comparing API based on Node.js provides opportunity to collect and display data about any distinctions in ODT files. Improve files comparing productivity with GroupDocs.Comparison."
+subtitle: "Solution for files comparing" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Free Nuget download"
-      link: "https://releases.groupdocs.com/comparison/net/"
+    - title: "Free NPM download"
+      link: "https://releases.groupdocs.com/comparison/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Discover GroupDocs.Comparison for .NET API"
+    title: "Explore the features of GroupDocs.Comparison API for Node.js"
     link: "/comparison/net/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       Get detailed reports about differences at documents of popular formats at your .NET applications. Use GroupDocs.Comparison for .NET APIs by adding a couple lines of code. Developers can easily display ODT, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing additional software or any other external libraries.
+       GroupDocs.Comparison for Node.js is a tool that helps compare pictures and documents in the same format. It can find differences in paragraphs, words, characters, shapes, and text styles between the compared documents. You can combine these changes and save them as a final document. It works well with PDFs, Word documents, Excel sheets, PowerPoint slides, Visio diagrams, Outlook emails, HTML, drawings, and various image types—all without needing extra tools.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to compare multiple ODT files using C#"
+    title: "How to perform ODT files comparison using Node.js."
     content: |
-      It is possible to use <a href='https://products.groupdocs.com/comparison/net/'>GroupDocs.Comparison</a> for getting report about differences in many ODT files.
+      It is possible to use ODT files using [GroupDocs.Comparison](https://products.groupdocs.com/comparison/java/) for getting report about differences in many ODT files.
       
-      1. Install <a href='https://www.nuget.org/packages/groupdocs.comparison'>GroupDocs.Comparison for .NET</a> using your favorite package manager.
+      1. Install GroupDocs.Comparison for Node.js via Java from [NPM](https://www.npmjs.com/package/@groupdocs/groupdocs.comparison) using your favorite package manager.
       2. Provide an instance of Comparer class with full path to first ODT file.
       3. Append at least one other ODT to Comparer.
       4. Get a final report with precisely described differences.

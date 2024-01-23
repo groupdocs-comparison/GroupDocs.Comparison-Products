@@ -2,18 +2,18 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-19T15:25:57
+date:  2024-01-23T16:16:22
 draft: false
 lang: en
 format: Pdf
 product: "Comparison"
 product_tag: "comparison"
-platform: ".NET"
-platform_tag: "net"
+platform: "Node.js via Java"
+platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Compare PDFs by NodeJs Comparison API using Java"
-head_description: "GroupDocs.Comparison for .NET provides the API to get detailed documents comparison reports in any type of C#, ASP.NET, VB.NET & .NET Core applications."
+head_title: "Compare PDFs with Node.js using the Comparison API in JavaScript"
+head_description: "Perform PDF file comparisons within Node.js applications using the Comparison API. Analyze variations in content, text, style, images, and document formats, and receive a detailed summary of differences."
 
 ############################# Header ############################
 title: "PDF files Comparison for C# .NET applications" 
@@ -25,7 +25,7 @@ header_actions:
   items:
     #  loop
     - title: "Free Nuget download"
-      link: "https://releases.groupdocs.com/comparison/net/"
+      link: "https://releases.groupdocs.com/comparison/nodejs-java/"
       
 ############################# About ############################
 about:

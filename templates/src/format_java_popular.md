@@ -1,86 +1,85 @@
-<% configRef "..\\configs\\formats\\java_pdf.yml" %>
+<% configRef "..\\configs\\formats\\java_popular.yml" %>
+<% include "..\\data\\format_data.md" %>
 
-<% set "FileFormat" (get "fileformat") %>
-<% set "FileFormatUp" (upper (get "fileformat")) %>
 ---
 ############################# Static ############################
 layout: "format"
 date:  <% date "utcnow" %>
 draft: false
 lang: <% lower ( get "lang") %>
-format: <% capitalize (get "fileformat") %>
+format: <% get "FileformatCap" %>
 product: "Comparison"
 product_tag: "comparison"
-platform: ".NET"
-platform_tag: "net"
+platform: "Java"
+platform_tag: "java"
 
 ############################# Head ############################
-head_title: "<% "{pdf.head.title}" %>"
-head_description: "<% "{pdf.head.description}" %>"
+head_title: "<% (dict "{fileformat}.head.title") %>"
+head_description: "<% (dict "{fileformat}.head.description") %>"
 
 ############################# Header ############################
-title: "<% "{pdf.header.title}" %>" 
-description: "<% "{pdf.header.description}" %>"
-subtitle: "<% "{pdf.header.subtitle}" %>" 
+title: "<% (dict "{fileformat}.header.title") %>" 
+description: "<% (dict "{fileformat}.header.description") %>"
+subtitle: "<% (dict "{fileformat}.header.subtitle") %>" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "<% "{pdf.header.action_title}" %>"
-      link: "https://releases.groupdocs.com/comparison/net/"
+    - title: "<% (dict "{fileformat}.header.action_title") %>"
+      link: "<% get "ReleaseDownloads" %>"
       
 ############################# About ############################
 about:
     enable: true
-    title: "<% "{pdf.about.title}" %>"
+    title: "<% (dict "{fileformat}.about.title") %>"
     link: "/comparison/net/"
-    link_title: "<% "{pdf.about.link_title}" %>"
+    link_title: "<% (dict "{fileformat}.about.link_title") %>"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       <% "{pdf.about.content}" %>
+       <% (dict "{fileformat}.about.content") %>
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "<% "{pdf.steps.title}" %>"
+    title: "<% (dict "{fileformat}.steps.title") %>"
     content: |
-      <% "{pdf.steps.content.title}" %>
+      <% (dict "{fileformat}.steps.content.title") %>
       
-      1. <% "{pdf.steps.content.step_1}" %>
-      2. <% "{pdf.steps.content.step_2}" %>
-      3. <% "{pdf.steps.content.step_3}" %>
-      4. <% "{pdf.steps.content.step_4}" %>
+      1. <% (dict "{fileformat}.steps.content.step_1") %>
+      2. <% (dict "{fileformat}.steps.content.step_2") %>
+      3. <% (dict "{fileformat}.steps.content.step_3") %>
+      4. <% (dict "{fileformat}.steps.content.step_4") %>
    
     code:
       platform: "net"
-      copy_title: "<% "{pdf.steps.code.copy_title}" %>"
+      copy_title: "<% (dict "{fileformat}.steps.code.copy_title") %>"
       install:
         command: "dotnet add package GroupDocs.Comparison"
-        copy_tip: "<% "{pdf.steps.code.copy_tip}" %>"
-        copy_done: "<% "{pdf.steps.code.copy_done}" %>"
+        copy_tip: "<% (dict "{fileformat}.steps.code.copy_tip") %>"
+        copy_done: "<% (dict "{fileformat}.steps.code.copy_done") %>"
       links:
         #  loop
-        - title: "<% "{pdf.steps.code.links.title_1}" %>"
+        - title: "<% (dict "{fileformat}.steps.code.links.title_1") %>"
           link: "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-.NET"
         #  loop
-        - title: "<% "{pdf.steps.code.links.title_2}" %>"
+        - title: "<% (dict "{fileformat}.steps.code.links.title_2") %>"
           link: "https://docs.groupdocs.com/comparison/net/"
           
       content: |
         ```csharp {style=abap}
 
-        // <% "{pdf.steps.code.comments.comment_1}" %>
+        // <% (dict "{fileformat}.steps.code.comments.comment_1") %>
 
-        // <% "{pdf.steps.code.comments.comment_2}" %>
+        // <% (dict "{fileformat}.steps.code.comments.comment_2") %>
         using (Comparer comparer = new Comparer("source.<% get "fileformat" %>"))
         {
-            // <% "{pdf.steps.code.comments.comment_3}" %>
+            // <% (dict "{fileformat}.steps.code.comments.comment_3") %>
         	comparer.Add("target1.<% get "fileformat" %>");
             comparer.Add("target2.<% get "fileformat" %>");
             comparer.Add("target3.<% get "fileformat" %>");
 
-            // <% "{pdf.steps.code.comments.comment_4}" %>
+            // <% (dict "{fileformat}.steps.code.comments.comment_4") %>
             comparer.Compare("result.<% get "fileformat" %>"); 
         }
         
@@ -90,15 +89,15 @@ steps:
 
 actions:
   enable: true
-  title: "<% "{pdf.actions.title}" %>"
-  description: "<% "{pdf.actions.description}" %>"
+  title: "<% (dict "{fileformat}.actions.title") %>"
+  description: "<% (dict "{fileformat}.actions.description") %>"
   items:
     #  loop
-    - title: "<% "{pdf.actions.items.comment_1}" %>"
+    - title: "<% (dict "{fileformat}.actions.items.comment_1") %>"
       link: "https://releases.groupdocs.com/comparison/net/"
       color: "red"
         #  loop
-    - title: "<% "{pdf.actions.items.comment_2}" %>"
+    - title: "<% (dict "{fileformat}.actions.items.comment_2") %>"
       link: "https://purchase.groupdocs.com/pricing/comparison/net/"
       color: "light"
 
@@ -106,9 +105,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "<% "{pdf.formats.title}" %>"
+    title: "<% (dict "{fileformat}.formats.title") %>"
     exclude: "<% get "FileFormatUp" %>"
-    description: "<% "{pdf.formats.description}" %>"
+    description: "<% (dict "{fileformat}.formats.description") %>"
     items: 
         # format loop 1
         - name: "Compare PDF Files"

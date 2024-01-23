@@ -1,14 +1,13 @@
 <% configRef "..\\configs\\formats\\net.yml" %>
+<% include "..\\data\\format_data.md" %>
 
-<% set "FileFormat" (get "fileformat") %>
-<% set "FileFormatUp" (upper (get "fileformat")) %>
 ---
 ############################# Static ############################
 layout: "format"
 date:  <% date "utcnow" %>
 draft: false
 lang: <% lower ( get "lang") %>
-format: <% capitalize (get "fileformat") %>
+format: <% get "FileformatCap" %>
 product: "Comparison"
 product_tag: "comparison"
 platform: ".NET"
@@ -28,7 +27,7 @@ header_actions:
   items:
     #  loop
     - title: "<% "{common.header.action_title}" %>"
-      link: "https://releases.groupdocs.com/comparison/net/"
+      link: "<% get "ReleaseDownloads" %>"
       
 ############################# About ############################
 about:

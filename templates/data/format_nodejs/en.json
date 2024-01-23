@@ -1,25 +1,25 @@
 {
   "common": {
     "head": {
-      "title": ".NET {{FileFormatUp}} Comparison API - compare documents using C# .NET",
-      "description": "GroupDocs.Comparison for .NET provides the API to get detailed documents comparison reports in any type of C#, ASP.NET, VB.NET & .NET Core applications."
+      "title": "Effortlessly compare {{FileFormatUp}} documents using the Node.js PDF Comparison API with JavaScript.",
+      "description": "GroupDocs.Comparison for .NET offers an API to generate detailed document comparison reports for Node.js applications."
     },
     "header": {
-      "title": "{{FileFormatUp}} files Comparison for C# .NET applications",
-      "description": ".NET documents comparing API for getting and display info about any distinctions in {{FileFormatUp}} files at applications based on C#, ASP.NET, VB.NET & .NET Core. Enjoy getting detailed reports quickly and easily.",
-      "subtitle": "Document comparing solution",
-      "action_title": "Free Nuget download"
+      "title": "Comparing your {{FileFormatUp}} files with Node.js GroupDocs.Comparison",
+      "description": "Documents comparing API based on Node.js provides opportunity to collect and display data about any distinctions in {{FileFormatUp}} files. Improve files comparing productivity with GroupDocs.Comparison.",
+      "subtitle": "Solution for files comparing",
+      "action_title": "Free {{RepoName}} download"
     },
     "about": {
-      "title": "Discover GroupDocs.Comparison for .NET API",
+      "title": "Explore the features of GroupDocs.Comparison API for Node.js",
       "link_title": "Learn more",
-      "content": "Get detailed reports about differences at documents of popular formats at your .NET applications. Use GroupDocs.Comparison for .NET APIs by adding a couple lines of code. Developers can easily display {{FileFormatUp}}, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing additional software or any other external libraries."
+      "content": "GroupDocs.Comparison for Node.js is a tool that helps compare pictures and documents in the same format. It can find differences in paragraphs, words, characters, shapes, and text styles between the compared documents. You can combine these changes and save them as a final document. It works well with PDFs, Word documents, Excel sheets, PowerPoint slides, Visio diagrams, Outlook emails, HTML, drawings, and various image types—all without needing extra tools."
     },
     "steps": {
-      "title": "How to compare multiple {{FileFormatUp}} files using C#",
+      "title": "How to perform {{FileFormatUp}} files comparison using Node.js.",
       "content": {
-        "title": "It is possible to use <a href='https://products.groupdocs.com/comparison/net/'>GroupDocs.Comparison</a> for getting report about differences in many {{FileFormatUp}} files.",
-        "step_1": "Install <a href='https://www.nuget.org/packages/groupdocs.comparison'>GroupDocs.Comparison for .NET</a> using your favorite package manager.",
+        "title": "It is possible to use {{FileFormatUp}} files using [GroupDocs.Comparison]({{ProductUrl}}) for getting report about differences in many {{FileFormatUp}} files.",
+        "step_1": "Install {{ProductFullName}} from [{{RepoName}}]({{RepoUrl}}) using your favorite package manager.",
         "step_2": "Provide an instance of Comparer class with full path to first {{FileFormatUp}} file.",
         "step_3": "Append at least one other {{FileFormatUp}} to Comparer.",
         "step_4": "Get a final report with precisely described differences."
@@ -61,8 +61,8 @@
   },
   "pdf": {
     "head": {
-      "title": "Compare PDFs by NodeJs Comparison API using Java",
-      "description": "GroupDocs.Comparison for .NET provides the API to get detailed documents comparison reports in any type of C#, ASP.NET, VB.NET & .NET Core applications."
+      "title": "Compare PDFs with Node.js using the Comparison API in JavaScript",
+      "description": "Perform PDF file comparisons within Node.js applications using the Comparison API. Analyze variations in content, text, style, images, and document formats, and receive a detailed summary of differences."
     },
     "header": {
       "title": "{{FileFormatUp}} files Comparison for C# .NET applications",

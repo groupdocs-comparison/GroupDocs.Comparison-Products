@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-01-19T15:25:57
+date: 2024-01-23T16:16:22
 draft: false
 
 lang: en
@@ -45,7 +45,7 @@ release:
   title: "Version {0} released"
   notes: "See what’s new"
   downloads: "Downloads"
-  link: "https://releases.groupdocs.com/comparison/nodejs-java/release-notes/latest/"
+  link: "https://releases.groupdocs.com/comparison/nodejs-java/"
 
 code:
   title: "Compare BMP images in JavaScript"

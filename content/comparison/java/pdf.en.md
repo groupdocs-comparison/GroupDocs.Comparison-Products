@@ -2,18 +2,18 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-19T15:25:57
+date:  2024-01-23T16:16:22
 draft: false
 lang: en
 format: Pdf
 product: "Comparison"
 product_tag: "comparison"
-platform: ".NET"
-platform_tag: "net"
+platform: "Java"
+platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Compare PDFs easily with Comparison Java API"
-head_description: "GroupDocs.Comparison for .NET provides the API to get detailed documents comparison reports in any type of C#, ASP.NET, VB.NET & .NET Core applications."
+head_title: "Compare PDF files easily using the Comparison Java API"
+head_description: "Utilize the Comparison Java API in J2EE and J2SE applications to compare PDF files. Analyze differences in content, text, style, images, and document formats, and generate a comprehensive summary."
 
 ############################# Header ############################
 title: "PDF files Comparison for C# .NET applications" 
@@ -25,7 +25,7 @@ header_actions:
   items:
     #  loop
     - title: "Free Nuget download"
-      link: "https://releases.groupdocs.com/comparison/net/"
+      link: "https://releases.groupdocs.com/comparison/java/"
       
 ############################# About ############################
 about:

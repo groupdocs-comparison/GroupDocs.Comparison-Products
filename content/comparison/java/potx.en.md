@@ -2,49 +2,49 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-19T15:25:57
+date:  2024-01-23T16:16:22
 draft: false
 lang: en
 format: Potx
 product: "Comparison"
 product_tag: "comparison"
-platform: ".NET"
-platform_tag: "net"
+platform: "Java"
+platform_tag: "java"
 
 ############################# Head ############################
-head_title: ".NET POTX Comparison API - compare documents using C# .NET"
-head_description: "GroupDocs.Comparison for .NET provides the API to get detailed documents comparison reports in any type of C#, ASP.NET, VB.NET & .NET Core applications."
+head_title: "Utilize the Comparison API to compare POTX documents using Java."
+head_description: "GroupDocs.Comparison for Java provides an API to obtain detailed document comparison reports in various Java applications, including J2EE and J2SE."
 
 ############################# Header ############################
-title: "POTX files Comparison for C# .NET applications" 
-description: ".NET documents comparing API for getting and display info about any distinctions in POTX files at applications based on C#, ASP.NET, VB.NET & .NET Core. Enjoy getting detailed reports quickly and easily."
-subtitle: "Document comparing solution" 
+title: "POTX document comparison in Java applications" 
+description: "GroupDocs.Comparison API for getting and displaying differences in POTX documents using applications based on Java, J2EE, and J2SE. Easily obtain detailed reports for a brilliant experience."
+subtitle: "Documents comparison tools" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Free Nuget download"
-      link: "https://releases.groupdocs.com/comparison/net/"
+    - title: "Free Maven download"
+      link: "https://releases.groupdocs.com/comparison/java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Discover GroupDocs.Comparison for .NET API"
+    title: "Explore the capabilities of GroupDocs.Comparison for Java API"
     link: "/comparison/net/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       Get detailed reports about differences at documents of popular formats at your .NET applications. Use GroupDocs.Comparison for .NET APIs by adding a couple lines of code. Developers can easily display POTX, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing additional software or any other external libraries.
+       GroupDocs.Comparison for Java is an intrinsic Java API crafted for comparing multiple images and documents sharing the same format. It assists in identifying variations within paragraphs, words, characters, shapes, and even text styles among the compared documents. With the capability to merge these alterations and export to a final document, it facilitates the comparison and merging of PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings, and various image file formats—eliminating the necessity for any external libraries.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to compare multiple POTX files using C#"
+    title: "How to compare several POTX documents using Java"
     content: |
-      It is possible to use <a href='https://products.groupdocs.com/comparison/net/'>GroupDocs.Comparison</a> for getting report about differences in many POTX files.
+      It is possible to use POTX files using [GroupDocs.Comparison](https://products.groupdocs.com/comparison/java/) for getting report about differences in many POTX files.
       
-      1. Install <a href='https://www.nuget.org/packages/groupdocs.comparison'>GroupDocs.Comparison for .NET</a> using your favorite package manager.
+      1. Install GroupDocs.Comparison for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison) using your favorite package manager.
       2. Provide an instance of Comparer class with full path to first POTX file.
       3. Append at least one other POTX to Comparer.
       4. Get a final report with precisely described differences.

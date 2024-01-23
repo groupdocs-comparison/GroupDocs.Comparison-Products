@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-19T15:25:57
+date:  2024-01-23T16:16:22
 draft: false
 lang: en
 format: Csv
@@ -13,11 +13,11 @@ platform_tag: "net"
 
 ############################# Head ############################
 head_title: ".NET CSV Comparison API - compare documents using C# .NET"
-head_description: "GroupDocs.Comparison for .NET provides the API to get detailed documents comparison reports in any type of C#, ASP.NET, VB.NET & .NET Core applications."
+head_description: "GroupDocs.Comparison for .NET offers an API to obtain comprehensive document comparison reports in a variety of applications, including C#, ASP.NET, VB.NET, and .NET Core."
 
 ############################# Header ############################
-title: "CSV files Comparison for C# .NET applications" 
-description: ".NET documents comparing API for getting and display info about any distinctions in CSV files at applications based on C#, ASP.NET, VB.NET & .NET Core. Enjoy getting detailed reports quickly and easily."
+title: "Comparing CSV files in C# .NET applications" 
+description: ".NET document comparison API for retrieving and displaying differences in CSV files in C#, ASP.NET, VB.NET, and .NET Core Applications. Effortlessly obtain detailed reports for a seamless experience."
 subtitle: "Document comparing solution" 
 
 header_actions:
@@ -35,16 +35,16 @@ about:
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       Get detailed reports about differences at documents of popular formats at your .NET applications. Use GroupDocs.Comparison for .NET APIs by adding a couple lines of code. Developers can easily display CSV, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing additional software or any other external libraries.
+       GroupDocs.Comparison for .NET is a native .NET API designed for comparing multiple images and documents of the same format. It aids in detecting differences within paragraphs, words, characters, shapes, and even the text styles of the compared documents. With the ability to merge these changes and export to a final document, it supports comparison and merging of PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings, and various image file formats—all without the need for any external libraries.
 
 ############################# Steps ############################
 steps:
     enable: true
     title: "How to compare multiple CSV files using C#"
     content: |
-      It is possible to use <a href='https://products.groupdocs.com/comparison/net/'>GroupDocs.Comparison</a> for getting report about differences in many CSV files.
+      It is possible to use [GroupDocs.Comparison](https://products.groupdocs.com/comparison/net/) for getting report about differences in many CSV files.
       
-      1. Install <a href='https://www.nuget.org/packages/groupdocs.comparison'>GroupDocs.Comparison for .NET</a> using your favorite package manager.
+      1. Install GroupDocs.Comparison for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.comparison) using your favorite package manager.
       2. Provide an instance of Comparer class with full path to first CSV file.
       3. Append at least one other CSV to Comparer.
       4. Get a final report with precisely described differences.

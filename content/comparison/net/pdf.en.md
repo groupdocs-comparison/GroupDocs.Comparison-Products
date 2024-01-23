@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-19T15:25:57
+date:  2024-01-23T16:16:22
 draft: false
 lang: en
 format: Pdf
@@ -12,8 +12,8 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Compare PDFs using Comparison .NET API & C#"
-head_description: "GroupDocs.Comparison for .NET provides the API to get detailed documents comparison reports in any type of C#, ASP.NET, VB.NET & .NET Core applications."
+head_title: "Compare PDF documents using the Comparison .NET API and C#."
+head_description: "The GroupDocs.Comparison .NET API generates detailed PDF documents comparison reports for various types of applications, including C#, ASP.NET, VB.NET, and .NET Core."
 
 ############################# Header ############################
 title: "PDF files Comparison for C# .NET applications" 

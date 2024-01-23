@@ -31,7 +31,7 @@ supported_platforms:
   items:
     # items loop
     - title: ".NET"
-      description: GroupDocs.Comparison "<% "{index-content.words_for}" %>" .NET 
+      description: GroupDocs.Comparison <% "{index-content.words_for}" %> .NET 
       color: "blue"
       tag: "net"
       link: "/comparison/net/"
@@ -63,7 +63,7 @@ supported_platforms:
 
     # items loop
     - title: "Java"
-      description: GroupDocs.Comparison "<% "{index-content.words_for}" %>" Java
+      description: GroupDocs.Comparison <% "{index-content.words_for}" %> Java
       color: "red"
       tag: "java"
       link: "/comparison/java/"
@@ -94,7 +94,7 @@ supported_platforms:
 
     # items loop
     - title: "Node.js"
-      description: GroupDocs.Comparison "<% "{index-content.words_for}" %>" Node.js
+      description: GroupDocs.Comparison <% "{index-content.words_for}" %> Node.js
       color: "green"
       tag: "nodejs-java"
       link: "/comparison/nodejs-java/"
