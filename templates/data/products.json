@@ -16,7 +16,9 @@
       "main_link": "https://www.nuget.org/packages/GroupDocs.Comparison",
       "alt_link": "https://purchase.groupdocs.com/pricing/comparison/net",
       "more_link": "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-.NET",
-      "release_downloads": "https://releases.groupdocs.com/comparison/net/"
+      "release_downloads": "https://releases.groupdocs.com/comparison/net/",
+      "docs_link": "https://docs.groupdocs.com/comparison/net/",
+      "prices_link": "https://purchase.groupdocs.com/pricing/comparison/net/"
     },
     "java": {
       "name": "Java",
@@ -34,7 +36,9 @@
       "main_link": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/",
       "alt_link": "https://purchase.groupdocs.com/pricing/comparison/java",
       "more_link": "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Java",
-      "release_downloads": "https://releases.groupdocs.com/comparison/java/"
+      "release_downloads": "https://releases.groupdocs.com/comparison/java/",
+      "docs_link": "https://docs.groupdocs.com/comparison/java/",
+      "prices_link": "https://purchase.groupdocs.com/pricing/comparison/java/"
     },
     "nodejs-java": {
       "name": "Node.js via Java",
@@ -52,7 +56,9 @@
       "main_link": "https://www.npmjs.com/package/@groupdocs/groupdocs.comparison",
       "alt_link": "https://purchase.groupdocs.com/pricing/comparison/nodejs-java",
       "more_link": "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Node.js-via-Java",
-      "release_downloads": "https://releases.groupdocs.com/comparison/nodejs-java/"
+      "release_downloads": "https://releases.groupdocs.com/comparison/nodejs-java/",
+      "docs_link": "https://docs.groupdocs.com/comparison/nodejs-java/",
+      "prices_link": "https://purchase.groupdocs.com/pricing/comparison/java/"
     }
   }
 }

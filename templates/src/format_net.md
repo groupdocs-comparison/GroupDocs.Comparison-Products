@@ -33,7 +33,7 @@ header_actions:
 about:
     enable: true
     title: "<% "{common.about.title}" %>"
-    link: "/comparison/net/"
+    link: "/comparison/<% get "ProductCode" %>/"
     link_title: "<% "{common.about.link_title}" %>"
     picture: "about_viewer.svg" # 480 X 400
     content: |
@@ -61,10 +61,10 @@ steps:
       links:
         #  loop
         - title: "<% "{common.steps.code.links.title_1}" %>"
-          link: "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-.NET"
+          link: "<% get "MoreLink" %>"
         #  loop
         - title: "<% "{common.steps.code.links.title_2}" %>"
-          link: "https://docs.groupdocs.com/comparison/net/"
+          link: "<% get "DocsLink" %>"
           
       content: |
         ```csharp {style=abap}
@@ -94,11 +94,11 @@ actions:
   items:
     #  loop
     - title: "<% "{common.actions.items.comment_1}" %>"
-      link: "https://releases.groupdocs.com/comparison/net/"
+      link: "<% get "ReleaseDownloads" %>"
       color: "red"
         #  loop
     - title: "<% "{common.actions.items.comment_2}" %>"
-      link: "https://purchase.groupdocs.com/pricing/comparison/net/"
+      link: "<% get "PricesLink" %>"
       color: "light"
 
 

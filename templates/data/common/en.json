@@ -1,0 +1,90 @@
+{
+  "common-content": {
+    "formats": {
+      "pdf": {
+        "name": "Compare PDF Files",
+        "description": "Adobe Portable Document Format"
+      },
+      "docx": {
+        "name": "Compare DOCX Files",
+        "description": "Microsoft Word Open XML Document"
+      },
+      "rtf": {
+        "name": "Compare RTF Files",
+        "description": "Rich Text File Format"
+      },
+      "txt": {
+        "name": "Compare TXT Files",
+        "description": "Plain Text File Format"
+      },
+      "xlsx": {
+        "name": "Compare XLSX Files",
+        "description": "Microsoft Excel Open XML Spreadsheet"
+      },
+      "csv": {
+        "name": "Compare CSV Files",
+        "description": "Comma Separated Values File"
+      },
+      "pptx": {
+        "name": "Compare PPTX Files",
+        "description": "PowerPoint Open XML Presentation"
+      },
+      "ods": {
+        "name": "Compare ODS Files",
+        "description": "Open Document Spreadsheet"
+      },
+      "odp": {
+        "name": "Compare ODP Files",
+        "description": "OpenDocument Presentation File Format"
+      },
+      "odt": {
+        "name": "Compare ODT Files",
+        "description": "Open Document Text"
+      },
+      "jpeg": {
+        "name": "Compare JPEG Files",
+        "description": "JPEG Image"
+      },
+      "png": {
+        "name": "Compare PNG Files",
+        "description": "Portable Network Graphic"
+      },
+      "gif": {
+        "name": "Compare GIF Files",
+        "description": "Graphical Interchange Format File"
+      },
+      "bmp": {
+        "name": "Compare BMP Files",
+        "description": "Bitmap File Format"
+      },
+      "html": {
+        "name": "Compare HTML Files",
+        "description": "Hyper Text Markup Language"
+      },
+      "msg": {
+        "name": "Compare MSG Files",
+        "description": "Microsoft Outlook E-mail Message"
+      },
+      "one": {
+        "name": "Compare ONE Files",
+        "description": "Microsoft OneNote"
+      },
+      "vsdx": {
+        "name": "Compare VSDX Files",
+        "description": "Microsoft Visio Drawing"
+      },
+      "cs": {
+        "name": "Compare CS Files",
+        "description": "CSharp Language"
+      },
+      "java": {
+        "name": "Compare Java Files",
+        "description": "Java Language"
+      },
+      "cpp": {
+        "name": "Compare CPP Files",
+        "description": "C++ Language"
+      }
+    }
+  }
+}

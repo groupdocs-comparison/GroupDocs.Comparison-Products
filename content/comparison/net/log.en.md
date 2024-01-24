@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-23T16:16:22
+date:  2024-01-24T17:58:25
 draft: false
 lang: en
 format: Log

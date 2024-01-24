@@ -12,4 +12,7 @@
 <% set "Runtime" (dict "products.{product}.runtime") %>
 <% set "RepoName" (dict "products.{product}.repoName") %>
 <% set "RepoUrl" (dict "products.{product}.repoUrl") %>
+<% set "MoreLink" (dict "products.{product}.more_link") %>
 <% set "ReleaseDownloads" (dict "products.{product}.release_downloads") %>
+<% set "DocsLink" (dict "products.{product}.docs_link") %>
+<% set "PricesLink" (dict "products.{product}.prices_link") %>
