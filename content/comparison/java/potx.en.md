@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-24T17:58:25
+date:  2024-01-25T14:34:20
 draft: false
 lang: en
 format: Potx
@@ -44,7 +44,7 @@ steps:
     content: |
       It is possible to use POTX files using [GroupDocs.Comparison](https://products.groupdocs.com/comparison/java/) for getting report about differences in many POTX files.
       
-      1. Install GroupDocs.Comparison for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison) using your favorite package manager.
+      1. Install GroupDocs.Comparison for Java from [Maven](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/) using your favorite package manager.
       2. Provide an instance of Comparer class with full path to first POTX file.
       3. Append at least one other POTX to Comparer.
       4. Get a final report with precisely described differences.

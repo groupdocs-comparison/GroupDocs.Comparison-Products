@@ -33,7 +33,7 @@ header_actions:
 about:
     enable: true
     title: "<% (dict "{fileformat}.about.title") %>"
-    link: "/comparison/<% get "ProductCode" %>/"
+    link: "/comparison/<% get "ProdCode" %>/"
     link_title: "<% (dict "{fileformat}.about.link_title") %>"
     picture: "about_viewer.svg" # 480 X 400
     content: |
@@ -64,7 +64,7 @@ steps:
           link: "<% get "MoreLink" %>"
         #  loop
         - title: "<% (dict "{fileformat}.steps.code.links.title_2") %>"
-          link: "<% get "DocsLink" %>"
+          link: "<% get "DocsUrl" %>"
           
       content: |
         ```csharp {style=abap}
@@ -98,7 +98,7 @@ actions:
       color: "red"
         #  loop
     - title: "<% (dict "{fileformat}.actions.items.comment_2") %>"
-      link: "<% get "PricesLink" %>"
+      link: "<% get "PricesUrl" %>"
       color: "light"
 
 

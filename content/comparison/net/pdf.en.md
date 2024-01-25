@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-24T17:58:26
+date:  2024-01-25T14:34:21
 draft: false
 lang: en
 format: Pdf
@@ -42,9 +42,9 @@ steps:
     enable: true
     title: "How to compare multiple PDF files using C#"
     content: |
-      It is possible to use <a href='https://products.groupdocs.com/comparison/net/'>GroupDocs.Comparison</a> for getting report about differences in many PDF files.
+      It is possible to use [GroupDocs.Comparison](https://products.groupdocs.com/comparison/net/) for getting report about differences in many PDF files.
       
-      1. Install <a href='https://www.nuget.org/packages/groupdocs.comparison'>GroupDocs.Comparison for .NET</a> using your favorite package manager.
+      1. Install GroupDocs.Comparison for .NET using [Nuget](https://www.nuget.org/packages/GroupDocs.Comparison) and your favorite package manager.
       2. Provide an instance of Comparer class with full path to first PDF file.
       3. Append at least one other PDF to Comparer.
       4. Get a final report with precisely described differences.

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-24T17:58:26
+date:  2024-01-25T14:34:21
 draft: false
 lang: en
 format: Pdf
@@ -30,21 +30,21 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "Discover GroupDocs.Comparison for .NET API"
+    title: "Discover GroupDocs.Comparison for Node.js via Java API"
     link: "/comparison/nodejs-java/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       Get detailed reports about differences at documents of popular formats at your .NET applications. Use GroupDocs.Comparison for .NET APIs by adding a couple lines of code. Developers can easily display PDF, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing additional software or any other external libraries.
+       Get detailed reports about differences at documents of popular formats at your .NET applications. Use GroupDocs.Comparison for Node.js via Java APIs by adding a couple lines of code. Developers can easily display PDF, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing additional software or any other external libraries.
 
 ############################# Steps ############################
 steps:
     enable: true
     title: "How to compare multiple PDF files using C#"
     content: |
-      It is possible to use <a href='https://products.groupdocs.com/comparison/net/'>GroupDocs.Comparison</a> for getting report about differences in many PDF files.
+      It is possible to use [GroupDocs.Comparison](https://products.groupdocs.com/comparison/nodejs-java/) for getting report about differences in many PDF files.
       
-      1. Install <a href='https://www.nuget.org/packages/groupdocs.comparison'>GroupDocs.Comparison for .NET</a> using your favorite package manager.
+      1. Install GroupDocs.Comparison for Node.js via Java [NPM](https://www.npmjs.com/package/@groupdocs/groupdocs.comparison) using your favorite package manager.
       2. Provide an instance of Comparer class with full path to first PDF file.
       3. Append at least one other PDF to Comparer.
       4. Get a final report with precisely described differences.

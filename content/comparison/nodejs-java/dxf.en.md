@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-24T17:58:26
+date:  2024-01-25T14:34:21
 draft: false
 lang: en
 format: Dxf
@@ -13,7 +13,7 @@ platform_tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: "Effortlessly compare DXF documents using the Node.js PDF Comparison API with JavaScript."
-head_description: "GroupDocs.Comparison for .NET offers an API to generate detailed document comparison reports for Node.js applications."
+head_description: "GroupDocs.Comparison for Node.js via Java offers an API to generate detailed document comparison reports for Node.js applications."
 
 ############################# Header ############################
 title: "Comparing your DXF files with Node.js GroupDocs.Comparison" 
@@ -42,7 +42,7 @@ steps:
     enable: true
     title: "How to perform DXF files comparison using Node.js."
     content: |
-      It is possible to use DXF files using [GroupDocs.Comparison](https://products.groupdocs.com/comparison/java/) for getting report about differences in many DXF files.
+      It is possible to use DXF files using [GroupDocs.Comparison](https://products.groupdocs.com/comparison/nodejs-java/) for getting report about differences in many DXF files.
       
       1. Install GroupDocs.Comparison for Node.js via Java from [NPM](https://www.npmjs.com/package/@groupdocs/groupdocs.comparison) using your favorite package manager.
       2. Provide an instance of Comparer class with full path to first DXF file.

@@ -2,24 +2,24 @@
   "common": {
     "head": {
       "title": "Utilize the Comparison API to compare {{FileFormatUp}} documents using Java.",
-      "description": "GroupDocs.Comparison for Java provides an API to obtain detailed document comparison reports in various Java applications, including J2EE and J2SE."
+      "description": "{{ProdShortName}} for Java provides an API to obtain detailed document comparison reports in various Java applications, including J2EE and J2SE."
     },
     "header": {
       "title": "{{FileFormatUp}} document comparison in Java applications",
-      "description": "GroupDocs.Comparison API for getting and displaying differences in {{FileFormatUp}} documents using applications based on Java, J2EE, and J2SE. Easily obtain detailed reports for a brilliant experience.",
+      "description": "{{ProdShortName}} API for getting and displaying differences in {{FileFormatUp}} documents using applications based on Java, J2EE, and J2SE. Easily obtain detailed reports for a brilliant experience.",
       "subtitle": "Documents comparison tools",
-      "action_title": "Free {{RepoName}} download"
+      "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
-      "title": "Explore the capabilities of GroupDocs.Comparison for Java API",
+      "title": "Explore the capabilities of {{ProdShortName}} for Java API",
       "link_title": "Learn more",
-      "content": "GroupDocs.Comparison for Java is an intrinsic Java API crafted for comparing multiple images and documents sharing the same format. It assists in identifying variations within paragraphs, words, characters, shapes, and even text styles among the compared documents. With the capability to merge these alterations and export to a final document, it facilitates the comparison and merging of PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings, and various image file formats—eliminating the necessity for any external libraries."
+      "content": "{{ProdShortName}} for Java is an intrinsic Java API crafted for comparing multiple images and documents sharing the same format. It assists in identifying variations within paragraphs, words, characters, shapes, and even text styles among the compared documents. With the capability to merge these alterations and export to a final document, it facilitates the comparison and merging of PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings, and various image file formats—eliminating the necessity for any external libraries."
     },
     "steps": {
       "title": "How to compare several {{FileFormatUp}} documents using Java",
       "content": {
-        "title": "It is possible to use {{FileFormatUp}} files using [GroupDocs.Comparison]({{ProductUrl}}) for getting report about differences in many {{FileFormatUp}} files.",
-        "step_1": "Install {{ProductFullName}} from [{{RepoName}}]({{RepoUrl}}) using your favorite package manager.",
+        "title": "It is possible to use {{FileFormatUp}} files using [{{ProdShortName}}]({{ProductUrl}}) for getting report about differences in many {{FileFormatUp}} files.",
+        "step_1": "Install {{ProdFullName}} from [{{PackageStoreName}}]({{PackageUrl}}) using your favorite package manager.",
         "step_2": "Provide an instance of Comparer class with full path to first {{FileFormatUp}} file.",
         "step_3": "Append at least one other {{FileFormatUp}} to Comparer.",
         "step_4": "Get a final report with precisely described differences."
@@ -42,7 +42,7 @@
     },
     "actions": {
       "title": "Ready to get started?",
-      "description": "Try GroupDocs.Comparison features for free or request a license",
+      "description": "Try {{ProdShortName}} features for free or request a license",
       "items": {
         "comment_1": "Nuget download",
         "comment_2": "Licensing"
@@ -64,23 +64,23 @@
       "description": "Utilize the Comparison Java API in J2EE and J2SE applications to compare PDF files. Analyze differences in content, text, style, images, and document formats, and generate a comprehensive summary."
     },
     "header": {
-      "title": "{{FileFormatUp}} files Comparison for C# .NET applications",
+      "title": "PDFs Comparison for Java applications",
       "description": ".NET documents comparing API for getting and display info about any distinctions in {{FileFormatUp}} files at applications based on C#, ASP.NET, VB.NET & .NET Core. Enjoy getting detailed reports quickly and easily.",
       "subtitle": "Document comparing solution",
-      "action_title": "Free Nuget download"
+      "action_title": "Free Maven download"
     },
     "about": {
-      "title": "Discover GroupDocs.Comparison for .NET API",
+      "title": "Discover {{ProdFullName}} API",
       "link_title": "Learn more",
-      "content": "Get detailed reports about differences at documents of popular formats at your .NET applications. Use GroupDocs.Comparison for .NET APIs by adding a couple lines of code. Developers can easily display {{FileFormatUp}}, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing additional software or any other external libraries."
+      "content": "Get detailed reports about differences at documents of popular formats at your .NET applications. Use {{ProdFullName}} APIs by adding a couple lines of code. Developers can easily display {{FileFormatUp}}, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing additional software or any other external libraries."
     },
     "steps": {
       "title": "How to compare multiple {{FileFormatUp}} files using C#",
       "content": {
-        "title": "It is possible to use <a href='https://products.groupdocs.com/comparison/net/'>GroupDocs.Comparison</a> for getting report about differences in many {{FileFormatUp}} files.",
-        "step_1": "Install <a href='https://www.nuget.org/packages/groupdocs.comparison'>GroupDocs.Comparison for .NET</a> using your favorite package manager.",
-        "step_2": "Provide an instance of Comparer class with full path to first {{FileFormatUp}} file.",
-        "step_3": "Append at least one other {{FileFormatUp}} to Comparer.",
+        "title": "It is possible to use [{{ProdShortName}}]({{ProductUrl}}) for getting report about differences in many {{FileFormatUp}} files.",
+        "step_1": "Install {{ProdFullName}} with [{{PackageStoreName}}]({{PackageUrl}}) and your favorite package manager.",
+        "step_2": "Provide an instance of Comparer class with full path to first PDF file.",
+        "step_3": "Append at least one other PDF document to Comparer.",
         "step_4": "Get a final report with precisely described differences."
       },
       "code": {
@@ -101,7 +101,7 @@
     },
     "actions": {
       "title": "Ready to get started?",
-      "description": "Try GroupDocs.Comparison features for free or request a license",
+      "description": "Try {{ProdShortName}} features for free or request a license",
       "items": {
         "comment_1": "Nuget download",
         "comment_2": "Licensing"

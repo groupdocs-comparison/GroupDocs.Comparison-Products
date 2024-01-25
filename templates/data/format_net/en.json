@@ -2,24 +2,24 @@
   "common": {
     "head": {
       "title": ".NET {{FileFormatUp}} Comparison API - compare documents using C# .NET",
-      "description": "GroupDocs.Comparison for .NET offers an API to obtain comprehensive document comparison reports in a variety of applications, including C#, ASP.NET, VB.NET, and .NET Core."
+      "description": "{{ProdFullName}} offers an API to obtain comprehensive document comparison reports in a variety of applications, including C#, ASP.NET, VB.NET, and .NET Core."
     },
     "header": {
       "title": "Comparing {{FileFormatUp}} files in C# .NET applications",
       "description": ".NET document comparison API for retrieving and displaying differences in {{FileFormatUp}} files in C#, ASP.NET, VB.NET, and .NET Core Applications. Effortlessly obtain detailed reports for a seamless experience.",
       "subtitle": "Document comparing solution",
-      "action_title": "Free {{RepoName}} download"
+      "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
-      "title": "Discover GroupDocs.Comparison for .NET API",
+      "title": "Discover {{ProdFullName}} API",
       "link_title": "Learn more",
-      "content": "GroupDocs.Comparison for .NET is a native .NET API designed for comparing multiple images and documents of the same format. It aids in detecting differences within paragraphs, words, characters, shapes, and even the text styles of the compared documents. With the ability to merge these changes and export to a final document, it supports comparison and merging of PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings, and various image file formats—all without the need for any external libraries."
+      "content": "{{ProdFullName}} is a native .NET API designed for comparing multiple images and documents of the same format. It aids in detecting differences within paragraphs, words, characters, shapes, and even the text styles of the compared documents. With the ability to merge these changes and export to a final document, it supports comparison and merging of PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings, and various image file formats—all without the need for any external libraries."
     },
     "steps": {
       "title": "How to compare multiple {{FileFormatUp}} files using C#",
       "content": {
-        "title": "It is possible to use [GroupDocs.Comparison]({{ProductUrl}}) for getting report about differences in many {{FileFormatUp}} files.",
-        "step_1": "Install {{ProductFullName}} from [{{RepoName}}]({{RepoUrl}}) using your favorite package manager.",
+        "title": "It is possible to use [{{ProdShortName}}]({{ProductUrl}}) for getting report about differences in many {{FileFormatUp}} files.",
+        "step_1": "Install {{ProdFullName}} from [{{PackageStoreName}}]({{PackageUrl}}) using your favorite package manager.",
         "step_2": "Provide an instance of Comparer class with full path to first {{FileFormatUp}} file.",
         "step_3": "Append at least one other {{FileFormatUp}} to Comparer.",
         "step_4": "Get a final report with precisely described differences."
@@ -43,7 +43,7 @@
     },
     "actions": {
       "title": "Ready to get started?",
-      "description": "Try GroupDocs.Comparison features for free or request a license",
+      "description": "Try {{ProdShortName}} features for free or request a license",
       "items": {
         "comment_1": "Nuget download",
         "comment_2": "Licensing"
@@ -61,7 +61,7 @@
   "pdf": {
     "head": {
       "title": "Compare PDF documents using the Comparison .NET API and C#.",
-      "description": "The GroupDocs.Comparison .NET API generates detailed PDF documents comparison reports for various types of applications, including C#, ASP.NET, VB.NET, and .NET Core."
+      "description": "The {{ProdShortName}} .NET API generates detailed PDF documents comparison reports for various types of applications, including C#, ASP.NET, VB.NET, and .NET Core."
     },
     "header": {
       "title": "{{FileFormatUp}} files Comparison for C# .NET applications",
@@ -70,15 +70,15 @@
       "action_title": "Free Nuget download"
     },
     "about": {
-      "title": "Discover GroupDocs.Comparison for .NET API",
+      "title": "Discover {{ProdFullName}} API",
       "link_title": "Learn more",
-      "content": "Get detailed reports about differences at documents of popular formats at your .NET applications. Use GroupDocs.Comparison for .NET APIs by adding a couple lines of code. Developers can easily display {{FileFormatUp}}, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing additional software or any other external libraries."
+      "content": "Get detailed reports about differences at documents of popular formats at your .NET applications. Use {{ProdFullName}} APIs by adding a couple lines of code. Developers can easily display {{FileFormatUp}}, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing additional software or any other external libraries."
     },
     "steps": {
       "title": "How to compare multiple {{FileFormatUp}} files using C#",
       "content": {
-        "title": "It is possible to use <a href='https://products.groupdocs.com/comparison/net/'>GroupDocs.Comparison</a> for getting report about differences in many {{FileFormatUp}} files.",
-        "step_1": "Install <a href='https://www.nuget.org/packages/groupdocs.comparison'>GroupDocs.Comparison for .NET</a> using your favorite package manager.",
+        "title": "It is possible to use [{{ProdShortName}}]({{ProductUrl}}) for getting report about differences in many {{FileFormatUp}} files.",
+        "step_1": "Install {{ProdFullName}} using [{{PackageStoreName}}]({{PackageUrl}}) and your favorite package manager.",
         "step_2": "Provide an instance of Comparer class with full path to first {{FileFormatUp}} file.",
         "step_3": "Append at least one other {{FileFormatUp}} to Comparer.",
         "step_4": "Get a final report with precisely described differences."
@@ -102,7 +102,7 @@
     },
     "actions": {
       "title": "Ready to get started?",
-      "description": "Try GroupDocs.Comparison features for free or request a license",
+      "description": "Try {{ProdShortName}} features for free or request a license",
       "items": {
         "comment_1": "Nuget download",
         "comment_2": "Licensing"

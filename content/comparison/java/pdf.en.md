@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-24T17:58:25
+date:  2024-01-25T14:34:20
 draft: false
 lang: en
 format: Pdf
@@ -16,7 +16,7 @@ head_title: "Compare PDF files easily using the Comparison Java API"
 head_description: "Utilize the Comparison Java API in J2EE and J2SE applications to compare PDF files. Analyze differences in content, text, style, images, and document formats, and generate a comprehensive summary."
 
 ############################# Header ############################
-title: "PDF files Comparison for C# .NET applications" 
+title: "PDFs Comparison for Java applications" 
 description: ".NET documents comparing API for getting and display info about any distinctions in PDF files at applications based on C#, ASP.NET, VB.NET & .NET Core. Enjoy getting detailed reports quickly and easily."
 subtitle: "Document comparing solution" 
 
@@ -24,29 +24,29 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Free Nuget download"
+    - title: "Free Maven download"
       link: "https://releases.groupdocs.com/comparison/java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Discover GroupDocs.Comparison for .NET API"
+    title: "Discover GroupDocs.Comparison for Java API"
     link: "/comparison/java/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       Get detailed reports about differences at documents of popular formats at your .NET applications. Use GroupDocs.Comparison for .NET APIs by adding a couple lines of code. Developers can easily display PDF, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing additional software or any other external libraries.
+       Get detailed reports about differences at documents of popular formats at your .NET applications. Use GroupDocs.Comparison for Java APIs by adding a couple lines of code. Developers can easily display PDF, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing additional software or any other external libraries.
 
 ############################# Steps ############################
 steps:
     enable: true
     title: "How to compare multiple PDF files using C#"
     content: |
-      It is possible to use <a href='https://products.groupdocs.com/comparison/net/'>GroupDocs.Comparison</a> for getting report about differences in many PDF files.
+      It is possible to use [GroupDocs.Comparison](https://products.groupdocs.com/comparison/java/) for getting report about differences in many PDF files.
       
-      1. Install <a href='https://www.nuget.org/packages/groupdocs.comparison'>GroupDocs.Comparison for .NET</a> using your favorite package manager.
+      1. Install GroupDocs.Comparison for Java with [Maven](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/) and your favorite package manager.
       2. Provide an instance of Comparer class with full path to first PDF file.
-      3. Append at least one other PDF to Comparer.
+      3. Append at least one other PDF document to Comparer.
       4. Get a final report with precisely described differences.
    
     code:
