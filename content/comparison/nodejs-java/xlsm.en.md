@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-25T14:34:21
+date:  2024-01-26T15:13:15
 draft: false
 lang: en
 format: Xlsm
@@ -35,25 +35,25 @@ about:
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for Node.js is a tool that helps compare pictures and documents in the same format. It can find differences in paragraphs, words, characters, shapes, and text styles between the compared documents. You can combine these changes and save them as a final document. It works well with PDFs, Word documents, Excel sheets, PowerPoint slides, Visio diagrams, Outlook emails, HTML, drawings, and various image types—all without needing extra tools.
+       GroupDocs.Comparison for Node.js via Java is a tool that helps compare pictures and documents in the same format. It can find differences in paragraphs, words, characters, shapes, and text styles between the compared documents. You can combine these changes and save them as a final document. It works well with PDFs, Word documents, Excel sheets, PowerPoint slides, Visio diagrams, Outlook emails, HTML, drawings, and various image types—all without needing extra tools.
 
 ############################# Steps ############################
 steps:
     enable: true
     title: "How to perform XLSM files comparison using Node.js."
     content: |
-      It is possible to use XLSM files using [GroupDocs.Comparison](https://products.groupdocs.com/comparison/nodejs-java/) for getting report about differences in many XLSM files.
+      It is possible to use XLSM files using [GroupDocs.Comparison](https://products.groupdocs.com/comparison/nodejs-java/) for getting report about differences in many XLSM files
       
-      1. Install GroupDocs.Comparison for Node.js via Java from [NPM](https://www.npmjs.com/package/@groupdocs/groupdocs.comparison) using your favorite package manager.
-      2. Provide an instance of Comparer class with full path to first XLSM file.
-      3. Append at least one other XLSM to Comparer.
-      4. Get a final report with precisely described differences.
+      1. Install GroupDocs.Comparison for Node.js via Java using [NPM](https://www.npmjs.com/package/@groupdocs/groupdocs.comparison)
+      2. Instantiate the Comparer and providing path to first of the files in the XLSM format
+      3. Add another XLSM file to Comparer
+      4. Obtain a clear report that precisely describes the differences
    
     code:
       platform: "net"
       copy_title: "Copy"
       install:
-        command: "dotnet add package GroupDocs.Comparison"
+        command: "npm i @groupdocs/groupdocs.comparison"
         copy_tip: "click to copy"
         copy_done: "copied"
       links:
@@ -67,18 +67,18 @@ steps:
       content: |
         ```csharp {style=abap}
 
-        // Compare multiple documents from local disk
+        // Check multiple files to see how they are similar or different
 
-        // Instantiate Comparer providing a first file
+        // Create a Comparer object and give it the first file as input
         using (Comparer comparer = new Comparer("source.xlsm"))
         {
-            // Add other files
+            // Append more files
         	comparer.Add("target1.xlsm");
             comparer.Add("target2.xlsm");
             comparer.Add("target3.xlsm");
 
-            // Get result file with the specified name
-            comparer.Compare("result.xlsm"); 
+            // Fetch the final report
+            comparer.Compare("result.pdf"); 
         }
         
         ```            
@@ -91,7 +91,7 @@ actions:
   description: "Try GroupDocs.Comparison features for free or request a license"
   items:
     #  loop
-    - title: "Nuget download"
+    - title: "NPM download"
       link: "https://releases.groupdocs.com/comparison/nodejs-java/"
       color: "red"
         #  loop
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Compare popular file formats using C#"
+    title: "Compare popular document types via JavaScript"
     exclude: "XLSM"
-    description: ".NET API for document formats comparison. Stay well-informed about changes at your documents processing them without extra efforts."
+    description: "Our Node.js API enables you to compare documents in different formats. Keep track of document changes effortlessly by processing them using our tool."
     items: 
         # format loop 1
         - name: "Compare PDF Files"

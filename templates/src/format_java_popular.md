@@ -34,7 +34,7 @@ about:
     enable: true
     title: "<% (dict "{fileformat}.about.title") %>"
     link: "/comparison/<% get "ProdCode" %>/"
-    link_title: "<% (dict "{fileformat}.about.link_title") %>"
+    link_title: "<% "{common-content.texts.learn_more}" %>"
     picture: "about_viewer.svg" # 480 X 400
     content: |
        <% (dict "{fileformat}.about.content") %>
@@ -53,17 +53,32 @@ steps:
    
     code:
       platform: "net"
-      copy_title: "<% (dict "{fileformat}.steps.code.copy_title") %>"
+      copy_title: "<% (dict "common-content.format-code.copy_title") %>"
       install:
-        command: "dotnet add package GroupDocs.Comparison"
-        copy_tip: "<% (dict "{fileformat}.steps.code.copy_tip") %>"
-        copy_done: "<% (dict "{fileformat}.steps.code.copy_done") %>"
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-comparison</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
+
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "<% (dict "common-content.format-code.copy_tip") %>"
+        copy_done: "<% (dict "common-content.format-code.copy_done") %>"
       links:
         #  loop
-        - title: "<% (dict "{fileformat}.steps.code.links.title_1") %>"
+        - title: "<% (dict "common-content.format-code.links.title_1") %>"
           link: "<% get "MoreLink" %>"
         #  loop
-        - title: "<% (dict "{fileformat}.steps.code.links.title_2") %>"
+        - title: "<% (dict "common-content.format-code.links.title_2") %>"
           link: "<% get "DocsUrl" %>"
           
       content: |
@@ -80,7 +95,7 @@ steps:
             comparer.Add("target3.<% get "fileformat" %>");
 
             // <% (dict "{fileformat}.steps.code.comments.comment_4") %>
-            comparer.Compare("result.<% get "fileformat" %>"); 
+            comparer.Compare("result.pdf"); 
         }
         
         ```            
@@ -89,15 +104,15 @@ steps:
 
 actions:
   enable: true
-  title: "<% (dict "{fileformat}.actions.title") %>"
-  description: "<% (dict "{fileformat}.actions.description") %>"
+  title: "<% "{common-content.format-actions.title}" %>"
+  description: "<% "{common-content.format-actions.description}" %>"
   items:
     #  loop
-    - title: "<% (dict "{fileformat}.actions.items.comment_1") %>"
+    - title: "<% "{common-content.format-actions.comment_1}" %>"
       link: "<% get "ReleaseDownloads" %>"
       color: "red"
         #  loop
-    - title: "<% (dict "{fileformat}.actions.items.comment_2") %>"
+    - title: "<% "{common-content.format-actions.comment_2}" %>"
       link: "<% get "PricesUrl" %>"
       color: "light"
 

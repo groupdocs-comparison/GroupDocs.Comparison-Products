@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-25T14:34:21
+date:  2024-01-26T15:13:15
 draft: false
 lang: en
 format: Pdf
@@ -12,25 +12,25 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Compare PDFs with Node.js using the Comparison API in JavaScript"
-head_description: "Perform PDF file comparisons within Node.js applications using the Comparison API. Analyze variations in content, text, style, images, and document formats, and receive a detailed summary of differences."
+head_title: "Use JavaScript with the Comparison Node.js API to compare PDF documents."
+head_description: "The GroupDocs.Comparison Node.js API generates comprehensive reports detailing differences in PDF documents."
 
 ############################# Header ############################
-title: "PDF files Comparison for C# .NET applications" 
-description: ".NET documents comparing API for getting and display info about any distinctions in PDF files at applications based on C#, ASP.NET, VB.NET & .NET Core. Enjoy getting detailed reports quickly and easily."
-subtitle: "Document comparing solution" 
+title: "PDF documents comparison for Node.js via Java" 
+description: "Node.js via Java documents comparing API for getting and display info about any distinctions in PDFs at applications based on JavaScript. Enjoy getting detailed reports quickly and easily."
+subtitle: "Solution for comparing documents" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Free Nuget download"
+    - title: "Free download from NPM"
       link: "https://releases.groupdocs.com/comparison/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Discover GroupDocs.Comparison for Node.js via Java API"
+    title: "Explore GroupDocs.Comparison for Node.js via Java API features"
     link: "/comparison/nodejs-java/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
@@ -40,20 +40,20 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to compare multiple PDF files using C#"
+    title: "Getting report about PDFs distinctions in JavaScript"
     content: |
-      It is possible to use [GroupDocs.Comparison](https://products.groupdocs.com/comparison/nodejs-java/) for getting report about differences in many PDF files.
+      Track PDF documents changes by reports composed with [GroupDocs.Comparison](https://products.groupdocs.com/comparison/nodejs-java/)
       
-      1. Install GroupDocs.Comparison for Node.js via Java [NPM](https://www.npmjs.com/package/@groupdocs/groupdocs.comparison) using your favorite package manager.
-      2. Provide an instance of Comparer class with full path to first PDF file.
-      3. Append at least one other PDF to Comparer.
-      4. Get a final report with precisely described differences.
+      1. Use [NPM](https://www.npmjs.com/package/@groupdocs/groupdocs.comparison) to install GroupDocs.Comparison for Node.js via Java
+      2. Call Comparer constructor with PDF file path
+      3. Provide another PDF to compare it to first one
+      4. Retrieve a final report about files differences
    
     code:
       platform: "net"
       copy_title: "Copy"
       install:
-        command: "dotnet add package GroupDocs.Comparison"
+        command: "npm i @groupdocs/groupdocs.comparison"
         copy_tip: "click to copy"
         copy_done: "copied"
       links:
@@ -67,17 +67,17 @@ steps:
       content: |
         ```csharp {style=abap}
 
-        // Compare multiple documents from local disk
+        // Getting report about changes in PDF files
 
-        // Instantiate Comparer providing a first file
+        // Construct Comparer instance with a first file
         using (Comparer comparer = new Comparer("source.pdf"))
         {
-            // Add other files
+            // Add other file or files
         	comparer.Add("target1.pdf");
             comparer.Add("target2.pdf");
             comparer.Add("target3.pdf");
 
-            // Get result file with the specified name
+            // Save report to specified path
             comparer.Compare("result.pdf"); 
         }
         
@@ -91,7 +91,7 @@ actions:
   description: "Try GroupDocs.Comparison features for free or request a license"
   items:
     #  loop
-    - title: "Nuget download"
+    - title: "NPM download"
       link: "https://releases.groupdocs.com/comparison/nodejs-java/"
       color: "red"
         #  loop
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Compare popular file formats using C#"
+    title: "Compare popular file formats like PDF using JavaScript"
     exclude: "PDF"
-    description: ".NET API for document formats comparison. Stay well-informed about changes at your documents processing them without extra efforts."
+    description: "Your PDF files could be compared by our Node.js API quickly. Control document changes effortlessly with detailed reports."
     items: 
         # format loop 1
         - name: "Compare PDF Files"

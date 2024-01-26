@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-25T14:34:21
+date:  2024-01-26T15:13:15
 draft: false
 lang: en
 format: Vdx
@@ -44,10 +44,10 @@ steps:
     content: |
       It is possible to use [GroupDocs.Comparison](https://products.groupdocs.com/comparison/net/) for getting report about differences in many VDX files.
       
-      1. Install GroupDocs.Comparison for .NET from [Nuget](https://www.nuget.org/packages/GroupDocs.Comparison) using your favorite package manager.
-      2. Provide an instance of Comparer class with full path to first VDX file.
-      3. Append at least one other VDX to Comparer.
-      4. Get a final report with precisely described differences.
+      1. Install GroupDocs.Comparison for .NET from [Nuget](https://www.nuget.org/packages/GroupDocs.Comparison) using your favorite package manager
+      2. Provide an instance of Comparer class with full path to initial VDX file
+      3. Append at least one other VDX to Comparer
+      4. Get a final report with precisely described differences
    
     code:
       platform: "net"
@@ -78,7 +78,7 @@ steps:
             comparer.Add("target3.vdx");
 
             // Get result file with the specified name
-            comparer.Compare("result.vdx"); 
+            comparer.Compare("result.pdf"); 
         }
         
         ```            

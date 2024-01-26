@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-25T14:34:21
+date:  2024-01-26T15:13:15
 draft: false
 lang: en
 format: Msg
@@ -44,10 +44,10 @@ steps:
     content: |
       It is possible to use [GroupDocs.Comparison](https://products.groupdocs.com/comparison/net/) for getting report about differences in many MSG files.
       
-      1. Install GroupDocs.Comparison for .NET from [Nuget](https://www.nuget.org/packages/GroupDocs.Comparison) using your favorite package manager.
-      2. Provide an instance of Comparer class with full path to first MSG file.
-      3. Append at least one other MSG to Comparer.
-      4. Get a final report with precisely described differences.
+      1. Install GroupDocs.Comparison for .NET from [Nuget](https://www.nuget.org/packages/GroupDocs.Comparison) using your favorite package manager
+      2. Provide an instance of Comparer class with full path to initial MSG file
+      3. Append at least one other MSG to Comparer
+      4. Get a final report with precisely described differences
    
     code:
       platform: "net"
@@ -78,7 +78,7 @@ steps:
             comparer.Add("target3.msg");
 
             // Get result file with the specified name
-            comparer.Compare("result.msg"); 
+            comparer.Compare("result.pdf"); 
         }
         
         ```            

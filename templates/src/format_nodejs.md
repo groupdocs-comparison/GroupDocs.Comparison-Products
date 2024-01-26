@@ -34,7 +34,7 @@ about:
     enable: true
     title: "<% "{common.about.title}" %>"
     link: "/comparison/<% get "ProdCode" %>/"
-    link_title: "<% "{common.about.link_title}" %>"
+    link_title: "<% "{common-content.texts.learn_more}" %>"
     picture: "about_viewer.svg" # 480 X 400
     content: |
        <% "{common.about.content}" %>
@@ -53,17 +53,17 @@ steps:
    
     code:
       platform: "net"
-      copy_title: "<% "{common.steps.code.copy_title}" %>"
+      copy_title: "<% "{common-content.format-code.copy_title}" %>"
       install:
-        command: "dotnet add package GroupDocs.Comparison"
-        copy_tip: "<% "{common.steps.code.copy_tip}" %>"
-        copy_done: "<% "{common.steps.code.copy_done}" %>"
+        command: "npm i @groupdocs/groupdocs.comparison"
+        copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
+        copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
         #  loop
-        - title: "<% "{common.steps.code.links.title_1}" %>"
+        - title: "<% "{common-content.format-code.links.title_1}" %>"
           link: "<% get "MoreLink" %>"
         #  loop
-        - title: "<% "{common.steps.code.links.title_2}" %>"
+        - title: "<% "{common-content.format-code.links.title_2}" %>"
           link: "<% get "DocsUrl" %>"
           
       content: |
@@ -80,7 +80,7 @@ steps:
             comparer.Add("target3.<% get "fileformat" %>");
 
             // <% "{common.steps.code.comments.comment_4}" %>
-            comparer.Compare("result.<% get "fileformat" %>"); 
+            comparer.Compare("result.pdf"); 
         }
         
         ```            
@@ -89,15 +89,15 @@ steps:
 
 actions:
   enable: true
-  title: "<% "{common.actions.title}" %>"
-  description: "<% "{common.actions.description}" %>"
+  title: "<% "{common-content.format-actions.title}" %>"
+  description: "<% "{common-content.format-actions.description}" %>"
   items:
     #  loop
-    - title: "<% "{common.actions.items.comment_1}" %>"
+    - title: "<% "{common-content.format-actions.comment_1}" %>"
       link: "<% get "ReleaseDownloads" %>"
       color: "red"
         #  loop
-    - title: "<% "{common.actions.items.comment_2}" %>"
+    - title: "<% "{common-content.format-actions.comment_2}" %>"
       link: "<% get "PricesUrl" %>"
       color: "light"
 

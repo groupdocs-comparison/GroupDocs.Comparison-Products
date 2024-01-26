@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-25T14:34:20
+date:  2024-01-26T15:13:14
 draft: false
 lang: en
 format: Dot
@@ -18,7 +18,7 @@ head_description: "GroupDocs.Comparison for Java provides an API to obtain detai
 ############################# Header ############################
 title: "DOT document comparison in Java applications" 
 description: "GroupDocs.Comparison API for getting and displaying differences in DOT documents using applications based on Java, J2EE, and J2SE. Easily obtain detailed reports for a brilliant experience."
-subtitle: "Documents comparison tools" 
+subtitle: "Documents comparing framework" 
 
 header_actions:
   enable: true
@@ -42,18 +42,33 @@ steps:
     enable: true
     title: "How to compare several DOT documents using Java"
     content: |
-      It is possible to use DOT files using [GroupDocs.Comparison](https://products.groupdocs.com/comparison/java/) for getting report about differences in many DOT files.
+      Use [GroupDocs.Comparison](https://products.groupdocs.com/comparison/java/) to compare multiple DOT files and generate a report detailing their differences
       
-      1. Install GroupDocs.Comparison for Java from [Maven](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/) using your favorite package manager.
-      2. Provide an instance of Comparer class with full path to first DOT file.
-      3. Append at least one other DOT to Comparer.
-      4. Get a final report with precisely described differences.
+      1. Use your preferred package manager to install GroupDocs.Comparison for Java from [Maven](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/)
+      2. Create an instance of the Comparer class setting path to one of DOT files
+      3. Add at least one additional DOT to the Comparer instance
+      4. Receive a detailed final report outlining the exact differences
    
     code:
       platform: "net"
       copy_title: "Copy"
       install:
-        command: "dotnet add package GroupDocs.Comparison"
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-comparison</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
+
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
         copy_tip: "click to copy"
         copy_done: "copied"
       links:
@@ -67,18 +82,18 @@ steps:
       content: |
         ```csharp {style=abap}
 
-        // Compare multiple documents from local disk
+        // Check files from your hard drive for differences or similarities
 
-        // Instantiate Comparer providing a first file
+        // Create a Comparer object by specifying the initial file
         using (Comparer comparer = new Comparer("source.dot"))
         {
-            // Add other files
+            // Include additional files to comparing
         	comparer.Add("target1.dot");
             comparer.Add("target2.dot");
             comparer.Add("target3.dot");
 
-            // Get result file with the specified name
-            comparer.Compare("result.dot"); 
+            // Get the report with the specified name as the result
+            comparer.Compare("result.pdf"); 
         }
         
         ```            
@@ -91,7 +106,7 @@ actions:
   description: "Try GroupDocs.Comparison features for free or request a license"
   items:
     #  loop
-    - title: "Nuget download"
+    - title: "Maven download"
       link: "https://releases.groupdocs.com/comparison/java/"
       color: "red"
         #  loop
@@ -103,9 +118,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Compare popular file formats using C#"
+    title: "Compare various documents using Java"
     exclude: "DOT"
-    description: ".NET API for document formats comparison. Stay well-informed about changes at your documents processing them without extra efforts."
+    description: "Our Java API allows you to compare documents of various formats. Stay updated on document changes by processing them effortlessly."
     items: 
         # format loop 1
         - name: "Compare PDF Files"

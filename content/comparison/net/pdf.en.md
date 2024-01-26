@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-25T14:34:21
+date:  2024-01-26T15:13:15
 draft: false
 lang: en
 format: Pdf
@@ -12,25 +12,25 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Compare PDF documents using the Comparison .NET API and C#."
-head_description: "The GroupDocs.Comparison .NET API generates detailed PDF documents comparison reports for various types of applications, including C#, ASP.NET, VB.NET, and .NET Core."
+head_title: "Compare PDFs using the Comparison .NET API and C#"
+head_description: "The GroupDocs.Comparison .NET API generates detailed PDF documents comparison reports in various types of applications, including C#, ASP.NET, VB.NET, and .NET Core"
 
 ############################# Header ############################
-title: "PDF files Comparison for C# .NET applications" 
-description: ".NET documents comparing API for getting and display info about any distinctions in PDF files at applications based on C#, ASP.NET, VB.NET & .NET Core. Enjoy getting detailed reports quickly and easily."
+title: "Comparing PDF documents in C# .NET applications" 
+description: ".NET documents comparing API for getting and display info about any distinctions in PDFs at applications based on C#, ASP.NET, VB.NET & .NET Core. Enjoy getting detailed reports quickly and easily."
 subtitle: "Document comparing solution" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Free Nuget download"
+    - title: "Free download from Nuget"
       link: "https://releases.groupdocs.com/comparison/net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Discover GroupDocs.Comparison for .NET API"
+    title: "Uncover GroupDocs.Comparison for .NET API features"
     link: "/comparison/net/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to compare multiple PDF files using C#"
+    title: "How to compare PDFs using C#"
     content: |
-      It is possible to use [GroupDocs.Comparison](https://products.groupdocs.com/comparison/net/) for getting report about differences in many PDF files.
+      Get report about differences in many PDF files using [GroupDocs.Comparison](https://products.groupdocs.com/comparison/net/)
       
-      1. Install GroupDocs.Comparison for .NET using [Nuget](https://www.nuget.org/packages/GroupDocs.Comparison) and your favorite package manager.
-      2. Provide an instance of Comparer class with full path to first PDF file.
-      3. Append at least one other PDF to Comparer.
-      4. Get a final report with precisely described differences.
+      1. Get GroupDocs.Comparison for .NET from [Nuget](https://www.nuget.org/packages/GroupDocs.Comparison) and install it
+      2. Create brand new Comparer instance with path to PDF file
+      3. Add other PDF to comparison
+      4. Result contains a report about distinctions at both PDFs
    
     code:
       platform: "net"
@@ -67,17 +67,17 @@ steps:
       content: |
         ```csharp {style=abap}
 
-        // Compare multiple documents from local disk
+        // Composing PDFs distinctions report
 
-        // Instantiate Comparer providing a first file
+        // Instantiate Comparer with path to a first file
         using (Comparer comparer = new Comparer("source.pdf"))
         {
-            // Add other files
+            // Append one or more PDFs to comparison
         	comparer.Add("target1.pdf");
             comparer.Add("target2.pdf");
             comparer.Add("target3.pdf");
 
-            // Get result file with the specified name
+            // Result report to be analyzed
             comparer.Compare("result.pdf"); 
         }
         
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Compare popular file formats using C#"
+    title: "Compare PDFs using C# and get full report"
     exclude: "PDF"
-    description: ".NET API for document formats comparison. Stay well-informed about changes at your documents processing them without extra efforts."
+    description: ".NET API for PDF documents comparison. Stay well-informed about any changes at your documents easily."
     items: 
         # format loop 1
         - name: "Compare PDF Files"

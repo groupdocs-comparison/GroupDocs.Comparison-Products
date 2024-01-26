@@ -12,110 +12,67 @@
     },
     "about": {
       "title": "Discover {{ProdFullName}} API",
-      "link_title": "Learn more",
       "content": "{{ProdFullName}} is a native .NET API designed for comparing multiple images and documents of the same format. It aids in detecting differences within paragraphs, words, characters, shapes, and even the text styles of the compared documents. With the ability to merge these changes and export to a final document, it supports comparison and merging of PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings, and various image file formats—all without the need for any external libraries."
     },
     "steps": {
-      "title": "How to compare multiple {{FileFormatUp}} files using C#",
+      "title": "How to compare multiple {{FileFormatUp}} files using {{ProgLang}}",
       "content": {
         "title": "It is possible to use [{{ProdShortName}}]({{ProductUrl}}) for getting report about differences in many {{FileFormatUp}} files.",
-        "step_1": "Install {{ProdFullName}} from [{{PackageStoreName}}]({{PackageUrl}}) using your favorite package manager.",
-        "step_2": "Provide an instance of Comparer class with full path to first {{FileFormatUp}} file.",
-        "step_3": "Append at least one other {{FileFormatUp}} to Comparer.",
-        "step_4": "Get a final report with precisely described differences."
+        "step_1": "Install {{ProdFullName}} from [{{PackageStoreName}}]({{PackageUrl}}) using your favorite package manager",
+        "step_2": "Provide an instance of Comparer class with full path to initial {{FileFormatUp}} file",
+        "step_3": "Append at least one other {{FileFormatUp}} to Comparer",
+        "step_4": "Get a final report with precisely described differences"
       },
       "code": {
-        "copy_title": "Copy",
-        "copy_tip": "click to copy",
-        "copy_done": "copied",
-        "links": {
-          "title_1": "More examples",
-          "title_2": "Documentation"
-        },
         "comments": {
           "comment_1": "Compare multiple documents from local disk",
           "comment_2": "Instantiate Comparer providing a first file",
           "comment_3": "Add other files",
           "comment_4": "Get result file with the specified name"
-
         }
       }
     },
-    "actions": {
-      "title": "Ready to get started?",
-      "description": "Try {{ProdShortName}} features for free or request a license",
-      "items": {
-        "comment_1": "Nuget download",
-        "comment_2": "Licensing"
-      }
-    },
     "formats": {
-      "title": "Compare popular file formats using C#",
-      "description": ".NET API for document formats comparison. Stay well-informed about changes at your documents processing them without extra efforts.",
-      "items": {
-        "comment_1": "Nuget download",
-        "comment_2": "Licensing"
-      }
+      "title": "Compare popular file formats using {{ProgLang}}",
+      "description": ".NET API for document formats comparison. Stay well-informed about changes at your documents processing them without extra efforts."
     }
   },
   "pdf": {
     "head": {
-      "title": "Compare PDF documents using the Comparison .NET API and C#.",
-      "description": "The {{ProdShortName}} .NET API generates detailed PDF documents comparison reports for various types of applications, including C#, ASP.NET, VB.NET, and .NET Core."
+      "title": "Compare PDFs using the Comparison .NET API and C#",
+      "description": "The {{ProdShortName}} .NET API generates detailed PDF documents comparison reports in various types of applications, including C#, ASP.NET, VB.NET, and .NET Core"
     },
     "header": {
-      "title": "{{FileFormatUp}} files Comparison for C# .NET applications",
-      "description": ".NET documents comparing API for getting and display info about any distinctions in {{FileFormatUp}} files at applications based on C#, ASP.NET, VB.NET & .NET Core. Enjoy getting detailed reports quickly and easily.",
+      "title": "Comparing PDF documents in C# .NET applications",
+      "description": ".NET documents comparing API for getting and display info about any distinctions in PDFs at applications based on C#, ASP.NET, VB.NET & .NET Core. Enjoy getting detailed reports quickly and easily.",
       "subtitle": "Document comparing solution",
-      "action_title": "Free Nuget download"
+      "action_title": "Free download from {{PackageStoreName}}"
     },
     "about": {
-      "title": "Discover {{ProdFullName}} API",
-      "link_title": "Learn more",
+      "title": "Uncover {{ProdFullName}} API features",
       "content": "Get detailed reports about differences at documents of popular formats at your .NET applications. Use {{ProdFullName}} APIs by adding a couple lines of code. Developers can easily display {{FileFormatUp}}, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing additional software or any other external libraries."
     },
     "steps": {
-      "title": "How to compare multiple {{FileFormatUp}} files using C#",
+      "title": "How to compare PDFs using C#",
       "content": {
-        "title": "It is possible to use [{{ProdShortName}}]({{ProductUrl}}) for getting report about differences in many {{FileFormatUp}} files.",
-        "step_1": "Install {{ProdFullName}} using [{{PackageStoreName}}]({{PackageUrl}}) and your favorite package manager.",
-        "step_2": "Provide an instance of Comparer class with full path to first {{FileFormatUp}} file.",
-        "step_3": "Append at least one other {{FileFormatUp}} to Comparer.",
-        "step_4": "Get a final report with precisely described differences."
+        "title": "Get report about differences in many PDF files using [{{ProdShortName}}]({{ProductUrl}})",
+        "step_1": "Get {{ProdFullName}} from [{{PackageStoreName}}]({{PackageUrl}}) and install it",
+        "step_2": "Create brand new Comparer instance with path to PDF file",
+        "step_3": "Add other PDF to comparison",
+        "step_4": "Result contains a report about distinctions at both PDFs"
       },
       "code": {
-        "copy_title": "Copy",
-        "copy_tip": "click to copy",
-        "copy_done": "copied",
-        "links": {
-          "title_1": "More examples",
-          "title_2": "Documentation"
-        },
         "comments": {
-          "comment_1": "Compare multiple documents from local disk",
-          "comment_2": "Instantiate Comparer providing a first file",
-          "comment_3": "Add other files",
-          "comment_4": "Get result file with the specified name"
-
+          "comment_1": "Composing PDFs distinctions report",
+          "comment_2": "Instantiate Comparer with path to a first file",
+          "comment_3": "Append one or more PDFs to comparison",
+          "comment_4": "Result report to be analyzed"
         }
       }
     },
-    "actions": {
-      "title": "Ready to get started?",
-      "description": "Try {{ProdShortName}} features for free or request a license",
-      "items": {
-        "comment_1": "Nuget download",
-        "comment_2": "Licensing"
-      }
-    },
     "formats": {
-      "title": "Compare popular file formats using C#",
-      "description": ".NET API for document formats comparison. Stay well-informed about changes at your documents processing them without extra efforts.",
-      "items": {
-        "comment_1": "Nuget download",
-        "comment_2": "Licensing"
-      }
+      "title": "Compare PDFs using C# and get full report",
+      "description": ".NET API for PDF documents comparison. Stay well-informed about any changes at your documents easily."
     }
   }
-
 }

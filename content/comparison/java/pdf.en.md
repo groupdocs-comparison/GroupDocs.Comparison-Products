@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-25T14:34:20
+date:  2024-01-26T15:13:14
 draft: false
 lang: en
 format: Pdf
@@ -12,25 +12,25 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Compare PDF files easily using the Comparison Java API"
-head_description: "Utilize the Comparison Java API in J2EE and J2SE applications to compare PDF files. Analyze differences in content, text, style, images, and document formats, and generate a comprehensive summary."
+head_title: "Use the Comparison API along with Java to compare PDF documents."
+head_description: "The GroupDocs.Comparison Java API creates detailed reports for PDF documents in applications that support J2EE and J2SE."
 
 ############################# Header ############################
-title: "PDFs Comparison for Java applications" 
-description: ".NET documents comparing API for getting and display info about any distinctions in PDF files at applications based on C#, ASP.NET, VB.NET & .NET Core. Enjoy getting detailed reports quickly and easily."
-subtitle: "Document comparing solution" 
+title: "Comparing PDF documents using Java applications" 
+description: "The GroupDocs.Comparison Java API provides detailed comparison reports for PDF documents in various kinds of applications that use J2EE or J2SE."
+subtitle: "A tool that compares documents" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Free Maven download"
+    - title: "Free download from Maven"
       link: "https://releases.groupdocs.com/comparison/java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Discover GroupDocs.Comparison for Java API"
+    title: "Find out GroupDocs.Comparison for Java API advantages"
     link: "/comparison/java/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
@@ -40,20 +40,35 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to compare multiple PDF files using C#"
+    title: "Comparing multiple PDF docs via Java"
     content: |
-      It is possible to use [GroupDocs.Comparison](https://products.groupdocs.com/comparison/java/) for getting report about differences in many PDF files.
+      Compare PDFs with [GroupDocs.Comparison](https://products.groupdocs.com/comparison/java/) and get reports about documents distinctions
       
-      1. Install GroupDocs.Comparison for Java with [Maven](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/) and your favorite package manager.
-      2. Provide an instance of Comparer class with full path to first PDF file.
-      3. Append at least one other PDF document to Comparer.
-      4. Get a final report with precisely described differences.
+      1. Download GroupDocs.Comparison for Java package from [Maven](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/) and install it
+      2. New Comparer instance must has path to one of PDF files
+      3. At least one PDF document must be provided for comparison
+      4. Result report is saved to provided path
    
     code:
       platform: "net"
       copy_title: "Copy"
       install:
-        command: "dotnet add package GroupDocs.Comparison"
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-comparison</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
+
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
         copy_tip: "click to copy"
         copy_done: "copied"
       links:
@@ -67,17 +82,17 @@ steps:
       content: |
         ```csharp {style=abap}
 
-        // Compare multiple documents from local disk
+        // Getting report about changes at PDFs
 
-        // Instantiate Comparer providing a first file
+        // Pass first file path to Comparer constructor
         using (Comparer comparer = new Comparer("source.pdf"))
         {
-            // Add other files
+            // Provide another PDF doc
         	comparer.Add("target1.pdf");
             comparer.Add("target2.pdf");
             comparer.Add("target3.pdf");
 
-            // Get result file with the specified name
+            // Save distinctions report for future analyzing
             comparer.Compare("result.pdf"); 
         }
         
@@ -91,7 +106,7 @@ actions:
   description: "Try GroupDocs.Comparison features for free or request a license"
   items:
     #  loop
-    - title: "Nuget download"
+    - title: "Maven download"
       link: "https://releases.groupdocs.com/comparison/java/"
       color: "red"
         #  loop
@@ -103,9 +118,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Compare popular file formats using C#"
+    title: "Find any changes at PDF files via Java"
     exclude: "PDF"
-    description: ".NET API for document formats comparison. Stay well-informed about changes at your documents processing them without extra efforts."
+    description: "Our Java API provides possibility to control PDF files versions by generating precise and detailed report in your favorite format."
     items: 
         # format loop 1
         - name: "Compare PDF Files"

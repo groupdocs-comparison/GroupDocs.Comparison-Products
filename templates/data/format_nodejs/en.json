@@ -12,111 +12,67 @@
     },
     "about": {
       "title": "Explore the features of {{ProdShortName}} API for Node.js",
-      "link_title": "Learn more",
-      "content": "{{ProdShortName}} for Node.js is a tool that helps compare pictures and documents in the same format. It can find differences in paragraphs, words, characters, shapes, and text styles between the compared documents. You can combine these changes and save them as a final document. It works well with PDFs, Word documents, Excel sheets, PowerPoint slides, Visio diagrams, Outlook emails, HTML, drawings, and various image types—all without needing extra tools."
+      "content": "{{ProdFullName}} is a tool that helps compare pictures and documents in the same format. It can find differences in paragraphs, words, characters, shapes, and text styles between the compared documents. You can combine these changes and save them as a final document. It works well with PDFs, Word documents, Excel sheets, PowerPoint slides, Visio diagrams, Outlook emails, HTML, drawings, and various image types—all without needing extra tools."
     },
     "steps": {
       "title": "How to perform {{FileFormatUp}} files comparison using Node.js.",
       "content": {
-        "title": "It is possible to use {{FileFormatUp}} files using [{{ProdShortName}}]({{ProductUrl}}) for getting report about differences in many {{FileFormatUp}} files.",
-        "step_1": "Install {{ProdFullName}} from [{{PackageStoreName}}]({{PackageUrl}}) using your favorite package manager.",
-        "step_2": "Provide an instance of Comparer class with full path to first {{FileFormatUp}} file.",
-        "step_3": "Append at least one other {{FileFormatUp}} to Comparer.",
-        "step_4": "Get a final report with precisely described differences."
+        "title": "It is possible to use {{FileFormatUp}} files using [{{ProdShortName}}]({{ProductUrl}}) for getting report about differences in many {{FileFormatUp}} files",
+        "step_1": "Install {{ProdFullName}} using [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Instantiate the Comparer and providing path to first of the files in the {{FileFormatUp}} format",
+        "step_3": "Add another {{FileFormatUp}} file to Comparer",
+        "step_4": "Obtain a clear report that precisely describes the differences"
       },
       "code": {
-        "copy_title": "Copy",
-        "copy_tip": "click to copy",
-        "copy_done": "copied",
-        "links": {
-          "title_1": "More examples",
-          "title_2": "Documentation"
-        },
         "comments": {
-          "comment_1": "Compare multiple documents from local disk",
-          "comment_2": "Instantiate Comparer providing a first file",
-          "comment_3": "Add other files",
-          "comment_4": "Get result file with the specified name"
-
+          "comment_1": "Check multiple files to see how they are similar or different",
+          "comment_2": "Create a Comparer object and give it the first file as input",
+          "comment_3": "Append more files",
+          "comment_4": "Fetch the final report"
         }
       }
     },
-    "actions": {
-      "title": "Ready to get started?",
-      "description": "Try {{ProdShortName}} features for free or request a license",
-      "items": {
-        "comment_1": "Nuget download",
-        "comment_2": "Licensing"
-      }
-    },
     "formats": {
-      "title": "Compare popular file formats using C#",
-      "description": ".NET API for document formats comparison. Stay well-informed about changes at your documents processing them without extra efforts.",
-      "items": {
-        "comment_1": "Nuget download",
-        "comment_2": "Licensing"
-      }
+      "title": "Compare popular document types via {{ProgLang}}",
+      "description": "Our Node.js API enables you to compare documents in different formats. Keep track of document changes effortlessly by processing them using our tool."
     }
-
   },
   "pdf": {
     "head": {
-      "title": "Compare PDFs with Node.js using the Comparison API in JavaScript",
-      "description": "Perform PDF file comparisons within Node.js applications using the Comparison API. Analyze variations in content, text, style, images, and document formats, and receive a detailed summary of differences."
+      "title": "Use {{ProgLang}} with the Comparison Node.js API to compare PDF documents.",
+      "description": "The {{ProdShortName}} Node.js API generates comprehensive reports detailing differences in PDF documents."
     },
     "header": {
-      "title": "{{FileFormatUp}} files Comparison for C# .NET applications",
-      "description": ".NET documents comparing API for getting and display info about any distinctions in {{FileFormatUp}} files at applications based on C#, ASP.NET, VB.NET & .NET Core. Enjoy getting detailed reports quickly and easily.",
-      "subtitle": "Document comparing solution",
-      "action_title": "Free Nuget download"
+      "title": "PDF documents comparison for Node.js via Java",
+      "description": "Node.js via Java documents comparing API for getting and display info about any distinctions in PDFs at applications based on JavaScript. Enjoy getting detailed reports quickly and easily.",
+      "subtitle": "Solution for comparing documents",
+      "action_title": "Free download from {{PackageStoreName}}"
     },
     "about": {
-      "title": "Discover {{ProdFullName}} API",
-      "link_title": "Learn more",
+      "title": "Explore {{ProdFullName}} API features",
       "content": "Get detailed reports about differences at documents of popular formats at your .NET applications. Use {{ProdFullName}} APIs by adding a couple lines of code. Developers can easily display {{FileFormatUp}}, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing additional software or any other external libraries."
     },
     "steps": {
-      "title": "How to compare multiple {{FileFormatUp}} files using C#",
+      "title": "Getting report about PDFs distinctions in JavaScript",
       "content": {
-        "title": "It is possible to use [{{ProdShortName}}]({{ProductUrl}}) for getting report about differences in many {{FileFormatUp}} files.",
-        "step_1": "Install {{ProdShortName}} for Node.js via Java [{{PackageStoreName}}]({{PackageUrl}}) using your favorite package manager.",
-        "step_2": "Provide an instance of Comparer class with full path to first {{FileFormatUp}} file.",
-        "step_3": "Append at least one other {{FileFormatUp}} to Comparer.",
-        "step_4": "Get a final report with precisely described differences."
+        "title": "Track PDF documents changes by reports composed with [{{ProdShortName}}]({{ProductUrl}})",
+        "step_1": "Use [{{PackageStoreName}}]({{PackageUrl}}) to install {{ProdShortName}} for Node.js via Java",
+        "step_2": "Call Comparer constructor with PDF file path",
+        "step_3": "Provide another PDF to compare it to first one",
+        "step_4": "Retrieve a final report about files differences"
       },
       "code": {
-        "copy_title": "Copy",
-        "copy_tip": "click to copy",
-        "copy_done": "copied",
-        "links": {
-          "title_1": "More examples",
-          "title_2": "Documentation"
-        },
         "comments": {
-          "comment_1": "Compare multiple documents from local disk",
-          "comment_2": "Instantiate Comparer providing a first file",
-          "comment_3": "Add other files",
-          "comment_4": "Get result file with the specified name"
-
+          "comment_1": "Getting report about changes in PDF files",
+          "comment_2": "Construct Comparer instance with a first file",
+          "comment_3": "Add other file or files",
+          "comment_4": "Save report to specified path"
         }
       }
     },
-    "actions": {
-      "title": "Ready to get started?",
-      "description": "Try {{ProdShortName}} features for free or request a license",
-      "items": {
-        "comment_1": "Nuget download",
-        "comment_2": "Licensing"
-      }
-    },
     "formats": {
-      "title": "Compare popular file formats using C#",
-      "description": ".NET API for document formats comparison. Stay well-informed about changes at your documents processing them without extra efforts.",
-      "items": {
-        "comment_1": "Nuget download",
-        "comment_2": "Licensing"
-      }
+      "title": "Compare popular file formats like PDF using JavaScript",
+      "description": "Your PDF files could be compared by our Node.js API quickly. Control document changes effortlessly with detailed reports."
     }
-
   }
 }

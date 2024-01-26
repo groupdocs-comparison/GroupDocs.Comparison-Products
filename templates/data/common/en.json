@@ -1,6 +1,6 @@
 {
   "common-content": {
-    "formats": {
+    "format-formats": {
       "pdf": {
         "name": "Compare PDF Files",
         "description": "Adobe Portable Document Format"
@@ -85,6 +85,24 @@
         "name": "Compare CPP Files",
         "description": "C++ Language"
       }
+    },
+    "format-code": {
+      "copy_title": "Copy",
+      "copy_tip": "click to copy",
+      "copy_done": "copied",
+      "links": {
+        "title_1": "More examples",
+        "title_2": "Documentation"
+      }
+    },
+    "format-actions": {
+      "title": "Ready to get started?",
+      "description": "Try {{ProdShortName}} features for free or request a license",
+      "comment_1": "{{PackageStoreName}} download",
+      "comment_2": "Licensing"
+    },
+    "texts": {
+      "learn_more": "Learn more"
     }
   }
 }
