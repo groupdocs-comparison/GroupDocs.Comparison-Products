@@ -5,7 +5,7 @@
       "description": "{{ProdFullName}} offers an API to obtain comprehensive document comparison reports in a variety of applications, including C#, ASP.NET, VB.NET, and .NET Core."
     },
     "header": {
-      "title": "Comparing {{FileFormatUp}} files in C# .NET applications",
+      "title": "Compare {{FileFormatUp}} files in .NET solutions",
       "description": ".NET document comparison API for retrieving and displaying differences in {{FileFormatUp}} files in C#, ASP.NET, VB.NET, and .NET Core Applications. Effortlessly obtain detailed reports for a seamless experience.",
       "subtitle": "Document comparing solution",
       "action_title": "Free {{PackageStoreName}} download"

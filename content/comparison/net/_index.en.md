@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-01-25T14:34:21
+date: 2024-01-28T21:09:59
 draft: false
 
 lang: en
@@ -28,8 +28,8 @@ head_title: ".NET Document Comparison Library | Compare Docs for Text & Style"
 head_description: ".NET API to compare document style & content. Compare documents of multiple supported formats for the difference to identify changes between files."
 
 ############################# Header ############################
-title: "Compare & check files using .NET API"
-description: "Develop .NET applications with a highly configurable document comparison API. Compare files based on content and text style across similar document formats."
+title: "Compare documents with ease in your .NET solutions"
+description: "Build .NET applications with a flexible document comparison API that enables file comparison by content and style across various document formats."
 words:
   for: "for"
 
@@ -80,15 +80,15 @@ overview:
 
     # feature loop
     - title: "Most popular file and document formats are supported"
-      content: "With GroupDocs.Comparison API you can efficiently compare documents of any supported formats like PDF, HTML, e-mail, Microsoft Office Word documents, Excel spreadsheets, PowerPoint presentations, OneNote, Visio diagrams, texts, JPEG, PNG, GIF, and BMP images as well as many other formats."
+      content: "GroupDocs.Comparison API allows for efficient document comparison across a wide range of formats, including PDF, HTML, emails, Microsoft Office documents (Word, Excel, PowerPoint, OneNote, Visio), various image types (JPEG, PNG, GIF, BMP), text files, and more."
 
     # feature loop
     - title: "Apply or reject changes easily"
-      content: "Every difference between the compared documents can be applied or rejected and then exported to the output document."
+      content: "Each difference identified in the compared documents using the GroupDocs.Comparison API can be selectively applied or rejected, enabling customization before exporting to the final output document."
 
     # feature loop
     - title: "Comparison summary report"
-      content: "Save a differences summary report that lists all changes in compared documents."
+      content: "Generate a summary report of differences, detailing all the changes found in the compared documents, and save it for reference."
 
 ############################# Platforms ############################
 platforms:
@@ -166,58 +166,58 @@ features:
   items:
     # feature loop
     - icon: "fas fa-columns"
-      title: "Side by side comparison"
-      content: "Analyze and identify differences within two documents."
+      title: "Easy to use document comparison"
+      content: "Aanalyze and identify differences between two documents."
 
     # feature loop
     - icon: "fas fa-border-all"
       title: "Compare multiple documents"
-      content: "Analyze and identify differences within multiple documents simultaneously."
+      content: "Simultaneously analyze and identify differences across multiple documents."
 
     # feature loop
     - icon: "complex"
       title: "Supported formats"
-      content: "Supports more than 50 popular document formats from various categories."
+      content: "Compatible with over 50 widely-used document formats from various categories, ensuring broad applicability."
 
     # feature loop
     - icon: "adjustment"
       title: "Accept or reject changes"
-      content: "Clear visual representation of identified changes, providing the option to accept or reject modifications."
+      content: "Сlear visual display of detected changes, complete with options to either accept or reject these modifications."
 
     # feature loop
     - icon: "fas fa-eye"
       title: "Generate previews"
-      content: "Save the results of the comparison as images."
+      content: "Ability to save comparison results as image previews for easy reference and sharing."
 
     # feature loop
     - icon: "fas fa-comment-slash"
       title: "Content comparison"
-      content: "Compare text content line-by-line, by paragraphs, by words, by characters. Highlight the changes."
+      content: "Conduct thorough text comparisons at various levels - including line-by-line, paragraph, word, and character - with highlighted differences for better clarity."
 
     # feature loop
     - icon: "fas fa-remove-format"
-      title: "Style comparison"
-      content: "Detect changes in formatting and styles."
+      title: "Style and formatting comparison"
+      content: "Detects and highlights alterations in document formatting and style, ensuring comprehensive review."
 
     # feature loop
     - icon: "fas fa-wrench"
-      title: "Set metadata"
-      content: "Keep metadata from either the source or target files or allow it to be specified by users."
+      title: "Flexible metadata settings"
+      content: "Preserve metadata from source or target files, or customize it according to user preferences."
 
     # feature loop
     - icon: "fas fa-lock"
       title: "Password protection"
-      content: "Analyze the encrypted documents, or secure the resulting document with a password."
+      content: "Analyze password-protected documents and secure the output document with password encryption for added security."
 
     # feature loop
     - icon: "fas fa-copy"
-      title: "Compare specific pages"
-      content: "Load just the particular sections or pages of the document."
+      title: "Selective page comparison"
+      content: "Load and compare specific sections or pages of a document for targeted analysis."
 
     # feature loop
     - icon: "fas fa-envelope"
       title: "Display comments"
-      content: "When loading the source document you can choose whether to hide or show comments."
+      content: "Choose to display or hide comments when loading the source document, offering greater control over the comparison process."
 
 ############################# Code samples ############################
 code_samples:

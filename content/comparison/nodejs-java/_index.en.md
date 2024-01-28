@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-01-25T14:34:21
+date: 2024-01-28T21:09:59
 draft: false
 
 lang: en
@@ -168,7 +168,7 @@ features:
   items:
     # feature loop
     - icon: "fas fa-columns"
-      title: "Side by side comparison"
+      title: "Easy to use document comparison"
       content: "Analyze and identify differences within two documents."
 
     # feature loop

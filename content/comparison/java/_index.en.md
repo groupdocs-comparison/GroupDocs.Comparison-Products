@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-01-25T14:34:21
+date: 2024-01-28T21:09:59
 draft: false
 
 lang: en
@@ -28,7 +28,7 @@ head_title: "Java Document Comparison Library | Compare Docs for Text & Style"
 head_description: "Java API to compare document style & content. Compare documents of multiple formats to identify differences."
 
 ############################# Header ############################
-title: "Compare & check files using Java API"
+title: "Compare and view file differences using Java API"
 description: "Develop Java applications with a highly configurable document comparison library to compare similar document formats, including files, their content, and text style."
 words:
   for: "for"
@@ -171,58 +171,58 @@ features:
   items:
     # feature loop
     - icon: "fas fa-columns"
-      title: "Side by side comparison"
-      content: "Analyze and identify differences within two documents."
+      title: "Easy to use document comparison"
+      content: "Easily analyze and pinpoint differences between two documents."
 
     # feature loop
     - icon: "fas fa-border-all"
       title: "Compare multiple documents"
-      content: "Analyze and identify differences within multiple documents simultaneously."
+      content: "Simultaneously examine and highlight variances across multiple documents."
 
     # feature loop
     - icon: "complex"
       title: "Supported formats"
-      content: "Supports more than 50 popular document formats from various categories."
+      content: "Compatibility with over 50 widely-used document formats from diverse categories."
 
     # feature loop
     - icon: "adjustment"
       title: "Accept or reject changes"
-      content: "Clear visual representation of identified changes, providing the option to accept or reject modifications."
+      content: "Clear visualization of identified changes, with options to accept or reject modifications."
 
     # feature loop
     - icon: "fas fa-eye"
       title: "Generate previews"
-      content: "Save the results of the comparison as images."
+      content: "Capability to save comparison results as image previews."
 
     # feature loop
     - icon: "fas fa-comment-slash"
       title: "Content comparison"
-      content: "Compare text content line-by-line, by paragraphs, by words, by characters. Highlight the changes."
+      content: "Thorough comparison of text content on various levels - including line-by-line, paragraph, word, and character analysis, with emphasis on alterations."
 
     # feature loop
     - icon: "fas fa-remove-format"
       title: "Style comparison"
-      content: "Detect changes in formatting and styles."
+      content: "Ability to detect and highlight alterations in formatting and style elements."
 
     # feature loop
     - icon: "fas fa-wrench"
       title: "Set metadata"
-      content: "Keep metadata from either the source or target files or allow it to be specified by users."
+      content: "Option to retain metadata from source or target files, or permit user-defined metadata settings."
 
     # feature loop
     - icon: "fas fa-lock"
       title: "Password protection"
-      content: "Analyze the encrypted documents, or secure the resulting document with a password."
+      content: "Facilitates analysis of password-protected documents and enables password protection for the resultant documents."
 
     # feature loop
     - icon: "fas fa-copy"
       title: "Compare specific pages"
-      content: "Load just the particular sections or pages of the document."
+      content: "Load and compare specific sections or pages of a document as required."
 
     # feature loop
     - icon: "fas fa-envelope"
       title: "Display comments"
-      content: "When loading the source document you can choose whether to hide or show comments."
+      content: "Flexibility to display or conceal comments when loading the source document."
 
 ############################# Code samples ############################
 code_samples:
