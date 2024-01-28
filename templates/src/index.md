@@ -58,7 +58,7 @@ supported_platforms:
           # features loop
           - rows: "1"
             content: |
-                    55+ file formats
+                    50+ file formats
       
 
     # items loop
@@ -234,12 +234,12 @@ metrics:
 
   items:
     # items loop
-    - number: "55+"
+    - number: "50+"
       title: "<% "{index-content.metrics.item_1.title}" %>"
       content: "<% "{index-content.metrics.item_1.description}" %>"
 
     # items loop
-    - number: "780k"
+    - number: "800k"
       title: "<% "{index-content.metrics.item_2.title}" %>"
       content: "<% "{index-content.metrics.item_2.description}" %>"
 
