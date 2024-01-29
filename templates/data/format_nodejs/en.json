@@ -5,14 +5,14 @@
       "description": "{{ProdFullName}} offers an API to generate detailed document comparison reports for Node.js applications."
     },
     "header": {
-      "title": "Comparing your {{FileFormatUp}} files with Node.js {{ProdShortName}}",
-      "description": "Documents comparing API based on Node.js provides opportunity to collect and display data about any distinctions in {{FileFormatUp}} files. Improve files comparing productivity with {{ProdShortName}}.",
+      "title": "Comparing your {{FileFormatUp}} files in Node.js",
+      "description": "Document comparison API based on Node.js provides opportunity to collect and display data about any distinctions in {{FileFormatUp}} files. Enhance the productivity of your solutions in file comparison tasks with {{ProdShortName}}.",
       "subtitle": "Solution for files comparing",
       "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
       "title": "Explore the features of {{ProdShortName}} API for Node.js",
-      "content": "{{ProdFullName}} is a tool that helps compare pictures and documents in the same format. It can find differences in paragraphs, words, characters, shapes, and text styles between the compared documents. You can combine these changes and save them as a final document. It works well with PDFs, Word documents, Excel sheets, PowerPoint slides, Visio diagrams, Outlook emails, HTML, drawings, and various image types—all without needing extra tools."
+      "content": "{{ProdFullName}} is an API that helps to compare pictures and documents in the same format. It can find differences in paragraphs, words, characters, shapes, and text styles between the compared documents. You can combine these changes and save them as a final document. It works well with PDFs, Word documents, Excel sheets, PowerPoint slides, Visio diagrams, Outlook emails, HTML, drawings, and various image types—all without needing extra tools."
     },
     "steps": {
       "title": "How to perform {{FileFormatUp}} files comparison using Node.js.",
@@ -44,7 +44,7 @@
     },
     "header": {
       "title": "PDF documents comparison for Node.js via Java",
-      "description": "Node.js via Java documents comparing API for getting and display info about any distinctions in PDFs at applications based on JavaScript. Enjoy getting detailed reports quickly and easily.",
+      "description": "Utilize our document comparison API in Node.js to detect and showcase differences in PDFs within JavaScript-powered applications. Benefit from swiftly and effortlessly obtaining detailed reports.",
       "subtitle": "Solution for comparing documents",
       "action_title": "Free download from {{PackageStoreName}}"
     },

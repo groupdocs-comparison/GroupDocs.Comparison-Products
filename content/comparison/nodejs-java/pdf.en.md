@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-26T15:13:15
+date:  2024-01-29T20:57:18
 draft: false
 lang: en
 format: Pdf
@@ -17,7 +17,7 @@ head_description: "The GroupDocs.Comparison Node.js API generates comprehensive 
 
 ############################# Header ############################
 title: "PDF documents comparison for Node.js via Java" 
-description: "Node.js via Java documents comparing API for getting and display info about any distinctions in PDFs at applications based on JavaScript. Enjoy getting detailed reports quickly and easily."
+description: "Utilize our document comparison API in Node.js to detect and showcase differences in PDFs within JavaScript-powered applications. Benefit from swiftly and effortlessly obtaining detailed reports."
 subtitle: "Solution for comparing documents" 
 
 header_actions:

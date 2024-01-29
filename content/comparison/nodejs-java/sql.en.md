@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-26T15:13:15
+date:  2024-01-29T20:57:18
 draft: false
 lang: en
 format: Sql
@@ -16,8 +16,8 @@ head_title: "Effortlessly compare SQL documents using the Node.js PDF Comparison
 head_description: "GroupDocs.Comparison for Node.js via Java offers an API to generate detailed document comparison reports for Node.js applications."
 
 ############################# Header ############################
-title: "Comparing your SQL files with Node.js GroupDocs.Comparison" 
-description: "Documents comparing API based on Node.js provides opportunity to collect and display data about any distinctions in SQL files. Improve files comparing productivity with GroupDocs.Comparison."
+title: "Comparing your SQL files in Node.js" 
+description: "Document comparison API based on Node.js provides opportunity to collect and display data about any distinctions in SQL files. Enhance the productivity of your solutions in file comparison tasks with GroupDocs.Comparison."
 subtitle: "Solution for files comparing" 
 
 header_actions:
@@ -35,7 +35,7 @@ about:
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for Node.js via Java is a tool that helps compare pictures and documents in the same format. It can find differences in paragraphs, words, characters, shapes, and text styles between the compared documents. You can combine these changes and save them as a final document. It works well with PDFs, Word documents, Excel sheets, PowerPoint slides, Visio diagrams, Outlook emails, HTML, drawings, and various image types—all without needing extra tools.
+       GroupDocs.Comparison for Node.js via Java is an API that helps to compare pictures and documents in the same format. It can find differences in paragraphs, words, characters, shapes, and text styles between the compared documents. You can combine these changes and save them as a final document. It works well with PDFs, Word documents, Excel sheets, PowerPoint slides, Visio diagrams, Outlook emails, HTML, drawings, and various image types—all without needing extra tools.
 
 ############################# Steps ############################
 steps:

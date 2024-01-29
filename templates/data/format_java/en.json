@@ -45,7 +45,7 @@
     "header": {
       "title": "Comparing PDF documents using Java applications",
       "description": "The {{ProdShortName}} Java API provides detailed comparison reports for PDF documents in various kinds of applications that use J2EE or J2SE.",
-      "subtitle": "A tool that compares documents",
+      "subtitle": "An API that compares documents",
       "action_title": "Free download from {{PackageStoreName}}"
     },
     "about": {

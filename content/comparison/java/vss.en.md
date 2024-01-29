@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-26T15:13:14
+date:  2024-01-29T20:57:18
 draft: false
 lang: en
 format: Vss

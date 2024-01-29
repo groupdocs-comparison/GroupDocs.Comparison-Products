@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-26T15:13:14
+date:  2024-01-29T20:57:18
 draft: false
 lang: en
 format: Pdf
@@ -18,7 +18,7 @@ head_description: "The GroupDocs.Comparison Java API creates detailed reports fo
 ############################# Header ############################
 title: "Comparing PDF documents using Java applications" 
 description: "The GroupDocs.Comparison Java API provides detailed comparison reports for PDF documents in various kinds of applications that use J2EE or J2SE."
-subtitle: "A tool that compares documents" 
+subtitle: "An API that compares documents" 
 
 header_actions:
   enable: true

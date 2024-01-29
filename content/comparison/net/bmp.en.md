@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-26T15:13:14
+date:  2024-01-29T20:57:18
 draft: false
 lang: en
 format: Bmp
@@ -16,9 +16,9 @@ head_title: ".NET BMP Comparison API - compare documents using C# .NET"
 head_description: "GroupDocs.Comparison for .NET offers an API to obtain comprehensive document comparison reports in a variety of applications, including C#, ASP.NET, VB.NET, and .NET Core."
 
 ############################# Header ############################
-title: "Comparing BMP files in C# .NET applications" 
+title: "Compare BMP files in .NET solutions" 
 description: ".NET document comparison API for retrieving and displaying differences in BMP files in C#, ASP.NET, VB.NET, and .NET Core Applications. Effortlessly obtain detailed reports for a seamless experience."
-subtitle: "Document comparing solution" 
+subtitle: "Document comparison solution" 
 
 header_actions:
   enable: true

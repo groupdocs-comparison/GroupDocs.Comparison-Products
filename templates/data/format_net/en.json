@@ -7,7 +7,7 @@
     "header": {
       "title": "Compare {{FileFormatUp}} files in .NET solutions",
       "description": ".NET document comparison API for retrieving and displaying differences in {{FileFormatUp}} files in C#, ASP.NET, VB.NET, and .NET Core Applications. Effortlessly obtain detailed reports for a seamless experience.",
-      "subtitle": "Document comparing solution",
+      "subtitle": "Document comparison solution",
       "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
@@ -44,8 +44,8 @@
     },
     "header": {
       "title": "Comparing PDF documents in C# .NET applications",
-      "description": ".NET documents comparing API for getting and display info about any distinctions in PDFs at applications based on C#, ASP.NET, VB.NET & .NET Core. Enjoy getting detailed reports quickly and easily.",
-      "subtitle": "Document comparing solution",
+      "description": ".NET document comparison API for identifying and displaying differences in PDFs within applications based on C#, ASP.NET, VB.NET, and .NET Core. Effortlessly obtain detailed reports for a seamless experience.",
+      "subtitle": "Document comparison solution",
       "action_title": "Free download from {{PackageStoreName}}"
     },
     "about": {
