@@ -82,20 +82,21 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```csharp {style=abap}
+        ```java {style=abap}
 
         // <% "{common.steps.code.comments.comment_1}" %>
 
         // <% "{common.steps.code.comments.comment_2}" %>
-        using (Comparer comparer = new Comparer("source.<% get "fileformat" %>"))
+        try (Comparer comparer = new Comparer("source.<% get "fileformat" %>") 
         {
             // <% "{common.steps.code.comments.comment_3}" %>
-        	comparer.Add("target1.<% get "fileformat" %>");
-            comparer.Add("target2.<% get "fileformat" %>");
-            comparer.Add("target3.<% get "fileformat" %>");
+        	comparer.add("target1.<% get "fileformat" %>");
+            comparer.add("target2.<% get "fileformat" %>");
 
             // <% "{common.steps.code.comments.comment_4}" %>
-            comparer.Compare("result.pdf"); 
+            final Path resultPath = comparer.compare("result.pdf"); 
+
+            System.out.println("\nDocuments compared successfully.");
         }
         
         ```            

@@ -67,21 +67,21 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```csharp {style=abap}
+        ```javascript {style=abap}
 
-        // <% (dict "{fileformat}.steps.code.comments.comment_1") %>
+        // <% "{common.steps.code.comments.comment_1}" %>
 
-        // <% (dict "{fileformat}.steps.code.comments.comment_2") %>
-        using (Comparer comparer = new Comparer("source.<% get "fileformat" %>"))
-        {
-            // <% (dict "{fileformat}.steps.code.comments.comment_3") %>
-        	comparer.Add("target1.<% get "fileformat" %>");
-            comparer.Add("target2.<% get "fileformat" %>");
-            comparer.Add("target3.<% get "fileformat" %>");
+        // <% "{common.steps.code.comments.comment_2}" %>
+        const comparer = new groupdocs.comparison.Comparer('first.<% get "fileformat" %>');
 
-            // <% (dict "{fileformat}.steps.code.comments.comment_4") %>
-            comparer.Compare("result.pdf"); 
-        }
+        // <% "{common.steps.code.comments.comment_3}" %>
+        comparer.add('second.<% get "fileformat" %>');
+        comparer.add('third.<% get "fileformat" %>');
+
+        // <% "{common.steps.code.comments.comment_4}" %>
+        await comparer.compare('report_full.pdf');
+
+        console.log('\nDocuments compared successfully.\nCheck output.');
         
         ```            
 

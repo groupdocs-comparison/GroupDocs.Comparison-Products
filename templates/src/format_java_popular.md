@@ -82,20 +82,22 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```csharp {style=abap}
+        ```java {style=abap}
 
-        // <% (dict "{fileformat}.steps.code.comments.comment_1") %>
+        // <% "{common.steps.code.comments.comment_1}" %>
 
-        // <% (dict "{fileformat}.steps.code.comments.comment_2") %>
-        using (Comparer comparer = new Comparer("source.<% get "fileformat" %>"))
+        // <% "{common.steps.code.comments.comment_2}" %>
+        try (Comparer comparer = new Comparer("main.<% get "fileformat" %>") 
         {
-            // <% (dict "{fileformat}.steps.code.comments.comment_3") %>
-        	comparer.Add("target1.<% get "fileformat" %>");
-            comparer.Add("target2.<% get "fileformat" %>");
-            comparer.Add("target3.<% get "fileformat" %>");
+            // <% "{common.steps.code.comments.comment_3}" %>
+        	comparer.add("version1.<% get "fileformat" %>");
+            comparer.add("version2.<% get "fileformat" %>");
+            comparer.add("version3.<% get "fileformat" %>");
 
-            // <% (dict "{fileformat}.steps.code.comments.comment_4") %>
-            comparer.Compare("result.pdf"); 
+            // <% "{common.steps.code.comments.comment_4}" %>
+            final Path resultPath = comparer.compare("full_report.pdf"); 
+
+            System.out.println("\nDocuments compared successfully.");
         }
         
         ```            

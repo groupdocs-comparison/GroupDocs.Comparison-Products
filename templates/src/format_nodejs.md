@@ -67,22 +67,22 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```csharp {style=abap}
+        ```javascript {style=abap}
 
         // <% "{common.steps.code.comments.comment_1}" %>
 
         // <% "{common.steps.code.comments.comment_2}" %>
-        using (Comparer comparer = new Comparer("source.<% get "fileformat" %>"))
-        {
-            // <% "{common.steps.code.comments.comment_3}" %>
-        	comparer.Add("target1.<% get "fileformat" %>");
-            comparer.Add("target2.<% get "fileformat" %>");
-            comparer.Add("target3.<% get "fileformat" %>");
+        const comparer = new groupdocs.comparison.Comparer('source.<% get "fileformat" %>');
 
-            // <% "{common.steps.code.comments.comment_4}" %>
-            comparer.Compare("result.pdf"); 
-        }
-        
+        // <% "{common.steps.code.comments.comment_3}" %>
+        comparer.add('file_v1.<% get "fileformat" %>');
+        comparer.add('file_2023.<% get "fileformat" %>');
+
+        // <% "{common.steps.code.comments.comment_4}" %>
+        await comparer.compare('report_new.pdf');
+
+        console.log('\nFiles are compared.\nCheck result.');
+
         ```            
 
 ############################# Actions ############################

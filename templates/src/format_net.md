@@ -72,15 +72,14 @@ steps:
         // <% "{common.steps.code.comments.comment_1}" %>
 
         // <% "{common.steps.code.comments.comment_2}" %>
-        using (Comparer comparer = new Comparer("source.<% get "fileformat" %>"))
+        using (Comparer comparer = new Comparer("main_document.<% get "fileformat" %>"))
         {
             // <% "{common.steps.code.comments.comment_3}" %>
-        	comparer.Add("target1.<% get "fileformat" %>");
-            comparer.Add("target2.<% get "fileformat" %>");
-            comparer.Add("target3.<% get "fileformat" %>");
+        	comparer.Add("modified_1.<% get "fileformat" %>");
+            comparer.Add("modified_2.<% get "fileformat" %>");
 
             // <% "{common.steps.code.comments.comment_4}" %>
-            comparer.Compare("result.pdf"); 
+            comparer.Compare("report.pdf"); 
         }
         
         ```            

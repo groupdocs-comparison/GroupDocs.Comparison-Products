@@ -75,9 +75,9 @@ steps:
         using (Comparer comparer = new Comparer("source.<% get "fileformat" %>"))
         {
             // <% (dict "{fileformat}.steps.code.comments.comment_3") %>
-        	comparer.Add("target1.<% get "fileformat" %>");
-            comparer.Add("target2.<% get "fileformat" %>");
-            comparer.Add("target3.<% get "fileformat" %>");
+        	comparer.Add("file_to_compare_1.<% get "fileformat" %>");
+            comparer.Add("file_to_compare_2.<% get "fileformat" %>");
+            comparer.Add("file_to_compare_3.<% get "fileformat" %>");
 
             // <% (dict "{fileformat}.steps.code.comments.comment_4") %>
             comparer.Compare("result.pdf"); 
