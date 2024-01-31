@@ -20,13 +20,13 @@ head_description: "<% (dict "{fileformat}.head.description") %>"
 ############################# Header ############################
 title: "<% (dict "{fileformat}.header.title") %>" 
 description: "<% (dict "{fileformat}.header.description") %>"
-subtitle: "<% (dict "{fileformat}.header.subtitle") %>" 
+subtitle: "<% "{common.header.subtitle}" %>" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "<% (dict "{fileformat}.header.action_title") %>"
+    - title: "<% "{common.header.action_title}" %>"
       link: "<% get "ReleaseDownloads" %>"
       
 ############################# About ############################
@@ -79,7 +79,7 @@ steps:
         comparer.add('third.<% get "fileformat" %>');
 
         // <% "{common.steps.code.comments.comment_4}" %>
-        await comparer.compare('report_full.pdf');
+        await comparer.compare('report_full.<% get "fileformat" %>');
 
         console.log('\nDocuments compared successfully.\nCheck output.');
         

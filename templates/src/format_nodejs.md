@@ -79,7 +79,7 @@ steps:
         comparer.add('file_2023.<% get "fileformat" %>');
 
         // <% "{common.steps.code.comments.comment_4}" %>
-        await comparer.compare('report_new.pdf');
+        await comparer.compare('report_new.<% get "fileformat" %>');
 
         console.log('\nFiles are compared.\nCheck result.');
 

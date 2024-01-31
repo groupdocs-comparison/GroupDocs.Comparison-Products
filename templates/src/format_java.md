@@ -94,7 +94,7 @@ steps:
             comparer.add("target2.<% get "fileformat" %>");
 
             // <% "{common.steps.code.comments.comment_4}" %>
-            final Path resultPath = comparer.compare("result.pdf"); 
+            final Path resultPath = comparer.compare("result.<% get "fileformat" %>"); 
 
             System.out.println("\nDocuments compared successfully.");
         }

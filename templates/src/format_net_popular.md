@@ -20,13 +20,13 @@ head_description: "<% (dict "{fileformat}.head.description") %>"
 ############################# Header ############################
 title: "<% (dict "{fileformat}.header.title") %>" 
 description: "<% (dict "{fileformat}.header.description") %>"
-subtitle: "<% (dict "{fileformat}.header.subtitle") %>" 
+subtitle: "<% "{common.header.subtitle}" %>" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "<% (dict "{fileformat}.header.action_title") %>"
+    - title: "<% "{common.header.action_title}" %>"
       link: "<% get "ReleaseDownloads" %>"
       
 ############################# About ############################
@@ -80,7 +80,7 @@ steps:
             comparer.Add("file_to_compare_3.<% get "fileformat" %>");
 
             // <% (dict "{fileformat}.steps.code.comments.comment_4") %>
-            comparer.Compare("result.pdf"); 
+            comparer.Compare("result.<% get "fileformat" %>"); 
         }
         
         ```            

@@ -11,7 +11,7 @@
       "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
-      "title": "Discover {{ProdFullName}} API",
+      "title": "Discover {{ProdFullName}} API advantages",
       "content": "{{ProdFullName}} is a native .NET API designed for comparing multiple images and documents of the same format. It aids in detecting differences within paragraphs, words, characters, shapes, and even the text styles of the compared documents. With the ability to merge these changes and export to a final document, it supports comparison and merging of PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings, and various image file formats—all without the need for any external libraries."
     },
     "steps": {
@@ -44,13 +44,11 @@
     },
     "header": {
       "title": "Comparing PDF documents in C# .NET applications",
-      "description": ".NET document comparison API for identifying and displaying differences in PDFs within applications based on C#, ASP.NET, VB.NET, and .NET Core. Effortlessly obtain detailed reports for a seamless experience.",
-      "subtitle": "Document comparison solution",
-      "action_title": "Free download from {{PackageStoreName}}"
+      "description": ".NET document comparison API for identifying and displaying differences in PDFs within applications based on C#, ASP.NET, VB.NET, and .NET Core. Effortlessly obtain detailed reports for a seamless experience."
     },
     "about": {
       "title": "Uncover {{ProdFullName}} API features",
-      "content": "Get detailed reports about differences at documents of popular formats at your .NET applications. Use {{ProdFullName}} APIs by adding a couple lines of code. Developers can easily display {{FileFormatUp}}, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing additional software or any other external libraries."
+      "content": "Get detailed reports about differences at PDF documents at your .NET applications. Merge distinct PDFs to a new one with the same format. Use {{ProdFullName}} APIs by adding a couple lines of code. Process PDFs and other formats without third-party software."
     },
     "steps": {
       "title": "How to compare PDFs using C#",
@@ -73,6 +71,42 @@
     "formats": {
       "title": "Compare PDFs using C# and get full report",
       "description": ".NET API for PDF documents comparison. Stay well-informed about any changes at your documents easily."
+    }
+  },
+  "png": {
+    "head": {
+      "title": "PNG images comparing by {{ProdFullName}} API",
+      "description": "{{ProdFullName}} allows us to generate precise reports about distinctions at PNG images for applications based on C#, ASP.NET, VB.NET, or .NET Core"
+    },
+    "header": {
+      "title": "Compare PNG images via C# .NET applications",
+      "description": "{{ProdFullName}} API searches for any differences among PNG files quickly and easily. Improve C#, ASP.NET, VB.NET, and .NET Core applications in order to obtain comparison reports."
+    },
+    "about": {
+      "title": "Uncover {{ProdFullName}} API features",
+      "content": "{{ProdFullName}} API designed for comparing multiple PNG images and composing sophisticated reports about any distinctions at such images. It might be used at your .NET applications without installing any third-party software. Use {{ProdFullName}} APIs by adding a couple lines of code with many useful features out of the box."
+    },
+    "steps": {
+      "title": "How to compare PNG pictures by {{ProgLang}}",
+      "content": {
+        "title": "Construct report describes differences in PNG pictures by [{{ProdShortName}}]({{ProductUrl}})",
+        "step_1": "Download and install {{ProdFullName}} from [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Instantiate Comparer object providing path to PNG image",
+        "step_3": "Involve other PNG files to be compared",
+        "step_4": "Get final reports showing images alterations"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Construct report about changes in PNG images",
+          "comment_2": "Create Comparer pointing to the first file",
+          "comment_3": "Involve other pictures to comparison process",
+          "comment_4": "Enjoy the resulting report"
+        }
+      }
+    },
+    "formats": {
+      "title": "Compare PNG images by {{ProgLang}} and {{EnvName}}",
+      "description": "{{EnvName}} API for PNG images comparison. Get information about any alterations in files without extra efforts."
     }
   }
 }

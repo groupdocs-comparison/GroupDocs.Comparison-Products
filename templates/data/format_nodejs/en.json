@@ -44,13 +44,11 @@
     },
     "header": {
       "title": "PDF documents comparison for Node.js via Java",
-      "description": "Utilize our document comparison API in Node.js to detect and showcase differences in PDFs within JavaScript-powered applications. Benefit from swiftly and effortlessly obtaining detailed reports.",
-      "subtitle": "Solution for comparing documents",
-      "action_title": "Free download from {{PackageStoreName}}"
+      "description": "Utilize our document comparison API in Node.js to detect and showcase differences in PDFs within JavaScript-powered applications. Benefit from swiftly and effortlessly obtaining detailed reports."
     },
     "about": {
       "title": "Explore {{ProdFullName}} API features",
-      "content": "Get detailed reports about differences at documents of popular formats at your .NET applications. Use {{ProdFullName}} APIs by adding a couple lines of code. Developers can easily display {{FileFormatUp}}, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing additional software or any other external libraries."
+      "content": "Get detailed reports about any differences inside PDF documents at your .NET applications. Use {{ProdFullName}} APIs by adding a couple lines of code without any additional software or any other external libraries. Control any alterations in paragraphs, words, characters, shapes, and text styles inside your PDF files. Merging changes from many document versions to result PDF is available too. Process documents swiftly and without extra efforts."
     },
     "steps": {
       "title": "Getting report about PDFs distinctions in JavaScript",
@@ -73,6 +71,42 @@
     "formats": {
       "title": "Compare popular file formats like PDF using JavaScript",
       "description": "Your PDF files could be compared by our Node.js API quickly. Control document changes effortlessly with detailed reports."
+    }
+  },
+  "png": {
+    "head": {
+      "title": "{{ProdFullName}} API helps us with comparing PDF documents.",
+      "description": "{{ProdFullName}} API represents detailed reports about distinctions in images in PNG format."
+    },
+    "header": {
+      "title": "PNG images comparison Node.js applications via Java",
+      "description": "Take advantages of using Node.js API to track changes at PNG files at JavaScript applications. Obtaining detailed reports effortlessly and swiftly."
+    },
+    "about": {
+      "title": "Open {{ProdFullName}} API possibilities",
+      "content": "Compose full reports about any changes in different versions of PNG documents by your JavaScript applications. No need in any third-party software. Be well-informed about any alterations in versions of your PNG image."
+    },
+    "steps": {
+      "title": "Compose PNG images distinctions reports in {{ProgLang}}",
+      "content": {
+        "title": "Track PNG documents alterations using reports provided by [{{ProdShortName}}]({{ProductUrl}})",
+        "step_1": "Install {{ProdShortName}} package via [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Use Comparer class constructor with path to PNG",
+        "step_3": "Add a few PNGs to comparison",
+        "step_4": "Get a report containing info about differences"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "PNGs distinctions report composing process",
+          "comment_2": "New instance of Comparer must be provided",
+          "comment_3": "Other PNG file or files too",
+          "comment_4": "Get result in the same format"
+        }
+      }
+    },
+    "formats": {
+      "title": "Match images in popular formats like PNG using {{ProgLang}}",
+      "description": "Use {{ProdFullName}} API in order to get information about PNG pictures differences. Detailed reports helps you to be informed about any changes at important data."
     }
   }
 }

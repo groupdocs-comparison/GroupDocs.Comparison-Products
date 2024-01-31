@@ -5,6 +5,6 @@ dimensions:
   values: [format_java] 
 
 - alias:  fileformat
-  values: [asm, bmp, cpp, cs, csv, dcm, dicom, diff, djvu, doc, docm, docx, dot, dotm, dotx, dwg, dxf, eml, emlx, gif, groovy, htm, html, java, jpeg, jpg, js, json, less, log, mht, mhtml, mobi, msg, odp, ods, odt, one, otp, ott, php, pl, png, pot, potx, pps, ppsx, ppt, pptx, py, rb, rtf, scala, sql, txt, vdx, vsd, vsdx, vss, vst, xls, xlsb, xlsm, xlsx, xlt, xltm ] 
+  values: [asm, bmp, cpp, cs, csv, dcm, dicom, diff, djvu, doc, docm, docx, dot, dotm, dotx, dwg, dxf, eml, emlx, gif, groovy, htm, html, java, jpeg, jpg, js, json, less, log, mht, mhtml, mobi, msg, odp, ods, odt, one, otp, ott, php, pl, pot, potx, pps, ppsx, ppt, pptx, py, rb, rtf, scala, sql, txt, vdx, vsd, vsdx, vss, vst, xls, xlsb, xlsm, xlsx, xlt, xltm ] 
 
 outputPath: "comparison\\{product}\\{fileformat}.{lang}.md"

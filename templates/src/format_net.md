@@ -79,7 +79,7 @@ steps:
             comparer.Add("modified_2.<% get "fileformat" %>");
 
             // <% "{common.steps.code.comments.comment_4}" %>
-            comparer.Compare("report.pdf"); 
+            comparer.Compare("report.<% get "fileformat" %>"); 
         }
         
         ```            
