@@ -72,6 +72,42 @@
       "title": "Compare popular file formats like PDF using JavaScript",
       "description": "Your PDF files could be compared by our Node.js API quickly. Control document changes effortlessly with detailed reports."
     }
+  },  
+  "docx": {
+    "head": {
+      "title": "{{ProdFullName}} API allows to compare DOCX documents.",
+      "description": "MS Word DOCX files might be compared by {{ProdShortName}} Node.js API that generates useful reports describing documents alterations."
+    },
+    "header": {
+      "title": "DOCX files comparison with Node.js via Java",
+      "description": "Utilize document processing API in Node.js to detect and reveal any alterations in MS Word DOCX files by {{EnvName}} applications. Take advantages of swift and effortless reports generation."
+    },
+    "about": {
+      "title": "Open {{ProdFullName}} API features",
+      "content": "Detailed reports that bring rich data about changes in deferent versions of DOCX documents are provided by {{ProdShortName}}. Use {{EnvName}} along with our API by adding a couple lines of code and without other libraries. Analyze alterations in pages, text, text styles or shapes in MS Word documents. Select only right data and compose final DOCX document by merging. Advance in your documents processing solutions with our software."
+    },
+    "steps": {
+      "title": "Compose report with DOCX documents distinctions in {{ProgLang}}",
+      "content": {
+        "title": "[{{ProdShortName}}]({{ProductUrl}}) and {{EnvName}} allows us to compare DOCX documents",
+        "step_1": "Use [{{PackageStoreName}}]({{PackageUrl}}) to install {{ProdShortName}} for Node.js via Java",
+        "step_2": "Calling Comparer constructor needs DOCX path",
+        "step_3": "Other DOCX files must be provided",
+        "step_4": "Enjoy the results"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Obtain data describing DOCX alterations",
+          "comment_2": "Provide Comparer instance with MS Word file",
+          "comment_3": "Append more files",
+          "comment_4": "Store result to local disk"
+        }
+      }
+    },
+    "formats": {
+      "title": "Use JavaScript for DOCX docs comparison",
+      "description": "Any MS Word DOCX file might be compared with {{ProdFullName}}. Put hands on valuable info about changes in your documents."
+    }
   },
   "png": {
     "head": {

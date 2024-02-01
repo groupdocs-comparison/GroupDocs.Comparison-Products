@@ -73,6 +73,42 @@
       "description": ".NET API for PDF documents comparison. Stay well-informed about any changes at your documents easily."
     }
   },
+  "docx": {
+    "head": {
+      "title": "Compare MS Word documents by {{ProdFullName}}",
+      "description": "MS Word documents particularly DOCX could be compared by {{ProdFullName}} API. As result you obtain detailed report with highlighted alterations between DOCX documents. Use our API along with applications based on C#, ASP.NET, VB.NET, or .NET Core."
+    },
+    "header": {
+      "title": "MS Word DOCX comparison with C# .NET applications",
+      "description": "{{EnvName}} API designed for documents comparison finds and reports any differences in MS Word files. Build applications based on C#, ASP.NET, VB.NET, or .NET Core to get advantages. Obtain detailed reports adding a few code-lines."
+    },
+    "about": {
+      "title": "Examine {{ProdFullName}} API features",
+      "content": "Reveal alterations in your DOCX documents with convenient report in your {{EnvName}} projects. Moreover, get information about styles, shapes and other content and merge DOCX files to a new one. Advantages of {{ProdFullName}} APIs could be brought to your projects by only a couple lines of code. Use our software without third-party developers."
+    },
+    "steps": {
+      "title": "MS Word DOCX comparison reports via .NET and C#",
+      "content": {
+        "title": "Compose distinctions report for DOCX files using [{{ProdShortName}}]({{ProductUrl}})",
+        "step_1": "Download {{ProdFullName}} package from [{{PackageStoreName}}]({{PackageUrl}}) and install it",
+        "step_2": "Instantiate Comparer object passing path to DOCX",
+        "step_3": "Add DOCX files to comparison",
+        "step_4": "Get report with distinctions info"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "DOCX files alterations report",
+          "comment_2": "Instantiate Comparer for document processing",
+          "comment_3": "Add at least one file for comparison",
+          "comment_4": "Analyze result"
+        }
+      }
+    },
+    "formats": {
+      "title": "Comparison of DOCX by C# applications",
+      "description": "{{ProdFullName}} advantages for control versions of popular files formats. Collect MS Word documents information quickly and easily."
+    }
+  },
   "png": {
     "head": {
       "title": "PNG images comparing by {{ProdFullName}} API",

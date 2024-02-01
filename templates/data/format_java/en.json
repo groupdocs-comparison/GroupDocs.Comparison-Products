@@ -73,6 +73,42 @@
       "description": "Our Java API provides possibility to control PDF files versions by generating precise and detailed report in your favorite format."
     }
   },
+  "docx": {
+    "head": {
+      "title": "{{ProdFullName}} is quite useful for DOCX documents comparing.",
+      "description": "Opportunities presented by {{ProdShortName}} API allow us to retrieve reports containing information about distinctions in DOCX documents. Java, J2EE and J2SE are supported."
+    },
+    "header": {
+      "title": "Java applications for searching for distinctions in DOCX documents",
+      "description": "Java API presented by {{ProdShortName}} compares any DOCX documents in applications supports Java, J2EE or J2SE."
+    },
+    "about": {
+      "title": "Explore {{ProdFullName}} API advantages",
+      "content": "DOCX documents comparison supported by {{ProdFullName}} API that composes reports containing data about various distinctions. Text within paragraphs, shapes and styles and other data are being analyzed. Furthermore, it is possible to compose one DOCX merging alterations from initial files. No need in any external libraries. Improve your {{EnvName}} projects adding a few lines of code."
+    },
+    "steps": {
+      "title": "Use Java to multiple DOCX files comparison",
+      "content": {
+        "title": "Use [{{ProdShortName}}]({{ProductUrl}}) to compare MS Word documents",
+        "step_1": "Install our solution from [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Comparer must be created with first DOCX document as a parameter",
+        "step_3": "Any comparison needs more than one DOCX document",
+        "step_4": "Resulting report provides useful data"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Be well-informed about changes in MS Word documents",
+          "comment_2": "Pass DOCX path to Comparer",
+          "comment_3": "Add another DOCX doc",
+          "comment_4": "Get comprehensive report for future analyzing"
+        }
+      }
+    },
+    "formats": {
+      "title": "Control any changes at DOCX files using Java",
+      "description": "{{ProdShortName}} Java API allows users to control DOCX documents versions vis precise and detailed reports which may be easily processed."
+    }
+  },
   "png": {
     "head": {
       "title": "Get comparison reports for PNG pictures using {{ProdFullName}}.",
