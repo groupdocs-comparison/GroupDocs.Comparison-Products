@@ -111,7 +111,7 @@
   },
   "png": {
     "head": {
-      "title": "{{ProdFullName}} API helps us with comparing PDF documents.",
+      "title": "{{ProdFullName}} API helps us with comparing PNG documents.",
       "description": "{{ProdFullName}} API represents detailed reports about distinctions in images in PNG format."
     },
     "header": {
@@ -143,6 +143,42 @@
     "formats": {
       "title": "Match images in popular formats like PNG using {{ProgLang}}",
       "description": "Use {{ProdFullName}} API in order to get information about PNG pictures differences. Detailed reports helps you to be informed about any changes at important data."
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "{{ProdFullName}} API designed to automate JPEG images comparison.",
+      "description": "Explore {{ProdFullName}} API features to get info about distinctions in JPEG pictures."
+    },
+    "header": {
+      "title": "Getting JPEG alterations reports by Node.js via Java applications ",
+      "description": "Powerful Node.js solution to compare changes at JPEG images within JavaScript applications. Detailed reports brings significant advantages to your business solutions."
+    },
+    "about": {
+      "title": "Discover capabilities of {{ProdFullName}} API",
+      "content": "Be well-informed about any changes in JPEG image files using {{ProdFullName}} software. Analyze rich data in our reports to process your JPEG files using JavaScript applications. No additional packages. Empower your business solutions by adding a few lines of code."
+    },
+    "steps": {
+      "title": "Collect JPEG alterations data via {{ProgLang}}",
+      "content": {
+        "title": "Use [{{ProdShortName}}]({{ProductUrl}}) features to control changes at JPEG images",
+        "step_1": "Get {{ProdShortName}} from [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Add comparer object with JPEG file path",
+        "step_3": "At least two JPEG files must be analyzed",
+        "step_4": "Get result in the JPEG format"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Processing JPEG files to get distinctions report",
+          "comment_2": "New object of Comparer class",
+          "comment_3": "Other JPEG files",
+          "comment_4": "Report with info about JPEG differences"
+        }
+      }
+    },
+    "formats": {
+      "title": "Compare JPEG popular format images via {{ProgLang}}",
+      "description": "API based on {{ProdFullName}} compose valuable information about differences among JPEG pictures. Convenient reports allow to control any changes at business files."
     }
   }
 }

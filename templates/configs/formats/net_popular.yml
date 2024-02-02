@@ -5,6 +5,6 @@ dimensions:
   values: [format_net] 
 
 - alias:  fileformat
-  values: [pdf, docx, png] 
+  values: [pdf, docx, png, jpeg] 
 
 outputPath: "comparison\\{product}\\{fileformat}.{lang}.md"

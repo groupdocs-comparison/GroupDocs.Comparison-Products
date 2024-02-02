@@ -144,5 +144,41 @@
       "title": "Compare PNG images by {{ProgLang}} and {{EnvName}}",
       "description": "{{EnvName}} API for PNG images comparison. Get information about any alterations in files without extra efforts."
     }
+  },
+  "jpeg": {
+    "head": {
+      "title": "{{ProdFullName}} API for JPEG images comparing",
+      "description": "{{ProdFullName}} represents powerful API for collecting data about various distinctions inside JPEG images to be involved to C#, ASP.NET, VB.NET, or .NET Core applications."
+    },
+    "header": {
+      "title": "Comparison of changes at JPEG images with {{EnvName}} technologies",
+      "description": "Collecting and representing as a report data about changes in JPEG files provided by {{ProdFullName}} API quickly and easily. Business solutions based on C#, ASP.NET, VB.NET, and .NET Core could be empowered with our software to get useful data."
+    },
+    "about": {
+      "title": "Investigate {{ProdFullName}} API features",
+      "content": "{{ProdFullName}} API provides rich functionality in JPEG images comparison. Resulting reports contain data about any distinctions at selected images. Using of our software in your .NET projects do not request for any other libraries. Just add some lines of code and get powerful tool to achieve your goals."
+    },
+    "steps": {
+      "title": "How to compare PNG pictures by {{ProgLang}}",
+      "content": {
+        "title": "Control content of JPEG files with [{{ProdShortName}}]({{ProductUrl}})",
+        "step_1": "Get {{ProdFullName}} from [{{PackageStoreName}}]({{PackageUrl}}) and add to your project",
+        "step_2": "Use Comparer object constructor to set path to JPEG image",
+        "step_3": "Involve other JPEG image to be analyzed",
+        "step_4": "Investigate report saved to local disc"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Compose report about differences in JPEG images",
+          "comment_2": "Pass main file path to Comparer constructor",
+          "comment_3": "Provide paths to other JPEG pictures",
+          "comment_4": "Save resulting report to file"
+        }
+      }
+    },
+    "formats": {
+      "title": "Comparison for JPEG images with {{EnvName}}",
+      "description": "Analyze information about any changes in JPEG files easily using {{ProdFullName}} product."
+    }
   }
 }

@@ -120,7 +120,7 @@
     },
     "about": {
       "title": "Be informed about {{ProdFullName}} API features",
-      "content": "{{ProdShortName}} developed as a native Java API suitable for composing detailed reports based on variations among different versions of images represented in PNG format. Not only PNG format is supported. A lot of image formats are supported by our API."
+      "content": "{{ProdShortName}} developed as a native Java API suitable for composing detailed reports based on variations among different versions of images represented in PNG format. Not only PNG format is supported. A lot of useful features are supported by our API."
     },
     "steps": {
       "title": "Use {{ProgLang}} to comparing PNG files",
@@ -143,6 +143,42 @@
     "formats": {
       "title": "Find distinctions at different versions of PNG images via {{ProgLang}}",
       "description": "{{ProdFullName}} API tracks alterations inside PNG pictures and composes demonstrative reports for further analyzing."
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "Analyze JPEG images with comparison reports using {{ProdFullName}}.",
+      "description": "Powerful {{ProdFullName}} API developed to generate useful distinctions reports for JPEG pictures. J2EE and J2SE are supported."
+    },
+    "header": {
+      "title": "Compare JPEG images with our Java library",
+      "description": "Java, J2EE or J2SE applications powered by {{ProdShortName}} API allow to retrieve detailed reports about distinctions at JPEG pictures effortlessly."
+    },
+    "about": {
+      "title": "Take a look at {{ProdFullName}} API",
+      "content": "Native Java API called {{ProdShortName}} composes detailed reports about alterations between versions of images saved in JPEG format. Many popular image formats are supported as well. A lot of image formats are supported by our API."
+    },
+    "steps": {
+      "title": "Use {{ProgLang}} to compare JPEG pictures",
+      "content": {
+        "title": "Retrieve useful information about JPEG images differences via [{{ProdShortName}}]({{ProductUrl}})",
+        "step_1": "Involve {{ProdFullName}} package to your project from [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Instantiate Comparer with path to JPEG image",
+        "step_3": "Append JPEG files to comparison",
+        "step_4": "Get resulting report"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Compose distinctions data for JPEG",
+          "comment_2": "Comparer object needs main JPEG file path",
+          "comment_3": "Other JPEG pictures must be pointed",
+          "comment_4": "Result file contains report"
+        }
+      }
+    },
+    "formats": {
+      "title": "Control changes in different versions of JPEG images by {{ProgLang}}",
+      "description": "Any alterations in JPEG pictures might be detected by {{ProdFullName}}. Involve detailed reports to your business processes."
     }
   }
 }
