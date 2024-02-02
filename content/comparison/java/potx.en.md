@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-29T20:57:17
+date:  2024-02-02T14:05:45
 draft: false
 lang: en
 format: Potx
@@ -80,20 +80,21 @@ steps:
           link: "https://docs.groupdocs.com/comparison/java/"
           
       content: |
-        ```csharp {style=abap}
+        ```java {style=abap}
 
         // Check files from your hard drive for differences or similarities
 
         // Create a Comparer object by specifying the initial file
-        using (Comparer comparer = new Comparer("source.potx"))
+        try (Comparer comparer = new Comparer("source.potx") 
         {
             // Include additional files to comparing
-        	comparer.Add("target1.potx");
-            comparer.Add("target2.potx");
-            comparer.Add("target3.potx");
+        	comparer.add("target1.potx");
+            comparer.add("target2.potx");
 
             // Get the report with the specified name as the result
-            comparer.Compare("result.pdf"); 
+            final Path resultPath = comparer.compare("result.potx"); 
+
+            System.out.println("\nDocuments compared successfully.");
         }
         
         ```            

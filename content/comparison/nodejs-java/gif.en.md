@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-29T20:57:18
+date:  2024-02-02T14:05:46
 draft: false
 lang: en
 format: Gif
@@ -65,22 +65,22 @@ steps:
           link: "https://docs.groupdocs.com/comparison/nodejs-java/"
           
       content: |
-        ```csharp {style=abap}
+        ```javascript {style=abap}
 
         // Check multiple files to see how they are similar or different
 
         // Create a Comparer object and give it the first file as input
-        using (Comparer comparer = new Comparer("source.gif"))
-        {
-            // Append more files
-        	comparer.Add("target1.gif");
-            comparer.Add("target2.gif");
-            comparer.Add("target3.gif");
+        const comparer = new groupdocs.comparison.Comparer('source.gif');
 
-            // Fetch the final report
-            comparer.Compare("result.pdf"); 
-        }
-        
+        // Append more files
+        comparer.add('file_v1.gif');
+        comparer.add('file_2023.gif');
+
+        // Fetch the final report
+        await comparer.compare('report_new.gif');
+
+        console.log('\nFiles are compared.\nCheck result.');
+
         ```            
 
 ############################# Actions ############################

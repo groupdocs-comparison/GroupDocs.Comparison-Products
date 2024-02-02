@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-29T20:57:18
+date:  2024-02-02T14:05:46
 draft: false
 lang: en
 format: Mobi
@@ -65,22 +65,22 @@ steps:
           link: "https://docs.groupdocs.com/comparison/nodejs-java/"
           
       content: |
-        ```csharp {style=abap}
+        ```javascript {style=abap}
 
         // Check multiple files to see how they are similar or different
 
         // Create a Comparer object and give it the first file as input
-        using (Comparer comparer = new Comparer("source.mobi"))
-        {
-            // Append more files
-        	comparer.Add("target1.mobi");
-            comparer.Add("target2.mobi");
-            comparer.Add("target3.mobi");
+        const comparer = new groupdocs.comparison.Comparer('source.mobi');
 
-            // Fetch the final report
-            comparer.Compare("result.pdf"); 
-        }
-        
+        // Append more files
+        comparer.add('file_v1.mobi');
+        comparer.add('file_2023.mobi');
+
+        // Fetch the final report
+        await comparer.compare('report_new.mobi');
+
+        console.log('\nFiles are compared.\nCheck result.');
+
         ```            
 
 ############################# Actions ############################

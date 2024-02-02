@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-29T20:57:17
+date:  2024-02-02T14:05:45
 draft: false
 lang: en
 format: Jpeg
@@ -12,13 +12,13 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Utilize the Comparison API to compare JPEG documents using Java."
-head_description: "GroupDocs.Comparison for Java provides an API to obtain detailed document comparison reports in various Java applications, including J2EE and J2SE."
+head_title: "Analyze JPEG images with comparison reports using GroupDocs.Comparison for Java."
+head_description: "Powerful GroupDocs.Comparison for Java API developed to generate useful distinctions reports for JPEG pictures. J2EE and J2SE are supported."
 
 ############################# Header ############################
-title: "JPEG document comparison in Java applications" 
-description: "GroupDocs.Comparison API for getting and displaying differences in JPEG documents using applications based on Java, J2EE, and J2SE. Easily obtain detailed reports for a brilliant experience."
-subtitle: "Documents comparing framework" 
+title: "Compare JPEG images with our Java library" 
+description: "Java, J2EE or J2SE applications powered by GroupDocs.Comparison API allow to retrieve detailed reports about distinctions at JPEG pictures effortlessly."
+subtitle: "Documents comparing framework"  
 
 header_actions:
   enable: true
@@ -30,24 +30,24 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "Explore the capabilities of GroupDocs.Comparison for Java API"
+    title: "Take a look at GroupDocs.Comparison for Java API"
     link: "/comparison/java/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for Java is an intrinsic Java API crafted for comparing multiple images and documents sharing the same format. It assists in identifying variations within paragraphs, words, characters, shapes, and even text styles among the compared documents. With the capability to merge these alterations and export to a final document, it facilitates the comparison and merging of PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings, and various image file formats—eliminating the necessity for any external libraries.
+       Native Java API called GroupDocs.Comparison composes detailed reports about alterations between versions of images saved in JPEG format. Many popular image formats are supported as well. A lot of image formats are supported by our API.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to compare several JPEG documents using Java"
+    title: "Use Java to compare JPEG pictures"
     content: |
-      Use [GroupDocs.Comparison](https://products.groupdocs.com/comparison/java/) to compare multiple JPEG files and generate a report detailing their differences
+      Retrieve useful information about JPEG images differences via [GroupDocs.Comparison](https://products.groupdocs.com/comparison/java/)
       
-      1. Use your preferred package manager to install GroupDocs.Comparison for Java from [Maven](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/)
-      2. Create an instance of the Comparer class setting path to one of JPEG files
-      3. Add at least one additional JPEG to the Comparer instance
-      4. Receive a detailed final report outlining the exact differences
+      1. Involve GroupDocs.Comparison for Java package to your project from [Maven](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/)
+      2. Instantiate Comparer with path to JPEG image
+      3. Append JPEG files to comparison
+      4. Get resulting report
    
     code:
       platform: "net"
@@ -80,20 +80,22 @@ steps:
           link: "https://docs.groupdocs.com/comparison/java/"
           
       content: |
-        ```csharp {style=abap}
+        ```java {style=abap}
 
         // Check files from your hard drive for differences or similarities
 
         // Create a Comparer object by specifying the initial file
-        using (Comparer comparer = new Comparer("source.jpeg"))
+        try (Comparer comparer = new Comparer("main.jpeg") 
         {
             // Include additional files to comparing
-        	comparer.Add("target1.jpeg");
-            comparer.Add("target2.jpeg");
-            comparer.Add("target3.jpeg");
+        	comparer.add("version1.jpeg");
+            comparer.add("version2.jpeg");
+            comparer.add("version3.jpeg");
 
             // Get the report with the specified name as the result
-            comparer.Compare("result.pdf"); 
+            final Path resultPath = comparer.compare("full_report.jpeg"); 
+
+            System.out.println("\nDocuments compared successfully.");
         }
         
         ```            
@@ -118,9 +120,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Compare various documents using Java"
+    title: "Control changes in different versions of JPEG images by Java"
     exclude: "JPEG"
-    description: "Our Java API allows you to compare documents of various formats. Stay updated on document changes by processing them effortlessly."
+    description: "Any alterations in JPEG pictures might be detected by GroupDocs.Comparison for Java. Involve detailed reports to your business processes."
     items: 
         # format loop 1
         - name: "Compare PDF Files"

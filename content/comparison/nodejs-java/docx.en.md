@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-29T20:57:18
+date:  2024-02-02T14:05:46
 draft: false
 lang: en
 format: Docx
@@ -12,12 +12,12 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Effortlessly compare DOCX documents using the Node.js PDF Comparison API with JavaScript."
-head_description: "GroupDocs.Comparison for Node.js via Java offers an API to generate detailed document comparison reports for Node.js applications."
+head_title: "GroupDocs.Comparison for Node.js via Java API allows to compare DOCX documents."
+head_description: "MS Word DOCX files might be compared by GroupDocs.Comparison Node.js API that generates useful reports describing documents alterations."
 
 ############################# Header ############################
-title: "Comparing your DOCX files in Node.js" 
-description: "Document comparison API based on Node.js provides opportunity to collect and display data about any distinctions in DOCX files. Enhance the productivity of your solutions in file comparison tasks with GroupDocs.Comparison."
+title: "DOCX files comparison with Node.js via Java" 
+description: "Utilize document processing API in Node.js to detect and reveal any alterations in MS Word DOCX files by Node.js via Java applications. Take advantages of swift and effortless reports generation."
 subtitle: "Solution for files comparing" 
 
 header_actions:
@@ -30,24 +30,24 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "Explore the features of GroupDocs.Comparison API for Node.js"
+    title: "Open GroupDocs.Comparison for Node.js via Java API features"
     link: "/comparison/nodejs-java/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for Node.js via Java is an API that helps to compare pictures and documents in the same format. It can find differences in paragraphs, words, characters, shapes, and text styles between the compared documents. You can combine these changes and save them as a final document. It works well with PDFs, Word documents, Excel sheets, PowerPoint slides, Visio diagrams, Outlook emails, HTML, drawings, and various image types—all without needing extra tools.
+       Detailed reports that bring rich data about changes in different versions of DOCX documents are provided by GroupDocs.Comparison. Use Node.js via Java along with our API by adding a couple lines of code and without other libraries. Analyze alterations in pages, text, text styles or shapes in MS Word documents. Select only right data and compose final DOCX document by merging. Advance in your documents processing solutions with our software.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to perform DOCX files comparison using Node.js."
+    title: "Compose report with DOCX documents distinctions in JavaScript"
     content: |
-      It is possible to use DOCX files using [GroupDocs.Comparison](https://products.groupdocs.com/comparison/nodejs-java/) for getting report about differences in many DOCX files
+      [GroupDocs.Comparison](https://products.groupdocs.com/comparison/nodejs-java/) and Node.js via Java allows us to compare DOCX documents
       
-      1. Install GroupDocs.Comparison for Node.js via Java using [NPM](https://www.npmjs.com/package/@groupdocs/groupdocs.comparison)
-      2. Instantiate the Comparer and providing path to first of the files in the DOCX format
-      3. Add another DOCX file to Comparer
-      4. Obtain a clear report that precisely describes the differences
+      1. Use [NPM](https://www.npmjs.com/package/@groupdocs/groupdocs.comparison) to install GroupDocs.Comparison for Node.js via Java
+      2. Calling Comparer constructor needs DOCX path
+      3. Other DOCX files must be provided
+      4. Enjoy the results
    
     code:
       platform: "net"
@@ -65,21 +65,21 @@ steps:
           link: "https://docs.groupdocs.com/comparison/nodejs-java/"
           
       content: |
-        ```csharp {style=abap}
+        ```javascript {style=abap}
 
         // Check multiple files to see how they are similar or different
 
         // Create a Comparer object and give it the first file as input
-        using (Comparer comparer = new Comparer("source.docx"))
-        {
-            // Append more files
-        	comparer.Add("target1.docx");
-            comparer.Add("target2.docx");
-            comparer.Add("target3.docx");
+        const comparer = new groupdocs.comparison.Comparer('first.docx');
 
-            // Fetch the final report
-            comparer.Compare("result.pdf"); 
-        }
+        // Append more files
+        comparer.add('second.docx');
+        comparer.add('third.docx');
+
+        // Fetch the final report
+        await comparer.compare('report_full.docx');
+
+        console.log('\nDocuments compared successfully.\nCheck output.');
         
         ```            
 
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Compare popular document types via JavaScript"
+    title: "Use JavaScript for DOCX docs comparison"
     exclude: "DOCX"
-    description: "Our Node.js API enables you to compare documents in different formats. Keep track of document changes effortlessly by processing them using our tool."
+    description: "Any MS Word DOCX file might be compared with GroupDocs.Comparison for Node.js via Java. Put hands on valuable info about changes in your documents."
     items: 
         # format loop 1
         - name: "Compare PDF Files"

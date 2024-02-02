@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-29T20:57:18
+date:  2024-02-02T14:05:46
 draft: false
 lang: en
 format: Png
@@ -12,12 +12,12 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: ".NET PNG Comparison API - compare documents using C# .NET"
-head_description: "GroupDocs.Comparison for .NET offers an API to obtain comprehensive document comparison reports in a variety of applications, including C#, ASP.NET, VB.NET, and .NET Core."
+head_title: "PNG images comparing by GroupDocs.Comparison for .NET API"
+head_description: "GroupDocs.Comparison for .NET allows us to generate precise reports about distinctions at PNG images for applications based on C#, ASP.NET, VB.NET, or .NET Core"
 
 ############################# Header ############################
-title: "Compare PNG files in .NET solutions" 
-description: ".NET document comparison API for retrieving and displaying differences in PNG files in C#, ASP.NET, VB.NET, and .NET Core Applications. Effortlessly obtain detailed reports for a seamless experience."
+title: "Compare PNG images via C# .NET applications" 
+description: "GroupDocs.Comparison for .NET API searches for any differences among PNG files quickly and easily. Improve C#, ASP.NET, VB.NET, and .NET Core applications in order to obtain comparison reports."
 subtitle: "Document comparison solution" 
 
 header_actions:
@@ -30,24 +30,24 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "Discover GroupDocs.Comparison for .NET API"
+    title: "Uncover GroupDocs.Comparison for .NET API features"
     link: "/comparison/net/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for .NET is a native .NET API designed for comparing multiple images and documents of the same format. It aids in detecting differences within paragraphs, words, characters, shapes, and even the text styles of the compared documents. With the ability to merge these changes and export to a final document, it supports comparison and merging of PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings, and various image file formats—all without the need for any external libraries.
+       GroupDocs.Comparison for .NET API designed for comparing multiple PNG images and composing sophisticated reports about any distinctions at such images. It might be used at your .NET applications without installing any third-party software. Use GroupDocs.Comparison for .NET APIs by adding a couple lines of code with many useful features out of the box.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to compare multiple PNG files using C#"
+    title: "How to compare PNG pictures by C#"
     content: |
-      It is possible to use [GroupDocs.Comparison](https://products.groupdocs.com/comparison/net/) for getting report about differences in many PNG files.
+      Construct report describes differences in PNG pictures by [GroupDocs.Comparison](https://products.groupdocs.com/comparison/net/)
       
-      1. Install GroupDocs.Comparison for .NET from [Nuget](https://www.nuget.org/packages/GroupDocs.Comparison) using your favorite package manager
-      2. Provide an instance of Comparer class with full path to initial PNG file
-      3. Append at least one other PNG to Comparer
-      4. Get a final report with precisely described differences
+      1. Download and install GroupDocs.Comparison for .NET from [Nuget](https://www.nuget.org/packages/GroupDocs.Comparison)
+      2. Instantiate Comparer object providing path to PNG image
+      3. Involve other PNG files to be compared
+      4. Get final reports showing images alterations
    
     code:
       platform: "net"
@@ -67,18 +67,18 @@ steps:
       content: |
         ```csharp {style=abap}
 
-        // Compare multiple documents from local disk
+        // Construct report about changes in PNG images
 
-        // Instantiate Comparer providing a first file
+        // Create Comparer pointing to the first file
         using (Comparer comparer = new Comparer("source.png"))
         {
-            // Add other files
-        	comparer.Add("target1.png");
-            comparer.Add("target2.png");
-            comparer.Add("target3.png");
+            // Involve other pictures to comparison process
+        	comparer.Add("file_to_compare_1.png");
+            comparer.Add("file_to_compare_2.png");
+            comparer.Add("file_to_compare_3.png");
 
-            // Get result file with the specified name
-            comparer.Compare("result.pdf"); 
+            // Enjoy the resulting report
+            comparer.Compare("result.png"); 
         }
         
         ```            
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Compare popular file formats using C#"
+    title: "Compare PNG images by C# and .NET"
     exclude: "PNG"
-    description: ".NET API for document formats comparison. Stay well-informed about changes at your documents processing them without extra efforts."
+    description: ".NET API for PNG images comparison. Get information about any alterations in files without extra efforts."
     items: 
         # format loop 1
         - name: "Compare PDF Files"

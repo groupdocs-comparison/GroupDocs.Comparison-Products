@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-29T20:57:18
+date:  2024-02-02T14:05:46
 draft: false
 lang: en
 format: Dotm
@@ -65,22 +65,22 @@ steps:
           link: "https://docs.groupdocs.com/comparison/nodejs-java/"
           
       content: |
-        ```csharp {style=abap}
+        ```javascript {style=abap}
 
         // Check multiple files to see how they are similar or different
 
         // Create a Comparer object and give it the first file as input
-        using (Comparer comparer = new Comparer("source.dotm"))
-        {
-            // Append more files
-        	comparer.Add("target1.dotm");
-            comparer.Add("target2.dotm");
-            comparer.Add("target3.dotm");
+        const comparer = new groupdocs.comparison.Comparer('source.dotm');
 
-            // Fetch the final report
-            comparer.Compare("result.pdf"); 
-        }
-        
+        // Append more files
+        comparer.add('file_v1.dotm');
+        comparer.add('file_2023.dotm');
+
+        // Fetch the final report
+        await comparer.compare('report_new.dotm');
+
+        console.log('\nFiles are compared.\nCheck result.');
+
         ```            
 
 ############################# Actions ############################

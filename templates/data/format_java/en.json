@@ -48,7 +48,7 @@
     },
     "about": {
       "title": "Find out {{ProdFullName}} API advantages",
-      "content": "Genuine {{ProdFullName}} API is developed crafted for composing reports full of useful data about differences inside PDF documents. Not only differences in text within paragraphs or words but also changes in shapes and text styles are represented at final report. Merging these alterations and exporting to a final document available too. In fact, there no need in external libraries. Only a few lines of code grant access to rich functionality."
+      "content": "Genuine {{ProdFullName}} API is crafted for composing reports full of useful data about differences inside PDF documents. Not only differences in text within paragraphs or words but also changes in shapes and text styles are represented at final report. Merging these alterations and exporting to a final document available too. In fact, there no need in external libraries. Only a few lines of code grant access to rich functionality."
     },
     "steps": {
       "title": "Comparing multiple PDF docs via Java",
@@ -106,7 +106,7 @@
     },
     "formats": {
       "title": "Control any changes at DOCX files using Java",
-      "description": "{{ProdShortName}} Java API allows users to control DOCX documents versions vis precise and detailed reports which may be easily processed."
+      "description": "{{ProdShortName}} Java API allows users to control DOCX documents versions via precise and detailed reports which may be easily processed."
     }
   },
   "png": {
@@ -120,7 +120,7 @@
     },
     "about": {
       "title": "Be informed about {{ProdFullName}} API features",
-      "content": "{{ProdShortName}} developed as a native Java API suitable for composing detailed reports based on variations among different versions of images represented in PNG format. Not only PNG format is supported. A lot of useful features are supported by our API."
+      "content": "{{ProdShortName}} developed as a native Java API suitable for composing detailed reports based on variations among different versions of images represented in PNG format. Not only PNG format is supported. A lot of useful features provided by our API."
     },
     "steps": {
       "title": "Use {{ProgLang}} to comparing PNG files",

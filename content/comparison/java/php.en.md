@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-29T20:57:17
+date:  2024-02-02T14:05:45
 draft: false
 lang: en
 format: Php
@@ -80,20 +80,21 @@ steps:
           link: "https://docs.groupdocs.com/comparison/java/"
           
       content: |
-        ```csharp {style=abap}
+        ```java {style=abap}
 
         // Check files from your hard drive for differences or similarities
 
         // Create a Comparer object by specifying the initial file
-        using (Comparer comparer = new Comparer("source.php"))
+        try (Comparer comparer = new Comparer("source.php") 
         {
             // Include additional files to comparing
-        	comparer.Add("target1.php");
-            comparer.Add("target2.php");
-            comparer.Add("target3.php");
+        	comparer.add("target1.php");
+            comparer.add("target2.php");
 
             // Get the report with the specified name as the result
-            comparer.Compare("result.pdf"); 
+            final Path resultPath = comparer.compare("result.php"); 
+
+            System.out.println("\nDocuments compared successfully.");
         }
         
         ```            

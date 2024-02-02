@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-29T20:57:18
+date:  2024-02-02T14:05:46
 draft: false
 lang: en
 format: Jpg
@@ -12,12 +12,12 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: ".NET JPG Comparison API - compare documents using C# .NET"
-head_description: "GroupDocs.Comparison for .NET offers an API to obtain comprehensive document comparison reports in a variety of applications, including C#, ASP.NET, VB.NET, and .NET Core."
+head_title: "GroupDocs.Comparison for .NET API for Comparing JPG Images"
+head_description: "The GroupDocs.Comparison for .NET API allows for gathering data on distinctions within JPG images and integrating it into C#, ASP.NET, VB.NET, or .NET Core applications."
 
 ############################# Header ############################
-title: "Compare JPG files in .NET solutions" 
-description: ".NET document comparison API for retrieving and displaying differences in JPG files in C#, ASP.NET, VB.NET, and .NET Core Applications. Effortlessly obtain detailed reports for a seamless experience."
+title: "Comparing Changes in JPG Images with .NET Technologies" 
+description: "Quickly and easily collect and report data on changes in JPG files using GroupDocs.Comparison for .NET API. Enhance C#, ASP.NET, VB.NET, and .NET Core business solutions with our software to obtain valuable insights."
 subtitle: "Document comparison solution" 
 
 header_actions:
@@ -30,24 +30,24 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "Discover GroupDocs.Comparison for .NET API"
+    title: "Exploring GroupDocs.Comparison for .NET API features"
     link: "/comparison/net/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for .NET is a native .NET API designed for comparing multiple images and documents of the same format. It aids in detecting differences within paragraphs, words, characters, shapes, and even the text styles of the compared documents. With the ability to merge these changes and export to a final document, it supports comparison and merging of PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings, and various image file formats—all without the need for any external libraries.
+       The GroupDocs.Comparison for .NET API offers extensive functionality for comparing JPG images, generating reports containing distinctions within selected images. Our software seamlessly integrates into .NET projects without requiring additional libraries, enabling you to achieve your objectives with minimal code.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to compare multiple JPG files using C#"
+    title: "Comparing JPG Pictures using C#"
     content: |
-      It is possible to use [GroupDocs.Comparison](https://products.groupdocs.com/comparison/net/) for getting report about differences in many JPG files.
+      Manage JPG File Content with [GroupDocs.Comparison](https://products.groupdocs.com/comparison/net/)
       
-      1. Install GroupDocs.Comparison for .NET from [Nuget](https://www.nuget.org/packages/GroupDocs.Comparison) using your favorite package manager
-      2. Provide an instance of Comparer class with full path to initial JPG file
-      3. Append at least one other JPG to Comparer
-      4. Get a final report with precisely described differences
+      1. Acquire GroupDocs.Comparison for .NET from [Nuget](https://www.nuget.org/packages/GroupDocs.Comparison) and integrate it into your project
+      2. Instantiate the Comparer object and specify the path to the JPG image
+      3. Include another JPG image for analysis
+      4. Review the report saved to the local disk
    
     code:
       platform: "net"
@@ -67,18 +67,18 @@ steps:
       content: |
         ```csharp {style=abap}
 
-        // Compare multiple documents from local disk
+        // Generate a report detailing differences in JPG images
 
-        // Instantiate Comparer providing a first file
+        // Provide the main file path to the Comparer constructor
         using (Comparer comparer = new Comparer("source.jpg"))
         {
-            // Add other files
-        	comparer.Add("target1.jpg");
-            comparer.Add("target2.jpg");
-            comparer.Add("target3.jpg");
+            // Specify paths to additional JPG images
+        	comparer.Add("file_to_compare_1.jpg");
+            comparer.Add("file_to_compare_2.jpg");
+            comparer.Add("file_to_compare_3.jpg");
 
-            // Get result file with the specified name
-            comparer.Compare("result.pdf"); 
+            // Save the resulting report to a file
+            comparer.Compare("result.jpg"); 
         }
         
         ```            
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Compare popular file formats using C#"
+    title: "JPG Image Comparison with .NET"
     exclude: "JPG"
-    description: ".NET API for document formats comparison. Stay well-informed about changes at your documents processing them without extra efforts."
+    description: "Easily analyze changes in JPG files using the GroupDocs.Comparison for .NET solution."
     items: 
         # format loop 1
         - name: "Compare PDF Files"

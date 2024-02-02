@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-29T20:57:18
+date:  2024-02-02T14:05:46
 draft: false
 lang: en
 format: Pdf
@@ -24,7 +24,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Free download from Nuget"
+    - title: "Free Nuget download"
       link: "https://releases.groupdocs.com/comparison/net/"
       
 ############################# About ############################
@@ -35,7 +35,7 @@ about:
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       Get detailed reports about differences at documents of popular formats at your .NET applications. Use GroupDocs.Comparison for .NET APIs by adding a couple lines of code. Developers can easily display PDF, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing additional software or any other external libraries.
+       Get detailed reports about differences at PDF documents at your .NET applications. Merge distinct PDFs to a new one with the same format. Use GroupDocs.Comparison for .NET APIs by adding a couple lines of code. Process PDFs and other formats without third-party software.
 
 ############################# Steps ############################
 steps:
@@ -73,9 +73,9 @@ steps:
         using (Comparer comparer = new Comparer("source.pdf"))
         {
             // Append one or more PDFs to comparison
-        	comparer.Add("target1.pdf");
-            comparer.Add("target2.pdf");
-            comparer.Add("target3.pdf");
+        	comparer.Add("file_to_compare_1.pdf");
+            comparer.Add("file_to_compare_2.pdf");
+            comparer.Add("file_to_compare_3.pdf");
 
             // Result report to be analyzed
             comparer.Compare("result.pdf"); 

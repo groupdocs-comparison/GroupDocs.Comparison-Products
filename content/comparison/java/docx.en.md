@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-29T20:57:17
+date:  2024-02-02T14:05:45
 draft: false
 lang: en
 format: Docx
@@ -12,13 +12,13 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Utilize the Comparison API to compare DOCX documents using Java."
-head_description: "GroupDocs.Comparison for Java provides an API to obtain detailed document comparison reports in various Java applications, including J2EE and J2SE."
+head_title: "GroupDocs.Comparison for Java is quite useful for DOCX documents comparing."
+head_description: "Opportunities presented by GroupDocs.Comparison API allow us to retrieve reports containing information about distinctions in DOCX documents. Java, J2EE and J2SE are supported."
 
 ############################# Header ############################
-title: "DOCX document comparison in Java applications" 
-description: "GroupDocs.Comparison API for getting and displaying differences in DOCX documents using applications based on Java, J2EE, and J2SE. Easily obtain detailed reports for a brilliant experience."
-subtitle: "Documents comparing framework" 
+title: "Java applications for searching for distinctions in DOCX documents" 
+description: "Java API presented by GroupDocs.Comparison compares any DOCX documents in applications supports Java, J2EE or J2SE."
+subtitle: "Documents comparing framework"  
 
 header_actions:
   enable: true
@@ -30,24 +30,24 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "Explore the capabilities of GroupDocs.Comparison for Java API"
+    title: "Explore GroupDocs.Comparison for Java API advantages"
     link: "/comparison/java/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for Java is an intrinsic Java API crafted for comparing multiple images and documents sharing the same format. It assists in identifying variations within paragraphs, words, characters, shapes, and even text styles among the compared documents. With the capability to merge these alterations and export to a final document, it facilitates the comparison and merging of PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings, and various image file formats—eliminating the necessity for any external libraries.
+       DOCX documents comparison supported by GroupDocs.Comparison for Java API that composes reports containing data about various distinctions. Text within paragraphs, shapes and styles and other data are being analyzed. Furthermore, it is possible to compose one DOCX merging alterations from initial files. No need in any external libraries. Improve your Java projects adding a few lines of code.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to compare several DOCX documents using Java"
+    title: "Use Java to multiple DOCX files comparison"
     content: |
-      Use [GroupDocs.Comparison](https://products.groupdocs.com/comparison/java/) to compare multiple DOCX files and generate a report detailing their differences
+      Use [GroupDocs.Comparison](https://products.groupdocs.com/comparison/java/) to compare MS Word documents
       
-      1. Use your preferred package manager to install GroupDocs.Comparison for Java from [Maven](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/)
-      2. Create an instance of the Comparer class setting path to one of DOCX files
-      3. Add at least one additional DOCX to the Comparer instance
-      4. Receive a detailed final report outlining the exact differences
+      1. Install our solution from [Maven](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/)
+      2. Comparer must be created with first DOCX document as a parameter
+      3. Any comparison needs more than one DOCX document
+      4. Resulting report provides useful data
    
     code:
       platform: "net"
@@ -80,20 +80,22 @@ steps:
           link: "https://docs.groupdocs.com/comparison/java/"
           
       content: |
-        ```csharp {style=abap}
+        ```java {style=abap}
 
         // Check files from your hard drive for differences or similarities
 
         // Create a Comparer object by specifying the initial file
-        using (Comparer comparer = new Comparer("source.docx"))
+        try (Comparer comparer = new Comparer("main.docx") 
         {
             // Include additional files to comparing
-        	comparer.Add("target1.docx");
-            comparer.Add("target2.docx");
-            comparer.Add("target3.docx");
+        	comparer.add("version1.docx");
+            comparer.add("version2.docx");
+            comparer.add("version3.docx");
 
             // Get the report with the specified name as the result
-            comparer.Compare("result.pdf"); 
+            final Path resultPath = comparer.compare("full_report.docx"); 
+
+            System.out.println("\nDocuments compared successfully.");
         }
         
         ```            
@@ -118,9 +120,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Compare various documents using Java"
+    title: "Control any changes at DOCX files using Java"
     exclude: "DOCX"
-    description: "Our Java API allows you to compare documents of various formats. Stay updated on document changes by processing them effortlessly."
+    description: "GroupDocs.Comparison Java API allows users to control DOCX documents versions via precise and detailed reports which may be easily processed."
     items: 
         # format loop 1
         - name: "Compare PDF Files"

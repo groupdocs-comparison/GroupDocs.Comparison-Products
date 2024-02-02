@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-29T20:57:18
+date:  2024-02-02T14:05:46
 draft: false
 lang: en
 format: Pdf
@@ -18,13 +18,13 @@ head_description: "The GroupDocs.Comparison Node.js API generates comprehensive 
 ############################# Header ############################
 title: "PDF documents comparison for Node.js via Java" 
 description: "Utilize our document comparison API in Node.js to detect and showcase differences in PDFs within JavaScript-powered applications. Benefit from swiftly and effortlessly obtaining detailed reports."
-subtitle: "Solution for comparing documents" 
+subtitle: "Solution for files comparing" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Free download from NPM"
+    - title: "Free NPM download"
       link: "https://releases.groupdocs.com/comparison/nodejs-java/"
       
 ############################# About ############################
@@ -35,7 +35,7 @@ about:
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       Get detailed reports about differences at documents of popular formats at your .NET applications. Use GroupDocs.Comparison for Node.js via Java APIs by adding a couple lines of code. Developers can easily display PDF, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing additional software or any other external libraries.
+       Get detailed reports about any differences inside PDF documents at your .NET applications. Use GroupDocs.Comparison for Node.js via Java APIs by adding a couple lines of code without any additional software or any other external libraries. Control any alterations in paragraphs, words, characters, shapes, and text styles inside your PDF files. Merging changes from many document versions to result PDF is available too. Process documents swiftly and without extra efforts.
 
 ############################# Steps ############################
 steps:
@@ -65,21 +65,21 @@ steps:
           link: "https://docs.groupdocs.com/comparison/nodejs-java/"
           
       content: |
-        ```csharp {style=abap}
+        ```javascript {style=abap}
 
-        // Getting report about changes in PDF files
+        // Check multiple files to see how they are similar or different
 
-        // Construct Comparer instance with a first file
-        using (Comparer comparer = new Comparer("source.pdf"))
-        {
-            // Add other file or files
-        	comparer.Add("target1.pdf");
-            comparer.Add("target2.pdf");
-            comparer.Add("target3.pdf");
+        // Create a Comparer object and give it the first file as input
+        const comparer = new groupdocs.comparison.Comparer('first.pdf');
 
-            // Save report to specified path
-            comparer.Compare("result.pdf"); 
-        }
+        // Append more files
+        comparer.add('second.pdf');
+        comparer.add('third.pdf');
+
+        // Fetch the final report
+        await comparer.compare('report_full.pdf');
+
+        console.log('\nDocuments compared successfully.\nCheck output.');
         
         ```            
 

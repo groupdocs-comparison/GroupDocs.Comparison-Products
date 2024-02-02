@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-29T20:57:17
+date:  2024-02-02T14:05:45
 draft: false
 lang: en
 format: Dwg
@@ -80,20 +80,21 @@ steps:
           link: "https://docs.groupdocs.com/comparison/java/"
           
       content: |
-        ```csharp {style=abap}
+        ```java {style=abap}
 
         // Check files from your hard drive for differences or similarities
 
         // Create a Comparer object by specifying the initial file
-        using (Comparer comparer = new Comparer("source.dwg"))
+        try (Comparer comparer = new Comparer("source.dwg") 
         {
             // Include additional files to comparing
-        	comparer.Add("target1.dwg");
-            comparer.Add("target2.dwg");
-            comparer.Add("target3.dwg");
+        	comparer.add("target1.dwg");
+            comparer.add("target2.dwg");
 
             // Get the report with the specified name as the result
-            comparer.Compare("result.pdf"); 
+            final Path resultPath = comparer.compare("result.dwg"); 
+
+            System.out.println("\nDocuments compared successfully.");
         }
         
         ```            

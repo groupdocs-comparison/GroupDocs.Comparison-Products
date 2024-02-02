@@ -84,7 +84,7 @@
     },
     "about": {
       "title": "Open {{ProdFullName}} API features",
-      "content": "Detailed reports that bring rich data about changes in deferent versions of DOCX documents are provided by {{ProdShortName}}. Use {{EnvName}} along with our API by adding a couple lines of code and without other libraries. Analyze alterations in pages, text, text styles or shapes in MS Word documents. Select only right data and compose final DOCX document by merging. Advance in your documents processing solutions with our software."
+      "content": "Detailed reports that bring rich data about changes in different versions of DOCX documents are provided by {{ProdShortName}}. Use {{EnvName}} along with our API by adding a couple lines of code and without other libraries. Analyze alterations in pages, text, text styles or shapes in MS Word documents. Select only right data and compose final DOCX document by merging. Advance in your documents processing solutions with our software."
     },
     "steps": {
       "title": "Compose report with DOCX documents distinctions in {{ProgLang}}",

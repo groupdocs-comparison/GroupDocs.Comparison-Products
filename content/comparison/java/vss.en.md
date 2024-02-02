@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-29T20:57:18
+date:  2024-02-02T14:05:45
 draft: false
 lang: en
 format: Vss
@@ -80,20 +80,21 @@ steps:
           link: "https://docs.groupdocs.com/comparison/java/"
           
       content: |
-        ```csharp {style=abap}
+        ```java {style=abap}
 
         // Check files from your hard drive for differences or similarities
 
         // Create a Comparer object by specifying the initial file
-        using (Comparer comparer = new Comparer("source.vss"))
+        try (Comparer comparer = new Comparer("source.vss") 
         {
             // Include additional files to comparing
-        	comparer.Add("target1.vss");
-            comparer.Add("target2.vss");
-            comparer.Add("target3.vss");
+        	comparer.add("target1.vss");
+            comparer.add("target2.vss");
 
             // Get the report with the specified name as the result
-            comparer.Compare("result.pdf"); 
+            final Path resultPath = comparer.compare("result.vss"); 
+
+            System.out.println("\nDocuments compared successfully.");
         }
         
         ```            

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-29T20:57:18
+date:  2024-02-02T14:05:46
 draft: false
 lang: en
 format: Jpg
@@ -12,12 +12,12 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Effortlessly compare JPG documents using the Node.js PDF Comparison API with JavaScript."
-head_description: "GroupDocs.Comparison for Node.js via Java offers an API to generate detailed document comparison reports for Node.js applications."
+head_title: "GroupDocs.Comparison for Node.js via Java API enables automated comparison of JPG images."
+head_description: "Utilize GroupDocs.Comparison for Node.js via Java API to access detailed distinctions information in JPG images."
 
 ############################# Header ############################
-title: "Comparing your JPG files in Node.js" 
-description: "Document comparison API based on Node.js provides opportunity to collect and display data about any distinctions in JPG files. Enhance the productivity of your solutions in file comparison tasks with GroupDocs.Comparison."
+title: "Obtaining JPG alteration reports in Node.js via Java applications" 
+description: "Leverage Node.js capabilities to compare JPG image changes within JavaScript applications. Detailed reports offer significant benefits to business solutions."
 subtitle: "Solution for files comparing" 
 
 header_actions:
@@ -30,24 +30,24 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "Explore the features of GroupDocs.Comparison API for Node.js"
+    title: "Explore the capabilities of GroupDocs.Comparison for Node.js via Java API"
     link: "/comparison/nodejs-java/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for Node.js via Java is an API that helps to compare pictures and documents in the same format. It can find differences in paragraphs, words, characters, shapes, and text styles between the compared documents. You can combine these changes and save them as a final document. It works well with PDFs, Word documents, Excel sheets, PowerPoint slides, Visio diagrams, Outlook emails, HTML, drawings, and various image types—all without needing extra tools.
+       Stay informed about changes in JPG image files with GroupDocs.Comparison for Node.js via Java software. Analyze rich data in our reports to process JPG files within JavaScript applications without additional packages. Enhance business solutions with just a few lines of code.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to perform JPG files comparison using Node.js."
+    title: "Gathering JPG alteration data using JavaScript"
     content: |
-      It is possible to use JPG files using [GroupDocs.Comparison](https://products.groupdocs.com/comparison/nodejs-java/) for getting report about differences in many JPG files
+      Utilize [GroupDocs.Comparison](https://products.groupdocs.com/comparison/nodejs-java/) features to manage JPG image changes
       
-      1. Install GroupDocs.Comparison for Node.js via Java using [NPM](https://www.npmjs.com/package/@groupdocs/groupdocs.comparison)
-      2. Instantiate the Comparer and providing path to first of the files in the JPG format
-      3. Add another JPG file to Comparer
-      4. Obtain a clear report that precisely describes the differences
+      1. Acquire GroupDocs.Comparison from [NPM](https://www.npmjs.com/package/@groupdocs/groupdocs.comparison)
+      2. Integrate comparer object with JPG file path
+      3. Analyze at least two JPG files
+      4. Retrieve results in JPG format
    
     code:
       platform: "net"
@@ -65,21 +65,21 @@ steps:
           link: "https://docs.groupdocs.com/comparison/nodejs-java/"
           
       content: |
-        ```csharp {style=abap}
+        ```javascript {style=abap}
 
         // Check multiple files to see how they are similar or different
 
         // Create a Comparer object and give it the first file as input
-        using (Comparer comparer = new Comparer("source.jpg"))
-        {
-            // Append more files
-        	comparer.Add("target1.jpg");
-            comparer.Add("target2.jpg");
-            comparer.Add("target3.jpg");
+        const comparer = new groupdocs.comparison.Comparer('first.jpg');
 
-            // Fetch the final report
-            comparer.Compare("result.pdf"); 
-        }
+        // Append more files
+        comparer.add('second.jpg');
+        comparer.add('third.jpg');
+
+        // Fetch the final report
+        await comparer.compare('report_full.jpg');
+
+        console.log('\nDocuments compared successfully.\nCheck output.');
         
         ```            
 
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Compare popular document types via JavaScript"
+    title: "Comparing popular format JPG images using JavaScript"
     exclude: "JPG"
-    description: "Our Node.js API enables you to compare documents in different formats. Keep track of document changes effortlessly by processing them using our tool."
+    description: "GroupDocs.Comparison for Node.js via Java-based API provides valuable insights into differences among JPG pictures. Convenient reports facilitate monitoring changes in business files."
     items: 
         # format loop 1
         - name: "Compare PDF Files"

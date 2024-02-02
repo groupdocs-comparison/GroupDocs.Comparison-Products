@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-29T20:57:17
+date:  2024-02-02T14:05:45
 draft: false
 lang: en
 format: Png
@@ -12,13 +12,13 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Utilize the Comparison API to compare PNG documents using Java."
-head_description: "GroupDocs.Comparison for Java provides an API to obtain detailed document comparison reports in various Java applications, including J2EE and J2SE."
+head_title: "Get comparison reports for PNG pictures using GroupDocs.Comparison for Java."
+head_description: "The GroupDocs.Comparison for Java API generates useful comparison reports for PNG documents in applications that support J2EE and J2SE."
 
 ############################# Header ############################
-title: "PNG document comparison in Java applications" 
-description: "GroupDocs.Comparison API for getting and displaying differences in PNG documents using applications based on Java, J2EE, and J2SE. Easily obtain detailed reports for a brilliant experience."
-subtitle: "Documents comparing framework" 
+title: "Comparing PNG pictures using Java" 
+description: "Empower your Java, J2EE or J2SE applications with GroupDocs.Comparison API. Retrieve detailed information about any changes at your PNG pictures."
+subtitle: "Documents comparing framework"  
 
 header_actions:
   enable: true
@@ -30,24 +30,24 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "Explore the capabilities of GroupDocs.Comparison for Java API"
+    title: "Be informed about GroupDocs.Comparison for Java API features"
     link: "/comparison/java/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for Java is an intrinsic Java API crafted for comparing multiple images and documents sharing the same format. It assists in identifying variations within paragraphs, words, characters, shapes, and even text styles among the compared documents. With the capability to merge these alterations and export to a final document, it facilitates the comparison and merging of PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings, and various image file formats—eliminating the necessity for any external libraries.
+       GroupDocs.Comparison developed as a native Java API suitable for composing detailed reports based on variations among different versions of images represented in PNG format. Not only PNG format is supported. A lot of useful features provided by our API.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to compare several PNG documents using Java"
+    title: "Use Java to comparing PNG files"
     content: |
-      Use [GroupDocs.Comparison](https://products.groupdocs.com/comparison/java/) to compare multiple PNG files and generate a report detailing their differences
+      Compare PNG files with [GroupDocs.Comparison](https://products.groupdocs.com/comparison/java/) and retrieve relevant report about their alterations
       
-      1. Use your preferred package manager to install GroupDocs.Comparison for Java from [Maven](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/)
-      2. Create an instance of the Comparer class setting path to one of PNG files
-      3. Add at least one additional PNG to the Comparer instance
-      4. Receive a detailed final report outlining the exact differences
+      1. Install GroupDocs.Comparison for Java package downloading it from [Maven](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/)
+      2. Provide Comparer instance and pass path to PNG
+      3. Add PNG files for further comparison
+      4. Save report to local disk
    
     code:
       platform: "net"
@@ -80,20 +80,22 @@ steps:
           link: "https://docs.groupdocs.com/comparison/java/"
           
       content: |
-        ```csharp {style=abap}
+        ```java {style=abap}
 
         // Check files from your hard drive for differences or similarities
 
         // Create a Comparer object by specifying the initial file
-        using (Comparer comparer = new Comparer("source.png"))
+        try (Comparer comparer = new Comparer("main.png") 
         {
             // Include additional files to comparing
-        	comparer.Add("target1.png");
-            comparer.Add("target2.png");
-            comparer.Add("target3.png");
+        	comparer.add("version1.png");
+            comparer.add("version2.png");
+            comparer.add("version3.png");
 
             // Get the report with the specified name as the result
-            comparer.Compare("result.pdf"); 
+            final Path resultPath = comparer.compare("full_report.png"); 
+
+            System.out.println("\nDocuments compared successfully.");
         }
         
         ```            
@@ -118,9 +120,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Compare various documents using Java"
+    title: "Find distinctions at different versions of PNG images via Java"
     exclude: "PNG"
-    description: "Our Java API allows you to compare documents of various formats. Stay updated on document changes by processing them effortlessly."
+    description: "GroupDocs.Comparison for Java API tracks alterations inside PNG pictures and composes demonstrative reports for further analyzing."
     items: 
         # format loop 1
         - name: "Compare PDF Files"

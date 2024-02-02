@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-29T20:57:18
+date:  2024-02-02T14:05:46
 draft: false
 lang: en
 format: Docx
@@ -12,12 +12,12 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: ".NET DOCX Comparison API - compare documents using C# .NET"
-head_description: "GroupDocs.Comparison for .NET offers an API to obtain comprehensive document comparison reports in a variety of applications, including C#, ASP.NET, VB.NET, and .NET Core."
+head_title: "Compare MS Word documents by GroupDocs.Comparison for .NET"
+head_description: "MS Word documents particularly DOCX could be compared by GroupDocs.Comparison for .NET API. As result you obtain detailed report with highlighted alterations between DOCX documents. Use our API along with applications based on C#, ASP.NET, VB.NET, or .NET Core."
 
 ############################# Header ############################
-title: "Compare DOCX files in .NET solutions" 
-description: ".NET document comparison API for retrieving and displaying differences in DOCX files in C#, ASP.NET, VB.NET, and .NET Core Applications. Effortlessly obtain detailed reports for a seamless experience."
+title: "MS Word DOCX comparison with C# .NET applications" 
+description: ".NET API designed for documents comparison finds and reports any differences in MS Word files. Build applications based on C#, ASP.NET, VB.NET, or .NET Core to get advantages. Obtain detailed reports adding a few code-lines."
 subtitle: "Document comparison solution" 
 
 header_actions:
@@ -30,24 +30,24 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "Discover GroupDocs.Comparison for .NET API"
+    title: "Examine GroupDocs.Comparison for .NET API features"
     link: "/comparison/net/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for .NET is a native .NET API designed for comparing multiple images and documents of the same format. It aids in detecting differences within paragraphs, words, characters, shapes, and even the text styles of the compared documents. With the ability to merge these changes and export to a final document, it supports comparison and merging of PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings, and various image file formats—all without the need for any external libraries.
+       Reveal alterations in your DOCX documents with convenient report in your .NET projects. Moreover, get information about styles, shapes and other content and merge DOCX files to a new one. Advantages of GroupDocs.Comparison for .NET APIs could be brought to your projects by only a couple lines of code. Use our software without third-party developers.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to compare multiple DOCX files using C#"
+    title: "MS Word DOCX comparison reports via .NET and C#"
     content: |
-      It is possible to use [GroupDocs.Comparison](https://products.groupdocs.com/comparison/net/) for getting report about differences in many DOCX files.
+      Compose distinctions report for DOCX files using [GroupDocs.Comparison](https://products.groupdocs.com/comparison/net/)
       
-      1. Install GroupDocs.Comparison for .NET from [Nuget](https://www.nuget.org/packages/GroupDocs.Comparison) using your favorite package manager
-      2. Provide an instance of Comparer class with full path to initial DOCX file
-      3. Append at least one other DOCX to Comparer
-      4. Get a final report with precisely described differences
+      1. Download GroupDocs.Comparison for .NET package from [Nuget](https://www.nuget.org/packages/GroupDocs.Comparison) and install it
+      2. Instantiate Comparer object passing path to DOCX
+      3. Add DOCX files to comparison
+      4. Get report with distinctions info
    
     code:
       platform: "net"
@@ -67,18 +67,18 @@ steps:
       content: |
         ```csharp {style=abap}
 
-        // Compare multiple documents from local disk
+        // DOCX files alterations report
 
-        // Instantiate Comparer providing a first file
+        // Instantiate Comparer for document processing
         using (Comparer comparer = new Comparer("source.docx"))
         {
-            // Add other files
-        	comparer.Add("target1.docx");
-            comparer.Add("target2.docx");
-            comparer.Add("target3.docx");
+            // Add at least one file for comparison
+        	comparer.Add("file_to_compare_1.docx");
+            comparer.Add("file_to_compare_2.docx");
+            comparer.Add("file_to_compare_3.docx");
 
-            // Get result file with the specified name
-            comparer.Compare("result.pdf"); 
+            // Analyze result
+            comparer.Compare("result.docx"); 
         }
         
         ```            
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Compare popular file formats using C#"
+    title: "Comparison of DOCX by C# applications"
     exclude: "DOCX"
-    description: ".NET API for document formats comparison. Stay well-informed about changes at your documents processing them without extra efforts."
+    description: "GroupDocs.Comparison for .NET advantages for control versions of popular files formats. Collect MS Word documents information quickly and easily."
     items: 
         # format loop 1
         - name: "Compare PDF Files"

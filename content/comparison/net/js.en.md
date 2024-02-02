@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-29T20:57:18
+date:  2024-02-02T14:05:45
 draft: false
 lang: en
 format: Js
@@ -30,7 +30,7 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "Discover GroupDocs.Comparison for .NET API"
+    title: "Discover GroupDocs.Comparison for .NET API advantages"
     link: "/comparison/net/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
@@ -70,15 +70,14 @@ steps:
         // Compare multiple documents from local disk
 
         // Instantiate Comparer providing a first file
-        using (Comparer comparer = new Comparer("source.js"))
+        using (Comparer comparer = new Comparer("main_document.js"))
         {
             // Add other files
-        	comparer.Add("target1.js");
-            comparer.Add("target2.js");
-            comparer.Add("target3.js");
+        	comparer.Add("modified_1.js");
+            comparer.Add("modified_2.js");
 
             // Get result file with the specified name
-            comparer.Compare("result.pdf"); 
+            comparer.Compare("report.js"); 
         }
         
         ```            

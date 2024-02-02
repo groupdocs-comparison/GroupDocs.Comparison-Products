@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-01-29T20:57:18
+date:  2024-02-02T14:05:45
 draft: false
 lang: en
 format: Xlsm
@@ -80,20 +80,21 @@ steps:
           link: "https://docs.groupdocs.com/comparison/java/"
           
       content: |
-        ```csharp {style=abap}
+        ```java {style=abap}
 
         // Check files from your hard drive for differences or similarities
 
         // Create a Comparer object by specifying the initial file
-        using (Comparer comparer = new Comparer("source.xlsm"))
+        try (Comparer comparer = new Comparer("source.xlsm") 
         {
             // Include additional files to comparing
-        	comparer.Add("target1.xlsm");
-            comparer.Add("target2.xlsm");
-            comparer.Add("target3.xlsm");
+        	comparer.add("target1.xlsm");
+            comparer.add("target2.xlsm");
 
             // Get the report with the specified name as the result
-            comparer.Compare("result.pdf"); 
+            final Path resultPath = comparer.compare("result.xlsm"); 
+
+            System.out.println("\nDocuments compared successfully.");
         }
         
         ```            
