@@ -180,5 +180,42 @@
       "title": "Control changes in different versions of JPEG images by {{ProgLang}}",
       "description": "Any alterations in JPEG pictures might be detected by {{ProdFullName}}. Involve detailed reports to your business processes."
     }
+  },
+  "jpg": {
+    "head": {
+      "title": "Analyze JPG images with {{ProdFullName}}.",
+      "description": "{{ProdFullName}} API generates useful reports for JPG pictures. Supports Java, J2EE and J2SE."
+    },
+    "header": {
+      "title": "Analyze changes in JPG files via our Java solution",
+      "description": "Java, J2EE, or J2SE apps using {{ProdShortName}} API are able to generate detailed JPG reports."
+    },
+    "about": {
+      "title": "Explore {{ProdFullName}} API",
+      "content": "Native Java solution, {{ProdShortName}}, creates detailed reports about JPG alterations. Supports popular image formats for comparison and further processing."
+    },
+    "steps": {
+      "title": "Compare JPG files using {{ProgLang}}",
+      "content": {
+        "title": "Retrieve JPG differences data with [{{ProdShortName}}]({{ProductUrl}})",
+        "step_1": "Enhance your product functionality adding {{ProdFullName}} from [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Create Comparer instance with JPG path",
+        "step_3": "Add other JPG images to processing",
+        "step_4": "Obtain the resulting report"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Create distinctions data for JPG",
+          "comment_2": "Comparer object requires the main JPG file path",
+          "comment_3": "Point to other JPG pictures",
+          "comment_4": "Result file contains report"
+        }
+      }
+    },
+    "formats": {
+      "title": "Track any changes in different versions of JPG images using {{ProgLang}}",
+      "description": "Detect alterations in JPG images with {{ProdFullName}}. Enhance business processes with detailed reports."
+    }
   }
+
 }

@@ -159,7 +159,7 @@
       "content": "{{ProdFullName}} API provides rich functionality in JPEG images comparison. Resulting reports contain data about any distinctions at selected images. Using of our software in your .NET projects do not request for any other libraries. Just add some lines of code and get powerful tool to achieve your goals."
     },
     "steps": {
-      "title": "How to compare PNG pictures by {{ProgLang}}",
+      "title": "How to compare JPEG pictures by {{ProgLang}}",
       "content": {
         "title": "Control content of JPEG files with [{{ProdShortName}}]({{ProductUrl}})",
         "step_1": "Get {{ProdFullName}} from [{{PackageStoreName}}]({{PackageUrl}}) and add to your project",
@@ -180,5 +180,42 @@
       "title": "Comparison for JPEG images with {{EnvName}}",
       "description": "Analyze information about any changes in JPEG files easily using {{ProdFullName}} product."
     }
+  },
+  "jpg": {
+    "head": {
+      "title": "{{ProdFullName}} API for Comparing JPG Images",
+      "description": "The {{ProdFullName}} API allows for gathering data on distinctions within JPG images and integrating it into C#, ASP.NET, VB.NET, or .NET Core applications."
+    },
+    "header": {
+      "title": "Comparing Changes in JPG Images with {{EnvName}} Technologies",
+      "description": "Quickly and easily collect and report data on changes in JPG files using {{ProdFullName}} API. Enhance C#, ASP.NET, VB.NET, and .NET Core business solutions with our software to obtain valuable insights."
+    },
+    "about": {
+      "title": "Exploring {{ProdFullName}} API features",
+      "content": "The {{ProdFullName}} API offers extensive functionality for comparing JPG images, generating reports containing distinctions within selected images. Our software seamlessly integrates into .NET projects without requiring additional libraries, enabling you to achieve your objectives with minimal code."
+    },
+    "steps": {
+      "title": "Comparing JPG Pictures using {{ProgLang}}",
+      "content": {
+        "title": "Manage JPG File Content with [{{ProdShortName}}]({{ProductUrl}})",
+        "step_1": "Acquire {{ProdFullName}} from [{{PackageStoreName}}]({{PackageUrl}}) and integrate it into your project",
+        "step_2": "Instantiate the Comparer object and specify the path to the JPG image",
+        "step_3": "Include another JPG image for analysis",
+        "step_4": "Review the report saved to the local disk"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Generate a report detailing differences in JPG images",
+          "comment_2": "Provide the main file path to the Comparer constructor",
+          "comment_3": "Specify paths to additional JPG images",
+          "comment_4": "Save the resulting report to a file"
+        }
+      }
+    },
+    "formats": {
+      "title": "JPG Image Comparison with {{EnvName}}",
+      "description": "Easily analyze changes in JPG files using the {{ProdFullName}} solution."
+    }
   }
+
 }
