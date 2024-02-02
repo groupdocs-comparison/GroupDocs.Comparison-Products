@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-01-29T20:57:18
+date: 2024-02-02T22:01:44
 draft: false
 
 lang: en
@@ -165,57 +165,57 @@ features:
 
   items:
     # feature loop
-    - icon: "fas fa-columns"
+    - icon: "compare"
       title: "Easy to use document comparison"
       content: "Aanalyze and identify differences between two documents."
 
     # feature loop
-    - icon: "fas fa-border-all"
+    - icon: "note-stack"
       title: "Compare multiple documents"
       content: "Simultaneously analyze and identify differences across multiple documents."
 
     # feature loop
-    - icon: "complex"
+    - icon: "stacks"
       title: "Supported formats"
       content: "Compatible with over 50 widely-used document formats from various categories, ensuring broad applicability."
 
     # feature loop
-    - icon: "adjustment"
+    - icon: "rule"
       title: "Accept or reject changes"
       content: "Сlear visual display of detected changes, complete with options to either accept or reject these modifications."
 
     # feature loop
-    - icon: "fas fa-eye"
+    - icon: "preview"
       title: "Generate previews"
       content: "Ability to save comparison results as image previews for easy reference and sharing."
 
     # feature loop
-    - icon: "fas fa-comment-slash"
+    - icon: "two-pager"
       title: "Content comparison"
       content: "Conduct thorough text comparisons at various levels - including line-by-line, paragraph, word, and character - with highlighted differences for better clarity."
 
     # feature loop
-    - icon: "fas fa-remove-format"
+    - icon: "format_color_text"
       title: "Style and formatting comparison"
       content: "Detects and highlights alterations in document formatting and style, ensuring comprehensive review."
 
     # feature loop
-    - icon: "fas fa-wrench"
+    - icon: "folder-managed"
       title: "Flexible metadata settings"
       content: "Preserve metadata from source or target files, or customize it according to user preferences."
 
     # feature loop
-    - icon: "fas fa-lock"
+    - icon: "lock"
       title: "Password protection"
       content: "Analyze password-protected documents and secure the output document with password encryption for added security."
 
     # feature loop
-    - icon: "fas fa-copy"
+    - icon: "select"
       title: "Selective page comparison"
       content: "Load and compare specific sections or pages of a document for targeted analysis."
 
     # feature loop
-    - icon: "fas fa-envelope"
+    - icon: "speaker-notes"
       title: "Display comments"
       content: "Choose to display or hide comments when loading the source document, offering greater control over the comparison process."
 

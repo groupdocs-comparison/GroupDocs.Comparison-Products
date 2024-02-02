@@ -171,57 +171,57 @@ features:
 
   items:
     # feature loop
-    - icon: "fas fa-columns"
+    - icon: "compare"
       title: "<% "{index-content-java.features.feature_1.title}" %>"
       content: "<% "{index-content-java.features.feature_1.content}" %>"
 
     # feature loop
-    - icon: "fas fa-border-all"
+    - icon: "note-stack"
       title: "<% "{index-content-java.features.feature_2.title}" %>"
       content: "<% "{index-content-java.features.feature_2.content}" %>"
 
     # feature loop
-    - icon: "complex"
+    - icon: "stacks"
       title: "<% "{index-content-java.features.feature_3.title}" %>"
       content: "<% "{index-content-java.features.feature_3.content}" %>"
 
     # feature loop
-    - icon: "adjustment"
+    - icon: "rule"
       title: "<% "{index-content-java.features.feature_4.title}" %>"
       content: "<% "{index-content-java.features.feature_4.content}" %>"
 
     # feature loop
-    - icon: "fas fa-eye"
+    - icon: "preview"
       title: "<% "{index-content-java.features.feature_5.title}" %>"
       content: "<% "{index-content-java.features.feature_5.content}" %>"
 
     # feature loop
-    - icon: "fas fa-comment-slash"
+    - icon: "two-pager"
       title: "<% "{index-content-java.features.feature_6.title}" %>"
       content: "<% "{index-content-java.features.feature_6.content}" %>"
 
     # feature loop
-    - icon: "fas fa-remove-format"
+    - icon: "format_color_text"
       title: "<% "{index-content-java.features.feature_7.title}" %>"
       content: "<% "{index-content-java.features.feature_7.content}" %>"
 
     # feature loop
-    - icon: "fas fa-wrench"
+    - icon: "folder-managed"
       title: "<% "{index-content-java.features.feature_8.title}" %>"
       content: "<% "{index-content-java.features.feature_8.content}" %>"
 
     # feature loop
-    - icon: "fas fa-lock"
+    - icon: "lock"
       title: "<% "{index-content-java.features.feature_9.title}" %>"
       content: "<% "{index-content-java.features.feature_9.content}" %>"
 
     # feature loop
-    - icon: "fas fa-copy"
+    - icon: "select"
       title: "<% "{index-content-java.features.feature_10.title}" %>"
       content: "<% "{index-content-java.features.feature_10.content}" %>"
 
     # feature loop
-    - icon: "fas fa-envelope"
+    - icon: "speaker-notes"
       title: "<% "{index-content-java.features.feature_11.title}" %>"
       content: "<% "{index-content-java.features.feature_11.content}" %>"
 

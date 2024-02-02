@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-01-29T20:57:18
+date: 2024-02-02T22:01:44
 draft: false
 
 lang: en
@@ -167,57 +167,57 @@ features:
 
   items:
     # feature loop
-    - icon: "fas fa-columns"
+    - icon: "compare"
       title: "Easy to use document comparison"
       content: "Analyze and identify differences within two documents."
 
     # feature loop
-    - icon: "fas fa-border-all"
+    - icon: "note-stack"
       title: "Compare multiple documents"
       content: "Analyze and identify differences within multiple documents simultaneously."
 
     # feature loop
-    - icon: "complex"
+    - icon: "stacks"
       title: "Supported formats"
       content: "Supports more than 50 popular document formats from various categories."
 
     # feature loop
-    - icon: "adjustment"
+    - icon: "rule"
       title: "Accept or reject changes"
       content: "Clear visual representation of identified changes, providing the option to accept or reject modifications."
 
     # feature loop
-    - icon: "fas fa-eye"
+    - icon: "preview"
       title: "Generate previews"
       content: "Save the results of the comparison as images."
 
     # feature loop
-    - icon: "fas fa-comment-slash"
+    - icon: "two-pager"
       title: "Content comparison"
       content: "Compare text content line-by-line, by paragraphs, by words, by characters. Highlight the changes."
 
     # feature loop
-    - icon: "fas fa-remove-format"
+    - icon: "format_color_text"
       title: "Style comparison"
       content: "Detect changes in formatting and styles."
 
     # feature loop
-    - icon: "fas fa-wrench"
+    - icon: "folder-managed"
       title: "Set metadata"
       content: "Keep metadata from either the source or target files or allow it to be specified by users."
 
     # feature loop
-    - icon: "fas fa-lock"
+    - icon: "lock"
       title: "Password protection"
       content: "Analyze the encrypted documents, or secure the resulting document with a password."
 
     # feature loop
-    - icon: "fas fa-copy"
+    - icon: "select"
       title: "Compare specific pages"
       content: "Load just the particular sections or pages of the document."
 
     # feature loop
-    - icon: "fas fa-envelope"
+    - icon: "speaker-notes"
       title: "Display comments"
       content: "When loading the source document you can choose whether to hide or show comments."
 
