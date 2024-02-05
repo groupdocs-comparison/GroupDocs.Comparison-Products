@@ -5,6 +5,9 @@ layout: "family"
 date:  <% date "utcnow" %>
 draft: false
 
+product: "Comparison"
+product_tag: "comparison"
+
 lang: <% lower ( get "lang") %>
 
 ############################# Head ############################
@@ -132,17 +135,17 @@ features:
 
   items:
     # items loop
-    - icon: "compare"
+    - icon: "analize"
       title: "<% "{index-content.features.feature_1.title}" %>"
       content: "<% "{index-content.features.feature_1.content}" %>"
 
     # items loop
-    - icon: "accept"
+    - icon: "merge"
       title: "<% "{index-content.features.feature_2.title}" %>"
       content: "<% "{index-content.features.feature_2.content}" %>"
 
     # items loop
-    - icon: "content"
+    - icon: "styles"
       title: "<% "{index-content.features.feature_3.title}" %>"
       content: "<% "{index-content.features.feature_3.content}" %>"
 
