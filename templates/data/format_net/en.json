@@ -216,6 +216,77 @@
       "title": "JPG Image Comparison with {{EnvName}}",
       "description": "Easily analyze changes in JPG files using the {{ProdFullName}} solution."
     }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Perform MS Excel spreadsheet comparisons with {{ProdFullName}}",
+      "description": "The {{ProdFullName}} API facilitates comparison and analysis of MS Excel spreadsheets, including XLSX format. The comparison results provide detailed insights into distinctions present in the selected XLSX spreadsheets. {{ProdShortName}} is compatible with C#, ASP.NET, VB.NET, and .NET Core solutions."
+    },
+    "header": {
+      "title": "Utilize C# .NET technologies for comparing XLSX spreadsheets",
+      "description": "The {{EnvName}} API, crafted for various document types comparison, identifies and reports distinctions within MS Excel files. Build applications using C#, ASP.NET, VB.NET, or .NET Core to leverage its advantages. Get detailed reports with minimal code implementation."
+    },
+    "about": {
+      "title": "Explore the features of {{ProdFullName}} API",
+      "content": "Detect changes in your XLSX spreadsheets with convenient reporting in your {{EnvName}} projects. Additionally, retrieve information about styles, shapes, and other content, and merge XSLX spreadsheets into a new document. Integrate {{ProdFullName}} APIs into your projects with just a few lines of code. Use our software without the need for third-party developers."
+    },
+    "steps": {
+      "title": "Generate MS Excel XLSX comparison reports using .NET and C#",
+      "content": {
+        "title": "Create a distinctions report for XLSX files using [{{ProdShortName}}]({{ProductUrl}})",
+        "step_1": "Download and install the {{ProdFullName}} package from [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Instantiate the Comparer object by providing the XLSX file path",
+        "step_3": "Include XLSX spreadsheets for comparison",
+        "step_4": "Retrieve the comparison report containing distinctions information"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Generate a report on alterations in XLSX files",
+          "comment_2": "Instantiate the Comparer object for spreadsheets processing",
+          "comment_3": "Include at least one file for comparison",
+          "comment_4": "Analyze the comparison result"
+        }
+      }
+    },
+    "formats": {
+      "title": "Comparison of MS Excel spreadsheets for C# applications",
+      "description": "Explore the advantages of {{ProdFullName}} for controlling versions of XLSX documents. Quickly and easily gather information from MS Excel spreadsheets for further analysis."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Compare PPTX Presentations via {{ProdFullName}}",
+      "description": "The {{ProdFullName}} API designed to perform the comparison and analysis of PPTX presentations. The comparison results show us valuable information about distinctions present in the selected PPTX files. {{ProdShortName}} could be used with C#, ASP.NET, VB.NET, and .NET Core solutions."
+    },
+    "header": {
+      "title": "Analyze MS PowerPoint PPTX presentations with {{EnvName}} technologies",
+      "description": "THE {{ProdFullName}} is designed for various document types comparison, to analyze distinctions within Microsoft PowerPoint files. Applications based on C#, ASP.NET, VB.NET, or .NET Core could be improved with our solutions. Minimal code implementation is required to get detailed reports about distinctions in business documents."
+    },
+    "about": {
+      "title": "Open how to use the {{ProdFullName}}",
+      "content": "Analyze your PPTX presentations by constructing detailed reports along with your {{EnvName}} projects. Not only text, but styles, shapes, and other content are processed. Merge different versions of PPTX presentation into a result document. {{ProdFullName}} could be easily involved into your projects with just a couple lines of code. Our API do not need any software of third-party developers."
+    },
+    "steps": {
+      "title": "Compose MS PowerPoint PPTX comparison reports using .NET and C#",
+      "content": {
+        "title": "Get report about changes in PPTX with [{{ProdShortName}}]({{ProductUrl}})",
+        "step_1": "Install the {{ProdFullName}} package using [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Get Comparer object providing PPTX path",
+        "step_3": "Add more PPTX presentations to be compared",
+        "step_4": "Analyze report saved to local disc"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Compose alterations for presentations",
+          "comment_2": "Instantiate Comparer passing first file path",
+          "comment_3": "Include more files for comparison",
+          "comment_4": "Save the comparison result"
+        }
+      }
+    },
+    "formats": {
+      "title": "Compare Microsoft PPTX presentations in C# applications",
+      "description": "Stay informed about the advantages of {{ProdFullName}} for PPTX presentations analyzing. Generate informative reports about differences in MS PowerPoint presentations."
+    }
   }
-
 }

@@ -72,7 +72,7 @@
       "title": "Compare popular file formats like PDF using JavaScript",
       "description": "Your PDF files could be compared by our Node.js API quickly. Control document changes effortlessly with detailed reports."
     }
-  },  
+  },
   "docx": {
     "head": {
       "title": "{{ProdFullName}} API allows to compare DOCX documents.",
@@ -215,6 +215,78 @@
     "formats": {
       "title": "Comparing popular format JPG images using {{ProgLang}}",
       "description": "{{ProdFullName}}-based API provides valuable insights into differences among JPG pictures. Convenient reports facilitate monitoring changes in business files."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Compare XLSX spreadsheets content by {{ProdFullName}} software.",
+      "description": "MS Excel spreadsheets could be matched by {{ProdShortName}} Node.js API, which generates informative reports detailing various types of distinctions."
+    },
+    "header": {
+      "title": "XLSX spreadsheets comparison using Node.js via Java",
+      "description": "Employ the document processing API in Node.js to identify and expose alterations in MS Excel XLSX files within {{EnvName}} applications. Benefit from swift and effortless report generation."
+    },
+    "about": {
+      "title": "Explore the advantages of the {{ProdFullName}}",
+      "content": "Access detailed reports containing rich data about changes across different versions of XLSX documents provided by {{ProdShortName}}. Integrate {{EnvName}} applications with our API using just a few lines of code, without additional efforts. Analyze alterations in pages, text, text styles, or shapes within MS Excel documents. Select the appropriate data and merge them into a final XLSX document. Advance your business projects with our API."
+    },
+    "steps": {
+      "title": "Compose report with XLSX documents distinctions in {{ProgLang}}",
+      "content": {
+        "title": "Use [{{ProdShortName}}]({{ProductUrl}}) and {{EnvName}} for XLSX document comparison",
+        "step_1": "Install {{ProdShortName}} for Node.js via Java from [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Provide the XLSX path when calling the Comparer constructor",
+        "step_3": "Include additional XLSX files",
+        "step_4": "Enjoy the generated results"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Retrieve data describing alterations in XLSX documents",
+          "comment_2": "Instantiate the Comparer with an MS Excel file",
+          "comment_3": "Add more files for comparison",
+          "comment_4": "Save the result to the local disk"
+        }
+      }
+    },
+    "formats": {
+      "title": "Utilize JavaScript for XLSX spreadsheets comparison",
+      "description": "Easily compare any MS Excel XLSX spreadsheets using {{ProdFullName}}. Gain valuable insights into changes within your business data."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Control content of PPTX presentations by {{ProdFullName}} product.",
+      "description": "PPTX presentations could be analyzed by {{ProdShortName}} Node.js via Java solution, that composes genuine reports with rich information describing various types of content distinctions."
+    },
+    "header": {
+      "title": "Comparison for PPTX presentations with Node.js via Java",
+      "description": "Use the document processing API in Node.js to identify and highlight alterations in MS PowerPoint PPTX files using applications based on {{EnvName}}. Improve your business processes with swift and effortless data analysis."
+    },
+    "about": {
+      "title": "Explore the {{ProdFullName}} features",
+      "content": "Use detailed data from our {{ProdShortName}} reports based on information about alterations across many versions of PPTX files. Involve our solution to {{EnvName}} applications by just a few lines of code, without extra efforts. Analyze data about pages, text, styles, or shapes in MS PowerPoint presentations. Merge appropriate changes to one result PPTX presentation. Take advantages of our solution to your business projects."
+    },
+    "steps": {
+      "title": "Use PPTX documents distinctions report with {{ProgLang}}",
+      "content": {
+        "title": "[{{ProdShortName}}]({{ProductUrl}}) for PPTX presentations comparison",
+        "step_1": "Get {{ProdShortName}} from [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Calling the Comparer constructor",
+        "step_3": "Append additional PPTX presentations",
+        "step_4": "Get the result"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Get data about alterations in PPTX presentations",
+          "comment_2": "Provide the Comparer with path to PPTX file",
+          "comment_3": "Add other presentation or presentations",
+          "comment_4": "Save the result to local storage"
+        }
+      }
+    },
+    "formats": {
+      "title": "Perform PPTX presentations comparison using JavaScript",
+      "description": "Compare any documents in popular formats including MS PowerPoint PPTX presentations by {{ProdFullName}}. Enrich your business data getting reports about distinctions in PPTX presentations."
     }
   }
 }

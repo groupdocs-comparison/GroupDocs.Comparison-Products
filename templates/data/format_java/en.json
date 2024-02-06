@@ -216,6 +216,77 @@
       "title": "Track any changes in different versions of JPG images using {{ProgLang}}",
       "description": "Detect alterations in JPG images with {{ProdFullName}}. Enhance business processes with detailed reports."
     }
+  },
+  "xlsx": {
+    "head": {
+      "title": "{{ProdFullName}} has been designed for the comparison of XLSX spreadsheets.",
+      "description": "The {{ProdShortName}} API offers capabilities for retrieving reports detailing variances in XLSX documents. It is compatible with Java, J2EE, and J2SE environments."
+    },
+    "header": {
+      "title": "Java applications for detecting changes in XLSX spreadsheets",
+      "description": "The {{ProdShortName}} Java API enables the comparison of XLSX spreadsheets within Java, J2EE, or J2SE applications."
+    },
+    "about": {
+      "title": "Explore the advantages of the {{ProdFullName}} API",
+      "content": "The {{ProdFullName}} API makes easier comparison of XLSX spreadsheets, generating reports on differences found in text, paragraphs, shapes, styles, and other elements. Additionally, it supports merging alterations from multiple original files without requiring external libraries. Enhance your {{EnvName}} projects with minimal code integration."
+    },
+    "steps": {
+      "title": "Use Java for comparing multiple XLSX files",
+      "content": {
+        "title": "Use [{{ProdShortName}}]({{ProductUrl}}) to analyze MS Excel spreadsheets",
+        "step_1": "Install package from [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Instantiate the Comparer with the first XLSX spreadsheet as a parameter",
+        "step_3": "Include additional XLSX spreadsheets for comparison",
+        "step_4": "Enjoy comprehensive report"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Stay informed about changes in MS Excel documents",
+          "comment_2": "Provide the XLSX path to the Comparer",
+          "comment_3": "Incorporate additional XLSX spreadsheets",
+          "comment_4": "Access detailed reports for future analysis"
+        }
+      }
+    },
+    "formats": {
+      "title": "Manage changes in XLSX spreadsheets using Java",
+      "description": "The {{ProdShortName}} Java API empowers users to monitor different versions of XLSX spreadsheets through detailed and precise reports that are easily composed."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "{{ProdFullName}} has been specifically designed for PPTX presentations comparison.",
+      "description": "The {{ProdShortName}} solution provides functionalities for retrieving reports detailing variances in PPTX presentations. Java, J2EE, or J2SE projects may use our API without restrictions."
+    },
+    "header": {
+      "title": "Java applications empowered by {{ProdShortName}} may analyze PPTX presentations",
+      "description": "Microsoft PowerPoint PPTX presentations might be compared by {{ProdFullName}} using Java, J2EE, or J2SE applications."
+    },
+    "about": {
+      "title": "Explore the features of the {{ProdFullName}}",
+      "content": "The {{ProdFullName}} API implements comparison reports about differences in PPTX presentations. Result reports contains no only differences text but in shapes, styles, and other elements. Merging many presentations to one taking only desired. No third-party external libraries required. Empower {{EnvName}} projects by adding minimal code amount."
+    },
+    "steps": {
+      "title": "Use Java for comparing multiple PPTX files",
+      "content": {
+        "title": "Use [{{ProdShortName}}]({{ProductUrl}}) to analyze MS PowerPoint presentations",
+        "step_1": "Install package from [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Provide new comparer along with PPTX path",
+        "step_3": "Append PPTX presentations for comparison",
+        "step_4": "Get detailed report"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Know about differences in MS PPTX presentations",
+          "comment_2": "Provide the file path",
+          "comment_3": "Add additional PPTX presentations",
+          "comment_4": "Save report for future analysis"
+        }
+      }
+    },
+    "formats": {
+      "title": "Analyze PPTX files using Java",
+      "description": "The {{ProdShortName}} Java API allows to detect differences at MS PowerPoint PPTX presentations producing detailed and precise reports without extra efforts."
+    }
   }
-
 }
