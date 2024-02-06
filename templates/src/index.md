@@ -43,20 +43,17 @@ supported_platforms:
           # features loop
           - rows: "4"
             content: |
-                    .NET Framework 4.6.2 or higher
-                    .NET Core 2.0 or higher
-                    .NET 6.0 or higher
+                    .NET Framework 4.6.2 or higher <br> .NET Core 2.0 or higher <br> .NET 6.0 or higher
       
           # features loop
           - rows: "1"
             content: |
-                    Windows, Linux, Mac OS
+                    Windows <br> Linux <br> Mac OS
       
           # features loop
           - rows: "3"
             content: |
-                    Microsoft Visual Studio
-                    JetBrains Rider
+                    Microsoft Visual Studio <br> JetBrains Rider
       
           # features loop
           - rows: "1"
@@ -75,20 +72,17 @@ supported_platforms:
           # features loop
           - rows: "4"
             content: |
-                    Java 8 or higher
-                    Kotlin
+                    Java 8 or higher <br> Kotlin
       
           # features loop
           - rows: "1"
             content: |
-                    Windows, Linux, Mac OS
+                    Windows <br> Linux <br> Mac OS
       
           # features loop
           - rows: "3"
             content: |
-                    IntelliJ IDEA
-                    Eclipse
-                    NetBeans
+                    IntelliJ IDEA <br> Eclipse <br> NetBeans
       
           # features loop
           - rows: "1"
@@ -106,21 +100,17 @@ supported_platforms:
           # features loop
           - rows: "4"
             content: |
-                    Java 8 or higher
-                    Kotlin
+                    Node.js 16+ and J2SE 8.0 (1.8)+
       
           # features loop
           - rows: "1"
             content: |
-                    Windows, Linux, Mac OS
+                    Windows <br> Linux <br> Mac OS
       
           # features loop
           - rows: "3"
             content: |
-                    Atom
-                    Sublime
-                    Visual Studio Code
-                    Any other text editor
+                    Atom <br> Visual Studio Code <br> Any other text editor
       
           # features loop
           - rows: "1"
@@ -171,16 +161,17 @@ code_samples:
             content: |
                     <code class="language-csharp" data-lang="csharp">
                         // <% "{index-content.code_comment_1}" %>
-                        using (Comparer comparer = new Comparer("C:\\source.docx"))
+
+                        using (Comparer comparer = new Comparer("source.docx"))
                         {
                           // <% "{index-content.code_comment_2}" %>
-                          comparer.Add("C:\\target.docx");
+                          comparer.Add(target.docx");
 
                           // <% "{index-content.code_comment_3}" %>
                           CompareOptions options = new CompareOptions() {ShowRevisions = false};
 
                           // <% "{index-content.code_comment_4}" %>
-                          comparer.Compare("C:\\result.docx", options);
+                          comparer.Compare("result.docx", options);
                         }                    
                     </code>
 
@@ -190,17 +181,18 @@ code_samples:
             content: |
                     <code class="language-java" data-lang="java">
                         // <% "{index-content.code_comment_1}" %>
-                        try (Comparer comparer = new Comparer("C:\\source.docx"))
+
+                        try (Comparer comparer = new Comparer("source.docx"))
                         {
                           // <% "{index-content.code_comment_2}" %>
-                          comparer.add("C:\\target.docx");
+                          comparer.add("target.docx");
 
                           // <% "{index-content.code_comment_3}" %>
                           CompareOptions options = new CompareOptions();
                           options.setShowRevisions(false);
 
                           // <% "{index-content.code_comment_4}" %>
-                          final comparer.compare("C:\\result.docx", options);
+                          final comparer.compare("result.docx", options);
                         }
                     </code>
 
@@ -210,17 +202,18 @@ code_samples:
             content: |
                     <code class="language-java" data-lang="javascript">
                         // <% "{index-content.code_comment_1}" %>
-                        const comparer = new groupdocs.comparison.Comparer("C:\\source.docx");
+
+                        const comparer = new groupdocs.comparison.Comparer("source.docx");
     
                         // <% "{index-content.code_comment_2}" %>
-                        comparer.add("C:\\target.docx");
+                        comparer.add("target.docx");
 
                         // <% "{index-content.code_comment_3}" %>
                         const options = new groupdocs.comparison.CompareOptions();
                         options.setShowRevisions(false);
 
                         // <% "{index-content.code_comment_4}" %>
-                        comparer.compare("C:\\result.docx", options);    
+                        comparer.compare("result.docx", options);    
                     </code>
 
 ############################# Supported Formats ###############################

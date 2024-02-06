@@ -57,13 +57,13 @@ code:
     ```javascript {style=abap}
 
     // <% "{index-content-nodejs-java.code_comment_1}" %>
-    let comparer = new Comparer("C:\\source.bmp");
+    let comparer = new Comparer("source.bmp");
 
     // <% "{index-content-nodejs-java.code_comment_2}" %>
-    comparer.add("C:\\target.bmp");
+    comparer.add("target.bmp");
 
     // <% "{index-content-nodejs-java.code_comment_3}" %>
-    comparer.compare("C:\\result.pdf"); 
+    comparer.compare("result.bmp"); 
     ```
 
 ############################# Overview ############################
@@ -237,13 +237,13 @@ code_samples:
         import { Comparer, LoadOptions } from '@groupdocs/groupdocs.comparison'
 
         // <% "{index-content-nodejs-java.code_samples.sample_1.comment_1}" %>
-        const comparer = new Comparer("C:\\source.doc", new LoadOptions("1234"));
+        const comparer = new Comparer("source.doc", new LoadOptions("1234"));
 
         // <% "{index-content-nodejs-java.code_samples.sample_1.comment_2}" %>
-        comparer.add("C:\\target.doc", new LoadOptions("5678"));
+        comparer.add("target.doc", new LoadOptions("5678"));
 
         // <% "{index-content-nodejs-java.code_samples.sample_1.comment_3}" %>
-        comparer.compare("C:\\result.pdf");
+        comparer.compare("result.doc");
         ```
         {{< /landing/code >}}
     # code sample loop
@@ -255,16 +255,16 @@ code_samples:
         import { Comparer } from '@groupdocs/groupdocs.comparison'
 
         // <% "{index-content-nodejs-java.code_samples.sample_2.comment_1}" %>
-        const comparer = new Comparer("C:\\source.pdf");
+        const comparer = new Comparer(source.pdf");
 
         // <% "{index-content-nodejs-java.code_samples.sample_2.comment_2}" %>
-        comparer.add("C:\\target2.pdf");
+        comparer.add("target2.pdf");
 
         // <% "{index-content-nodejs-java.code_samples.sample_2.comment_3}" %>
-        comparer.add("C:\\target3.pdf");
+        comparer.add("target3.pdf");
 
         // <% "{index-content-nodejs-java.code_samples.sample_2.comment_4}" %>
-        comparer.compare("C:\\result.pdf");
+        comparer.compare("result.pdf");
         ```
         {{< /landing/code >}}
 

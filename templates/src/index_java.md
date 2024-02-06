@@ -60,17 +60,17 @@ code:
   content: |
     ```java {style=abap}  
     // <% "{index-content.code_comment_1}" %>
-    try (Comparer comparer = new Comparer("C:\\source.docx"))
+    try (Comparer comparer = new Comparer("source.docx"))
     {    
       // <% "{index-content.code_comment_2}" %>
-      comparer.add("C:\\target.docx");
+      comparer.add("target.docx");
 
       // <% "{index-content.code_comment_3}" %>
       CompareOptions options = new CompareOptions();
       options.setShowRevisions(false);
 
       // <% "{index-content.code_comment_4}" %>
-      final comparer.compare("C:\\result.docx", options);
+      final comparer.compare("result.docx", options);
     }    
     ```
 
@@ -238,13 +238,13 @@ code_samples:
         {{< landing/code title="<% "{index-content.code_samples.sample_1.code_title}" %>">}}
         ```java {style=abap}
         // <% "{index-content.code_samples.sample_1.comment_1}" %>
-        try (Comparer comparer = new Comparer("C:\\source.doc", new LoadOptions("1234")))
+        try (Comparer comparer = new Comparer("source.docx", new LoadOptions("1234")))
         {
             // <% "{index-content.code_samples.sample_1.comment_2}" %>
-            comparer.add("C:\\target.docx", new LoadOptions("5678"));
+            comparer.add("target.docx", new LoadOptions("5678"));
         
             // <% "{index-content.code_samples.sample_1.comment_3}" %>
-            comparer.compare("C:\\result.docx");
+            comparer.compare("result.docx");
         }
         ```
         {{< /landing/code >}}
@@ -255,16 +255,16 @@ code_samples:
         {{< landing/code title="<% "{index-content.code_samples.sample_2.code_title}" %>">}}
         ```java {style=abap}   
         // <% "{index-content.code_samples.sample_2.comment_1}" %>
-        try (Comparer comparer = new Comparer("C:\\source.doc") 
+        try (Comparer comparer = new Comparer("source.docx") 
         {
             // <% "{index-content.code_samples.sample_2.comment_2}" %>
-            comparer.add("C:\\target2.docx");
+            comparer.add("target2.docx");
 
             // <% "{index-content.code_samples.sample_2.comment_3}" %>
-            comparer.add("C:\\target3.docx");
+            comparer.add("target3.docx");
 
             // <% "{index-content.code_samples.sample_2.comment_4}" %>
-            comparer.compare("C:\\result.docx");
+            comparer.compare("result.docx");
         }
         ```
         {{< /landing/code >}}

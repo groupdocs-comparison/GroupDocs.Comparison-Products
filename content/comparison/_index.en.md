@@ -1,8 +1,11 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-01-29T20:57:18
+date:  2024-02-06T16:53:31
 draft: false
+
+product: "Comparison"
+product_tag: "comparison"
 
 lang: en
 
@@ -39,20 +42,17 @@ supported_platforms:
           # features loop
           - rows: "4"
             content: |
-                    .NET Framework 4.6.2 or higher
-                    .NET Core 2.0 or higher
-                    .NET 6.0 or higher
+                    .NET Framework 4.6.2 or higher <br> .NET Core 2.0 or higher <br> .NET 6.0 or higher
       
           # features loop
           - rows: "1"
             content: |
-                    Windows, Linux, Mac OS
+                    Windows <br> Linux <br> Mac OS
       
           # features loop
           - rows: "3"
             content: |
-                    Microsoft Visual Studio
-                    JetBrains Rider
+                    Microsoft Visual Studio <br> JetBrains Rider
       
           # features loop
           - rows: "1"
@@ -71,20 +71,17 @@ supported_platforms:
           # features loop
           - rows: "4"
             content: |
-                    Java 8 or higher
-                    Kotlin
+                    Java 8 or higher <br> Kotlin
       
           # features loop
           - rows: "1"
             content: |
-                    Windows, Linux, Mac OS
+                    Windows <br> Linux <br> Mac OS
       
           # features loop
           - rows: "3"
             content: |
-                    IntelliJ IDEA
-                    Eclipse
-                    NetBeans
+                    IntelliJ IDEA <br> Eclipse <br> NetBeans
       
           # features loop
           - rows: "1"
@@ -102,21 +99,17 @@ supported_platforms:
           # features loop
           - rows: "4"
             content: |
-                    Java 8 or higher
-                    Kotlin
+                    Node.js 16+ and J2SE 8.0 (1.8)+
       
           # features loop
           - rows: "1"
             content: |
-                    Windows, Linux, Mac OS
+                    Windows <br> Linux <br> Mac OS
       
           # features loop
           - rows: "3"
             content: |
-                    Atom
-                    Sublime
-                    Visual Studio Code
-                    Any other text editor
+                    Atom <br> Visual Studio Code <br> Any other text editor
       
           # features loop
           - rows: "1"
@@ -131,17 +124,17 @@ features:
 
   items:
     # items loop
-    - icon: "compare"
+    - icon: "analize"
       title: "Intuitive diff view result"
       content: "Analyze changes easily with highlighted differences in a single-document report."
 
     # items loop
-    - icon: "accept"
+    - icon: "merge"
       title: "Efficient change review process"
       content: "Accept or reject changes with visually distinct modifications for easy decision-making."
 
     # items loop
-    - icon: "content"
+    - icon: "styles"
       title: "Compare content and styling"
       content: "Compare text contents, as well as changes in formatting and style."
 
@@ -167,16 +160,17 @@ code_samples:
             content: |
                     <code class="language-csharp" data-lang="csharp">
                         // Specify the source document
-                        using (Comparer comparer = new Comparer("C:\\source.docx"))
+
+                        using (Comparer comparer = new Comparer("source.docx"))
                         {
                           // Add one or more target documents
-                          comparer.Add("C:\\target.docx");
+                          comparer.Add(target.docx");
 
                           // Specify comparison options
                           CompareOptions options = new CompareOptions() {ShowRevisions = false};
 
                           // Perform the comparison and save the resulting document
-                          comparer.Compare("C:\\result.docx", options);
+                          comparer.Compare("result.docx", options);
                         }                    
                     </code>
 
@@ -186,17 +180,18 @@ code_samples:
             content: |
                     <code class="language-java" data-lang="java">
                         // Specify the source document
-                        try (Comparer comparer = new Comparer("C:\\source.docx"))
+
+                        try (Comparer comparer = new Comparer("source.docx"))
                         {
                           // Add one or more target documents
-                          comparer.add("C:\\target.docx");
+                          comparer.add("target.docx");
 
                           // Specify comparison options
                           CompareOptions options = new CompareOptions();
                           options.setShowRevisions(false);
 
                           // Perform the comparison and save the resulting document
-                          final comparer.compare("C:\\result.docx", options);
+                          final comparer.compare("result.docx", options);
                         }
                     </code>
 
@@ -206,17 +201,18 @@ code_samples:
             content: |
                     <code class="language-java" data-lang="javascript">
                         // Specify the source document
-                        const comparer = new groupdocs.comparison.Comparer("C:\\source.docx");
+
+                        const comparer = new groupdocs.comparison.Comparer("source.docx");
     
                         // Add one or more target documents
-                        comparer.add("C:\\target.docx");
+                        comparer.add("target.docx");
 
                         // Specify comparison options
                         const options = new groupdocs.comparison.CompareOptions();
                         options.setShowRevisions(false);
 
                         // Perform the comparison and save the resulting document
-                        comparer.compare("C:\\result.docx", options);    
+                        comparer.compare("result.docx", options);    
                     </code>
 
 ############################# Supported Formats ###############################

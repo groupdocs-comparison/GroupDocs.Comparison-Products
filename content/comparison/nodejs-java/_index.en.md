@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-02T22:01:44
+date: 2024-02-06T16:53:32
 draft: false
 
 lang: en
@@ -56,13 +56,13 @@ code:
     ```javascript {style=abap}
 
     // Instantiate Comparer
-    let comparer = new Comparer("C:\\source.bmp");
+    let comparer = new Comparer("source.bmp");
 
     // Set up another file for comparison
-    comparer.add("C:\\target.bmp");
+    comparer.add("target.bmp");
 
     // Save comparison result to specified file
-    comparer.compare("C:\\result.pdf"); 
+    comparer.compare("result.bmp"); 
     ```
 
 ############################# Overview ############################
@@ -236,13 +236,13 @@ code_samples:
         import { Comparer, LoadOptions } from '@groupdocs/groupdocs.comparison'
 
         // Instantiate Comparer
-        const comparer = new Comparer("C:\\source.doc", new LoadOptions("1234"));
+        const comparer = new Comparer("source.doc", new LoadOptions("1234"));
 
         // Specify another file for comparison
-        comparer.add("C:\\target.doc", new LoadOptions("5678"));
+        comparer.add("target.doc", new LoadOptions("5678"));
 
         // Save comparison result to a specified file
-        comparer.compare("C:\\result.pdf");
+        comparer.compare("result.doc");
         ```
         {{< /landing/code >}}
     # code sample loop
@@ -254,16 +254,16 @@ code_samples:
         import { Comparer } from '@groupdocs/groupdocs.comparison'
 
         // Instantiate Comparer
-        const comparer = new Comparer("C:\\source.pdf");
+        const comparer = new Comparer(source.pdf");
 
         // Specify the second file for comparison
-        comparer.add("C:\\target2.pdf");
+        comparer.add("target2.pdf");
 
         // Specify the third file for comparison
-        comparer.add("C:\\target3.pdf");
+        comparer.add("target3.pdf");
 
         // Save comparison result to a specified file
-        comparer.compare("C:\\result.pdf");
+        comparer.compare("result.pdf");
         ```
         {{< /landing/code >}}
 

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-02T22:01:44
+date: 2024-02-06T16:53:32
 draft: false
 
 lang: en
@@ -54,17 +54,17 @@ code:
   content: |
     ```csharp {style=abap}   
     // Specify the source document
-    using (Comparer comparer = new Comparer("C:\\source.docx"))
+    using (Comparer comparer = new Comparer("source.docx"))
     {
         // Add one or more target documents
-        comparer.Add("C:\\target.docx");
+        comparer.Add("target.docx");
 
         // Specify comparison options
         CompareOptions options = new CompareOptions() 
         {ShowRevisions = false};
 
         // Perform the comparison and save the resulting document
-        comparer.Compare("C:\\result.docx", options);
+        comparer.Compare("result.docx", options);
     }
     ```
 
@@ -232,13 +232,13 @@ code_samples:
         {{< landing/code title="How to compare password-protected documents.">}}
         ```csharp {style=abap}
         // Load the source document and specify its password
-        using(Comparer comparer = new Comparer("C:\\source.doc", new LoadOptions() {Password = "1234"}))  
+        using(Comparer comparer = new Comparer("source.docx", new LoadOptions() {Password = "1234"}))  
         {
             // Load the target document and specify its password
-            comparer.Add("C:\\target.docx", new LoadOptions() {Password = "5678"});
+            comparer.Add("target.docx", new LoadOptions() {Password = "5678"});
 
             // Save comparison result to a specified file
-            comparer.Compare("C:\\result.docx");
+            comparer.Compare("result.docx");
         }
         ```
         {{< /landing/code >}}
@@ -249,16 +249,16 @@ code_samples:
         {{< landing/code title="How to compare three or more documents.">}}
         ```csharp {style=abap}   
         // Load the source document
-        using(Comparer comparer = new Comparer("C:\\source.doc") 
+        using(Comparer comparer = new Comparer("source.docx") 
         {
             // Specify the second file for comparison
-            comparer.Add("C:\\target2.docx");
+            comparer.Add("target2.docx");
             
             // Specify the third file for comparison
-            comparer.Add("C:\\target3.docx");
+            comparer.Add("target3.docx");
             
             // Save comparison result to a specified file
-            comparer.Compare("C:\\result.docx");
+            comparer.Compare("result.docx");
         }
         ```
         {{< /landing/code >}}

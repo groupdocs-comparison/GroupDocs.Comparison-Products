@@ -55,17 +55,17 @@ code:
   content: |
     ```csharp {style=abap}   
     // <% "{index-content.code_comment_1}" %>
-    using (Comparer comparer = new Comparer("C:\\source.docx"))
+    using (Comparer comparer = new Comparer("source.docx"))
     {
         // <% "{index-content.code_comment_2}" %>
-        comparer.Add("C:\\target.docx");
+        comparer.Add("target.docx");
 
         // <% "{index-content.code_comment_3}" %>
         CompareOptions options = new CompareOptions() 
         {ShowRevisions = false};
 
         // <% "{index-content.code_comment_4}" %>
-        comparer.Compare("C:\\result.docx", options);
+        comparer.Compare("result.docx", options);
     }
     ```
 
@@ -233,13 +233,13 @@ code_samples:
         {{< landing/code title="<% "{index-content.code_samples.sample_1.code_title}" %>">}}
         ```csharp {style=abap}
         // <% "{index-content.code_samples.sample_1.comment_1}" %>
-        using(Comparer comparer = new Comparer("C:\\source.doc", new LoadOptions() {Password = "1234"}))  
+        using(Comparer comparer = new Comparer("source.docx", new LoadOptions() {Password = "1234"}))  
         {
             // <% "{index-content.code_samples.sample_1.comment_2}" %>
-            comparer.Add("C:\\target.docx", new LoadOptions() {Password = "5678"});
+            comparer.Add("target.docx", new LoadOptions() {Password = "5678"});
 
             // <% "{index-content.code_samples.sample_1.comment_3}" %>
-            comparer.Compare("C:\\result.docx");
+            comparer.Compare("result.docx");
         }
         ```
         {{< /landing/code >}}
@@ -250,16 +250,16 @@ code_samples:
         {{< landing/code title="<% "{index-content.code_samples.sample_2.code_title}" %>">}}
         ```csharp {style=abap}   
         // <% "{index-content.code_samples.sample_2.comment_1}" %>
-        using(Comparer comparer = new Comparer("C:\\source.doc") 
+        using(Comparer comparer = new Comparer("source.docx") 
         {
             // <% "{index-content.code_samples.sample_2.comment_2}" %>
-            comparer.Add("C:\\target2.docx");
+            comparer.Add("target2.docx");
             
             // <% "{index-content.code_samples.sample_2.comment_3}" %>
-            comparer.Add("C:\\target3.docx");
+            comparer.Add("target3.docx");
             
             // <% "{index-content.code_samples.sample_2.comment_4}" %>
-            comparer.Compare("C:\\result.docx");
+            comparer.Compare("result.docx");
         }
         ```
         {{< /landing/code >}}

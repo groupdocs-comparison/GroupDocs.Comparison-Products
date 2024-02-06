@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-02T22:01:44
+date: 2024-02-06T16:53:32
 draft: false
 
 lang: en
@@ -59,17 +59,17 @@ code:
   content: |
     ```java {style=abap}  
     // Specify the source document
-    try (Comparer comparer = new Comparer("C:\\source.docx"))
+    try (Comparer comparer = new Comparer("source.docx"))
     {    
       // Add one or more target documents
-      comparer.add("C:\\target.docx");
+      comparer.add("target.docx");
 
       // Specify comparison options
       CompareOptions options = new CompareOptions();
       options.setShowRevisions(false);
 
       // Perform the comparison and save the resulting document
-      final comparer.compare("C:\\result.docx", options);
+      final comparer.compare("result.docx", options);
     }    
     ```
 
@@ -237,13 +237,13 @@ code_samples:
         {{< landing/code title="How to compare password-protected documents.">}}
         ```java {style=abap}
         // Load the source document and specify its password
-        try (Comparer comparer = new Comparer("C:\\source.doc", new LoadOptions("1234")))
+        try (Comparer comparer = new Comparer("source.docx", new LoadOptions("1234")))
         {
             // Load the target document and specify its password
-            comparer.add("C:\\target.docx", new LoadOptions("5678"));
+            comparer.add("target.docx", new LoadOptions("5678"));
         
             // Save comparison result to a specified file
-            comparer.compare("C:\\result.docx");
+            comparer.compare("result.docx");
         }
         ```
         {{< /landing/code >}}
@@ -254,16 +254,16 @@ code_samples:
         {{< landing/code title="How to compare three or more documents.">}}
         ```java {style=abap}   
         // Load the source document
-        try (Comparer comparer = new Comparer("C:\\source.doc") 
+        try (Comparer comparer = new Comparer("source.docx") 
         {
             // Specify the second file for comparison
-            comparer.add("C:\\target2.docx");
+            comparer.add("target2.docx");
 
             // Specify the third file for comparison
-            comparer.add("C:\\target3.docx");
+            comparer.add("target3.docx");
 
             // Save comparison result to a specified file
-            comparer.compare("C:\\result.docx");
+            comparer.compare("result.docx");
         }
         ```
         {{< /landing/code >}}
