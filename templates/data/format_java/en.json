@@ -1,12 +1,16 @@
 {
   "common": {
     "head": {
-      "title": "Utilize the Comparison API to compare {{FileFormatUp}} documents using Java.",
-      "description": "{{ProdFullName}} provides an API to obtain detailed document comparison reports in various Java applications, including J2EE and J2SE."
+      "title": "Java {{FileFormatUp}} Comparison API - Compare {{FileFormatUp}} Files for Differences",
+      "description": "Compare and merge {{FileFormatUp}} files in {{EnvName}}, J2EE, J2SE applications. Analyze differences summary in content, text & style of {{FileFormatUp}} files, images and document formats."
+      //"title": "Utilize the Comparison API to compare {{FileFormatUp}} documents using Java.",
+      //"description": "{{ProdFullName}} provides an API to obtain detailed document comparison reports in various Java applications, including J2EE and J2SE."
     },
     "header": {
-      "title": "{{FileFormatUp}} document comparison in Java applications",
-      "description": "{{ProdShortName}} API for getting and displaying differences in {{FileFormatUp}} documents using applications based on Java, J2EE, and J2SE. Easily obtain detailed reports for a brilliant experience.",
+      "title": "Compare {{FileFormatUp}} Files in {{EnvName}}",
+      "description": "Perform a line-by-line comparison between more than two {{FileFormatUp}} files in {{EnvName}}. Retrieve a list of differences and save the compared files to a single document.",
+      //"title": "{{FileFormatUp}} document comparison in Java applications",
+      //"description": "{{ProdShortName}} API for getting and displaying differences in {{FileFormatUp}} documents using applications based on Java, J2EE, and J2SE. Easily obtain detailed reports for a brilliant experience.",
       "subtitle": "Documents comparing framework",
       "action_title": "Free {{PackageStoreName}} download"
     },

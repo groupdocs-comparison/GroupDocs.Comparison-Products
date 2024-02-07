@@ -1,12 +1,16 @@
 {
   "common": {
     "head": {
-      "title": ".NET {{FileFormatUp}} Comparison API - compare documents using C# .NET",
-      "description": "{{ProdFullName}} offers an API to obtain comprehensive document comparison reports in a variety of applications, including C#, ASP.NET, VB.NET, and .NET Core."
+      "title": "Compare two {{FileFormatUp}} files in .NET | Document Comparison APIs",
+      "description": "Compare and merge more than two {{FileFormatUp}} files in {{ProgLang}} {{EnvName}} applications. Retrieve differences summary in content, text & style of {{FileFormatUp}} files, images and document formats."
+      //"title": ".NET {{FileFormatUp}} Comparison API - compare documents using C# .NET",
+      //"description": "{{ProdFullName}} offers an API to obtain comprehensive document comparison reports in a variety of applications, including C#, ASP.NET, VB.NET, and .NET Core."
     },
     "header": {
-      "title": "Compare {{FileFormatUp}} files in .NET solutions",
-      "description": ".NET document comparison API for retrieving and displaying differences in {{FileFormatUp}} files in C#, ASP.NET, VB.NET, and .NET Core Applications. Effortlessly obtain detailed reports for a seamless experience.",
+      "title": "Compare {{FileFormatUp}} Files in {{ProgLang}} {{EnvName}}",
+      "description": "{{EnvName}} documents comparison API to detect the changes between two versions of {{FileFormatUp}} files and export to a final document with a detailed summary of the differences between the compared documents.",
+      //"title": "Compare {{FileFormatUp}} files in .NET solutions",
+      //"description": ".NET document comparison API for retrieving and displaying differences in {{FileFormatUp}} files in C#, ASP.NET, VB.NET, and .NET Core Applications. Effortlessly obtain detailed reports for a seamless experience.",
       "subtitle": "Document comparison solution",
       "action_title": "Free {{PackageStoreName}} download"
     },
