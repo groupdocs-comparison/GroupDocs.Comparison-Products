@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-02T14:05:45
+date:  2024-02-12T14:32:52
 draft: false
 lang: en
 format: Pptx
@@ -12,13 +12,13 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Utilize the Comparison API to compare PPTX documents using Java."
-head_description: "GroupDocs.Comparison for Java provides an API to obtain detailed document comparison reports in various Java applications, including J2EE and J2SE."
+head_title: "GroupDocs.Comparison for Java has been specifically designed for PPTX presentations comparison."
+head_description: "The GroupDocs.Comparison solution provides functionalities for retrieving reports detailing variances in PPTX presentations. Java, J2EE, or J2SE projects may use our API without restrictions."
 
 ############################# Header ############################
-title: "PPTX document comparison in Java applications" 
-description: "GroupDocs.Comparison API for getting and displaying differences in PPTX documents using applications based on Java, J2EE, and J2SE. Easily obtain detailed reports for a brilliant experience."
-subtitle: "Documents comparing framework" 
+title: "Java applications empowered by GroupDocs.Comparison may analyze PPTX presentations" 
+description: "Microsoft PowerPoint PPTX presentations might be compared by GroupDocs.Comparison for Java using Java, J2EE, or J2SE applications."
+subtitle: "Documents differences checking framework"  
 
 header_actions:
   enable: true
@@ -30,24 +30,24 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "Explore the capabilities of GroupDocs.Comparison for Java API"
+    title: "Explore the features of the GroupDocs.Comparison for Java"
     link: "/comparison/java/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for Java is an intrinsic Java API crafted for comparing multiple images and documents sharing the same format. It assists in identifying variations within paragraphs, words, characters, shapes, and even text styles among the compared documents. With the capability to merge these alterations and export to a final document, it facilitates the comparison and merging of PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings, and various image file formats—eliminating the necessity for any external libraries.
+       The GroupDocs.Comparison for Java API implements comparison reports about differences in PPTX presentations. Result reports contains no only differences text but in shapes, styles, and other elements. Merging many presentations to one taking only desired. No third-party external libraries required. Empower Java projects by adding minimal code amount.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to compare several PPTX documents using Java"
+    title: "Use Java for comparing multiple PPTX files"
     content: |
-      Use [GroupDocs.Comparison](https://products.groupdocs.com/comparison/java/) to compare multiple PPTX files and generate a report detailing their differences
+      Use [GroupDocs.Comparison](https://products.groupdocs.com/comparison/java/) to analyze MS PowerPoint presentations
       
-      1. Use your preferred package manager to install GroupDocs.Comparison for Java from [Maven](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/)
-      2. Create an instance of the Comparer class setting path to one of PPTX files
-      3. Add at least one additional PPTX to the Comparer instance
-      4. Receive a detailed final report outlining the exact differences
+      1. Install package from [Maven](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/)
+      2. Provide new comparer along with PPTX path
+      3. Append PPTX presentations for comparison
+      4. Get detailed report
    
     code:
       platform: "net"
@@ -85,14 +85,15 @@ steps:
         // Check files from your hard drive for differences or similarities
 
         // Create a Comparer object by specifying the initial file
-        try (Comparer comparer = new Comparer("source.pptx") 
+        try (Comparer comparer = new Comparer("main.pptx") 
         {
             // Include additional files to comparing
-        	comparer.add("target1.pptx");
-            comparer.add("target2.pptx");
+        	comparer.add("version1.pptx");
+            comparer.add("version2.pptx");
+            comparer.add("version3.pptx");
 
             // Get the report with the specified name as the result
-            final Path resultPath = comparer.compare("result.pptx"); 
+            final Path resultPath = comparer.compare("full_report.pptx"); 
 
             System.out.println("\nDocuments compared successfully.");
         }
@@ -119,9 +120,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Compare various documents using Java"
+    title: "Analyze PPTX files using Java"
     exclude: "PPTX"
-    description: "Our Java API allows you to compare documents of various formats. Stay updated on document changes by processing them effortlessly."
+    description: "The GroupDocs.Comparison for Java software allows to detect differences at MS PowerPoint PPTX presentations producing detailed and precise reports without extra efforts."
     items: 
         # format loop 1
         - name: "Compare PDF Files"

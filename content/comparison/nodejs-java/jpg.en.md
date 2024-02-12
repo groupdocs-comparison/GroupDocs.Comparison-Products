@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-02T14:05:46
+date:  2024-02-12T14:32:53
 draft: false
 lang: en
 format: Jpg
@@ -12,8 +12,8 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "GroupDocs.Comparison for Node.js via Java API enables automated comparison of JPG images."
-head_description: "Utilize GroupDocs.Comparison for Node.js via Java API to access detailed distinctions information in JPG images."
+head_title: "GroupDocs.Comparison for Node.js via Java library enables automated diffs check for JPG images."
+head_description: "Utilize GroupDocs.Comparison for Node.js via Java software to access detailed distinctions information in JPG images."
 
 ############################# Header ############################
 title: "Obtaining JPG alteration reports in Node.js via Java applications" 
@@ -105,7 +105,7 @@ more_formats:
     enable: true
     title: "Comparing popular format JPG images using JavaScript"
     exclude: "JPG"
-    description: "GroupDocs.Comparison for Node.js via Java-based API provides valuable insights into differences among JPG pictures. Convenient reports facilitate monitoring changes in business files."
+    description: "GroupDocs.Comparison for Node.js via Java-based library provides valuable insights into differences among JPG pictures. Convenient reports facilitate monitoring changes in business files."
     items: 
         # format loop 1
         - name: "Compare PDF Files"

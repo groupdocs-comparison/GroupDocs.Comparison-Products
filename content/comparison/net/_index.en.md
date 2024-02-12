@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-06T16:53:32
+date: 2024-02-12T14:32:54
 draft: false
 
 lang: en
@@ -24,12 +24,12 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ".NET Document Comparison Library | Compare Docs for Text & Style"
-head_description: ".NET API to compare document style & content. Compare documents of multiple supported formats for the difference to identify changes between files."
+head_title: "C# .NET Document Comparison Library | diff checker software | net diff library | Compare and check for diffs PDF Word Excel Web & Text"
+head_description: "C# .NET Software to compare document style & content. Compare documents of multiple supported formats for the difference to identify changes between files."
 
 ############################# Header ############################
-title: "Compare documents with ease in your .NET solutions"
-description: "Build .NET applications with a flexible document comparison API that enables file comparison by content and style across various document formats."
+title: "Compare documents with ease in your C# .NET solutions"
+description: "Build C# applications with a flexible document comparison API that enables file comparison by content and style across various document formats."
 words:
   for: "for"
 

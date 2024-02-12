@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-02T14:05:46
+date:  2024-02-12T14:32:53
 draft: false
 lang: en
 format: Png
@@ -12,8 +12,8 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "GroupDocs.Comparison for Node.js via Java API helps us with comparing PNG documents."
-head_description: "GroupDocs.Comparison for Node.js via Java API represents detailed reports about distinctions in images in PNG format."
+head_title: "GroupDocs.Comparison for Node.js via Java software helps us with comparing PNG documents."
+head_description: "GroupDocs.Comparison for Node.js via Java library represents detailed reports about distinctions in images in PNG format."
 
 ############################# Header ############################
 title: "PNG images comparison Node.js applications via Java" 
@@ -105,7 +105,7 @@ more_formats:
     enable: true
     title: "Match images in popular formats like PNG using JavaScript"
     exclude: "PNG"
-    description: "Use GroupDocs.Comparison for Node.js via Java API in order to get information about PNG pictures differences. Detailed reports helps you to be informed about any changes at important data."
+    description: "Use GroupDocs.Comparison for Node.js via Java in order to get information about PNG pictures differences. Detailed reports helps you to be informed about any changes at important data."
     items: 
         # format loop 1
         - name: "Compare PDF Files"

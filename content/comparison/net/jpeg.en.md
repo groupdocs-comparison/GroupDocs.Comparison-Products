@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-02T14:05:46
+date:  2024-02-12T14:32:53
 draft: false
 lang: en
 format: Jpeg
@@ -35,7 +35,7 @@ about:
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for .NET API provides rich functionality in JPEG images comparison. Resulting reports contain data about any distinctions at selected images. Using of our software in your .NET projects do not request for any other libraries. Just add some lines of code and get powerful tool to achieve your goals.
+       GroupDocs.Comparison for .NET API provides rich functionality in JPEG images comparison. Resulting reports contain data about any distinctions at selected images. Using of our software in your C# projects do not request for any other libraries. Just add some lines of code and get powerful tool to achieve your goals.
 
 ############################# Steps ############################
 steps:
@@ -103,7 +103,7 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Comparison for JPEG images with .NET"
+    title: "Comparison for JPEG images with C# .NET"
     exclude: "JPEG"
     description: "Analyze information about any changes in JPEG files easily using GroupDocs.Comparison for .NET product."
     items: 

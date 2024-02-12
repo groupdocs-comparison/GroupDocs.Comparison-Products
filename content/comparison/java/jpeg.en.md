@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-02T14:05:45
+date:  2024-02-12T14:32:52
 draft: false
 lang: en
 format: Jpeg
@@ -18,7 +18,7 @@ head_description: "Powerful GroupDocs.Comparison for Java API developed to gener
 ############################# Header ############################
 title: "Compare JPEG images with our Java library" 
 description: "Java, J2EE or J2SE applications powered by GroupDocs.Comparison API allow to retrieve detailed reports about distinctions at JPEG pictures effortlessly."
-subtitle: "Documents comparing framework"  
+subtitle: "Documents differences checking framework"  
 
 header_actions:
   enable: true

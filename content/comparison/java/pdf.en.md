@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-02T14:05:45
+date:  2024-02-12T14:32:52
 draft: false
 lang: en
 format: Pdf
@@ -12,13 +12,13 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Use the Comparison API along with Java to compare PDF documents."
+head_title: "Use the Comparison library along with Java to check PDF documents diffs."
 head_description: "The GroupDocs.Comparison Java API creates detailed reports for PDF documents in applications that support J2EE and J2SE."
 
 ############################# Header ############################
 title: "Comparing PDF documents using Java applications" 
-description: "The GroupDocs.Comparison Java API provides detailed comparison reports for PDF documents in various kinds of applications that use J2EE or J2SE."
-subtitle: "Documents comparing framework"  
+description: "The GroupDocs.Comparison Java library provides detailed comparison reports for PDF documents in various kinds of applications that use J2EE or J2SE."
+subtitle: "Documents differences checking framework"  
 
 header_actions:
   enable: true
@@ -122,7 +122,7 @@ more_formats:
     enable: true
     title: "Find any changes at PDF files via Java"
     exclude: "PDF"
-    description: "Our Java API provides possibility to control PDF files versions by generating precise and detailed report in your favorite format."
+    description: "Our Java software provides possibility to control PDF files versions by generating precise and detailed report in your favorite format."
     items: 
         # format loop 1
         - name: "Compare PDF Files"

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-02T14:05:46
+date:  2024-02-12T14:32:53
 draft: false
 lang: en
 format: Png
@@ -12,7 +12,7 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "PNG images comparing by GroupDocs.Comparison for .NET API"
+head_title: "PNG images differences checking by GroupDocs.Comparison for .NET API"
 head_description: "GroupDocs.Comparison for .NET allows us to generate precise reports about distinctions at PNG images for applications based on C#, ASP.NET, VB.NET, or .NET Core"
 
 ############################# Header ############################
@@ -35,7 +35,7 @@ about:
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for .NET API designed for comparing multiple PNG images and composing sophisticated reports about any distinctions at such images. It might be used at your .NET applications without installing any third-party software. Use GroupDocs.Comparison for .NET APIs by adding a couple lines of code with many useful features out of the box.
+       GroupDocs.Comparison for .NET API designed for comparing multiple PNG images and composing sophisticated reports about any distinctions at such images. It might be used at your .NET applications without installing any third-party software. Use GroupDocs.Comparison for .NET by adding a couple lines of code with many useful features out of the box.
 
 ############################# Steps ############################
 steps:

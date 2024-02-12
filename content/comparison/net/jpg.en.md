@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-02T14:05:46
+date:  2024-02-12T14:32:53
 draft: false
 lang: en
 format: Jpg
@@ -35,7 +35,7 @@ about:
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       The GroupDocs.Comparison for .NET API offers extensive functionality for comparing JPG images, generating reports containing distinctions within selected images. Our software seamlessly integrates into .NET projects without requiring additional libraries, enabling you to achieve your objectives with minimal code.
+       The GroupDocs.Comparison for .NET API offers extensive functionality for comparing JPG images, generating reports containing distinctions within selected images. Our software seamlessly integrates into C# projects without requiring additional libraries, enabling you to achieve your objectives with minimal code.
 
 ############################# Steps ############################
 steps:

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-02T14:05:45
+date:  2024-02-12T14:32:52
 draft: false
 lang: en
 format: Cpp
@@ -12,12 +12,12 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: ".NET CPP Comparison API - compare documents using C# .NET"
-head_description: "GroupDocs.Comparison for .NET offers an API to obtain comprehensive document comparison reports in a variety of applications, including C#, ASP.NET, VB.NET, and .NET Core."
+head_title: "Compare two CPP files with C# Document Comparison software"
+head_description: "Compare and merge more than two CPP files in C# .NET applications. Retrieve differences summary in content, text & style of CPP files, images and document formats."
 
 ############################# Header ############################
-title: "Compare CPP files in .NET solutions" 
-description: ".NET document comparison API for retrieving and displaying differences in CPP files in C#, ASP.NET, VB.NET, and .NET Core Applications. Effortlessly obtain detailed reports for a seamless experience."
+title: "Compare CPP Files in C# .NET" 
+description: ".NET documents comparison API to check for diffs between two versions of CPP files and export to a final document with a detailed summary of the differences between the compared documents."
 subtitle: "Document comparison solution" 
 
 header_actions:

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-02T14:05:45
+date:  2024-02-12T14:32:52
 draft: false
 lang: en
 format: Xlsx
@@ -12,13 +12,13 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Utilize the Comparison API to compare XLSX documents using Java."
-head_description: "GroupDocs.Comparison for Java provides an API to obtain detailed document comparison reports in various Java applications, including J2EE and J2SE."
+head_title: "GroupDocs.Comparison for Java has been designed for the comparison of XLSX spreadsheets."
+head_description: "The GroupDocs.Comparison API offers capabilities for retrieving reports detailing variances in XLSX documents. It is compatible with Java, J2EE, and J2SE environments."
 
 ############################# Header ############################
-title: "XLSX document comparison in Java applications" 
-description: "GroupDocs.Comparison API for getting and displaying differences in XLSX documents using applications based on Java, J2EE, and J2SE. Easily obtain detailed reports for a brilliant experience."
-subtitle: "Documents comparing framework" 
+title: "Java applications for detecting changes in XLSX spreadsheets" 
+description: "The GroupDocs.Comparison Java API enables the comparison of XLSX spreadsheets within Java, J2EE, or J2SE applications."
+subtitle: "Documents differences checking framework"  
 
 header_actions:
   enable: true
@@ -30,24 +30,24 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "Explore the capabilities of GroupDocs.Comparison for Java API"
+    title: "Explore the advantages of the GroupDocs.Comparison for Java API"
     link: "/comparison/java/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for Java is an intrinsic Java API crafted for comparing multiple images and documents sharing the same format. It assists in identifying variations within paragraphs, words, characters, shapes, and even text styles among the compared documents. With the capability to merge these alterations and export to a final document, it facilitates the comparison and merging of PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings, and various image file formats—eliminating the necessity for any external libraries.
+       The GroupDocs.Comparison for Java API makes easier comparison of XLSX spreadsheets, generating reports on differences found in text, paragraphs, shapes, styles, and other elements. Additionally, it supports merging alterations from multiple original files without requiring external libraries. Enhance your Java projects with minimal code integration.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to compare several XLSX documents using Java"
+    title: "Use Java for comparing multiple XLSX files"
     content: |
-      Use [GroupDocs.Comparison](https://products.groupdocs.com/comparison/java/) to compare multiple XLSX files and generate a report detailing their differences
+      Use [GroupDocs.Comparison](https://products.groupdocs.com/comparison/java/) to analyze MS Excel spreadsheets
       
-      1. Use your preferred package manager to install GroupDocs.Comparison for Java from [Maven](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/)
-      2. Create an instance of the Comparer class setting path to one of XLSX files
-      3. Add at least one additional XLSX to the Comparer instance
-      4. Receive a detailed final report outlining the exact differences
+      1. Install package from [Maven](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/)
+      2. Instantiate the Comparer with the first XLSX spreadsheet as a parameter
+      3. Include additional XLSX spreadsheets for comparison
+      4. Enjoy comprehensive report
    
     code:
       platform: "net"
@@ -85,14 +85,15 @@ steps:
         // Check files from your hard drive for differences or similarities
 
         // Create a Comparer object by specifying the initial file
-        try (Comparer comparer = new Comparer("source.xlsx") 
+        try (Comparer comparer = new Comparer("main.xlsx") 
         {
             // Include additional files to comparing
-        	comparer.add("target1.xlsx");
-            comparer.add("target2.xlsx");
+        	comparer.add("version1.xlsx");
+            comparer.add("version2.xlsx");
+            comparer.add("version3.xlsx");
 
             // Get the report with the specified name as the result
-            final Path resultPath = comparer.compare("result.xlsx"); 
+            final Path resultPath = comparer.compare("full_report.xlsx"); 
 
             System.out.println("\nDocuments compared successfully.");
         }
@@ -119,9 +120,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Compare various documents using Java"
+    title: "Manage changes in XLSX spreadsheets using Java"
     exclude: "XLSX"
-    description: "Our Java API allows you to compare documents of various formats. Stay updated on document changes by processing them effortlessly."
+    description: "The GroupDocs.Comparison Java library empowers users to monitor different versions of XLSX spreadsheets through detailed and precise reports that are easily composed."
     items: 
         # format loop 1
         - name: "Compare PDF Files"

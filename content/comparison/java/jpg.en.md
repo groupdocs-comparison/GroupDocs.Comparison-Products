@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-02T14:05:45
+date:  2024-02-12T14:32:52
 draft: false
 lang: en
 format: Jpg
@@ -18,7 +18,7 @@ head_description: "GroupDocs.Comparison for Java API generates useful reports fo
 ############################# Header ############################
 title: "Analyze changes in JPG files via our Java solution" 
 description: "Java, J2EE, or J2SE apps using GroupDocs.Comparison API are able to generate detailed JPG reports."
-subtitle: "Documents comparing framework"  
+subtitle: "Documents differences checking framework"  
 
 header_actions:
   enable: true

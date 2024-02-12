@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-02T14:05:46
+date:  2024-02-12T14:32:53
 draft: false
 lang: en
 format: Xlsx
@@ -12,12 +12,12 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Effortlessly compare XLSX documents using the Node.js PDF Comparison API with JavaScript."
-head_description: "GroupDocs.Comparison for Node.js via Java offers an API to generate detailed document comparison reports for Node.js applications."
+head_title: "Compare XLSX spreadsheets content by GroupDocs.Comparison for Node.js via Java software."
+head_description: "MS Excel spreadsheets diffs could be checked by GroupDocs.Comparison Node.js API, which generates informative reports detailing various types of distinctions."
 
 ############################# Header ############################
-title: "Comparing your XLSX files in Node.js" 
-description: "Document comparison API based on Node.js provides opportunity to collect and display data about any distinctions in XLSX files. Enhance the productivity of your solutions in file comparison tasks with GroupDocs.Comparison."
+title: "XLSX spreadsheets comparison using Node.js via Java" 
+description: "Employ the document processing library in Node.js to identify and expose alterations in MS Excel XLSX files within Node.js via Java applications. Benefit from swift and effortless report generation."
 subtitle: "Solution for files comparing" 
 
 header_actions:
@@ -30,24 +30,24 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "Explore the features of GroupDocs.Comparison API for Node.js"
+    title: "Explore the advantages of the GroupDocs.Comparison for Node.js via Java"
     link: "/comparison/nodejs-java/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for Node.js via Java is an API that helps to compare pictures and documents in the same format. It can find differences in paragraphs, words, characters, shapes, and text styles between the compared documents. You can combine these changes and save them as a final document. It works well with PDFs, Word documents, Excel sheets, PowerPoint slides, Visio diagrams, Outlook emails, HTML, drawings, and various image types—all without needing extra tools.
+       Access detailed reports containing rich data about changes across different versions of XLSX documents provided by GroupDocs.Comparison. Integrate Node.js via Java applications with our API using just a few lines of code, without additional efforts. Analyze alterations in pages, text, text styles, or shapes within MS Excel documents. Select the appropriate data and merge them into a final XLSX document. Advance your business projects with our solutions.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to perform XLSX files comparison using Node.js."
+    title: "Compose report with XLSX documents distinctions in JavaScript"
     content: |
-      It is possible to use XLSX files using [GroupDocs.Comparison](https://products.groupdocs.com/comparison/nodejs-java/) for getting report about differences in many XLSX files
+      Use [GroupDocs.Comparison](https://products.groupdocs.com/comparison/nodejs-java/) and Node.js via Java for XLSX document comparison
       
-      1. Install GroupDocs.Comparison for Node.js via Java using [NPM](https://www.npmjs.com/package/@groupdocs/groupdocs.comparison)
-      2. Instantiate the Comparer and providing path to first of the files in the XLSX format
-      3. Add another XLSX file to Comparer
-      4. Obtain a clear report that precisely describes the differences
+      1. Install GroupDocs.Comparison for Node.js via Java from [NPM](https://www.npmjs.com/package/@groupdocs/groupdocs.comparison)
+      2. Provide the XLSX path when calling the Comparer constructor
+      3. Include additional XLSX files
+      4. Enjoy the generated results
    
     code:
       platform: "net"
@@ -70,17 +70,17 @@ steps:
         // Check multiple files to see how they are similar or different
 
         // Create a Comparer object and give it the first file as input
-        const comparer = new groupdocs.comparison.Comparer('source.xlsx');
+        const comparer = new groupdocs.comparison.Comparer('first.xlsx');
 
         // Append more files
-        comparer.add('file_v1.xlsx');
-        comparer.add('file_2023.xlsx');
+        comparer.add('second.xlsx');
+        comparer.add('third.xlsx');
 
         // Fetch the final report
-        await comparer.compare('report_new.xlsx');
+        await comparer.compare('report_full.xlsx');
 
-        console.log('\nFiles are compared.\nCheck result.');
-
+        console.log('\nDocuments compared successfully.\nCheck output.');
+        
         ```            
 
 ############################# Actions ############################
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Compare popular document types via JavaScript"
+    title: "Utilize JavaScript for XLSX spreadsheets comparison"
     exclude: "XLSX"
-    description: "Our Node.js API enables you to compare documents in different formats. Keep track of document changes effortlessly by processing them using our tool."
+    description: "Easily compare any MS Excel XLSX spreadsheets using GroupDocs.Comparison for Node.js via Java. Gain valuable insights into changes within your business data."
     items: 
         # format loop 1
         - name: "Compare PDF Files"

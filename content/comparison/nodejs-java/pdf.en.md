@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-02T14:05:46
+date:  2024-02-12T14:32:53
 draft: false
 lang: en
 format: Pdf
@@ -12,8 +12,8 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Use JavaScript with the Comparison Node.js API to compare PDF documents."
-head_description: "The GroupDocs.Comparison Node.js API generates comprehensive reports detailing differences in PDF documents."
+head_title: "Use JavaScript with the Comparison Node.js library to check differences in PDF documents."
+head_description: "The GroupDocs.Comparison Node.js software generates comprehensive reports detailing differences in PDF documents."
 
 ############################# Header ############################
 title: "PDF documents comparison for Node.js via Java" 
@@ -30,12 +30,12 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "Explore GroupDocs.Comparison for Node.js via Java API features"
+    title: "Explore GroupDocs.Comparison for Node.js via Java library features"
     link: "/comparison/nodejs-java/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       Get detailed reports about any differences inside PDF documents at your .NET applications. Use GroupDocs.Comparison for Node.js via Java APIs by adding a couple lines of code without any additional software or any other external libraries. Control any alterations in paragraphs, words, characters, shapes, and text styles inside your PDF files. Merging changes from many document versions to result PDF is available too. Process documents swiftly and without extra efforts.
+       Get detailed reports about any differences inside PDF documents at your .NET applications. Use GroupDocs.Comparison for Node.js via Java by adding a couple lines of code without any additional software or any other external libraries. Control any alterations in paragraphs, words, characters, shapes, and text styles inside your PDF files. Merging changes from many document versions to result PDF is available too. Process documents swiftly and without extra efforts.
 
 ############################# Steps ############################
 steps:

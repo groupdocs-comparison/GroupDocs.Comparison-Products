@@ -1,25 +1,21 @@
 {
   "common": {
     "head": {
-      "title": "Java {{FileFormatUp}} Comparison API - Compare {{FileFormatUp}} Files for Differences",
+      "title": "{{EnvName}} {{FileFormatUp}} Comparison API - Check {{FileFormatUp}} Files for Differences",
       "description": "Compare and merge {{FileFormatUp}} files in {{EnvName}}, J2EE, J2SE applications. Analyze differences summary in content, text & style of {{FileFormatUp}} files, images and document formats."
-      //"title": "Utilize the Comparison API to compare {{FileFormatUp}} documents using Java.",
-      //"description": "{{ProdFullName}} provides an API to obtain detailed document comparison reports in various Java applications, including J2EE and J2SE."
     },
     "header": {
       "title": "Compare {{FileFormatUp}} Files in {{EnvName}}",
-      "description": "Perform a line-by-line comparison between more than two {{FileFormatUp}} files in {{EnvName}}. Retrieve a list of differences and save the compared files to a single document.",
-      //"title": "{{FileFormatUp}} document comparison in Java applications",
-      //"description": "{{ProdShortName}} API for getting and displaying differences in {{FileFormatUp}} documents using applications based on Java, J2EE, and J2SE. Easily obtain detailed reports for a brilliant experience.",
-      "subtitle": "Documents comparing framework",
+      "description": "Perform content comparison between more than two {{FileFormatUp}} files in {{EnvName}}. Retrieve a list of differences and save the compared files to a single document.",
+      "subtitle": "Documents differences checking framework",
       "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
-      "title": "Explore the capabilities of {{ProdFullName}} API",
-      "content": "{{ProdFullName}} is an intrinsic Java API crafted for comparing multiple images and documents sharing the same format. It assists in identifying variations within paragraphs, words, characters, shapes, and even text styles among the compared documents. With the capability to merge these alterations and export to a final document, it facilitates the comparison and merging of PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings, and various image file formats—eliminating the necessity for any external libraries."
+      "title": "Explore the capabilities of {{ProdFullName}} library",
+      "content": "{{ProdFullName}} is an intrinsic {{EnvName}} software crafted for comparing multiple images and documents sharing the same format. It assists in identifying variations within paragraphs, words, characters, shapes, and even text styles among the compared documents. With the capability to merge these alterations and export to a final document, it facilitates the comparison and merging of PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings, and various image file formats—eliminating the necessity for any external libraries."
     },
     "steps": {
-      "title": "How to compare several {{FileFormatUp}} documents using Java",
+      "title": "How to compare several {{FileFormatUp}} documents using {{EnvName}}",
       "content": {
         "title": "Use [{{ProdShortName}}]({{ProductUrl}}) to compare multiple {{FileFormatUp}} files and generate a report detailing their differences",
         "step_1": "Use your preferred package manager to install {{ProdFullName}} from [{{PackageStoreName}}]({{PackageUrl}})",
@@ -38,24 +34,24 @@
     },
     "formats": {
       "title": "Compare various documents using {{ProgLang}}",
-      "description": "Our Java API allows you to compare documents of various formats. Stay updated on document changes by processing them effortlessly."
+      "description": "Our {{EnvName}} solutions allows you to compare documents of various formats. Stay updated on document changes by processing them effortlessly."
     }
   },
   "pdf": {
     "head": {
-      "title": "Use the Comparison API along with Java to compare PDF documents.",
-      "description": "The {{ProdShortName}} Java API creates detailed reports for PDF documents in applications that support J2EE and J2SE."
+      "title": "Use the Comparison library along with {{EnvName}} to check PDF documents diffs.",
+      "description": "The {{ProdShortName}} {{EnvName}} API creates detailed reports for PDF documents in applications that support J2EE and J2SE."
     },
     "header": {
-      "title": "Comparing PDF documents using Java applications",
-      "description": "The {{ProdShortName}} Java API provides detailed comparison reports for PDF documents in various kinds of applications that use J2EE or J2SE."
+      "title": "Comparing PDF documents using {{EnvName}} applications",
+      "description": "The {{ProdShortName}} {{EnvName}} library provides detailed comparison reports for PDF documents in various kinds of applications that use J2EE or J2SE."
     },
     "about": {
       "title": "Find out {{ProdFullName}} API advantages",
       "content": "Genuine {{ProdFullName}} API is crafted for composing reports full of useful data about differences inside PDF documents. Not only differences in text within paragraphs or words but also changes in shapes and text styles are represented at final report. Merging these alterations and exporting to a final document available too. In fact, there no need in external libraries. Only a few lines of code grant access to rich functionality."
     },
     "steps": {
-      "title": "Comparing multiple PDF docs via Java",
+      "title": "Comparing multiple PDF docs via {{EnvName}}",
       "content": {
         "title": "Compare PDFs with [{{ProdShortName}}]({{ProductUrl}}) and get reports about documents distinctions",
         "step_1": "Download {{ProdFullName}} package from [{{PackageStoreName}}]({{PackageUrl}}) and install it",
@@ -73,25 +69,25 @@
       }
     },
     "formats": {
-      "title": "Find any changes at PDF files via Java",
-      "description": "Our Java API provides possibility to control PDF files versions by generating precise and detailed report in your favorite format."
+      "title": "Find any changes at PDF files via {{EnvName}}",
+      "description": "Our {{EnvName}} software provides possibility to control PDF files versions by generating precise and detailed report in your favorite format."
     }
   },
   "docx": {
     "head": {
-      "title": "{{ProdFullName}} is quite useful for DOCX documents comparing.",
+      "title": "{{ProdFullName}} is quite useful for DOCX documents differences checking.",
       "description": "Opportunities presented by {{ProdShortName}} API allow us to retrieve reports containing information about distinctions in DOCX documents. Java, J2EE and J2SE are supported."
     },
     "header": {
-      "title": "Java applications for searching for distinctions in DOCX documents",
-      "description": "Java API presented by {{ProdShortName}} compares any DOCX documents in applications supports Java, J2EE or J2SE."
+      "title": "{{EnvName}} applications for searching for distinctions in DOCX documents",
+      "description": "{{EnvName}} library presented by {{ProdShortName}} compares any DOCX documents in applications supports Java, J2EE or J2SE."
     },
     "about": {
       "title": "Explore {{ProdFullName}} API advantages",
       "content": "DOCX documents comparison supported by {{ProdFullName}} API that composes reports containing data about various distinctions. Text within paragraphs, shapes and styles and other data are being analyzed. Furthermore, it is possible to compose one DOCX merging alterations from initial files. No need in any external libraries. Improve your {{EnvName}} projects adding a few lines of code."
     },
     "steps": {
-      "title": "Use Java to multiple DOCX files comparison",
+      "title": "Use {{EnvName}} to multiple DOCX files comparison",
       "content": {
         "title": "Use [{{ProdShortName}}]({{ProductUrl}}) to compare MS Word documents",
         "step_1": "Install our solution from [{{PackageStoreName}}]({{PackageUrl}})",
@@ -109,22 +105,22 @@
       }
     },
     "formats": {
-      "title": "Control any changes at DOCX files using Java",
-      "description": "{{ProdShortName}} Java API allows users to control DOCX documents versions via precise and detailed reports which may be easily processed."
+      "title": "Control any changes at DOCX files using {{EnvName}}",
+      "description": "{{ProdShortName}} {{EnvName}} API allows users to control DOCX documents versions via precise and detailed reports which may be easily processed."
     }
   },
   "png": {
     "head": {
-      "title": "Get comparison reports for PNG pictures using {{ProdFullName}}.",
+      "title": "Get diffs check reports for PNG pictures using {{ProdFullName}}.",
       "description": "The {{ProdFullName}} API generates useful comparison reports for PNG documents in applications that support J2EE and J2SE."
     },
     "header": {
-      "title": "Comparing PNG pictures using Java",
+      "title": "Comparing PNG pictures using {{EnvName}}",
       "description": "Empower your Java, J2EE or J2SE applications with {{ProdShortName}} API. Retrieve detailed information about any changes at your PNG pictures."
     },
     "about": {
       "title": "Be informed about {{ProdFullName}} API features",
-      "content": "{{ProdShortName}} developed as a native Java API suitable for composing detailed reports based on variations among different versions of images represented in PNG format. Not only PNG format is supported. A lot of useful features provided by our API."
+      "content": "{{ProdShortName}} developed as a native {{EnvName}} API suitable for composing detailed reports based on variations among different versions of images represented in PNG format. Not only PNG format is supported. A lot of useful features provided by our API."
     },
     "steps": {
       "title": "Use {{ProgLang}} to comparing PNG files",
@@ -155,12 +151,12 @@
       "description": "Powerful {{ProdFullName}} API developed to generate useful distinctions reports for JPEG pictures. J2EE and J2SE are supported."
     },
     "header": {
-      "title": "Compare JPEG images with our Java library",
+      "title": "Compare JPEG images with our {{EnvName}} library",
       "description": "Java, J2EE or J2SE applications powered by {{ProdShortName}} API allow to retrieve detailed reports about distinctions at JPEG pictures effortlessly."
     },
     "about": {
       "title": "Take a look at {{ProdFullName}} API",
-      "content": "Native Java API called {{ProdShortName}} composes detailed reports about alterations between versions of images saved in JPEG format. Many popular image formats are supported as well. A lot of image formats are supported by our API."
+      "content": "Native {{EnvName}} API called {{ProdShortName}} composes detailed reports about alterations between versions of images saved in JPEG format. Many popular image formats are supported as well. A lot of image formats are supported by our API."
     },
     "steps": {
       "title": "Use {{ProgLang}} to compare JPEG pictures",
@@ -191,12 +187,12 @@
       "description": "{{ProdFullName}} API generates useful reports for JPG pictures. Supports Java, J2EE and J2SE."
     },
     "header": {
-      "title": "Analyze changes in JPG files via our Java solution",
-      "description": "Java, J2EE, or J2SE apps using {{ProdShortName}} API are able to generate detailed JPG reports."
+      "title": "Analyze changes in JPG files via our {{EnvName}} solution",
+      "description": "{{EnvName}}, J2EE, or J2SE apps using {{ProdShortName}} API are able to generate detailed JPG reports."
     },
     "about": {
       "title": "Explore {{ProdFullName}} API",
-      "content": "Native Java solution, {{ProdShortName}}, creates detailed reports about JPG alterations. Supports popular image formats for comparison and further processing."
+      "content": "Native {{EnvName}} solution, {{ProdShortName}}, creates detailed reports about JPG alterations. Supports popular image formats for comparison and further processing."
     },
     "steps": {
       "title": "Compare JPG files using {{ProgLang}}",
@@ -227,15 +223,15 @@
       "description": "The {{ProdShortName}} API offers capabilities for retrieving reports detailing variances in XLSX documents. It is compatible with Java, J2EE, and J2SE environments."
     },
     "header": {
-      "title": "Java applications for detecting changes in XLSX spreadsheets",
-      "description": "The {{ProdShortName}} Java API enables the comparison of XLSX spreadsheets within Java, J2EE, or J2SE applications."
+      "title": "{{EnvName}} applications for detecting changes in XLSX spreadsheets",
+      "description": "The {{ProdShortName}} {{EnvName}} API enables the comparison of XLSX spreadsheets within Java, J2EE, or J2SE applications."
     },
     "about": {
       "title": "Explore the advantages of the {{ProdFullName}} API",
       "content": "The {{ProdFullName}} API makes easier comparison of XLSX spreadsheets, generating reports on differences found in text, paragraphs, shapes, styles, and other elements. Additionally, it supports merging alterations from multiple original files without requiring external libraries. Enhance your {{EnvName}} projects with minimal code integration."
     },
     "steps": {
-      "title": "Use Java for comparing multiple XLSX files",
+      "title": "Use {{EnvName}} for comparing multiple XLSX files",
       "content": {
         "title": "Use [{{ProdShortName}}]({{ProductUrl}}) to analyze MS Excel spreadsheets",
         "step_1": "Install package from [{{PackageStoreName}}]({{PackageUrl}})",
@@ -253,8 +249,8 @@
       }
     },
     "formats": {
-      "title": "Manage changes in XLSX spreadsheets using Java",
-      "description": "The {{ProdShortName}} Java API empowers users to monitor different versions of XLSX spreadsheets through detailed and precise reports that are easily composed."
+      "title": "Manage changes in XLSX spreadsheets using {{EnvName}}",
+      "description": "The {{ProdShortName}} {{EnvName}} library empowers users to monitor different versions of XLSX spreadsheets through detailed and precise reports that are easily composed."
     }
   },
   "pptx": {
@@ -263,7 +259,7 @@
       "description": "The {{ProdShortName}} solution provides functionalities for retrieving reports detailing variances in PPTX presentations. Java, J2EE, or J2SE projects may use our API without restrictions."
     },
     "header": {
-      "title": "Java applications empowered by {{ProdShortName}} may analyze PPTX presentations",
+      "title": "{{EnvName}} applications empowered by {{ProdShortName}} may analyze PPTX presentations",
       "description": "Microsoft PowerPoint PPTX presentations might be compared by {{ProdFullName}} using Java, J2EE, or J2SE applications."
     },
     "about": {
@@ -271,7 +267,7 @@
       "content": "The {{ProdFullName}} API implements comparison reports about differences in PPTX presentations. Result reports contains no only differences text but in shapes, styles, and other elements. Merging many presentations to one taking only desired. No third-party external libraries required. Empower {{EnvName}} projects by adding minimal code amount."
     },
     "steps": {
-      "title": "Use Java for comparing multiple PPTX files",
+      "title": "Use {{EnvName}} for comparing multiple PPTX files",
       "content": {
         "title": "Use [{{ProdShortName}}]({{ProductUrl}}) to analyze MS PowerPoint presentations",
         "step_1": "Install package from [{{PackageStoreName}}]({{PackageUrl}})",
@@ -289,8 +285,8 @@
       }
     },
     "formats": {
-      "title": "Analyze PPTX files using Java",
-      "description": "The {{ProdShortName}} Java API allows to detect differences at MS PowerPoint PPTX presentations producing detailed and precise reports without extra efforts."
+      "title": "Analyze PPTX files using {{EnvName}}",
+      "description": "The {{ProdFullName}} software allows to detect differences at MS PowerPoint PPTX presentations producing detailed and precise reports without extra efforts."
     }
   }
 }

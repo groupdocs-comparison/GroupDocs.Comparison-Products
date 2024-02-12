@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-06T16:53:32
+date: 2024-02-12T14:32:54
 draft: false
 
 lang: en
@@ -24,11 +24,11 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Java Document Comparison Library | Compare Docs for Text & Style"
-head_description: "Java API to compare document style & content. Compare documents of multiple formats to identify differences."
+head_title: "Java Document Comparison Library| diff checker software | java diff library | Compare Popular Docs Formats"
+head_description: "Native Java Software to compare document style & content. Compare documents of multiple formats to identify differences."
 
 ############################# Header ############################
-title: "Compare and view file differences using Java API"
+title: "Compare and check file differences using Java API"
 description: "Develop Java applications with a highly configurable document comparison library to compare similar document formats, including files, their content, and text style."
 words:
   for: "for"

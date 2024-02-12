@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-02T14:05:46
+date:  2024-02-12T14:32:53
 draft: false
 lang: en
 format: Pptx
@@ -12,12 +12,12 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Effortlessly compare PPTX documents using the Node.js PDF Comparison API with JavaScript."
-head_description: "GroupDocs.Comparison for Node.js via Java offers an API to generate detailed document comparison reports for Node.js applications."
+head_title: "Check differences of PPTX presentations by GroupDocs.Comparison for Node.js via Java product."
+head_description: "PPTX presentations could be analyzed by GroupDocs.Comparison Node.js via Java solution, that composes genuine reports with rich information describing various types of content distinctions."
 
 ############################# Header ############################
-title: "Comparing your PPTX files in Node.js" 
-description: "Document comparison API based on Node.js provides opportunity to collect and display data about any distinctions in PPTX files. Enhance the productivity of your solutions in file comparison tasks with GroupDocs.Comparison."
+title: "Comparison for PPTX presentations with Node.js via Java" 
+description: "Use the document processing API in Node.js to identify and highlight alterations in MS PowerPoint PPTX files using applications based on Node.js via Java. Improve your business processes with swift and effortless data analysis."
 subtitle: "Solution for files comparing" 
 
 header_actions:
@@ -30,24 +30,24 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "Explore the features of GroupDocs.Comparison API for Node.js"
+    title: "Explore the GroupDocs.Comparison for Node.js via Java features"
     link: "/comparison/nodejs-java/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for Node.js via Java is an API that helps to compare pictures and documents in the same format. It can find differences in paragraphs, words, characters, shapes, and text styles between the compared documents. You can combine these changes and save them as a final document. It works well with PDFs, Word documents, Excel sheets, PowerPoint slides, Visio diagrams, Outlook emails, HTML, drawings, and various image types—all without needing extra tools.
+       Use detailed data from our GroupDocs.Comparison reports based on information about alterations across many versions of PPTX files. Involve our solution to Node.js via Java applications by just a few lines of code, without extra efforts. Analyze data about pages, text, styles, or shapes in MS PowerPoint presentations. Merge appropriate changes to one result PPTX presentation. Take advantages of our solution to your business projects.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to perform PPTX files comparison using Node.js."
+    title: "Use PPTX documents distinctions report with JavaScript"
     content: |
-      It is possible to use PPTX files using [GroupDocs.Comparison](https://products.groupdocs.com/comparison/nodejs-java/) for getting report about differences in many PPTX files
+      [GroupDocs.Comparison](https://products.groupdocs.com/comparison/nodejs-java/) for PPTX presentations comparison
       
-      1. Install GroupDocs.Comparison for Node.js via Java using [NPM](https://www.npmjs.com/package/@groupdocs/groupdocs.comparison)
-      2. Instantiate the Comparer and providing path to first of the files in the PPTX format
-      3. Add another PPTX file to Comparer
-      4. Obtain a clear report that precisely describes the differences
+      1. Get GroupDocs.Comparison from [NPM](https://www.npmjs.com/package/@groupdocs/groupdocs.comparison)
+      2. Calling the Comparer constructor
+      3. Append additional PPTX presentations
+      4. Get the result
    
     code:
       platform: "net"
@@ -70,17 +70,17 @@ steps:
         // Check multiple files to see how they are similar or different
 
         // Create a Comparer object and give it the first file as input
-        const comparer = new groupdocs.comparison.Comparer('source.pptx');
+        const comparer = new groupdocs.comparison.Comparer('first.pptx');
 
         // Append more files
-        comparer.add('file_v1.pptx');
-        comparer.add('file_2023.pptx');
+        comparer.add('second.pptx');
+        comparer.add('third.pptx');
 
         // Fetch the final report
-        await comparer.compare('report_new.pptx');
+        await comparer.compare('report_full.pptx');
 
-        console.log('\nFiles are compared.\nCheck result.');
-
+        console.log('\nDocuments compared successfully.\nCheck output.');
+        
         ```            
 
 ############################# Actions ############################
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Compare popular document types via JavaScript"
+    title: "Perform PPTX presentations comparison using JavaScript"
     exclude: "PPTX"
-    description: "Our Node.js API enables you to compare documents in different formats. Keep track of document changes effortlessly by processing them using our tool."
+    description: "Compare any documents in popular formats including MS PowerPoint PPTX presentations by GroupDocs.Comparison for Node.js via Java. Enrich your business data getting reports about distinctions in PPTX presentations."
     items: 
         # format loop 1
         - name: "Compare PDF Files"

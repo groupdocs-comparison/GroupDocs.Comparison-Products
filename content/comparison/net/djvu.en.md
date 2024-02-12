@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-02T14:05:45
+date:  2024-02-12T14:32:52
 draft: false
 lang: en
 format: Djvu
@@ -12,12 +12,12 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: ".NET DJVU Comparison API - compare documents using C# .NET"
-head_description: "GroupDocs.Comparison for .NET offers an API to obtain comprehensive document comparison reports in a variety of applications, including C#, ASP.NET, VB.NET, and .NET Core."
+head_title: "Compare two DJVU files with C# Document Comparison software"
+head_description: "Compare and merge more than two DJVU files in C# .NET applications. Retrieve differences summary in content, text & style of DJVU files, images and document formats."
 
 ############################# Header ############################
-title: "Compare DJVU files in .NET solutions" 
-description: ".NET document comparison API for retrieving and displaying differences in DJVU files in C#, ASP.NET, VB.NET, and .NET Core Applications. Effortlessly obtain detailed reports for a seamless experience."
+title: "Compare DJVU Files in C# .NET" 
+description: ".NET documents comparison API to check for diffs between two versions of DJVU files and export to a final document with a detailed summary of the differences between the compared documents."
 subtitle: "Document comparison solution" 
 
 header_actions:

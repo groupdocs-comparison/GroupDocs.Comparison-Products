@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-02T14:05:46
+date:  2024-02-12T14:32:53
 draft: false
 lang: en
 format: Xlsx
@@ -12,12 +12,12 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: ".NET XLSX Comparison API - compare documents using C# .NET"
-head_description: "GroupDocs.Comparison for .NET offers an API to obtain comprehensive document comparison reports in a variety of applications, including C#, ASP.NET, VB.NET, and .NET Core."
+head_title: "Perform MS Excel spreadsheet comparisons with GroupDocs.Comparison for .NET"
+head_description: "The GroupDocs.Comparison for .NET API facilitates checking diffs and analysis of MS Excel spreadsheets, including XLSX format. The comparison results provide detailed insights into distinctions present in the selected XLSX spreadsheets. GroupDocs.Comparison is compatible with C#, ASP.NET, VB.NET, and .NET Core solutions."
 
 ############################# Header ############################
-title: "Compare XLSX files in .NET solutions" 
-description: ".NET document comparison API for retrieving and displaying differences in XLSX files in C#, ASP.NET, VB.NET, and .NET Core Applications. Effortlessly obtain detailed reports for a seamless experience."
+title: "Utilize C# technologies for comparing XLSX spreadsheets" 
+description: "The .NET API, crafted for various document types comparison, identifies and reports distinctions within MS Excel files. Build applications using C#, ASP.NET, VB.NET, or .NET Core to leverage its advantages. Get detailed reports with minimal code implementation."
 subtitle: "Document comparison solution" 
 
 header_actions:
@@ -30,24 +30,24 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "Discover GroupDocs.Comparison for .NET API advantages"
+    title: "Explore the features of GroupDocs.Comparison for .NET API"
     link: "/comparison/net/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for .NET is a native .NET API designed for comparing multiple images and documents of the same format. It aids in detecting differences within paragraphs, words, characters, shapes, and even the text styles of the compared documents. With the ability to merge these changes and export to a final document, it supports comparison and merging of PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings, and various image file formats—all without the need for any external libraries.
+       Detect changes in your XLSX spreadsheets with convenient reporting in your .NET projects. Additionally, retrieve information about styles, shapes, and other content, and merge XSLX spreadsheets into a new document. Integrate GroupDocs.Comparison for .NET APIs into your projects with just a few lines of code. Use our software without the need for third-party developers.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to compare multiple XLSX files using C#"
+    title: "Generate MS Excel XLSX comparison reports using C#"
     content: |
-      It is possible to use [GroupDocs.Comparison](https://products.groupdocs.com/comparison/net/) for getting report about differences in many XLSX files.
+      Create a distinctions report for XLSX files using [GroupDocs.Comparison](https://products.groupdocs.com/comparison/net/)
       
-      1. Install GroupDocs.Comparison for .NET from [Nuget](https://www.nuget.org/packages/GroupDocs.Comparison) using your favorite package manager
-      2. Provide an instance of Comparer class with full path to initial XLSX file
-      3. Append at least one other XLSX to Comparer
-      4. Get a final report with precisely described differences
+      1. Download and install the GroupDocs.Comparison for .NET package from [Nuget](https://www.nuget.org/packages/GroupDocs.Comparison)
+      2. Instantiate the Comparer object by providing the XLSX file path
+      3. Include XLSX spreadsheets for comparison
+      4. Retrieve the comparison report containing distinctions information
    
     code:
       platform: "net"
@@ -67,17 +67,18 @@ steps:
       content: |
         ```csharp {style=abap}
 
-        // Compare multiple documents from local disk
+        // Generate a report on alterations in XLSX files
 
-        // Instantiate Comparer providing a first file
-        using (Comparer comparer = new Comparer("main_document.xlsx"))
+        // Instantiate the Comparer object for spreadsheets processing
+        using (Comparer comparer = new Comparer("source.xlsx"))
         {
-            // Add other files
-        	comparer.Add("modified_1.xlsx");
-            comparer.Add("modified_2.xlsx");
+            // Include at least one file for comparison
+        	comparer.Add("file_to_compare_1.xlsx");
+            comparer.Add("file_to_compare_2.xlsx");
+            comparer.Add("file_to_compare_3.xlsx");
 
-            // Get result file with the specified name
-            comparer.Compare("report.xlsx"); 
+            // Analyze the comparison result
+            comparer.Compare("result.xlsx"); 
         }
         
         ```            
@@ -102,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Compare popular file formats using C#"
+    title: "Comparison of MS Excel spreadsheets for C# applications"
     exclude: "XLSX"
-    description: ".NET API for document formats comparison. Stay well-informed about changes at your documents processing them without extra efforts."
+    description: "Explore the advantages of GroupDocs.Comparison for .NET for controlling versions of XLSX documents. Quickly and easily gather information from MS Excel spreadsheets for further analysis."
     items: 
         # format loop 1
         - name: "Compare PDF Files"

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-02T14:05:45
+date:  2024-02-12T14:32:52
 draft: false
 lang: en
 format: Docx
@@ -12,13 +12,13 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "GroupDocs.Comparison for Java is quite useful for DOCX documents comparing."
+head_title: "GroupDocs.Comparison for Java is quite useful for DOCX documents differences checking."
 head_description: "Opportunities presented by GroupDocs.Comparison API allow us to retrieve reports containing information about distinctions in DOCX documents. Java, J2EE and J2SE are supported."
 
 ############################# Header ############################
 title: "Java applications for searching for distinctions in DOCX documents" 
-description: "Java API presented by GroupDocs.Comparison compares any DOCX documents in applications supports Java, J2EE or J2SE."
-subtitle: "Documents comparing framework"  
+description: "Java library presented by GroupDocs.Comparison compares any DOCX documents in applications supports Java, J2EE or J2SE."
+subtitle: "Documents differences checking framework"  
 
 header_actions:
   enable: true

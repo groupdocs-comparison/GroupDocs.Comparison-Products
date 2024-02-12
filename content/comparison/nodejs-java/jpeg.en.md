@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-02T14:05:46
+date:  2024-02-12T14:32:53
 draft: false
 lang: en
 format: Jpeg
@@ -12,11 +12,11 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "GroupDocs.Comparison for Node.js via Java API designed to automate JPEG images comparison."
+head_title: "GroupDocs.Comparison for Node.js via Java library is designed to automate JPEG images comparison."
 head_description: "Explore GroupDocs.Comparison for Node.js via Java API features to get info about distinctions in JPEG pictures."
 
 ############################# Header ############################
-title: "Getting JPEG alterations reports by Node.js via Java applications" 
+title: "Check JPEG for differences and get reports via Node.js via Java" 
 description: "Powerful Node.js solution to compare changes at JPEG images within JavaScript applications. Detailed reports brings significant advantages to your business solutions."
 subtitle: "Solution for files comparing" 
 
@@ -30,7 +30,7 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "Discover capabilities of GroupDocs.Comparison for Node.js via Java API"
+    title: "Discover capabilities of GroupDocs.Comparison for Node.js via Java"
     link: "/comparison/nodejs-java/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
@@ -105,7 +105,7 @@ more_formats:
     enable: true
     title: "Compare JPEG popular format images via JavaScript"
     exclude: "JPEG"
-    description: "API based on GroupDocs.Comparison for Node.js via Java compose valuable information about differences among JPEG pictures. Convenient reports allow to control any changes at business files."
+    description: "Software based on GroupDocs.Comparison for Node.js via Java compose valuable information about differences among JPEG pictures. Convenient reports allow to control any changes at business files."
     items: 
         # format loop 1
         - name: "Compare PDF Files"

@@ -1,22 +1,18 @@
 {
   "common": {
     "head": {
-      "title": "Compare two {{FileFormatUp}} files in .NET | Document Comparison APIs",
+      "title": "Compare two {{FileFormatUp}} files with {{ProgLang}} Document Comparison software",
       "description": "Compare and merge more than two {{FileFormatUp}} files in {{ProgLang}} {{EnvName}} applications. Retrieve differences summary in content, text & style of {{FileFormatUp}} files, images and document formats."
-      //"title": ".NET {{FileFormatUp}} Comparison API - compare documents using C# .NET",
-      //"description": "{{ProdFullName}} offers an API to obtain comprehensive document comparison reports in a variety of applications, including C#, ASP.NET, VB.NET, and .NET Core."
     },
     "header": {
       "title": "Compare {{FileFormatUp}} Files in {{ProgLang}} {{EnvName}}",
-      "description": "{{EnvName}} documents comparison API to detect the changes between two versions of {{FileFormatUp}} files and export to a final document with a detailed summary of the differences between the compared documents.",
-      //"title": "Compare {{FileFormatUp}} files in .NET solutions",
-      //"description": ".NET document comparison API for retrieving and displaying differences in {{FileFormatUp}} files in C#, ASP.NET, VB.NET, and .NET Core Applications. Effortlessly obtain detailed reports for a seamless experience.",
+      "description": "{{EnvName}} documents comparison API to check for diffs between two versions of {{FileFormatUp}} files and export to a final document with a detailed summary of the differences between the compared documents.",
       "subtitle": "Document comparison solution",
       "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
       "title": "Discover {{ProdFullName}} API advantages",
-      "content": "{{ProdFullName}} is a native .NET API designed for comparing multiple images and documents of the same format. It aids in detecting differences within paragraphs, words, characters, shapes, and even the text styles of the compared documents. With the ability to merge these changes and export to a final document, it supports comparison and merging of PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings, and various image file formats—all without the need for any external libraries."
+      "content": "{{ProdFullName}} is a native {{EnvName}} API designed for comparing multiple images and documents of the same format. It aids in detecting differences within paragraphs, words, characters, shapes, and even the text styles of the compared documents. With the ability to merge these changes and export to a final document, it supports comparison and merging of PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings, and various image file formats—all without the need for any external libraries."
     },
     "steps": {
       "title": "How to compare multiple {{FileFormatUp}} files using {{ProgLang}}",
@@ -38,24 +34,24 @@
     },
     "formats": {
       "title": "Compare popular file formats using {{ProgLang}}",
-      "description": ".NET API for document formats comparison. Stay well-informed about changes at your documents processing them without extra efforts."
+      "description": "{{EnvName}} API for document formats comparison. Stay well-informed about changes at your documents processing them without extra efforts."
     }
   },
   "pdf": {
     "head": {
-      "title": "Compare PDFs using the Comparison .NET API and C#",
-      "description": "The {{ProdShortName}} .NET API generates detailed PDF documents comparison reports in various types of applications, including C#, ASP.NET, VB.NET, and .NET Core"
+      "title": "Check PDF files differences in {{ProgLang}} {{EnvName}} | Document Comparison APIs",
+      "description": "Compare and merge more than two PDF files in {{ProgLang}} {{EnvName}} applications. Retrieve differences summary in content, text & style of PDF files."
     },
     "header": {
-      "title": "Comparing PDF documents in C# .NET applications",
-      "description": ".NET document comparison API for identifying and displaying differences in PDFs within applications based on C#, ASP.NET, VB.NET, and .NET Core. Effortlessly obtain detailed reports for a seamless experience."
+      "title": "Comparing PDF documents in {{ProgLang}} {{EnvName}} applications",
+      "description": "{{EnvName}} document comparison API for identifying and displaying differences in PDFs within applications based on {{ProgLang}}, ASP.NET, VB.NET, and .NET Core. Effortlessly obtain detailed reports for a seamless experience."
     },
     "about": {
       "title": "Uncover {{ProdFullName}} API features",
-      "content": "Get detailed reports about differences at PDF documents at your .NET applications. Merge distinct PDFs to a new one with the same format. Use {{ProdFullName}} APIs by adding a couple lines of code. Process PDFs and other formats without third-party software."
+      "content": "Get detailed reports about differences at PDF documents at your {{EnvName}} applications. Merge distinct PDFs to a new one with the same format. Use {{ProdFullName}} APIs by adding a couple lines of code. Process PDFs and other formats without third-party software."
     },
     "steps": {
-      "title": "How to compare PDFs using C#",
+      "title": "How to compare PDFs using {{ProgLang}}",
       "content": {
         "title": "Get report about differences in many PDF files using [{{ProdShortName}}]({{ProductUrl}})",
         "step_1": "Get {{ProdFullName}} from [{{PackageStoreName}}]({{PackageUrl}}) and install it",
@@ -73,25 +69,25 @@
       }
     },
     "formats": {
-      "title": "Compare PDFs using C# and get full report",
-      "description": ".NET API for PDF documents comparison. Stay well-informed about any changes at your documents easily."
+      "title": "Compare PDFs using {{ProgLang}} and get full report",
+      "description": "{{EnvName}} {{ProgLang}} software for PDF documents comparison. Stay well-informed about any changes at your documents easily."
     }
   },
   "docx": {
     "head": {
-      "title": "Compare MS Word documents by {{ProdFullName}}",
-      "description": "MS Word documents particularly DOCX could be compared by {{ProdFullName}} API. As result you obtain detailed report with highlighted alterations between DOCX documents. Use our API along with applications based on C#, ASP.NET, VB.NET, or .NET Core."
+      "title": "Compare MS Word DOCX documents by {{ProdFullName}} via {{ProgLang}}",
+      "description": "MS Word documents particularly DOCX could be compared by {{ProdFullName}} API. As result you obtain detailed report with highlighted alterations between DOCX documents. Use our API along with applications based on {{ProgLang}}, ASP.NET, VB.NET, or .NET Core."
     },
     "header": {
-      "title": "MS Word DOCX comparison with C# .NET applications",
-      "description": "{{EnvName}} API designed for documents comparison finds and reports any differences in MS Word files. Build applications based on C#, ASP.NET, VB.NET, or .NET Core to get advantages. Obtain detailed reports adding a few code-lines."
+      "title": "MS Word DOCX comparison with {{ProgLang}} {{EnvName}} applications",
+      "description": "{{EnvName}} API designed for documents comparison finds and reports any differences in MS Word files. Build applications based on {{ProgLang}}, ASP.NET, VB.NET, or .NET Core to get advantages. Obtain detailed reports adding a few code-lines."
     },
     "about": {
       "title": "Examine {{ProdFullName}} API features",
       "content": "Reveal alterations in your DOCX documents with convenient report in your {{EnvName}} projects. Moreover, get information about styles, shapes and other content and merge DOCX files to a new one. Advantages of {{ProdFullName}} APIs could be brought to your projects by only a couple lines of code. Use our software without third-party developers."
     },
     "steps": {
-      "title": "MS Word DOCX comparison reports via .NET and C#",
+      "title": "MS Word DOCX comparison reports via {{EnvName}} and {{ProgLang}}",
       "content": {
         "title": "Compose distinctions report for DOCX files using [{{ProdShortName}}]({{ProductUrl}})",
         "step_1": "Download {{ProdFullName}} package from [{{PackageStoreName}}]({{PackageUrl}}) and install it",
@@ -109,22 +105,22 @@
       }
     },
     "formats": {
-      "title": "Comparison of DOCX by C# applications",
+      "title": "Comparison of DOCX by {{ProgLang}} applications",
       "description": "{{ProdFullName}} advantages for control versions of popular files formats. Collect MS Word documents information quickly and easily."
     }
   },
   "png": {
     "head": {
-      "title": "PNG images comparing by {{ProdFullName}} API",
-      "description": "{{ProdFullName}} allows us to generate precise reports about distinctions at PNG images for applications based on C#, ASP.NET, VB.NET, or .NET Core"
+      "title": "PNG images differences checking by {{ProdFullName}} API",
+      "description": "{{ProdFullName}} allows us to generate precise reports about distinctions at PNG images for applications based on {{ProgLang}}, ASP.NET, VB.NET, or .NET Core"
     },
     "header": {
-      "title": "Compare PNG images via C# .NET applications",
-      "description": "{{ProdFullName}} API searches for any differences among PNG files quickly and easily. Improve C#, ASP.NET, VB.NET, and .NET Core applications in order to obtain comparison reports."
+      "title": "Compare PNG images via {{ProgLang}} {{EnvName}} applications",
+      "description": "{{ProdFullName}} API searches for any differences among PNG files quickly and easily. Improve {{ProgLang}}, ASP.NET, VB.NET, and .NET Core applications in order to obtain comparison reports."
     },
     "about": {
       "title": "Uncover {{ProdFullName}} API features",
-      "content": "{{ProdFullName}} API designed for comparing multiple PNG images and composing sophisticated reports about any distinctions at such images. It might be used at your .NET applications without installing any third-party software. Use {{ProdFullName}} APIs by adding a couple lines of code with many useful features out of the box."
+      "content": "{{ProdFullName}} API designed for comparing multiple PNG images and composing sophisticated reports about any distinctions at such images. It might be used at your {{EnvName}} applications without installing any third-party software. Use {{ProdFullName}} by adding a couple lines of code with many useful features out of the box."
     },
     "steps": {
       "title": "How to compare PNG pictures by {{ProgLang}}",
@@ -152,15 +148,15 @@
   "jpeg": {
     "head": {
       "title": "{{ProdFullName}} API for JPEG images comparing",
-      "description": "{{ProdFullName}} represents powerful API for collecting data about various distinctions inside JPEG images to be involved to C#, ASP.NET, VB.NET, or .NET Core applications."
+      "description": "{{ProdFullName}} represents powerful API for collecting data about various distinctions inside JPEG images to be involved to {{ProgLang}}, ASP.NET, VB.NET, or .NET Core applications."
     },
     "header": {
       "title": "Comparison of changes at JPEG images with {{EnvName}} technologies",
-      "description": "Collecting and representing as a report data about changes in JPEG files provided by {{ProdFullName}} API quickly and easily. Business solutions based on C#, ASP.NET, VB.NET, and .NET Core could be empowered with our software to get useful data."
+      "description": "Collecting and representing as a report data about changes in JPEG files provided by {{ProdFullName}} API quickly and easily. Business solutions based on {{ProgLang}}, ASP.NET, VB.NET, and .NET Core could be empowered with our software to get useful data."
     },
     "about": {
       "title": "Investigate {{ProdFullName}} API features",
-      "content": "{{ProdFullName}} API provides rich functionality in JPEG images comparison. Resulting reports contain data about any distinctions at selected images. Using of our software in your .NET projects do not request for any other libraries. Just add some lines of code and get powerful tool to achieve your goals."
+      "content": "{{ProdFullName}} API provides rich functionality in JPEG images comparison. Resulting reports contain data about any distinctions at selected images. Using of our software in your {{ProgLang}} projects do not request for any other libraries. Just add some lines of code and get powerful tool to achieve your goals."
     },
     "steps": {
       "title": "How to compare JPEG pictures by {{ProgLang}}",
@@ -181,22 +177,22 @@
       }
     },
     "formats": {
-      "title": "Comparison for JPEG images with {{EnvName}}",
+      "title": "Comparison for JPEG images with {{ProgLang}} {{EnvName}}",
       "description": "Analyze information about any changes in JPEG files easily using {{ProdFullName}} product."
     }
   },
   "jpg": {
     "head": {
       "title": "{{ProdFullName}} API for Comparing JPG Images",
-      "description": "The {{ProdFullName}} API allows for gathering data on distinctions within JPG images and integrating it into C#, ASP.NET, VB.NET, or .NET Core applications."
+      "description": "The {{ProdFullName}} API allows for gathering data on distinctions within JPG images and integrating it into {{ProgLang}}, ASP.NET, VB.NET, or .NET Core applications."
     },
     "header": {
       "title": "Comparing Changes in JPG Images with {{EnvName}} Technologies",
-      "description": "Quickly and easily collect and report data on changes in JPG files using {{ProdFullName}} API. Enhance C#, ASP.NET, VB.NET, and .NET Core business solutions with our software to obtain valuable insights."
+      "description": "Quickly and easily collect and report data on changes in JPG files using {{ProdFullName}} API. Enhance {{ProgLang}}, ASP.NET, VB.NET, and .NET Core business solutions with our software to obtain valuable insights."
     },
     "about": {
       "title": "Exploring {{ProdFullName}} API features",
-      "content": "The {{ProdFullName}} API offers extensive functionality for comparing JPG images, generating reports containing distinctions within selected images. Our software seamlessly integrates into .NET projects without requiring additional libraries, enabling you to achieve your objectives with minimal code."
+      "content": "The {{ProdFullName}} API offers extensive functionality for comparing JPG images, generating reports containing distinctions within selected images. Our software seamlessly integrates into {{ProgLang}} projects without requiring additional libraries, enabling you to achieve your objectives with minimal code."
     },
     "steps": {
       "title": "Comparing JPG Pictures using {{ProgLang}}",
@@ -224,18 +220,18 @@
   "xlsx": {
     "head": {
       "title": "Perform MS Excel spreadsheet comparisons with {{ProdFullName}}",
-      "description": "The {{ProdFullName}} API facilitates comparison and analysis of MS Excel spreadsheets, including XLSX format. The comparison results provide detailed insights into distinctions present in the selected XLSX spreadsheets. {{ProdShortName}} is compatible with C#, ASP.NET, VB.NET, and .NET Core solutions."
+      "description": "The {{ProdFullName}} API facilitates checking diffs and analysis of MS Excel spreadsheets, including XLSX format. The comparison results provide detailed insights into distinctions present in the selected XLSX spreadsheets. {{ProdShortName}} is compatible with {{ProgLang}}, ASP.NET, VB.NET, and .NET Core solutions."
     },
     "header": {
-      "title": "Utilize C# .NET technologies for comparing XLSX spreadsheets",
-      "description": "The {{EnvName}} API, crafted for various document types comparison, identifies and reports distinctions within MS Excel files. Build applications using C#, ASP.NET, VB.NET, or .NET Core to leverage its advantages. Get detailed reports with minimal code implementation."
+      "title": "Utilize {{ProgLang}} technologies for comparing XLSX spreadsheets",
+      "description": "The {{EnvName}} API, crafted for various document types comparison, identifies and reports distinctions within MS Excel files. Build applications using {{ProgLang}}, ASP.NET, VB.NET, or .NET Core to leverage its advantages. Get detailed reports with minimal code implementation."
     },
     "about": {
       "title": "Explore the features of {{ProdFullName}} API",
       "content": "Detect changes in your XLSX spreadsheets with convenient reporting in your {{EnvName}} projects. Additionally, retrieve information about styles, shapes, and other content, and merge XSLX spreadsheets into a new document. Integrate {{ProdFullName}} APIs into your projects with just a few lines of code. Use our software without the need for third-party developers."
     },
     "steps": {
-      "title": "Generate MS Excel XLSX comparison reports using .NET and C#",
+      "title": "Generate MS Excel XLSX comparison reports using {{ProgLang}}",
       "content": {
         "title": "Create a distinctions report for XLSX files using [{{ProdShortName}}]({{ProductUrl}})",
         "step_1": "Download and install the {{ProdFullName}} package from [{{PackageStoreName}}]({{PackageUrl}})",
@@ -253,25 +249,25 @@
       }
     },
     "formats": {
-      "title": "Comparison of MS Excel spreadsheets for C# applications",
+      "title": "Comparison of MS Excel spreadsheets for {{ProgLang}} applications",
       "description": "Explore the advantages of {{ProdFullName}} for controlling versions of XLSX documents. Quickly and easily gather information from MS Excel spreadsheets for further analysis."
     }
   },
   "pptx": {
     "head": {
       "title": "Compare PPTX Presentations via {{ProdFullName}}",
-      "description": "The {{ProdFullName}} API designed to perform the comparison and analysis of PPTX presentations. The comparison results show us valuable information about distinctions present in the selected PPTX files. {{ProdShortName}} could be used with C#, ASP.NET, VB.NET, and .NET Core solutions."
+      "description": "The {{ProdFullName}} API designed to perform the comparison and analysis of PPTX presentations. The comparison results show us valuable information about distinctions present in the selected PPTX files. {{ProdShortName}} could be used with {{ProgLang}}, ASP.NET, VB.NET, and .NET Core solutions."
     },
     "header": {
       "title": "Analyze MS PowerPoint PPTX presentations with {{EnvName}} technologies",
-      "description": "THE {{ProdFullName}} is designed for various document types comparison, to analyze distinctions within Microsoft PowerPoint files. Applications based on C#, ASP.NET, VB.NET, or .NET Core could be improved with our solutions. Minimal code implementation is required to get detailed reports about distinctions in business documents."
+      "description": "THE {{ProdFullName}} is designed for various document types comparison, to analyze distinctions within Microsoft PowerPoint files. Applications based on {{ProgLang}}, ASP.NET, VB.NET, or .NET Core could be improved with our solutions. Minimal code implementation is required to get detailed reports about distinctions in business documents."
     },
     "about": {
       "title": "Open how to use the {{ProdFullName}}",
       "content": "Analyze your PPTX presentations by constructing detailed reports along with your {{EnvName}} projects. Not only text, but styles, shapes, and other content are processed. Merge different versions of PPTX presentation into a result document. {{ProdFullName}} could be easily involved into your projects with just a couple lines of code. Our API do not need any software of third-party developers."
     },
     "steps": {
-      "title": "Compose MS PowerPoint PPTX comparison reports using .NET and C#",
+      "title": "Compose MS PowerPoint PPTX comparison reports using {{ProgLang}} and {{EnvName}}",
       "content": {
         "title": "Get report about changes in PPTX with [{{ProdShortName}}]({{ProductUrl}})",
         "step_1": "Install the {{ProdFullName}} package using [{{PackageStoreName}}]({{PackageUrl}})",
@@ -289,7 +285,7 @@
       }
     },
     "formats": {
-      "title": "Compare Microsoft PPTX presentations in C# applications",
+      "title": "Compare Microsoft PPTX presentations in {{ProgLang}} applications",
       "description": "Stay informed about the advantages of {{ProdFullName}} for PPTX presentations analyzing. Generate informative reports about differences in MS PowerPoint presentations."
     }
   }

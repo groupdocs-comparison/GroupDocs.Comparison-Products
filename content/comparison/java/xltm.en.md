@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-02T14:05:45
+date:  2024-02-12T14:32:52
 draft: false
 lang: en
 format: Xltm
@@ -12,13 +12,13 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Utilize the Comparison API to compare XLTM documents using Java."
-head_description: "GroupDocs.Comparison for Java provides an API to obtain detailed document comparison reports in various Java applications, including J2EE and J2SE."
+head_title: "Java XLTM Comparison API - Check XLTM Files for Differences"
+head_description: "Compare and merge XLTM files in Java, J2EE, J2SE applications. Analyze differences summary in content, text & style of XLTM files, images and document formats."
 
 ############################# Header ############################
-title: "XLTM document comparison in Java applications" 
-description: "GroupDocs.Comparison API for getting and displaying differences in XLTM documents using applications based on Java, J2EE, and J2SE. Easily obtain detailed reports for a brilliant experience."
-subtitle: "Documents comparing framework" 
+title: "Compare XLTM Files in Java" 
+description: "Perform content comparison between more than two XLTM files in Java. Retrieve a list of differences and save the compared files to a single document."
+subtitle: "Documents differences checking framework" 
 
 header_actions:
   enable: true
@@ -30,12 +30,12 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "Explore the capabilities of GroupDocs.Comparison for Java API"
+    title: "Explore the capabilities of GroupDocs.Comparison for Java library"
     link: "/comparison/java/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for Java is an intrinsic Java API crafted for comparing multiple images and documents sharing the same format. It assists in identifying variations within paragraphs, words, characters, shapes, and even text styles among the compared documents. With the capability to merge these alterations and export to a final document, it facilitates the comparison and merging of PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings, and various image file formats—eliminating the necessity for any external libraries.
+       GroupDocs.Comparison for Java is an intrinsic Java software crafted for comparing multiple images and documents sharing the same format. It assists in identifying variations within paragraphs, words, characters, shapes, and even text styles among the compared documents. With the capability to merge these alterations and export to a final document, it facilitates the comparison and merging of PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings, and various image file formats—eliminating the necessity for any external libraries.
 
 ############################# Steps ############################
 steps:
@@ -121,7 +121,7 @@ more_formats:
     enable: true
     title: "Compare various documents using Java"
     exclude: "XLTM"
-    description: "Our Java API allows you to compare documents of various formats. Stay updated on document changes by processing them effortlessly."
+    description: "Our Java solutions allows you to compare documents of various formats. Stay updated on document changes by processing them effortlessly."
     items: 
         # format loop 1
         - name: "Compare PDF Files"

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-02T14:05:46
+date:  2024-02-12T14:32:53
 draft: false
 lang: en
 format: Cpp
@@ -12,12 +12,12 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Effortlessly compare CPP documents using the Node.js PDF Comparison API with JavaScript."
-head_description: "GroupDocs.Comparison for Node.js via Java offers an API to generate detailed document comparison reports for Node.js applications."
+head_title: "Effortlessly compare CPP documents using the Node.js PDF Comparison Library with JavaScript."
+head_description: "GroupDocs.Comparison for Node.js via Java offers software to generate detailed diffs check reports for Node.js applications."
 
 ############################# Header ############################
 title: "Comparing your CPP files in Node.js" 
-description: "Document comparison API based on Node.js provides opportunity to collect and display data about any distinctions in CPP files. Enhance the productivity of your solutions in file comparison tasks with GroupDocs.Comparison."
+description: "Document comparison library based on Node.js provides opportunity to collect and display data about any distinctions in CPP files. Enhance the productivity of your solutions in file comparison tasks with GroupDocs.Comparison."
 subtitle: "Solution for files comparing" 
 
 header_actions:
@@ -30,7 +30,7 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "Explore the features of GroupDocs.Comparison API for Node.js"
+    title: "Explore the features of GroupDocs.Comparison for Node.js via Java"
     link: "/comparison/nodejs-java/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400

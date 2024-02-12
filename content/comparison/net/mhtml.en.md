@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-02T14:05:45
+date:  2024-02-12T14:32:53
 draft: false
 lang: en
 format: Mhtml
@@ -12,12 +12,12 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: ".NET MHTML Comparison API - compare documents using C# .NET"
-head_description: "GroupDocs.Comparison for .NET offers an API to obtain comprehensive document comparison reports in a variety of applications, including C#, ASP.NET, VB.NET, and .NET Core."
+head_title: "Compare two MHTML files with C# Document Comparison software"
+head_description: "Compare and merge more than two MHTML files in C# .NET applications. Retrieve differences summary in content, text & style of MHTML files, images and document formats."
 
 ############################# Header ############################
-title: "Compare MHTML files in .NET solutions" 
-description: ".NET document comparison API for retrieving and displaying differences in MHTML files in C#, ASP.NET, VB.NET, and .NET Core Applications. Effortlessly obtain detailed reports for a seamless experience."
+title: "Compare MHTML Files in C# .NET" 
+description: ".NET documents comparison API to check for diffs between two versions of MHTML files and export to a final document with a detailed summary of the differences between the compared documents."
 subtitle: "Document comparison solution" 
 
 header_actions:

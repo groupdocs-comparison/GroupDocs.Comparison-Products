@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-02T14:05:46
+date:  2024-02-12T14:32:53
 draft: false
 lang: en
 format: Pptx
@@ -12,12 +12,12 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: ".NET PPTX Comparison API - compare documents using C# .NET"
-head_description: "GroupDocs.Comparison for .NET offers an API to obtain comprehensive document comparison reports in a variety of applications, including C#, ASP.NET, VB.NET, and .NET Core."
+head_title: "Compare PPTX Presentations via GroupDocs.Comparison for .NET"
+head_description: "The GroupDocs.Comparison for .NET API designed to perform the comparison and analysis of PPTX presentations. The comparison results show us valuable information about distinctions present in the selected PPTX files. GroupDocs.Comparison could be used with C#, ASP.NET, VB.NET, and .NET Core solutions."
 
 ############################# Header ############################
-title: "Compare PPTX files in .NET solutions" 
-description: ".NET document comparison API for retrieving and displaying differences in PPTX files in C#, ASP.NET, VB.NET, and .NET Core Applications. Effortlessly obtain detailed reports for a seamless experience."
+title: "Analyze MS PowerPoint PPTX presentations with .NET technologies" 
+description: "THE GroupDocs.Comparison for .NET is designed for various document types comparison, to analyze distinctions within Microsoft PowerPoint files. Applications based on C#, ASP.NET, VB.NET, or .NET Core could be improved with our solutions. Minimal code implementation is required to get detailed reports about distinctions in business documents."
 subtitle: "Document comparison solution" 
 
 header_actions:
@@ -30,24 +30,24 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "Discover GroupDocs.Comparison for .NET API advantages"
+    title: "Open how to use the GroupDocs.Comparison for .NET"
     link: "/comparison/net/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for .NET is a native .NET API designed for comparing multiple images and documents of the same format. It aids in detecting differences within paragraphs, words, characters, shapes, and even the text styles of the compared documents. With the ability to merge these changes and export to a final document, it supports comparison and merging of PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, Outlook emails, HTML, drawings, and various image file formats—all without the need for any external libraries.
+       Analyze your PPTX presentations by constructing detailed reports along with your .NET projects. Not only text, but styles, shapes, and other content are processed. Merge different versions of PPTX presentation into a result document. GroupDocs.Comparison for .NET could be easily involved into your projects with just a couple lines of code. Our API do not need any software of third-party developers.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to compare multiple PPTX files using C#"
+    title: "Compose MS PowerPoint PPTX comparison reports using C# and .NET"
     content: |
-      It is possible to use [GroupDocs.Comparison](https://products.groupdocs.com/comparison/net/) for getting report about differences in many PPTX files.
+      Get report about changes in PPTX with [GroupDocs.Comparison](https://products.groupdocs.com/comparison/net/)
       
-      1. Install GroupDocs.Comparison for .NET from [Nuget](https://www.nuget.org/packages/GroupDocs.Comparison) using your favorite package manager
-      2. Provide an instance of Comparer class with full path to initial PPTX file
-      3. Append at least one other PPTX to Comparer
-      4. Get a final report with precisely described differences
+      1. Install the GroupDocs.Comparison for .NET package using [Nuget](https://www.nuget.org/packages/GroupDocs.Comparison)
+      2. Get Comparer object providing PPTX path
+      3. Add more PPTX presentations to be compared
+      4. Analyze report saved to local disc
    
     code:
       platform: "net"
@@ -67,17 +67,18 @@ steps:
       content: |
         ```csharp {style=abap}
 
-        // Compare multiple documents from local disk
+        // Compose alterations for presentations
 
-        // Instantiate Comparer providing a first file
-        using (Comparer comparer = new Comparer("main_document.pptx"))
+        // Instantiate Comparer passing first file path
+        using (Comparer comparer = new Comparer("source.pptx"))
         {
-            // Add other files
-        	comparer.Add("modified_1.pptx");
-            comparer.Add("modified_2.pptx");
+            // Include more files for comparison
+        	comparer.Add("file_to_compare_1.pptx");
+            comparer.Add("file_to_compare_2.pptx");
+            comparer.Add("file_to_compare_3.pptx");
 
-            // Get result file with the specified name
-            comparer.Compare("report.pptx"); 
+            // Save the comparison result
+            comparer.Compare("result.pptx"); 
         }
         
         ```            
@@ -102,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Compare popular file formats using C#"
+    title: "Compare Microsoft PPTX presentations in C# applications"
     exclude: "PPTX"
-    description: ".NET API for document formats comparison. Stay well-informed about changes at your documents processing them without extra efforts."
+    description: "Stay informed about the advantages of GroupDocs.Comparison for .NET for PPTX presentations analyzing. Generate informative reports about differences in MS PowerPoint presentations."
     items: 
         # format loop 1
         - name: "Compare PDF Files"
