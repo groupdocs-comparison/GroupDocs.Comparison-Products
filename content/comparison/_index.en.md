@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-02-12T14:32:54
+date:  2024-02-15T14:25:22
 draft: false
 
 product: "Comparison"
@@ -332,11 +332,11 @@ faq:
 
     # items loop
     - question: "Can I try the GroupDocs.Comparison library before purchasing it?"
-      answer: "Yes, you can try GroupDocs.Comparison without buying a license. Once installed without a license, the library works in trial mode. In this mode, trial badges are added to the resultant document, and it is trimmed to the first 3 pages. If you wish to test GroupDocs.Comparison without the limitations of the trial version, you can also request a 30-day temporary license. For more details, see "
+      answer: "Yes, you can try GroupDocs.Comparison without buying a license. Once installed without a license, the library works in trial mode. In this mode, trial badges are added to the resultant document, and it is trimmed to the first 3 pages. If you wish to test GroupDocs.Comparison without the limitations of the trial version, you can also request a 30-day temporary license. For more details, see [temporary license](https://purchase.groupdocs.com/temporary-license/)."
 
     # items loop
     - question: "What licenses do you have?"
-      answer: "We offer several license types to fit the needs of particular developers or companies. License types depend on the number of developers, the number of developer site locations, and whether you need to deliver our SDK/API to your end customers. Alternatively, you can choose Metered licenses based on monthly usage of the product. Learn more at "
+      answer: "We offer several license types to fit the needs of particular developers or companies. License types depend on the number of developers, the number of developer site locations, and whether you need to deliver our SDK/API to your end customers. Alternatively, you can choose Metered licenses based on monthly usage of the product. Learn more at [pricing](https://purchase.groupdocs.com/pricing/comparison/net/)."
 
 ############################# Cloud Links ###############################
 cloud_links:
