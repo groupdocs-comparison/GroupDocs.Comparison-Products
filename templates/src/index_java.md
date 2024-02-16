@@ -1,4 +1,6 @@
 <% configRef "..\\configs\\index\\index_java.yml" %>
+<% include "..\\data\\platform_data.md" %>
+
 ---
 ############################# Static ############################
 layout: "landing"
@@ -36,9 +38,9 @@ words:
 
 actions:
   main: "<% "{index-content-java.actions_main}" %>"
-  main_link: "<% dict "products.java.main_link" %>"
+  main_link: "<% dict "products.java.packageUrl" %>"
   alt: "<% "{index-content.actions_alt}" %>"
-  alt_link: "<% dict "products.java.alt_link" %>"
+  alt_link: "<% dict "products.java.pricesUrl" %>"
   title: "<% "{index-content.actions_title}" %>"
   description: "<% "{index-content.actions_description}" %>"
 

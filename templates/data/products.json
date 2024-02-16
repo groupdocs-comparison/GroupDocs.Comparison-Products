@@ -2,7 +2,8 @@
   "products": {
     "nameProduct": "Comparison",
     "productShortName": "GroupDocs.Comparison",
-
+    "licensingUrl": "https://purchase.groupdocs.com/temporary-license/",
+    "pricingUrl": "https://purchase.groupdocs.com/pricing/comparison/net/",
     "net": {
       "environmentName": ".NET",
       "productCode": "net",
@@ -17,15 +18,15 @@
       "productUrl": "https://products.groupdocs.com/comparison/net/",
       "packageStoreName": "Nuget",
       "packageUrl": "https://www.nuget.org/packages/GroupDocs.Comparison",
-      "main_link": "https://www.nuget.org/packages/GroupDocs.Comparison", //duplicated replace at index
       "pricesUrl": "https://purchase.groupdocs.com/pricing/comparison/net/",
-      "alt_link": "https://purchase.groupdocs.com/pricing/comparison/net", //duplicated replace at index
       "docsUrl": "https://docs.groupdocs.com/comparison/net/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/comparison/net/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/comparison/net/load-password-protected-documents/",
+      "sample2Url": "https://docs.groupdocs.com/comparison/net/compare-multiple-documents/",
 
-      "more_link": "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-.NET", //replace at index
-      "release_downloads": "https://releases.groupdocs.com/comparison/net/" //replace at index
+      "more_link": "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-.NET", 
+      "release_downloads": "https://releases.groupdocs.com/comparison/net/" 
 
-      //"logo_url": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-net.png", //useless for the new design
 
     },
     "java": {
@@ -42,15 +43,15 @@
       "productUrl": "https://products.groupdocs.com/comparison/java/",
       "packageStoreName": "Maven",
       "packageUrl": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/",
-      "main_link": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/", //duplicated replace at index
       "pricesUrl": "https://purchase.groupdocs.com/pricing/comparison/java/",
-      "alt_link": "https://purchase.groupdocs.com/pricing/comparison/java", //duplicated replace at index
       "docsUrl": "https://docs.groupdocs.com/comparison/java/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/comparison/java/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/comparison/java/load-password-protected-documents/",
+      "sample2Url": "https://docs.groupdocs.com/comparison/java/compare-multiple-documents/",
 
-      "more_link": "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Java", //replace at index
-      "release_downloads": "https://releases.groupdocs.com/comparison/java/" //replace at index
+      "more_link": "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Java", 
+      "release_downloads": "https://releases.groupdocs.com/comparison/java/" 
 
-      //"logo_url": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png", //useless for the new design
 
     },
     "nodejs-java": {
@@ -67,15 +68,15 @@
       "productUrl": "https://products.groupdocs.com/comparison/nodejs-java/",
       "packageStoreName": "NPM",
       "packageUrl": "https://www.npmjs.com/package/@groupdocs/groupdocs.comparison",
-      "main_link": "https://www.npmjs.com/package/@groupdocs/groupdocs.comparison", //duplicated replace at index
       "pricesUrl": "https://purchase.groupdocs.com/pricing/comparison/java/",
-      "alt_link": "https://purchase.groupdocs.com/pricing/comparison/nodejs-java", //duplicated replace at index
       "docsUrl": "https://docs.groupdocs.com/comparison/nodejs-java/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/comparison/nodejs-java/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/comparison/nodejs-java/load-password-protected-documents/",
+      "sample2Url": "https://docs.groupdocs.com/comparison/nodejs-java/compare-multiple-documents/",
 
-      "more_link": "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Node.js-via-Java", //replace at index
-      "release_downloads": "https://releases.groupdocs.com/comparison/nodejs-java/" //replace at index
+      "more_link": "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Node.js-via-Java", 
+      "release_downloads": "https://releases.groupdocs.com/comparison/nodejs-java/" 
 
-      //"logo_url": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png", //useless for the new design
 
     }
   }

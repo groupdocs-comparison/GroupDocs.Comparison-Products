@@ -1,4 +1,6 @@
 <% configRef "..\\configs\\index\\index_net.yml" %>
+<% include "..\\data\\platform_data.md" %>
+
 ---
 ############################# Static ############################
 layout: "landing"
@@ -36,9 +38,9 @@ words:
 
 actions:
   main: "<% "{index-content-net.actions_main}" %>"
-  main_link: "<% dict "products.net.main_link" %>"
+  main_link: "<% dict "products.net.packageUrl" %>"
   alt: "<% "{index-content.actions_alt}" %>"
-  alt_link: "<% dict "products.net.alt_link" %>"
+  alt_link: "<% dict "products.net.pricesUrl" %>"
   title: "<% "{index-content.actions_title}" %>"
   description: "<% "{index-content.actions_description}" %>"
 
