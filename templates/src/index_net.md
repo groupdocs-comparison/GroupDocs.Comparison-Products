@@ -38,9 +38,9 @@ words:
 
 actions:
   main: "<% "{index-content-net.actions_main}" %>"
-  main_link: "<% dict "products.net.packageUrl" %>"
+  main_link: "<% get "PackageUrl" %>"
   alt: "<% "{index-content.actions_alt}" %>"
-  alt_link: "<% dict "products.net.pricesUrl" %>"
+  alt_link: "<% get "PricesUrl" %>"
   title: "<% "{index-content.actions_title}" %>"
   description: "<% "{index-content.actions_description}" %>"
 
