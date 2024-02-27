@@ -1,7 +1,8 @@
+
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-12T14:32:54
+date: 2024-02-27T13:11:53
 draft: false
 
 lang: en
@@ -37,7 +38,7 @@ actions:
   main: "Free NuGet Download"
   main_link: "https://www.nuget.org/packages/GroupDocs.Comparison"
   alt: "Licensing"
-  alt_link: "https://purchase.groupdocs.com/pricing/comparison/net"
+  alt_link: "https://purchase.groupdocs.com/pricing/comparison/net/"
   title: "Ready to get started?"
   description: "Try GroupDocs.Comparison features for free or request a license"
 
@@ -132,9 +133,9 @@ formats:
     - color: "green"
       content: |
         ### Microsoft Office & OpenDocument formats
-        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTX, RTF, TXT
-        * **Excel:** XLS, XLT, XLSX, XLTM, XLSB, XLSM, XLSX
-        * **PowerPoint:** POT, POTX, PPS, PPSX, PPTX, PPT        
+        * **Word:** DOCX, DOC, DOCM,DOT, DOTM, DOTX, RTX, RTF, TXT
+        * **Excel:** XLSX, XLS, XLT, XLTM, XLSB, XLSM
+        * **PowerPoint:** PPTX, PPT, POT, POTX, PPS, PPSX
         * **Outlook:** EML, EMLX, MSG
         * **OneNote:** ONE
         * **OpenDocument:** ODT, ODP, OTP, ODS, OTT

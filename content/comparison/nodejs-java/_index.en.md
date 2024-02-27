@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-16T15:30:56
+date: 2024-02-27T13:11:53
 draft: false
 
 lang: en
@@ -91,7 +91,7 @@ overview:
 platforms:
   enable: true
   title: "Platform independence"
-  description: "GroupDocs.Comparison for Node.js supports the following operating systems, frameworks and package managers"
+  description: "GroupDocs.Comparison for Node.js via Java supports the following operating systems, frameworks and package managers"
   items:
     # platform loop
     - title: "Windows"
@@ -138,9 +138,9 @@ formats:
     - color: "green"
       content: |
         ### Microsoft Office & OpenDocument formats
-        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTX, RTF, TXT
-        * **Excel:** XLS, XLT, XLSX, XLTM, XLSB, XLSM, XLSX
-        * **PowerPoint:** POT, POTX, PPS, PPSX, PPTX, PPT        
+        * **Word:** DOCX, DOC, DOCM,DOT, DOTM, DOTX, RTX, RTF, TXT
+        * **Excel:** XLSX, XLS, XLT, XLTM, XLSB, XLSM
+        * **PowerPoint:** PPTX, PPT, POT, POTX, PPS, PPSX
         * **Outlook:** EML, EMLX, MSG
         * **OneNote:** ONE
         * **OpenDocument:** ODT, ODP, OTP, ODS, OTT
@@ -166,7 +166,7 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Comparison for Node.js features"
+  title: "GroupDocs.Comparison for Node.js via Java features"
   description: "Easily compare PDF and Office documents, images and other formats"
 
   items:
@@ -229,7 +229,7 @@ features:
 code_samples:
   enable: true
   title: "Code samples"
-  description: "Some use cases of typical GroupDocs.Comparison for Node.js operations"
+  description: "Some use cases of typical GroupDocs.Comparison for Node.js via Java operations"
   items:
     # code sample loop
     - title: "Comparing password-protected documents."
