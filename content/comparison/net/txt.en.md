@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-12T14:32:53
+date:  2024-03-11T15:35:00
 draft: false
 lang: en
 format: Txt
@@ -12,11 +12,11 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Compare two TXT files with C# Document Comparison software"
-head_description: "Compare and merge more than two TXT files in C# .NET applications. Retrieve differences summary in content, text & style of TXT files, images and document formats."
+head_title: "Compare TXT files with C# Comparison Software"
+head_description: "Compare and merge TXT files in C# .NET applications. Retrieve differences summary in content, text & style."
 
 ############################# Header ############################
-title: "Compare TXT Files in C# .NET" 
+title: "Compare TXT in C# .NET" 
 description: ".NET documents comparison API to check for diffs between two versions of TXT files and export to a final document with a detailed summary of the differences between the compared documents."
 subtitle: "Document comparison solution" 
 

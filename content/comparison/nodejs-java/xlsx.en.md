@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-12T14:32:53
+date:  2024-03-11T15:35:01
 draft: false
 lang: en
 format: Xlsx
@@ -12,8 +12,8 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Compare XLSX spreadsheets content by GroupDocs.Comparison for Node.js via Java software."
-head_description: "MS Excel spreadsheets diffs could be checked by GroupDocs.Comparison Node.js API, which generates informative reports detailing various types of distinctions."
+head_title: "Compare XLSX spreadsheets content by Node.js API."
+head_description: "MS Excel spreadsheets diffs could be checked by our Node.js API, which generates informative reports detailing various types of distinctions."
 
 ############################# Header ############################
 title: "XLSX spreadsheets comparison using Node.js via Java" 
@@ -30,7 +30,7 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "Explore the advantages of the GroupDocs.Comparison for Node.js via Java"
+    title: "Explore the advantages of the GroupDocs.Comparison"
     link: "/comparison/nodejs-java/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400

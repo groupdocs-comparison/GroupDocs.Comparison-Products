@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-12T14:32:52
+date:  2024-03-11T15:35:00
 draft: false
 lang: en
 format: Pdf
@@ -12,7 +12,7 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Use the Comparison library along with Java to check PDF documents diffs."
+head_title: "Use the Java Comparison library to check PDFs diffs."
 head_description: "The GroupDocs.Comparison Java API creates detailed reports for PDF documents in applications that support J2EE and J2SE."
 
 ############################# Header ############################

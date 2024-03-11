@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-27T13:11:53
+date: 2024-03-11T15:35:01
 draft: false
 
 lang: en
@@ -25,8 +25,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "C# .NET Document Comparison Library | diff checker software | net diff library | Compare and check for diffs PDF Word Excel Web & Text"
-head_description: "C# .NET Software to compare document style & content. Compare documents of multiple supported formats for the difference to identify changes between files."
+head_title: "C# .NET Document Comparison Software | diff checker"
+head_description: "C# .NET Software to compare document style & content. Compare documents of multiple supported formats to identify changes between files."
 
 ############################# Header ############################
 title: "Compare documents with ease in your C# .NET solutions"

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-27T13:11:53
+date: 2024-03-11T15:35:01
 draft: false
 
 lang: en
@@ -25,7 +25,7 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Java Document Comparison Library| diff checker software | java diff library | Compare Popular Docs Formats"
+head_title: "Java Document Comparison Library| diff checker"
 head_description: "Native Java Software to compare document style & content. Compare documents of multiple formats to identify differences."
 
 ############################# Header ############################

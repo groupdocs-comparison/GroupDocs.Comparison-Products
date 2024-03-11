@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-12T14:32:53
+date:  2024-03-11T15:35:00
 draft: false
 lang: en
 format: Jpeg
@@ -12,8 +12,8 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "GroupDocs.Comparison for .NET API for JPEG images comparing"
-head_description: "GroupDocs.Comparison for .NET represents powerful API for collecting data about various distinctions inside JPEG images to be involved to C#, ASP.NET, VB.NET, or .NET Core applications."
+head_title: "GroupDocs.Comparison for .NET API for JPEG comparing"
+head_description: "GroupDocs.Comparison for .NET represents powerful API for collecting data about distinctions in JPEG images to be involved to C# & .NET"
 
 ############################# Header ############################
 title: "Comparison of changes at JPEG images with .NET technologies" 

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-12T14:32:52
+date:  2024-03-11T15:35:00
 draft: false
 lang: en
 format: Xlsx
@@ -12,8 +12,8 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "GroupDocs.Comparison for Java has been designed for the comparison of XLSX spreadsheets."
-head_description: "The GroupDocs.Comparison API offers capabilities for retrieving reports detailing variances in XLSX documents. It is compatible with Java, J2EE, and J2SE environments."
+head_title: "GroupDocs.Comparison for Java for the XLSX comparison."
+head_description: "The GroupDocs.Comparison API offers retrieving reports detailing variances in XLSX documents. Compatible with Java, J2EE, and J2SE environments."
 
 ############################# Header ############################
 title: "Java applications for detecting changes in XLSX spreadsheets" 

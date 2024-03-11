@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-12T14:32:52
+date:  2024-03-11T15:35:00
 draft: false
 lang: en
 format: Csv
@@ -12,11 +12,11 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Compare two CSV files with C# Document Comparison software"
-head_description: "Compare and merge more than two CSV files in C# .NET applications. Retrieve differences summary in content, text & style of CSV files, images and document formats."
+head_title: "Compare CSV files with C# Comparison Software"
+head_description: "Compare and merge CSV files in C# .NET applications. Retrieve differences summary in content, text & style."
 
 ############################# Header ############################
-title: "Compare CSV Files in C# .NET" 
+title: "Compare CSV in C# .NET" 
 description: ".NET documents comparison API to check for diffs between two versions of CSV files and export to a final document with a detailed summary of the differences between the compared documents."
 subtitle: "Document comparison solution" 
 

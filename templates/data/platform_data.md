@@ -5,3 +5,6 @@
 <% set "PricesUrl" (dict "products.{product}.pricesUrl") %>
 <% set "ProdShortName" (dict "products.productShortName") %>
 <% set "ProdFullName" (dict "products.{product}.productFullName") %>
+<% set "Runtime" (dict "products.{product}.runtime") %>
+<% set "EnvName" (dict "products.{product}.environmentName") %>
+<% set "ProgLang" (dict "products.{product}.programmingLanguage") %>

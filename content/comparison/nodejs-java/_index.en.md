@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-27T13:11:53
+date: 2024-03-11T15:35:01
 draft: false
 
 lang: en
@@ -25,11 +25,11 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Document Comparison Node.js Library | diff checker software | nodejs diff library | Compare Documents Content"
+head_title: "Document Comparison Node.js Library | diff checker"
 head_description: "Node.js documents style & content comparison API. Compare documents of multiple supported formats for the difference to identify changes between files."
 
 ############################# Header ############################
-title: "GroupDocs.Comparison Node.js via Java software is crafted to compare popular file formats"
+title: "Compare Documents with Node.js: Highlight Any Differences"
 description: "Use GroupDocs.Comparison API to develop native JavaScript applications with highly configurable comparison features. Compare files, their content & text style between similar document formats."
 words:
   for: "for"

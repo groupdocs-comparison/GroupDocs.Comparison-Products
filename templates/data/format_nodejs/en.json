@@ -1,12 +1,12 @@
 {
   "common": {
     "head": {
-      "title": "Effortlessly compare {{FileFormatUp}} documents using the Node.js PDF Comparison Library with {{ProgLang}}.",
-      "description": "{{ProdFullName}} offers software to generate detailed diffs check reports for Node.js applications."
+      "title": "Compare {{FileFormatUp}} using the {{ProgLang}} Library.",
+      "description": "{{ProdFullName}} offers software to generate detailed diffs check reports for {{Runtime}} applications."
     },
     "header": {
-      "title": "Comparing your {{FileFormatUp}} files in Node.js",
-      "description": "Document comparison library based on Node.js provides opportunity to collect and display data about any distinctions in {{FileFormatUp}} files. Enhance the productivity of your solutions in file comparison tasks with {{ProdShortName}}.",
+      "title": "Comparing your {{FileFormatUp}} files in {{Runtime}}",
+      "description": "Document comparison library based on {{Runtime}} provides opportunity to collect and display data about any distinctions in {{FileFormatUp}} files. Enhance the productivity of your solutions in file comparison tasks with {{ProdShortName}}.",
       "subtitle": "Solution for files comparing",
       "action_title": "Free {{PackageStoreName}} download"
     },
@@ -15,7 +15,7 @@
       "content": "{{ProdFullName}} is an API that helps to compare pictures and documents in the same format. It can find differences in paragraphs, words, characters, shapes, and text styles between the compared documents. You can combine these changes and save them as a final document. It works well with PDFs, Word documents, Excel sheets, PowerPoint slides, Visio diagrams, Outlook emails, HTML, drawings, and various image types—all without needing extra tools."
     },
     "steps": {
-      "title": "How to perform {{FileFormatUp}} files comparison using Node.js.",
+      "title": "How to perform {{FileFormatUp}} files comparison using {{Runtime}}.",
       "content": {
         "title": "It is possible to use {{FileFormatUp}} files using [{{ProdShortName}}]({{ProductUrl}}) for getting report about differences in many {{FileFormatUp}} files",
         "step_1": "Install {{ProdFullName}} using [{{PackageStoreName}}]({{PackageUrl}})",
@@ -34,17 +34,17 @@
     },
     "formats": {
       "title": "Compare popular document types via {{ProgLang}}",
-      "description": "Our Node.js API enables you to compare documents in different formats. Keep track of document changes effortlessly by processing them using our tool."
+      "description": "Our {{Runtime}} API enables you to compare documents in different formats. Keep track of document changes effortlessly by processing them using our tool."
     }
   },
   "pdf": {
     "head": {
-      "title": "Use {{ProgLang}} with the Comparison Node.js library to check differences in PDF documents.",
-      "description": "The {{ProdShortName}} Node.js software generates comprehensive reports detailing differences in PDF documents."
+      "title": "{{ProgLang}} library to check differences in PDFs.",
+      "description": "The {{ProdShortName}} {{Runtime}} software generates comprehensive reports detailing differences in PDF documents."
     },
     "header": {
       "title": "PDF documents comparison for {{EnvName}}",
-      "description": "Utilize our document comparison API in Node.js to detect and showcase differences in PDFs within {{ProgLang}}-powered applications. Benefit from swiftly and effortlessly obtaining detailed reports."
+      "description": "Utilize our document comparison API in {{Runtime}} to detect and showcase differences in PDFs within {{ProgLang}}-powered applications. Benefit from swiftly and effortlessly obtaining detailed reports."
     },
     "about": {
       "title": "Explore {{ProdFullName}} library features",
@@ -70,17 +70,17 @@
     },
     "formats": {
       "title": "Compare popular file formats like PDF using {{ProgLang}}",
-      "description": "Your PDF files could be compared by our Node.js API quickly. Control document changes effortlessly with detailed reports."
+      "description": "Your PDF files could be compared by our {{Runtime}} API quickly. Control document changes effortlessly with detailed reports."
     }
   },
   "docx": {
     "head": {
-      "title": "{{ProdFullName}} API allows to compare DOCX documents.",
-      "description": "MS Word DOCX files differences might be checked by {{ProdShortName}} Node.js API that generates useful reports describing documents alterations."
+      "title": "{{Runtime}} API allows to compare DOCX documents.",
+      "description": "MS Word DOCX files differences might be checked by {{ProdShortName}} {{Runtime}} API that generates useful reports describing documents alterations."
     },
     "header": {
       "title": "DOCX files comparison with {{EnvName}}",
-      "description": "Utilize document processing API in Node.js to detect and reveal any alterations in MS Word DOCX files by {{EnvName}} applications. Take advantages of swift and effortless reports generation."
+      "description": "Utilize document processing API in {{Runtime}} to detect and reveal any alterations in MS Word DOCX files by {{EnvName}} applications. Take advantages of swift and effortless reports generation."
     },
     "about": {
       "title": "Open {{ProdFullName}} API features",
@@ -111,12 +111,12 @@
   },
   "png": {
     "head": {
-      "title": "{{ProdFullName}} software helps us with comparing PNG documents.",
+      "title": "{{ProgLang}} API for comparing PNG images.",
       "description": "{{ProdFullName}} library represents detailed reports about distinctions in images in PNG format."
     },
     "header": {
-      "title": "PNG images comparison Node.js applications via Java",
-      "description": "Take advantages of using Node.js API to track changes at PNG files at {{ProgLang}} applications. Obtaining detailed reports effortlessly and swiftly."
+      "title": "PNG images comparison {{Runtime}} applications via Java",
+      "description": "Take advantages of using {{Runtime}} API to track changes at PNG files at {{ProgLang}} applications. Obtaining detailed reports effortlessly and swiftly."
     },
     "about": {
       "title": "Open {{ProdFullName}} API possibilities",
@@ -147,12 +147,12 @@
   },
   "jpeg": {
     "head": {
-      "title": "{{ProdFullName}} library is designed to automate JPEG images comparison.",
+      "title": "{{Runtime}} library to automate JPEG images comparison.",
       "description": "Explore {{ProdFullName}} API features to get info about distinctions in JPEG pictures."
     },
     "header": {
       "title": "Check JPEG for differences and get reports via {{EnvName}}",
-      "description": "Powerful Node.js solution to compare changes at JPEG images within {{ProgLang}} applications. Detailed reports brings significant advantages to your business solutions."
+      "description": "Powerful {{Runtime}} solution to compare changes at JPEG images within {{ProgLang}} applications. Detailed reports brings significant advantages to your business solutions."
     },
     "about": {
       "title": "Discover capabilities of {{ProdFullName}}",
@@ -183,12 +183,12 @@
   },
   "jpg": {
     "head": {
-      "title": "{{ProdFullName}} library enables automated diffs check for JPG images.",
+      "title": "Automated diffs check for JPG images by {{Runtime}} library.",
       "description": "Utilize {{ProdFullName}} software to access detailed distinctions information in JPG images."
     },
     "header": {
       "title": "Obtaining JPG alteration reports in {{EnvName}} applications",
-      "description": "Leverage Node.js capabilities to compare JPG image changes within {{ProgLang}} applications. Detailed reports offer significant benefits to business solutions."
+      "description": "Leverage {{Runtime}} capabilities to compare JPG image changes within {{ProgLang}} applications. Detailed reports offer significant benefits to business solutions."
     },
     "about": {
       "title": "Explore the capabilities of {{ProdFullName}} API",
@@ -219,15 +219,15 @@
   },
   "xlsx": {
     "head": {
-      "title": "Compare XLSX spreadsheets content by {{ProdFullName}} software.",
-      "description": "MS Excel spreadsheets diffs could be checked by {{ProdShortName}} Node.js API, which generates informative reports detailing various types of distinctions."
+      "title": "Compare XLSX spreadsheets content by {{Runtime}} API.",
+      "description": "MS Excel spreadsheets diffs could be checked by our {{Runtime}} API, which generates informative reports detailing various types of distinctions."
     },
     "header": {
       "title": "XLSX spreadsheets comparison using {{EnvName}}",
-      "description": "Employ the document processing library in Node.js to identify and expose alterations in MS Excel XLSX files within {{EnvName}} applications. Benefit from swift and effortless report generation."
+      "description": "Employ the document processing library in {{Runtime}} to identify and expose alterations in MS Excel XLSX files within {{EnvName}} applications. Benefit from swift and effortless report generation."
     },
     "about": {
-      "title": "Explore the advantages of the {{ProdFullName}}",
+      "title": "Explore the advantages of the {{ProdShortName}}",
       "content": "Access detailed reports containing rich data about changes across different versions of XLSX documents provided by {{ProdShortName}}. Integrate {{EnvName}} applications with our API using just a few lines of code, without additional efforts. Analyze alterations in pages, text, text styles, or shapes within MS Excel documents. Select the appropriate data and merge them into a final XLSX document. Advance your business projects with our solutions."
     },
     "steps": {
@@ -255,12 +255,12 @@
   },
   "pptx": {
     "head": {
-      "title": "Check differences of PPTX presentations by {{ProdFullName}} product.",
-      "description": "PPTX presentations could be analyzed by {{ProdShortName}} {{EnvName}} solution, that composes genuine reports with rich information describing various types of content distinctions."
+      "title": "Check differences of PPTX by {{EnvName}}.",
+      "description": "PPTX could be analyzed by {{ProdShortName}} {{EnvName}} solution, that composes genuine reports describing content distinctions."
     },
     "header": {
       "title": "Comparison for PPTX presentations with {{EnvName}}",
-      "description": "Use the document processing API in Node.js to identify and highlight alterations in MS PowerPoint PPTX files using applications based on {{EnvName}}. Improve your business processes with swift and effortless data analysis."
+      "description": "Use the document processing API in {{Runtime}} to identify and highlight alterations in MS PowerPoint PPTX files using applications based on {{EnvName}}. Improve your business processes with swift and effortless data analysis."
     },
     "about": {
       "title": "Explore the {{ProdFullName}} features",

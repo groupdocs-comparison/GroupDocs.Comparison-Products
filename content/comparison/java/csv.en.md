@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-12T14:32:52
+date:  2024-03-11T15:34:59
 draft: false
 lang: en
 format: Csv
@@ -13,7 +13,7 @@ platform_tag: "java"
 
 ############################# Head ############################
 head_title: "Java CSV Comparison API - Check CSV Files for Differences"
-head_description: "Compare and merge CSV files in Java, J2EE, J2SE applications. Analyze differences summary in content, text & style of CSV files, images and document formats."
+head_description: "Compare and merge CSV files in Java, J2EE, J2SE applications. Analyze differences summary in content, text & style."
 
 ############################# Header ############################
 title: "Compare CSV Files in Java" 

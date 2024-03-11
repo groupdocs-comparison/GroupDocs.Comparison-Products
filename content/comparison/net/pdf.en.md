@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-12T14:32:53
+date:  2024-03-11T15:35:00
 draft: false
 lang: en
 format: Pdf
@@ -12,7 +12,7 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Check PDF files differences in C# .NET | Document Comparison APIs"
+head_title: "Check PDF documents diffs in C# .NET"
 head_description: "Compare and merge more than two PDF files in C# .NET applications. Retrieve differences summary in content, text & style of PDF files."
 
 ############################# Header ############################

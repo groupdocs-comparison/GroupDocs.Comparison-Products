@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-12T14:32:53
+date:  2024-03-11T15:35:00
 draft: false
 lang: en
 format: Mobi
@@ -12,11 +12,11 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Compare two MOBI files with C# Document Comparison software"
-head_description: "Compare and merge more than two MOBI files in C# .NET applications. Retrieve differences summary in content, text & style of MOBI files, images and document formats."
+head_title: "Compare MOBI files with C# Comparison Software"
+head_description: "Compare and merge MOBI files in C# .NET applications. Retrieve differences summary in content, text & style."
 
 ############################# Header ############################
-title: "Compare MOBI Files in C# .NET" 
+title: "Compare MOBI in C# .NET" 
 description: ".NET documents comparison API to check for diffs between two versions of MOBI files and export to a final document with a detailed summary of the differences between the compared documents."
 subtitle: "Document comparison solution" 
 

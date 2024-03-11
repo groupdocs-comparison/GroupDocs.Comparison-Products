@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-12T14:32:53
+date:  2024-03-11T15:35:00
 draft: false
 lang: en
 format: Dcm
@@ -12,7 +12,7 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Effortlessly compare DCM documents using the Node.js PDF Comparison Library with JavaScript."
+head_title: "Compare DCM using the JavaScript Library."
 head_description: "GroupDocs.Comparison for Node.js via Java offers software to generate detailed diffs check reports for Node.js applications."
 
 ############################# Header ############################

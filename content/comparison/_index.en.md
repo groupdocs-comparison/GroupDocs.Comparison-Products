@@ -1,7 +1,8 @@
+
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-02-15T14:25:22
+date:  2024-03-11T15:35:01
 draft: false
 
 product: "Comparison"
@@ -10,11 +11,11 @@ product_tag: "comparison"
 lang: en
 
 ############################# Head ############################
-head_title: "C# Java & Node.js Document Comparison Library | diff checker software | diff library | Compare Docs for Text & Style"
+head_title: "C# Java & Node.js Document Comparison Library | diff checker"
 head_description: "GroupDocs Document Comparison Library native to C# .NET Java & Node.js. Check for differences among files of supported formats."
 
 ############################# Header ############################
-title: "GroupDocs.Comparison Software to Check for Differences Popular File Formats"
+title: "Compare Differences Across Popular File Types"
 description: |
   Robust API for document comparison across various file formats.
 
@@ -119,7 +120,7 @@ supported_platforms:
 ############################# Features ###############################
 features:
   enable: true
-  title: "GroupDocs.Comparison at a glance"
+  title: "Key Features of GroupDocs.Comparison"
   description: "API for comparing and diff viewing across PDF, Word, Excel, source code files, and more."
 
   items:

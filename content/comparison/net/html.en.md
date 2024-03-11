@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-12T14:32:53
+date:  2024-03-11T15:35:00
 draft: false
 lang: en
 format: Html
@@ -12,11 +12,11 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Compare two HTML files with C# Document Comparison software"
-head_description: "Compare and merge more than two HTML files in C# .NET applications. Retrieve differences summary in content, text & style of HTML files, images and document formats."
+head_title: "Compare HTML files with C# Comparison Software"
+head_description: "Compare and merge HTML files in C# .NET applications. Retrieve differences summary in content, text & style."
 
 ############################# Header ############################
-title: "Compare HTML Files in C# .NET" 
+title: "Compare HTML in C# .NET" 
 description: ".NET documents comparison API to check for diffs between two versions of HTML files and export to a final document with a detailed summary of the differences between the compared documents."
 subtitle: "Document comparison solution" 
 

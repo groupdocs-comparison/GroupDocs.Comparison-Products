@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-12T14:32:53
+date:  2024-03-11T15:35:01
 draft: false
 lang: en
 format: Pdf
@@ -12,7 +12,7 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Use JavaScript with the Comparison Node.js library to check differences in PDF documents."
+head_title: "JavaScript library to check differences in PDFs."
 head_description: "The GroupDocs.Comparison Node.js software generates comprehensive reports detailing differences in PDF documents."
 
 ############################# Header ############################
