@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-12T14:32:52
+date:  2024-03-11T15:35:00
 draft: false
 lang: en
 format: Png
@@ -12,7 +12,7 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Get diffs check reports for PNG pictures using GroupDocs.Comparison for Java."
+head_title: "Get diffs reports for PNG pictures using Java."
 head_description: "The GroupDocs.Comparison for Java API generates useful comparison reports for PNG documents in applications that support J2EE and J2SE."
 
 ############################# Header ############################

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-12T14:32:53
+date:  2024-03-11T15:35:00
 draft: false
 lang: en
 format: Xlsx
@@ -12,8 +12,8 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Perform MS Excel spreadsheet comparisons with GroupDocs.Comparison for .NET"
-head_description: "The GroupDocs.Comparison for .NET API facilitates checking diffs and analysis of MS Excel spreadsheets, including XLSX format. The comparison results provide detailed insights into distinctions present in the selected XLSX spreadsheets. GroupDocs.Comparison is compatible with C#, ASP.NET, VB.NET, and .NET Core solutions."
+head_title: "MS Excel spreadsheet comparison"
+head_description: "The GroupDocs.Comparison for .NET API facilitates checking diffs and analysis of XLSX spreadsheets. C# .NET supported."
 
 ############################# Header ############################
 title: "Utilize C# technologies for comparing XLSX spreadsheets" 

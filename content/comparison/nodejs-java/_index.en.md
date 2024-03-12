@@ -1,7 +1,8 @@
+
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-12T14:32:54
+date: 2024-03-11T15:35:01
 draft: false
 
 lang: en
@@ -24,11 +25,11 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Document Comparison Node.js Library | diff checker software | nodejs diff library | Compare Documents Content"
+head_title: "Document Comparison Node.js Library | diff checker"
 head_description: "Node.js documents style & content comparison API. Compare documents of multiple supported formats for the difference to identify changes between files."
 
 ############################# Header ############################
-title: "GroupDocs.Comparison Node.js via Java software is crafted to compare popular file formats"
+title: "Compare Documents with Node.js: Highlight Any Differences"
 description: "Use GroupDocs.Comparison API to develop native JavaScript applications with highly configurable comparison features. Compare files, their content & text style between similar document formats."
 words:
   for: "for"
@@ -37,15 +38,14 @@ actions:
   main: "Free NPM Download"
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.comparison"
   alt: "Licensing"
-  alt_link: "https://purchase.groupdocs.com/pricing/comparison/nodejs-java"
+  alt_link: "https://purchase.groupdocs.com/pricing/comparison/java/"
   title: "Ready to get started?"
-  description: "Try GroupDocs.Comparison features for free, or request a license"
+  description: "Try GroupDocs.Comparison features for free or request a license"
 
 release:
   title: "Version {0} released"
   notes: "See what’s new"
   downloads: "Downloads"
-  link: "https://releases.groupdocs.com/comparison/nodejs-java/"
 
 code:
   title: "Compare BMP images in JavaScript"
@@ -55,13 +55,13 @@ code:
   content: |
     ```javascript {style=abap}
 
-    // Instantiate Comparer
+    // Specify the source document
     let comparer = new Comparer("source.bmp");
 
-    // Set up another file for comparison
+    // Add one or more target documents
     comparer.add("target.bmp");
 
-    // Save comparison result to specified file
+    // Specify comparison options
     comparer.compare("result.bmp"); 
     ```
 
@@ -83,11 +83,15 @@ overview:
     - title: "Documentation and examples"
       content: "There is already a lot of documentation on using Comparison library on different platforms with code examples, so you don’t have to think hard about how to work with GroupDocs.Comparison API in your Node.js application."
 
+    # feature loop
+    - title: "Select changes and merge them to one file"
+      content: "If you have different versions of one document it is possible to select only desired changes and compile new document using the GroupDocs.Comparison library."
+
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "Platform independence"
-  description: "GroupDocs.Comparison for Node.js supports the following operating systems, frameworks and package managers"
+  description: "GroupDocs.Comparison for Node.js via Java supports the following operating systems, frameworks and package managers"
   items:
     # platform loop
     - title: "Windows"
@@ -134,13 +138,13 @@ formats:
     - color: "green"
       content: |
         ### Microsoft Office & OpenDocument formats
-        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTX, RTF, TXT
-        * **Excel:** XLS, XLT, XLSX, XLTM, XLSB, XLSM, XLSX
-        * **PowerPoint:** POT, POTX, PPS, PPSX, PPTX, PPT        
+        * **Word:** DOCX, DOC, DOCM,DOT, DOTM, DOTX, RTX, RTF, TXT
+        * **Excel:** XLSX, XLS, XLT, XLTM, XLSB, XLSM
+        * **PowerPoint:** PPTX, PPT, POT, POTX, PPS, PPSX
         * **Outlook:** EML, EMLX, MSG
         * **OneNote:** ONE
         * **OpenDocument:** ODT, ODP, OTP, ODS, OTT
-        * **Fixed Page Layout:** PDF  
+        * **Fixed Page Layout:** PDF        
     # group loop
     - color: "blue"
       content: |
@@ -162,7 +166,7 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Comparison for Node.js features"
+  title: "GroupDocs.Comparison for Node.js via Java features"
   description: "Easily compare PDF and Office documents, images and other formats"
 
   items:
@@ -230,30 +234,31 @@ code_samples:
     # code sample loop
     - title: "Comparing password-protected documents."
       content: |
-        To compare documents that are protected with a password, you need to specify it then loading the documents:
-        {{< landing/code title="JavaScript">}}
+        To compare documents that are [protected with a password](https://docs.groupdocs.com/comparison/nodejs-java/load-password-protected-documents/), you need to specify it then loading the documents:
+        {{< landing/code title="How to compare password-protected documents.">}}
         ```javascript {style=abap}
+
         import { Comparer, LoadOptions } from '@groupdocs/groupdocs.comparison'
 
-        // Instantiate Comparer
-        const comparer = new Comparer("source.doc", new LoadOptions("1234"));
+        // Load the source document and specify its password
+        const comparer = new Comparer("source.docx", new LoadOptions("1234"));
 
-        // Specify another file for comparison
-        comparer.add("target.doc", new LoadOptions("5678"));
+        // Load the target document and specify its password
+        comparer.add("target.docx", new LoadOptions("5678"));
 
         // Save comparison result to a specified file
-        comparer.compare("result.doc");
+        comparer.compare("result.docx");
         ```
         {{< /landing/code >}}
     # code sample loop
     - title: "Comparing multiple PDF documents."
       content: |
-        GroupDocs.Comparison allows you to compare more than two documents. The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class.
-        {{< landing/code title="JavaScript">}}
+        GroupDocs.Comparison allows you to [compare more than two documents](https://docs.groupdocs.com/comparison/nodejs-java/compare-multiple-documents/). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class.
+        {{< landing/code title="How to compare three or more documents.">}}
         ```javascript {style=abap}
         import { Comparer } from '@groupdocs/groupdocs.comparison'
 
-        // Instantiate Comparer
+        // Load the source document
         const comparer = new Comparer(source.pdf");
 
         // Specify the second file for comparison
@@ -265,6 +270,7 @@ code_samples:
         // Save comparison result to a specified file
         comparer.compare("result.pdf");
         ```
+
         {{< /landing/code >}}
 
 ---

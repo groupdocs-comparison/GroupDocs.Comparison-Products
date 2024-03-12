@@ -1,4 +1,6 @@
 <% configRef "..\\configs\\index\\index_nodejs.yml" %>
+<% include "..\\data\\platform_data.md" %>
+
 ---
 ############################# Static ############################
 layout: "landing"
@@ -32,44 +34,43 @@ head_description: "<% "{index-content-nodejs-java.head_description}" %>"
 title: "<% "{index-content-nodejs-java.title}" %>"
 description: "<% "{index-content-nodejs-java.description}" %>"
 words:
-  for: "<% "{index-content-nodejs-java.words_for}" %>"
+  for: "<% "{index-content.words_for}" %>"
 
 actions:
   main: "<% "{index-content-nodejs-java.actions_main}" %>"
-  main_link: "<% dict "products.nodejs-java.main_link" %>"
-  alt: "<% "{index-content-nodejs-java.actions_alt}" %>"
-  alt_link: "<% dict "products.nodejs-java.alt_link" %>"
-  title: "<% "{index-content-nodejs-java.actions_title}" %>"
-  description: "<% "{index-content-nodejs-java.actions_description}" %>"
+  main_link: "<% get "PackageUrl" %>"
+  alt: "<% "{index-content.actions_alt}" %>"
+  alt_link: "<% get "PricesUrl" %>"
+  title: "<% "{index-content.actions_title}" %>"
+  description: "<% "{index-content.actions_description}" %>"
 
 release:
-  title: "<% "{index-content-nodejs-java.release_title}" %>"
-  notes: "<% "{index-content-nodejs-java.release_notes}" %>"
-  downloads: "<% "{index-content-nodejs-java.release_downloads}" %>"
-  link: "<% "{products.nodejs-java.release_downloads}" %>"
+  title: "<% "{index-content.release_title}" %>"
+  notes: "<% "{index-content.release_notes}" %>"
+  downloads: "<% "{index-content.release_downloads}" %>"
 
 code:
   title: "<% "{index-content-nodejs-java.code_title}" %>"
-  more: "<% "{index-content-nodejs-java.code_more}" %>"
+  more: "<% "{index-content.code_more}" %>"
   more_link: "<% dict "products.nodejs-java.more_link" %>"
   install: "npm i @groupdocs/groupdocs.comparison"
   content: |
     ```javascript {style=abap}
 
-    // <% "{index-content-nodejs-java.code_comment_1}" %>
+    // <% "{index-content.code_comment_1}" %>
     let comparer = new Comparer("source.bmp");
 
-    // <% "{index-content-nodejs-java.code_comment_2}" %>
+    // <% "{index-content.code_comment_2}" %>
     comparer.add("target.bmp");
 
-    // <% "{index-content-nodejs-java.code_comment_3}" %>
+    // <% "{index-content.code_comment_3}" %>
     comparer.compare("result.bmp"); 
     ```
 
 ############################# Overview ############################
 overview:
   enable: true
-  title: "<% "{index-content-nodejs-java.overview_title}" %>"
+  title: "<% "{index-content.overview_title}" %>"
   description: "<% "{index-content-nodejs-java.overview_description}" %>"
   features:
     # feature loop
@@ -84,10 +85,14 @@ overview:
     - title: "<% "{index-content-nodejs-java.overview_feature_3.title}" %>"
       content: "<% "{index-content-nodejs-java.overview_feature_3.description}" %>"
 
+    # feature loop
+    - title: "<% "{index-content-nodejs-java.overview_feature_4.title}" %>"
+      content: "<% "{index-content-nodejs-java.overview_feature_4.description}" %>"
+
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "<% "{index-content-nodejs-java.platforms_title}" %>"
+  title: "<% "{index-content.platforms_title}" %>"
   description: "<% "{index-content-nodejs-java.platforms_description}" %>"
   items:
     # platform loop
@@ -127,38 +132,38 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "<% "{index-content-nodejs-java.formats_title}" %>"
+  title: "<% "{index-content.formats_title}" %>"
   description: |
     <% "{index-content-nodejs-java.formats_description}" %>
   groups:
     # group loop
     - color: "green"
       content: |
-        ### <% "{index-content-nodejs-java.formats_groups.title_1}" %>
-        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTX, RTF, TXT
-        * **Excel:** XLS, XLT, XLSX, XLTM, XLSB, XLSM, XLSX
-        * **PowerPoint:** POT, POTX, PPS, PPSX, PPTX, PPT        
+        ### <% "{index-content.formats_groups.title_1}" %>
+        * **Word:** DOCX, DOC, DOCM,DOT, DOTM, DOTX, RTX, RTF, TXT
+        * **Excel:** XLSX, XLS, XLT, XLTM, XLSB, XLSM
+        * **PowerPoint:** PPTX, PPT, POT, POTX, PPS, PPSX
         * **Outlook:** EML, EMLX, MSG
         * **OneNote:** ONE
         * **OpenDocument:** ODT, ODP, OTP, ODS, OTT
-        * **<% "{index-content-nodejs-java.formats_groups.format_1_7}" %>:** PDF  
+        * **<% "{index-content.formats_groups.format_fixed_page_layout}" %>:** PDF        
     # group loop
     - color: "blue"
       content: |
-        ### <% "{index-content-nodejs-java.formats_groups.title_2}" %>
-        * **<% "{index-content-nodejs-java.formats_groups.format_2_1}" %>:** BMP, GIF, JPG, JPEG, PNG
-        * **<% "{index-content-nodejs-java.formats_groups.format_2_2}" %>:** DICOM
+        ### <% "{index-content.formats_groups.title_2}" %>
+        * **<% "{index-content.formats_groups.format_raster_images}" %>:** BMP, GIF, JPG, JPEG, PNG
+        * **<% "{index-content.formats_groups.format_medical_imaging}" %>:** DICOM
         * **Microsoft Visio:** VSDX, VSD, VSS, VST, VDX
-        * **<% "{index-content-nodejs-java.formats_groups.format_2_4}" %>:** DWG, DXF
+        * **AutoCAD Drawing:** DWG, DXF
       # group loop
     - color: "red"
       content: |
-        ### <% "{index-content-nodejs-java.formats_groups.title_3}" %>
-        * **<% "{index-content-nodejs-java.formats_groups.format_3_1}" %>:** TXT
-        * **<% "{index-content-nodejs-java.formats_groups.format_3_2}" %>:** CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, PHP, SQL, LOG, DIFF, LESS, SCALA
-        * **<% "{index-content-nodejs-java.formats_groups.format_3_3}" %>:** HTM, HTML, MHT, MHTML
-        * **<% "{index-content-nodejs-java.formats_groups.format_3_4}" %>:** MOBI, DjVu
-        * **<% "{index-content-nodejs-java.formats_groups.format_3_5}" %>:** CSV
+        ### <% "{index-content.formats_groups.title_3}" %>
+        * **<% "{index-content.formats_groups.format_text}" %>:** TXT
+        * **<% "{index-content.formats_groups.format_programming_languages}" %>:** CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, PHP, SQL, LOG, DIFF, LESS, SCALA
+        * **<% "{index-content.formats_groups.format_web}" %>:** HTM, HTML, MHT, MHTML
+        * **<% "{index-content.formats_groups.format_e_books}" %>:** MOBI, DjVu
+        * **<% "{index-content.formats_groups.format_delimiter_separated_values}" %>:** CSV
 
 ############################# Features ############################
 features:
@@ -225,47 +230,49 @@ features:
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "<% "{index-content-nodejs-java.code_samples.title}" %>"
-  description: "<% "{index-content-nodejs-java.code_samples.description}" %>"
+  title: "<% "{index-content.code_samples.title}" %>"
+  description: "<% "{index-content-nodejs-java.code_samples_description}" %>"
   items:
     # code sample loop
-    - title: "<% "{index-content-nodejs-java.code_samples.sample_1.title}" %>"
+    - title: "<% "{index-content-nodejs-java.code_title_sample_1}" %>"
       content: |
-        <% "{index-content-nodejs-java.code_samples.sample_1.content}" %>
-        {{< landing/code title="JavaScript">}}
+        <% "{index-content-nodejs-java.code_samples_sample_1_content}" %>
+        {{< landing/code title="<% "{index-content.code_samples.sample_1.code_title}" %>">}}
         ```javascript {style=abap}
+
         import { Comparer, LoadOptions } from '@groupdocs/groupdocs.comparison'
 
-        // <% "{index-content-nodejs-java.code_samples.sample_1.comment_1}" %>
-        const comparer = new Comparer("source.doc", new LoadOptions("1234"));
+        // <% "{index-content.code_samples.sample_1.comment_1}" %>
+        const comparer = new Comparer("source.docx", new LoadOptions("1234"));
 
-        // <% "{index-content-nodejs-java.code_samples.sample_1.comment_2}" %>
-        comparer.add("target.doc", new LoadOptions("5678"));
+        // <% "{index-content.code_samples.sample_1.comment_2}" %>
+        comparer.add("target.docx", new LoadOptions("5678"));
 
-        // <% "{index-content-nodejs-java.code_samples.sample_1.comment_3}" %>
-        comparer.compare("result.doc");
+        // <% "{index-content.code_samples.sample_1.comment_3}" %>
+        comparer.compare("result.docx");
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "<% "{index-content-nodejs-java.code_samples.sample_2.title}" %>"
+    - title: "<% "{index-content-net.code_title_sample_2}" %>"
       content: |
-        <% "{index-content-nodejs-java.code_samples.sample_2.content}" %>
-        {{< landing/code title="JavaScript">}}
+        <% "{index-content-net.code_samples_sample_2_content}" %>
+        {{< landing/code title="<% "{index-content.code_samples.sample_2.code_title}" %>">}}
         ```javascript {style=abap}
         import { Comparer } from '@groupdocs/groupdocs.comparison'
 
-        // <% "{index-content-nodejs-java.code_samples.sample_2.comment_1}" %>
+        // <% "{index-content.code_samples.sample_2.comment_1}" %>
         const comparer = new Comparer(source.pdf");
 
-        // <% "{index-content-nodejs-java.code_samples.sample_2.comment_2}" %>
+        // <% "{index-content.code_samples.sample_2.comment_2}" %>
         comparer.add("target2.pdf");
 
-        // <% "{index-content-nodejs-java.code_samples.sample_2.comment_3}" %>
+        // <% "{index-content.code_samples.sample_2.comment_3}" %>
         comparer.add("target3.pdf");
 
-        // <% "{index-content-nodejs-java.code_samples.sample_2.comment_4}" %>
+        // <% "{index-content.code_samples.sample_2.comment_4}" %>
         comparer.compare("result.pdf");
         ```
+
         {{< /landing/code >}}
 
 ---

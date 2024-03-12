@@ -1,7 +1,8 @@
+
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-12T14:32:54
+date: 2024-03-11T15:35:01
 draft: false
 
 lang: en
@@ -24,7 +25,7 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Java Document Comparison Library| diff checker software | java diff library | Compare Popular Docs Formats"
+head_title: "Java Document Comparison Library| diff checker"
 head_description: "Native Java Software to compare document style & content. Compare documents of multiple formats to identify differences."
 
 ############################# Header ############################
@@ -37,7 +38,7 @@ actions:
   main: "Free Maven Download"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/"
   alt: "Licensing"
-  alt_link: "https://purchase.groupdocs.com/pricing/comparison/java"
+  alt_link: "https://purchase.groupdocs.com/pricing/comparison/java/"
   title: "Ready to get started?"
   description: "Try GroupDocs.Comparison features for free or request a license"
 
@@ -137,9 +138,9 @@ formats:
     - color: "green"
       content: |
         ### Microsoft Office & OpenDocument formats
-        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTX, RTF, TXT
-        * **Excel:** XLS, XLT, XLSX, XLTM, XLSB, XLSM, XLSX
-        * **PowerPoint:** POT, POTX, PPS, PPSX, PPTX, PPT        
+        * **Word:** DOCX, DOC, DOCM,DOT, DOTM, DOTX, RTX, RTF, TXT
+        * **Excel:** XLSX, XLS, XLT, XLTM, XLSB, XLSM
+        * **PowerPoint:** PPTX, PPT, POT, POTX, PPS, PPSX
         * **Outlook:** EML, EMLX, MSG
         * **OneNote:** ONE
         * **OpenDocument:** ODT, ODP, OTP, ODS, OTT

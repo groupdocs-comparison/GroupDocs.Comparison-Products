@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-12T14:32:53
+date:  2024-03-11T15:35:00
 draft: false
 lang: en
 format: Png
@@ -12,8 +12,8 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "PNG images differences checking by GroupDocs.Comparison for .NET API"
-head_description: "GroupDocs.Comparison for .NET allows us to generate precise reports about distinctions at PNG images for applications based on C#, ASP.NET, VB.NET, or .NET Core"
+head_title: "PNG differences checking by GroupDocs.Comparison for .NET"
+head_description: "GroupDocs.Comparison for .NET allows to generate reports about distinctions at PNG images for applications based on C# & .NET"
 
 ############################# Header ############################
 title: "Compare PNG images via C# .NET applications" 

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-12T14:32:53
+date:  2024-03-11T15:35:00
 draft: false
 lang: en
 format: Docx
@@ -12,8 +12,8 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Compare MS Word DOCX documents by GroupDocs.Comparison for .NET via C#"
-head_description: "MS Word documents particularly DOCX could be compared by GroupDocs.Comparison for .NET API. As result you obtain detailed report with highlighted alterations between DOCX documents. Use our API along with applications based on C#, ASP.NET, VB.NET, or .NET Core."
+head_title: "Compare MS Word DOCX via C# and .NET"
+head_description: "DOCX comparison by GroupDocs.Comparison for .NET. Detailed report with highlighted alterations between DOCX documents. Use our API along with C#."
 
 ############################# Header ############################
 title: "MS Word DOCX comparison with C# .NET applications" 

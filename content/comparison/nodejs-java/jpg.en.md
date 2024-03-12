@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-12T14:32:53
+date:  2024-03-11T15:35:01
 draft: false
 lang: en
 format: Jpg
@@ -12,7 +12,7 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "GroupDocs.Comparison for Node.js via Java library enables automated diffs check for JPG images."
+head_title: "Automated diffs check for JPG images by Node.js library."
 head_description: "Utilize GroupDocs.Comparison for Node.js via Java software to access detailed distinctions information in JPG images."
 
 ############################# Header ############################

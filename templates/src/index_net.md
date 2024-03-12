@@ -1,4 +1,6 @@
 <% configRef "..\\configs\\index\\index_net.yml" %>
+<% include "..\\data\\platform_data.md" %>
+
 ---
 ############################# Static ############################
 layout: "landing"
@@ -36,9 +38,9 @@ words:
 
 actions:
   main: "<% "{index-content-net.actions_main}" %>"
-  main_link: "<% dict "products.net.main_link" %>"
+  main_link: "<% get "PackageUrl" %>"
   alt: "<% "{index-content.actions_alt}" %>"
-  alt_link: "<% dict "products.net.alt_link" %>"
+  alt_link: "<% get "PricesUrl" %>"
   title: "<% "{index-content.actions_title}" %>"
   description: "<% "{index-content.actions_description}" %>"
 
@@ -133,9 +135,9 @@ formats:
     - color: "green"
       content: |
         ### <% "{index-content.formats_groups.title_1}" %>
-        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTX, RTF, TXT
-        * **Excel:** XLS, XLT, XLSX, XLTM, XLSB, XLSM, XLSX
-        * **PowerPoint:** POT, POTX, PPS, PPSX, PPTX, PPT        
+        * **Word:** DOCX, DOC, DOCM,DOT, DOTM, DOTX, RTX, RTF, TXT
+        * **Excel:** XLSX, XLS, XLT, XLTM, XLSB, XLSM
+        * **PowerPoint:** PPTX, PPT, POT, POTX, PPS, PPSX
         * **Outlook:** EML, EMLX, MSG
         * **OneNote:** ONE
         * **OpenDocument:** ODT, ODP, OTP, ODS, OTT

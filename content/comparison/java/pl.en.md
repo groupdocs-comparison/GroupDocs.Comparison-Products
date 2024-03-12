@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-12T14:32:52
+date:  2024-03-11T15:35:00
 draft: false
 lang: en
 format: Pl
@@ -13,7 +13,7 @@ platform_tag: "java"
 
 ############################# Head ############################
 head_title: "Java PL Comparison API - Check PL Files for Differences"
-head_description: "Compare and merge PL files in Java, J2EE, J2SE applications. Analyze differences summary in content, text & style of PL files, images and document formats."
+head_description: "Compare and merge PL files in Java, J2EE, J2SE applications. Analyze differences summary in content, text & style."
 
 ############################# Header ############################
 title: "Compare PL Files in Java" 

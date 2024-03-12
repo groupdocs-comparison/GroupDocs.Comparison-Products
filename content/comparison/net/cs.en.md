@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-12T14:32:52
+date:  2024-03-11T15:35:00
 draft: false
 lang: en
 format: Cs
@@ -12,11 +12,11 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Compare two CS files with C# Document Comparison software"
-head_description: "Compare and merge more than two CS files in C# .NET applications. Retrieve differences summary in content, text & style of CS files, images and document formats."
+head_title: "Compare CS files with C# Comparison Software"
+head_description: "Compare and merge CS files in C# .NET applications. Retrieve differences summary in content, text & style."
 
 ############################# Header ############################
-title: "Compare CS Files in C# .NET" 
+title: "Compare CS in C# .NET" 
 description: ".NET documents comparison API to check for diffs between two versions of CS files and export to a final document with a detailed summary of the differences between the compared documents."
 subtitle: "Document comparison solution" 
 

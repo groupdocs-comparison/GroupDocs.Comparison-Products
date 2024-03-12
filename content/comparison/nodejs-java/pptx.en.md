@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-12T14:32:53
+date:  2024-03-11T15:35:01
 draft: false
 lang: en
 format: Pptx
@@ -12,8 +12,8 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Check differences of PPTX presentations by GroupDocs.Comparison for Node.js via Java product."
-head_description: "PPTX presentations could be analyzed by GroupDocs.Comparison Node.js via Java solution, that composes genuine reports with rich information describing various types of content distinctions."
+head_title: "Check differences of PPTX by Node.js via Java."
+head_description: "PPTX could be analyzed by GroupDocs.Comparison Node.js via Java solution, that composes genuine reports describing content distinctions."
 
 ############################# Header ############################
 title: "Comparison for PPTX presentations with Node.js via Java" 

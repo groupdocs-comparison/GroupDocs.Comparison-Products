@@ -1,4 +1,6 @@
 <% configRef "..\\configs\\index\\index.yml" %>
+<% include "..\\data\\family_data.md" %>
+
 ---
 ############################# Static ############################
 layout: "family"
@@ -110,7 +112,7 @@ supported_platforms:
           # features loop
           - rows: "3"
             content: |
-                    Atom <br> Visual Studio Code <br> Any other text editor
+                    Atom <br> Visual Studio Code <br> <% "{index-content.platforms.any_other_text_editor}" %>
       
           # features loop
           - rows: "1"

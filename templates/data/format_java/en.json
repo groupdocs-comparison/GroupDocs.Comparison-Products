@@ -2,7 +2,7 @@
   "common": {
     "head": {
       "title": "{{EnvName}} {{FileFormatUp}} Comparison API - Check {{FileFormatUp}} Files for Differences",
-      "description": "Compare and merge {{FileFormatUp}} files in {{EnvName}}, J2EE, J2SE applications. Analyze differences summary in content, text & style of {{FileFormatUp}} files, images and document formats."
+      "description": "Compare and merge {{FileFormatUp}} files in {{EnvName}}, J2EE, J2SE applications. Analyze differences summary in content, text & style."
     },
     "header": {
       "title": "Compare {{FileFormatUp}} Files in {{EnvName}}",
@@ -39,7 +39,7 @@
   },
   "pdf": {
     "head": {
-      "title": "Use the Comparison library along with {{EnvName}} to check PDF documents diffs.",
+      "title": "Use the {{EnvName}} Comparison library to check PDFs diffs.",
       "description": "The {{ProdShortName}} {{EnvName}} API creates detailed reports for PDF documents in applications that support J2EE and J2SE."
     },
     "header": {
@@ -75,8 +75,8 @@
   },
   "docx": {
     "head": {
-      "title": "{{ProdFullName}} is quite useful for DOCX documents differences checking.",
-      "description": "Opportunities presented by {{ProdShortName}} API allow us to retrieve reports containing information about distinctions in DOCX documents. Java, J2EE and J2SE are supported."
+      "title": "Solution for DOCX documents differences checking.",
+      "description": "Opportunities presented by {{ProdShortName}} API allow us to retrieve reports containing information about distinctions in DOCX documents."
     },
     "header": {
       "title": "{{EnvName}} applications for searching for distinctions in DOCX documents",
@@ -111,7 +111,7 @@
   },
   "png": {
     "head": {
-      "title": "Get diffs check reports for PNG pictures using {{ProdFullName}}.",
+      "title": "Get diffs reports for PNG pictures using {{EnvName}}.",
       "description": "The {{ProdFullName}} API generates useful comparison reports for PNG documents in applications that support J2EE and J2SE."
     },
     "header": {
@@ -147,7 +147,7 @@
   },
   "jpeg": {
     "head": {
-      "title": "Analyze JPEG images with comparison reports using {{ProdFullName}}.",
+      "title": "Analyze JPEGs with comparison reports via {{ProgLang}}.",
       "description": "Powerful {{ProdFullName}} API developed to generate useful distinctions reports for JPEG pictures. J2EE and J2SE are supported."
     },
     "header": {
@@ -219,8 +219,8 @@
   },
   "xlsx": {
     "head": {
-      "title": "{{ProdFullName}} has been designed for the comparison of XLSX spreadsheets.",
-      "description": "The {{ProdShortName}} API offers capabilities for retrieving reports detailing variances in XLSX documents. It is compatible with Java, J2EE, and J2SE environments."
+      "title": "{{ProdFullName}} for the XLSX comparison.",
+      "description": "The {{ProdShortName}} API offers retrieving reports detailing variances in XLSX documents. Compatible with Java, J2EE, and J2SE environments."
     },
     "header": {
       "title": "{{EnvName}} applications for detecting changes in XLSX spreadsheets",
@@ -255,11 +255,11 @@
   },
   "pptx": {
     "head": {
-      "title": "{{ProdFullName}} has been specifically designed for PPTX presentations comparison.",
-      "description": "The {{ProdShortName}} solution provides functionalities for retrieving reports detailing variances in PPTX presentations. Java, J2EE, or J2SE projects may use our API without restrictions."
+      "title": "Library specifically designed for PPTX comparison.",
+      "description": "The {{ProdShortName}} provides functionalities for retrieving reports detailing variances in PPTX presentations. Java, J2EE, or J2SE supported."
     },
     "header": {
-      "title": "{{EnvName}} applications empowered by {{ProdShortName}} may analyze PPTX presentations",
+      "title": "{{EnvName}} applications empowered by {{ProdShortName}} compare PPTX",
       "description": "Microsoft PowerPoint PPTX presentations might be compared by {{ProdFullName}} using Java, J2EE, or J2SE applications."
     },
     "about": {

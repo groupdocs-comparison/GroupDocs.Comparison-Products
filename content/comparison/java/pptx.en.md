@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-12T14:32:52
+date:  2024-03-11T15:35:00
 draft: false
 lang: en
 format: Pptx
@@ -12,11 +12,11 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "GroupDocs.Comparison for Java has been specifically designed for PPTX presentations comparison."
-head_description: "The GroupDocs.Comparison solution provides functionalities for retrieving reports detailing variances in PPTX presentations. Java, J2EE, or J2SE projects may use our API without restrictions."
+head_title: "Library specifically designed for PPTX comparison."
+head_description: "The GroupDocs.Comparison provides functionalities for retrieving reports detailing variances in PPTX presentations. Java, J2EE, or J2SE supported."
 
 ############################# Header ############################
-title: "Java applications empowered by GroupDocs.Comparison may analyze PPTX presentations" 
+title: "Java applications empowered by GroupDocs.Comparison compare PPTX" 
 description: "Microsoft PowerPoint PPTX presentations might be compared by GroupDocs.Comparison for Java using Java, J2EE, or J2SE applications."
 subtitle: "Documents differences checking framework"  
 

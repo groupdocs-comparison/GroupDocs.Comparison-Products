@@ -1,16 +1,16 @@
 {
   "index-content": {
-    "head_title": "C# Java & Node.js Document Comparison Library | diff checker software | diff library | Compare Docs for Text & Style",
+    "head_title": "C# Java & Node.js Document Comparison Library | diff checker",
     "head_description": "GroupDocs Document Comparison Library native to C# .NET Java & Node.js. Check for differences among files of supported formats.",
-    "title": "GroupDocs.Comparison Software to Check for Differences Popular File Formats",
+    "title": "Compare Differences Across Popular File Types",
     "description_1": "Robust API for document comparison across various file formats.",
     "description_2": "Identify and highlight content differences with minimal coding effort.",
     "description_3": "Highlight visible differences and uncover changes in hidden properties.",
     "words_for": "for",
     "actions_alt": "Licensing",
     "actions_title": "Ready to get started?",
-    "actions_description": "Try GroupDocs.Comparison features for free or request a license",
-    "actions_description_index": "Try GroupDocs.Comparison features for free on your platform",
+    "actions_description": "Try {{ProdShortName}} features for free or request a license",
+    "actions_description_index": "Try {{ProdShortName}} features for free on your platform",
     "release_title": "Version {0} released",
     "release_notes": "See what’s new",
     "release_downloads": "Downloads",
@@ -21,10 +21,10 @@
     "code_comment_4": "Perform the comparison and save the resulting document",
     "sample_index_title": "Comparing two files",
     "sample_index_content": "To compare two documents, start by loading both the source and target files, and then apply the `compare` method. You have the flexibility to choose specific comparison settings for a more tailored analysis.",
-    "overview_title": "GroupDocs.Comparison at a glance",
+    "overview_title": "{{ProdShortName}} at a glance",
     "platforms_title": "Platform independence",
     "features": {
-      "title": "GroupDocs.Comparison at a glance",
+      "title": "Key Features of {{ProdShortName}}",
       "description": "API for comparing and diff viewing across PDF, Word, Excel, source code files, and more.",
       "feature_1": {
         "title": "Intuitive diff view result",
@@ -52,11 +52,11 @@
       },
       "item_2": {
         "title": "NuGet downloads",
-        "description": "GroupDocs.Comparison for .NET has received over 800K downloads through the NuGet package manager."
+        "description": "{{ProdShortName}} for .NET has received over 800K downloads through the NuGet package manager."
       },
       "item_3": {
         "title": "Maven downloads",
-        "description": "GroupDocs.Comparison for Java has accumulated over 15K downloads from our Maven repository."
+        "description": "{{ProdShortName}} for Java has accumulated over 15K downloads from our Maven repository."
       },
       "item_4": {
         "title": "Happy customers",
@@ -66,20 +66,16 @@
     "customers_title": "Our happy customers",
     "customers_description": "GroupDocs libraries are employed by globally renowned and distinguished brands across the world.",
     "formats_title_index": "50+ file formats supported",
-    "formats_description_index": "GroupDocs.Comparison enables comparison operations within various format families.",
+    "formats_description_index": "{{ProdShortName}} enables comparison operations within various format families.",
     "formats_title": "Supported file formats",
     "formats_groups": {
       "title_1": "Microsoft Office & OpenDocument formats",
       "title_2": "Images, Graphics & Diagrams",
       "title_3": "Other",
-      "format_portable": "Portable",
       "format_fixed_page_layout": "Fixed Page Layout",
-      "format_other_office": "Other office formats",
       "format_images": "Images",
       "format_web": "Web",
       "format_text": "Text",
-      "format_archives": "Archives",
-      "format_certificates": "Certificates",
       "format_raster_images": "Raster images",
       "format_medical_imaging": "Medical Imaging",
       "format_programming_languages": "Programming Languages",
@@ -89,7 +85,7 @@
     "code_samples": {
       "title": "Code samples",
       "index_title": "Practical code showcase",
-      "index_description": "Some use cases of typical GroupDocs.Comparison operations.",
+      "index_description": "Some use cases of typical {{ProdShortName}} operations.",
       "sample_1": {
         "code_title": "How to compare password-protected documents.",
         "comment_1": "Load the source document and specify its password",
@@ -107,27 +103,28 @@
     "platforms": {
       "title": "Platform independence",
       "head_title": "Choose your platform",
-      "description": "GroupDocs.Comparison library supports the following operating systems and frameworks:",
-      "learn_more": "Learn more"
+      "description": "{{ProdShortName}} library supports the following operating systems and frameworks:",
+      "learn_more": "Learn more",
+      "any_other_text_editor": "Any other text editor"
     },
     "faq": {
       "title": "Frequently asked questions",
       "description": "Answers to most commonly asked questions.",
       "item_1": {
-        "question": "Does the GroupDocs.Comparison library need any other third-party software to manipulate documents?",
-        "answer": "GroupDocs.Comparison does not require any external software to be installed such as Adobe Acrobat, Microsoft Office, or any other."
+        "question": "Does the {{ProdShortName}} library need any other third-party software to manipulate documents?",
+        "answer": "{{ProdShortName}} does not require any external software to be installed such as Adobe Acrobat, Microsoft Office, or any other."
       },
       "item_2": {
-        "question": "Can I try the GroupDocs.Comparison library before purchasing it?",
-        "answer": "Yes, you can try GroupDocs.Comparison without buying a license. Once installed without a license, the library works in trial mode. In this mode, trial badges are added to the resultant document, and it is trimmed to the first 3 pages. If you wish to test GroupDocs.Comparison without the limitations of the trial version, you can also request a 30-day temporary license. For more details, see "
+        "question": "Can I try the {{ProdShortName}} library before purchasing it?",
+        "answer": "Yes, you can try {{ProdShortName}} without buying a license. Once installed without a license, the library works in trial mode. In this mode, trial badges are added to the resultant document, and it is trimmed to the first 3 pages. If you wish to test {{ProdShortName}} without the limitations of the trial version, you can also request a 30-day temporary license. For more details, see [temporary license]({{LicensingUrl}})."
       },
       "item_3": {
         "question": "What licenses do you have?",
-        "answer": "We offer several license types to fit the needs of particular developers or companies. License types depend on the number of developers, the number of developer site locations, and whether you need to deliver our SDK/API to your end customers. Alternatively, you can choose Metered licenses based on monthly usage of the product. Learn more at "
+        "answer": "We offer several license types to fit the needs of particular developers or companies. License types depend on the number of developers, the number of developer site locations, and whether you need to deliver our SDK/API to your end customers. Alternatively, you can choose Metered licenses based on monthly usage of the product. Learn more at [pricing]({{PricingUrl}})."
       }
     },
     "cloud_links": {
-      "title": "GroupDocs.Comparison low code APIs",
+      "title": "{{ProdShortName}} low code APIs",
       "description": "Incorporate document comparison capabilities into any application using our cloud-based REST API.",
       "item_1": {
         "content": "Work with cURL RESTful document comparison API to compare Word, Excel, PowerPoint and other popular file formats."
@@ -140,7 +137,7 @@
       }
     },
     "app_links": {
-      "title": "GroupDocs.Comparison NoCode apps",
+      "title": "{{ProdShortName}} NoCode apps",
       "description": "Web-based application that enables you to perform comparisons across more than 50 popular file formats directly in your browser.",
       "item_1": {
         "content": "Online diff tool to compare two documents from any device."
@@ -154,31 +151,31 @@
     }
   },
   "index-content-net": {
-    "head_title": "C# .NET Document Comparison Library | diff checker software | net diff library | Compare and check for diffs PDF Word Excel Web & Text",
-    "head_description": "C# .NET Software to compare document style & content. Compare documents of multiple supported formats for the difference to identify changes between files.",
-    "title": "Compare documents with ease in your C# .NET solutions",
-    "description": "Build C# applications with a flexible document comparison API that enables file comparison by content and style across various document formats.",
+    "head_title": "{{ProgLang}} {{EnvName}} Document Comparison Software | diff checker",
+    "head_description": "{{ProgLang}} {{EnvName}} Software to compare document style & content. Compare documents of multiple supported formats to identify changes between files.",
+    "title": "Compare documents with ease in your {{ProgLang}} {{EnvName}} solutions",
+    "description": "Build {{ProgLang}} applications with a flexible document comparison API that enables file comparison by content and style across various document formats.",
     "actions_main": "Free NuGet Download",
-    "code_title": "Compare DOCX files in C#",
-    "overview_description": "API to compare differences between documents in .NET applications",
+    "code_title": "Compare DOCX files in {{ProgLang}}",
+    "overview_description": "API to compare differences between documents in {{EnvName}} applications",
     "overview_feature_1": {
-      "title": "File comparison in C#",
+      "title": "File comparison in {{ProgLang}}",
       "description": "Detect differences between source and target files for changes at paragraphs, words, and character levels. Identify styling and formatting changes like bold, italic, underlines, strike-troughs, font types, etc."
     },
     "overview_feature_2": {
       "title": "Most popular file and document formats are supported",
-      "description": "GroupDocs.Comparison API allows for efficient document comparison across a wide range of formats, including PDF, HTML, emails, Microsoft Office documents (Word, Excel, PowerPoint, OneNote, Visio), various image types (JPEG, PNG, GIF, BMP), text files, and more."
+      "description": "{{ProdShortName}} API allows for efficient document comparison across a wide range of formats, including PDF, HTML, emails, Microsoft Office documents (Word, Excel, PowerPoint, OneNote, Visio), various image types (JPEG, PNG, GIF, BMP), text files, and more."
     },
     "overview_feature_3": {
       "title": "Apply or reject changes easily",
-      "description": "Each difference identified in the compared documents using the GroupDocs.Comparison API can be selectively applied or rejected, enabling customization before exporting to the final output document."
+      "description": "Each difference identified in the compared documents using the {{ProdShortName}} API can be selectively applied or rejected, enabling customization before exporting to the final output document."
     },
     "overview_feature_4": {
       "title": "Comparison summary report",
       "description": "Generate a summary report of differences, detailing all the changes found in the compared documents, and save it for reference."
     },
     "features": {
-      "title": "GroupDocs.Comparison features",
+      "title": "{{ProdShortName}} features",
       "description": "Easily compare PDF and Office documents, images and other formats",
       "feature_1": {
         "title": "Easy to use document comparison",
@@ -225,29 +222,29 @@
         "content": "Choose to display or hide comments when loading the source document, offering greater control over the comparison process."
       }
     },
-    "platforms_description": "GroupDocs.Comparison for .NET supports the following operating systems, frameworks and package managers",
-    "formats_description": "GroupDocs.Comparison for .NET supports operations with the following [file formats](https://docs.groupdocs.com/comparison/net/supported-document-formats/).",
-    "code_samples_description": "Some use cases of typical GroupDocs.Comparison for .NET operations",
+    "platforms_description": "{{ProdFullName}} supports the following operating systems, frameworks and package managers",
+    "formats_description": "{{ProdFullName}} supports operations with the following [file formats]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Some use cases of typical {{ProdFullName}} operations",
     "code_title_sample_1": "Comparing password-protected documents.",
-    "code_samples_sample_1_content": "To compare documents that are [protected with a password](https://docs.groupdocs.com/comparison/net/load-password-protected-documents/), you need to specify it then loading the documents:",
+    "code_samples_sample_1_content": "To compare documents that are [protected with a password]({{Sample1Url}}), you need to specify it then loading the documents:",
     "code_title_sample_2": "Comparing multiple PDF documents.",
-    "code_samples_sample_2_content": "GroupDocs.Comparison allows you to [compare more than two documents](https://docs.groupdocs.com/comparison/net/compare-multiple-documents/). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class."
+    "code_samples_sample_2_content": "{{ProdShortName}} allows you to [compare more than two documents]({{Sample2Url}}). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class."
   },
   "index-content-java": {
-    "head_title": "Java Document Comparison Library| diff checker software | java diff library | Compare Popular Docs Formats",
-    "head_description": "Native Java Software to compare document style & content. Compare documents of multiple formats to identify differences.",
-    "title": "Compare and check file differences using Java API",
-    "description": "Develop Java applications with a highly configurable document comparison library to compare similar document formats, including files, their content, and text style.",
+    "head_title": "{{EnvName}} Document Comparison Library| diff checker",
+    "head_description": "Native {{EnvName}} Software to compare document style & content. Compare documents of multiple formats to identify differences.",
+    "title": "Compare and check file differences using {{EnvName}} API",
+    "description": "Develop {{EnvName}} applications with a highly configurable document comparison library to compare similar document formats, including files, their content, and text style.",
     "actions_main": "Free Maven Download",
-    "code_title": "Compare DOCX files in Java",
-    "overview_description": "API to compare differences between documents in Java applications",
+    "code_title": "Compare DOCX files in {{EnvName}}",
+    "overview_description": "API to compare differences between documents in {{EnvName}} applications",
     "overview_feature_1": {
-      "title": "File comparison in Java",
+      "title": "File comparison in {{EnvName}}",
       "description": "Detect changes between source and target files at paragraph, word, and character levels. Identify styling and formatting changes such as bold, italic, underlines, strike-throughs, font types, and more."
     },
     "overview_feature_2": {
       "title": "Vast number of supported formats",
-      "description": "With the GroupDocs.Comparison API, you can easily compare documents of multiple supported formats. This includes PDF, HTML, email, Microsoft Office Word documents, Excel spreadsheets, PowerPoint presentations, OneNote, Visio diagrams, texts, JPEG, PNG, GIF, and BMP images, as well as many other formats."
+      "description": "With the {{ProdShortName}} API, you can easily compare documents of multiple supported formats. This includes PDF, HTML, email, Microsoft Office Word documents, Excel spreadsheets, PowerPoint presentations, OneNote, Visio diagrams, texts, JPEG, PNG, GIF, and BMP images, as well as many other formats."
     },
     "overview_feature_3": {
       "title": "Apply or reject changes easily",
@@ -258,7 +255,7 @@
       "description": "Generate a summary report that lists all changes in the compared documents."
     },
     "features": {
-      "title": "GroupDocs.Comparison features",
+      "title": "{{ProdShortName}} features",
       "description": "Easily compare PDF and Office documents, images and other formats",
       "feature_1": {
         "title": "Easy to use document comparison",
@@ -305,66 +302,40 @@
         "content": "Flexibility to display or conceal comments when loading the source document."
       }
     },
-    "platforms_description": "GroupDocs.Comparison for Java supports the following operating systems, frameworks and package managers",
-    "formats_description": "GroupDocs.Comparison for Java supports operations with the following [file formats](https://docs.groupdocs.com/comparison/java/supported-document-formats/).",
-    "code_samples_description": "Some use cases of typical GroupDocs.Comparison for Java operations",
+    "platforms_description": "{{ProdFullName}} supports the following operating systems, frameworks and package managers",
+    "formats_description": "{{ProdFullName}} supports operations with the following [file formats]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Some use cases of typical {{ProdFullName}} operations",
     "code_title_sample_1": "Comparing password-protected documents.",
-    "code_samples_sample_1_content": "To compare documents that are [protected with a password](https://docs.groupdocs.com/comparison/java/load-password-protected-documents/), you need to specify it then loading the documents:",
+    "code_samples_sample_1_content": "To compare documents that are [protected with a password]({{Sample1Url}}), you need to specify it then loading the documents:",
     "code_title_sample_2": "Comparing multiple PDF documents.",
-    "code_samples_sample_2_content": "GroupDocs.Comparison allows you to [compare more than two documents](https://docs.groupdocs.com/comparison/java/compare-multiple-documents/). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class."
+    "code_samples_sample_2_content": "{{ProdShortName}} allows you to [compare more than two documents]({{Sample2Url}}). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class."
   },
   "index-content-nodejs-java": {
-    "head_title": "Document Comparison Node.js Library | diff checker software | nodejs diff library | Compare Documents Content",
-    "head_description": "Node.js documents style & content comparison API. Compare documents of multiple supported formats for the difference to identify changes between files.",
-    "title": "GroupDocs.Comparison Node.js via Java software is crafted to compare popular file formats",
-    "description": "Use GroupDocs.Comparison API to develop native JavaScript applications with highly configurable comparison features. Compare files, their content & text style between similar document formats.",
-    "words_for": "for",
+    "head_title": "Document Comparison {{Runtime}} Library | diff checker",
+    "head_description": "{{Runtime}} documents style & content comparison API. Compare documents of multiple supported formats for the difference to identify changes between files.",
+    "title": "Compare Documents with {{Runtime}}: Highlight Any Differences",
+    "description": "Use {{ProdShortName}} API to develop native JavaScript applications with highly configurable comparison features. Compare files, their content & text style between similar document formats.",
     "actions_main": "Free NPM Download",
-    "actions_alt": "Licensing",
-    "actions_title": "Ready to get started?",
-    "actions_description": "Try GroupDocs.Comparison features for free, or request a license",
-    "release_title": "Version {0} released",
-    "release_notes": "See what’s new",
-    "release_downloads": "Downloads",
     "code_title": "Compare BMP images in JavaScript",
-    "code_more": "More examples",
-    "code_comment_1": "Instantiate Comparer",
-    "code_comment_2": "Set up another file for comparison",
-    "code_comment_3": "Save comparison result to specified file",
-    "overview_title": "GroupDocs.Comparison at a glance",
-    "overview_description": "API to compare various types of documents such as PDF, Microsoft Office, HTML, e-mails, or images within Node.js applications",
+    "overview_description": "API to compare various types of documents such as PDF, Microsoft Office, HTML, e-mails, or images within {{Runtime}} applications",
     "overview_feature_1": {
       "title": "Detailed output reports",
-      "description": "GroupDocs.Comparison identifies changes in document content (characters, words, paragraphs, tables, charts), as well as, changes in document style. It provides customers with a resulting report that contains rich information about differences, their number, and type."
+      "description": "{{ProdShortName}} identifies changes in document content (characters, words, paragraphs, tables, charts), as well as, changes in document style. It provides customers with a resulting report that contains rich information about differences, their number, and type."
     },
     "overview_feature_2": {
       "title": "Most popular file and document formats are supported",
-      "description": "With GroupDocs.Comparison API you can efficiently compare documents of any supported formats like PDF, HTML, e-mail, Microsoft Office Word documents, Excel spreadsheets, PowerPoint presentations, OneNote, Visio diagrams, texts, JPEG, PNG, GIF, and BMP images as well as many other formats."
+      "description": "With {{ProdShortName}} API you can efficiently compare documents of any supported formats like PDF, HTML, e-mail, Microsoft Office Word documents, Excel spreadsheets, PowerPoint presentations, OneNote, Visio diagrams, texts, JPEG, PNG, GIF, and BMP images as well as many other formats."
     },
     "overview_feature_3": {
       "title": "Documentation and examples",
-      "description": "There is already a lot of documentation on using Comparison library on different platforms with code examples, so you don’t have to think hard about how to work with GroupDocs.Comparison API in your Node.js application."
+      "description": "There is already a lot of documentation on using Comparison library on different platforms with code examples, so you don’t have to think hard about how to work with {{ProdShortName}} API in your {{Runtime}} application."
     },
-    "platforms_title": "Platform independence",
-    "platforms_description": "GroupDocs.Comparison for Node.js supports the following operating systems, frameworks and package managers",
-    "formats_title": "Supported file formats",
-    "formats_description": "GroupDocs.Comparison for Node.js via Java supports operations with the following [file formats](https://docs.groupdocs.com/comparison/nodejs-java/supported-document-formats/).",
-    "formats_groups": {
-      "title_1": "Microsoft Office & OpenDocument formats",
-      "title_2": "Images, Graphics & Diagrams",
-      "title_3": "Other",
-      "format_1_7": "Fixed Page Layout",
-      "format_2_1": "Raster images",
-      "format_2_2": "Medical Imaging",
-      "format_2_4": "AutoCAD Drawing",
-      "format_3_1": "Text",
-      "format_3_2": "Programming Languages",
-      "format_3_3": "Web",
-      "format_3_4": "e-Books",
-      "format_3_5": "Delimiter-Separated Values"
+    "overview_feature_4": {
+      "title": "Select changes and merge them to one file",
+      "description": "If you have different versions of one document it is possible to select only desired changes and compile new document using the {{ProdShortName}} library."
     },
     "features": {
-      "title": "GroupDocs.Comparison for Node.js features",
+      "title": "{{ProdFullName}} features",
       "description": "Easily compare PDF and Office documents, images and other formats",
       "feature_1": {
         "title": "Easy to use document comparison",
@@ -411,24 +382,13 @@
         "content": "When loading the source document you can choose whether to hide or show comments."
       }
     },
-    "code_samples": {
-      "title": "Code samples",
-      "description": "Some use cases of typical GroupDocs.Comparison for Node.js via Java operations",
-      "sample_1": {
-        "title": "Comparing password-protected documents.",
-        "content": "To compare documents that are protected with a password, you need to specify it then loading the documents:",
-        "comment_1": "Instantiate Comparer",
-        "comment_2": "Specify another file for comparison",
-        "comment_3": "Save comparison result to a specified file"
-      },
-      "sample_2": {
-        "title": "Comparing multiple PDF documents.",
-        "content": "GroupDocs.Comparison allows you to compare more than two documents. The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class.",
-        "comment_1": "Instantiate Comparer",
-        "comment_2": "Specify the second file for comparison",
-        "comment_3": "Specify the third file for comparison",
-        "comment_4": "Save comparison result to a specified file"
-      }
-    }
+    "platforms_description": "{{ProdFullName}} supports the following operating systems, frameworks and package managers",
+    "formats_description": "{{ProdFullName}} supports operations with the following [file formats]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Some use cases of typical {{ProdFullName}} operations",
+    "code_title_sample_1": "Comparing password-protected documents.",
+    "code_samples_sample_1_content": "To compare documents that are [protected with a password]({{Sample1Url}}), you need to specify it then loading the documents:",
+    "code_title_sample_2": "Comparing multiple PDF documents.",
+    "code_samples_sample_2_content": "{{ProdShortName}} allows you to [compare more than two documents]({{Sample2Url}}). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class."
+
   }
 }

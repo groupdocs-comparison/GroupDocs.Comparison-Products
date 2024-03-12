@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-12T14:32:53
+date:  2024-03-11T15:35:00
 draft: false
 lang: en
 format: Pptx
@@ -12,8 +12,8 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Compare PPTX Presentations via GroupDocs.Comparison for .NET"
-head_description: "The GroupDocs.Comparison for .NET API designed to perform the comparison and analysis of PPTX presentations. The comparison results show us valuable information about distinctions present in the selected PPTX files. GroupDocs.Comparison could be used with C#, ASP.NET, VB.NET, and .NET Core solutions."
+head_title: "Compare PPTX via GroupDocs.Comparison for .NET"
+head_description: "The GroupDocs.Comparison for .NET designed to perform the comparison and analysis of PPTX presentations. Our API could be used with C# solutions."
 
 ############################# Header ############################
 title: "Analyze MS PowerPoint PPTX presentations with .NET technologies" 

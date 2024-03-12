@@ -1,7 +1,8 @@
+
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-02-12T14:32:54
+date:  2024-03-11T15:35:01
 draft: false
 
 product: "Comparison"
@@ -10,11 +11,11 @@ product_tag: "comparison"
 lang: en
 
 ############################# Head ############################
-head_title: "C# Java & Node.js Document Comparison Library | diff checker software | diff library | Compare Docs for Text & Style"
+head_title: "C# Java & Node.js Document Comparison Library | diff checker"
 head_description: "GroupDocs Document Comparison Library native to C# .NET Java & Node.js. Check for differences among files of supported formats."
 
 ############################# Header ############################
-title: "GroupDocs.Comparison Software to Check for Differences Popular File Formats"
+title: "Compare Differences Across Popular File Types"
 description: |
   Robust API for document comparison across various file formats.
 
@@ -119,7 +120,7 @@ supported_platforms:
 ############################# Features ###############################
 features:
   enable: true
-  title: "GroupDocs.Comparison at a glance"
+  title: "Key Features of GroupDocs.Comparison"
   description: "API for comparing and diff viewing across PDF, Word, Excel, source code files, and more."
 
   items:
@@ -332,11 +333,11 @@ faq:
 
     # items loop
     - question: "Can I try the GroupDocs.Comparison library before purchasing it?"
-      answer: "Yes, you can try GroupDocs.Comparison without buying a license. Once installed without a license, the library works in trial mode. In this mode, trial badges are added to the resultant document, and it is trimmed to the first 3 pages. If you wish to test GroupDocs.Comparison without the limitations of the trial version, you can also request a 30-day temporary license. For more details, see "
+      answer: "Yes, you can try GroupDocs.Comparison without buying a license. Once installed without a license, the library works in trial mode. In this mode, trial badges are added to the resultant document, and it is trimmed to the first 3 pages. If you wish to test GroupDocs.Comparison without the limitations of the trial version, you can also request a 30-day temporary license. For more details, see [temporary license](https://purchase.groupdocs.com/temporary-license/)."
 
     # items loop
     - question: "What licenses do you have?"
-      answer: "We offer several license types to fit the needs of particular developers or companies. License types depend on the number of developers, the number of developer site locations, and whether you need to deliver our SDK/API to your end customers. Alternatively, you can choose Metered licenses based on monthly usage of the product. Learn more at "
+      answer: "We offer several license types to fit the needs of particular developers or companies. License types depend on the number of developers, the number of developer site locations, and whether you need to deliver our SDK/API to your end customers. Alternatively, you can choose Metered licenses based on monthly usage of the product. Learn more at [pricing](https://purchase.groupdocs.com/pricing/comparison/net/)."
 
 ############################# Cloud Links ###############################
 cloud_links:

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-12T14:32:53
+date:  2024-03-11T15:35:01
 draft: false
 lang: en
 format: Docx
@@ -12,7 +12,7 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "GroupDocs.Comparison for Node.js via Java API allows to compare DOCX documents."
+head_title: "Node.js API allows to compare DOCX documents."
 head_description: "MS Word DOCX files differences might be checked by GroupDocs.Comparison Node.js API that generates useful reports describing documents alterations."
 
 ############################# Header ############################

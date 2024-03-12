@@ -1,11 +1,11 @@
 {
   "common": {
     "head": {
-      "title": "Compare two {{FileFormatUp}} files with {{ProgLang}} Document Comparison software",
-      "description": "Compare and merge more than two {{FileFormatUp}} files in {{ProgLang}} {{EnvName}} applications. Retrieve differences summary in content, text & style of {{FileFormatUp}} files, images and document formats."
+      "title": "Compare {{FileFormatUp}} files with {{ProgLang}} Comparison Software",
+      "description": "Compare and merge {{FileFormatUp}} files in {{ProgLang}} {{EnvName}} applications. Retrieve differences summary in content, text & style."
     },
     "header": {
-      "title": "Compare {{FileFormatUp}} Files in {{ProgLang}} {{EnvName}}",
+      "title": "Compare {{FileFormatUp}} in {{ProgLang}} {{EnvName}}",
       "description": "{{EnvName}} documents comparison API to check for diffs between two versions of {{FileFormatUp}} files and export to a final document with a detailed summary of the differences between the compared documents.",
       "subtitle": "Document comparison solution",
       "action_title": "Free {{PackageStoreName}} download"
@@ -39,7 +39,7 @@
   },
   "pdf": {
     "head": {
-      "title": "Check PDF files differences in {{ProgLang}} {{EnvName}} | Document Comparison APIs",
+      "title": "Check PDF documents diffs in {{ProgLang}} {{EnvName}}",
       "description": "Compare and merge more than two PDF files in {{ProgLang}} {{EnvName}} applications. Retrieve differences summary in content, text & style of PDF files."
     },
     "header": {
@@ -75,8 +75,8 @@
   },
   "docx": {
     "head": {
-      "title": "Compare MS Word DOCX documents by {{ProdFullName}} via {{ProgLang}}",
-      "description": "MS Word documents particularly DOCX could be compared by {{ProdFullName}} API. As result you obtain detailed report with highlighted alterations between DOCX documents. Use our API along with applications based on {{ProgLang}}, ASP.NET, VB.NET, or .NET Core."
+      "title": "Compare MS Word DOCX via {{ProgLang}} and {{EnvName}}",
+      "description": "DOCX comparison by {{ProdFullName}}. Detailed report with highlighted alterations between DOCX documents. Use our API along with {{ProgLang}}."
     },
     "header": {
       "title": "MS Word DOCX comparison with {{ProgLang}} {{EnvName}} applications",
@@ -111,8 +111,8 @@
   },
   "png": {
     "head": {
-      "title": "PNG images differences checking by {{ProdFullName}} API",
-      "description": "{{ProdFullName}} allows us to generate precise reports about distinctions at PNG images for applications based on {{ProgLang}}, ASP.NET, VB.NET, or .NET Core"
+      "title": "PNG differences checking by {{ProdFullName}}",
+      "description": "{{ProdFullName}} allows to generate reports about distinctions at PNG images for applications based on {{ProgLang}} & {{EnvName}}"
     },
     "header": {
       "title": "Compare PNG images via {{ProgLang}} {{EnvName}} applications",
@@ -147,8 +147,8 @@
   },
   "jpeg": {
     "head": {
-      "title": "{{ProdFullName}} API for JPEG images comparing",
-      "description": "{{ProdFullName}} represents powerful API for collecting data about various distinctions inside JPEG images to be involved to {{ProgLang}}, ASP.NET, VB.NET, or .NET Core applications."
+      "title": "{{ProdFullName}} API for JPEG comparing",
+      "description": "{{ProdFullName}} represents powerful API for collecting data about distinctions in JPEG images to be involved to {{ProgLang}} & {{EnvName}}"
     },
     "header": {
       "title": "Comparison of changes at JPEG images with {{EnvName}} technologies",
@@ -183,8 +183,8 @@
   },
   "jpg": {
     "head": {
-      "title": "{{ProdFullName}} API for Comparing JPG Images",
-      "description": "The {{ProdFullName}} API allows for gathering data on distinctions within JPG images and integrating it into {{ProgLang}}, ASP.NET, VB.NET, or .NET Core applications."
+      "title": "{{ProdFullName}} API for Comparing JPG",
+      "description": "The {{ProdFullName}} API allows for gathering data on distinctions within JPG images and integrating it into {{ProgLang}} {{EnvName}} applications."
     },
     "header": {
       "title": "Comparing Changes in JPG Images with {{EnvName}} Technologies",
@@ -219,8 +219,8 @@
   },
   "xlsx": {
     "head": {
-      "title": "Perform MS Excel spreadsheet comparisons with {{ProdFullName}}",
-      "description": "The {{ProdFullName}} API facilitates checking diffs and analysis of MS Excel spreadsheets, including XLSX format. The comparison results provide detailed insights into distinctions present in the selected XLSX spreadsheets. {{ProdShortName}} is compatible with {{ProgLang}}, ASP.NET, VB.NET, and .NET Core solutions."
+      "title": "MS Excel spreadsheet comparison",
+      "description": "The {{ProdFullName}} API facilitates checking diffs and analysis of XLSX spreadsheets. {{ProgLang}} {{EnvName}} supported."
     },
     "header": {
       "title": "Utilize {{ProgLang}} technologies for comparing XLSX spreadsheets",
@@ -255,8 +255,8 @@
   },
   "pptx": {
     "head": {
-      "title": "Compare PPTX Presentations via {{ProdFullName}}",
-      "description": "The {{ProdFullName}} API designed to perform the comparison and analysis of PPTX presentations. The comparison results show us valuable information about distinctions present in the selected PPTX files. {{ProdShortName}} could be used with {{ProgLang}}, ASP.NET, VB.NET, and .NET Core solutions."
+      "title": "Compare PPTX via {{ProdFullName}}",
+      "description": "The {{ProdFullName}} designed to perform the comparison and analysis of PPTX presentations. Our API could be used with {{ProgLang}} solutions."
     },
     "header": {
       "title": "Analyze MS PowerPoint PPTX presentations with {{EnvName}} technologies",

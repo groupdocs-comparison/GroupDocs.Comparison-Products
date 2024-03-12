@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-12T14:32:52
+date:  2024-03-11T15:34:59
 draft: false
 lang: en
 format: Dxf
@@ -13,7 +13,7 @@ platform_tag: "java"
 
 ############################# Head ############################
 head_title: "Java DXF Comparison API - Check DXF Files for Differences"
-head_description: "Compare and merge DXF files in Java, J2EE, J2SE applications. Analyze differences summary in content, text & style of DXF files, images and document formats."
+head_description: "Compare and merge DXF files in Java, J2EE, J2SE applications. Analyze differences summary in content, text & style."
 
 ############################# Header ############################
 title: "Compare DXF Files in Java" 

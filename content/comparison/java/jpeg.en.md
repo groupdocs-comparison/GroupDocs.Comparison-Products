@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-02-12T14:32:52
+date:  2024-03-11T15:35:00
 draft: false
 lang: en
 format: Jpeg
@@ -12,7 +12,7 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Analyze JPEG images with comparison reports using GroupDocs.Comparison for Java."
+head_title: "Analyze JPEGs with comparison reports via Java."
 head_description: "Powerful GroupDocs.Comparison for Java API developed to generate useful distinctions reports for JPEG pictures. J2EE and J2SE are supported."
 
 ############################# Header ############################
