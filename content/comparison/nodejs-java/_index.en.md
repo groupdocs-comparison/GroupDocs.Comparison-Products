@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-11T15:35:01
+date: 2024-03-15T19:57:25
 draft: false
 
 lang: en
@@ -25,8 +25,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Document Comparison Node.js Library | diff checker"
-head_description: "Node.js documents style & content comparison API. Compare documents of multiple supported formats for the difference to identify changes between files."
+head_title: "Node.js Document Comparison API | diff checker"
+head_description: "The Node.js Document Comparison API offers efficient tools for documents comparison. Seamlessly integrates with Node.js for real-time changes tracking"
 
 ############################# Header ############################
 title: "Compare Documents with Node.js: Highlight Any Differences"
