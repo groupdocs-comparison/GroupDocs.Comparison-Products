@@ -1,382 +1,252 @@
+
 ---
 ############################# Static ############################
-layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:19+03:00
+layout: "format"
+date:  2024-03-21T15:26:18
 draft: false
+lang: zh
+format: Jpeg
+product: "Comparison"
+product_tag: "comparison"
+platform: "Java"
+platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Java JPEG 比較 API - 比較 JPEG 文件的差異"
-head_description: "比較並合併 Java、J2EE、J2SE 應用程序中的 JPEG 文件。分析 JPEG 文件、圖像和文檔格式的內容、文本和風格的差異摘要。"
+head_title: "通过 Java 使用比较报告分析 JPEG。"
+head_description: "强大的 GroupDocs.Comparison for Java API 旨在为 JPEG 张图片生成有用的区别报告。支持 J2EE 和 J2SE。"
 
 ############################# Header ############################
-title: "在 Java 中比較 JPEG 文件"
-description: "在 Java 中對兩個以上的 JPEG 文件進行逐行比較。檢索差異列表並將比較的文件保存到單個文檔中。"
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "下載免費試用版"
-    link: "https://downloads.groupdocs.com/comparison/java"
+title: "将 JPEG 张图片与我们的 Java 库进行比较" 
+description: "Java、由 GroupDocs.Comparison API 提供支持的 J2EE 或 J2SE 应用程序允许毫不费力地检索有关 JPEG 张照片区别的详细报告。"
+subtitle: "文件差异检查框架"  
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Comparison for Java"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-java.png"
-        product: "GroupDocs.Comparison"
-        platform: "Java"
-
-    middle:
-        button: 
-            # button loop
-            - link: "https://apireference.groupdocs.com/comparison/java"
-              text: "API參考"
-
-            # button loop
-            - link: "https://github.com/groupdocs-comparison"
-              text: "代碼示例"
-
-            # button loop
-            - link: "https://products.groupdocs.app/comparison/family"
-              text: "現場演示"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/comparison/java"
-              text: "價錢"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/comparison"
-        link_learn: "https://docs.groupdocs.com/comparison/java"
-        link_buy: "https://purchase.groupdocs.com"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "免费 Maven 下载"
+      link: "https://releases.groupdocs.com/comparison/java/"
+      
 ############################# About ############################
 about:
     enable: true
-    title: "關於 GroupDocs.Comparison for Java API"
+    title: "看看 GroupDocs.Comparison for Java API"
+    link: "/comparison/java/"
+    link_title: "了解更多"
+    picture: "about_viewer.svg" # 480 X 400
     content: |
-        使用 [GroupDocs.Comparison for Java](/comparison/java/) API 為您的 Java 應用程序提供圖像和文檔比較功能。它可以幫助您識別相同格式的比較文檔的段落、單詞、字符、形狀甚至文本樣式之間的差異，允許合併更改並導出到最終文檔。它支持比較和合併各種文檔，包括 PDF、Word、Excel 工作表、PowerPoint 演示文稿、Visio 圖表、Outlook 電子郵件、HTML、繪圖和圖像文件格式，而無需使用任何外部庫。
+       名为 GroupDocs.Comparison 的原生 Java API 编写了有关以 JPEG 格式保存的图像版本之间变更的详细报告。还支持许多流行的图像格式。我们的 API 支持许多图像格式。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "在 Java 中比較 JPEG 文件的步驟"
-    content_left: |
-        [GroupDocs.Comparison](/comparison/java/) 使 Java 開發人員可以使用幾行代碼輕鬆比較應用程序中的 JPEG 文件。
-        * 使用源文檔路徑或流實例化 **Comparer** 對象。
-        * 調用add方法並指定目標文檔路徑或流。
-        * 調用比較方法。
-    title_right: "系統要求"
-    content_right: |
-        所有主要平台和操作系統均支持 GroupDocs.Comparison for Java API。在執行下面的代碼之前，請確保您的系統上安裝了以下先決條件。
-        * 操作系統：Microsoft Windows、Linux、MacOS
-        * 開發環境：NetBeans, Intellij IDEA, Eclipse etc
-        * Java運行環境：J2SE 6.0及以上
-        * 從 [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison) 獲取最新版本的 GroupDocs.Comparison for Java
-    code: |
-        ```java
-        // 比較本地文件中的文檔
-        
-        try (Comparer comparer = new Comparer("C:\\source.jpeg")) {
-            comparer.add("C:\\target.jpeg");
-            comparer.compare("C:\\result.jpeg"); // 創建指定名稱的結果文件
-        }
-        
-        // 比較流中的文檔
-        
-        try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.jpeg"))) {
-            comparer.add(new FileInputStream("C:\\target.jpeg"));
-            comparer.compare(new FileOutputStream("C:\\result.jpeg")); // 創建指定名稱的結果文件
-        }
-        ```
-
-############################# Demos ############################
-demos:
-    enable: true
-    title: "比較 JPEG 文件的現場演示"
+    title: "使用 Java 比较 JPEG 张照片"
     content: |
-        立即訪問 [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) 網站比較 JPEG 文件。
-        現場演示有以下好處
+      通过 [GroupDocs.Comparison](https://products.groupdocs.com/comparison/java/) 检索有关 JPEG 图像差异的有用信息
+      
+      1. 将来自 [Maven](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/) 的 GroupDocs.Comparison for Java 包加入您的项目
+      2. 使用 JPEG 图像的路径实例化比较器
+      3. 添加 JPEG 个文件进行比较
+      4. 获取结果报告
+   
+    code:
+      platform: "net"
+      copy_title: "复制"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-comparison</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
 
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-jpeg"
-          title: "關於 JPEG 文件格式"
-          content: |
-            JPEG 是一種使用有損壓縮方法保存的圖像格式。壓縮後的輸出圖像是存儲大小和圖像質量之間的權衡。用戶可以調整壓縮級別以達到所需的質量級別，同時減少存儲大小。如果對圖像應用 10:1 壓縮，圖像質量的影響可以忽略不計。壓縮值越高，圖像質量下降得越嚴重。 JPEG 圖像文件格式由聯合圖像專家組標準化，因此得名 JPEG。該格式是在網絡上存儲和傳輸攝影圖像的選擇。現在幾乎所有操作系統都有支持 JPEG 圖像可視化的查看器，這些圖像通常也以 JPG 擴展名存儲。甚至 Web 瀏覽器也支持 JPEG 圖像的可視化。
-          link: "https://docs.fileformat.com/image/jpeg/"
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "点击复制"
+        copy_done: "复制的"
+      links:
+        #  loop
+        - title: "更多例子"
+          link: "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Java"
+        #  loop
+        - title: "文档"
+          link: "https://docs.groupdocs.com/comparison/java/"
+          
+      content: |
+        ```java {style=abap}
 
-############################# More Formats ############################
+        // 检查硬盘中的文件是否存在差异或相似之处
+
+        // 通过指定初始文件创建 Comparer 对象
+        try (Comparer comparer = new Comparer("main.jpeg") 
+        {
+            // 添加其他文件进行比较
+        	comparer.add("version1.jpeg");
+            comparer.add("version2.jpeg");
+            comparer.add("version3.jpeg");
+
+            // 获取以指定名称作为结果的报告
+            final Path resultPath = comparer.compare("full_report.jpeg"); 
+
+            System.out.println("\nDocuments compared successfully.");
+        }
+        
+        ```            
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "准备好开始了吗？"
+  description: "免费试用 GroupDocs.Comparison 项功能或申请许可证"
+  items:
+    #  loop
+    - title: "Maven 下载"
+      link: "https://releases.groupdocs.com/comparison/java/"
+      color: "red"
+        #  loop
+    - title: "许可"
+      link: "https://purchase.groupdocs.com/pricing/comparison/java/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "比較其他文件格式"
-    content: |
-        適用於 Java 的多格式圖像和文檔比較 API。無需任何外部軟件即可比較以下一些流行的文件格式。
-    format: 
-        # format loop
-        - name: "Compare PDF Files"
-          link: "https://products.groupdocs.com/comparison/java/pdf/"
-          description: "Adobe Portable Document Format"
+    title: "通过 Java 控制不同版本的 JPEG 张图像的更改"
+    exclude: "JPEG"
+    description: "GroupDocs.Comparison for Java 可能会检测到 JPEG 张照片中的任何变化。为您的业务流程提供详细报告。"
+    items: 
+        # format loop 1
+        - name: "比较 PDF 个文件"
+          format: "PDF"
+          link: "/comparison/java/pdf/"
+          description: "Adobe Portable 文档格式"
 
-        # format loop
-        - name: "Compare DOC Files"
-          link: "https://products.groupdocs.com/comparison/java/doc/"
-          description: "Microsoft Word Document"
+        # format loop 2
+        - name: "比较 DOCX 个文件"
+          format: "DOCX"
+          link: "/comparison/java/docx/"
+          description: "微软 Word 打开 XML 文档"
 
-        # format loop
-        - name: "Compare DOCM Files"
-          link: "https://products.groupdocs.com/comparison/java/docm/"
-          description: "Microsoft Word Macro-Enabled Document"
+        # format loop 3
+        - name: "比较 RTF 个文件"
+          format: "RTF"
+          link: "/comparison/java/rtf/"
+          description: "富文本文件格式"
 
-        # format loop
-        - name: "Compare DOCX Files"
-          link: "https://products.groupdocs.com/comparison/java/docx/"
-          description: "Microsoft Word Open XML Document"
+        # format loop 4
+        - name: "比较 TXT 个文件"
+          format: "TXT"
+          link: "/comparison/java/txt/"
+          description: "纯文本文件格式"
 
-        # format loop
-        - name: "Compare DOT Files"
-          link: "https://products.groupdocs.com/comparison/java/dot/"
-          description: "Microsoft Word Document Template"
+        # format loop 5
+        - name: "比较 XLSX 个文件"
+          format: "XLSX"
+          link: "/comparison/java/xlsx/"
+          description: "微软 Excel 打开 XML 电子表格"
 
-        # format loop
-        - name: "Compare DOTM Files"
-          link: "https://products.groupdocs.com/comparison/java/dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
+        # format loop 6
+        - name: "比较 CSV 文件"
+          format: "CSV"
+          link: "/comparison/java/csv/"
+          description: "逗号分隔值文件"
 
-        # format loop
-        - name: "Compare DOTX Files"
-          link: "https://products.groupdocs.com/comparison/java/dotx/"
-          description: "Word Open XML Document Template"
+        # format loop 7
+        - name: "比较 PPTX 个文件"
+          format: "PPTX"
+          link: "/comparison/java/pptx/"
+          description: "PowerPoint 打开 XML 演示文稿"
 
-        # format loop
-        - name: "Compare RTF Files"
-          link: "https://products.groupdocs.com/comparison/java/rtf/"
-          description: "Rich Text File Format"
+        # format loop 8
+        - name: "比较 ODS 个文件"
+          format: "ODS"
+          link: "/comparison/java/ods/"
+          description: "Open Document 电子表格"
 
-        # format loop
-        - name: "Compare TXT Files"
-          link: "https://products.groupdocs.com/comparison/java/txt/"
-          description: "Plain Text File Format"
+        # format loop 9
+        - name: "比较 ODP 文件"
+          format: "ODP"
+          link: "/comparison/java/odp/"
+          description: "OpenDocument 演示文件格式"
 
-        # format loop
-        - name: "Compare XLS Files"
-          link: "https://products.groupdocs.com/comparison/java/xls/"
-          description: "Microsoft Excel Binary File Format"
+        # format loop 10
+        - name: "比较 ODT 个文件"
+          format: "ODT"
+          link: "/comparison/java/odt/"
+          description: "Open Document 文本"
 
-        # format loop
-        - name: "Compare XLSX Files"
-          link: "https://products.groupdocs.com/comparison/java/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
+        # format loop 11
+        - name: "比较 JPEG 个文件"
+          format: "JPEG"
+          link: "/comparison/java/jpeg/"
+          description: "JPEG 图片"
 
-        # format loop
-        - name: "Compare XLTM Files"
-          link: "https://products.groupdocs.com/comparison/java/xltm/"
-          description: "Microsoft Excel macro-enabled template"
+        # format loop 12
+        - name: "比较 PNG 个文件"
+          format: "PNG"
+          link: "/comparison/java/png/"
+          description: "Portable 网络图形"
 
-        # format loop
-        - name: "Compare XLSM Files"
-          link: "https://products.groupdocs.com/comparison/java/xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+        # format loop 13
+        - name: "比较 GIF 个文件"
+          format: "GIF"
+          link: "/comparison/java/gif/"
+          description: "图形交换格式文件"
 
-        # format loop
-        - name: "Compare XLSB Files"
-          link: "https://products.groupdocs.com/comparison/java/xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
+        # format loop 14
+        - name: "比较 BMP 个文件"
+          format: "BMP"
+          link: "/comparison/java/bmp/"
+          description: "位图文件格式"
 
-        # format loop
-        - name: "Compare CSV Files"
-          link: "https://products.groupdocs.com/comparison/java/csv/"
-          description: "Comma Separated Values File"
+        # format loop 15
+        - name: "比较 HTML 文件"
+          format: "HTML"
+          link: "/comparison/java/html/"
+          description: "超文本标记语言"
 
-        # format loop
-        - name: "Compare PPT Files"
-          link: "https://products.groupdocs.com/comparison/java/ppt/"
-          description: "PowerPoint Presentation"
+        # format loop 16
+        - name: "比较 MSG 个文件"
+          format: "MSG"
+          link: "/comparison/java/msg/"
+          description: "微软 Outlook 电子邮件"
 
-        # format loop
-        - name: "Compare PPS Files"
-          link: "https://products.groupdocs.com/comparison/java/pps/"
-          description: "Microsoft PowerPoint Slide Show"
+        # format loop 17
+        - name: "比较 ONE 个文件"
+          format: "ONE"
+          link: "/comparison/java/one/"
+          description: "微软 OneNote"
 
-        # format loop
-        - name: "Compare PPTX Files"
-          link: "https://products.groupdocs.com/comparison/java/pptx/"
-          description: "PowerPoint Open XML Presentation"
+        # format loop 18
+        - name: "比较 VSDX 个文件"
+          format: "VSDX"
+          link: "/comparison/java/vsdx/"
+          description: "微软 Visio 绘图"
 
-        # format loop
-        - name: "Compare PPSX Files"
-          link: "https://products.groupdocs.com/comparison/java/ppsx/"
-          description: "PowerPoint Open XML Slide Show"
+        # format loop 19
+        - name: "比较 CS 文件"
+          format: "CS"
+          link: "/comparison/java/cs/"
+          description: "cSharp 语言"
 
-        # format loop
-        - name: "Compare POT Files"
-          link: "https://products.groupdocs.com/comparison/java/pot/"
-          description: "Microsoft PowerPoint template"
-
-        # format loop
-        - name: "Compare POTX Files"
-          link: "https://products.groupdocs.com/comparison/java/potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "Compare ODS Files"
-          link: "https://products.groupdocs.com/comparison/java/ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "Compare ODP Files"
-          link: "https://products.groupdocs.com/comparison/java/odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "Compare OTP Files"
-          link: "https://products.groupdocs.com/comparison/java/otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "Compare ODT Files"
-          link: "https://products.groupdocs.com/comparison/java/odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "Compare OTT Files"
-          link: "https://products.groupdocs.com/comparison/java/ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "Compare VST Files"
-          link: "https://products.groupdocs.com/comparison/java/vst/"
-          description: "Microsoft Visio 2003-2010 XML Drawing"
-
-        # format loop
-        - name: "Compare JPEG Files"
-          link: "https://products.groupdocs.com/comparison/java/jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "Compare PNG Files"
-          link: "https://products.groupdocs.com/comparison/java/png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "Compare GIF Files"
-          link: "https://products.groupdocs.com/comparison/java/gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "Compare BMP Files"
-          link: "https://products.groupdocs.com/comparison/java/bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "Compare HTML Files"
-          link: "https://products.groupdocs.com/comparison/java/html/"
-          description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "Compare MHT Files"
-          link: "https://products.groupdocs.com/comparison/java/mht/"
-          description: "Mime HTML"
-
-        # format loop
-        - name: "Compare MHTML Files"
-          link: "https://products.groupdocs.com/comparison/java/mhtml/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "Compare MSG Files"
-          link: "https://products.groupdocs.com/comparison/java/msg/"
-          description: "Microsoft Outlook E-mail Message"
-
-        # format loop
-        - name: "Compare EML Files"
-          link: "https://products.groupdocs.com/comparison/java/eml/"
-          description: "E-mail Message"
-
-        # format loop
-        - name: "Compare EMLX Files"
-          link: "https://products.groupdocs.com/comparison/java/emlx/"
-          description: "Apple Mail E-mail File"
-
-        # format loop
-        - name: "Compare ONE Files"
-          link: "https://products.groupdocs.com/comparison/java/one/"
-          description: "Microsoft OneNote"
-
-        # format loop
-        - name: "Compare VSD Files"
-          link: "https://products.groupdocs.com/comparison/java/vsd/"
-          description: "Microsoft Visio 2003-2010 Drawing"
-
-        # format loop
-        - name: "Compare VSDX Files"
-          link: "https://products.groupdocs.com/comparison/java/vsdx/"
-          description: "Microsoft Visio Drawing"
-
-        # format loop
-        - name: "Compare VSS Files"
-          link: "https://products.groupdocs.com/comparison/java/vss/"
-          description: "Microsoft Visio 2003-2010 Stencil"
-
-        # format loop
-        - name: "Compare VST Files"
-          link: "https://products.groupdocs.com/comparison/java/vst/"
-          description: "Microsoft Visio 2003-2010 Template"
-
-        # format loop
-        - name: "Compare VDX Files"
-          link: "https://products.groupdocs.com/comparison/java/vdx/"
-          description: "Microsoft Visio 2003-2010 XML Drawing"
-
-        # format loop
-        - name: "Compare CS Files"
-          link: "https://products.groupdocs.com/comparison/java/cs/"
-          description: "CSharp Language"
-
-        # format loop
-        - name: "Compare Java Files"
-          link: "https://products.groupdocs.com/comparison/java/java/"
-          description: "Java Language"
-
-        # format loop
-        - name: "Compare CPP Files"
-          link: "https://products.groupdocs.com/comparison/java/cpp/"
-          description: "C++ Language"
-
-        # format loop
-        - name: "Compare JS Files"
-          link: "https://products.groupdocs.com/comparison/java/js/"
-          description: "JavaScript Language"
-
-        # format loop
-        - name: "Compare PY Files"
-          link: "https://products.groupdocs.com/comparison/java/py/"
-          description: "Python Language"
-
-        # format loop
-        - name: "Compare RB Files"
-          link: "https://products.groupdocs.com/comparison/java/rb/"
-          description: "Ruby Language"
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Comparison 為其他流行的開發環境提供文檔查看 API"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Comparison for .NET JPEG"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-net.png"
-          product: "GroupDocs.Comparison"
-          platform: ".NET"
-          link: "/comparison/net/jpeg/"
-
-############################# Back to top ###############################
-back_to_top:
-    enable: true
+        # format loop 20
+        - name: "比较 Java 个文件"
+          format: "Java"
+          link: "/comparison/java/java/"
+          description: "Java 语言"
+          
+        # format loop 21
+        - name: "比较 CPP 文件"
+          format: "CPP"
+          link: "/comparison/java/cpp/"
+          description: "C++ 语言"
 ---

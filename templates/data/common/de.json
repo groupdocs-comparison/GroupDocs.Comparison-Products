@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "name": "PDF Dateien vergleichen",
+        "description": "Adobe Portable Dokumentformat"
+      },
+      "docx": {
+        "name": "DOCX Dateien vergleichen",
+        "description": "Microsoft Word XML-Dokument öffnen"
+      },
+      "rtf": {
+        "name": "RTF Dateien vergleichen",
+        "description": "Rich-Text-Dateiformat"
+      },
+      "txt": {
+        "name": "TXT Dateien vergleichen",
+        "description": "Nur-Text-Dateiformat"
+      },
+      "xlsx": {
+        "name": "XLSX Dateien vergleichen",
+        "description": "Microsoft Excel Open XML-Tabelle"
+      },
+      "csv": {
+        "name": "CSV-Dateien vergleichen",
+        "description": "Datei mit kommagetrennten Werten"
+      },
+      "pptx": {
+        "name": "PPTX Dateien vergleichen",
+        "description": "PowerPoint XML-Präsentation öffnen"
+      },
+      "ods": {
+        "name": "ODS Dateien vergleichen",
+        "description": "Open Document Tabelle"
+      },
+      "odp": {
+        "name": "ODP-Dateien vergleichen",
+        "description": "OpenDocument Präsentationsdateiformat"
+      },
+      "odt": {
+        "name": "ODT Dateien vergleichen",
+        "description": "Open Document Text"
+      },
+      "jpeg": {
+        "name": "JPEG Dateien vergleichen",
+        "description": "JPEG Bild"
+      },
+      "png": {
+        "name": "PNG Dateien vergleichen",
+        "description": "Portable Netzwerkgrafik"
+      },
+      "gif": {
+        "name": "GIF Dateien vergleichen",
+        "description": "Datei im Graphical Interchange Format"
+      },
+      "bmp": {
+        "name": "BMP Dateien vergleichen",
+        "description": "Bitmap-Dateiformat"
+      },
+      "html": {
+        "name": "HTML-Dateien vergleichen",
+        "description": "Hypertext-Markup-Sprache"
+      },
+      "msg": {
+        "name": "MSG Dateien vergleichen",
+        "description": "Microsoft Outlook E-Mail-Nachricht"
+      },
+      "one": {
+        "name": "ONE Dateien vergleichen",
+        "description": "Microsoft OneNote"
+      },
+      "vsdx": {
+        "name": "VSDX Dateien vergleichen",
+        "description": "Microsoft Visio -Zeichnung"
+      },
+      "cs": {
+        "name": "CS-Dateien vergleichen",
+        "description": "CSharp-Sprache"
+      },
+      "java": {
+        "name": "Java Dateien vergleichen",
+        "description": "Java Sprache"
+      },
+      "cpp": {
+        "name": "CPP-Dateien vergleichen",
+        "description": "C++-Sprache"
+      }
+    },
+    "format-code": {
+      "copy_title": "Kopieren",
+      "copy_tip": "zum Kopieren anklicken",
+      "copy_done": "kopiert",
+      "links": {
+        "title_1": "Mehr Beispiele",
+        "title_2": "Dokumentation"
+      }
+    },
+    "format-actions": {
+      "title": "Bereit loszulegen?",
+      "description": "Testen Sie {{ProdShortName}} Funktionen kostenlos oder fordern Sie eine Lizenz an",
+      "comment_1": "{{PackageStoreName}} herunterladen",
+      "comment_2": "Lizenzierung"
+    },
+    "texts": {
+      "learn_more": "Erfahre mehr"
+    }
+  }
+}

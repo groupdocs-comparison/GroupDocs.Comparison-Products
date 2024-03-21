@@ -1,0 +1,393 @@
+{
+  "index-content": {
+    "head_title": "Pustaka Perbandingan Dokumen C# Java & Node.js | diff checker",
+    "head_description": "GroupDocs Pustaka Perbandingan Dokumen asli C# .NET Java & Node.js. Periksa perbedaan di antara file format yang didukung.",
+    "title": "Bandingkan Perbedaan Di Seluruh Jenis File Populer",
+    "description_1": "API yang kuat untuk perbandingan dokumen di berbagai format file.",
+    "description_2": "Identifikasi dan sorot perbedaan konten dengan upaya pengkodean minimal.",
+    "description_3": "Sorot perbedaan yang terlihat dan temukan perubahan pada properti tersembunyi.",
+    "words_for": "untuk",
+    "actions_alt": "Perizinan",
+    "actions_title": "Siap untuk memulai?",
+    "actions_description": "Coba fitur {{ProdShortName}} secara gratis atau minta lisensi",
+    "actions_description_index": "Coba fitur {{ProdShortName}} secara gratis di platform Anda",
+    "release_title": "Versi {0} dirilis",
+    "release_notes": "Lihat apa yang baru",
+    "release_downloads": "Unduhan",
+    "code_more": "Lebih banyak contoh",
+    "code_comment_1": "Tentukan dokumen sumber",
+    "code_comment_2": "Menambahkan satu atau lebih dokumen target",
+    "code_comment_3": "Tentukan opsi perbandingan",
+    "code_comment_4": "Lakukan perbandingan dan simpan dokumen yang dihasilkan",
+    "sample_index_title": "Membandingkan dua file",
+    "sample_index_content": "Untuk membandingkan dua dokumen, mulailah dengan memuat file sumber dan target, lalu terapkan metode `compare`. Anda memiliki fleksibilitas untuk memilih pengaturan perbandingan tertentu untuk analisis yang lebih disesuaikan.",
+    "overview_title": "Sekilas tentang {{ProdShortName}}",
+    "platforms_title": "Independensi platform",
+    "features": {
+      "title": "Fitur Utama dari {{ProdShortName}}",
+      "description": "API untuk membandingkan dan melihat perbedaan di PDF, Word, Excel, file kode sumber, dan banyak lagi.",
+      "feature_1": {
+        "title": "Hasil tampilan perbedaan yang intuitif",
+        "content": "Analisis perubahan dengan mudah dengan perbedaan yang disorot dalam laporan dokumen tunggal."
+      },
+      "feature_2": {
+        "title": "Proses peninjauan perubahan yang efisien",
+        "content": "Terima atau tolak perubahan dengan modifikasi yang berbeda secara visual untuk pengambilan keputusan yang mudah."
+      },
+      "feature_3": {
+        "title": "Bandingkan konten dan gaya",
+        "content": "Bandingkan konten teks, serta perubahan dalam pemformatan dan gaya."
+      },
+      "feature_4": {
+        "title": "Bandingkan halaman tertentu",
+        "content": "Muat hanya bagian atau halaman tertentu dari dokumen yang akan dibandingkan."
+      }
+    },
+    "metrics": {
+      "title": "Metrik terperinci dan wawasan statistik",
+      "description": "Jelajahi analisis menyeluruh dari angka-angka kunci kami, menawarkan metrik komprehensif dan wawasan statistik tentang pencapaian, pengaruh, dan ekspansi kami.",
+      "item_1": {
+        "title": "Format yang didukung",
+        "description": "API mengakomodasi lebih dari 50 format file dan dokumen yang paling banyak digunakan."
+      },
+      "item_2": {
+        "title": "NuGet unduhan",
+        "description": "{{ProdShortName}} untuk .NET telah menerima lebih dari 800K unduhan melalui pengelola paket NuGet."
+      },
+      "item_3": {
+        "title": "Unduhan Maven",
+        "description": "{{ProdShortName}} untuk Java telah mengumpulkan lebih dari 15K unduhan dari repositori Maven kami."
+      },
+      "item_4": {
+        "title": "Pelanggan yang bahagia",
+        "description": "Perpustakaan kami dapat diadopsi oleh pengembang individu dan perusahaan papan atas di seluruh dunia"
+      }
+    },
+    "customers_title": "Pelanggan kami yang bahagia",
+    "customers_description": "GroupDocs perpustakaan dipekerjakan oleh merek-merek terkenal dan terkemuka di seluruh dunia.",
+    "formats_title_index": "50+ format file didukung",
+    "formats_description_index": "{{ProdShortName}} memungkinkan operasi perbandingan dalam berbagai keluarga format.",
+    "formats_title": "Format file yang didukung",
+    "formats_groups": {
+      "title_1": "Microsoft Office & OpenDocument format",
+      "title_2": "Gambar, Grafik & Diagram",
+      "title_3": "Lainnya",
+      "format_fixed_page_layout": "Tata Letak Halaman Tetap",
+      "format_images": "Gambar",
+      "format_web": "Web",
+      "format_text": "Teks",
+      "format_raster_images": "Gambar raster",
+      "format_medical_imaging": "Pencitraan Medis",
+      "format_programming_languages": "Bahasa Pemrograman",
+      "format_e_books": "E-buku",
+      "format_delimiter_separated_values": "Nilai yang dipisahkan pembatas"
+    },
+    "code_samples": {
+      "title": "Contoh kode",
+      "index_title": "Pameran kode praktis",
+      "index_description": "Beberapa kasus penggunaan operasi {{ProdShortName}} tipikal.",
+      "sample_1": {
+        "code_title": "Cara membandingkan dokumen yang dilindungi kata sandi.",
+        "comment_1": "Muat dokumen sumber dan tentukan kata sandinya",
+        "comment_2": "Muat dokumen target dan tentukan kata sandinya",
+        "comment_3": "Simpan hasil perbandingan ke file tertentu"
+      },
+      "sample_2": {
+        "code_title": "Bagaimana membandingkan tiga dokumen atau lebih.",
+        "comment_1": "Muat dokumen sumber",
+        "comment_2": "Tentukan file kedua untuk perbandingan",
+        "comment_3": "Tentukan file ketiga untuk perbandingan",
+        "comment_4": "Simpan hasil perbandingan ke file tertentu"
+      }
+    },
+    "platforms": {
+      "title": "Independensi platform",
+      "head_title": "Pilih platform Anda",
+      "description": "{{ProdShortName}} library mendukung sistem operasi dan kerangka kerja berikut:",
+      "learn_more": "Pelajari selengkapnya",
+      "any_other_text_editor": "Editor teks lainnya"
+    },
+    "faq": {
+      "title": "Pertanyaan yang sering diajukan",
+      "description": "Jawaban untuk pertanyaan yang paling umum diajukan.",
+      "item_1": {
+        "question": "Apakah perpustakaan {{ProdShortName}} memerlukan perangkat lunak pihak ketiga lainnya untuk memanipulasi dokumen?",
+        "answer": "{{ProdShortName}} tidak memerlukan perangkat lunak eksternal untuk diinstal seperti Adobe Acrobat, Microsoft Office, atau lainnya."
+      },
+      "item_2": {
+        "question": "Dapatkah saya mencoba perpustakaan {{ProdShortName}} sebelum membelinya?",
+        "answer": "Ya, Anda dapat mencoba {{ProdShortName}} tanpa membeli lisensi. Setelah diinstal tanpa lisensi, perpustakaan bekerja dalam mode uji coba. Dalam mode ini, lencana percobaan ditambahkan ke dokumen yang dihasilkan, dan dipangkas ke 3 halaman pertama. Jika Anda ingin menguji {{ProdShortName}} tanpa batasan versi uji coba, Anda juga dapat meminta lisensi sementara 30 hari. Untuk lebih jelasnya, lihat [lisensi sementara]({{LicensingUrl}})."
+      },
+      "item_3": {
+        "question": "Lisensi apa yang Anda miliki?",
+        "answer": "Kami menawarkan beberapa jenis lisensi untuk memenuhi kebutuhan pengembang atau perusahaan tertentu. Jenis lisensi tergantung pada jumlah pengembang, jumlah lokasi situs pengembang, dan apakah Anda perlu mengirimkan SDK/API kami ke pelanggan akhir Anda. Atau, Anda dapat memilih lisensi terukur berdasarkan penggunaan bulanan produk. Pelajari lebih lanjut di [harga]({{PricingUrl}})."
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} API kode rendah",
+      "description": "Menggabungkan kemampuan perbandingan dokumen ke dalam aplikasi apa pun menggunakan API berbasis cloud REST kami.",
+      "item_1": {
+        "content": "Bekerja dengan API perbandingan dokumen cURL REST penuh untuk membandingkan Word, Excel, PowerPoint dan format file populer lainnya."
+      },
+      "item_2": {
+        "content": "Tambahkan kemampuan perbandingan dokumen yang kuat di .NET aplikasi menggunakan Cloud SDK untuk .NET. Bandingkan DOCX, XLSX, PPTX dan banyak lagi."
+      },
+      "item_3": {
+        "content": "Tambahkan fitur perbandingan dokumen kesetiaan tinggi ke aplikasi java Anda dengan SDK perbandingan dokumen yang dirancang khusus untuk Java."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} Aplikasi NoCode",
+      "description": "Aplikasi berbasis web yang memungkinkan Anda melakukan perbandingan di lebih dari 50 format file populer langsung di browser Anda.",
+      "item_1": {
+        "content": "Alat diff online untuk membandingkan dua dokumen dari perangkat apa pun."
+      },
+      "item_2": {
+        "content": "Bandingkan DOCX file secara online."
+      },
+      "item_3": {
+        "content": "Diff PDF dokumen online menggunakan aplikasi perbandingan PDF."
+      }
+    }
+  },
+  "index-content-net": {
+    "head_title": "{{ProgLang}} {{EnvName}} Perangkat Lunak Perbandingan Dokumen | diff checker",
+    "head_description": "{{ProgLang}} {{EnvName}} Perangkat lunak untuk membandingkan gaya dokumen & konten. Bandingkan dokumen dari beberapa format yang didukung untuk mengidentifikasi perubahan antar file.",
+    "title": "Bandingkan dokumen dengan mudah dalam solusi {{ProgLang}} {{EnvName}}",
+    "description": "Buat {{ProgLang}} aplikasi dengan API perbandingan dokumen fleksibel yang memungkinkan perbandingan file berdasarkan konten dan gaya di berbagai format dokumen.",
+    "actions_main": "Gratis NuGet Unduh",
+    "code_title": "Bandingkan file DOCX dalam {{ProgLang}}",
+    "overview_description": "API untuk membandingkan perbedaan antara dokumen dalam {{EnvName}} aplikasi",
+    "overview_feature_1": {
+      "title": "Perbandingan file di {{ProgLang}}",
+      "description": "Mendeteksi perbedaan antara file sumber dan target untuk perubahan pada tingkat paragraf, kata, dan karakter. Identifikasi perubahan gaya dan pemformatan seperti huruf tebal, miring, garis bawah, garis-garis, jenis font, dll."
+    },
+    "overview_feature_2": {
+      "title": "Format file dan dokumen paling populer didukung",
+      "description": "{{ProdShortName}} API memungkinkan perbandingan dokumen yang efisien di berbagai format, termasuk PDF, HTML, email, Microsoft Office dokumen (Word, Excel, PowerPoint, OneNote, Visio), berbagai jenis gambar (JPEG, PNG, GIF, BMP), file teks, dan banyak lagi."
+    },
+    "overview_feature_3": {
+      "title": "Menerapkan atau tolak perubahan dengan mudah",
+      "description": "Setiap perbedaan yang diidentifikasi dalam dokumen yang dibandingkan menggunakan {{ProdShortName}} API dapat diterapkan atau ditolak secara selektif, memungkinkan penyesuaian sebelum mengekspor ke dokumen keluaran akhir."
+    },
+    "overview_feature_4": {
+      "title": "Laporan ringkasan perbandingan",
+      "description": "Buat laporan ringkasan perbedaan, merinci semua perubahan yang ditemukan dalam dokumen yang dibandingkan, dan simpan untuk referensi."
+    },
+    "features": {
+      "title": "{{ProdShortName}} fitur",
+      "description": "Bandingkan dokumen PDF dan Office, gambar, dan format lainnya dengan mudah",
+      "feature_1": {
+        "title": "Perbandingan dokumen yang mudah digunakan",
+        "content": "Amenganalisis dan mengidentifikasi perbedaan antara dua dokumen."
+      },
+      "feature_2": {
+        "title": "Bandingkan beberapa dokumen",
+        "content": "Secara bersamaan menganalisis dan mengidentifikasi perbedaan di beberapa dokumen."
+      },
+      "feature_3": {
+        "title": "Format yang didukung",
+        "content": "Kompatibel dengan lebih dari 50 format dokumen yang banyak digunakan dari berbagai kategori, memastikan penerapan yang luas."
+      },
+      "feature_4": {
+        "title": "Menerima atau tolak perubahan",
+        "content": "Tampilan visual yang jelas dari perubahan yang terdeteksi, lengkap dengan opsi untuk menerima atau menolak modifikasi ini."
+      },
+      "feature_5": {
+        "title": "Hasilkan pratinjau",
+        "content": "Kemampuan untuk menyimpan hasil perbandingan sebagai pratinjau gambar untuk referensi dan berbagi yang mudah."
+      },
+      "feature_6": {
+        "title": "Perbandingan konten",
+        "content": "Lakukan perbandingan teks menyeluruh di berbagai tingkatan - termasuk baris demi baris, paragraf, kata, dan karakter - dengan perbedaan yang disorot untuk kejelasan yang lebih baik."
+      },
+      "feature_7": {
+        "title": "Perbandingan gaya dan pemformatan",
+        "content": "Mendeteksi dan menyoroti perubahan dalam format dan gaya dokumen, memastikan tinjauan komprehensif."
+      },
+      "feature_8": {
+        "title": "Pengaturan metadata yang fleksibel",
+        "content": "Pertahankan metadata dari file sumber atau target, atau sesuaikan sesuai dengan preferensi pengguna."
+      },
+      "feature_9": {
+        "title": "Perlindungan kata sandi",
+        "content": "Analisis dokumen yang dilindungi kata sandi dan amankan dokumen keluaran dengan enkripsi kata sandi untuk keamanan tambahan."
+      },
+      "feature_10": {
+        "title": "Perbandingan halaman selektif",
+        "content": "Muat dan bandingkan bagian atau halaman tertentu dari dokumen untuk analisis yang ditargetkan."
+      },
+      "feature_11": {
+        "title": "Tampilkan komentar",
+        "content": "Pilih untuk menampilkan atau menyembunyikan komentar saat memuat dokumen sumber, menawarkan kontrol yang lebih besar atas proses perbandingan."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} mendukung sistem operasi, kerangka kerja dan manajer paket berikut",
+    "formats_description": "{{ProdFullName}} mendukung operasi dengan [format file] berikut ({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Beberapa kasus penggunaan operasi {{ProdFullName}} tipikal",
+    "code_title_sample_1": "Membandingkan dokumen yang dilindungi kata sandi.",
+    "code_samples_sample_1_content": "Untuk membandingkan dokumen yang [dilindungi dengan kata sandi]({{Sample1Url}}), Anda perlu menentukannya lalu memuat dokumen:",
+    "code_title_sample_2": "Membandingkan beberapa PDF dokumen.",
+    "code_samples_sample_2_content": "{{ProdShortName}} memungkinkan Anda untuk [membandingkan lebih dari dua dokumen]({{Sample2Url}}). Operasi ini hampir sama dengan ketika membandingkan dua file. Anda hanya perlu menambahkan lebih banyak file target ke kelas `comparer`."
+  },
+  "index-content-java": {
+    "head_title": "{{EnvName}} Perpustakaan Perbandingan Dokumen | diff checker",
+    "head_description": "Perangkat lunak asli {{EnvName}} untuk membandingkan gaya dokumen & konten. Bandingkan dokumen dari berbagai format untuk mengidentifikasi perbedaan.",
+    "title": "Bandingkan dan periksa perbedaan file menggunakan {{EnvName}} API",
+    "description": "Kembangkan {{EnvName}} aplikasi dengan pustaka perbandingan dokumen yang sangat dapat dikonfigurasi untuk membandingkan format dokumen serupa, termasuk file, konten, dan gaya teks.",
+    "actions_main": "Unduhan Maven Gratis",
+    "code_title": "Bandingkan file DOCX dalam {{EnvName}}",
+    "overview_description": "API untuk membandingkan perbedaan antara dokumen dalam {{EnvName}} aplikasi",
+    "overview_feature_1": {
+      "title": "Perbandingan file di {{EnvName}}",
+      "description": "Mendeteksi perubahan antara file sumber dan target pada tingkat paragraf, kata, dan karakter. Identifikasi perubahan gaya dan pemformatan seperti huruf tebal, miring, garis bawah, garis-garis, jenis font, dan lainnya."
+    },
+    "overview_feature_2": {
+      "title": "Sejumlah besar format yang didukung",
+      "description": "Dengan {{ProdShortName}} API, Anda dapat dengan mudah membandingkan dokumen dari berbagai format yang didukung. Ini termasuk PDF, HTML, email, Microsoft Office Word dokumen, Excel spreadsheet, PowerPoint presentasi, OneNote, Visio diagram, teks, JPEG, PNG, GIF, dan BMP gambar, serta banyak format lainnya."
+    },
+    "overview_feature_3": {
+      "title": "Menerapkan atau tolak perubahan dengan mudah",
+      "description": "Setiap perbedaan antara dokumen yang dibandingkan dapat diterapkan atau ditolak dan kemudian diekspor ke dokumen keluaran."
+    },
+    "overview_feature_4": {
+      "title": "Laporan ringkasan perbandingan",
+      "description": "Buat laporan ringkasan yang mencantumkan semua perubahan dalam dokumen yang dibandingkan."
+    },
+    "features": {
+      "title": "{{ProdShortName}} fitur",
+      "description": "Bandingkan dokumen PDF dan Office, gambar, dan format lainnya dengan mudah",
+      "feature_1": {
+        "title": "Perbandingan dokumen yang mudah digunakan",
+        "content": "Mudah menganalisis dan menentukan perbedaan antara dua dokumen."
+      },
+      "feature_2": {
+        "title": "Bandingkan beberapa dokumen",
+        "content": "Secara bersamaan memeriksa dan menyorot variasi di beberapa dokumen."
+      },
+      "feature_3": {
+        "title": "Format yang didukung",
+        "content": "Kompatibilitas dengan lebih dari 50 format dokumen yang banyak digunakan dari berbagai kategori."
+      },
+      "feature_4": {
+        "title": "Menerima atau tolak perubahan",
+        "content": "Visualisasi yang jelas dari perubahan yang diidentifikasi, dengan opsi untuk menerima atau menolak modifikasi."
+      },
+      "feature_5": {
+        "title": "Hasilkan pratinjau",
+        "content": "Kemampuan untuk menyimpan hasil perbandingan sebagai pratinjau gambar."
+      },
+      "feature_6": {
+        "title": "Perbandingan konten",
+        "content": "Perbandingan menyeluruh konten teks pada berbagai tingkatan - termasuk baris demi baris, paragraf, kata, dan analisis karakter, dengan penekanan pada perubahan."
+      },
+      "feature_7": {
+        "title": "Perbandingan gaya",
+        "content": "Kemampuan untuk mendeteksi dan menyorot perubahan dalam elemen pemformatan dan gaya."
+      },
+      "feature_8": {
+        "title": "Tetapkan metadata",
+        "content": "Opsi untuk menyimpan metadata dari file sumber atau target, atau mengizinkan pengaturan metadata yang ditentukan pengguna."
+      },
+      "feature_9": {
+        "title": "Perlindungan kata sandi",
+        "content": "Memfasilitasi analisis dokumen yang dilindungi kata sandi dan memungkinkan perlindungan kata sandi untuk dokumen yang dihasilkan."
+      },
+      "feature_10": {
+        "title": "Bandingkan halaman tertentu",
+        "content": "Muat dan bandingkan bagian atau halaman tertentu dari dokumen sesuai kebutuhan."
+      },
+      "feature_11": {
+        "title": "Tampilkan komentar",
+        "content": "Fleksibilitas untuk menampilkan atau menyembunyikan komentar saat memuat dokumen sumber."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} mendukung sistem operasi, kerangka kerja dan manajer paket berikut",
+    "formats_description": "{{ProdFullName}} mendukung operasi dengan [format file] berikut ({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Beberapa kasus penggunaan operasi {{ProdFullName}} tipikal",
+    "code_title_sample_1": "Membandingkan dokumen yang dilindungi kata sandi.",
+    "code_samples_sample_1_content": "Untuk membandingkan dokumen yang [dilindungi dengan kata sandi]({{Sample1Url}}), Anda perlu menentukannya lalu memuat dokumen:",
+    "code_title_sample_2": "Membandingkan beberapa PDF dokumen.",
+    "code_samples_sample_2_content": "{{ProdShortName}} memungkinkan Anda untuk [membandingkan lebih dari dua dokumen]({{Sample2Url}}). Operasi ini hampir sama dengan ketika membandingkan dua file. Anda hanya perlu menambahkan lebih banyak file target ke kelas `comparer`."
+  },
+  "index-content-nodejs-java": {
+    "head_title": "{{Runtime}} API Perbandingan Dokumen | pemeriksa perbedaan",
+    "head_description": "API Perbandingan Dokumen {{Runtime}} menawarkan alat yang efisien untuk perbandingan dokumen. Terintegrasi dengan mulus dengan {{Runtime}} untuk pelacakan perubahan real-time",
+    "title": "Bandingkan Dokumen dengan {{Runtime}}: Sorot Perbedaan",
+    "description": "Gunakan {{ProdShortName}} API untuk mengembangkan aplikasi Script Java asli dengan fitur perbandingan yang sangat dapat dikonfigurasi. Bandingkan file, konten & gaya teksnya antara format dokumen serupa.",
+    "actions_main": "Unduhan NPM Gratis",
+    "code_title": "Bandingkan BMP gambar dalam Java Script",
+    "overview_description": "API untuk membandingkan berbagai jenis dokumen seperti PDF, Microsoft Office, HTML, email, atau gambar dalam {{Runtime}} aplikasi",
+    "overview_feature_1": {
+      "title": "Laporan keluaran terperinci",
+      "description": "{{ProdShortName}} mengidentifikasi perubahan dalam konten dokumen (karakter, kata, paragraf, tabel, bagan), serta, perubahan gaya dokumen. Ini memberi pelanggan laporan hasil yang berisi informasi kaya tentang perbedaan, jumlah, dan jenisnya."
+    },
+    "overview_feature_2": {
+      "title": "Format file dan dokumen paling populer didukung",
+      "description": "Dengan {{ProdShortName}} API Anda dapat secara efisien membandingkan dokumen dari format yang didukung seperti PDF, HTML, e-mail, Microsoft Office Word dokumen, Excel spreadsheet, PowerPoint presentasi, OneNote, Visio diagram, teks, JPEG, PNG, GIF, dan BMP gambar serta banyak format lainnya."
+    },
+    "overview_feature_3": {
+      "title": "Dokumentasi dan contoh",
+      "description": "Sudah ada banyak dokumentasi tentang penggunaan perpustakaan Perbandingan pada platform yang berbeda dengan contoh kode, jadi Anda tidak perlu berpikir keras tentang cara bekerja dengan {{ProdShortName}} API di aplikasi {{Runtime}} Anda."
+    },
+    "overview_feature_4": {
+      "title": "Pilih perubahan dan gabungkan ke satu file",
+      "description": "Jika Anda memiliki versi yang berbeda dari satu dokumen, Anda hanya dapat memilih perubahan yang diinginkan dan mengkompilasi dokumen baru menggunakan perpustakaan {{ProdShortName}}."
+    },
+    "features": {
+      "title": "{{ProdFullName}} fitur",
+      "description": "Bandingkan dokumen PDF dan Office, gambar, dan format lainnya dengan mudah",
+      "feature_1": {
+        "title": "Perbandingan dokumen yang mudah digunakan",
+        "content": "Menganalisis dan mengidentifikasi perbedaan dalam dua dokumen."
+      },
+      "feature_2": {
+        "title": "Bandingkan beberapa dokumen",
+        "content": "Menganalisis dan mengidentifikasi perbedaan dalam beberapa dokumen secara bersamaan."
+      },
+      "feature_3": {
+        "title": "Format yang didukung",
+        "content": "Mendukung lebih dari 50 format dokumen populer dari berbagai kategori."
+      },
+      "feature_4": {
+        "title": "Menerima atau tolak perubahan",
+        "content": "Representasi visual yang jelas dari perubahan yang diidentifikasi, memberikan opsi untuk menerima atau menolak modifikasi."
+      },
+      "feature_5": {
+        "title": "Hasilkan pratinjau",
+        "content": "Simpan hasil perbandingan sebagai gambar."
+      },
+      "feature_6": {
+        "title": "Perbandingan konten",
+        "content": "Bandingkan konten teks baris demi baris, dengan paragraf, dengan kata, dengan karakter. Sorot perubahannya."
+      },
+      "feature_7": {
+        "title": "Perbandingan gaya",
+        "content": "Mendeteksi perubahan dalam pemformatan dan gaya."
+      },
+      "feature_8": {
+        "title": "Tetapkan metadata",
+        "content": "Simpan metadata dari file sumber atau target atau izinkan untuk ditentukan oleh pengguna."
+      },
+      "feature_9": {
+        "title": "Perlindungan kata sandi",
+        "content": "Analisis dokumen terenkripsi, atau amankan dokumen yang dihasilkan dengan kata sandi."
+      },
+      "feature_10": {
+        "title": "Bandingkan halaman tertentu",
+        "content": "Muat hanya bagian atau halaman tertentu dari dokumen."
+      },
+      "feature_11": {
+        "title": "Tampilkan komentar",
+        "content": "Saat memuat dokumen sumber Anda dapat memilih apakah akan menyembunyikan atau menampilkan komentar."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} mendukung sistem operasi, kerangka kerja dan manajer paket berikut",
+    "formats_description": "{{ProdFullName}} mendukung operasi dengan [format file] berikut ({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Beberapa kasus penggunaan operasi {{ProdFullName}} tipikal",
+    "code_title_sample_1": "Membandingkan dokumen yang dilindungi kata sandi.",
+    "code_samples_sample_1_content": "Untuk membandingkan dokumen yang [dilindungi dengan kata sandi]({{Sample1Url}}), Anda perlu menentukannya lalu memuat dokumen:",
+    "code_title_sample_2": "Membandingkan beberapa PDF dokumen.",
+    "code_samples_sample_2_content": "{{ProdShortName}} memungkinkan Anda untuk [membandingkan lebih dari dua dokumen]({{Sample2Url}}). Operasi ini hampir sama dengan ketika membandingkan dua file. Anda hanya perlu menambahkan lebih banyak file target ke kelas `comparer`."
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "index-content": {
+    "head_title": "C# Java 和 Node.js 文档比较库 | 差异检查器",
+    "head_description": "GroupDocs 原生于 C# .NET Java 和 Node.js 的文档比较库。检查支持格式的文件之间是否存在差异。",
+    "title": "比较常用文件类型的差异",
+    "description_1": "强大的 API，用于比较各种文件格式的文档。",
+    "description_2": "以最少的编码工作量识别和突出内容差异。",
+    "description_3": "突出显示明显差异并发现隐藏属性的变化。",
+    "words_for": "为了",
+    "actions_alt": "许可",
+    "actions_title": "准备好开始了吗？",
+    "actions_description": "免费试用 {{ProdShortName}} 项功能或申请许可证",
+    "actions_description_index": "在您的平台上免费试用 {{ProdShortName}} 项功能",
+    "release_title": "版本 {0} 已发布",
+    "release_notes": "查看新增内容",
+    "release_downloads": "下载",
+    "code_more": "更多例子",
+    "code_comment_1": "指定源文档",
+    "code_comment_2": "添加一个或多个目标文档",
+    "code_comment_3": "指定比较选项",
+    "code_comment_4": "进行比较并保存生成的文档",
+    "sample_index_title": "比较两个文件",
+    "sample_index_content": "要比较两个文档，首先加载源文件和目标文件，然后应用 “比较” 方法。您可以灵活地选择特定的比较设置，以进行更加量身定制的分析。",
+    "overview_title": "{{ProdShortName}} 一览",
+    "platforms_title": "平台独立性",
+    "features": {
+      "title": "{{ProdShortName}} 的主要特征",
+      "description": "用于对 PDF、Word、Excel、源代码文件等进行比较和差异查看的 API。",
+      "feature_1": {
+        "title": "直观的差异视图结果",
+        "content": "在单文档报告中突出显示差异，轻松分析变化。"
+      },
+      "feature_2": {
+        "title": "高效的变更审查流程",
+        "content": "接受或拒绝具有视觉差异修改的更改，以便于决策。"
+      },
+      "feature_3": {
+        "title": "比较内容和样式",
+        "content": "比较文本内容以及格式和样式的变化。"
+      },
+      "feature_4": {
+        "title": "比较特定页面",
+        "content": "仅加载要比较的文档的特定部分或页面。"
+      }
+    },
+    "metrics": {
+      "title": "详细的指标和统计见解",
+      "description": "深入分析我们的关键数据，为我们的成就、影响力和扩张提供全面的指标和统计见解。",
+      "item_1": {
+        "title": "支持的格式",
+        "description": "该 API 可容纳 50 多种最广泛使用的文件和文档格式。"
+      },
+      "item_2": {
+        "title": "NuGet 次下载",
+        "description": ".NET 的 {{ProdShortName}} 已通过 NuGet 软件包管理器获得了超过80万次的下载量。"
+      },
+      "item_3": {
+        "title": "Maven 下载",
+        "description": "Java 的 {{ProdShortName}} 已从我们的 Maven 存储库中累积了超过 1.5 万次的下载量。"
+      },
+      "item_4": {
+        "title": "快乐的顾客",
+        "description": "我们的库被全球个人开发人员和顶级公司所采用"
+      }
+    },
+    "customers_title": "我们满意的客户",
+    "customers_description": "GroupDocs 个图书馆由全球知名和杰出品牌使用。",
+    "formats_title_index": "支持 50 多种文件格式",
+    "formats_description_index": "{{ProdShortName}} 支持在各种格式系列中进行比较操作。",
+    "formats_title": "支持的文件格式",
+    "formats_groups": {
+      "title_1": "Microsoft Office 和 OpenDocument 格式",
+      "title_2": "图像、图形和图表",
+      "title_3": "其他",
+      "format_fixed_page_layout": "固定页面布局",
+      "format_images": "图片",
+      "format_web": "网页",
+      "format_text": "文本",
+      "format_raster_images": "光栅图像",
+      "format_medical_imaging": "医学成像",
+      "format_programming_languages": "编程语言",
+      "format_e_books": "电子书",
+      "format_delimiter_separated_values": "分隔符分隔的值"
+    },
+    "code_samples": {
+      "title": "代码示例",
+      "index_title": "实用代码展示",
+      "index_description": "典型 {{ProdShortName}} 操作的一些用例。",
+      "sample_1": {
+        "code_title": "如何比较受密码保护的文档。",
+        "comment_1": "加载源文档并指定其密码",
+        "comment_2": "加载目标文档并指定其密码",
+        "comment_3": "将比较结果保存到指定文件中"
+      },
+      "sample_2": {
+        "code_title": "如何比较三个或更多文档。",
+        "comment_1": "加载源文档",
+        "comment_2": "指定第二个文件进行比较",
+        "comment_3": "指定第三个文件进行比较",
+        "comment_4": "将比较结果保存到指定文件中"
+      }
+    },
+    "platforms": {
+      "title": "平台独立性",
+      "head_title": "选择您的平台",
+      "description": "{{ProdShortName}} 库支持以下操作系统和框架：",
+      "learn_more": "了解更多",
+      "any_other_text_editor": "任何其他文本编辑器"
+    },
+    "faq": {
+      "title": "经常问的问题",
+      "description": "最常见问题的答案。",
+      "item_1": {
+        "question": "{{ProdShortName}} 库是否需要任何其他第三方软件来操作文档？",
+        "answer": "{{ProdShortName}} 不需要安装任何外部软件，例如 Adobe Acrobat、Microsoft Office 或任何其他软件。"
+      },
+      "item_2": {
+        "question": "我可以在购买之前试用 {{ProdShortName}} 库吗？",
+        "answer": "是的，您无需购买许可证即可试用 {{ProdShortName}}。在没有许可证的情况下安装后，该库将以试用模式运行。在此模式下，试用徽章将添加到生成的文档中，并将其修剪到前 3 页。如果您希望在不受试用版限制的情况下测试 {{ProdShortName}}，也可以申请 30 天的临时许可证。有关更多详细信息，请参阅 [临时许可证]({{LicensingUrl}})。"
+      },
+      "item_3": {
+        "question": "你有哪些许可证？",
+        "answer": "我们提供多种许可证类型，以满足特定开发人员或公司的需求。许可证类型取决于开发人员的数量、开发者站点的数量以及您是否需要向最终客户提供我们的 SDK/API。或者，您可以根据产品的每月使用量选择计量许可证。要了解更多信息，请访问 [定价]({{PricingUrl}})。"
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} 低代码 API",
+      "description": "使用我们基于云的 REST API 将文档比较功能整合到任何应用程序中。",
+      "item_1": {
+        "content": "使用 cURL REST 完整文档比较 API 来比较 Word、Excel、PowerPoint 和其他流行的文件格式。"
+      },
+      "item_2": {
+        "content": "使用适用于 .NET 的 Cloud SDK 在 .NET 应用程序中添加强大的文档比较功能。比较 DOCX、XLSX、PPTX 等。"
+      },
+      "item_3": {
+        "content": "使用专为 Java 设计的文档比较 SDK 向您的 Java 应用程序添加高保真文档比较功能。"
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} NoCode 应用程序",
+      "description": "基于 Web 的应用程序，使您能够直接在浏览器中比较 50 多种常用文件格式。",
+      "item_1": {
+        "content": "在线差异工具，用于比较来自任何设备的两个文档。"
+      },
+      "item_2": {
+        "content": "在线比较 DOCX 个文件。"
+      },
+      "item_3": {
+        "content": "使用 PDF 比较应用程序在线比较 PDF 个文档。"
+      }
+    }
+  },
+  "index-content-net": {
+    "head_title": "{{ProgLang}} {{EnvName}} 文档比较软件 | 差异检查器",
+    "head_description": "{{ProgLang}} {{EnvName}} 用于比较文档风格和内容的软件。比较多种支持格式的文档，以确定文件之间的变化。",
+    "title": "在 {{ProgLang}} {{EnvName}} 解决方案中轻松比较文档",
+    "description": "使用灵活的文档比较 API 构建 {{ProgLang}} 个应用程序，该应用程序支持按内容和样式比较各种文档格式的文件。",
+    "actions_main": "免费 NuGet 下载",
+    "code_title": "比较 {{ProgLang}} 中的 DOCX 个文件",
+    "overview_description": "用于比较 {{EnvName}} 个应用程序中文档之间差异的 API",
+    "overview_feature_1": {
+      "title": "{{ProgLang}} 中的文件比较",
+      "description": "检测源文件和目标文件之间的差异，以了解段落、单词和字符级别的变化。识别样式和格式变化，例如粗体、斜体、下划线、删除线、字体类型等。"
+    },
+    "overview_feature_2": {
+      "title": "支持最常用的文件和文档格式",
+      "description": "{{ProdShortName}} API 允许对各种格式的文档进行有效的比较，包括 PDF、HTML、电子邮件、Microsoft Office 个文档（Word、Excel、PowerPoint、OneNote、Visio）、各种图像类型（JPEG、PNG、GIF、BMP）、文本文件等。"
+    },
+    "overview_feature_3": {
+      "title": "轻松应用或拒绝更改",
+      "description": "使用 {{ProdShortName}} API 在比较文档中确定的每种差异都可以选择性应用或拒绝，从而可以在导出到最终输出文档之前进行自定义。"
+    },
+    "overview_feature_4": {
+      "title": "比较摘要报告",
+      "description": "生成差异摘要报告，详细说明比较文档中发现的所有更改，并将其保存以供参考。"
+    },
+    "features": {
+      "title": "{{ProdShortName}} 个功能",
+      "description": "轻松比较 PDF 和 Office 文档、图像和其他格式",
+      "feature_1": {
+        "title": "易于使用的文档对比",
+        "content": "分析并确定两个文档之间的差异。"
+      },
+      "feature_2": {
+        "title": "比较多个文档",
+        "content": "同时分析和识别多个文档之间的差异。"
+      },
+      "feature_3": {
+        "title": "支持的格式",
+        "content": "兼容来自不同类别的 50 多种广泛使用的文档格式，确保了广泛的适用性。"
+      },
+      "feature_4": {
+        "title": "接受或拒绝更改",
+        "content": "清晰直观地显示检测到的更改，并附有接受或拒绝这些修改的选项。"
+      },
+      "feature_5": {
+        "title": "生成预览",
+        "content": "能够将比较结果保存为图像预览，便于参考和共享。"
+      },
+      "feature_6": {
+        "title": "内容对比",
+        "content": "在各个层面进行全面的文本比较，包括逐行、段落、单词和字符，并突出显示差异，以提高清晰度。"
+      },
+      "feature_7": {
+        "title": "样式和格式比较",
+        "content": "检测并突出显示文档格式和样式的变化，确保全面审查。"
+      },
+      "feature_8": {
+        "title": "灵活的元数据设置",
+        "content": "保留源文件或目标文件中的元数据，或根据用户偏好对其进行自定义。"
+      },
+      "feature_9": {
+        "title": "密码保护",
+        "content": "分析受密码保护的文档，并使用密码加密保护输出文档，以提高安全性。"
+      },
+      "feature_10": {
+        "title": "选择性页面比较",
+        "content": "加载和比较文档的特定部分或页面以进行有针对性的分析。"
+      },
+      "feature_11": {
+        "title": "显示评论",
+        "content": "加载源文档时选择显示或隐藏注释，从而更好地控制比较过程。"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} 支持以下操作系统、框架和包管理器",
+    "formats_description": "{{ProdFullName}} 支持以下 [文件格式]({{SupportedFormatsUrl}}) 的操作。",
+    "code_samples_description": "典型 {{ProdFullName}} 操作的一些用例",
+    "code_title_sample_1": "比较受密码保护的文档。",
+    "code_samples_sample_1_content": "要比较 [受密码保护]({{Sample1Url}}) 的文档，您需要指定它然后加载文档：",
+    "code_title_sample_2": "比较多个 PDF 个文档。",
+    "code_samples_sample_2_content": "{{ProdShortName}} 允许您 [比较两个以上的文档]({{Sample2Url}})。该操作与比较两个文件时的操作几乎相同。你只需要在 “比较器” 类中添加更多目标文件即可。"
+  },
+  "index-content-java": {
+    "head_title": "{{EnvName}} 文档比较库| 差异检查器",
+    "head_description": "用于比较文档风格和内容的本机 {{EnvName}} 软件。比较多种格式的文档以确定差异。",
+    "title": "使用 {{EnvName}} API 比较和检查文件差异",
+    "description": "使用高度可配置的文档比较库开发 {{EnvName}} 个应用程序，以比较相似的文档格式，包括文件、其内容和文本样式。",
+    "actions_main": "免费下载 Maven",
+    "code_title": "比较 {{EnvName}} 中的 DOCX 个文件",
+    "overview_description": "用于比较 {{EnvName}} 个应用程序中文档之间差异的 API",
+    "overview_feature_1": {
+      "title": "{{EnvName}} 中的文件比较",
+      "description": "在段落、单词和字符级别检测源文件和目标文件之间的变化。识别样式和格式变化，例如粗体、斜体、下划线、删除线、字体类型等。"
+    },
+    "overview_feature_2": {
+      "title": "支持的大量格式",
+      "description": "使用 {{ProdShortName}} API，您可以轻松比较多种支持格式的文档。这包括 PDF、HTML、电子邮件、Microsoft Office Word 个文档、Excel 个电子表格、PowerPoint 演示文稿、OneNote、Visio 图表、文本、JPEG、PNG、GIF 和 BMP 图像以及许多其他格式。"
+    },
+    "overview_feature_3": {
+      "title": "轻松应用或拒绝更改",
+      "description": "比较文档之间的每一个差异都可以应用或拒绝，然后导出到输出文档。"
+    },
+    "overview_feature_4": {
+      "title": "比较摘要报告",
+      "description": "生成摘要报告，列出比较文档中的所有更改。"
+    },
+    "features": {
+      "title": "{{ProdShortName}} 个功能",
+      "description": "轻松比较 PDF 和 Office 文档、图像和其他格式",
+      "feature_1": {
+        "title": "易于使用的文档对比",
+        "content": "轻松分析和查明两个文档之间的差异。"
+      },
+      "feature_2": {
+        "title": "比较多个文档",
+        "content": "同时检查和突出显示多个文档之间的差异。"
+      },
+      "feature_3": {
+        "title": "支持的格式",
+        "content": "与来自不同类别的50多种广泛使用的文档格式兼容。"
+      },
+      "feature_4": {
+        "title": "接受或拒绝更改",
+        "content": "对已识别的更改进行清晰的可视化，并提供接受或拒绝修改的选项。"
+      },
+      "feature_5": {
+        "title": "生成预览",
+        "content": "能够将比较结果保存为图像预览。"
+      },
+      "feature_6": {
+        "title": "内容对比",
+        "content": "全面比较各个层面的文本内容，包括逐行、段落、单词和字符分析，重点是修改。"
+      },
+      "feature_7": {
+        "title": "风格对比",
+        "content": "能够检测和突出显示格式和样式元素的变化。"
+      },
+      "feature_8": {
+        "title": "设置元数据",
+        "content": "可以选择保留源文件或目标文件中的元数据，或允许用户定义的元数据设置。"
+      },
+      "feature_9": {
+        "title": "密码保护",
+        "content": "便于分析受密码保护的文档，并为生成的文档启用密码保护。"
+      },
+      "feature_10": {
+        "title": "比较特定页面",
+        "content": "根据需要加载和比较文档的特定部分或页面。"
+      },
+      "feature_11": {
+        "title": "显示评论",
+        "content": "加载源文档时可灵活显示或隐藏注释。"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} 支持以下操作系统、框架和包管理器",
+    "formats_description": "{{ProdFullName}} 支持以下 [文件格式]({{SupportedFormatsUrl}}) 的操作。",
+    "code_samples_description": "典型 {{ProdFullName}} 操作的一些用例",
+    "code_title_sample_1": "比较受密码保护的文档。",
+    "code_samples_sample_1_content": "要比较 [受密码保护]({{Sample1Url}}) 的文档，您需要指定它然后加载文档：",
+    "code_title_sample_2": "比较多个 PDF 个文档。",
+    "code_samples_sample_2_content": "{{ProdShortName}} 允许您 [比较两个以上的文档]({{Sample2Url}})。该操作与比较两个文件时的操作几乎相同。你只需要在 “比较器” 类中添加更多目标文件即可。"
+  },
+  "index-content-nodejs-java": {
+    "head_title": "{{Runtime}} 文档比较 API | 差异检查器",
+    "head_description": "{{Runtime}} 文档比较 API 为文档比较提供了有效的工具。与 {{Runtime}} 无缝集成，实现实时变更跟踪",
+    "title": "将文档与 {{Runtime}} 进行比较：突出显示所有差异",
+    "description": "使用 {{ProdShortName}} API 开发具有高度可配置比较功能的原生 Java 脚本应用程序。比较相似文档格式之间的文件、其内容和文本样式。",
+    "actions_main": "免费下载 NPM",
+    "code_title": "比较 Java 脚本中的 BMP 张图像",
+    "overview_description": "用于比较 {{Runtime}} 应用程序中各种类型的文档（例如 PDF、Microsoft Office、HTML、电子邮件或图像）的 API",
+    "overview_feature_1": {
+      "title": "详细的输出报告",
+      "description": "{{ProdShortName}} 标识文档内容（字符、文字、段落、表格、图表）的变化以及文档样式的变化。它为客户提供一份结果报告，其中包含有关差异、差异数量和类型的丰富信息。"
+    },
+    "overview_feature_2": {
+      "title": "支持最常用的文件和文档格式",
+      "description": "使用 {{ProdShortName}} API，您可以高效地比较任何支持格式的文档，例如 PDF、HTML、电子邮件、Microsoft Office Word 文档、Excel 电子表格、PowerPoint 演示文稿、OneNote、Visio 图表、文本、JPEG、PNG、GIF 和 BMP 图像以及许多其他格式。"
+    },
+    "overview_feature_3": {
+      "title": "文档和示例",
+      "description": "已经有很多关于在不同平台上使用比较库的文档以及代码示例，因此您不必费心思考如何在 {{Runtime}} 应用程序中使用 {{ProdShortName}} API。"
+    },
+    "overview_feature_4": {
+      "title": "选择更改并将它们合并到一个文件中",
+      "description": "如果一个文档有不同的版本，则可以只选择所需的更改并使用 {{ProdShortName}} 库编译新文档。"
+    },
+    "features": {
+      "title": "{{ProdFullName}} 个功能",
+      "description": "轻松比较 PDF 和 Office 文档、图像和其他格式",
+      "feature_1": {
+        "title": "易于使用的文档对比",
+        "content": "分析并识别两个文档中的差异。"
+      },
+      "feature_2": {
+        "title": "比较多个文档",
+        "content": "同时分析和识别多个文档中的差异。"
+      },
+      "feature_3": {
+        "title": "支持的格式",
+        "content": "支持来自不同类别的 50 多种流行文档格式。"
+      },
+      "feature_4": {
+        "title": "接受或拒绝更改",
+        "content": "清晰直观地呈现已识别的更改，提供接受或拒绝修改的选项。"
+      },
+      "feature_5": {
+        "title": "生成预览",
+        "content": "将比较结果另存为图像。"
+      },
+      "feature_6": {
+        "title": "内容对比",
+        "content": "逐行、逐段、逐字、逐字符比较文本内容。突出显示更改。"
+      },
+      "feature_7": {
+        "title": "风格对比",
+        "content": "检测格式和样式的变化。"
+      },
+      "feature_8": {
+        "title": "设置元数据",
+        "content": "保留源文件或目标文件中的元数据，或允许用户指定。"
+      },
+      "feature_9": {
+        "title": "密码保护",
+        "content": "分析加密文档，或使用密码保护生成的文档。"
+      },
+      "feature_10": {
+        "title": "比较特定页面",
+        "content": "仅加载文档的特定部分或页面。"
+      },
+      "feature_11": {
+        "title": "显示评论",
+        "content": "加载源文档时，您可以选择隐藏还是显示注释。"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} 支持以下操作系统、框架和包管理器",
+    "formats_description": "{{ProdFullName}} 支持以下 [文件格式]({{SupportedFormatsUrl}}) 的操作。",
+    "code_samples_description": "典型 {{ProdFullName}} 操作的一些用例",
+    "code_title_sample_1": "比较受密码保护的文档。",
+    "code_samples_sample_1_content": "要比较 [受密码保护]({{Sample1Url}}) 的文档，您需要指定它然后加载文档：",
+    "code_title_sample_2": "比较多个 PDF 个文档。",
+    "code_samples_sample_2_content": "{{ProdShortName}} 允许您 [比较两个以上的文档]({{Sample2Url}})。该操作与比较两个文件时的操作几乎相同。你只需要在 “比较器” 类中添加更多目标文件即可。"
+  }
+}

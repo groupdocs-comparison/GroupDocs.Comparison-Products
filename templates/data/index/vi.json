@@ -1,0 +1,393 @@
+{
+  "index-content": {
+    "head_title": "Thư viện so sánh tài liệu C# Java & Node.js | diff checker",
+    "head_description": "GroupDocs Thư viện so sánh tài liệu có nguồn gốc từ C # .NET Java & Node.js. Kiểm tra sự khác biệt giữa các tệp có định dạng được hỗ trợ.",
+    "title": "So sánh sự khác biệt giữa các loại tệp phổ biến",
+    "description_1": "API mạnh mẽ để so sánh tài liệu trên các định dạng tệp khác nhau.",
+    "description_2": "Xác định và làm nổi bật sự khác biệt về nội dung với nỗ lực mã hóa tối thiểu.",
+    "description_3": "Làm nổi bật sự khác biệt có thể nhìn thấy và khám phá những thay đổi trong các thuộc tính ẩn.",
+    "words_for": "cho",
+    "actions_alt": "Cấp phép",
+    "actions_title": "Sẵn sàng để bắt đầu?",
+    "actions_description": "Dùng thử {{ProdShortName}} tính năng miễn phí hoặc yêu cầu giấy phép",
+    "actions_description_index": "Dùng thử {{ProdShortName}} tính năng miễn phí trên nền tảng của bạn",
+    "release_title": "Phiên bản {0} đã phát hành",
+    "release_notes": "Xem những gì mới",
+    "release_downloads": "Tải xuống",
+    "code_more": "Thêm ví dụ",
+    "code_comment_1": "Chỉ định tài liệu nguồn",
+    "code_comment_2": "Thêm một hoặc nhiều tài liệu mục tiêu",
+    "code_comment_3": "Chỉ định các tùy chọn so sánh",
+    "code_comment_4": "Thực hiện so sánh và lưu tài liệu kết quả",
+    "sample_index_title": "So sánh hai tập tin",
+    "sample_index_content": "Để so sánh hai tài liệu, bắt đầu bằng cách tải cả tệp nguồn và tệp đích, sau đó áp dụng phương thức `compare`. Bạn có thể linh hoạt để chọn cài đặt so sánh cụ thể để phân tích phù hợp hơn.",
+    "overview_title": "{{ProdShortName}} trong nháy mắt",
+    "platforms_title": "Độc lập nền tảng",
+    "features": {
+      "title": "Các tính năng chính của {{ProdShortName}}",
+      "description": "API để so sánh và xem khác biệt trên PDF, Word, Excel, các tệp mã nguồn và hơn thế nữa.",
+      "feature_1": {
+        "title": "Kết quả xem khác biệt trực quan",
+        "content": "Phân tích các thay đổi dễ dàng với sự khác biệt được đánh dấu trong một báo cáo tài liệu duy nhất."
+      },
+      "feature_2": {
+        "title": "Quy trình xem xét thay đổi hiệu quả",
+        "content": "Chấp nhận hoặc từ chối các thay đổi với các sửa đổi trực quan khác biệt để dễ dàng ra quyết định."
+      },
+      "feature_3": {
+        "title": "So sánh nội dung và kiểu dáng",
+        "content": "So sánh nội dung văn bản, cũng như thay đổi định dạng và kiểu dáng."
+      },
+      "feature_4": {
+        "title": "So sánh các trang cụ thể",
+        "content": "Chỉ tải các phần hoặc trang cụ thể của tài liệu để so sánh."
+      }
+    },
+    "metrics": {
+      "title": "Số liệu chi tiết và thông tin thống kê",
+      "description": "Khám phá phân tích kỹ lưỡng về các số liệu chính của chúng tôi, cung cấp các số liệu toàn diện và thông tin chi tiết thống kê về thành tích, ảnh hưởng và sự mở rộng của chúng tôi.",
+      "item_1": {
+        "title": "Các định dạng được hỗ trợ",
+        "description": "API chứa hơn 50 định dạng tệp và tài liệu được sử dụng rộng rãi nhất."
+      },
+      "item_2": {
+        "title": "NuGet lượt tải",
+        "description": "{{ProdShortName}} cho .NET đã nhận được hơn 800K lượt tải xuống thông qua trình quản lý gói NuGet."
+      },
+      "item_3": {
+        "title": "Tải xuống Maven",
+        "description": "{{ProdShortName}} cho Java đã tích lũy được hơn 15K lượt tải xuống từ kho lưu trữ Maven của chúng tôi."
+      },
+      "item_4": {
+        "title": "Khách hàng hài lòng",
+        "description": "Thư viện của chúng tôi được áp dụng bởi cả các nhà phát triển cá nhân và các công ty hàng đầu trên toàn thế giới"
+      }
+    },
+    "customers_title": "Khách hàng hài lòng của chúng tôi",
+    "customers_description": "GroupDocs thư viện được sử dụng bởi các thương hiệu nổi tiếng và nổi tiếng trên toàn thế giới.",
+    "formats_title_index": "50+ định dạng tệp được hỗ trợ",
+    "formats_description_index": "{{ProdShortName}} cho phép các thao tác so sánh trong các họ định dạng khác nhau.",
+    "formats_title": "Định dạng tập tin được hỗ trợ",
+    "formats_groups": {
+      "title_1": "Microsoft Office & OpenDocument định dạng",
+      "title_2": "Hình ảnh, Đồ họa & Sơ đồ",
+      "title_3": "Khác",
+      "format_fixed_page_layout": "Bố cục trang cố định",
+      "format_images": "Hình ảnh",
+      "format_web": "Trang web",
+      "format_text": "Văn bản",
+      "format_raster_images": "Hình ảnh raster",
+      "format_medical_imaging": "Hình ảnh y tế",
+      "format_programming_languages": "Ngôn ngữ lập trình",
+      "format_e_books": "Sách điện tử",
+      "format_delimiter_separated_values": "Giá trị được phân tách bằng phân cách"
+    },
+    "code_samples": {
+      "title": "Mẫu mã",
+      "index_title": "Giới thiệu mã thực tế",
+      "index_description": "Một số trường hợp sử dụng của hoạt động {{ProdShortName}} điển hình.",
+      "sample_1": {
+        "code_title": "Làm thế nào để so sánh các tài liệu được bảo vệ bằng mật khẩu.",
+        "comment_1": "Tải tài liệu nguồn và chỉ định mật khẩu của nó",
+        "comment_2": "Tải tài liệu đích và chỉ định mật khẩu của nó",
+        "comment_3": "Lưu kết quả so sánh vào một tệp được chỉ định"
+      },
+      "sample_2": {
+        "code_title": "Làm thế nào để so sánh ba tài liệu trở lên.",
+        "comment_1": "Tải tài liệu nguồn",
+        "comment_2": "Chỉ định tệp thứ hai để so sánh",
+        "comment_3": "Chỉ định tệp thứ ba để so sánh",
+        "comment_4": "Lưu kết quả so sánh vào một tệp được chỉ định"
+      }
+    },
+    "platforms": {
+      "title": "Độc lập nền tảng",
+      "head_title": "Chọn nền tảng của bạn",
+      "description": "Thư viện {{ProdShortName}} hỗ trợ các hệ điều hành và framework sau:",
+      "learn_more": "Tìm hiểu thêm",
+      "any_other_text_editor": "Bất kỳ trình soạn thảo văn bản nào khác"
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp",
+      "description": "Câu trả lời cho các câu hỏi thường gặp nhất.",
+      "item_1": {
+        "question": "Thư viện {{ProdShortName}} có cần bất kỳ phần mềm bên thứ ba nào khác để thao tác tài liệu không?",
+        "answer": "{{ProdShortName}} không yêu cầu cài đặt bất kỳ phần mềm bên ngoài nào như Adobe Acrobat, Microsoft Office hoặc bất kỳ phần mềm nào khác."
+      },
+      "item_2": {
+        "question": "Tôi có thể dùng thử thư viện {{ProdShortName}} trước khi mua nó không?",
+        "answer": "Có, bạn có thể thử {{ProdShortName}} mà không cần mua giấy phép. Sau khi cài đặt mà không có giấy phép, thư viện hoạt động ở chế độ dùng thử. Trong chế độ này, huy hiệu dùng thử được thêm vào tài liệu kết quả và nó được cắt thành 3 trang đầu tiên. Nếu bạn muốn thử nghiệm {{ProdShortName}} mà không có giới hạn của phiên bản dùng thử, bạn cũng có thể yêu cầu giấy phép tạm thời 30 ngày. Để biết thêm chi tiết, hãy xem [giấy phép tạm thời]({{LicensingUrl}})."
+      },
+      "item_3": {
+        "question": "Bạn có giấy phép nào?",
+        "answer": "Chúng tôi cung cấp một số loại giấy phép để phù hợp với nhu cầu của các nhà phát triển hoặc công ty cụ thể. Các loại giấy phép phụ thuộc vào số lượng nhà phát triển, số lượng vị trí trang web của nhà phát triển và liệu bạn có cần cung cấp SDK/API của chúng tôi cho khách hàng cuối của mình hay không. Ngoài ra, bạn có thể chọn giấy phép đo đếm dựa trên mức sử dụng hàng tháng của sản phẩm. Tìm hiểu thêm tại [Pricing]({{PricingUrl}})."
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} API mã thấp",
+      "description": "Kết hợp khả năng so sánh tài liệu vào bất kỳ ứng dụng nào bằng cách sử dụng API REST dựa trên đám mây của chúng tôi.",
+      "item_1": {
+        "content": "Làm việc với API so sánh tài liệu cURL REST full để so sánh Word, Excel, PowerPoint và các định dạng tệp phổ biến khác."
+      },
+      "item_2": {
+        "content": "Thêm khả năng so sánh tài liệu mạnh mẽ trong .NET ứng dụng sử dụng Cloud SDK cho .NET. So sánh DOCX, XLSX, PPTX và hơn thế nữa."
+      },
+      "item_3": {
+        "content": "Thêm tính năng so sánh tài liệu có độ trung thực cao vào các ứng dụng java của bạn với SDK so sánh tài liệu được thiết kế đặc biệt cho Java."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} Ứng dụng NoCode",
+      "description": "Ứng dụng dựa trên web cho phép bạn thực hiện so sánh trên hơn 50 định dạng tệp phổ biến trực tiếp trong trình duyệt của bạn.",
+      "item_1": {
+        "content": "Công cụ khác biệt trực tuyến để so sánh hai tài liệu từ bất kỳ thiết bị nào."
+      },
+      "item_2": {
+        "content": "So sánh DOCX tập tin trực tuyến."
+      },
+      "item_3": {
+        "content": "Diff PDF tài liệu trực tuyến bằng ứng dụng so sánh PDF."
+      }
+    }
+  },
+  "index-content-net": {
+    "head_title": "{{ProgLang}} {{EnvName}} Phần mềm so sánh tài liệu | diff checker",
+    "head_description": "{{ProgLang}} {{EnvName}} Phần mềm để so sánh phong cách và nội dung tài liệu. So sánh các tài liệu của nhiều định dạng được hỗ trợ để xác định các thay đổi giữa các tệp.",
+    "title": "So sánh tài liệu một cách dễ dàng trong các giải pháp {{ProgLang}} {{EnvName}} của bạn",
+    "description": "Xây dựng {{ProgLang}} ứng dụng với API so sánh tài liệu linh hoạt cho phép so sánh tệp theo nội dung và kiểu trên các định dạng tài liệu khác nhau.",
+    "actions_main": "Tải xuống miễn phí NuGet",
+    "code_title": "So sánh DOCX tập tin trong {{ProgLang}}",
+    "overview_description": "API để so sánh sự khác biệt giữa các tài liệu trong {{EnvName}} ứng dụng",
+    "overview_feature_1": {
+      "title": "So sánh tập tin trong {{ProgLang}}",
+      "description": "Phát hiện sự khác biệt giữa tệp nguồn và tệp mục tiêu cho các thay đổi ở cấp đoạn văn, từ và ký tự. Xác định các thay đổi về kiểu dáng và định dạng như in đậm, in nghiêng, gạch chân, gạch ngang, kiểu phông chữ, v.v."
+    },
+    "overview_feature_2": {
+      "title": "Hầu hết các định dạng tệp và tài liệu phổ biến được hỗ trợ",
+      "description": "{{ProdShortName}} API cho phép so sánh tài liệu hiệu quả trên nhiều định dạng, bao gồm PDF, HTML, email, Microsoft Office tài liệu (Word, Excel, PowerPoint, OneNote, Visio), các loại hình ảnh khác nhau (JPEG, PNG, GIF, BMP), tệp văn bản và hơn thế nữa."
+    },
+    "overview_feature_3": {
+      "title": "Áp dụng hoặc từ chối thay đổi một cách dễ dàng",
+      "description": "Mỗi sự khác biệt được xác định trong các tài liệu so sánh bằng {{ProdShortName}} API có thể được áp dụng chọn lọc hoặc từ chối, cho phép tùy chỉnh trước khi xuất sang tài liệu đầu ra cuối cùng."
+    },
+    "overview_feature_4": {
+      "title": "Báo cáo tóm tắt so sánh",
+      "description": "Tạo báo cáo tóm tắt về sự khác biệt, trình bày chi tiết tất cả các thay đổi được tìm thấy trong các tài liệu được so sánh và lưu nó để tham khảo."
+    },
+    "features": {
+      "title": "{{ProdShortName}} tính năng",
+      "description": "Dễ dàng so sánh PDF và tài liệu Office, hình ảnh và các định dạng khác",
+      "feature_1": {
+        "title": "So sánh tài liệu dễ sử dụng",
+        "content": "Phân tích và xác định sự khác biệt giữa hai tài liệu."
+      },
+      "feature_2": {
+        "title": "So sánh nhiều tài liệu",
+        "content": "Đồng thời phân tích và xác định sự khác biệt giữa nhiều tài liệu."
+      },
+      "feature_3": {
+        "title": "Các định dạng được hỗ trợ",
+        "content": "Tương thích với hơn 50 định dạng tài liệu được sử dụng rộng rãi từ nhiều danh mục khác nhau, đảm bảo khả năng ứng dụng rộng rãi."
+      },
+      "feature_4": {
+        "title": "Chấp nhận hoặc từ chối thay đổi",
+        "content": "Hiển thị trực quan rõ ràng các thay đổi được phát hiện, hoàn chỉnh với các tùy chọn để chấp nhận hoặc từ chối các sửa đổi này."
+      },
+      "feature_5": {
+        "title": "Tạo bản xem trước",
+        "content": "Khả năng lưu kết quả so sánh dưới dạng xem trước hình ảnh để dễ dàng tham khảo và chia sẻ."
+      },
+      "feature_6": {
+        "title": "So sánh nội dung",
+        "content": "Tiến hành so sánh văn bản kỹ lưỡng ở các cấp độ khác nhau - bao gồm từng dòng, đoạn văn, từ và ký tự - với sự khác biệt được đánh dấu để rõ ràng hơn."
+      },
+      "feature_7": {
+        "title": "So sánh kiểu dáng và định dạng",
+        "content": "Phát hiện và làm nổi bật những thay đổi trong định dạng và kiểu tài liệu, đảm bảo xem xét toàn diện."
+      },
+      "feature_8": {
+        "title": "Cài đặt siêu dữ liệu linh hoạt",
+        "content": "Bảo tồn siêu dữ liệu từ các tệp nguồn hoặc mục tiêu hoặc tùy chỉnh nó theo sở thích của người dùng."
+      },
+      "feature_9": {
+        "title": "Bảo vệ mật khẩu",
+        "content": "Phân tích tài liệu được bảo vệ bằng mật khẩu và bảo mật tài liệu đầu ra bằng mã hóa mật khẩu để tăng cường bảo mật."
+      },
+      "feature_10": {
+        "title": "So sánh trang có chọn lọc",
+        "content": "Tải và so sánh các phần hoặc trang cụ thể của tài liệu để phân tích mục tiêu."
+      },
+      "feature_11": {
+        "title": "Hiển thị nhận xét",
+        "content": "Chọn hiển thị hoặc ẩn nhận xét khi tải tài liệu nguồn, cung cấp quyền kiểm soát tốt hơn đối với quá trình so sánh."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} hỗ trợ các hệ điều hành, framework và trình quản lý gói sau",
+    "formats_description": "{{ProdFullName}} hỗ trợ các hoạt động với [định dạng tệp] sau đây ({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Một số trường hợp sử dụng của hoạt động {{ProdFullName}} điển hình",
+    "code_title_sample_1": "So sánh các tài liệu được bảo vệ bằng mật khẩu.",
+    "code_samples_sample_1_content": "Để so sánh các tài liệu được [bảo vệ bằng mật khẩu]({{Sample1Url}}), bạn cần chỉ định tài liệu đó sau đó tải tài liệu:",
+    "code_title_sample_2": "So sánh nhiều PDF tài liệu.",
+    "code_samples_sample_2_content": "{{ProdShortName}} cho phép bạn [so sánh nhiều hơn hai tài liệu]({{Sample2Url}}). Hoạt động gần giống như khi so sánh hai tệp. Bạn chỉ cần thêm nhiều tệp mục tiêu vào lớp `comparer`."
+  },
+  "index-content-java": {
+    "head_title": "{{EnvName}} Thư viện so sánh tài liệu| diff checker",
+    "head_description": "Phần mềm gốc {{EnvName}} để so sánh phong cách và nội dung tài liệu. So sánh các tài liệu có nhiều định dạng để xác định sự khác biệt.",
+    "title": "So sánh và kiểm tra sự khác biệt của tệp bằng {{EnvName}} API",
+    "description": "Phát triển {{EnvName}} ứng dụng với thư viện so sánh tài liệu có thể cấu hình cao để so sánh các định dạng tài liệu tương tự, bao gồm các tệp, nội dung của chúng và kiểu văn bản.",
+    "actions_main": "Tải xuống miễn phí Maven",
+    "code_title": "So sánh DOCX tập tin trong {{EnvName}}",
+    "overview_description": "API để so sánh sự khác biệt giữa các tài liệu trong {{EnvName}} ứng dụng",
+    "overview_feature_1": {
+      "title": "So sánh tập tin trong {{EnvName}}",
+      "description": "Phát hiện các thay đổi giữa tệp nguồn và tệp mục tiêu ở cấp đoạn văn, từ và ký tự. Xác định các thay đổi về kiểu dáng và định dạng như in đậm, in nghiêng, gạch chân, gạch ngang, kiểu phông chữ, v.v."
+    },
+    "overview_feature_2": {
+      "title": "Số lượng lớn các định dạng được hỗ trợ",
+      "description": "Với {{ProdShortName}} API, bạn có thể dễ dàng so sánh các tài liệu của nhiều định dạng được hỗ trợ. Điều này bao gồm PDF, HTML, email, Microsoft Office Word tài liệu, Excel bảng tính, PowerPoint bản trình bày, OneNote, Visio sơ đồ, văn bản, JPEG, PNG, GIF, và BMP hình ảnh, cũng như nhiều định dạng khác."
+    },
+    "overview_feature_3": {
+      "title": "Áp dụng hoặc từ chối thay đổi một cách dễ dàng",
+      "description": "Mọi sự khác biệt giữa các tài liệu được so sánh có thể được áp dụng hoặc từ chối và sau đó xuất sang tài liệu đầu ra."
+    },
+    "overview_feature_4": {
+      "title": "Báo cáo tóm tắt so sánh",
+      "description": "Tạo một báo cáo tóm tắt liệt kê tất cả các thay đổi trong các tài liệu được so sánh."
+    },
+    "features": {
+      "title": "{{ProdShortName}} tính năng",
+      "description": "Dễ dàng so sánh PDF và tài liệu Office, hình ảnh và các định dạng khác",
+      "feature_1": {
+        "title": "So sánh tài liệu dễ sử dụng",
+        "content": "Dễ dàng phân tích và xác định chính xác sự khác biệt giữa hai tài liệu."
+      },
+      "feature_2": {
+        "title": "So sánh nhiều tài liệu",
+        "content": "Đồng thời kiểm tra và làm nổi bật các phương sai trên nhiều tài liệu."
+      },
+      "feature_3": {
+        "title": "Các định dạng được hỗ trợ",
+        "content": "Khả năng tương thích với hơn 50 định dạng tài liệu được sử dụng rộng rãi từ các danh mục khác nhau."
+      },
+      "feature_4": {
+        "title": "Chấp nhận hoặc từ chối thay đổi",
+        "content": "Hình dung rõ ràng về các thay đổi đã xác định, với các tùy chọn để chấp nhận hoặc từ chối sửa đổi."
+      },
+      "feature_5": {
+        "title": "Tạo bản xem trước",
+        "content": "Khả năng lưu kết quả so sánh dưới dạng xem trước hình ảnh."
+      },
+      "feature_6": {
+        "title": "So sánh nội dung",
+        "content": "So sánh kỹ lưỡng nội dung văn bản ở các cấp độ khác nhau - bao gồm phân tích từng dòng, đoạn văn, từ và ký tự, nhấn mạnh vào các thay đổi."
+      },
+      "feature_7": {
+        "title": "So sánh phong cách",
+        "content": "Khả năng phát hiện và làm nổi bật những thay đổi trong các yếu tố định dạng và kiểu dáng."
+      },
+      "feature_8": {
+        "title": "Đặt siêu dữ liệu",
+        "content": "Tùy chọn để giữ lại siêu dữ liệu từ các tệp nguồn hoặc mục tiêu hoặc cho phép cài đặt siêu dữ liệu do người dùng xác định."
+      },
+      "feature_9": {
+        "title": "Bảo vệ mật khẩu",
+        "content": "Tạo điều kiện phân tích các tài liệu được bảo vệ bằng mật khẩu và cho phép bảo vệ mật khẩu cho các tài liệu kết quả."
+      },
+      "feature_10": {
+        "title": "So sánh các trang cụ thể",
+        "content": "Tải và so sánh các phần hoặc trang cụ thể của tài liệu theo yêu cầu."
+      },
+      "feature_11": {
+        "title": "Hiển thị nhận xét",
+        "content": "Tính linh hoạt để hiển thị hoặc che giấu nhận xét khi tải tài liệu nguồn."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} hỗ trợ các hệ điều hành, framework và trình quản lý gói sau",
+    "formats_description": "{{ProdFullName}} hỗ trợ các hoạt động với [định dạng tệp] sau đây ({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Một số trường hợp sử dụng của hoạt động {{ProdFullName}} điển hình",
+    "code_title_sample_1": "So sánh các tài liệu được bảo vệ bằng mật khẩu.",
+    "code_samples_sample_1_content": "Để so sánh các tài liệu được [bảo vệ bằng mật khẩu]({{Sample1Url}}), bạn cần chỉ định tài liệu đó sau đó tải tài liệu:",
+    "code_title_sample_2": "So sánh nhiều PDF tài liệu.",
+    "code_samples_sample_2_content": "{{ProdShortName}} cho phép bạn [so sánh nhiều hơn hai tài liệu]({{Sample2Url}}). Hoạt động gần giống như khi so sánh hai tệp. Bạn chỉ cần thêm nhiều tệp mục tiêu vào lớp `comparer`."
+  },
+  "index-content-nodejs-java": {
+    "head_title": "{{Runtime}} API so sánh tài liệu | trình kiểm tra diff",
+    "head_description": "API So sánh tài liệu {{Runtime}} cung cấp các công cụ hiệu quả để so sánh tài liệu. Tích hợp liền mạch với {{Runtime}} để theo dõi thay đổi theo thời gian thực",
+    "title": "So sánh tài liệu với {{Runtime}}: Đánh dấu bất kỳ sự khác biệt nào",
+    "description": "Sử dụng {{ProdShortName}} API để phát triển các ứng dụng Script Java gốc với các tính năng so sánh có thể cấu hình cao. So sánh các tệp, nội dung và kiểu văn bản giữa các định dạng tài liệu tương tự.",
+    "actions_main": "Tải xuống NPM miễn phí",
+    "code_title": "So sánh BMP hình ảnh trong Java Script",
+    "overview_description": "API để so sánh các loại tài liệu khác nhau như PDF, Microsoft Office, HTML, e-mail hoặc hình ảnh trong {{Runtime}} ứng dụng",
+    "overview_feature_1": {
+      "title": "Báo cáo đầu ra chi tiết",
+      "description": "{{ProdShortName}} xác định những thay đổi trong nội dung tài liệu (ký tự, từ, đoạn văn, bảng, biểu đồ), cũng như thay đổi trong kiểu tài liệu. Nó cung cấp cho khách hàng một báo cáo kết quả chứa thông tin phong phú về sự khác biệt, số lượng và loại của chúng."
+    },
+    "overview_feature_2": {
+      "title": "Hầu hết các định dạng tệp và tài liệu phổ biến được hỗ trợ",
+      "description": "Với {{ProdShortName}} API, bạn có thể so sánh hiệu quả các tài liệu của bất kỳ định dạng được hỗ trợ như PDF, HTML, e-mail, tài liệu Microsoft Office Word, Excel bảng tính, PowerPoint bản trình bày, OneNote, Visio sơ đồ, văn bản, JPEG, PNG, GIF, và BMP hình ảnh cũng như nhiều định dạng khác."
+    },
+    "overview_feature_3": {
+      "title": "Tài liệu và ví dụ",
+      "description": "Đã có rất nhiều tài liệu về việc sử dụng thư viện So sánh trên các nền tảng khác nhau với các ví dụ mã, vì vậy bạn không phải suy nghĩ kỹ về cách làm việc với {{ProdShortName}} API trong ứng dụng {{Runtime}} của bạn."
+    },
+    "overview_feature_4": {
+      "title": "Chọn thay đổi và hợp nhất chúng vào một tệp",
+      "description": "Nếu bạn có các phiên bản khác nhau của một tài liệu, bạn chỉ có thể chọn các thay đổi mong muốn và biên dịch tài liệu mới bằng thư viện {{ProdShortName}}."
+    },
+    "features": {
+      "title": "{{ProdFullName}} tính năng",
+      "description": "Dễ dàng so sánh PDF và tài liệu Office, hình ảnh và các định dạng khác",
+      "feature_1": {
+        "title": "So sánh tài liệu dễ sử dụng",
+        "content": "Phân tích và xác định sự khác biệt trong hai tài liệu."
+      },
+      "feature_2": {
+        "title": "So sánh nhiều tài liệu",
+        "content": "Phân tích và xác định sự khác biệt trong nhiều tài liệu cùng một lúc."
+      },
+      "feature_3": {
+        "title": "Các định dạng được hỗ trợ",
+        "content": "Hỗ trợ hơn 50 định dạng tài liệu phổ biến từ các danh mục khác nhau."
+      },
+      "feature_4": {
+        "title": "Chấp nhận hoặc từ chối thay đổi",
+        "content": "Biểu diễn trực quan rõ ràng về các thay đổi đã xác định, cung cấp tùy chọn chấp nhận hoặc từ chối sửa đổi."
+      },
+      "feature_5": {
+        "title": "Tạo bản xem trước",
+        "content": "Lưu kết quả so sánh dưới dạng hình ảnh."
+      },
+      "feature_6": {
+        "title": "So sánh nội dung",
+        "content": "So sánh nội dung văn bản từng dòng, theo đoạn văn, theo từ, theo ký tự. Làm nổi bật những thay đổi."
+      },
+      "feature_7": {
+        "title": "So sánh phong cách",
+        "content": "Phát hiện thay đổi về định dạng và kiểu dáng."
+      },
+      "feature_8": {
+        "title": "Đặt siêu dữ liệu",
+        "content": "Giữ siêu dữ liệu từ tệp nguồn hoặc tệp đích hoặc cho phép người dùng chỉ định nó."
+      },
+      "feature_9": {
+        "title": "Bảo vệ mật khẩu",
+        "content": "Phân tích các tài liệu được mã hóa hoặc bảo mật tài liệu kết quả bằng mật khẩu."
+      },
+      "feature_10": {
+        "title": "So sánh các trang cụ thể",
+        "content": "Chỉ tải các phần hoặc trang cụ thể của tài liệu."
+      },
+      "feature_11": {
+        "title": "Hiển thị nhận xét",
+        "content": "Khi tải tài liệu nguồn, bạn có thể chọn ẩn hoặc hiển thị nhận xét."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} hỗ trợ các hệ điều hành, framework và trình quản lý gói sau",
+    "formats_description": "{{ProdFullName}} hỗ trợ các hoạt động với [định dạng tệp] sau đây ({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Một số trường hợp sử dụng của hoạt động {{ProdFullName}} điển hình",
+    "code_title_sample_1": "So sánh các tài liệu được bảo vệ bằng mật khẩu.",
+    "code_samples_sample_1_content": "Để so sánh các tài liệu được [bảo vệ bằng mật khẩu]({{Sample1Url}}), bạn cần chỉ định tài liệu đó sau đó tải tài liệu:",
+    "code_title_sample_2": "So sánh nhiều PDF tài liệu.",
+    "code_samples_sample_2_content": "{{ProdShortName}} cho phép bạn [so sánh nhiều hơn hai tài liệu]({{Sample2Url}}). Hoạt động gần giống như khi so sánh hai tệp. Bạn chỉ cần thêm nhiều tệp mục tiêu vào lớp `comparer`."
+  }
+}

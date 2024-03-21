@@ -1,388 +1,235 @@
+
 ---
 ############################# Static ############################
-layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:19+03:00
+layout: "format"
+date:  2024-03-21T15:26:23
 draft: false
+lang: ko
+format: Pdf
+product: "Comparison"
+product_tag: "comparison"
+platform: ".NET"
+platform_tag: "net"
 
 ############################# Head ############################
-head_title: ".NET에서 두 개의 PDF 파일 비교 | 문서 비교 API"
-head_description: "C# .NET 애플리케이션에서 두 개 이상의 PDF 파일을 비교하고 병합합니다. PDF 파일, 이미지 및 문서 형식의 콘텐츠, 텍스트 및 스타일의 차이점 요약을 검색합니다."
+head_title: "C# .NET 에서 PDF 개의 문서가 다른지 확인하십시오."
+head_description: "C# .NET 애플리케이션에서 두 개 이상의 PDF 개 파일을 비교하고 병합합니다.PDF 파일의 내용, 텍스트 및 스타일에 대한 차이점 요약을 검색합니다."
 
 ############################# Header ############################
-title: "C# .NET의 PDF 파일 비교"
-description: ".NET 문서 비교 API는 PDF 파일의 두 버전 간의 변경 사항을 감지하고 비교된 문서 간의 차이점에 대한 자세한 요약과 함께 최종 문서로 내보냅니다."
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "무료 평가판 다운로드"
-    link: "https://downloads.groupdocs.com/comparison/net"
+title: "C# .NET 애플리케이션의 PDF 개 문서 비교" 
+description: "C#, ASP .NET, VB .NET 및 .NET 코어를 기반으로 애플리케이션 내 PDF 의 차이점을 식별하고 표시하기 위한 .NET 문서 비교 API입니다.원활한 경험을 위해 세부 보고서를 손쉽게 얻을 수 있습니다."
+subtitle: "문서 비교 솔루션" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Comparison for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-net.png"
-        product: "GroupDocs.Comparison"
-        platform: ".NET"
-
-    middle:
-        button: 
-            # button loop
-            - link: "https://apireference.groupdocs.com/comparison/net"
-              text: "API 참조"
-
-            # button loop
-            - link: "https://github.com/groupdocs-comparison"
-              text: "코드 예"
-
-            # button loop
-            - link: "https://products.groupdocs.app/comparison/family"
-              text: "라이브 데모"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/comparison/net"
-              text: "가격"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/comparison"
-        link_learn: "https://docs.groupdocs.com/comparison/net"
-        link_buy: "https://purchase.groupdocs.com"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "무료 Nuget 다운로드"
+      link: "https://releases.groupdocs.com/comparison/net/"
+      
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Comparison for .NET API 정보"
+    title: "GroupDocs.Comparison for .NET 개의 API 기능 알아보기"
+    link: "/comparison/net/"
+    link_title: "자세히 알아보기"
+    picture: "about_viewer.svg" # 480 X 400
     content: |
-        [GroupDocs.Comparison for .NET](/comparison/net/)은 동일한 형식의 여러 이미지와 문서를 비교하기 위한 기본 .NET API입니다. 비교된 문서의 단락, 단어, 문자, 모양, 심지어 텍스트 스타일의 차이점을 감지하고 변경 사항을 병합하여 최종 문서로 내보내는 데 도움이 됩니다. 외부 라이브러리를 사용하지 않고도 PDF, Word 문서, Excel 스프레드시트, PowerPoint 프레젠테이션, Visio 다이어그램, Outlook 이메일, HTML, 그림 및 이미지 파일 형식의 비교 및 ​​병합을 지원합니다.
+       .NET 애플리케이션의 PDF 문서에서 차이점에 대한 자세한 보고서를 얻을 수 있습니다.서로 다른 PDF 을 같은 형식의 새 것으로 병합하십시오.코드 몇 줄을 추가하여 GroupDocs.Comparison for .NET API를 사용하세요.타사 소프트웨어 없이 PDF 및 기타 형식을 처리할 수 있습니다.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "C#에서 PDF 파일을 비교하는 단계"
-    content_left: |
-        [GroupDocs.Comparison](/comparison/net/)을 사용하면 .NET 개발자가 몇 가지 간단한 단계를 구현하여 애플리케이션에서 여러 PDF 파일을 쉽게 비교하고 병합할 수 있습니다.
-        * 소스 문서 경로 또는 스트림으로 **Comparer** 개체를 인스턴스화합니다.
-        * Add 메소드를 호출하고 대상 문서 경로 또는 스트림을 지정합니다. 모든 대상 문서에 대해 이 단계를 반복합니다.
-        * 호출 비교 방법.
-    title_right: "시스템 요구 사항"
-    content_right: |
-        GroupDocs.Comparison for .NET API는 모든 주요 플랫폼과 운영 체제에서 지원됩니다. 아래 코드를 실행하기 전에 시스템에 다음 필수 구성 요소가 설치되어 있는지 확인하세요.
-        * 운영 체제: 마이크로소프트 윈도우, 리눅스, 맥OS
-        * 개발 환경: Microsoft Visual Studio, Xamarin, MonoDevelop
-        * 프레임워크: .NET Framework, .NET Standard, .NET Core, Mono
-        * [NuGet](https://www.nuget.org/packages/groupdocs.comparison)에서 최신 버전의 GroupDocs.Comparison for .NET을(를) 다운로드하세요.
-    code: |
-        ```cs
-        // 로컬 디스크의 여러 문서 비교
-        
+    title: "C# 를 사용하여 PDF 을 (를) 비교하는 방법"
+    content: |
+      [GroupDocs.Comparison](https://products.groupdocs.com/comparison/net/) 를 사용하여 많은 PDF 파일 간의 차이점에 대한 보고서 가져오기
+      
+      1. [Nuget](https://www.nuget.org/packages/GroupDocs.Comparison) 에서 GroupDocs.Comparison for .NET 를 가져와 설치합니다.
+      2. PDF 파일 경로를 사용하여 새로운 Comparer 인스턴스를 생성합니다.
+      3. 비교에 다른 PDF 추가
+      4. 결과에는 PDF s 모두의 차이점에 대한 보고서가 포함됩니다.
+   
+    code:
+      platform: "net"
+      copy_title: "복사"
+      install:
+        command: "dotnet add package GroupDocs.Comparison"
+        copy_tip: "클릭하여 복사"
+        copy_done: "복사"
+      links:
+        #  loop
+        - title: "더 많은 예시"
+          link: "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-.NET"
+        #  loop
+        - title: "문서화"
+          link: "https://docs.groupdocs.com/comparison/net/"
+          
+      content: |
+        ```csharp {style=abap}
+
+        // PDF 의 구별 보고서 작성
+
+        // 첫 번째 파일의 경로를 사용하여 Comparer 인스턴스화
         using (Comparer comparer = new Comparer("source.pdf"))
         {
-        	comparer.Add("target1.pdf");
-            comparer.Add("target2.pdf");
-            comparer.Add("target3.pdf");
-            comparer.Compare("result.pdf"); // 지정된 이름으로 결과 파일 생성
+            // 하나 이상의 PDF 을 (를) 비교에 추가
+        	comparer.Add("file_to_compare_1.pdf");
+            comparer.Add("file_to_compare_2.pdf");
+            comparer.Add("file_to_compare_3.pdf");
+
+            // 분석 대상 결과 보고서
+            comparer.Compare("result.pdf"); 
         }
         
-        // 스트림의 여러 문서 비교
-        
-        using (Comparer comparer = new Comparer(File.OpenRead("source.pdf")))
-        {
-        	comparer.Add(File.OpenRead("target1.pdf"));
-            comparer.Add(File.OpenRead("target2.pdf"));
-            comparer.Add(File.OpenRead("target3.pdf"));
-            comparer.Compare(File.Create("result.pdf")); // 지정된 이름으로 결과 파일 생성
-        }
-        ```
+        ```            
 
-############################# Demos ############################
-demos:
-    enable: true
-    title: "PDF 파일 비교에 대한 라이브 데모"
-    content: |
-        지금 바로 [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family) 웹사이트를 방문하여 PDF 파일 간의 차이점을 찾아보세요.
-        라이브 데모에는 다음과 같은 이점이 있습니다.
+############################# Actions ############################
 
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-pdf"
-          title: "PDF 파일 형식 정보"
-          content: |
-            PDF(Portable Document Format)는 1990년대 Adobe가 만든 문서 유형입니다. 이 파일 형식의 목적은 응용 프로그램 소프트웨어, 하드웨어 및 운영 체제에 독립적인 형식으로 문서 및 기타 참조 자료를 표현하기 위한 표준을 도입하는 것이었습니다. PDF 파일은 확장 프로그램/플러그인을 통해 Adobe Acrobat Reader/Writer는 물론 Chrome, Safari, Firefox와 같은 대부분의 최신 브라우저에서 열 수 있습니다. 시중에서 판매되는 대부분의 소프트웨어 제품군은 추가 소프트웨어 구성 요소 없이도 문서를 PDF 파일 형식으로 변환하는 기능도 제공합니다. 따라서 PDF 파일 형식은 소스 문서의 일부가 될 수 있는 텍스트, 이미지, 하이퍼링크, 양식 필드, 리치 미디어, 디지털 서명, 첨부 파일, 메타데이터, 지리 공간적 기능 및 3D 개체와 같은 정보를 포함할 수 있는 모든 기능을 갖추고 있습니다.
-          link: "https://docs.fileformat.com/image/pdf/"
+actions:
+  enable: true
+  title: "시작할 준비가 되셨나요?"
+  description: "GroupDocs.Comparison 기능을 무료로 체험하거나 라이선스를 요청하세요"
+  items:
+    #  loop
+    - title: "Nuget 다운로드"
+      link: "https://releases.groupdocs.com/comparison/net/"
+      color: "red"
+        #  loop
+    - title: "라이선싱"
+      link: "https://purchase.groupdocs.com/pricing/comparison/net/"
+      color: "light"
 
-############################# More Formats ############################
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "다른 파일 형식 비교"
-    content: |
-        .NET용 다중 형식 문서 및 이미지 비교 API. 외부 도구를 사용하지 않고도 동일한 형식의 문서 간의 차이점을 분석합니다.
-    format: 
-        # format loop
-        - name: "Compare PDF Files"
-          link: "https://products.groupdocs.com/comparison/net/pdf/"
-          description: "Adobe Portable Document Format"
+    title: "C# 를 사용하여 PDF 을 비교하고 전체 보고서를 받아보세요"
+    exclude: "PDF"
+    description: "PDF 문서를 위한 .NET C# 소프트웨어 비교문서의 변경 사항을 쉽게 파악할 수 있습니다."
+    items: 
+        # format loop 1
+        - name: "PDF 개의 파일 비교"
+          format: "PDF"
+          link: "/comparison/net/pdf/"
+          description: "어도비 Portable 문서 형식"
 
-        # format loop
-        - name: "Compare DOC Files"
-          link: "https://products.groupdocs.com/comparison/net/doc/"
-          description: "Microsoft Word Document"
+        # format loop 2
+        - name: "DOCX 개의 파일 비교"
+          format: "DOCX"
+          link: "/comparison/net/docx/"
+          description: "마이크로소프트 Word 오픈 XML 문서"
 
-        # format loop
-        - name: "Compare DOCM Files"
-          link: "https://products.groupdocs.com/comparison/net/docm/"
-          description: "Microsoft Word Macro-Enabled Document"
+        # format loop 3
+        - name: "RTF 개의 파일 비교"
+          format: "RTF"
+          link: "/comparison/net/rtf/"
+          description: "리치 텍스트 파일 포맷"
 
-        # format loop
-        - name: "Compare DOCX Files"
-          link: "https://products.groupdocs.com/comparison/net/docx/"
-          description: "Microsoft Word Open XML Document"
+        # format loop 4
+        - name: "TXT 개의 파일 비교"
+          format: "TXT"
+          link: "/comparison/net/txt/"
+          description: "일반 텍스트 파일 형식"
 
-        # format loop
-        - name: "Compare DOT Files"
-          link: "https://products.groupdocs.com/comparison/net/dot/"
-          description: "Microsoft Word Document Template"
+        # format loop 5
+        - name: "XLSX 개의 파일 비교"
+          format: "XLSX"
+          link: "/comparison/net/xlsx/"
+          description: "마이크로소프트 Excel 오픈 XML 스프레드시트"
 
-        # format loop
-        - name: "Compare DOTM Files"
-          link: "https://products.groupdocs.com/comparison/net/dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
+        # format loop 6
+        - name: "CSV 파일 비교"
+          format: "CSV"
+          link: "/comparison/net/csv/"
+          description: "쉼표로 구분된 값 파일"
 
-        # format loop
-        - name: "Compare DOTX Files"
-          link: "https://products.groupdocs.com/comparison/net/dotx/"
-          description: "Word Open XML Document Template"
+        # format loop 7
+        - name: "PPTX 개의 파일 비교"
+          format: "PPTX"
+          link: "/comparison/net/pptx/"
+          description: "PowerPoint 오픈 XML 프레젠테이션"
 
-        # format loop
-        - name: "Compare RTF Files"
-          link: "https://products.groupdocs.com/comparison/net/rtf/"
-          description: "Rich Text File Format"
+        # format loop 8
+        - name: "ODS 개의 파일 비교"
+          format: "ODS"
+          link: "/comparison/net/ods/"
+          description: "Open Document 스프레드시트"
 
-        # format loop
-        - name: "Compare TXT Files"
-          link: "https://products.groupdocs.com/comparison/net/txt/"
-          description: "Plain Text File Format"
+        # format loop 9
+        - name: "ODP 파일 비교"
+          format: "ODP"
+          link: "/comparison/net/odp/"
+          description: "OpenDocument 프레젠테이션 파일 형식"
 
-        # format loop
-        - name: "Compare XLS Files"
-          link: "https://products.groupdocs.com/comparison/net/xls/"
-          description: "Microsoft Excel Binary File Format"
+        # format loop 10
+        - name: "ODT 개의 파일 비교"
+          format: "ODT"
+          link: "/comparison/net/odt/"
+          description: "Open Document 텍스트"
 
-        # format loop
-        - name: "Compare XLSX Files"
-          link: "https://products.groupdocs.com/comparison/net/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
+        # format loop 11
+        - name: "JPEG 개의 파일 비교"
+          format: "JPEG"
+          link: "/comparison/net/jpeg/"
+          description: "JPEG 이미지"
 
-        # format loop
-        - name: "Compare XLTM Files"
-          link: "https://products.groupdocs.com/comparison/net/xltm/"
-          description: "Microsoft Excel macro-enabled template"
+        # format loop 12
+        - name: "PNG 개의 파일 비교"
+          format: "PNG"
+          link: "/comparison/net/png/"
+          description: "Portable 네트워크 그래픽"
 
-        # format loop
-        - name: "Compare XLSM Files"
-          link: "https://products.groupdocs.com/comparison/net/xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+        # format loop 13
+        - name: "GIF 개의 파일 비교"
+          format: "GIF"
+          link: "/comparison/net/gif/"
+          description: "그래픽 인터체인지 형식 파일"
 
-        # format loop
-        - name: "Compare XLSB Files"
-          link: "https://products.groupdocs.com/comparison/net/xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
+        # format loop 14
+        - name: "BMP 개의 파일 비교"
+          format: "BMP"
+          link: "/comparison/net/bmp/"
+          description: "비트맵 파일 형식"
 
-        # format loop
-        - name: "Compare CSV Files"
-          link: "https://products.groupdocs.com/comparison/net/csv/"
-          description: "Comma Separated Values File"
+        # format loop 15
+        - name: "HTML 파일 비교"
+          format: "HTML"
+          link: "/comparison/net/html/"
+          description: "하이퍼 텍스트 마크업 언어"
 
-        # format loop
-        - name: "Compare PPT Files"
-          link: "https://products.groupdocs.com/comparison/net/ppt/"
-          description: "PowerPoint Presentation"
+        # format loop 16
+        - name: "MSG 개의 파일 비교"
+          format: "MSG"
+          link: "/comparison/net/msg/"
+          description: "마이크로소프트 Outlook 이메일 메시지"
 
-        # format loop
-        - name: "Compare PPS Files"
-          link: "https://products.groupdocs.com/comparison/net/pps/"
-          description: "Microsoft PowerPoint Slide Show"
+        # format loop 17
+        - name: "ONE 개의 파일 비교"
+          format: "ONE"
+          link: "/comparison/net/one/"
+          description: "마이크로소프트 OneNote"
 
-        # format loop
-        - name: "Compare PPTX Files"
-          link: "https://products.groupdocs.com/comparison/net/pptx/"
-          description: "PowerPoint Open XML Presentation"
+        # format loop 18
+        - name: "VSDX 개의 파일 비교"
+          format: "VSDX"
+          link: "/comparison/net/vsdx/"
+          description: "마이크로소프트 Visio 드로잉"
 
-        # format loop
-        - name: "Compare PPSX Files"
-          link: "https://products.groupdocs.com/comparison/net/ppsx/"
-          description: "PowerPoint Open XML Slide Show"
+        # format loop 19
+        - name: "CS 파일 비교"
+          format: "CS"
+          link: "/comparison/net/cs/"
+          description: "샤프 언어"
 
-        # format loop
-        - name: "Compare POT Files"
-          link: "https://products.groupdocs.com/comparison/net/pot/"
-          description: "Microsoft PowerPoint template"
-
-        # format loop
-        - name: "Compare POTX Files"
-          link: "https://products.groupdocs.com/comparison/net/potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "Compare ODS Files"
-          link: "https://products.groupdocs.com/comparison/net/ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "Compare ODP Files"
-          link: "https://products.groupdocs.com/comparison/net/odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "Compare OTP Files"
-          link: "https://products.groupdocs.com/comparison/net/otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "Compare ODT Files"
-          link: "https://products.groupdocs.com/comparison/net/odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "Compare OTT Files"
-          link: "https://products.groupdocs.com/comparison/net/ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "Compare VST Files"
-          link: "https://products.groupdocs.com/comparison/net/vst/"
-          description: "Microsoft Visio 2003-2010 XML Drawing"
-
-        # format loop
-        - name: "Compare JPEG Files"
-          link: "https://products.groupdocs.com/comparison/net/jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "Compare PNG Files"
-          link: "https://products.groupdocs.com/comparison/net/png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "Compare GIF Files"
-          link: "https://products.groupdocs.com/comparison/net/gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "Compare BMP Files"
-          link: "https://products.groupdocs.com/comparison/net/bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "Compare HTML Files"
-          link: "https://products.groupdocs.com/comparison/net/html/"
-          description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "Compare MHT Files"
-          link: "https://products.groupdocs.com/comparison/net/mht/"
-          description: "Mime HTML"
-
-        # format loop
-        - name: "Compare MHTML Files"
-          link: "https://products.groupdocs.com/comparison/net/mhtml/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "Compare MSG Files"
-          link: "https://products.groupdocs.com/comparison/net/msg/"
-          description: "Microsoft Outlook E-mail Message"
-
-        # format loop
-        - name: "Compare EML Files"
-          link: "https://products.groupdocs.com/comparison/net/eml/"
-          description: "E-mail Message"
-
-        # format loop
-        - name: "Compare EMLX Files"
-          link: "https://products.groupdocs.com/comparison/net/emlx/"
-          description: "Apple Mail E-mail File"
-
-        # format loop
-        - name: "Compare ONE Files"
-          link: "https://products.groupdocs.com/comparison/net/one/"
-          description: "Microsoft OneNote"
-
-        # format loop
-        - name: "Compare VSD Files"
-          link: "https://products.groupdocs.com/comparison/net/vsd/"
-          description: "Microsoft Visio 2003-2010 Drawing"
-
-        # format loop
-        - name: "Compare VSDX Files"
-          link: "https://products.groupdocs.com/comparison/net/vsdx/"
-          description: "Microsoft Visio Drawing"
-
-        # format loop
-        - name: "Compare VSS Files"
-          link: "https://products.groupdocs.com/comparison/net/vss/"
-          description: "Microsoft Visio 2003-2010 Stencil"
-
-        # format loop
-        - name: "Compare VST Files"
-          link: "https://products.groupdocs.com/comparison/net/vst/"
-          description: "Microsoft Visio 2003-2010 Template"
-
-        # format loop
-        - name: "Compare VDX Files"
-          link: "https://products.groupdocs.com/comparison/net/vdx/"
-          description: "Microsoft Visio 2003-2010 XML Drawing"
-
-        # format loop
-        - name: "Compare CS Files"
-          link: "https://products.groupdocs.com/comparison/net/cs/"
-          description: "CSharp Language"
-
-        # format loop
-        - name: "Compare Java Files"
-          link: "https://products.groupdocs.com/comparison/net/java/"
-          description: "Java Language"
-
-        # format loop
-        - name: "Compare CPP Files"
-          link: "https://products.groupdocs.com/comparison/net/cpp/"
-          description: "C++ Language"
-
-        # format loop
-        - name: "Compare JS Files"
-          link: "https://products.groupdocs.com/comparison/net/js/"
-          description: "JavaScript Language"
-
-        # format loop
-        - name: "Compare PY Files"
-          link: "https://products.groupdocs.com/comparison/net/py/"
-          description: "Python Language"
-
-        # format loop
-        - name: "Compare RB Files"
-          link: "https://products.groupdocs.com/comparison/net/rb/"
-          description: "Ruby Language"
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Comparison은 기타 널리 사용되는 개발 환경을 위한 문서 보기 API를 제공합니다."
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Comparison for Java PDF"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
-          product: "GroupDocs.Comparison"
-          platform: "Java"
-          link: "/comparison/java/pdf/"
-
-############################# Back to top ###############################
-back_to_top:
-    enable: true
+        # format loop 20
+        - name: "Java 개의 파일 비교"
+          format: "Java"
+          link: "/comparison/net/java/"
+          description: "Java 언어"
+          
+        # format loop 21
+        - name: "CPP 파일 비교"
+          format: "CPP"
+          link: "/comparison/net/cpp/"
+          description: "C++ 언어"
 ---

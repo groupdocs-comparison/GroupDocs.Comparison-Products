@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "name": "Порівняти PDF файлів",
+        "description": "Adobe Portable Формат документа"
+      },
+      "docx": {
+        "name": "Порівняйте DOCX файлів",
+        "description": "Майкрософт Word Відкритий документ XML"
+      },
+      "rtf": {
+        "name": "Порівняти RTF файлів",
+        "description": "Формат багатого текстового файлу"
+      },
+      "txt": {
+        "name": "Порівняти TXT файлів",
+        "description": "Формат звичайного текстового файлу"
+      },
+      "xlsx": {
+        "name": "Порівняння файлів XLSX",
+        "description": "Microsoft Excel Відкрита таблиця XML"
+      },
+      "csv": {
+        "name": "Порівняння файлів CSV",
+        "description": "Файл значень, розділених комами"
+      },
+      "pptx": {
+        "name": "Порівняння файлів PPTX",
+        "description": "PowerPoint Відкрита презентація XML"
+      },
+      "ods": {
+        "name": "Порівняння файлів ODS",
+        "description": "Open Document Електронна таблиця"
+      },
+      "odp": {
+        "name": "Порівняння файлів ODP",
+        "description": "OpenDocument Формат файлу презентації"
+      },
+      "odt": {
+        "name": "Порівняти ODT файли",
+        "description": "Open Document Текст"
+      },
+      "jpeg": {
+        "name": "Порівняння файлів JPEG",
+        "description": "JPEG Зображення"
+      },
+      "png": {
+        "name": "Порівняння файлів PNG",
+        "description": "Portable Мережева графіка"
+      },
+      "gif": {
+        "name": "Порівняння файлів GIF",
+        "description": "Файл формату графічного обміну"
+      },
+      "bmp": {
+        "name": "Порівняння файлів BMP",
+        "description": "Формат растрового файлу"
+      },
+      "html": {
+        "name": "Порівняння файлів HTML",
+        "description": "Мова гіпертекстової розмітки"
+      },
+      "msg": {
+        "name": "Порівняння файлів MSG",
+        "description": "Повідомлення електронної пошти Майкрософт Outlook"
+      },
+      "one": {
+        "name": "Порівняти ONE файлів",
+        "description": "Майкрософт OneNote"
+      },
+      "vsdx": {
+        "name": "Порівняти VSDX файлів",
+        "description": "Майкрософт Visio Малювання"
+      },
+      "cs": {
+        "name": "Порівняння файлів CS",
+        "description": "Мова CSharp"
+      },
+      "java": {
+        "name": "Порівняння файлів Java",
+        "description": "Java Мова"
+      },
+      "cpp": {
+        "name": "Порівняння файлів CPP",
+        "description": "Мова C++"
+      }
+    },
+    "format-code": {
+      "copy_title": "Копіювати",
+      "copy_tip": "натисніть, щоб скопіювати",
+      "copy_done": "скопійовано",
+      "links": {
+        "title_1": "Більше прикладів",
+        "title_2": "Документація"
+      }
+    },
+    "format-actions": {
+      "title": "Готові розпочати роботу?",
+      "description": "Спробуйте {{ProdShortName}} функцій безкоштовно або попросіть ліцензію",
+      "comment_1": "{{PackageStoreName}} завантажити",
+      "comment_2": "Ліцензування"
+    },
+    "texts": {
+      "learn_more": "Дізнатися більше"
+    }
+  }
+}

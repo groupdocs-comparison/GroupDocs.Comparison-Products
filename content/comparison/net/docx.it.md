@@ -1,388 +1,235 @@
+
 ---
 ############################# Static ############################
-layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:19+03:00
+layout: "format"
+date:  2024-03-21T15:26:23
 draft: false
+lang: it
+format: Docx
+product: "Comparison"
+product_tag: "comparison"
+platform: ".NET"
+platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Confronta due file DOCX in .NET | API di confronto dei documenti"
-head_description: "Confronta e unisci più di due file DOCX nelle applicazioni C# .NET. Recupera il riepilogo delle differenze nel contenuto, nel testo e nello stile di file, immagini e formati di documenti DOCX."
+head_title: "Confronta MS Word DOCX con C# e .NET"
+head_description: "DOCX confronto con GroupDocs.Comparison for .NET. Rapporto dettagliato con le modifiche evidenziate tra DOCX documenti. Usa la nostra API insieme a C#."
 
 ############################# Header ############################
-title: "Confronta i file DOCX in C# .NET"
-description: "API di confronto dei documenti .NET per rilevare le modifiche tra due versioni di file DOCX ed esportarle in un documento finale con un riepilogo dettagliato delle differenze tra i documenti confrontati."
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Scarica la prova gratuita"
-    link: "https://downloads.groupdocs.com/comparison/net"
+title: "MS Word DOCX confronto con C# .NET applicazioni" 
+description: "L'API .NET progettata per il confronto dei documenti trova e segnala eventuali differenze nei file MS Word. Crea applicazioni basate su C#, ASP .NET, VB .NET o .NET Core per ottenere vantaggi. Ottieni report dettagliati aggiungendo alcune righe di codice."
+subtitle: "Soluzione per il confronto dei documenti" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Comparison for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-net.png"
-        product: "GroupDocs.Comparison"
-        platform: ".NET"
-
-    middle:
-        button: 
-            # button loop
-            - link: "https://apireference.groupdocs.com/comparison/net"
-              text: "Riferimento API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-comparison"
-              text: "Esempi di codici"
-
-            # button loop
-            - link: "https://products.groupdocs.app/comparison/family"
-              text: "Demo dal vivo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/comparison/net"
-              text: "Prezzi"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/comparison"
-        link_learn: "https://docs.groupdocs.com/comparison/net"
-        link_buy: "https://purchase.groupdocs.com"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Download gratuito di Nuget"
+      link: "https://releases.groupdocs.com/comparison/net/"
+      
 ############################# About ############################
 about:
     enable: true
-    title: "Informazioni sull'API GroupDocs.Comparison for .NET"
+    title: "Esamina le funzionalità dell'API GroupDocs.Comparison for .NET"
+    link: "/comparison/net/"
+    link_title: "Scopri di più"
+    picture: "about_viewer.svg" # 480 X 400
     content: |
-        [GroupDocs.Comparison for .NET](/comparison/net/) è un'API .NET nativa per confrontare più immagini e documenti dello stesso formato. Ti aiuta a rilevare le differenze all'interno di paragrafi, parole, caratteri, forme e persino negli stili di testo dei documenti confrontati, unire le modifiche ed esportarle in un documento finale. Supporta il confronto e l'unione di PDF, documenti Word, fogli di calcolo Excel, presentazioni PowerPoint, diagrammi Visio, e-mail di Outlook, HTML, disegni e formati di file immagine senza utilizzare alcuna libreria esterna.
+       Rivela le modifiche ai tuoi documenti DOCX con un comodo report nei tuoi .NET progetti. Inoltre, ottieni informazioni su stili, forme e altri contenuti e unisci i file DOCX in uno nuovo. I vantaggi delle GroupDocs.Comparison for .NET API possono essere apportati ai tuoi progetti con solo un paio di righe di codice. Usa il nostro software senza sviluppatori di terze parti.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Passaggi per confrontare i file DOCX in C#"
-    content_left: |
-        [GroupDocs.Comparison](/comparison/net/) semplifica agli sviluppatori .NET il confronto e l'unione di più file DOCX nelle loro applicazioni implementando alcuni semplici passaggi.
-        * Crea un'istanza dell'oggetto **Comparer** con il percorso o il flusso del documento di origine.
-        * Chiama il metodo Aggiungi e specifica il percorso o il flusso del documento di destinazione. Ripetere questo passaggio per ogni documento di destinazione.
-        * Metodo di confronto delle chiamate.
-    title_right: "Requisiti di sistema"
-    content_right: |
-        Le API GroupDocs.Comparison for .NET sono supportate su tutte le principali piattaforme e sistemi operativi. Prima di eseguire il codice seguente, assicurati di avere i seguenti prerequisiti installati sul tuo sistema.
-        * Sistemi operativi: Microsoft Windows, Linux, MacOS
-        * Ambienti di sviluppo: Microsoft Visual Studio, Xamarin, MonoDevelop
-        * Framework: .NET Framework, .NET Standard, .NET Core, Mono
-        * Ottieni la versione più recente di GroupDocs.Comparison for .NET scaricata da [NuGet](https://www.nuget.org/packages/groupdocs.comparison)
-    code: |
-        ```cs
-        // Confronta più documenti dal disco locale
-        
+    title: "MS Word DOCX report di confronto tramite .NET e C#"
+    content: |
+      Componi un rapporto sulle distinzioni per DOCX file utilizzando [GroupDocs.Comparison](https://products.groupdocs.com/comparison/net/)
+      
+      1. Scarica il pacchetto GroupDocs.Comparison for .NET da [Nuget](https://www.nuget.org/packages/GroupDocs.Comparison) e installalo
+      2. Istanzia l'oggetto Comparer che passa il percorso a DOCX
+      3. Aggiungi DOCX file al confronto
+      4. Ottieni un rapporto con informazioni sulle distinzioni
+   
+    code:
+      platform: "net"
+      copy_title: "Copia"
+      install:
+        command: "dotnet add package GroupDocs.Comparison"
+        copy_tip: "clicca per copiare"
+        copy_done: "copiato"
+      links:
+        #  loop
+        - title: "Altri esempi"
+          link: "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-.NET"
+        #  loop
+        - title: "Documentazione"
+          link: "https://docs.groupdocs.com/comparison/net/"
+          
+      content: |
+        ```csharp {style=abap}
+
+        // Rapporto sulle alterazioni dei file DOCX
+
+        // Instanziate Comparer per l'elaborazione dei documenti
         using (Comparer comparer = new Comparer("source.docx"))
         {
-        	comparer.Add("target1.docx");
-            comparer.Add("target2.docx");
-            comparer.Add("target3.docx");
-            comparer.Compare("result.docx"); // Crea il file dei risultati con il nome specificato
+            // Aggiungi almeno un file per il confronto
+        	comparer.Add("file_to_compare_1.docx");
+            comparer.Add("file_to_compare_2.docx");
+            comparer.Add("file_to_compare_3.docx");
+
+            // Analizza il risultato
+            comparer.Compare("result.docx"); 
         }
         
-        // Confronta più documenti dallo streaming
-        
-        using (Comparer comparer = new Comparer(File.OpenRead("source.docx")))
-        {
-        	comparer.Add(File.OpenRead("target1.docx"));
-            comparer.Add(File.OpenRead("target2.docx"));
-            comparer.Add(File.OpenRead("target3.docx"));
-            comparer.Compare(File.Create("result.docx")); // Crea il file dei risultati con il nome specificato
-        }
-        ```
+        ```            
 
-############################# Demos ############################
-demos:
-    enable: true
-    title: "Demo dal vivo del confronto di file DOCX"
-    content: |
-        Rileva subito le differenze tra i file DOCX visitando il sito web [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family).
-        La demo live presenta i seguenti vantaggi
+############################# Actions ############################
 
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-docx"
-          title: "Informazioni sul formato file DOCX"
-          content: |
-            DOCX è un formato noto per i documenti Microsoft Word. Introdotto dal 2007 con il rilascio di Microsoft Office 2007, la struttura di questo nuovo formato di documento è stata modificata da semplice binario a una combinazione di file XML e binari. I file Docx possono essere aperti con Word 2007 e versioni laterali ma non con le versioni precedenti di MS Word che supportano le estensioni di file DOC.
-          link: "https://docs.fileformat.com/image/docx/"
+actions:
+  enable: true
+  title: "Pronto per iniziare?"
+  description: "Prova le funzioni GroupDocs.Comparison gratuitamente o richiedi una licenza"
+  items:
+    #  loop
+    - title: "Nuget scarica"
+      link: "https://releases.groupdocs.com/comparison/net/"
+      color: "red"
+        #  loop
+    - title: "Licenze"
+      link: "https://purchase.groupdocs.com/pricing/comparison/net/"
+      color: "light"
 
-############################# More Formats ############################
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Confronto tra altri formati di file"
-    content: |
-        API per il confronto di documenti e immagini multiformato per .NET. Analizza le differenze tra documenti dello stesso formato senza utilizzare nessuno strumento esterno.
-    format: 
-        # format loop
-        - name: "Compare PDF Files"
-          link: "https://products.groupdocs.com/comparison/net/pdf/"
-          description: "Adobe Portable Document Format"
+    title: "Confronto tra DOCX e C# applicazioni"
+    exclude: "DOCX"
+    description: "GroupDocs.Comparison for .NET vantaggi per le versioni di controllo dei formati di file più diffusi. Raccogli informazioni sui MS Word documenti in modo rapido e semplice."
+    items: 
+        # format loop 1
+        - name: "Confronta PDF file"
+          format: "PDF"
+          link: "/comparison/net/pdf/"
+          description: "Formato documento Adobe Portable"
 
-        # format loop
-        - name: "Compare DOC Files"
-          link: "https://products.groupdocs.com/comparison/net/doc/"
-          description: "Microsoft Word Document"
+        # format loop 2
+        - name: "Confronta DOCX file"
+          format: "DOCX"
+          link: "/comparison/net/docx/"
+          description: "Documento XML aperto Microsoft Word"
 
-        # format loop
-        - name: "Compare DOCM Files"
-          link: "https://products.groupdocs.com/comparison/net/docm/"
-          description: "Microsoft Word Macro-Enabled Document"
+        # format loop 3
+        - name: "Confronta RTF file"
+          format: "RTF"
+          link: "/comparison/net/rtf/"
+          description: "Formato di file RTF"
 
-        # format loop
-        - name: "Compare DOCX Files"
-          link: "https://products.groupdocs.com/comparison/net/docx/"
-          description: "Microsoft Word Open XML Document"
+        # format loop 4
+        - name: "Confronta TXT file"
+          format: "TXT"
+          link: "/comparison/net/txt/"
+          description: "Formato di file di testo normale"
 
-        # format loop
-        - name: "Compare DOT Files"
-          link: "https://products.groupdocs.com/comparison/net/dot/"
-          description: "Microsoft Word Document Template"
+        # format loop 5
+        - name: "Confronta XLSX file"
+          format: "XLSX"
+          link: "/comparison/net/xlsx/"
+          description: "Foglio di calcolo Microsoft Excel Open XML"
 
-        # format loop
-        - name: "Compare DOTM Files"
-          link: "https://products.groupdocs.com/comparison/net/dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
+        # format loop 6
+        - name: "Confronta i file CSV"
+          format: "CSV"
+          link: "/comparison/net/csv/"
+          description: "File con valori separati da virgole"
 
-        # format loop
-        - name: "Compare DOTX Files"
-          link: "https://products.groupdocs.com/comparison/net/dotx/"
-          description: "Word Open XML Document Template"
+        # format loop 7
+        - name: "Confronta PPTX file"
+          format: "PPTX"
+          link: "/comparison/net/pptx/"
+          description: "PowerPoint Presentazione XML aperta"
 
-        # format loop
-        - name: "Compare RTF Files"
-          link: "https://products.groupdocs.com/comparison/net/rtf/"
-          description: "Rich Text File Format"
+        # format loop 8
+        - name: "Confronta ODS file"
+          format: "ODS"
+          link: "/comparison/net/ods/"
+          description: "Open Document Foglio di calcolo"
 
-        # format loop
-        - name: "Compare TXT Files"
-          link: "https://products.groupdocs.com/comparison/net/txt/"
-          description: "Plain Text File Format"
+        # format loop 9
+        - name: "Confronta i file ODP"
+          format: "ODP"
+          link: "/comparison/net/odp/"
+          description: "OpenDocument Formato del file di presentazione"
 
-        # format loop
-        - name: "Compare XLS Files"
-          link: "https://products.groupdocs.com/comparison/net/xls/"
-          description: "Microsoft Excel Binary File Format"
+        # format loop 10
+        - name: "Confronta ODT file"
+          format: "ODT"
+          link: "/comparison/net/odt/"
+          description: "Open Document Testo"
 
-        # format loop
-        - name: "Compare XLSX Files"
-          link: "https://products.groupdocs.com/comparison/net/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
+        # format loop 11
+        - name: "Confronta JPEG file"
+          format: "JPEG"
+          link: "/comparison/net/jpeg/"
+          description: "JPEG Immagine"
 
-        # format loop
-        - name: "Compare XLTM Files"
-          link: "https://products.groupdocs.com/comparison/net/xltm/"
-          description: "Microsoft Excel macro-enabled template"
+        # format loop 12
+        - name: "Confronta PNG file"
+          format: "PNG"
+          link: "/comparison/net/png/"
+          description: "Portable Grafica di rete"
 
-        # format loop
-        - name: "Compare XLSM Files"
-          link: "https://products.groupdocs.com/comparison/net/xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+        # format loop 13
+        - name: "Confronta GIF file"
+          format: "GIF"
+          link: "/comparison/net/gif/"
+          description: "File di formato di interscambio grafico"
 
-        # format loop
-        - name: "Compare XLSB Files"
-          link: "https://products.groupdocs.com/comparison/net/xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
+        # format loop 14
+        - name: "Confronta BMP file"
+          format: "BMP"
+          link: "/comparison/net/bmp/"
+          description: "Formato di file bitmap"
 
-        # format loop
-        - name: "Compare CSV Files"
-          link: "https://products.groupdocs.com/comparison/net/csv/"
-          description: "Comma Separated Values File"
+        # format loop 15
+        - name: "Confronta i file HTML"
+          format: "HTML"
+          link: "/comparison/net/html/"
+          description: "Linguaggio di markup Hyper Text"
 
-        # format loop
-        - name: "Compare PPT Files"
-          link: "https://products.groupdocs.com/comparison/net/ppt/"
-          description: "PowerPoint Presentation"
+        # format loop 16
+        - name: "Confronta MSG file"
+          format: "MSG"
+          link: "/comparison/net/msg/"
+          description: "Messaggio di posta elettronica Microsoft Outlook"
 
-        # format loop
-        - name: "Compare PPS Files"
-          link: "https://products.groupdocs.com/comparison/net/pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "Compare PPTX Files"
-          link: "https://products.groupdocs.com/comparison/net/pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "Compare PPSX Files"
-          link: "https://products.groupdocs.com/comparison/net/ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "Compare POT Files"
-          link: "https://products.groupdocs.com/comparison/net/pot/"
-          description: "Microsoft PowerPoint template"
-
-        # format loop
-        - name: "Compare POTX Files"
-          link: "https://products.groupdocs.com/comparison/net/potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "Compare ODS Files"
-          link: "https://products.groupdocs.com/comparison/net/ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "Compare ODP Files"
-          link: "https://products.groupdocs.com/comparison/net/odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "Compare OTP Files"
-          link: "https://products.groupdocs.com/comparison/net/otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "Compare ODT Files"
-          link: "https://products.groupdocs.com/comparison/net/odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "Compare OTT Files"
-          link: "https://products.groupdocs.com/comparison/net/ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "Compare VST Files"
-          link: "https://products.groupdocs.com/comparison/net/vst/"
-          description: "Microsoft Visio 2003-2010 XML Drawing"
-
-        # format loop
-        - name: "Compare JPEG Files"
-          link: "https://products.groupdocs.com/comparison/net/jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "Compare PNG Files"
-          link: "https://products.groupdocs.com/comparison/net/png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "Compare GIF Files"
-          link: "https://products.groupdocs.com/comparison/net/gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "Compare BMP Files"
-          link: "https://products.groupdocs.com/comparison/net/bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "Compare HTML Files"
-          link: "https://products.groupdocs.com/comparison/net/html/"
-          description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "Compare MHT Files"
-          link: "https://products.groupdocs.com/comparison/net/mht/"
-          description: "Mime HTML"
-
-        # format loop
-        - name: "Compare MHTML Files"
-          link: "https://products.groupdocs.com/comparison/net/mhtml/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "Compare MSG Files"
-          link: "https://products.groupdocs.com/comparison/net/msg/"
-          description: "Microsoft Outlook E-mail Message"
-
-        # format loop
-        - name: "Compare EML Files"
-          link: "https://products.groupdocs.com/comparison/net/eml/"
-          description: "E-mail Message"
-
-        # format loop
-        - name: "Compare EMLX Files"
-          link: "https://products.groupdocs.com/comparison/net/emlx/"
-          description: "Apple Mail E-mail File"
-
-        # format loop
-        - name: "Compare ONE Files"
-          link: "https://products.groupdocs.com/comparison/net/one/"
+        # format loop 17
+        - name: "Confronta ONE file"
+          format: "ONE"
+          link: "/comparison/net/one/"
           description: "Microsoft OneNote"
 
-        # format loop
-        - name: "Compare VSD Files"
-          link: "https://products.groupdocs.com/comparison/net/vsd/"
-          description: "Microsoft Visio 2003-2010 Drawing"
+        # format loop 18
+        - name: "Confronta VSDX file"
+          format: "VSDX"
+          link: "/comparison/net/vsdx/"
+          description: "Disegno Microsoft Visio"
 
-        # format loop
-        - name: "Compare VSDX Files"
-          link: "https://products.groupdocs.com/comparison/net/vsdx/"
-          description: "Microsoft Visio Drawing"
+        # format loop 19
+        - name: "Confronta i file CS"
+          format: "CS"
+          link: "/comparison/net/cs/"
+          description: "Linguaggio CSharp"
 
-        # format loop
-        - name: "Compare VSS Files"
-          link: "https://products.groupdocs.com/comparison/net/vss/"
-          description: "Microsoft Visio 2003-2010 Stencil"
-
-        # format loop
-        - name: "Compare VST Files"
-          link: "https://products.groupdocs.com/comparison/net/vst/"
-          description: "Microsoft Visio 2003-2010 Template"
-
-        # format loop
-        - name: "Compare VDX Files"
-          link: "https://products.groupdocs.com/comparison/net/vdx/"
-          description: "Microsoft Visio 2003-2010 XML Drawing"
-
-        # format loop
-        - name: "Compare CS Files"
-          link: "https://products.groupdocs.com/comparison/net/cs/"
-          description: "CSharp Language"
-
-        # format loop
-        - name: "Compare Java Files"
-          link: "https://products.groupdocs.com/comparison/net/java/"
-          description: "Java Language"
-
-        # format loop
-        - name: "Compare CPP Files"
-          link: "https://products.groupdocs.com/comparison/net/cpp/"
-          description: "C++ Language"
-
-        # format loop
-        - name: "Compare JS Files"
-          link: "https://products.groupdocs.com/comparison/net/js/"
-          description: "JavaScript Language"
-
-        # format loop
-        - name: "Compare PY Files"
-          link: "https://products.groupdocs.com/comparison/net/py/"
-          description: "Python Language"
-
-        # format loop
-        - name: "Compare RB Files"
-          link: "https://products.groupdocs.com/comparison/net/rb/"
-          description: "Ruby Language"
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Comparison offre API di visualizzazione di documenti per altri ambienti di sviluppo popolari"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Comparison for Java DOCX"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-java.png"
-          product: "GroupDocs.Comparison"
-          platform: "Java"
-          link: "/comparison/java/docx/"
-
-############################# Back to top ###############################
-back_to_top:
-    enable: true
+        # format loop 20
+        - name: "Confronta Java file"
+          format: "Java"
+          link: "/comparison/net/java/"
+          description: "Java Lingua"
+          
+        # format loop 21
+        - name: "Confronta i file CPP"
+          format: "CPP"
+          link: "/comparison/net/cpp/"
+          description: "Linguaggio C++"
 ---

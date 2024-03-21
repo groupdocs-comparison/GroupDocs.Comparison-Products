@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "name": "Сравните PDF файлы",
+        "description": "Формат документа Adobe Portable"
+      },
+      "docx": {
+        "name": "Сравните DOCX файлы",
+        "description": "Открыть XML-документ Microsoft Word"
+      },
+      "rtf": {
+        "name": "Сравните RTF файлы",
+        "description": "Формат файла с расширенным текстовым форматом"
+      },
+      "txt": {
+        "name": "Сравните TXT файлы",
+        "description": "Формат файла в виде простого текста"
+      },
+      "xlsx": {
+        "name": "Сравните XLSX файлы",
+        "description": "Открытая электронная таблица XML от Майкрософт Excel"
+      },
+      "csv": {
+        "name": "Сравните CSV-файлы",
+        "description": "Файл значений, разделенных запятыми"
+      },
+      "pptx": {
+        "name": "Сравните PPTX файлы",
+        "description": "PowerPoint Открытая презентация XML"
+      },
+      "ods": {
+        "name": "Сравните ODS файлы",
+        "description": "Open Document Электронная таблица"
+      },
+      "odp": {
+        "name": "Сравните файлы ODP",
+        "description": "OpenDocument Формат файла презентации"
+      },
+      "odt": {
+        "name": "Сравните файлы ODT",
+        "description": "Open Document Текст"
+      },
+      "jpeg": {
+        "name": "Сравните файлы JPEG",
+        "description": "JPEG Изображение"
+      },
+      "png": {
+        "name": "Сравните PNG файлы",
+        "description": "Portable Сетевая графика"
+      },
+      "gif": {
+        "name": "Сравните GIF файлы",
+        "description": "Файл формата графического обмена"
+      },
+      "bmp": {
+        "name": "Сравните BMP файлы",
+        "description": "Формат растрового файла"
+      },
+      "html": {
+        "name": "Сравнение HTML-файлов",
+        "description": "Язык гипертекстовой разметки"
+      },
+      "msg": {
+        "name": "Сравните MSG файлы",
+        "description": "Сообщение электронной почты Microsoft Outlook"
+      },
+      "one": {
+        "name": "Сравните ONE файлы",
+        "description": "Майкрософт OneNote"
+      },
+      "vsdx": {
+        "name": "Сравните VSDX файлы",
+        "description": "Чертеж Майкрософт Visio"
+      },
+      "cs": {
+        "name": "Сравните файлы CS",
+        "description": "Язык программирования CSharp"
+      },
+      "java": {
+        "name": "Сравните Java файлы",
+        "description": "Java Язык"
+      },
+      "cpp": {
+        "name": "Сравнение файлов CPP",
+        "description": "Язык C++"
+      }
+    },
+    "format-code": {
+      "copy_title": "Копировать",
+      "copy_tip": "нажмите, чтобы скопировать",
+      "copy_done": "скопировал",
+      "links": {
+        "title_1": "Больше примеров",
+        "title_2": "Документация"
+      }
+    },
+    "format-actions": {
+      "title": "Готовы начать?",
+      "description": "Попробуйте функции {{ProdShortName}} бесплатно или запросите лицензию",
+      "comment_1": "{{PackageStoreName}} скачать",
+      "comment_2": "Лицензирование"
+    },
+    "texts": {
+      "learn_more": "Узнайте больше"
+    }
+  }
+}

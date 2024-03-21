@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "name": "PDF 개의 파일 비교",
+        "description": "어도비 Portable 문서 형식"
+      },
+      "docx": {
+        "name": "DOCX 개의 파일 비교",
+        "description": "마이크로소프트 Word 오픈 XML 문서"
+      },
+      "rtf": {
+        "name": "RTF 개의 파일 비교",
+        "description": "리치 텍스트 파일 포맷"
+      },
+      "txt": {
+        "name": "TXT 개의 파일 비교",
+        "description": "일반 텍스트 파일 형식"
+      },
+      "xlsx": {
+        "name": "XLSX 개의 파일 비교",
+        "description": "마이크로소프트 Excel 오픈 XML 스프레드시트"
+      },
+      "csv": {
+        "name": "CSV 파일 비교",
+        "description": "쉼표로 구분된 값 파일"
+      },
+      "pptx": {
+        "name": "PPTX 개의 파일 비교",
+        "description": "PowerPoint 오픈 XML 프레젠테이션"
+      },
+      "ods": {
+        "name": "ODS 개의 파일 비교",
+        "description": "Open Document 스프레드시트"
+      },
+      "odp": {
+        "name": "ODP 파일 비교",
+        "description": "OpenDocument 프레젠테이션 파일 형식"
+      },
+      "odt": {
+        "name": "ODT 개의 파일 비교",
+        "description": "Open Document 텍스트"
+      },
+      "jpeg": {
+        "name": "JPEG 개의 파일 비교",
+        "description": "JPEG 이미지"
+      },
+      "png": {
+        "name": "PNG 개의 파일 비교",
+        "description": "Portable 네트워크 그래픽"
+      },
+      "gif": {
+        "name": "GIF 개의 파일 비교",
+        "description": "그래픽 인터체인지 형식 파일"
+      },
+      "bmp": {
+        "name": "BMP 개의 파일 비교",
+        "description": "비트맵 파일 형식"
+      },
+      "html": {
+        "name": "HTML 파일 비교",
+        "description": "하이퍼 텍스트 마크업 언어"
+      },
+      "msg": {
+        "name": "MSG 개의 파일 비교",
+        "description": "마이크로소프트 Outlook 이메일 메시지"
+      },
+      "one": {
+        "name": "ONE 개의 파일 비교",
+        "description": "마이크로소프트 OneNote"
+      },
+      "vsdx": {
+        "name": "VSDX 개의 파일 비교",
+        "description": "마이크로소프트 Visio 드로잉"
+      },
+      "cs": {
+        "name": "CS 파일 비교",
+        "description": "샤프 언어"
+      },
+      "java": {
+        "name": "Java 개의 파일 비교",
+        "description": "Java 언어"
+      },
+      "cpp": {
+        "name": "CPP 파일 비교",
+        "description": "C++ 언어"
+      }
+    },
+    "format-code": {
+      "copy_title": "복사",
+      "copy_tip": "클릭하여 복사",
+      "copy_done": "복사",
+      "links": {
+        "title_1": "더 많은 예시",
+        "title_2": "문서화"
+      }
+    },
+    "format-actions": {
+      "title": "시작할 준비가 되셨나요?",
+      "description": "{{ProdShortName}} 기능을 무료로 체험하거나 라이선스를 요청하세요",
+      "comment_1": "{{PackageStoreName}} 다운로드",
+      "comment_2": "라이선싱"
+    },
+    "texts": {
+      "learn_more": "자세히 알아보기"
+    }
+  }
+}

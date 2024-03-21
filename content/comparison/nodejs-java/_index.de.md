@@ -1,78 +1,97 @@
+
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-12-14T14:24:25
+date: 2024-03-21T15:26:29
 draft: false
+
+lang: de
 product: "Comparison"
 product_tag: "comparison"
 platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
+
 ############################# Head ############################
-head_title: "{index-content-nodejs-java.head_title}"
-head_description: "{index-content-nodejs-java.head_description}"
+head_title: "Node.js API für den Dokumentenvergleich | Diff-Checker"
+head_description: "Die Node.js Document Comparison API bietet effiziente Tools für den Vergleich von Dokumenten. Lässt sich nahtlos in Node.js integrieren und ermöglicht so die Nachverfolgung von Änderungen in Echtzeit"
 
 ############################# Header ############################
-title: "{index-content-nodejs-java.title}"
-description: "{index-content-nodejs-java.description}"
+title: "Dokumente mit Node.js vergleichen: Alle Unterschiede hervorheben"
+description: "Verwenden Sie die GroupDocs.Comparison API, um native Java Script-Anwendungen mit hochgradig konfigurierbaren Vergleichsfunktionen zu entwickeln. Vergleichen Sie Dateien, ihren Inhalt und ihren Textstil zwischen ähnlichen Dokumentformaten."
 words:
-  for: "{index-content-nodejs-java.words_for}"
+  for: "zum"
 
 actions:
-  main: "{index-content-nodejs-java.actions_main}"
+  main: "Kostenloser NPM-Download"
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.comparison"
-  alt: "{index-content-nodejs-java.actions_alt}"
-  alt_link: "https://purchase.groupdocs.com/pricing/comparison/nodejs-java"
-  title: "{index-content-nodejs-java.actions_title}"
-  description: "{index-content-nodejs-java.actions_description}"
+  alt: "Lizenzierung"
+  alt_link: "https://purchase.groupdocs.com/pricing/comparison/java/"
+  title: "Bereit loszulegen?"
+  description: "Testen Sie GroupDocs.Comparison Funktionen kostenlos oder fordern Sie eine Lizenz an"
 
 release:
-  title: "{index-content-nodejs-java.release_title}"
-  notes: "{index-content-nodejs-java.release_notes}"
-  downloads: "{index-content-nodejs-java.release_downloads}"
-  link: "https://releases.groupdocs.com/comparison/nodejs-java/release-notes/latest/"
+  title: "Version {0} veröffentlicht"
+  notes: "Schau dir an, was es Neues gibt"
+  downloads: "herunterladbare"
 
 code:
-  title: "{index-content-nodejs-java.code_title}"
-  more: "{index-content-nodejs-java.code_more}"
+  title: "Vergleiche BMP Bilder in Java Script"
+  more: "Mehr Beispiele"
   more_link: "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.comparison"
   content: |
     ```javascript {style=abap}
 
-    // {index-content-nodejs-java.code_comment_1}
-    let comparer = new Comparer("C:\\source.bmp");
+    // Geben Sie das Quelldokument an
+    let comparer = new Comparer("source.bmp");
 
-    // {index-content-nodejs-java.code_comment_2}
-    comparer.add("C:\\target.bmp");
+    // Fügen Sie ein oder mehrere Zieldokumente hinzu
+    comparer.add("target.bmp");
 
-    // {index-content-nodejs-java.code_comment_3}
-    comparer.compare("C:\\result.pdf"); 
+    // Vergleichsoptionen angeben
+    comparer.compare("result.bmp"); 
     ```
 
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content-nodejs-java.overview_title}"
-  description: "{index-content-nodejs-java.overview_description}"
+  title: "GroupDocs.Comparison auf einen Blick"
+  description: "API zum Vergleich verschiedener Dokumenttypen wie PDF, Microsoft Office, HTML, E-Mails oder Bilder in Node.js Anwendungen"
   features:
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_1.title}"
-      content: "{index-content-nodejs-java.overview_feature_1.description}"
+    - title: "Detaillierte Ausgabeberichte"
+      content: "GroupDocs.Comparison identifiziert Änderungen im Dokumentinhalt (Zeichen, Wörter, Absätze, Tabellen, Diagramme) sowie Änderungen im Dokumentstil. Es bietet Kunden einen Ergebnisbericht, der umfangreiche Informationen über Unterschiede, deren Anzahl und Typ enthält."
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_2.title}"
-      content: "{index-content-nodejs-java.overview_feature_2.description}"
+    - title: "Die gängigsten Datei- und Dokumentformate werden unterstützt"
+      content: "Mit der GroupDocs.Comparison API können Sie Dokumente aller unterstützten Formate wie PDF, HTML, E-Mail, Microsoft Office Word Dokumente, Excel Tabellen, PowerPoint Präsentationen, OneNote, Visio Diagramme, Texte, JPEG, PNG, GIF und BMP Bilder sowie viele andere Formate effizient vergleichen."
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_3.title}"
-      content: "{index-content-nodejs-java.overview_feature_3.description}"
+    - title: "Dokumentation und Beispiele"
+      content: "Es gibt bereits eine Menge Dokumentation zur Verwendung der Comparison Library auf verschiedenen Plattformen mit Codebeispielen, sodass Sie nicht lange darüber nachdenken müssen, wie Sie mit der GroupDocs.Comparison API in Ihrer Node.js -Anwendung arbeiten können."
+
+    # feature loop
+    - title: "Wählen Sie Änderungen aus und führen Sie sie zu einer Datei zusammen"
+      content: "Wenn Sie verschiedene Versionen eines Dokuments haben, ist es möglich, nur die gewünschten Änderungen auszuwählen und ein neues Dokument mithilfe der GroupDocs.Comparison -Bibliothek zu kompilieren."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content-nodejs-java.platforms_title}"
-  description: "{index-content-nodejs-java.platforms_description}"
+  title: "Plattformunabhängigkeit"
+  description: "GroupDocs.Comparison for Node.js via Java unterstützt die folgenden Betriebssysteme, Frameworks und Paketmanager"
   items:
     # platform loop
     - title: "Windows"
@@ -111,145 +130,147 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content-nodejs-java.formats_title}"
+  title: "Unterstützte Dateiformate"
   description: |
-    {index-content-nodejs-java.formats_description}
+    GroupDocs.Comparison for Node.js via Java unterstützt Operationen mit den folgenden [Dateiformaten](https://docs.groupdocs.com/comparison/nodejs-java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content-nodejs-java.formats_groups.title_1}
-        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTX, RTF, TXT
-        * **Excel:** XLS, XLT, XLSX, XLTM, XLSB, XLSM, XLSX
-        * **PowerPoint:** POT, POTX, PPS, PPSX, PPTX, PPT        
+        ### Microsoft Office & OpenDocument Formate
+        * **Word:** DOCX, DOC, DOCM,DOT, DOTM, DOTX, RTX, RTF, TXT
+        * **Excel:** XLSX, XLS, XLT, XLTM, XLSB, XLSM
+        * **PowerPoint:** PPTX, PPT, POT, POTX, PPS, PPSX
         * **Outlook:** EML, EMLX, MSG
         * **OneNote:** ONE
         * **OpenDocument:** ODT, ODP, OTP, ODS, OTT
-        * **{index-content-nodejs-java.formats_groups.format_1_7}:** PDF  
+        * **Festes Seitenlayout:** PDF        
     # group loop
     - color: "blue"
       content: |
-        ### {index-content-nodejs-java.formats_groups.title_2}
-        * **{index-content-nodejs-java.formats_groups.format_2_1}:** BMP, GIF, JPG, JPEG, PNG
-        * **{index-content-nodejs-java.formats_groups.format_2_2}:** DICOM
+        ### Bilder, Grafiken und Diagramme
+        * **Rasterbilder:** BMP, GIF, JPG, JPEG, PNG
+        * **Medizinische Bildgebung:** DICOM
         * **Microsoft Visio:** VSDX, VSD, VSS, VST, VDX
-        * **{index-content-nodejs-java.formats_groups.format_2_4}:** DWG, DXF
+        * **AutoCAD Drawing:** DWG, DXF
       # group loop
     - color: "red"
       content: |
-        ### {index-content-nodejs-java.formats_groups.title_3}
-        * **{index-content-nodejs-java.formats_groups.format_3_1}:** TXT
-        * **{index-content-nodejs-java.formats_groups.format_3_2}:** CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, PHP, SQL, LOG, DIFF, LESS, SCALA
-        * **{index-content-nodejs-java.formats_groups.format_3_3}:** HTM, HTML, MHT, MHTML
-        * **{index-content-nodejs-java.formats_groups.format_3_4}:** MOBI, DjVu
-        * **{index-content-nodejs-java.formats_groups.format_3_5}:** CSV
+        ### Andere
+        * **Text:** TXT
+        * **Programmiersprachen:** CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, PHP, SQL, LOG, DIFF, LESS, SCALA
+        * **Netz:** HTM, HTML, MHT, MHTML
+        * **E-Bücher:** MOBI, DjVu
+        * **Durch Trennzeichen getrennte Werte:** CSV
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-nodejs-java.features.title}"
-  description: "{index-content-nodejs-java.features.description}"
+  title: "GroupDocs.Comparison for Node.js via Java Funktionen"
+  description: "Vergleichen Sie einfach PDF und Office-Dokumente, Bilder und andere Formate"
 
   items:
     # feature loop
-    - icon: "fas fa-columns"
-      title: "{index-content-nodejs-java.features.feature_1.title}"
-      content: "{index-content-nodejs-java.features.feature_1.content}"
+    - icon: "compare"
+      title: "Einfach zu verwendender Dokumentenvergleich"
+      content: "Analysieren und identifizieren Sie Unterschiede innerhalb von zwei Dokumenten."
 
     # feature loop
-    - icon: "fas fa-border-all"
-      title: "{index-content-nodejs-java.features.feature_2.title}"
-      content: "{index-content-nodejs-java.features.feature_2.content}"
+    - icon: "note-stack"
+      title: "Vergleichen Sie mehrere Dokumente"
+      content: "Analysieren und identifizieren Sie Unterschiede in mehreren Dokumenten gleichzeitig."
 
     # feature loop
-    - icon: "complex"
-      title: "{index-content-nodejs-java.features.feature_3.title}"
-      content: "{index-content-nodejs-java.features.feature_3.content}"
+    - icon: "stacks"
+      title: "Unterstützte Formate"
+      content: "Unterstützt mehr als 50 gängige Dokumentformate aus verschiedenen Kategorien."
 
     # feature loop
-    - icon: "adjustment"
-      title: "{index-content-nodejs-java.features.feature_4.title}"
-      content: "{index-content-nodejs-java.features.feature_4.content}"
+    - icon: "rule"
+      title: "Änderungen akzeptieren oder ablehnen"
+      content: "Klare visuelle Darstellung der identifizierten Änderungen mit der Option, Änderungen zu akzeptieren oder abzulehnen."
 
     # feature loop
-    - icon: "fas fa-eye"
-      title: "{index-content-nodejs-java.features.feature_5.title}"
-      content: "{index-content-nodejs-java.features.feature_5.content}"
+    - icon: "preview"
+      title: "Vorschauen generieren"
+      content: "Speichern Sie die Ergebnisse des Vergleichs als Bilder."
 
     # feature loop
-    - icon: "fas fa-comment-slash"
-      title: "{index-content-nodejs-java.features.feature_6.title}"
-      content: "{index-content-nodejs-java.features.feature_6.content}"
+    - icon: "two-pager"
+      title: "Vergleich der Inhalte"
+      content: "Vergleichen Sie Textinhalte zeilenweise, nach Absätzen, nach Wörtern, nach Zeichen. Markieren Sie die Änderungen."
 
     # feature loop
-    - icon: "fas fa-remove-format"
-      title: "{index-content-nodejs-java.features.feature_7.title}"
-      content: "{index-content-nodejs-java.features.feature_7.content}"
+    - icon: "format_color_text"
+      title: "Vergleich der Stile"
+      content: "Erkennen Sie Änderungen an Formatierungen und Stilen."
 
     # feature loop
-    - icon: "fas fa-wrench"
-      title: "{index-content-nodejs-java.features.feature_8.title}"
-      content: "{index-content-nodejs-java.features.feature_8.content}"
+    - icon: "folder-managed"
+      title: "Metadaten setzen"
+      content: "Behalten Sie Metadaten aus den Quell- oder Zieldateien bei oder lassen Sie sie von Benutzern angeben."
 
     # feature loop
-    - icon: "fas fa-lock"
-      title: "{index-content-nodejs-java.features.feature_9.title}"
-      content: "{index-content-nodejs-java.features.feature_9.content}"
+    - icon: "lock"
+      title: "Passwortschutz"
+      content: "Analysieren Sie die verschlüsselten Dokumente oder sichern Sie das resultierende Dokument mit einem Passwort."
 
     # feature loop
-    - icon: "fas fa-copy"
-      title: "{index-content-nodejs-java.features.feature_10.title}"
-      content: "{index-content-nodejs-java.features.feature_10.content}"
+    - icon: "select"
+      title: "Bestimmte Seiten vergleichen"
+      content: "Laden Sie nur die bestimmten Abschnitte oder Seiten des Dokuments."
 
     # feature loop
-    - icon: "fas fa-envelope"
-      title: "{index-content-nodejs-java.features.feature_11.title}"
-      content: "{index-content-nodejs-java.features.feature_11.content}"
+    - icon: "speaker-notes"
+      title: "Kommentare anzeigen"
+      content: "Beim Laden des Quelldokuments können Sie wählen, ob Kommentare ein- oder ausgeblendet werden sollen."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content-nodejs-java.code_samples.title}"
-  description: "{index-content-nodejs-java.code_samples.description}"
+  title: "Codebeispiele"
+  description: "Einige Anwendungsfälle typischer GroupDocs.Comparison for Node.js via Java Operationen"
   items:
     # code sample loop
-    - title: "{index-content-nodejs-java.code_samples.sample_1.title}"
+    - title: "Vergleich passwortgeschützter Dokumente."
       content: |
-        {index-content-nodejs-java.code_samples.sample_1.content}
-        {{< landing/code title="JavaScript">}}
+        Um Dokumente zu vergleichen, die [mit einem Passwort geschützt] sind (https://docs.groupdocs.com/comparison/nodejs-java/load-password-protected-documents/), müssen Sie es angeben und dann die Dokumente laden:
+        {{< landing/code title="So vergleichen Sie passwortgeschützte Dokumente.">}}
         ```javascript {style=abap}
+
         import { Comparer, LoadOptions } from '@groupdocs/groupdocs.comparison'
 
-        // {index-content-nodejs-java.code_samples.sample_1.comment_1}
-        const comparer = new Comparer("C:\\source.doc", new LoadOptions("1234"));
+        // Laden Sie das Quelldokument und geben Sie sein Passwort an
+        const comparer = new Comparer("source.docx", new LoadOptions("1234"));
 
-        // {index-content-nodejs-java.code_samples.sample_1.comment_2}
-        comparer.add("C:\\target.doc", new LoadOptions("5678"));
+        // Laden Sie das Zieldokument und geben Sie sein Passwort an
+        comparer.add("target.docx", new LoadOptions("5678"));
 
-        // {index-content-nodejs-java.code_samples.sample_1.comment_3}
-        comparer.compare("C:\\result.pdf");
+        // Vergleichsergebnis in einer angegebenen Datei speichern
+        comparer.compare("result.docx");
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-nodejs-java.code_samples.sample_2.title}"
+    - title: "Vergleich mehrerer PDF Dokumente."
       content: |
-        {index-content-nodejs-java.code_samples.sample_2.content}
-        {{< landing/code title="JavaScript">}}
+        GroupDocs.Comparison ermöglicht es Ihnen, [mehr als zwei Dokumente zu vergleichen](https://docs.groupdocs.com/comparison/nodejs-java/compare-multiple-documents/). Die Operation ist fast dieselbe wie beim Vergleich zweier Dateien. Sie müssen der Klasse `comparer` nur weitere Zieldateien hinzufügen.
+        {{< landing/code title="So vergleichen Sie drei oder mehr Dokumente.">}}
         ```javascript {style=abap}
         import { Comparer } from '@groupdocs/groupdocs.comparison'
 
-        // {index-content-nodejs-java.code_samples.sample_2.comment_1}
-        const comparer = new Comparer("C:\\source.pdf");
+        // Laden Sie das Quelldokument
+        const comparer = new Comparer(source.pdf");
 
-        // {index-content-nodejs-java.code_samples.sample_2.comment_2}
-        comparer.add("C:\\target2.pdf");
+        // Geben Sie die zweite Datei für den Vergleich an
+        comparer.add("target2.pdf");
 
-        // {index-content-nodejs-java.code_samples.sample_2.comment_3}
-        comparer.add("C:\\target3.pdf");
+        // Geben Sie die dritte Datei für den Vergleich an
+        comparer.add("target3.pdf");
 
-        // {index-content-nodejs-java.code_samples.sample_2.comment_4}
-        comparer.compare("C:\\result.pdf");
+        // Vergleichsergebnis in einer angegebenen Datei speichern
+        comparer.compare("result.pdf");
         ```
+
         {{< /landing/code >}}
 
 ---

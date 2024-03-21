@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "name": "So sánh tập tin PDF",
+        "description": "Định dạng tài liệu Adobe Portable"
+      },
+      "docx": {
+        "name": "So sánh tập tin DOCX",
+        "description": "Microsoft Word Tài liệu XML mở"
+      },
+      "rtf": {
+        "name": "So sánh tập tin RTF",
+        "description": "Định dạng tệp văn bản phong phú"
+      },
+      "txt": {
+        "name": "So sánh tập tin TXT",
+        "description": "Định dạng tệp văn bản thuần túy"
+      },
+      "xlsx": {
+        "name": "So sánh tập tin XLSX",
+        "description": "Microsoft Excel Open XML Spreadsheet"
+      },
+      "csv": {
+        "name": "So sánh các tập tin CSV",
+        "description": "Tệp giá trị được phân tách bằng dấu phẩy"
+      },
+      "pptx": {
+        "name": "So sánh tập tin PPTX",
+        "description": "PowerPoint Bản trình bày XML mở"
+      },
+      "ods": {
+        "name": "So sánh tập tin ODS",
+        "description": "Open Document Bảng tính"
+      },
+      "odp": {
+        "name": "So sánh các tập tin ODP",
+        "description": "OpenDocument Định dạng tập tin trình bày"
+      },
+      "odt": {
+        "name": "So sánh tập tin ODT",
+        "description": "Open Document Văn bản"
+      },
+      "jpeg": {
+        "name": "So sánh tập tin JPEG",
+        "description": "JPEG Hình ảnh"
+      },
+      "png": {
+        "name": "So sánh tập tin PNG",
+        "description": "Portable Đồ họa mạng"
+      },
+      "gif": {
+        "name": "So sánh tập tin GIF",
+        "description": "Tệp định dạng trao đổi đồ họa"
+      },
+      "bmp": {
+        "name": "So sánh tập tin BMP",
+        "description": "Định dạng tệp bitmap"
+      },
+      "html": {
+        "name": "So sánh các tập tin HTML",
+        "description": "Ngôn ngữ đánh dấu siêu văn bản"
+      },
+      "msg": {
+        "name": "So sánh tập tin MSG",
+        "description": "Thư điện tử Microsoft Outlook"
+      },
+      "one": {
+        "name": "So sánh tập tin ONE",
+        "description": "Microsoft OneNote"
+      },
+      "vsdx": {
+        "name": "So sánh tập tin VSDX",
+        "description": "Microsoft Visio Bản vẽ"
+      },
+      "cs": {
+        "name": "So sánh các tập tin CS",
+        "description": "Ngôn ngữ CSharp"
+      },
+      "java": {
+        "name": "So sánh tập tin Java",
+        "description": "Java Ngôn ngữ"
+      },
+      "cpp": {
+        "name": "So sánh các tập tin CPP",
+        "description": "Ngôn ngữ C++"
+      }
+    },
+    "format-code": {
+      "copy_title": "Sao chép",
+      "copy_tip": "bấm để sao chép",
+      "copy_done": "sao chép",
+      "links": {
+        "title_1": "Thêm ví dụ",
+        "title_2": "Tài liệu"
+      }
+    },
+    "format-actions": {
+      "title": "Sẵn sàng để bắt đầu?",
+      "description": "Dùng thử {{ProdShortName}} tính năng miễn phí hoặc yêu cầu giấy phép",
+      "comment_1": "{{PackageStoreName}} tải về",
+      "comment_2": "Cấp phép"
+    },
+    "texts": {
+      "learn_more": "Tìm hiểu thêm"
+    }
+  }
+}

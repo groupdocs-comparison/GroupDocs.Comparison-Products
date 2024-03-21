@@ -1,382 +1,251 @@
+
 ---
 ############################# Static ############################
-layout: "auto-gen-comparison"
-date: 2021-05-13T12:45:19+03:00
+layout: "format"
+date:  2024-03-21T15:26:14
 draft: false
+lang: fr
+format: Pl
+product: "Comparison"
+product_tag: "comparison"
+platform: "Java"
+platform_tag: "java"
 
 ############################# Head ############################
-head_title: "API de comparaison Java PL - Comparez les fichiers PL pour les différences"
-head_description: "Comparez et fusionnez des fichiers PL dans des applications Java, J2EE, J2SE. Analysez le résumé des différences dans le contenu, le texte et le style des fichiers, images et formats de documents PL."
+head_title: "API de comparaison Java PL - Vérifiez les différences dans les fichiers PL"
+head_description: "Comparez et fusionnez PL fichiers dans les applications Java, J2EE et J2SE. Analysez le résumé des différences en termes de contenu, de texte et de style."
 
 ############################# Header ############################
-title: "Comparez les fichiers PL en Java"
-description: "Effectuez une comparaison ligne par ligne entre plus de deux fichiers PL en Java. Récupérez une liste des différences et enregistrez les fichiers comparés dans un seul document."
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Télécharger l'essai gratuit"
-    link: "https://downloads.groupdocs.com/comparison/java"
+title: "Comparer PL fichiers dans Java" 
+description: "Effectuez une comparaison de contenu entre plus de deux PL fichiers dans Java. Récupérez une liste des différences et enregistrez les fichiers comparés dans un seul document."
+subtitle: "Cadre de vérification des différences de documents" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Comparison for Java"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-comparison-java.png"
-        product: "GroupDocs.Comparison"
-        platform: "Java"
-
-    middle:
-        button: 
-            # button loop
-            - link: "https://apireference.groupdocs.com/comparison/java"
-              text: "Référence API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-comparison"
-              text: "Exemples de codes"
-
-            # button loop
-            - link: "https://products.groupdocs.app/comparison/family"
-              text: "Démos en direct"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/comparison/java"
-              text: "Tarifs"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/comparison"
-        link_learn: "https://docs.groupdocs.com/comparison/java"
-        link_buy: "https://purchase.groupdocs.com"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Téléchargement gratuit Maven"
+      link: "https://releases.groupdocs.com/comparison/java/"
+      
 ############################# About ############################
 about:
     enable: true
-    title: "À propos de l'API GroupDocs.Comparison for Java"
+    title: "Explorez les fonctionnalités de la bibliothèque GroupDocs.Comparison for Java"
+    link: "/comparison/java/"
+    link_title: "En savoir plus"
+    picture: "about_viewer.svg" # 480 X 400
     content: |
-        Renforcez vos applications Java avec des fonctionnalités de comparaison d'images et de documents à l'aide de l'API [GroupDocs.Comparison for Java](/comparison/java/). Il vous aide à identifier les différences au sein des paragraphes, des mots, des caractères, des formes, voire des styles de texte des documents comparés du même format, permet de fusionner les modifications et d'exporter vers un document final. Il prend en charge la comparaison et la fusion d'un large éventail de documents, notamment PDF, Word, feuilles de calcul Excel, présentations PowerPoint, diagrammes Visio, e-mails Outlook, HTML, dessins et formats de fichiers image sans utiliser de bibliothèque externe.
+       GroupDocs.Comparison for Java est un logiciel intrinsèque Java conçu pour comparer plusieurs images et documents partageant le même format. Il aide à identifier les variations entre les paragraphes, les mots, les caractères, les formes et même les styles de texte parmi les documents comparés. En permettant de fusionner ces modifications et de les exporter vers un document final, il facilite la comparaison et la fusion de PDF documents, Excel feuilles de calcul, PowerPoint présentations, Visio diagrammes, Outlook e-mails, HTML, dessins et divers formats de fichiers image, éliminant ainsi le besoin de bibliothèques externes.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Étapes pour comparer les fichiers PL en Java"
-    content_left: |
-        [GroupDocs.Comparison](/comparison/java/) permet aux développeurs Java de comparer facilement les fichiers PL au sein de leurs applications à l'aide de quelques lignes de code.
-        * Instanciez l'objet **Comparer** avec le chemin ou le flux du document source.
-        * Appelez la méthode add et spécifiez le chemin ou le flux du document cible.
-        * Appelez la méthode de comparaison.
-    title_right: "Configuration requise"
-    content_right: |
-        Les API GroupDocs.Comparison for Java sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les conditions préalables suivantes sont installées sur votre système.
-        * Systèmes d'exploitation : Microsoft Windows, Linux, MacOS
-        * Environnements de développement : NetBeans, Intellij IDEA, Eclipse etc
-        * Environnement d'exécution Java : J2SE 6.0 et supérieur
-        * Obtenez la dernière version de GroupDocs.Comparison for Java auprès de [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-comparison)
-    code: |
-        ```java
-        // Comparer les documents du fichier local
-        
-        try (Comparer comparer = new Comparer("C:\\source.pl")) {
-            comparer.add("C:\\target.pl");
-            comparer.compare("C:\\result.pl"); // Créer un fichier de résultats avec le nom spécifié
-        }
-        
-        // Comparer les documents du flux
-        
-        try (Comparer comparer = new Comparer(new FileInputStream("C:\\source.pl"))) {
-            comparer.add(new FileInputStream("C:\\target.pl"));
-            comparer.compare(new FileOutputStream("C:\\result.pl")); // Créer un fichier de résultats avec le nom spécifié
-        }
-        ```
-
-############################# Demos ############################
-demos:
-    enable: true
-    title: "Démos en direct pour comparer les fichiers PL"
+    title: "Comment comparer plusieurs documents PL à l'aide de Java"
     content: |
-        Comparez dès maintenant les fichiers PL en visitant le site Web [GroupDocs.Comparison Live Demos](https://products.groupdocs.app/comparison/family).
-        La démo en direct présente les avantages suivants
+      Utilisez [GroupDocs.Comparison](https://products.groupdocs.com/comparison/java/) pour comparer plusieurs PL fichiers et générer un rapport détaillant leurs différences
+      
+      1. Utilisez votre gestionnaire de paquets préféré pour installer GroupDocs.Comparison for Java depuis [Maven](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/)
+      2. Créez une instance de la classe Comparer en définissant le chemin d'accès à l'un des PL fichiers
+      3. Ajoutez au moins un PL supplémentaire à l'instance Comparer
+      4. Recevez un rapport final détaillé décrivant les différences exactes
+   
+    code:
+      platform: "net"
+      copy_title: "Copier"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-comparison</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
 
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-pl"
-          title: "À propos du format de fichier PL"
-          content: |
-            {{pl}}
-          link: "https://docs.fileformat.com/image/pl/"
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "cliquez pour copier"
+        copy_done: "copié"
+      links:
+        #  loop
+        - title: "Plus d'exemples"
+          link: "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Java"
+        #  loop
+        - title: "Documentation"
+          link: "https://docs.groupdocs.com/comparison/java/"
+          
+      content: |
+        ```java {style=abap}
 
-############################# More Formats ############################
+        // Vérifiez les différences ou les similitudes entre les fichiers de votre disque dur
+
+        // Créez un objet Comparer en spécifiant le fichier initial
+        try (Comparer comparer = new Comparer("source.pl") 
+        {
+            // Incluez des fichiers supplémentaires pour comparer
+        	comparer.add("target1.pl");
+            comparer.add("target2.pl");
+
+            // Obtenez le rapport avec le nom spécifié comme résultat
+            final Path resultPath = comparer.compare("result.pl"); 
+
+            System.out.println("\nDocuments compared successfully.");
+        }
+        
+        ```            
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Prêt à démarrer ?"
+  description: "Essayez GroupDocs.Comparison fonctionnalités gratuitement ou demandez une licence"
+  items:
+    #  loop
+    - title: "Maven télécharger"
+      link: "https://releases.groupdocs.com/comparison/java/"
+      color: "red"
+        #  loop
+    - title: "Licences"
+      link: "https://purchase.groupdocs.com/pricing/comparison/java/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Comparez d'autres formats de fichiers"
-    content: |
-        API de comparaison d'images et de documents multiformats pour Java. Comparez certains des formats de fichiers populaires ci-dessous sans aucun logiciel externe.
-    format: 
-        # format loop
-        - name: "Compare PDF Files"
-          link: "https://products.groupdocs.com/comparison/java/pdf/"
-          description: "Adobe Portable Document Format"
+    title: "Comparez différents documents à l'aide de Java"
+    exclude: "PL"
+    description: "Nos solutions Java vous permettent de comparer des documents de différents formats. Restez informé des modifications apportées aux documents en les traitant sans effort."
+    items: 
+        # format loop 1
+        - name: "Comparer PDF fichiers"
+          format: "PDF"
+          link: "/comparison/java/pdf/"
+          description: "Format de document Adobe Portable"
 
-        # format loop
-        - name: "Compare DOC Files"
-          link: "https://products.groupdocs.com/comparison/java/doc/"
-          description: "Microsoft Word Document"
+        # format loop 2
+        - name: "Comparer DOCX fichiers"
+          format: "DOCX"
+          link: "/comparison/java/docx/"
+          description: "Microsoft Word Ouvrir un document XML"
 
-        # format loop
-        - name: "Compare DOCM Files"
-          link: "https://products.groupdocs.com/comparison/java/docm/"
-          description: "Microsoft Word Macro-Enabled Document"
+        # format loop 3
+        - name: "Comparer RTF fichiers"
+          format: "RTF"
+          link: "/comparison/java/rtf/"
+          description: "Format de fichier RTF"
 
-        # format loop
-        - name: "Compare DOCX Files"
-          link: "https://products.groupdocs.com/comparison/java/docx/"
-          description: "Microsoft Word Open XML Document"
+        # format loop 4
+        - name: "Comparer TXT fichiers"
+          format: "TXT"
+          link: "/comparison/java/txt/"
+          description: "Format de fichier texte brut"
 
-        # format loop
-        - name: "Compare DOT Files"
-          link: "https://products.groupdocs.com/comparison/java/dot/"
-          description: "Microsoft Word Document Template"
+        # format loop 5
+        - name: "Comparer XLSX fichiers"
+          format: "XLSX"
+          link: "/comparison/java/xlsx/"
+          description: "Feuille de calcul Microsoft Excel Open XML"
 
-        # format loop
-        - name: "Compare DOTM Files"
-          link: "https://products.groupdocs.com/comparison/java/dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
+        # format loop 6
+        - name: "Comparez les fichiers CSV"
+          format: "CSV"
+          link: "/comparison/java/csv/"
+          description: "Fichier de valeurs séparées par des virgules"
 
-        # format loop
-        - name: "Compare DOTX Files"
-          link: "https://products.groupdocs.com/comparison/java/dotx/"
-          description: "Word Open XML Document Template"
+        # format loop 7
+        - name: "Comparer PPTX fichiers"
+          format: "PPTX"
+          link: "/comparison/java/pptx/"
+          description: "PowerPoint Présentation Open XML"
 
-        # format loop
-        - name: "Compare RTF Files"
-          link: "https://products.groupdocs.com/comparison/java/rtf/"
-          description: "Rich Text File Format"
+        # format loop 8
+        - name: "Comparer ODS fichiers"
+          format: "ODS"
+          link: "/comparison/java/ods/"
+          description: "Open Document Feuille de calcul"
 
-        # format loop
-        - name: "Compare TXT Files"
-          link: "https://products.groupdocs.com/comparison/java/txt/"
-          description: "Plain Text File Format"
+        # format loop 9
+        - name: "Comparez les fichiers ODP"
+          format: "ODP"
+          link: "/comparison/java/odp/"
+          description: "OpenDocument Format de fichier de présentation"
 
-        # format loop
-        - name: "Compare XLS Files"
-          link: "https://products.groupdocs.com/comparison/java/xls/"
-          description: "Microsoft Excel Binary File Format"
+        # format loop 10
+        - name: "Comparer ODT fichiers"
+          format: "ODT"
+          link: "/comparison/java/odt/"
+          description: "Open Document Texte"
 
-        # format loop
-        - name: "Compare XLSX Files"
-          link: "https://products.groupdocs.com/comparison/java/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
+        # format loop 11
+        - name: "Comparer JPEG fichiers"
+          format: "JPEG"
+          link: "/comparison/java/jpeg/"
+          description: "JPEG Photo"
 
-        # format loop
-        - name: "Compare XLTM Files"
-          link: "https://products.groupdocs.com/comparison/java/xltm/"
-          description: "Microsoft Excel macro-enabled template"
+        # format loop 12
+        - name: "Comparer PNG fichiers"
+          format: "PNG"
+          link: "/comparison/java/png/"
+          description: "Portable Graphique du réseau"
 
-        # format loop
-        - name: "Compare XLSM Files"
-          link: "https://products.groupdocs.com/comparison/java/xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+        # format loop 13
+        - name: "Comparer GIF fichiers"
+          format: "GIF"
+          link: "/comparison/java/gif/"
+          description: "Fichier de format d'échange graphique"
 
-        # format loop
-        - name: "Compare XLSB Files"
-          link: "https://products.groupdocs.com/comparison/java/xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
+        # format loop 14
+        - name: "Comparer BMP fichiers"
+          format: "BMP"
+          link: "/comparison/java/bmp/"
+          description: "Format de fichier bitmap"
 
-        # format loop
-        - name: "Compare CSV Files"
-          link: "https://products.groupdocs.com/comparison/java/csv/"
-          description: "Comma Separated Values File"
+        # format loop 15
+        - name: "Comparer des fichiers HTML"
+          format: "HTML"
+          link: "/comparison/java/html/"
+          description: "Langage de balisage Hyper Text"
 
-        # format loop
-        - name: "Compare PPT Files"
-          link: "https://products.groupdocs.com/comparison/java/ppt/"
-          description: "PowerPoint Presentation"
+        # format loop 16
+        - name: "Comparer MSG fichiers"
+          format: "MSG"
+          link: "/comparison/java/msg/"
+          description: "Message électronique Microsoft Outlook"
 
-        # format loop
-        - name: "Compare PPS Files"
-          link: "https://products.groupdocs.com/comparison/java/pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "Compare PPTX Files"
-          link: "https://products.groupdocs.com/comparison/java/pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "Compare PPSX Files"
-          link: "https://products.groupdocs.com/comparison/java/ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "Compare POT Files"
-          link: "https://products.groupdocs.com/comparison/java/pot/"
-          description: "Microsoft PowerPoint template"
-
-        # format loop
-        - name: "Compare POTX Files"
-          link: "https://products.groupdocs.com/comparison/java/potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "Compare ODS Files"
-          link: "https://products.groupdocs.com/comparison/java/ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "Compare ODP Files"
-          link: "https://products.groupdocs.com/comparison/java/odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "Compare OTP Files"
-          link: "https://products.groupdocs.com/comparison/java/otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "Compare ODT Files"
-          link: "https://products.groupdocs.com/comparison/java/odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "Compare OTT Files"
-          link: "https://products.groupdocs.com/comparison/java/ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "Compare VST Files"
-          link: "https://products.groupdocs.com/comparison/java/vst/"
-          description: "Microsoft Visio 2003-2010 XML Drawing"
-
-        # format loop
-        - name: "Compare JPEG Files"
-          link: "https://products.groupdocs.com/comparison/java/jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "Compare PNG Files"
-          link: "https://products.groupdocs.com/comparison/java/png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "Compare GIF Files"
-          link: "https://products.groupdocs.com/comparison/java/gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "Compare BMP Files"
-          link: "https://products.groupdocs.com/comparison/java/bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "Compare HTML Files"
-          link: "https://products.groupdocs.com/comparison/java/html/"
-          description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "Compare MHT Files"
-          link: "https://products.groupdocs.com/comparison/java/mht/"
-          description: "Mime HTML"
-
-        # format loop
-        - name: "Compare MHTML Files"
-          link: "https://products.groupdocs.com/comparison/java/mhtml/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "Compare MSG Files"
-          link: "https://products.groupdocs.com/comparison/java/msg/"
-          description: "Microsoft Outlook E-mail Message"
-
-        # format loop
-        - name: "Compare EML Files"
-          link: "https://products.groupdocs.com/comparison/java/eml/"
-          description: "E-mail Message"
-
-        # format loop
-        - name: "Compare EMLX Files"
-          link: "https://products.groupdocs.com/comparison/java/emlx/"
-          description: "Apple Mail E-mail File"
-
-        # format loop
-        - name: "Compare ONE Files"
-          link: "https://products.groupdocs.com/comparison/java/one/"
+        # format loop 17
+        - name: "Comparer ONE fichiers"
+          format: "ONE"
+          link: "/comparison/java/one/"
           description: "Microsoft OneNote"
 
-        # format loop
-        - name: "Compare VSD Files"
-          link: "https://products.groupdocs.com/comparison/java/vsd/"
-          description: "Microsoft Visio 2003-2010 Drawing"
+        # format loop 18
+        - name: "Comparer VSDX fichiers"
+          format: "VSDX"
+          link: "/comparison/java/vsdx/"
+          description: "Dessin Microsoft Visio"
 
-        # format loop
-        - name: "Compare VSDX Files"
-          link: "https://products.groupdocs.com/comparison/java/vsdx/"
-          description: "Microsoft Visio Drawing"
+        # format loop 19
+        - name: "Comparez les fichiers CS"
+          format: "CS"
+          link: "/comparison/java/cs/"
+          description: "Langage CSharp"
 
-        # format loop
-        - name: "Compare VSS Files"
-          link: "https://products.groupdocs.com/comparison/java/vss/"
-          description: "Microsoft Visio 2003-2010 Stencil"
-
-        # format loop
-        - name: "Compare VST Files"
-          link: "https://products.groupdocs.com/comparison/java/vst/"
-          description: "Microsoft Visio 2003-2010 Template"
-
-        # format loop
-        - name: "Compare VDX Files"
-          link: "https://products.groupdocs.com/comparison/java/vdx/"
-          description: "Microsoft Visio 2003-2010 XML Drawing"
-
-        # format loop
-        - name: "Compare CS Files"
-          link: "https://products.groupdocs.com/comparison/java/cs/"
-          description: "CSharp Language"
-
-        # format loop
-        - name: "Compare Java Files"
-          link: "https://products.groupdocs.com/comparison/java/java/"
-          description: "Java Language"
-
-        # format loop
-        - name: "Compare CPP Files"
-          link: "https://products.groupdocs.com/comparison/java/cpp/"
-          description: "C++ Language"
-
-        # format loop
-        - name: "Compare JS Files"
-          link: "https://products.groupdocs.com/comparison/java/js/"
-          description: "JavaScript Language"
-
-        # format loop
-        - name: "Compare PY Files"
-          link: "https://products.groupdocs.com/comparison/java/py/"
-          description: "Python Language"
-
-        # format loop
-        - name: "Compare RB Files"
-          link: "https://products.groupdocs.com/comparison/java/rb/"
-          description: "Ruby Language"
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Comparison propose des API de visualisation de documents pour d'autres environnements de développement populaires"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Comparison for .NET PL"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-comparison-net.png"
-          product: "GroupDocs.Comparison"
-          platform: ".NET"
-          link: "/comparison/net/pl/"
-
-############################# Back to top ###############################
-back_to_top:
-    enable: true
+        # format loop 20
+        - name: "Comparer Java fichiers"
+          format: "Java"
+          link: "/comparison/java/java/"
+          description: "Java Langue"
+          
+        # format loop 21
+        - name: "Comparez les fichiers CPP"
+          format: "CPP"
+          link: "/comparison/java/cpp/"
+          description: "Langage C++"
 ---

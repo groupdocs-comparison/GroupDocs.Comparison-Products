@@ -1,0 +1,292 @@
+{
+  "common": {
+    "head": {
+      "title": "Compara {{FileFormatUp}} con la biblioteca {{ProgLang}}.",
+      "description": "{{ProdFullName}} ofrece software para generar informes detallados de verificación de diferencias para {{Runtime}} aplicaciones."
+    },
+    "header": {
+      "title": "Comparación de tus {{FileFormatUp}} archivos en {{Runtime}}",
+      "description": "La biblioteca de comparación de documentos basada en {{Runtime}} brinda la oportunidad de recopilar y mostrar datos sobre cualquier distinción en los archivos {{FileFormatUp}}. Mejore la productividad de sus soluciones en las tareas de comparación de archivos con {{ProdShortName}}.",
+      "subtitle": "Solución para la comparación de archivos",
+      "action_title": "Descarga gratuita de {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Explore las funciones de {{ProdFullName}}",
+      "content": "{{ProdFullName}} es una API que ayuda a comparar imágenes y documentos en el mismo formato. Puede encontrar diferencias en los párrafos, las palabras, los caracteres, las formas y los estilos de texto entre los documentos comparados. Puede combinar estos cambios y guardarlos como documento final. Funciona bien con PDF, Word documentos, Excel hojas, PowerPoint diapositivas, Visio diagramas, Outlook correos electrónicos, HTML, dibujos y varios tipos de imágenes, todo ello sin necesidad de herramientas adicionales."
+    },
+    "steps": {
+      "title": "Cómo realizar una comparación de {{FileFormatUp}} archivos con {{Runtime}}.",
+      "content": {
+        "title": "Es posible usar {{FileFormatUp}} archivos usando [{{ProdShortName}}]({{ProductUrl}}) para obtener informes sobre las diferencias en muchos {{FileFormatUp}} archivos",
+        "step_1": "Instala {{ProdFullName}} usando [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Instancie el comparador y proporcione la ruta al primero de los archivos en formato {{FileFormatUp}}",
+        "step_3": "Añadir otro archivo {{FileFormatUp}} a Comparer",
+        "step_4": "Obtenga un informe claro que describa con precisión las diferencias"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Revisa varios archivos para ver en qué se parecen o se diferencian",
+          "comment_2": "Crea un objeto Comparer y dale el primer archivo como entrada",
+          "comment_3": "Añadir más archivos",
+          "comment_4": "Obtenga el informe final"
+        }
+      }
+    },
+    "formats": {
+      "title": "Compara los tipos de documentos más populares mediante {{ProgLang}}",
+      "description": "Nuestra API {{Runtime}} le permite comparar documentos en diferentes formatos. Realice un seguimiento de los cambios en los documentos sin esfuerzo procesándolos con nuestra herramienta."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Biblioteca {{ProgLang}} para comprobar las diferencias en PDF s.",
+      "description": "El software {{ProdShortName}} {{Runtime}} genera informes exhaustivos que detallan las diferencias en PDF documentos."
+    },
+    "header": {
+      "title": "Comparación de PDF documentos para {{EnvName}}",
+      "description": "Utilice nuestra API de comparación de documentos en {{Runtime}} para detectar y mostrar las diferencias en PDF s dentro de las aplicaciones impulsadas por {{ProgLang}}. Benefíciese de obtener informes detallados de forma rápida y sin esfuerzo."
+    },
+    "about": {
+      "title": "Explore las funciones de la biblioteca {{ProdFullName}}",
+      "content": "Obtenga informes detallados sobre cualquier diferencia entre los PDF documentos en sus .NET solicitudes. Usa {{ProdFullName}} añadiendo un par de líneas de código sin necesidad de ningún software adicional ni de ninguna otra biblioteca externa. Controle cualquier modificación en los párrafos, las palabras, los caracteres, las formas y los estilos de texto de sus PDF archivos. También está disponible la posibilidad de combinar los cambios de muchas versiones del documento para obtener como resultado PDF. Procese los documentos con rapidez y sin esfuerzos adicionales."
+    },
+    "steps": {
+      "title": "Obteniendo un informe sobre las distinciones de PDF en {{ProgLang}}",
+      "content": {
+        "title": "Realice un seguimiento de los cambios de PDF documentos mediante informes compuestos con [{{ProdShortName}}]({{ProductUrl}})",
+        "step_1": "Usa [{{PackageStoreName}}]({{PackageUrl}}) para instalar {{ProdShortName}} para {{EnvName}}",
+        "step_2": "Llame al constructor Comparer con la ruta del archivo PDF",
+        "step_3": "Proporcione otro PDF para compararlo con el primero",
+        "step_4": "Recuperar un informe final sobre las diferencias de archivos"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Obtener un informe sobre los cambios en PDF archivos",
+          "comment_2": "Construye una instancia de Comparer con un primer archivo",
+          "comment_3": "Agregar otro archivo o archivos",
+          "comment_4": "Guardar el informe en la ruta especificada"
+        }
+      }
+    },
+    "formats": {
+      "title": "Compara formatos de archivo populares como PDF usando {{ProgLang}}",
+      "description": "Nuestra API {{Runtime}} podría comparar sus PDF archivos rápidamente. Controle los cambios en los documentos sin esfuerzo con informes detallados."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "La API {{Runtime}} permite comparar DOCX documentos.",
+      "description": "La API {{ProdShortName}} {{Runtime}}, que genera informes útiles que describen las alteraciones de los documentos, puede comprobar las diferencias de los archivos de MS Word DOCX."
+    },
+    "header": {
+      "title": "Comparación de DOCX archivos con {{EnvName}}",
+      "description": "Utilice la API de procesamiento de documentos en {{Runtime}} para detectar y revelar cualquier alteración en los archivos MS Word DOCX por parte de {{EnvName}} aplicaciones. Aproveche las ventajas de la generación de informes rápida y sin esfuerzo."
+    },
+    "about": {
+      "title": "Funciones de la API Open {{ProdFullName}}",
+      "content": "{{ProdShortName}} proporciona informes detallados que aportan datos detallados sobre los cambios en las diferentes versiones de DOCX documentos. Usa {{EnvName}} junto con nuestra API añadiendo un par de líneas de código y sin otras bibliotecas. Analice las alteraciones en las páginas, el texto, los estilos de texto o las formas de los MS Word documentos. Seleccione solo los datos correctos y componga el documento final DOCX fusionándolos. Mejore sus soluciones de procesamiento de documentos con nuestro software."
+    },
+    "steps": {
+      "title": "Redacte un informe con DOCX distinciones de documentos en {{ProgLang}}",
+      "content": {
+        "title": "[{{ProdShortName}}]({{ProductUrl}}) y {{EnvName}} nos permiten comparar DOCX documentos",
+        "step_1": "Usa [{{PackageStoreName}}]({{PackageUrl}}) para instalar {{ProdShortName}} para {{EnvName}}",
+        "step_2": "La llamada al constructor Comparer necesita la ruta DOCX",
+        "step_3": "Se deben proporcionar otros DOCX archivos",
+        "step_4": "Disfruta de los resultados"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Obtenga datos que describan DOCX alteraciones",
+          "comment_2": "Proporcione a la instancia de Comparer un archivo MS Word",
+          "comment_3": "Añadir más archivos",
+          "comment_4": "Almacenar el resultado en el disco local"
+        }
+      }
+    },
+    "formats": {
+      "title": "Usa {{ProgLang}} para comparar DOCX documentos",
+      "description": "Cualquier archivo MS Word DOCX se puede comparar con {{ProdFullName}}. Obtenga información valiosa sobre los cambios en sus documentos."
+    }
+  },
+  "png": {
+    "head": {
+      "title": "API {{ProgLang}} para comparar PNG imágenes.",
+      "description": "La biblioteca {{ProdFullName}} representa informes detallados sobre las distinciones en las imágenes en formato PNG."
+    },
+    "header": {
+      "title": "PNG aplicaciones de comparación de {{Runtime}} imágenes mediante Java",
+      "description": "Aproveche las ventajas de usar la API {{Runtime}} para realizar un seguimiento de los cambios en los archivos PNG de las {{ProgLang}} aplicaciones. Obtenga informes detallados de forma rápida y sin esfuerzo."
+    },
+    "about": {
+      "title": "Posibilidades de API abiertas de {{ProdFullName}}",
+      "content": "Redacte informes completos sobre cualquier cambio en las diferentes versiones de los documentos PNG realizados por sus {{ProgLang}} solicitudes. No es necesario en ningún software de terceros. Mantente bien informado sobre cualquier modificación en las versiones de tu imagen PNG."
+    },
+    "steps": {
+      "title": "Redacta PNG informes de distinciones de imágenes en {{ProgLang}}",
+      "content": {
+        "title": "Realice un seguimiento de las modificaciones de PNG documentos utilizando los informes proporcionados por [{{ProdShortName}}]({{ProductUrl}})",
+        "step_1": "Instale el paquete {{ProdShortName}} a través de [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Utilice el constructor de la clase Comparer con la ruta a PNG",
+        "step_3": "Agregue algunos PNG s para comparar",
+        "step_4": "Obtenga un informe que contenga información sobre las diferencias"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Proceso de redacción del informe de distinciones de PNG",
+          "comment_2": "Debe proporcionarse una nueva instancia de Comparer",
+          "comment_3": "Otro archivo o archivos PNG también",
+          "comment_4": "Obtenga el resultado en el mismo formato"
+        }
+      }
+    },
+    "formats": {
+      "title": "Combina imágenes en formatos populares como PNG usando {{ProgLang}}",
+      "description": "Usa {{ProdFullName}} para obtener información sobre las diferencias de PNG imágenes. Los informes detallados le ayudan a estar informado sobre cualquier cambio en los datos importantes."
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "Biblioteca {{Runtime}} para automatizar la comparación de JPEG imágenes.",
+      "description": "Explora las funciones de la API {{ProdFullName}} para obtener información sobre las distinciones en JPEG imágenes."
+    },
+    "header": {
+      "title": "Consulta JPEG para ver si hay diferencias y obtén informes a través de {{EnvName}}",
+      "description": "Poderosa solución {{Runtime}} para comparar los cambios en JPEG imágenes en {{ProgLang}} aplicaciones. Los informes detallados aportan importantes ventajas a sus soluciones empresariales."
+    },
+    "about": {
+      "title": "Descubra las capacidades de {{ProdFullName}}",
+      "content": "Manténgase bien informado sobre cualquier cambio en los archivos de imagen JPEG que utilizan el software {{ProdFullName}}. Analice los datos detallados de nuestros informes para procesar sus JPEG archivos con {{ProgLang}} aplicaciones. No hay paquetes adicionales. Potencie sus soluciones empresariales añadiendo unas cuantas líneas de código."
+    },
+    "steps": {
+      "title": "Recopila JPEG datos de alteraciones mediante {{ProgLang}}",
+      "content": {
+        "title": "Usa las funciones [{{ProdShortName}}]({{ProductUrl}}) para controlar los cambios en JPEG imágenes",
+        "step_1": "Obtenga {{ProdShortName}} de [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Agregar objeto de comparación con la ruta del archivo JPEG",
+        "step_3": "Se deben analizar al menos dos JPEG archivos",
+        "step_4": "Obtenga el resultado en el formato JPEG"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Procesando JPEG archivos para obtener un informe de distinciones",
+          "comment_2": "Nuevo objeto de la clase Comparer",
+          "comment_3": "Otros JPEG archivos",
+          "comment_4": "Informe con información sobre JPEG diferencias"
+        }
+      }
+    },
+    "formats": {
+      "title": "Compara JPEG imágenes de formatos populares a través de {{ProgLang}}",
+      "description": "El software basado en {{ProdFullName}} redacta información valiosa sobre las diferencias entre JPEG imágenes. Los cómodos informes permiten controlar cualquier cambio en los archivos empresariales."
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "Verificación automática de diferencias de JPG imágenes por parte de la biblioteca {{Runtime}}.",
+      "description": "Utilice el software {{ProdFullName}} para acceder a información de distinciones detallada en JPG imágenes."
+    },
+    "header": {
+      "title": "Obtención de JPG informes de alteraciones en {{EnvName}} aplicaciones",
+      "description": "Aproveche las capacidades de {{Runtime}} para comparar JPG cambios de imagen en {{ProgLang}} aplicaciones. Los informes detallados ofrecen importantes beneficios a las soluciones empresariales."
+    },
+    "about": {
+      "title": "Explore las capacidades de la API {{ProdFullName}}",
+      "content": "Manténgase informado sobre los cambios en los archivos de imagen JPG con el software {{ProdFullName}}. Analice los datos detallados de nuestros informes para procesar JPG archivos en {{ProgLang}} aplicaciones sin necesidad de paquetes adicionales. Mejore las soluciones empresariales con solo unas pocas líneas de código."
+    },
+    "steps": {
+      "title": "Recopilación de JPG datos de alteración con {{ProgLang}}",
+      "content": {
+        "title": "Utilice las funciones de [{{ProdShortName}}]({{ProductUrl}}) para gestionar JPG cambios de imagen",
+        "step_1": "Adquiere {{ProdShortName}} de [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Integrar el objeto comparador con la ruta del archivo JPG",
+        "step_3": "Analice al menos dos JPG archivos",
+        "step_4": "Recuperar los resultados en formato JPG"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Procesamiento de JPG archivos para generar un informe de distinciones",
+          "comment_2": "Instanciar un nuevo objeto de la clase Comparer",
+          "comment_3": "Incluya otros JPG archivos para compararlos",
+          "comment_4": "Generar un informe que contenga información sobre JPG diferencias"
+        }
+      }
+    },
+    "formats": {
+      "title": "Comparación de imágenes en formato popular JPG con {{ProgLang}}",
+      "description": "La biblioteca basada en {{ProdFullName}} proporciona información valiosa sobre las diferencias entre las JPG imágenes. Los informes prácticos facilitan la supervisión de los cambios en los archivos empresariales."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Compara el contenido de XLSX hojas de cálculo mediante la API {{Runtime}}.",
+      "description": "Nuestra API {{Runtime}} puede comprobar las diferencias de MS Excel hojas de cálculo, que genera informes informativos que detallan varios tipos de distinciones."
+    },
+    "header": {
+      "title": "Comparación de XLSX hojas de cálculo con {{EnvName}}",
+      "description": "Utilice la biblioteca de procesamiento de documentos de {{Runtime}} para identificar y exponer las alteraciones en los archivos MS Excel XLSX de las {{EnvName}} aplicaciones. Benefíciese de la generación de informes rápida y sencilla."
+    },
+    "about": {
+      "title": "Descubra las ventajas del {{ProdShortName}}",
+      "content": "Acceda a informes detallados que contienen datos detallados sobre los cambios en las diferentes versiones de los XLSX documentos proporcionados por {{ProdShortName}}. Integre {{EnvName}} aplicaciones con nuestra API con solo unas pocas líneas de código, sin esfuerzos adicionales. Analice las alteraciones en las páginas, el texto, los estilos de texto o las formas de los MS Excel documentos. Seleccione los datos apropiados y combínelos en un documento XLSX final. Haga avanzar sus proyectos empresariales con nuestras soluciones."
+    },
+    "steps": {
+      "title": "Redacte un informe con XLSX distinciones de documentos en {{ProgLang}}",
+      "content": {
+        "title": "Utilice [{{ProdShortName}}]({{ProductUrl}}) y {{EnvName}} para comparar documentos de XLSX",
+        "step_1": "Instala {{ProdShortName}} para {{EnvName}} desde [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Proporcione la ruta XLSX al llamar al constructor Comparer",
+        "step_3": "Incluir XLSX archivos adicionales",
+        "step_4": "Disfruta de los resultados generados"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Recupere los datos que describen las alteraciones en XLSX documentos",
+          "comment_2": "Instancie el comparador con un archivo MS Excel",
+          "comment_3": "Añadir más archivos para compararlos",
+          "comment_4": "Guarda el resultado en el disco local"
+        }
+      }
+    },
+    "formats": {
+      "title": "Utilice {{ProgLang}} para comparar XLSX hojas de cálculo",
+      "description": "Compara fácilmente cualquier hoja de cálculo MS Excel XLSX con {{ProdFullName}}. Obtenga información valiosa sobre los cambios en los datos de su empresa."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Comprueba las diferencias de PPTX con {{EnvName}}.",
+      "description": "PPTX podría analizarse mediante la solución {{ProdShortName}} {{EnvName}}, que redacta informes genuinos que describen las distinciones de contenido."
+    },
+    "header": {
+      "title": "Comparación de PPTX presentaciones con {{EnvName}}",
+      "description": "Utilice la API de procesamiento de documentos de {{Runtime}} para identificar y resaltar las alteraciones en los archivos MS PowerPoint PPTX mediante aplicaciones basadas en {{EnvName}}. Mejore sus procesos empresariales con un análisis de datos rápido y sencillo."
+    },
+    "about": {
+      "title": "Explore las funciones de {{ProdFullName}}",
+      "content": "Utilice los datos detallados de nuestros {{ProdShortName}} informes basados en la información sobre las modificaciones en muchas versiones de los archivos PPTX. Incluya nuestra solución en {{EnvName}} aplicaciones con solo unas pocas líneas de código, sin esfuerzos adicionales. Analice datos sobre páginas, texto, estilos o formas en MS PowerPoint presentaciones. Combine los cambios apropiados en una presentación de PPTX resultados. Aproveche nuestra solución para sus proyectos empresariales."
+    },
+    "steps": {
+      "title": "Utilice el informe de distinciones de PPTX documentos con {{ProgLang}}",
+      "content": {
+        "title": "Comparación de [{{ProdShortName}}]({{ProductUrl}}) para PPTX presentaciones",
+        "step_1": "Obtenga {{ProdShortName}} de [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Llamar al constructor Comparer",
+        "step_3": "Adjunte PPTX presentaciones adicionales",
+        "step_4": "Obtenga el resultado"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Obtenga datos sobre las alteraciones en PPTX presentaciones",
+          "comment_2": "Proporcione al comparador la ruta al archivo PPTX",
+          "comment_3": "Agregar otra presentación o presentaciones",
+          "comment_4": "Guarde el resultado en el almacenamiento local"
+        }
+      }
+    },
+    "formats": {
+      "title": "Realice una comparación de PPTX presentaciones con {{ProgLang}}",
+      "description": "Compare cualquier documento en formatos populares, incluidas las presentaciones de MS PowerPoint PPTX de {{ProdFullName}}. Enriquece tus datos empresariales obteniendo informes sobre las distinciones en PPTX presentaciones."
+    }
+  }
+}

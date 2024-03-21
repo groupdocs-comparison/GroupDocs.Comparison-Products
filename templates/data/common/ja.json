@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "name": "PDF ファイルの比較",
+        "description": "アドビ Portable ドキュメントフォーマット"
+      },
+      "docx": {
+        "name": "DOCX ファイルの比較",
+        "description": "マイクロソフト Word XML ドキュメントを開く"
+      },
+      "rtf": {
+        "name": "RTF ファイルの比較",
+        "description": "リッチテキストファイル形式"
+      },
+      "txt": {
+        "name": "TXT ファイルの比較",
+        "description": "プレーンテキストファイル形式"
+      },
+      "xlsx": {
+        "name": "XLSX ファイルの比較",
+        "description": "マイクロソフト Excel オープン XML スプレッドシート"
+      },
+      "csv": {
+        "name": "CSV ファイルの比較",
+        "description": "カンマ区切り値ファイル"
+      },
+      "pptx": {
+        "name": "PPTX ファイルを比較",
+        "description": "PowerPoint XML プレゼンテーションを開く"
+      },
+      "ods": {
+        "name": "ODS ファイルの比較",
+        "description": "Open Document スプレッドシート"
+      },
+      "odp": {
+        "name": "ODP ファイルの比較",
+        "description": "OpenDocument プレゼンテーションファイル形式"
+      },
+      "odt": {
+        "name": "ODT ファイルの比較",
+        "description": "Open Document テキスト"
+      },
+      "jpeg": {
+        "name": "JPEG ファイルの比較",
+        "description": "JPEG イメージ"
+      },
+      "png": {
+        "name": "PNG ファイルの比較",
+        "description": "Portable ネットワークグラフィック"
+      },
+      "gif": {
+        "name": "GIF ファイルの比較",
+        "description": "グラフィカル・インターチェンジ・フォーマット・ファイル"
+      },
+      "bmp": {
+        "name": "BMP ファイルの比較",
+        "description": "ビットマップファイル形式"
+      },
+      "html": {
+        "name": "HTML ファイルを比較する",
+        "description": "ハイパーテキストマークアップ言語"
+      },
+      "msg": {
+        "name": "MSG ファイルの比較",
+        "description": "マイクロソフト Outlook 電子メールメッセージ"
+      },
+      "one": {
+        "name": "ONE ファイルの比較",
+        "description": "マイクロソフト OneNote"
+      },
+      "vsdx": {
+        "name": "VSDX ファイルの比較",
+        "description": "マイクロソフト Visio 図面"
+      },
+      "cs": {
+        "name": "CS ファイルの比較",
+        "description": "CSharp Language"
+      },
+      "java": {
+        "name": "Java ファイルの比較",
+        "description": "Java 言語"
+      },
+      "cpp": {
+        "name": "CPP ファイルの比較",
+        "description": "C++ 言語"
+      }
+    },
+    "format-code": {
+      "copy_title": "[コピー]",
+      "copy_tip": "クリックしてコピー",
+      "copy_done": "コピーされました",
+      "links": {
+        "title_1": "その他の例",
+        "title_2": "ドキュメンテーション"
+      }
+    },
+    "format-actions": {
+      "title": "始める準備はできましたか?",
+      "description": "{{ProdShortName}} の機能を無料で試すか、ライセンスをリクエストしてください",
+      "comment_1": "{{PackageStoreName}} ダウンロード",
+      "comment_2": "ライセンス"
+    },
+    "texts": {
+      "learn_more": "さらに詳しく"
+    }
+  }
+}

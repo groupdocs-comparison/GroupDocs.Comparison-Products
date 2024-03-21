@@ -1,0 +1,292 @@
+{
+  "common": {
+    "head": {
+      "title": "{{EnvName}} {{FileFormatUp}} 比較 API-{{FileFormatUp}} ファイルの違いを確認",
+      "description": "{{EnvName}}、J2EE、J2SE アプリケーションの {{FileFormatUp}} 個のファイルを比較してマージします。内容、テキスト、スタイルの違いをまとめて分析できます。"
+    },
+    "header": {
+      "title": "{{EnvName}} 内の {{FileFormatUp}} 個のファイルを比較",
+      "description": "{{EnvName}} 内の 2 つ以上の {{FileFormatUp}} ファイル間のコンテンツ比較を実行します。相違点のリストを取得し、比較したファイルを 1 つの文書に保存します。",
+      "subtitle": "文書差分チェックフレームワーク",
+      "action_title": "無料 {{PackageStoreName}} ダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}} ライブラリの機能をご覧ください",
+      "content": "{{ProdFullName}} は、同じフォーマットを共有する複数の画像や文書を比較するために作られた固有の {{EnvName}} ソフトウェアです。比較した文書の中で、段落、単語、文字、形、さらにはテキストスタイルの違いを識別するのに役立ちます。これらの変更をマージして最終文書にエクスポートする機能により、PDF、Word 文書、Excel スプレッドシート、PowerPoint プレゼンテーション、Visio の図、Outlook 電子メール、HTML、図面、およびさまざまな画像ファイル形式の比較と結合が容易になり、外部ライブラリが不要になります。"
+    },
+    "steps": {
+      "title": "{{EnvName}} を使用して複数の {{FileFormatUp}} ドキュメントを比較する方法",
+      "content": {
+        "title": "[{{ProdShortName}}]({{ProductUrl}}) を使用して複数の {{FileFormatUp}} ファイルを比較し、それらの違いを詳述したレポートを生成します",
+        "step_1": "お好みのパッケージマネージャーを使用して [{{PackageStoreName}}]({{PackageUrl}}) から {{ProdFullName}} をインストールしてください",
+        "step_2": "Comparer クラスのインスタンスを作成し、{{FileFormatUp}} ファイルのいずれかにパスを設定します",
+        "step_3": "Comparer インスタンスに少なくとも 1 つの {{FileFormatUp}} を追加します",
+        "step_4": "正確な違いを概説した詳細な最終レポートを受け取る"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "ハードドライブのファイルに相違点や類似点がないかを確認する",
+          "comment_2": "初期ファイルを指定して Comparer オブジェクトを作成する",
+          "comment_3": "比較対象に追加ファイルを含める",
+          "comment_4": "指定した名前のレポートを結果として取得する"
+        }
+      }
+    },
+    "formats": {
+      "title": "{{ProgLang}} を使用してさまざまな文書を比較してください",
+      "description": "当社の {{EnvName}} ソリューションでは、さまざまな形式の文書を比較できます。文書の変更を簡単に処理できるため、常に最新の状態に保たれます。"
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "{{EnvName}} 比較ライブラリを使用して PDF の差分を確認してください。",
+      "description": "{{ProdShortName}} {{EnvName}} API は、J2EE と J2SE をサポートするアプリケーションの PDF ドキュメントに関する詳細なレポートを作成します。"
+    },
+    "header": {
+      "title": "{{EnvName}} 個のアプリケーションを使用して PDF 個のドキュメントを比較しています",
+      "description": "{{ProdShortName}} {{EnvName}} ライブラリは、J2EEまたはJ2SEを使用するさまざまな種類のアプリケーションの PDF ドキュメントの詳細な比較レポートを提供します。"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 個の API の利点をご覧ください",
+      "content": "正規の {{ProdFullName}} API は、PDF ドキュメント内の違いに関する有用なデータでいっぱいのレポートを作成するために作成されています。段落や単語内のテキストの違いだけでなく、形状やテキストスタイルの変化も最終レポートに表示されます。これらの変更をマージして最終文書にエクスポートすることもできます。実際、外部ライブラリは必要ありません。わずか数行のコードで豊富な機能にアクセスできます。"
+    },
+    "steps": {
+      "title": "{{EnvName}} 経由で複数の PDF ドキュメントを比較しています",
+      "content": {
+        "title": "PDF を [{{ProdShortName}}]({{ProductUrl}}) と比較し、文書の区別に関するレポートを入手してください",
+        "step_1": "{{ProdFullName}} パッケージを [{{PackageStoreName}}]({{PackageUrl}}) からダウンロードしてインストールしてください",
+        "step_2": "新しい Comparer インスタンスには PDF ファイルのいずれかへのパスが必要です",
+        "step_3": "比較するには、少なくとも 1 つの PDF ドキュメントを提供する必要があります",
+        "step_4": "結果レポートは指定されたパスに保存されます"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "PDF s での変更に関するレポートを取得中",
+          "comment_2": "最初のファイルパスを Comparer コンストラクターに渡す",
+          "comment_3": "別の PDF ドキュメントを提供してください",
+          "comment_4": "今後の分析のために区別レポートを保存"
+        }
+      }
+    },
+    "formats": {
+      "title": "{{EnvName}} 経由で PDF ファイルにある変更をすべて検索",
+      "description": "当社の {{EnvName}} ソフトウェアは、お好みの形式で正確で詳細なレポートを生成することにより、PDF ファイルのバージョンを制御できます。"
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "DOCX 文書の相違点チェックの解決策。",
+      "description": "{{ProdShortName}} APIによって提供される機会により、DOCX ドキュメント内の区別に関する情報を含むレポートを取得できます。"
+    },
+    "header": {
+      "title": "DOCX 文書内の区別を検索するための {{EnvName}} アプリケーション",
+      "description": "{{ProdShortName}} が提供する {{EnvName}} ライブラリは、Java、J2EE、または J2SE をサポートするアプリケーション内の DOCX ドキュメントを比較します。"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 個の API の利点をご覧ください",
+      "content": "DOCX 文書比較は {{ProdFullName}} API でサポートされています。このAPIは、さまざまな違いに関するデータを含むレポートを作成します。段落内のテキスト、図形、スタイル、その他のデータが分析されています。さらに、初期ファイルから DOCX 個のマージされた変更を 1 つ作成することもできます。外部ライブラリは必要ありません。数行のコードを追加して {{EnvName}} プロジェクトを改善しましょう。"
+    },
+    "steps": {
+      "title": "{{EnvName}} を使用して複数の DOCX ファイルを比較します",
+      "content": {
+        "title": "[{{ProdShortName}}]({{ProductUrl}}) を使用して MS Word 個のドキュメントを比較してください",
+        "step_1": "[{{PackageStoreName}}]({{PackageUrl}}) からソリューションをインストールしてください",
+        "step_2": "コンパラーは最初の DOCX ドキュメントをパラメーターとして作成する必要があります",
+        "step_3": "比較には複数の DOCX ドキュメントが必要です",
+        "step_4": "結果のレポートは有用なデータを提供します"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "MS Word 文書の変更について十分な情報を得てください",
+          "comment_2": "DOCX パスを比較対象に渡す",
+          "comment_3": "別の DOCX ドキュメントを追加",
+          "comment_4": "将来の分析に役立つ包括的なレポートを入手"
+        }
+      }
+    },
+    "formats": {
+      "title": "{{EnvName}} を使用して DOCX ファイルの変更を制御する",
+      "description": "{{ProdShortName}} {{EnvName}} APIを使用すると、ユーザーは簡単に処理できる正確で詳細なレポートを介して DOCX ドキュメントのバージョンを制御できます。"
+    }
+  },
+  "png": {
+    "head": {
+      "title": "{{EnvName}} を使用して PNG 枚の画像の差分レポートを取得します。",
+      "description": "{{ProdFullName}} API は、J2EE と J2SE をサポートするアプリケーションの PNG ドキュメントに関する有用な比較レポートを生成します。"
+    },
+    "header": {
+      "title": "{{EnvName}} を使って PNG 枚の写真を比較しています",
+      "description": "{{ProdShortName}} API を使用して Java、J2EE、または J2SE アプリケーションを強化できます。PNG 枚の写真で変更に関する詳細情報を取得できます。"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API 機能についての通知を受け取る",
+      "content": "{{ProdShortName}} は、PNG 形式で表される画像のさまざまなバージョン間の違いに基づいて詳細なレポートを作成するのに適したネイティブ {{EnvName}} APIとして開発されました。サポートされているのは PNG 形式だけではありません。当社の API では多くの便利な機能が提供されています。"
+    },
+    "steps": {
+      "title": "{{ProgLang}} を使用して PNG ファイルを比較してください",
+      "content": {
+        "title": "PNG ファイルを [{{ProdShortName}}]({{ProductUrl}}) と比較し、それらの変更に関する関連レポートを取得",
+        "step_1": "{{ProdFullName}} パッケージをインストールし、[{{PackageStoreName}}]({{PackageUrl}}) からダウンロードします",
+        "step_2": "Comparer インスタンスを指定し、パスを PNG に渡します",
+        "step_3": "さらに比較するために PNG ファイルを追加",
+        "step_4": "レポートをローカルディスクに保存"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "PNG の違いに関する情報を含むレポートを取得",
+          "comment_2": "メインファイルパスを含む Comparer オブジェクトを取得",
+          "comment_3": "比較する PNG 枚の写真を追加",
+          "comment_4": "レポートを目的の場所に保存"
+        }
+      }
+    },
+    "formats": {
+      "title": "{{ProgLang}} で PNG 画像の異なるバージョンでの違いを検索",
+      "description": "{{ProdFullName}} APIは PNG 枚の画像内の変更を追跡し、さらに分析するための実証レポートを作成します。"
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "{{ProgLang}} を介した比較レポートで JPEG を分析します。",
+      "description": "JPEG 枚の画像の便利な区別レポートを生成するために開発された強力な {{ProdFullName}} API。J2EE と J2SE がサポートされています。"
+    },
+    "header": {
+      "title": "JPEG 枚の画像を当社の {{EnvName}} ライブラリと比較してください",
+      "description": "Java、{{ProdShortName}} APIを搭載したJ2EEまたはJ2SEアプリケーションを使用すると、JPEG 枚の画像の違いに関する詳細なレポートを簡単に取得できます。"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API を見てください",
+      "content": "{{ProdShortName}} と呼ばれるネイティブ {{EnvName}} API は、JPEG 形式で保存された画像のバージョン間の変更に関する詳細なレポートを作成します。多くの一般的な画像形式もサポートされています。当社の API では多くの画像形式がサポートされています。"
+    },
+    "steps": {
+      "title": "{{ProgLang}} を使用して JPEG 枚の写真を比較してください",
+      "content": {
+        "title": "JPEG 枚の画像の違いに関する有用な情報を [{{ProdShortName}}]({{ProductUrl}}) で取得できます",
+        "step_1": "[{{PackageStoreName}}]({{PackageUrl}}) の {{ProdFullName}} パッケージをプロジェクトに参加させてください",
+        "step_2": "JPEG イメージへのパスを指定してコンパレータをインスタンス化",
+        "step_3": "JPEG ファイルを比較対象に追加",
+        "step_4": "結果のレポートを取得"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "JPEG の区別データを作成",
+          "comment_2": "比較対象オブジェクトにはメイン JPEG ファイルパスが必要です",
+          "comment_3": "その他の JPEG 枚の写真は必ず指定してください",
+          "comment_4": "結果ファイルにはレポートが含まれています"
+        }
+      }
+    },
+    "formats": {
+      "title": "JPEG 個の画像のさまざまなバージョンでの変更を {{ProgLang}} で制御",
+      "description": "JPEG 枚の画像の変更は {{ProdFullName}} によって検出される可能性があります。詳細なレポートをビジネスプロセスに組み込んでください。"
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "JPG 枚の画像を {{ProdFullName}} で分析します。",
+      "description": "{{ProdFullName}} API は JPG 枚の画像に関する有用なレポートを生成します。Java、J2EE、J2SE をサポートします。"
+    },
+    "header": {
+      "title": "{{EnvName}} ソリューションで JPG ファイルの変更を分析",
+      "description": "{{EnvName}}、J2EE、または {{ProdShortName}} API を使用する J2SE アプリケーションは、詳細な JPG レポートを生成できます。"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API を探索する",
+      "content": "ネイティブ {{EnvName}} ソリューション {{ProdShortName}} は、JPG 件の変更に関する詳細なレポートを作成します。一般的な画像形式をサポートし、比較やさらなる処理を可能にします。"
+    },
+    "steps": {
+      "title": "{{ProgLang}} を使用して JPG ファイルを比較",
+      "content": {
+        "title": "[{{ProdShortName}}]({{ProductUrl}}) で JPG 個の差分データを取得",
+        "step_1": "[{{PackageStoreName}}]({{PackageUrl}}) から {{ProdFullName}} を追加して、製品の機能を強化してください",
+        "step_2": "JPG パスを持つコンパレータインスタンスを作成",
+        "step_3": "他の JPG 枚の画像を処理に追加",
+        "step_4": "結果のレポートを入手"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "JPG の区別データを作成",
+          "comment_2": "Comparer オブジェクトにはメイン JPG ファイルパスが必要です",
+          "comment_3": "他の JPG 枚の写真を指す",
+          "comment_4": "結果ファイルにはレポートが含まれています"
+        }
+      }
+    },
+    "formats": {
+      "title": "{{ProgLang}} を使用して JPG の画像のさまざまなバージョンでの変更を追跡します",
+      "description": "{{ProdFullName}} で JPG 枚の画像の変化を検出します。詳細なレポートでビジネスプロセスを強化しましょう。"
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "XLSX を比較するには {{ProdFullName}}。",
+      "description": "{{ProdShortName}} API では、XLSX ドキュメントの差異を詳述したレポートを取得できます。Java、J2EE、および J2SE 環境と互換性があります。"
+    },
+    "header": {
+      "title": "XLSX スプレッドシートの変更を検出するための {{EnvName}} アプリケーション",
+      "description": "{{ProdShortName}} {{EnvName}} API を使用すると、Java、J2EE、または J2SE アプリケーション内の XLSX スプレッドシートを比較できます。"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API の利点をご覧ください",
+      "content": "{{ProdFullName}} APIを使用すると、XLSX スプレッドシートを簡単に比較でき、テキスト、段落、図形、スタイル、その他の要素で見つかった違いに関するレポートが生成されます。さらに、外部ライブラリを必要とせずに、複数のオリジナルファイルからの変更をマージすることもできます。最小限のコード統合で {{EnvName}} プロジェクトを強化しましょう。"
+    },
+    "steps": {
+      "title": "複数の XLSX ファイルを比較するには {{EnvName}} を使用してください",
+      "content": {
+        "title": "[{{ProdShortName}}]({{ProductUrl}}) を使用して MS Excel スプレッドシートを分析してください",
+        "step_1": "[{{PackageStoreName}}]({{PackageUrl}}) からパッケージをインストール",
+        "step_2": "最初の XLSX スプレッドシートをパラメーターとして Comparer をインスタンス化します",
+        "step_3": "比較用に追加 XLSX スプレッドシートを含めてください",
+        "step_4": "包括的なレポートをお楽しみください"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "MS Excel 文書の変更に関する最新情報を入手",
+          "comment_2": "XLSX パスを比較者に提供",
+          "comment_3": "追加の XLSX スプレッドシートを組み込む",
+          "comment_4": "詳細なレポートにアクセスして今後の分析に役立てる"
+        }
+      }
+    },
+    "formats": {
+      "title": "{{EnvName}} を使用して XLSX スプレッドシートの変更を管理する",
+      "description": "{{ProdShortName}} {{EnvName}} ライブラリを使用すると、簡単に作成できる詳細で正確なレポートを通じて、さまざまなバージョンの XLSX スプレッドシートを監視できます。"
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "PPTX 比較専用に設計されたライブラリ。",
+      "description": "{{ProdShortName}} には、PPTX 個のプレゼンテーションの差異を詳述したレポートを取得する機能があります。Java、J2EE、または J2SE がサポートされています。"
+    },
+    "header": {
+      "title": "{{ProdShortName}} によって強化された {{EnvName}} 個のアプリケーションを PPTX と比較します",
+      "description": "マイクロソフト PowerPoint PPTX のプレゼンテーションを Java、J2EE、または J2SE アプリケーションを使用する {{ProdFullName}} のプレゼンテーションと比較できます。"
+    },
+    "about": {
+      "title": "{{ProdFullName}} の機能をご覧ください",
+      "content": "{{ProdFullName}} APIは、PPTX 個のプレゼンテーションの違いに関する比較レポートを実装しています。結果レポートには、テキストの違いだけでなく、形状、スタイル、その他の要素も含まれます。多くのプレゼンテーションを1つのテイクにまとめるのは望ましいことだけです。サードパーティーの外部ライブラリは不要です。最小限のコード量で {{EnvName}} 件のプロジェクトを強化できます。"
+    },
+    "steps": {
+      "title": "複数の PPTX ファイルを比較するには {{EnvName}} を使用してください",
+      "content": {
+        "title": "[{{ProdShortName}}]({{ProductUrl}}) を使用して MS PowerPoint 個のプレゼンテーションを分析してください",
+        "step_1": "[{{PackageStoreName}}]({{PackageUrl}}) からパッケージをインストール",
+        "step_2": "PPTX パスとともに新しい比較対象を指定してください",
+        "step_3": "比較用に PPTX 件のプレゼンテーションを追加",
+        "step_4": "詳細レポートを取得"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "MS PPTX プレゼンテーションの違いについて知っている",
+          "comment_2": "ファイルパスを指定してください",
+          "comment_3": "PPTX 件のプレゼンテーションを追加",
+          "comment_4": "今後の分析のためにレポートを保存"
+        }
+      }
+    },
+    "formats": {
+      "title": "{{EnvName}} を使用して PPTX 個のファイルを分析します",
+      "description": "{{ProdFullName}} ソフトウェアを使用すると、MS PowerPoint PPTX 件のプレゼンテーションの違いを検出し、余計な労力をかけずに詳細で正確なレポートを作成できます。"
+    }
+  }
+}

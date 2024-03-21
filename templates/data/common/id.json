@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "name": "Bandingkan File PDF",
+        "description": "Adobe Portable Format Dokumen"
+      },
+      "docx": {
+        "name": "Bandingkan File DOCX",
+        "description": "Microsoft Word Buka Dokumen XML"
+      },
+      "rtf": {
+        "name": "Bandingkan File RTF",
+        "description": "Format File Teks Kaya"
+      },
+      "txt": {
+        "name": "Bandingkan File TXT",
+        "description": "Format File Teks Biasa"
+      },
+      "xlsx": {
+        "name": "Bandingkan File XLSX",
+        "description": "Microsoft Excel Buka Spreadsheet XML"
+      },
+      "csv": {
+        "name": "Bandingkan File CSV",
+        "description": "File Nilai yang Dipisahkan Koma"
+      },
+      "pptx": {
+        "name": "Bandingkan File PPTX",
+        "description": "PowerPoint Presentasi XML Terbuka"
+      },
+      "ods": {
+        "name": "Bandingkan File ODS",
+        "description": "Open Document Spreadsheet"
+      },
+      "odp": {
+        "name": "Bandingkan File ODP",
+        "description": "OpenDocument Format Berkas Presentasi"
+      },
+      "odt": {
+        "name": "Bandingkan File ODT",
+        "description": "Open Document Teks"
+      },
+      "jpeg": {
+        "name": "Bandingkan File JPEG",
+        "description": "JPEG Gambar"
+      },
+      "png": {
+        "name": "Bandingkan File PNG",
+        "description": "Portable Grafik Jaringan"
+      },
+      "gif": {
+        "name": "Bandingkan File GIF",
+        "description": "File Format Pertukaran Grafis"
+      },
+      "bmp": {
+        "name": "Bandingkan File BMP",
+        "description": "Format File Bitmap"
+      },
+      "html": {
+        "name": "Bandingkan File HTML",
+        "description": "Bahasa Markup Teks Hyper"
+      },
+      "msg": {
+        "name": "Bandingkan File MSG",
+        "description": "Pesan E-mail Microsoft Outlook"
+      },
+      "one": {
+        "name": "Bandingkan File ONE",
+        "description": "Microsoft OneNote"
+      },
+      "vsdx": {
+        "name": "Bandingkan File VSDX",
+        "description": "Microsoft Visio Menggambar"
+      },
+      "cs": {
+        "name": "Bandingkan File CS",
+        "description": "Bahasa CSharp"
+      },
+      "java": {
+        "name": "Bandingkan File Java",
+        "description": "Java Bahasa"
+      },
+      "cpp": {
+        "name": "Bandingkan File CPP",
+        "description": "Bahasa C++"
+      }
+    },
+    "format-code": {
+      "copy_title": "Salin",
+      "copy_tip": "klik untuk menyalin",
+      "copy_done": "menyalin",
+      "links": {
+        "title_1": "Lebih banyak contoh",
+        "title_2": "Dokumentasi"
+      }
+    },
+    "format-actions": {
+      "title": "Siap untuk memulai?",
+      "description": "Coba fitur {{ProdShortName}} secara gratis atau minta lisensi",
+      "comment_1": "{{PackageStoreName}} unduhan",
+      "comment_2": "Perizinan"
+    },
+    "texts": {
+      "learn_more": "Pelajari selengkapnya"
+    }
+  }
+}

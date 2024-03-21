@@ -1,78 +1,97 @@
+
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-12-14T14:24:25
+date: 2024-03-21T15:26:29
 draft: false
+
+lang: zh
 product: "Comparison"
 product_tag: "comparison"
 platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
+
 ############################# Head ############################
-head_title: "{index-content-nodejs-java.head_title}"
-head_description: "{index-content-nodejs-java.head_description}"
+head_title: "Node.js 文档比较 API | 差异检查器"
+head_description: "Node.js 文档比较 API 为文档比较提供了有效的工具。与 Node.js 无缝集成，实现实时变更跟踪"
 
 ############################# Header ############################
-title: "{index-content-nodejs-java.title}"
-description: "{index-content-nodejs-java.description}"
+title: "将文档与 Node.js 进行比较：突出显示所有差异"
+description: "使用 GroupDocs.Comparison API 开发具有高度可配置比较功能的原生 Java 脚本应用程序。比较相似文档格式之间的文件、其内容和文本样式。"
 words:
-  for: "{index-content-nodejs-java.words_for}"
+  for: "为了"
 
 actions:
-  main: "{index-content-nodejs-java.actions_main}"
+  main: "免费下载 NPM"
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.comparison"
-  alt: "{index-content-nodejs-java.actions_alt}"
-  alt_link: "https://purchase.groupdocs.com/pricing/comparison/nodejs-java"
-  title: "{index-content-nodejs-java.actions_title}"
-  description: "{index-content-nodejs-java.actions_description}"
+  alt: "许可"
+  alt_link: "https://purchase.groupdocs.com/pricing/comparison/java/"
+  title: "准备好开始了吗？"
+  description: "免费试用 GroupDocs.Comparison 项功能或申请许可证"
 
 release:
-  title: "{index-content-nodejs-java.release_title}"
-  notes: "{index-content-nodejs-java.release_notes}"
-  downloads: "{index-content-nodejs-java.release_downloads}"
-  link: "https://releases.groupdocs.com/comparison/nodejs-java/release-notes/latest/"
+  title: "版本 {0} 已发布"
+  notes: "查看新增内容"
+  downloads: "下载"
 
 code:
-  title: "{index-content-nodejs-java.code_title}"
-  more: "{index-content-nodejs-java.code_more}"
+  title: "比较 Java 脚本中的 BMP 张图像"
+  more: "更多例子"
   more_link: "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.comparison"
   content: |
     ```javascript {style=abap}
 
-    // {index-content-nodejs-java.code_comment_1}
-    let comparer = new Comparer("C:\\source.bmp");
+    // 指定源文档
+    let comparer = new Comparer("source.bmp");
 
-    // {index-content-nodejs-java.code_comment_2}
-    comparer.add("C:\\target.bmp");
+    // 添加一个或多个目标文档
+    comparer.add("target.bmp");
 
-    // {index-content-nodejs-java.code_comment_3}
-    comparer.compare("C:\\result.pdf"); 
+    // 指定比较选项
+    comparer.compare("result.bmp"); 
     ```
 
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content-nodejs-java.overview_title}"
-  description: "{index-content-nodejs-java.overview_description}"
+  title: "GroupDocs.Comparison 一览"
+  description: "用于比较 Node.js 应用程序中各种类型的文档（例如 PDF、Microsoft Office、HTML、电子邮件或图像）的 API"
   features:
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_1.title}"
-      content: "{index-content-nodejs-java.overview_feature_1.description}"
+    - title: "详细的输出报告"
+      content: "GroupDocs.Comparison 标识文档内容（字符、文字、段落、表格、图表）的变化以及文档样式的变化。它为客户提供一份结果报告，其中包含有关差异、差异数量和类型的丰富信息。"
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_2.title}"
-      content: "{index-content-nodejs-java.overview_feature_2.description}"
+    - title: "支持最常用的文件和文档格式"
+      content: "使用 GroupDocs.Comparison API，您可以高效地比较任何支持格式的文档，例如 PDF、HTML、电子邮件、Microsoft Office Word 文档、Excel 电子表格、PowerPoint 演示文稿、OneNote、Visio 图表、文本、JPEG、PNG、GIF 和 BMP 图像以及许多其他格式。"
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_3.title}"
-      content: "{index-content-nodejs-java.overview_feature_3.description}"
+    - title: "文档和示例"
+      content: "已经有很多关于在不同平台上使用比较库的文档以及代码示例，因此您不必费心思考如何在 Node.js 应用程序中使用 GroupDocs.Comparison API。"
+
+    # feature loop
+    - title: "选择更改并将它们合并到一个文件中"
+      content: "如果一个文档有不同的版本，则可以只选择所需的更改并使用 GroupDocs.Comparison 库编译新文档。"
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content-nodejs-java.platforms_title}"
-  description: "{index-content-nodejs-java.platforms_description}"
+  title: "平台独立性"
+  description: "GroupDocs.Comparison for Node.js via Java 支持以下操作系统、框架和包管理器"
   items:
     # platform loop
     - title: "Windows"
@@ -111,145 +130,147 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content-nodejs-java.formats_title}"
+  title: "支持的文件格式"
   description: |
-    {index-content-nodejs-java.formats_description}
+    GroupDocs.Comparison for Node.js via Java 支持以下 [文件格式](https://docs.groupdocs.com/comparison/nodejs-java/supported-document-formats/) 的操作。
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content-nodejs-java.formats_groups.title_1}
-        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTX, RTF, TXT
-        * **Excel:** XLS, XLT, XLSX, XLTM, XLSB, XLSM, XLSX
-        * **PowerPoint:** POT, POTX, PPS, PPSX, PPTX, PPT        
+        ### Microsoft Office 和 OpenDocument 格式
+        * **Word:** DOCX, DOC, DOCM,DOT, DOTM, DOTX, RTX, RTF, TXT
+        * **Excel:** XLSX, XLS, XLT, XLTM, XLSB, XLSM
+        * **PowerPoint:** PPTX, PPT, POT, POTX, PPS, PPSX
         * **Outlook:** EML, EMLX, MSG
         * **OneNote:** ONE
         * **OpenDocument:** ODT, ODP, OTP, ODS, OTT
-        * **{index-content-nodejs-java.formats_groups.format_1_7}:** PDF  
+        * **固定页面布局:** PDF        
     # group loop
     - color: "blue"
       content: |
-        ### {index-content-nodejs-java.formats_groups.title_2}
-        * **{index-content-nodejs-java.formats_groups.format_2_1}:** BMP, GIF, JPG, JPEG, PNG
-        * **{index-content-nodejs-java.formats_groups.format_2_2}:** DICOM
+        ### 图像、图形和图表
+        * **光栅图像:** BMP, GIF, JPG, JPEG, PNG
+        * **医学成像:** DICOM
         * **Microsoft Visio:** VSDX, VSD, VSS, VST, VDX
-        * **{index-content-nodejs-java.formats_groups.format_2_4}:** DWG, DXF
+        * **AutoCAD Drawing:** DWG, DXF
       # group loop
     - color: "red"
       content: |
-        ### {index-content-nodejs-java.formats_groups.title_3}
-        * **{index-content-nodejs-java.formats_groups.format_3_1}:** TXT
-        * **{index-content-nodejs-java.formats_groups.format_3_2}:** CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, PHP, SQL, LOG, DIFF, LESS, SCALA
-        * **{index-content-nodejs-java.formats_groups.format_3_3}:** HTM, HTML, MHT, MHTML
-        * **{index-content-nodejs-java.formats_groups.format_3_4}:** MOBI, DjVu
-        * **{index-content-nodejs-java.formats_groups.format_3_5}:** CSV
+        ### 其他
+        * **文本:** TXT
+        * **编程语言:** CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, PHP, SQL, LOG, DIFF, LESS, SCALA
+        * **网页:** HTM, HTML, MHT, MHTML
+        * **电子书:** MOBI, DjVu
+        * **分隔符分隔的值:** CSV
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-nodejs-java.features.title}"
-  description: "{index-content-nodejs-java.features.description}"
+  title: "GroupDocs.Comparison for Node.js via Java 个功能"
+  description: "轻松比较 PDF 和 Office 文档、图像和其他格式"
 
   items:
     # feature loop
-    - icon: "fas fa-columns"
-      title: "{index-content-nodejs-java.features.feature_1.title}"
-      content: "{index-content-nodejs-java.features.feature_1.content}"
+    - icon: "compare"
+      title: "易于使用的文档对比"
+      content: "分析并识别两个文档中的差异。"
 
     # feature loop
-    - icon: "fas fa-border-all"
-      title: "{index-content-nodejs-java.features.feature_2.title}"
-      content: "{index-content-nodejs-java.features.feature_2.content}"
+    - icon: "note-stack"
+      title: "比较多个文档"
+      content: "同时分析和识别多个文档中的差异。"
 
     # feature loop
-    - icon: "complex"
-      title: "{index-content-nodejs-java.features.feature_3.title}"
-      content: "{index-content-nodejs-java.features.feature_3.content}"
+    - icon: "stacks"
+      title: "支持的格式"
+      content: "支持来自不同类别的 50 多种流行文档格式。"
 
     # feature loop
-    - icon: "adjustment"
-      title: "{index-content-nodejs-java.features.feature_4.title}"
-      content: "{index-content-nodejs-java.features.feature_4.content}"
+    - icon: "rule"
+      title: "接受或拒绝更改"
+      content: "清晰直观地呈现已识别的更改，提供接受或拒绝修改的选项。"
 
     # feature loop
-    - icon: "fas fa-eye"
-      title: "{index-content-nodejs-java.features.feature_5.title}"
-      content: "{index-content-nodejs-java.features.feature_5.content}"
+    - icon: "preview"
+      title: "生成预览"
+      content: "将比较结果另存为图像。"
 
     # feature loop
-    - icon: "fas fa-comment-slash"
-      title: "{index-content-nodejs-java.features.feature_6.title}"
-      content: "{index-content-nodejs-java.features.feature_6.content}"
+    - icon: "two-pager"
+      title: "内容对比"
+      content: "逐行、逐段、逐字、逐字符比较文本内容。突出显示更改。"
 
     # feature loop
-    - icon: "fas fa-remove-format"
-      title: "{index-content-nodejs-java.features.feature_7.title}"
-      content: "{index-content-nodejs-java.features.feature_7.content}"
+    - icon: "format_color_text"
+      title: "风格对比"
+      content: "检测格式和样式的变化。"
 
     # feature loop
-    - icon: "fas fa-wrench"
-      title: "{index-content-nodejs-java.features.feature_8.title}"
-      content: "{index-content-nodejs-java.features.feature_8.content}"
+    - icon: "folder-managed"
+      title: "设置元数据"
+      content: "保留源文件或目标文件中的元数据，或允许用户指定。"
 
     # feature loop
-    - icon: "fas fa-lock"
-      title: "{index-content-nodejs-java.features.feature_9.title}"
-      content: "{index-content-nodejs-java.features.feature_9.content}"
+    - icon: "lock"
+      title: "密码保护"
+      content: "分析加密文档，或使用密码保护生成的文档。"
 
     # feature loop
-    - icon: "fas fa-copy"
-      title: "{index-content-nodejs-java.features.feature_10.title}"
-      content: "{index-content-nodejs-java.features.feature_10.content}"
+    - icon: "select"
+      title: "比较特定页面"
+      content: "仅加载文档的特定部分或页面。"
 
     # feature loop
-    - icon: "fas fa-envelope"
-      title: "{index-content-nodejs-java.features.feature_11.title}"
-      content: "{index-content-nodejs-java.features.feature_11.content}"
+    - icon: "speaker-notes"
+      title: "显示评论"
+      content: "加载源文档时，您可以选择隐藏还是显示注释。"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content-nodejs-java.code_samples.title}"
-  description: "{index-content-nodejs-java.code_samples.description}"
+  title: "代码示例"
+  description: "典型 GroupDocs.Comparison for Node.js via Java 操作的一些用例"
   items:
     # code sample loop
-    - title: "{index-content-nodejs-java.code_samples.sample_1.title}"
+    - title: "比较受密码保护的文档。"
       content: |
-        {index-content-nodejs-java.code_samples.sample_1.content}
-        {{< landing/code title="JavaScript">}}
+        要比较 [受密码保护](https://docs.groupdocs.com/comparison/nodejs-java/load-password-protected-documents/) 的文档，您需要指定它然后加载文档：
+        {{< landing/code title="如何比较受密码保护的文档。">}}
         ```javascript {style=abap}
+
         import { Comparer, LoadOptions } from '@groupdocs/groupdocs.comparison'
 
-        // {index-content-nodejs-java.code_samples.sample_1.comment_1}
-        const comparer = new Comparer("C:\\source.doc", new LoadOptions("1234"));
+        // 加载源文档并指定其密码
+        const comparer = new Comparer("source.docx", new LoadOptions("1234"));
 
-        // {index-content-nodejs-java.code_samples.sample_1.comment_2}
-        comparer.add("C:\\target.doc", new LoadOptions("5678"));
+        // 加载目标文档并指定其密码
+        comparer.add("target.docx", new LoadOptions("5678"));
 
-        // {index-content-nodejs-java.code_samples.sample_1.comment_3}
-        comparer.compare("C:\\result.pdf");
+        // 将比较结果保存到指定文件中
+        comparer.compare("result.docx");
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-nodejs-java.code_samples.sample_2.title}"
+    - title: "比较多个 PDF 个文档。"
       content: |
-        {index-content-nodejs-java.code_samples.sample_2.content}
-        {{< landing/code title="JavaScript">}}
+        GroupDocs.Comparison 允许您 [比较两个以上的文档](https://docs.groupdocs.com/comparison/nodejs-java/compare-multiple-documents/)。该操作与比较两个文件时的操作几乎相同。你只需要在 “比较器” 类中添加更多目标文件即可。
+        {{< landing/code title="如何比较三个或更多文档。">}}
         ```javascript {style=abap}
         import { Comparer } from '@groupdocs/groupdocs.comparison'
 
-        // {index-content-nodejs-java.code_samples.sample_2.comment_1}
-        const comparer = new Comparer("C:\\source.pdf");
+        // 加载源文档
+        const comparer = new Comparer(source.pdf");
 
-        // {index-content-nodejs-java.code_samples.sample_2.comment_2}
-        comparer.add("C:\\target2.pdf");
+        // 指定第二个文件进行比较
+        comparer.add("target2.pdf");
 
-        // {index-content-nodejs-java.code_samples.sample_2.comment_3}
-        comparer.add("C:\\target3.pdf");
+        // 指定第三个文件进行比较
+        comparer.add("target3.pdf");
 
-        // {index-content-nodejs-java.code_samples.sample_2.comment_4}
-        comparer.compare("C:\\result.pdf");
+        // 将比较结果保存到指定文件中
+        comparer.compare("result.pdf");
         ```
+
         {{< /landing/code >}}
 
 ---

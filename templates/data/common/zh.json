@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "name": "比较 PDF 个文件",
+        "description": "Adobe Portable 文档格式"
+      },
+      "docx": {
+        "name": "比较 DOCX 个文件",
+        "description": "微软 Word 打开 XML 文档"
+      },
+      "rtf": {
+        "name": "比较 RTF 个文件",
+        "description": "富文本文件格式"
+      },
+      "txt": {
+        "name": "比较 TXT 个文件",
+        "description": "纯文本文件格式"
+      },
+      "xlsx": {
+        "name": "比较 XLSX 个文件",
+        "description": "微软 Excel 打开 XML 电子表格"
+      },
+      "csv": {
+        "name": "比较 CSV 文件",
+        "description": "逗号分隔值文件"
+      },
+      "pptx": {
+        "name": "比较 PPTX 个文件",
+        "description": "PowerPoint 打开 XML 演示文稿"
+      },
+      "ods": {
+        "name": "比较 ODS 个文件",
+        "description": "Open Document 电子表格"
+      },
+      "odp": {
+        "name": "比较 ODP 文件",
+        "description": "OpenDocument 演示文件格式"
+      },
+      "odt": {
+        "name": "比较 ODT 个文件",
+        "description": "Open Document 文本"
+      },
+      "jpeg": {
+        "name": "比较 JPEG 个文件",
+        "description": "JPEG 图片"
+      },
+      "png": {
+        "name": "比较 PNG 个文件",
+        "description": "Portable 网络图形"
+      },
+      "gif": {
+        "name": "比较 GIF 个文件",
+        "description": "图形交换格式文件"
+      },
+      "bmp": {
+        "name": "比较 BMP 个文件",
+        "description": "位图文件格式"
+      },
+      "html": {
+        "name": "比较 HTML 文件",
+        "description": "超文本标记语言"
+      },
+      "msg": {
+        "name": "比较 MSG 个文件",
+        "description": "微软 Outlook 电子邮件"
+      },
+      "one": {
+        "name": "比较 ONE 个文件",
+        "description": "微软 OneNote"
+      },
+      "vsdx": {
+        "name": "比较 VSDX 个文件",
+        "description": "微软 Visio 绘图"
+      },
+      "cs": {
+        "name": "比较 CS 文件",
+        "description": "cSharp 语言"
+      },
+      "java": {
+        "name": "比较 Java 个文件",
+        "description": "Java 语言"
+      },
+      "cpp": {
+        "name": "比较 CPP 文件",
+        "description": "C++ 语言"
+      }
+    },
+    "format-code": {
+      "copy_title": "复制",
+      "copy_tip": "点击复制",
+      "copy_done": "复制的",
+      "links": {
+        "title_1": "更多例子",
+        "title_2": "文档"
+      }
+    },
+    "format-actions": {
+      "title": "准备好开始了吗？",
+      "description": "免费试用 {{ProdShortName}} 项功能或申请许可证",
+      "comment_1": "{{PackageStoreName}} 下载",
+      "comment_2": "许可"
+    },
+    "texts": {
+      "learn_more": "了解更多"
+    }
+  }
+}
