@@ -1,0 +1,292 @@
+{
+  "common": {
+    "head": {
+      "title": "{{EnvName}} {{FileFormatUp}} 비교 API - {{FileFormatUp}} 파일에 차이점이 있는지 확인하세요.",
+      "description": "{{EnvName}}, J2EE, J2SE 애플리케이션의 {{FileFormatUp}} 개의 파일을 비교하고 병합합니다.콘텐츠, 텍스트 및 스타일의 차이점 요약을 분석합니다."
+    },
+    "header": {
+      "title": "{{EnvName}} 의 {{FileFormatUp}} 개 파일 비교",
+      "description": "{{EnvName}} 에 있는 두 개 이상의 {{FileFormatUp}} 파일 간의 콘텐츠 비교를 수행합니다.차이점 목록을 검색하고 비교한 파일을 단일 문서에 저장합니다.",
+      "subtitle": "문서 차이점 검사 프레임워크",
+      "action_title": "무료 {{PackageStoreName}} 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 라이브러리의 기능 살펴보기",
+      "content": "{{ProdFullName}} 는 동일한 형식을 공유하는 여러 이미지와 문서를 비교하기 위해 만들어진 내장 {{EnvName}} 소프트웨어입니다.비교 문서 간의 단락, 단어, 문자, 모양 및 텍스트 스타일 내의 차이를 식별하는 데 도움이 됩니다.이러한 변경 내용을 병합하고 최종 문서로 내보낼 수 있으므로 PDF 개, Word 문서, Excel 스프레드시트, PowerPoint 프레젠테이션, Visio 다이어그램, Outlook 이메일, HTML, 그림 및 다양한 이미지 파일 형식을 쉽게 비교하고 병합할 수 있으므로 외부 라이브러리가 필요하지 않습니다."
+    },
+    "steps": {
+      "title": "{{EnvName}} 을 사용하여 여러 {{FileFormatUp}} 문서를 비교하는 방법",
+      "content": {
+        "title": "[{{ProdShortName}}]({{ProductUrl}}) 를 사용하여 여러 {{FileFormatUp}} 개의 파일을 비교하고 차이점을 자세히 설명하는 보고서를 생성합니다.",
+        "step_1": "선호하는 패키지 관리자를 사용하여 [{{PackageStoreName}}]({{PackageUrl}}) 에서 {{ProdFullName}} 를 설치하십시오.",
+        "step_2": "{{FileFormatUp}} 파일 중 하나에 대한 Comparer 클래스 설정 경로의 인스턴스를 생성합니다.",
+        "step_3": "콤퍼러 인스턴스에 {{FileFormatUp}} 를 하나 이상 추가합니다.",
+        "step_4": "정확한 차이점을 요약한 상세한 최종 보고서 받기"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "하드 드라이브에서 파일의 차이점이나 유사점을 확인합니다.",
+          "comment_2": "초기 파일을 지정하여 Comparer 객체 만들기",
+          "comment_3": "비교할 추가 파일 포함",
+          "comment_4": "결과로 지정된 이름의 보고서를 가져옵니다."
+        }
+      }
+    },
+    "formats": {
+      "title": "{{ProgLang}} 를 사용하여 다양한 문서 비교",
+      "description": "{{EnvName}} 솔루션을 사용하면 다양한 형식의 문서를 비교할 수 있습니다.문서 변경 사항을 손쉽게 처리하여 최신 상태를 유지할 수 있습니다."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "{{EnvName}} 비교 라이브러리를 사용하여 PDF 의 차이점을 확인하십시오.",
+      "description": "{{ProdShortName}} {{EnvName}} API는 J2EE 및 J2SE를 지원하는 애플리케이션의 PDF 문서에 대한 세부 보고서를 생성합니다."
+    },
+    "header": {
+      "title": "{{EnvName}} 개의 애플리케이션을 사용하여 PDF 개의 문서 비교",
+      "description": "{{ProdShortName}} {{EnvName}} 라이브러리는 J2EE 또는 J2SE를 사용하는 다양한 종류의 응용 프로그램에서 PDF 문서에 대한 자세한 비교 보고서를 제공합니다."
+    },
+    "about": {
+      "title": "{{ProdFullName}} 개의 API의 이점을 확인해 보세요",
+      "content": "정품 {{ProdFullName}} API는 PDF 문서 내의 차이점에 대한 유용한 데이터로 가득 찬 보고서를 작성하기 위해 만들어졌습니다.최종 보고서에는 단락이나 단어 내의 텍스트 차이뿐만 아니라 모양과 텍스트 스타일의 변화도 표시됩니다.이러한 변경 내용을 병합하여 최종 문서로 내보내는 것도 가능합니다.사실 외부 라이브러리는 필요 없습니다.단 몇 줄의 코드만으로 풍부한 기능에 액세스할 수 있습니다."
+    },
+    "steps": {
+      "title": "{{EnvName}} 를 통해 여러 PDF 개의 문서 비교",
+      "content": {
+        "title": "PDF 을 [{{ProdShortName}}]({{ProductUrl}}) 와 비교하고 문서의 차이점에 대한 보고서 받기",
+        "step_1": "[{{PackageStoreName}}]({{PackageUrl}}) 에서 {{ProdFullName}} 패키지를 다운로드하여 설치합니다.",
+        "step_2": "새 Comparer 인스턴스에는 PDF 개 파일 중 하나에 대한 경로가 있어야 합니다.",
+        "step_3": "비교를 위해 적어도 하나의 PDF 문서를 제공해야 합니다.",
+        "step_4": "결과 보고서는 제공된 경로에 저장됩니다."
+      },
+      "code": {
+        "comments": {
+          "comment_1": "PDF s의 변경 사항에 대한 보고서 받기",
+          "comment_2": "첫 번째 파일 경로를 Comparer 생성자에 전달",
+          "comment_3": "다른 PDF 개의 문서 제공",
+          "comment_4": "향후 분석을 위해 구별 보고서 저장"
+        }
+      }
+    },
+    "formats": {
+      "title": "{{EnvName}} 를 통해 PDF 개의 파일에서 변경 사항 찾기",
+      "description": "당사의 {{EnvName}} 소프트웨어는 사용자가 선호하는 형식으로 정확하고 상세한 보고서를 생성하여 PDF 파일 버전을 제어할 수 있는 기능을 제공합니다."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "DOCX 문서 차이 검사 솔루션.",
+      "description": "{{ProdShortName}} API에서 제공하는 기회를 통해 DOCX 문서의 차이점에 대한 정보가 포함된 보고서를 검색할 수 있습니다."
+    },
+    "header": {
+      "title": "DOCX 개의 문서에서 차이점을 검색하기 위한 {{EnvName}} 개의 애플리케이션",
+      "description": "{{ProdShortName}} 에서 제공하는 {{EnvName}} 라이브러리는 Java, J2EE 또는 J2SE를 지원하는 애플리케이션의 모든 DOCX 문서를 비교합니다."
+    },
+    "about": {
+      "title": "{{ProdFullName}} 개의 API 이점 살펴보기",
+      "content": "DOCX 문서 비교는 {{ProdFullName}} API에서 지원되며 다양한 차이점에 대한 데이터를 포함하는 보고서를 작성합니다.단락 내의 텍스트, 도형, 스타일 및 기타 데이터를 분석하고 있습니다.또한 초기 파일의 변경 내용을 병합하여 DOCX 개의 변경 사항을 작성할 수 있습니다.외부 라이브러리에는 필요 없습니다.코드 몇 줄을 추가하여 {{EnvName}} 프로젝트를 개선하세요."
+    },
+    "steps": {
+      "title": "{{EnvName}} 를 사용하여 DOCX 개의 파일을 여러 개 비교합니다.",
+      "content": {
+        "title": "[{{ProdShortName}}]({{ProductUrl}}) 를 사용하여 MS Word 개의 문서를 비교하십시오.",
+        "step_1": "[{{PackageStoreName}}]({{PackageUrl}}) 에서 솔루션을 설치하십시오.",
+        "step_2": "첫 번째 DOCX 문서를 매개 변수로 사용하여 비교기를 생성해야 합니다.",
+        "step_3": "모든 비교에는 DOCX 개 이상의 문서가 필요합니다.",
+        "step_4": "결과 보고서는 유용한 데이터를 제공합니다."
+      },
+      "code": {
+        "comments": {
+          "comment_1": "MS Word 문서의 변경 사항에 대해 잘 알고 있어야 합니다.",
+          "comment_2": "DOCX 경로를 비교자로 전달",
+          "comment_3": "다른 DOCX 문서 추가",
+          "comment_4": "향후 분석을 위한 포괄적인 보고서 받기"
+        }
+      }
+    },
+    "formats": {
+      "title": "{{EnvName}} 를 사용하여 DOCX 개 파일의 모든 변경 사항을 제어합니다.",
+      "description": "{{ProdShortName}} {{EnvName}} API를 사용하면 쉽게 처리할 수 있는 정확하고 상세한 보고서를 통해 DOCX 문서 버전을 제어할 수 있습니다."
+    }
+  },
+  "png": {
+    "head": {
+      "title": "{{EnvName}} 를 사용하여 PNG 개의 사진에 대한 차이 보고서를 가져옵니다.",
+      "description": "{{ProdFullName}} API는 J2EE 및 J2SE를 지원하는 애플리케이션의 PNG 문서에 대한 유용한 비교 보고서를 생성합니다."
+    },
+    "header": {
+      "title": "{{EnvName}} 를 사용하여 PNG 개의 사진 비교",
+      "description": "{{ProdShortName}} API를 사용하여 Java, J2EE 또는 J2SE 애플리케이션의 성능을 강화하십시오.PNG 장의 사진에서 변경 사항에 대한 세부 정보를 검색하십시오."
+    },
+    "about": {
+      "title": "{{ProdFullName}} 개의 API 기능에 대한 정보 받기",
+      "content": "{{ProdShortName}} 는 PNG 형식으로 표시된 다양한 버전의 이미지 간의 변형을 기반으로 세부 보고서를 작성하는 데 적합한 네이티브 {{EnvName}} API로 개발되었습니다.PNG 형식만 지원되는 것은 아닙니다.API에서 제공하는 유용한 기능이 많이 있습니다."
+    },
+    "steps": {
+      "title": "{{ProgLang}} 를 사용하여 PNG 개의 파일을 비교하십시오.",
+      "content": {
+        "title": "PNG 파일을 [{{ProdShortName}}]({{ProductUrl}}) 와 비교하고 변경 사항에 대한 관련 보고서를 검색합니다.",
+        "step_1": "[{{PackageStoreName}}]({{PackageUrl}}) 에서 다운로드하여 {{ProdFullName}} 패키지를 설치합니다.",
+        "step_2": "PNG 에 대한 비교기 인스턴스 및 패스 경로 제공",
+        "step_3": "추가 비교를 위해 PNG 개의 파일 추가",
+        "step_4": "보고서를 로컬 디스크에 저장"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "PNG 간의 차이점에 대한 정보가 포함된 보고서 받기",
+          "comment_2": "기본 파일 경로를 사용하여 Comparer 객체 가져오기",
+          "comment_3": "비교할 사진 PNG 개 추가",
+          "comment_4": "보고서를 원하는 위치에 저장"
+        }
+      }
+    },
+    "formats": {
+      "title": "{{ProgLang}} 를 통해 PNG 개의 다양한 이미지 버전에서 차이점을 찾으십시오.",
+      "description": "{{ProdFullName}} API는 PNG 사진 내부의 변경 사항을 추적하고 추가 분석을 위한 설명 보고서를 작성합니다."
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "{{ProgLang}} 를 통한 비교 보고서로 JPEG 을 분석하십시오.",
+      "description": "JPEG 개의 사진에 대한 유용한 구별 보고서를 생성하기 위해 강력한 {{ProdFullName}} API가 개발되었습니다.J2EE와 J2SE가 지원됩니다."
+    },
+    "header": {
+      "title": "JPEG 개의 이미지를 {{EnvName}} 라이브러리와 비교하세요",
+      "description": "{{ProdShortName}} API로 구동되는 Java, J2EE 또는 J2SE 애플리케이션을 사용하면 JPEG 개의 사진에서 차이점에 대한 자세한 보고서를 손쉽게 검색할 수 있습니다."
+    },
+    "about": {
+      "title": "{{ProdFullName}} API를 살펴보세요",
+      "content": "{{ProdShortName}} 이라는 네이티브 {{EnvName}} API는 JPEG 형식으로 저장된 이미지 버전 간의 변경에 대한 자세한 보고서를 작성합니다.널리 사용되는 여러 이미지 형식도 지원됩니다.API는 많은 이미지 형식을 지원합니다."
+    },
+    "steps": {
+      "title": "{{ProgLang}} 개를 사용하여 JPEG 장의 사진을 비교하세요.",
+      "content": {
+        "title": "[{{ProdShortName}}]({{ProductUrl}}) 를 통해 JPEG 이미지 차이에 대한 유용한 정보 검색",
+        "step_1": "[{{PackageStoreName}}]({{PackageUrl}}) 의 {{ProdFullName}} 패키지를 프로젝트에 포함시키세요.",
+        "step_2": "JPEG 이미지 경로를 사용하여 비교기 인스턴스화",
+        "step_3": "JPEG 개의 파일을 비교에 추가",
+        "step_4": "결과 보고서 받기"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "JPEG 에 대한 구별 데이터 작성",
+          "comment_2": "비교자 객체에는 기본 JPEG 파일 경로가 필요합니다.",
+          "comment_3": "기타 JPEG 장의 사진을 가리켜야 합니다.",
+          "comment_4": "결과 파일에는 보고서가 포함되어 있습니다."
+        }
+      }
+    },
+    "formats": {
+      "title": "다양한 버전의 JPEG 개 이미지의 변경 사항을 {{ProgLang}} 로 제어합니다.",
+      "description": "JPEG 개의 사진에 있는 모든 변경 사항은 {{ProdFullName}} 에 의해 감지될 수 있습니다.비즈니스 프로세스에 세부 보고서를 포함시키십시오."
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "{{ProdFullName}} 를 사용하여 JPG 개의 이미지를 분석합니다.",
+      "description": "{{ProdFullName}} API는 JPG 개의 사진에 대한 유용한 보고서를 생성합니다.Java, J2EE 및 J2SE를 지원합니다."
+    },
+    "header": {
+      "title": "{{EnvName}} 솔루션을 통해 JPG 개 파일의 변경 사항을 분석합니다.",
+      "description": "{{ProdShortName}} API를 사용하는 {{EnvName}}, J2EE 또는 J2SE 앱은 자세한 JPG 개의 보고서를 생성할 수 있습니다."
+    },
+    "about": {
+      "title": "{{ProdFullName}} API 살펴보기",
+      "content": "네이티브 {{EnvName}} 솔루션인 {{ProdShortName}} 은 JPG 개의 변경에 대한 상세 보고서를 생성합니다.비교 및 추가 처리를 위해 널리 사용되는 이미지 형식을 지원합니다."
+    },
+    "steps": {
+      "title": "{{ProgLang}} 를 사용하여 JPG 개의 파일을 비교하십시오.",
+      "content": {
+        "title": "[{{ProdShortName}}]({{ProductUrl}}) 를 사용하여 JPG 개의 차이 데이터 검색",
+        "step_1": "[{{PackageStoreName}}]({{PackageUrl}}) 에서 {{ProdFullName}} 를 추가하여 제품 기능을 향상시키십시오.",
+        "step_2": "JPG 경로를 사용하여 비교기 인스턴스 생성",
+        "step_3": "처리에 다른 JPG 개의 이미지 추가",
+        "step_4": "결과 보고서 받기"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "JPG 에 대한 구별 데이터 생성",
+          "comment_2": "비교자 객체에는 기본 JPG 파일 경로가 필요합니다.",
+          "comment_3": "다른 JPG 장의 사진을 가리키세요",
+          "comment_4": "결과 파일에는 보고서가 포함되어 있습니다."
+        }
+      }
+    },
+    "formats": {
+      "title": "{{ProgLang}} 를 사용하여 다양한 버전의 JPG 개 이미지의 변경 사항을 추적할 수 있습니다.",
+      "description": "{{ProdFullName}} 를 사용하여 JPG 개의 이미지에서 변경을 감지합니다.상세 보고서를 통해 비즈니스 프로세스를 개선하세요."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "XLSX 비교의 경우 {{ProdFullName}} 를 참조하십시오.",
+      "description": "{{ProdShortName}} API는 XLSX 문서의 차이를 자세히 설명하는 보고서 검색을 제공합니다.Java, J2EE 및 J2SE 환경과 호환됩니다."
+    },
+    "header": {
+      "title": "XLSX 스프레드시트의 변경 사항을 감지하기 위한 {{EnvName}} 개의 애플리케이션",
+      "description": "{{ProdShortName}} {{EnvName}} API를 사용하면 Java, J2EE 또는 J2SE 애플리케이션 내의 XLSX 스프레드시트를 비교할 수 있습니다."
+    },
+    "about": {
+      "title": "{{ProdFullName}} API의 이점 살펴보기",
+      "content": "{{ProdFullName}} API를 사용하면 텍스트, 단락, 도형, 스타일 및 기타 요소에서 발견된 차이점에 대한 보고서를 생성하여 XLSX 스프레드시트를 쉽게 비교할 수 있습니다.또한 외부 라이브러리 없이도 여러 원본 파일의 변경 내용을 병합할 수 있습니다.최소한의 코드 통합으로 {{EnvName}} 프로젝트를 개선하세요."
+    },
+    "steps": {
+      "title": "여러 XLSX 개의 파일을 비교하려면 {{EnvName}} 를 사용하십시오.",
+      "content": {
+        "title": "[{{ProdShortName}}]({{ProductUrl}}) 를 사용하여 MS Excel 개의 스프레드시트를 분석할 수 있습니다.",
+        "step_1": "[{{PackageStoreName}}]({{PackageUrl}}) 에서 패키지 설치",
+        "step_2": "첫 번째 XLSX 스프레드시트를 매개변수로 사용하여 비교기를 인스턴스화합니다.",
+        "step_3": "비교를 위해 XLSX 개의 스프레드시트를 추가로 포함하세요.",
+        "step_4": "종합적인 보고서 즐기기"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "MS Excel 문서의 변경 사항에 대한 최신 정보 받기",
+          "comment_2": "비교기에 XLSX 경로 제공",
+          "comment_3": "추가 XLSX 개의 스프레드시트 통합",
+          "comment_4": "향후 분석을 위한 상세 보고서에 액세스"
+        }
+      }
+    },
+    "formats": {
+      "title": "{{EnvName}} 를 사용하여 XLSX 스프레드시트의 변경 사항 관리",
+      "description": "{{ProdShortName}} {{EnvName}} 라이브러리는 사용자가 쉽게 작성할 수 있는 상세하고 정확한 보고서를 통해 다양한 버전의 XLSX 스프레드시트를 모니터링할 수 있도록 합니다."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "PPTX 비교를 위해 특별히 설계된 라이브러리입니다.",
+      "description": "{{ProdShortName}} 는 PPTX 프레젠테이션의 차이를 자세히 설명하는 보고서를 검색하는 기능을 제공합니다. Java, J2EE 또는 J2SE가 지원됩니다."
+    },
+    "header": {
+      "title": "{{ProdShortName}} 의 기능을 갖춘 {{EnvName}} 개의 애플리케이션을 PPTX 과 비교해 보십시오.",
+      "description": "마이크로소프트의 PowerPoint PPTX 프레젠테이션은 Java, J2EE 또는 J2SE 애플리케이션을 사용하여 {{ProdFullName}} 와 비교할 수 있습니다."
+    },
+    "about": {
+      "title": "{{ProdFullName}} 의 기능 살펴보기",
+      "content": "{{ProdFullName}} API는 PPTX 프레젠테이션의 차이에 대한 비교 보고서를 구현합니다.결과 보고서에는 차이 텍스트뿐만 아니라 모양, 스타일 및 기타 요소가 포함됩니다.많은 프레젠테이션을 원하는 프레젠테이션만 수강하는 하나의 프레젠테이션에 병합합니다.타사 외부 라이브러리가 필요하지 않습니다.최소한의 코드를 추가하여 {{EnvName}} 프로젝트의 역량을 강화하세요."
+    },
+    "steps": {
+      "title": "여러 PPTX 개의 파일을 비교하려면 {{EnvName}} 를 사용하십시오.",
+      "content": {
+        "title": "[{{ProdShortName}}]({{ProductUrl}}) 를 사용하여 MS PowerPoint 개의 프레젠테이션을 분석하십시오.",
+        "step_1": "[{{PackageStoreName}}]({{PackageUrl}}) 에서 패키지 설치",
+        "step_2": "PPTX 경로와 함께 새 비교기 제공",
+        "step_3": "비교를 위해 PPTX 개의 프레젠테이션 추가",
+        "step_4": "상세 보고서 받기"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "MS PPTX 프레젠테이션의 차이점에 대해 알아보기",
+          "comment_2": "파일 경로 제공",
+          "comment_3": "추가 PPTX 개의 프레젠테이션 추가",
+          "comment_4": "향후 분석을 위해 보고서 저장"
+        }
+      }
+    },
+    "formats": {
+      "title": "{{EnvName}} 를 사용하여 PPTX 개의 파일을 분석합니다.",
+      "description": "{{ProdFullName}} 소프트웨어를 사용하면 MS PowerPoint PPTX 프레젠테이션에서 차이를 감지하여 별도의 노력 없이 상세하고 정확한 보고서를 작성할 수 있습니다."
+    }
+  }
+}

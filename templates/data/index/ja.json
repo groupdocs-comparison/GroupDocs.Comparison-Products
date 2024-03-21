@@ -1,0 +1,393 @@
+{
+  "index-content": {
+    "head_title": "C# Java & Node.js ドキュメント比較ライブラリ | 差分チェッカー",
+    "head_description": "GroupDocs C# .NET Java & Node.js にネイティブな GroupDocs ドキュメント比較ライブラリ。サポートされている形式のファイル間の相違点を確認してください。",
+    "title": "一般的なファイルタイプの違いを比較",
+    "description_1": "さまざまなファイル形式のドキュメントを比較するための堅牢なAPI。",
+    "description_2": "最小限のコーディング作業で、コンテンツの違いを特定して強調表示します。",
+    "description_3": "目に見える違いを強調し、隠れたプロパティの変化を明らかにします。",
+    "words_for": "にとって",
+    "actions_alt": "ライセンス",
+    "actions_title": "始める準備はできましたか?",
+    "actions_description": "{{ProdShortName}} の機能を無料で試すか、ライセンスをリクエストしてください",
+    "actions_description_index": "お使いのプラットフォームで {{ProdShortName}} の機能を無料でお試しください",
+    "release_title": "バージョン {0} がリリースされました",
+    "release_notes": "新機能を見る",
+    "release_downloads": "ダウンロード",
+    "code_more": "その他の例",
+    "code_comment_1": "ソースドキュメントを指定",
+    "code_comment_2": "1 つまたは複数のターゲットドキュメントを追加",
+    "code_comment_3": "比較オプションを指定",
+    "code_comment_4": "比較を実行し、結果の文書を保存する",
+    "sample_index_title": "2 つのファイルの比較",
+    "sample_index_content": "2 つの文書を比較するには、まずソースファイルとターゲットファイルの両方を読み込み、次に `compare` メソッドを適用します。特定の比較設定を柔軟に選択して、よりカスタマイズされた分析を行うことができます。",
+    "overview_title": "{{ProdShortName}} 一目でわかる",
+    "platforms_title": "プラットフォーム独立性",
+    "features": {
+      "title": "{{ProdShortName}} の主な機能",
+      "description": "PDF、Word、Excel、ソースコードファイルなどを比較および差分表示するためのAPI。",
+      "feature_1": {
+        "title": "直感的な差分表示結果",
+        "content": "1 つの文書からなるレポートで違いが強調表示されるため、変更を簡単に分析できます。"
+      },
+      "feature_2": {
+        "title": "効率的な変更レビュープロセス",
+        "content": "簡単に意思決定できるように、視覚的に明確な変更を加えて変更を承認または拒否できます。"
+      },
+      "feature_3": {
+        "title": "コンテンツとスタイルを比較",
+        "content": "テキストの内容だけでなく、書式やスタイルの変更も比較できます。"
+      },
+      "feature_4": {
+        "title": "特定のページを比較する",
+        "content": "比較する文書の特定のセクションまたはページだけをロードします。"
+      }
+    },
+    "metrics": {
+      "title": "詳細な指標と統計的洞察",
+      "description": "主要数値を徹底的に分析し、当社の業績、影響力、拡大に関する包括的な指標と統計的洞察をご覧ください。",
+      "item_1": {
+        "title": "対応フォーマット",
+        "description": "このAPIは、最も広く使用されている50種類以上のファイルおよび文書形式に対応しています。"
+      },
+      "item_2": {
+        "title": "NuGet ダウンロード",
+        "description": ".NET の {{ProdShortName}} は、NuGet パッケージマネージャーを通じて80万回を超えるダウンロードを受けています。"
+      },
+      "item_3": {
+        "title": "Maven のダウンロード",
+        "description": "Java の {{ProdShortName}} は、当社の Maven リポジトリから 15,000 回以上のダウンロードを蓄積しています。"
+      },
+      "item_4": {
+        "title": "幸せな顧客",
+        "description": "私たちのライブラリは、個々の開発者と世界中の一流企業の両方に採用されています"
+      }
+    },
+    "customers_title": "私たちの幸せな顧客",
+    "customers_description": "GroupDocs の図書館は、世界中の世界的に有名で著名なブランドに採用されています。",
+    "formats_title_index": "50種類以上のファイルフォーマットに対応",
+    "formats_description_index": "{{ProdShortName}} を使用すると、さまざまなフォーマットファミリー内での比較操作が可能になります。",
+    "formats_title": "対応ファイル形式",
+    "formats_groups": {
+      "title_1": "Microsoft Office および OpenDocument フォーマット",
+      "title_2": "画像、グラフィックス、ダイアグラム",
+      "title_3": "その他",
+      "format_fixed_page_layout": "固定ページレイアウト",
+      "format_images": "画像",
+      "format_web": "ウェブ",
+      "format_text": "[テキスト]",
+      "format_raster_images": "ラスター画像",
+      "format_medical_imaging": "医療画像処理",
+      "format_programming_languages": "プログラミング言語",
+      "format_e_books": "電子書籍",
+      "format_delimiter_separated_values": "区切り文字で区切られた値"
+    },
+    "code_samples": {
+      "title": "コードサンプル",
+      "index_title": "実用的なコードショーケース",
+      "index_description": "一般的な {{ProdShortName}} 操作のいくつかのユースケース。",
+      "sample_1": {
+        "code_title": "パスワードで保護された文書を比較する方法",
+        "comment_1": "ソースドキュメントを読み込み、そのパスワードを指定します",
+        "comment_2": "ターゲットドキュメントをロードし、そのパスワードを指定します",
+        "comment_3": "比較結果を指定したファイルに保存する"
+      },
+      "sample_2": {
+        "code_title": "3 つ以上の文書を比較する方法",
+        "comment_1": "ソースドキュメントを読み込む",
+        "comment_2": "比較する 2 番目のファイルを指定してください",
+        "comment_3": "比較する 3 番目のファイルを指定",
+        "comment_4": "比較結果を指定したファイルに保存する"
+      }
+    },
+    "platforms": {
+      "title": "プラットフォーム独立性",
+      "head_title": "プラットフォームを選択してください",
+      "description": "{{ProdShortName}} ライブラリは、以下のオペレーティングシステムとフレームワークをサポートしています。",
+      "learn_more": "さらに詳しく",
+      "any_other_text_editor": "その他のテキストエディター"
+    },
+    "faq": {
+      "title": "よく寄せられる質問",
+      "description": "よくある質問への回答。",
+      "item_1": {
+        "question": "{{ProdShortName}} ライブラリでは、ドキュメントを操作するために他のサードパーティ製ソフトウェアが必要ですか？",
+        "answer": "{{ProdShortName}} では、Adobe Acrobat、Microsoft Office などの外部ソフトウェアをインストールする必要はありません。"
+      },
+      "item_2": {
+        "question": "購入前に {{ProdShortName}} ライブラリを試すことはできますか？",
+        "answer": "はい、ライセンスを購入しなくても {{ProdShortName}} を試すことができます。ライセンスなしでインストールすると、ライブラリは試用モードで動作します。このモードでは、作成されるドキュメントにトライアルバッジが追加され、最初の 3 ページまで切り取られます。試用版の制限なしに {{ProdShortName}} をテストしたい場合は、30 日間の一時ライセンスをリクエストすることもできます。詳細については、[一時ライセンス]({{LicensingUrl}}) を参照してください。"
+      },
+      "item_3": {
+        "question": "どのようなライセンスをお持ちですか?",
+        "answer": "特定の開発者や企業のニーズに合わせて、いくつかの種類のライセンスを提供しています。ライセンスの種類は、開発者の数、開発者サイトの場所の数、および SDK/API をエンドカスタマーに提供する必要があるかどうかによって異なります。または、製品の月次使用量に基づいて従量制ライセンスを選択することもできます。詳細については、[価格]({{PricingUrl}}) をご覧ください。"
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} ローコード API",
+      "description": "クラウドベースの REST API を使用して、文書比較機能をあらゆるアプリケーションに組み込むことができます。",
+      "item_1": {
+        "content": "cURL REST フルドキュメント比較 API を使用して、Word、Excel、PowerPoint、およびその他の一般的なファイル形式を比較してください。"
+      },
+      "item_2": {
+        "content": ".NET 用のCloud SDKを使用して、.NET 個のアプリケーションに強力なドキュメント比較機能を追加します。DOCX、XLSX、PPTX などを比較してください。"
+      },
+      "item_3": {
+        "content": "Java 用に特別に設計された文書比較 SDK を使用して、忠実度の高い文書比較機能を Java アプリケーションに追加してください。"
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} ノーコードアプリ",
+      "description": "50 種類以上の一般的なファイル形式の比較をブラウザで直接実行できる Web ベースのアプリケーションです。",
+      "item_1": {
+        "content": "どのデバイスからでも2つの文書を比較できるオンライン差分ツール。"
+      },
+      "item_2": {
+        "content": "DOCX ファイルをオンラインで比較します。"
+      },
+      "item_3": {
+        "content": "PDF 比較アプリを使用して PDF 個のドキュメントをオンラインで比較できます。"
+      }
+    }
+  },
+  "index-content-net": {
+    "head_title": "{{ProgLang}} {{EnvName}} 文書比較ソフトウェア | 差分チェッカー",
+    "head_description": "{{ProgLang}} {{EnvName}} 文書のスタイルと内容を比較するソフトウェア。サポートされている複数の形式の文書を比較して、ファイル間の違いを特定できます。",
+    "title": "{{ProgLang}} {{EnvName}} ソリューションのドキュメントを簡単に比較できます",
+    "description": "さまざまなドキュメント形式のコンテンツやスタイルによるファイル比較を可能にする柔軟なドキュメント比較 API を使用して {{ProgLang}} 個のアプリケーションを構築できます。",
+    "actions_main": "無料 NuGet ダウンロード",
+    "code_title": "{{ProgLang}} の DOCX 個のファイルを比較",
+    "overview_description": "{{EnvName}} アプリケーションのドキュメント間の違いを比較する API",
+    "overview_feature_1": {
+      "title": "{{ProgLang}} でのファイル比較",
+      "description": "ソースファイルとターゲットファイルの違いを検出して、段落、単語、および文字レベルでの変更を検出します。太字、斜体、下線、取り消し線、フォントの種類など、スタイルやフォーマットの変更を識別します。"
+    },
+    "overview_feature_2": {
+      "title": "最も一般的なファイルおよび文書形式がサポートされています",
+      "description": "{{ProdShortName}} API を使用すると、PDF、HTML、電子メール、Microsoft Office ドキュメント (Word、Excel、PowerPoint、OneNote、Visio)、さまざまな画像タイプ (JPEG、PNG、GIF、BMP)、テキストファイルなど、さまざまな形式のドキュメントを効率的に比較できます。"
+    },
+    "overview_feature_3": {
+      "title": "変更を簡単に適用または却下できます",
+      "description": "{{ProdShortName}} APIを使用して比較された文書で特定された各相違点を選択的に適用または拒否できるため、最終出力文書にエクスポートする前にカスタマイズできます。"
+    },
+    "overview_feature_4": {
+      "title": "比較概要レポート",
+      "description": "比較した文書で見つかったすべての変更を詳述した相違点の要約レポートを生成し、参照用に保存します。"
+    },
+    "features": {
+      "title": "{{ProdShortName}} の機能",
+      "description": "PDF と Office ドキュメント、画像、その他の形式を簡単に比較",
+      "feature_1": {
+        "title": "使いやすい文書比較",
+        "content": "2 つの文書間の違いを分析して特定します。"
+      },
+      "feature_2": {
+        "title": "複数の文書を比較",
+        "content": "複数の文書間の相違点を同時に分析して特定します。"
+      },
+      "feature_3": {
+        "title": "対応フォーマット",
+        "content": "さまざまなカテゴリの50を超える広く使用されているドキュメント形式と互換性があり、幅広い適用性を保証します。"
+      },
+      "feature_4": {
+        "title": "変更を承認または拒否",
+        "content": "検出された変更が視覚的にわかりやすく表示され、変更を受け入れるか拒否するかのオプションも付いています。"
+      },
+      "feature_5": {
+        "title": "プレビューを生成",
+        "content": "比較結果を画像プレビューとして保存して、簡単に参照および共有できます。"
+      },
+      "feature_6": {
+        "title": "コンテンツ比較",
+        "content": "行ごと、段落、単語、文字など、さまざまなレベルでテキストを徹底的に比較し、違いを強調してわかりやすくします。"
+      },
+      "feature_7": {
+        "title": "スタイルとフォーマットの比較",
+        "content": "文書のフォーマットやスタイルの変更を検出して強調表示し、包括的なレビューを行います。"
+      },
+      "feature_8": {
+        "title": "柔軟なメタデータ設定",
+        "content": "ソースファイルまたはターゲットファイルのメタデータを保存するか、ユーザーの好みに合わせてカスタマイズします。"
+      },
+      "feature_9": {
+        "title": "パスワード保護",
+        "content": "パスワードで保護された文書を分析し、出力文書をパスワード暗号化で保護してセキュリティを強化します。"
+      },
+      "feature_10": {
+        "title": "選択的ページ比較",
+        "content": "文書の特定のセクションまたはページを読み込んで比較し、的を絞った分析を行います。"
+      },
+      "feature_11": {
+        "title": "コメントを表示",
+        "content": "ソース文書を読み込むときにコメントを表示するか非表示にするかを選択して、比較プロセスをより細かく制御できます。"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} は、以下のオペレーティングシステム、フレームワーク、パッケージマネージャーをサポートしています",
+    "formats_description": "{{ProdFullName}} は次の [ファイル形式]({{SupportedFormatsUrl}}) での操作をサポートします。",
+    "code_samples_description": "一般的な {{ProdFullName}} 操作のいくつかのユースケース",
+    "code_title_sample_1": "パスワードで保護された文書を比較しています。",
+    "code_samples_sample_1_content": "[パスワードで保護されている]({{Sample1Url}}) 文書を比較するには、その文書を指定してから文書を読み込む必要があります。",
+    "code_title_sample_2": "複数の PDF ドキュメントを比較しています。",
+    "code_samples_sample_2_content": "{{ProdShortName}} では [3つ以上の文書を比較] できます ({{Sample2Url}})。操作は 2 つのファイルを比較する場合とほぼ同じです。あとは、`comparer` クラスにさらにターゲットファイルを追加すればいいだけです。"
+  },
+  "index-content-java": {
+    "head_title": "{{EnvName}} 文書比較ライブラリ| 差分チェッカー",
+    "head_description": "ドキュメントのスタイルとコンテンツを比較するネイティブ {{EnvName}} ソフトウェア。複数の形式の文書を比較して相違点を特定します。",
+    "title": "{{EnvName}} API を使用してファイルの違いを比較および確認する",
+    "description": "ファイル、その内容、テキストスタイルなど、類似した文書形式を比較するために、高度に設定可能な文書比較ライブラリを使用して {{EnvName}} 個のアプリケーションを開発してください。",
+    "actions_main": "Mavenの無料ダウンロード",
+    "code_title": "{{EnvName}} の DOCX 個のファイルを比較",
+    "overview_description": "{{EnvName}} アプリケーションのドキュメント間の違いを比較する API",
+    "overview_feature_1": {
+      "title": "{{EnvName}} でのファイル比較",
+      "description": "ソースファイルとターゲットファイル間の変更を段落、単語、および文字レベルで検出します。太字、斜体、下線、取り消し線、フォントの種類など、スタイルやフォーマットの変更を識別できます。"
+    },
+    "overview_feature_2": {
+      "title": "膨大な数の対応フォーマット",
+      "description": "{{ProdShortName}} API を使用すると、サポートされている複数の形式のドキュメントを簡単に比較できます。これには PDF、HTML、電子メール、Microsoft Office Word ドキュメント、Excel スプレッドシート、PowerPoint プレゼンテーション、OneNote、Visio 図、テキスト、JPEG、PNG、GIF、BMP、BMP の画像、その他多くの形式が含まれます。"
+    },
+    "overview_feature_3": {
+      "title": "変更を簡単に適用または却下できます",
+      "description": "比較された文書間のすべての相違点を適用または却下し、出力文書にエクスポートできます。"
+    },
+    "overview_feature_4": {
+      "title": "比較概要レポート",
+      "description": "比較した文書のすべての変更を一覧表示する概要レポートを生成します。"
+    },
+    "features": {
+      "title": "{{ProdShortName}} の機能",
+      "description": "PDF と Office ドキュメント、画像、その他の形式を簡単に比較",
+      "feature_1": {
+        "title": "使いやすい文書比較",
+        "content": "2 つの文書間の違いを簡単に分析して特定できます。"
+      },
+      "feature_2": {
+        "title": "複数の文書を比較",
+        "content": "複数の文書間の相違点を同時に調べて強調表示します。"
+      },
+      "feature_3": {
+        "title": "対応フォーマット",
+        "content": "さまざまなカテゴリの50を超える広く使用されているドキュメント形式との互換性。"
+      },
+      "feature_4": {
+        "title": "変更を承認または拒否",
+        "content": "修正を承認または拒否するオプションを使用して、特定された変更を明確に視覚化します。"
+      },
+      "feature_5": {
+        "title": "プレビューを生成",
+        "content": "比較結果を画像プレビューとして保存できます。"
+      },
+      "feature_6": {
+        "title": "コンテンツ比較",
+        "content": "行単位、段落、単語、文字分析など、さまざまなレベルでのテキストコンテンツの徹底的な比較と、改変に重点を置いています。"
+      },
+      "feature_7": {
+        "title": "スタイル比較",
+        "content": "フォーマット要素とスタイル要素の変更を検出して強調表示する機能。"
+      },
+      "feature_8": {
+        "title": "メタデータを設定",
+        "content": "ソースファイルまたはターゲットファイルのメタデータを保持するか、ユーザー定義のメタデータ設定を許可するオプション。"
+      },
+      "feature_9": {
+        "title": "パスワード保護",
+        "content": "パスワードで保護された文書の分析が容易になり、生成された文書のパスワード保護が可能になります。"
+      },
+      "feature_10": {
+        "title": "特定のページを比較する",
+        "content": "必要に応じて、文書の特定のセクションまたはページを読み込んで比較します。"
+      },
+      "feature_11": {
+        "title": "コメントを表示",
+        "content": "ソースドキュメントを読み込むときにコメントを柔軟に表示または非表示にすることができます。"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} は、以下のオペレーティングシステム、フレームワーク、パッケージマネージャーをサポートしています",
+    "formats_description": "{{ProdFullName}} は次の [ファイル形式]({{SupportedFormatsUrl}}) での操作をサポートします。",
+    "code_samples_description": "一般的な {{ProdFullName}} 操作のいくつかのユースケース",
+    "code_title_sample_1": "パスワードで保護された文書を比較しています。",
+    "code_samples_sample_1_content": "[パスワードで保護されている]({{Sample1Url}}) 文書を比較するには、その文書を指定してから文書を読み込む必要があります。",
+    "code_title_sample_2": "複数の PDF ドキュメントを比較しています。",
+    "code_samples_sample_2_content": "{{ProdShortName}} では [3つ以上の文書を比較] できます ({{Sample2Url}})。操作は 2 つのファイルを比較する場合とほぼ同じです。あとは、`comparer` クラスにさらにターゲットファイルを追加すればいいだけです。"
+  },
+  "index-content-nodejs-java": {
+    "head_title": "{{Runtime}} ドキュメント比較 API | 差分チェッカー",
+    "head_description": "{{Runtime}} 文書比較 API は、文書比較のための効率的なツールを提供します。{{Runtime}} とシームレスに統合され、リアルタイムの変更追跡が可能です。",
+    "title": "{{Runtime}} と文書を比較:相違点を強調表示",
+    "description": "{{ProdShortName}} API を使用して、高度に設定可能な比較機能を備えたネイティブ Java スクリプトアプリケーションを開発してください。ファイル、その内容、テキストスタイルを類似のドキュメントフォーマット間で比較できます。",
+    "actions_main": "NPM の無料ダウンロード",
+    "code_title": "Java スクリプトの BMP 枚の画像を比較",
+    "overview_description": "PDF、Microsoft Office、HTML、電子メール、{{Runtime}} アプリケーション内の画像など、さまざまなタイプのドキュメントを比較するためのAPI",
+    "overview_feature_1": {
+      "title": "詳細な出力レポート",
+      "description": "{{ProdShortName}} は、文書内容 (文字、単語、段落、表、グラフ) の変更と文書スタイルの変更を識別します。これにより、相違点、数、種類に関する豊富な情報を含むレポートが顧客に提供されます。"
+    },
+    "overview_feature_2": {
+      "title": "最も一般的なファイルおよび文書形式がサポートされています",
+      "description": "{{ProdShortName}} APIを使用すると、PDF、HTML、電子メール、Microsoft Office Word ドキュメント、Excel スプレッドシート、PowerPoint プレゼンテーション、OneNote、Visio ダイアグラム、テキスト、JPEG、PNG、GIF、BMP 画像など、サポートされているあらゆる形式のドキュメントを効率的に比較できます。"
+    },
+    "overview_feature_3": {
+      "title": "ドキュメンテーションと例",
+      "description": "さまざまなプラットフォームでの比較ライブラリの使用に関するコード例については、すでに多くのドキュメントが用意されているので、{{Runtime}} アプリケーションで {{ProdShortName}} API を操作する方法について真剣に考える必要はありません。"
+    },
+    "overview_feature_4": {
+      "title": "変更を選択して1つのファイルに結合",
+      "description": "1つのドキュメントに異なるバージョンがある場合は、必要な変更のみを選択し、{{ProdShortName}} ライブラリを使用して新しいドキュメントをコンパイルできます。"
+    },
+    "features": {
+      "title": "{{ProdFullName}} の機能",
+      "description": "PDF と Office ドキュメント、画像、その他の形式を簡単に比較",
+      "feature_1": {
+        "title": "使いやすい文書比較",
+        "content": "2 つの文書内の違いを分析して特定します。"
+      },
+      "feature_2": {
+        "title": "複数の文書を比較",
+        "content": "複数の文書内の違いを同時に分析して特定します。"
+      },
+      "feature_3": {
+        "title": "対応フォーマット",
+        "content": "さまざまなカテゴリの50を超える一般的なドキュメント形式をサポートします。"
+      },
+      "feature_4": {
+        "title": "変更を承認または拒否",
+        "content": "識別された変更を明確に視覚的に表示し、変更を受け入れるか拒否するかを選択できます。"
+      },
+      "feature_5": {
+        "title": "プレビューを生成",
+        "content": "比較結果を画像として保存します。"
+      },
+      "feature_6": {
+        "title": "コンテンツ比較",
+        "content": "テキストコンテンツを 1 行ごと、段落ごと、単語ごと、文字ごとに比較します。変更点を強調表示します。"
+      },
+      "feature_7": {
+        "title": "スタイル比較",
+        "content": "書式とスタイルの変更を検出します。"
+      },
+      "feature_8": {
+        "title": "メタデータを設定",
+        "content": "ソースファイルまたはターゲットファイルのメタデータを保持するか、ユーザーがメタデータを指定できるようにします。"
+      },
+      "feature_9": {
+        "title": "パスワード保護",
+        "content": "暗号化された文書を解析するか、生成された文書をパスワードで保護します。"
+      },
+      "feature_10": {
+        "title": "特定のページを比較する",
+        "content": "文書の特定のセクションまたはページだけをロードします。"
+      },
+      "feature_11": {
+        "title": "コメントを表示",
+        "content": "ソース文書を読み込むときに、コメントを表示するか非表示にするかを選択できます。"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} は、以下のオペレーティングシステム、フレームワーク、パッケージマネージャーをサポートしています",
+    "formats_description": "{{ProdFullName}} は次の [ファイル形式]({{SupportedFormatsUrl}}) での操作をサポートします。",
+    "code_samples_description": "一般的な {{ProdFullName}} 操作のいくつかのユースケース",
+    "code_title_sample_1": "パスワードで保護された文書を比較しています。",
+    "code_samples_sample_1_content": "[パスワードで保護されている]({{Sample1Url}}) 文書を比較するには、その文書を指定してから文書を読み込む必要があります。",
+    "code_title_sample_2": "複数の PDF ドキュメントを比較しています。",
+    "code_samples_sample_2_content": "{{ProdShortName}} では [3つ以上の文書を比較] できます ({{Sample2Url}})。操作は 2 つのファイルを比較する場合とほぼ同じです。あとは、`comparer` クラスにさらにターゲットファイルを追加すればいいだけです。"
+  }
+}

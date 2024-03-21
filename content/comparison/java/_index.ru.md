@@ -1,83 +1,106 @@
+
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-12-11T13:24:02
+date: 2024-03-21T15:26:29
 draft: false
+
+lang: ru
 product: "Comparison"
 product_tag: "comparison"
 platform: "Java"
 platform_tag: "java"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
+
 ############################# Head ############################
-head_title: "{index-content.head_title}"
-head_description: "{index-content.head_description}"
+head_title: "Java Библиотека сравнения документов| diff checker"
+head_description: "Native Java Программное обеспечение для сравнения стиля и содержимого документов. Сравните документы разных форматов, чтобы выявить различия."
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-java.title_2}"
-description: "{index-content.description}"
+title: "Сравните и проверьте различия между файлами с помощью API Java"
+description: "Разработайте Java приложения с гибко настраиваемой библиотекой сравнения документов для сравнения аналогичных форматов документов, включая файлы, их содержимое и стиль текста."
 words:
-  for: "{index-content.words_for}"
+  for: "для"
 
 actions:
-  main: "{index-content-java.actions_main}"
+  main: "Бесплатная загрузка Maven"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/"
-  alt: "{index-content.actions_alt}"
-  alt_link: "https://purchase.groupdocs.com/pricing/comparison/java"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  alt: "Лицензирование"
+  alt_link: "https://purchase.groupdocs.com/pricing/comparison/java/"
+  title: "Готовы начать?"
+  description: "Попробуйте функции GroupDocs.Comparison бесплатно или запросите лицензию"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Выпущена версия {0}"
+  notes: "Узнайте, что нового"
+  downloads: "Загрузки"
 
 code:
-  title: "{index-content-java.code_title}"
-  more: "{index-content.code_more}"
+  title: "Сравните DOCX файлов в Java"
+  more: "Больше примеров"
   more_link: "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Java"
   install: |
     <dependency>
       <groupId>com.groupdocs</groupId>
-      <artifactId>groupdocs-signature</artifactId>
+      <artifactId>groupdocs-comparison</artifactId>
       <version>{0}</version>
     </dependency>
   content: |
     ```java {style=abap}  
-    // {index-content.code_comment_1}
-    Signature signature = new Signature("sample.pdf");
-    
-    // {index-content.code_comment_2}
-    TextSignOptions options = new TextSignOptions("John Smith");
-    options.setForeColor(Color.RED);
+    // Укажите исходный документ
+    try (Comparer comparer = new Comparer("source.docx"))
+    {    
+      // Добавьте один или несколько целевых документов
+      comparer.add("target.docx");
 
-    // {index-content.code_comment_4}
-    signature.sign("signed.pdf", options);
-    
+      // Укажите параметры сравнения
+      CompareOptions options = new CompareOptions();
+      options.setShowRevisions(false);
+
+      // Выполните сравнение и сохраните полученный документ
+      final comparer.compare("result.docx", options);
+    }    
     ```
 
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-java.overview_description}"
+  title: "GroupDocs.Comparison с первого взгляда"
+  description: "API для сравнения различий между документами в Java приложениях"
   features:
     # feature loop
-    - title: "{index-content-java.overview_feature_1.title}"
-      content: "{index-content-java.overview_feature_1.description}"
+    - title: "Сравнение файлов в Java"
+      content: "Обнаруживайте изменения между исходным и целевым файлами на уровне абзацев, слов и символов. Определите изменения стиля и форматирования, такие как полужирный шрифт, курсив, подчеркивание, зачеркивание, типы шрифтов и т. д."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_2.title}"
-      content: "{index-content-java.overview_feature_2.description}"
+    - title: "Огромное количество поддерживаемых форматов"
+      content: "С помощью API GroupDocs.Comparison вы можете легко сравнивать документы нескольких поддерживаемых форматов. Сюда входят PDF, HTML, электронная почта, Microsoft Office Word документы, Excel электронные таблицы, PowerPoint презентации, OneNote, Visio диаграммы, тексты, JPEG, PNG, GIF и BMP изображения, а также многие другие форматы."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_3.title}"
-      content: "{index-content-java.overview_feature_3.description}"
+    - title: "Легко применяйте или отклоняйте изменения"
+      content: "Любое различие между сравниваемыми документами может быть применено или отклонено, а затем экспортировано в выходной документ."
+
+    # feature loop
+    - title: "Сравнительный сводный отчет"
+      content: "Создайте сводный отчет, в котором перечислены все изменения в сравниваемых документах."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-java.platforms_description}"
+  title: "Независимость платформы"
+  description: "GroupDocs.Comparison for Java поддерживает следующие операционные системы, фреймворки и менеджеры пакетов"
   items:
     # platform loop
     - title: "Amazon"
@@ -107,128 +130,142 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Поддерживаемые форматы файлов"
   description: |
-    {index-content-java.formats_description}
+    GroupDocs.Comparison for Java поддерживает операции со следующими [форматами файлов](https://docs.groupdocs.com/comparison/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
-        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
-        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+        ### форматы Microsoft Office и OpenDocument
+        * **Word:** DOCX, DOC, DOCM,DOT, DOTM, DOTX, RTX, RTF, TXT
+        * **Excel:** XLSX, XLS, XLT, XLTM, XLSB, XLSM
+        * **PowerPoint:** PPTX, PPT, POT, POTX, PPS, PPSX
+        * **Outlook:** EML, EMLX, MSG
+        * **OneNote:** ONE
+        * **OpenDocument:** ODT, ODP, OTP, ODS, OTT
+        * **Фиксированный макет страницы:** PDF        
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Изображения, графика и диаграммы
+        * **Растровые изображения:** BMP, GIF, JPG, JPEG, PNG
+        * **Медицинская визуализация:** DICOM
+        * **Microsoft Visio:** VSDX, VSD, VSS, VST, VDX
+        * **AutoCAD Drawing:** DWG, DXF
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Другой
+        * **Текст:** TXT
+        * **Языки программирования:** CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, PHP, SQL, LOG, DIFF, LESS, SCALA
+        * **Веб:** HTM, HTML, MHT, MHTML
+        * **Электронные книги:** MOBI, DjVu
+        * **Значения, разделенные разделителями:** CSV
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-java.features.title}"
-  description: "{index-content-java.features.description}"
+  title: "Характеристики GroupDocs.Comparison"
+  description: "Легко сравнивайте PDF и офисные документы, изображения и другие форматы"
 
   items:
     # feature loop
-    - icon: "sign"
-      title: "{index-content-java.features.feature_1.title}"
-      content: "{index-content-java.features.feature_1.content}"
+    - icon: "compare"
+      title: "Простое в использовании сравнение документов"
+      content: "Легко анализируйте и выявляйте различия между двумя документами."
 
     # feature loop
-    - icon: "custom"
-      title: "{index-content-java.features.feature_2.title}"
-      content: "{index-content-java.features.feature_2.content}"
+    - icon: "note-stack"
+      title: "Сравните несколько документов"
+      content: "Одновременно изучайте и выделяйте различия в нескольких документах."
 
     # feature loop
-    - icon: "password"
-      title: "{index-content-java.features.feature_3.title}"
-      content: "{index-content-java.features.feature_3.content}"
+    - icon: "stacks"
+      title: "Поддерживаемые форматы"
+      content: "Совместимость с более чем 50 широко используемыми форматами документов из разных категорий."
 
     # feature loop
-    - icon: "protect"
-      title: "{index-content-java.features.feature_4.title}"
-      content: "{index-content-java.features.feature_4.content}"
-
-    # feature loop
-    - icon: "convert"
-      title: "{index-content-java.features.feature_5.title}"
-      content: "{index-content-java.features.feature_5.content}"
+    - icon: "rule"
+      title: "Принять или отклонить изменения"
+      content: "Четкая визуализация выявленных изменений с возможностью принятия или отклонения изменений."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-java.features.feature_6.title}"
-      content: "{index-content-java.features.feature_6.content}"
+      title: "Создавайте предварительные просмотры"
+      content: "Возможность сохранения результатов сравнения в виде предварительного просмотра изображений."
 
     # feature loop
-    - icon: "search"
-      title: "{index-content-java.features.feature_7.title}"
-      content: "{index-content-java.features.feature_7.content}"
+    - icon: "two-pager"
+      title: "Сравнение контента"
+      content: "Тщательное сравнение текстового содержимого на разных уровнях, включая построчный анализ, анализ абзацев, слов и символов с акцентом на изменения."
 
     # feature loop
-    - icon: "validate"
-      title: "{index-content-java.features.feature_8.title}"
-      content: "{index-content-java.features.feature_8.content}"
+    - icon: "format_color_text"
+      title: "Сравнение стилей"
+      content: "Возможность обнаруживать и выделять изменения в элементах форматирования и стиля."
 
     # feature loop
-    - icon: "update"
-      title: "{index-content-java.features.feature_9.title}"
-      content: "{index-content-java.features.feature_9.content}"
+    - icon: "folder-managed"
+      title: "Настройка метаданных"
+      content: "Возможность сохранить метаданные из исходных или целевых файлов или разрешить пользовательские настройки метаданных."
+
+    # feature loop
+    - icon: "lock"
+      title: "Защита паролем"
+      content: "Упрощает анализ документов, защищенных паролем, и обеспечивает защиту полученных документов паролем."
+
+    # feature loop
+    - icon: "select"
+      title: "Сравните определенные страницы"
+      content: "При необходимости загрузите и сравните определенные разделы или страницы документа."
+
+    # feature loop
+    - icon: "speaker-notes"
+      title: "Показать комментарии"
+      content: "Возможность отображать или скрывать комментарии при загрузке исходного документа."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-java.code_samples_description}"
+  title: "Образцы кода"
+  description: "Некоторые варианты использования типичных операций GroupDocs.Comparison for Java"
   items:
     # code sample loop
-    - title: "{index-content-java.code_title_sample_1}"
+    - title: "Сравнение документов, защищенных паролем."
       content: |
-        {index-content-java.code_samples_sample_1_content_1} {index-content-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_1}">}}
+        Чтобы сравнить документы, защищенные паролем [](https://docs.groupdocs.com/comparison/java/load-password-protected-documents/), вам необходимо указать его при загрузке документов:
+        {{< landing/code title="Как сравнить документы, защищенные паролем.">}}
         ```java {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
-        Signature signature = new Signature("file_to_sign.pdf");
+        // Загрузить исходный документ и укажите его пароль
+        try (Comparer comparer = new Comparer("source.docx", new LoadOptions("1234")))
+        {
+            // Загрузить целевой документ и укажите его пароль
+            comparer.add("target.docx", new LoadOptions("5678"));
         
-        // {index-content.code_samples.sample_1.comment_2}
-        QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
-        
-        // {index-content.code_samples.sample_1.comment_3}
-        options.setEncodeType(QrCodeTypes.QR);
-        options.setLeft(100);
-        options.setTop(100);
-
-        // {index-content.code_samples.sample_1.comment_4}
-        signature.sign("file_with_QR.pdf", options);
+            // Сохранить результат сравнения в указанном файле
+            comparer.compare("result.docx");
+        }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-java.code_title_sample_2}"
+    - title: "Сравнение нескольких PDF документов."
       content: |
-        {index-content-java.code_samples_sample_2_content_1} {index-content-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_2}">}}
+        GroupDocs.Comparison позволяет [сравнивать более двух документов](https://docs.groupdocs.com/comparison/java/compare-multiple-documents/). Операция почти такая же, как и при сравнении двух файлов. Вам просто нужно добавить больше целевых файлов в класс `comparer`.
+        {{< landing/code title="Как сравнить три или более документов.">}}
         ```java {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
-        Signature signature = new Signature("file_to_sign.pdf");
-        
-        // {index-content.code_samples.sample_2.comment_2}
-        DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
+        // Загрузить исходный документ
+        try (Comparer comparer = new Comparer("source.docx") 
+        {
+            // Задать второй файл для сравнения
+            comparer.add("target2.docx");
 
-        // {index-content.code_samples.sample_2.comment_3}
-        options.setPassword("1234567890");
+            // Задать третий файл для сравнения
+            comparer.add("target3.docx");
 
-        // {index-content.code_samples.sample_2.comment_4}
-        signature.sign("digitally_signed.pdf", options);
+            // Сохранить результат сравнения в указанном файле
+            comparer.compare("result.docx");
+        }
         ```
         {{< /landing/code >}}
 

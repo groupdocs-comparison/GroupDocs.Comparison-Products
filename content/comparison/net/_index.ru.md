@@ -1,80 +1,101 @@
+
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-12-11T13:24:02
+date: 2024-03-21T15:26:29
 draft: false
+
+lang: ru
 product: "Comparison"
 product_tag: "comparison"
 platform: "Net"
 platform_tag: "net"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
+
 ############################# Head ############################
-head_title: "{index-content.head_title}"
-head_description: "{index-content.head_description}"
+head_title: "C# .NET Программное обеспечение для сравнения документов | diff checker"
+head_description: "C# .NET Программное обеспечение для сравнения стиля и содержимого документа. Сравнивайте документы нескольких поддерживаемых форматов для выявления изменений между файлами."
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-net.title_2}"
-description: "{index-content.description}"
+title: "С легкостью сравнивайте документы в своих решениях C# .NET"
+description: "Создавайте C# приложения с помощью гибкого API сравнения документов, который позволяет сравнивать файлы в различных форматах документов по содержимому и стилю."
 words:
-  for: "{index-content.words_for}"
+  for: "для"
 
 actions:
-  main: "{index-content-net.actions_main}"
+  main: "Бесплатно NuGet Скачать"
   main_link: "https://www.nuget.org/packages/GroupDocs.Comparison"
-  alt: "{index-content.actions_alt}"
-  alt_link: "https://purchase.groupdocs.com/pricing/comparison/net"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  alt: "Лицензирование"
+  alt_link: "https://purchase.groupdocs.com/pricing/comparison/net/"
+  title: "Готовы начать?"
+  description: "Попробуйте функции GroupDocs.Comparison бесплатно или запросите лицензию"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Выпущена версия {0}"
+  notes: "Узнайте, что нового"
+  downloads: "Загрузки"
 
 code:
-  title: "{index-content-net.code_title}"
-  more: "{index-content.code_more}"
+  title: "Сравните DOCX файлов в C#"
+  more: "Больше примеров"
   more_link: "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-.NET"
-  install: "dotnet add package GroupDocs.Signature"
+  install: "dotnet add package GroupDocs.Comparison"
   content: |
     ```csharp {style=abap}   
-    // {index-content.code_comment_1}
-    using (Signature signature = new Signature("sample.pdf"))
+    // Укажите исходный документ
+    using (Comparer comparer = new Comparer("source.docx"))
     {
-        // {index-content.code_comment_2}
-        var options = new TextSignOptions("John Smith")
-        {
-            // {index-content.code_comment_3}
-            ForeColor = Color.Red
-        };
-        // {index-content.code_comment_4}
-        signature.Sign("signed.pdf", options);
+        // Добавьте один или несколько целевых документов
+        comparer.Add("target.docx");
+
+        // Укажите параметры сравнения
+        CompareOptions options = new CompareOptions() 
+        {ShowRevisions = false};
+
+        // Выполните сравнение и сохраните полученный документ
+        comparer.Compare("result.docx", options);
     }
     ```
 
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-net.overview_description}"
+  title: "GroupDocs.Comparison с первого взгляда"
+  description: "API для сравнения различий между документами в .NET приложениях"
   features:
     # feature loop
-    - title: "{index-content-net.overview_feature_1.title}"
-      content: "{index-content-net.overview_feature_1.description}"
+    - title: "Сравнение файлов в C#"
+      content: "Выявляйте различия между исходным и целевым файлами на предмет изменений на уровне абзацев, слов и символов. Определите изменения стиля и форматирования, такие как полужирный шрифт, курсив, подчеркивание, зачеркивание, типы шрифтов и т. д."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_2.title}"
-      content: "{index-content-net.overview_feature_2.description}"
+    - title: "Поддерживаются самые популярные форматы файлов и документов"
+      content: "API GroupDocs.Comparison позволяет эффективно сравнивать документы в самых разных форматах, включая PDF, HTML, электронные письма, Microsoft Office документы (Word, Excel, PowerPoint, OneNote, Visio), различные типы изображений (JPEG, PNG, GIF, BMP), текстовые файлы и многое другое."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_3.title}"
-      content: "{index-content-net.overview_feature_3.description}"
+    - title: "Легко применяйте или отклоняйте изменения"
+      content: "Каждое различие, выявленное в сравниваемых документах с помощью API GroupDocs.Comparison, можно выборочно применить или отклонить, что позволяет настроить его перед экспортом в конечный выходной документ."
+
+    # feature loop
+    - title: "Сравнительный сводный отчет"
+      content: "Создайте сводный отчет о различиях с подробным описанием всех изменений, обнаруженных в сравниваемых документах, и сохраните его для справки."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-net.platforms_description}"
+  title: "Независимость платформы"
+  description: "GroupDocs.Comparison for .NET поддерживает следующие операционные системы, фреймворки и менеджеры пакетов"
   items:
     # platform loop
     - title: "Amazon"
@@ -104,129 +125,141 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Поддерживаемые форматы файлов"
   description: |
-    {index-content-net.formats_description}
+    GroupDocs.Comparison for .NET поддерживает операции со следующими [форматами файлов](https://docs.groupdocs.com/comparison/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
-        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
-        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+        ### форматы Microsoft Office и OpenDocument
+        * **Word:** DOCX, DOC, DOCM,DOT, DOTM, DOTX, RTX, RTF, TXT
+        * **Excel:** XLSX, XLS, XLT, XLTM, XLSB, XLSM
+        * **PowerPoint:** PPTX, PPT, POT, POTX, PPS, PPSX
+        * **Outlook:** EML, EMLX, MSG
+        * **OneNote:** ONE
+        * **OpenDocument:** ODT, ODP, OTP, ODS, OTT
+        * **Фиксированный макет страницы:** PDF        
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Изображения, графика и диаграммы
+        * **Растровые изображения:** BMP, GIF, JPG, JPEG, PNG
+        * **Медицинская визуализация:** DICOM
+        * **Microsoft Visio:** VSDX, VSD, VSS, VST, VDX
+        * **AutoCAD Drawing:** DWG, DXF
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Другой
+        * **Текст:** TXT
+        * **Языки программирования:** CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, PHP, SQL, LOG, DIFF, LESS, SCALA
+        * **Веб:** HTM, HTML, MHT, MHTML
+        * **Электронные книги:** MOBI, DjVu
+        * **Значения, разделенные разделителями:** CSV
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-net.features.title}"
-  description: "{index-content-net.features.description}"
+  title: "Характеристики GroupDocs.Comparison"
+  description: "Легко сравнивайте PDF и офисные документы, изображения и другие форматы"
 
   items:
     # feature loop
-    - icon: "sign"
-      title: "{index-content-net.features.feature_1.title}"
-      content: "{index-content-net.features.feature_1.content}"
+    - icon: "compare"
+      title: "Простое в использовании сравнение документов"
+      content: "Проанализируйте и определите различия между двумя документами."
 
     # feature loop
-    - icon: "custom"
-      title: "{index-content-net.features.feature_2.title}"
-      content: "{index-content-net.features.feature_2.content}"
+    - icon: "note-stack"
+      title: "Сравните несколько документов"
+      content: "Одновременно анализируйте и выявляйте различия в нескольких документах."
 
     # feature loop
-    - icon: "password"
-      title: "{index-content-net.features.feature_3.title}"
-      content: "{index-content-net.features.feature_3.content}"
+    - icon: "stacks"
+      title: "Поддерживаемые форматы"
+      content: "Совместим с более чем 50 широко используемыми форматами документов из различных категорий, обеспечивая широкую применимость."
 
     # feature loop
-    - icon: "protect"
-      title: "{index-content-net.features.feature_4.title}"
-      content: "{index-content-net.features.feature_4.content}"
-
-    # feature loop
-    - icon: "convert"
-      title: "{index-content-net.features.feature_5.title}"
-      content: "{index-content-net.features.feature_5.content}"
+    - icon: "rule"
+      title: "Принять или отклонить изменения"
+      content: "Четкое визуальное отображение обнаруженных изменений с возможностью их принятия или отклонения."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-net.features.feature_6.title}"
-      content: "{index-content-net.features.feature_6.content}"
+      title: "Создавайте предварительные просмотры"
+      content: "Возможность сохранять результаты сравнения в виде предварительного просмотра изображений для удобного использования и обмена ими."
 
     # feature loop
-    - icon: "search"
-      title: "{index-content-net.features.feature_7.title}"
-      content: "{index-content-net.features.feature_7.content}"
+    - icon: "two-pager"
+      title: "Сравнение контента"
+      content: "Проводите тщательное сравнение текста на разных уровнях, включая построчное сравнение текста, абзаца, слова и символов, с выделенными различиями для большей ясности."
 
     # feature loop
-    - icon: "validate"
-      title: "{index-content-net.features.feature_8.title}"
-      content: "{index-content-net.features.feature_8.content}"
+    - icon: "format_color_text"
+      title: "Сравнение стилей и форматирования"
+      content: "Обнаруживает и выделяет изменения в форматировании и стиле документов, обеспечивая всесторонний анализ."
 
     # feature loop
-    - icon: "update"
-      title: "{index-content-net.features.feature_9.title}"
-      content: "{index-content-net.features.feature_9.content}"
+    - icon: "folder-managed"
+      title: "Гибкие настройки метаданных"
+      content: "Сохраняйте метаданные из исходных или целевых файлов или настраивайте их в соответствии с предпочтениями пользователя."
+
+    # feature loop
+    - icon: "lock"
+      title: "Защита паролем"
+      content: "Анализируйте документы, защищенные паролем, и защитите выходной документ с помощью шифрования паролем для дополнительной безопасности."
+
+    # feature loop
+    - icon: "select"
+      title: "Выборочное сравнение страниц"
+      content: "Загрузите и сравните определенные разделы или страницы документа для целенаправленного анализа."
+
+    # feature loop
+    - icon: "speaker-notes"
+      title: "Показать комментарии"
+      content: "Выберите отображение или скрытие комментариев при загрузке исходного документа, что позволит лучше контролировать процесс сравнения."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-net.code_samples_description}"
+  title: "Образцы кода"
+  description: "Некоторые варианты использования типичных операций GroupDocs.Comparison for .NET"
   items:
     # code sample loop
-    - title: "{index-content-net.code_title_sample_1}"
+    - title: "Сравнение документов, защищенных паролем."
       content: |
-        {index-content-net.code_samples_sample_1_content_1} {index-content-net.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
+        Чтобы сравнить документы, защищенные паролем [](https://docs.groupdocs.com/comparison/net/load-password-protected-documents/), вам необходимо указать его при загрузке документов:
+        {{< landing/code title="Как сравнить документы, защищенные паролем.">}}
         ```csharp {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
-        using (Signature signature = new Signature("file_to_sign.pdf"))
+        // Загрузить исходный документ и укажите его пароль
+        using(Comparer comparer = new Comparer("source.docx", new LoadOptions() {Password = "1234"}))  
         {
-            // {index-content.code_samples.sample_1.comment_2}
-            QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
-            {
-                // {index-content.code_samples.sample_1.comment_3}
-                EncodeType = QrCodeTypes.QR,
-                Left = 100,
-                Top = 100
-            };
-            // {index-content.code_samples.sample_1.comment_4}
-            signature.Sign("file_with_QR.pdf", options);
+            // Загрузить целевой документ и укажите его пароль
+            comparer.Add("target.docx", new LoadOptions() {Password = "5678"});
+
+            // Сохранить результат сравнения в указанном файле
+            comparer.Compare("result.docx");
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-net.code_title_sample_2}"
+    - title: "Сравнение нескольких PDF документов."
       content: |
-        {index-content-net.code_samples_sample_2_content_1} {index-content-net.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
+        GroupDocs.Comparison позволяет [сравнивать более двух документов](https://docs.groupdocs.com/comparison/net/compare-multiple-documents/). Операция почти такая же, как и при сравнении двух файлов. Вам просто нужно добавить больше целевых файлов в класс `comparer`.
+        {{< landing/code title="Как сравнить три или более документов.">}}
         ```csharp {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
-        using (Signature signature = new Signature("file_to_sign.pdf"))
+        // Загрузить исходный документ
+        using(Comparer comparer = new Comparer("source.docx") 
         {
-            // {index-content.code_samples.sample_2.comment_2}
-            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
-            {
-                // {index-content.code_samples.sample_2.comment_3}
-                Password = "1234567890"
-            };
-            // {index-content.code_samples.sample_2.comment_4}
-            signature.Sign("digitally_signed.pdf", options);
+            // Задать второй файл для сравнения
+            comparer.Add("target2.docx");
+            
+            // Задать третий файл для сравнения
+            comparer.Add("target3.docx");
+            
+            // Сохранить результат сравнения в указанном файле
+            comparer.Compare("result.docx");
         }
         ```
         {{< /landing/code >}}

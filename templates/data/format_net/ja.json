@@ -1,0 +1,292 @@
+{
+  "common": {
+    "head": {
+      "title": "{{FileFormatUp}} ファイルを {{ProgLang}} 比較ソフトウェアと比較",
+      "description": "{{ProgLang}} {{EnvName}} アプリケーションの {{FileFormatUp}} ファイルを比較してマージします。コンテンツ、テキスト、スタイルの相違点の概要を取得します。"
+    },
+    "header": {
+      "title": "{{FileFormatUp}} と {{ProgLang}} {{EnvName}} を比較してください",
+      "description": "{{EnvName}} ドキュメント比較 API を使用して、{{FileFormatUp}} ファイルの 2 つのバージョン間の相違点をチェックし、比較されたドキュメント間の違いの詳細な概要を含む最終ドキュメントにエクスポートします。",
+      "subtitle": "文書比較ソリューション",
+      "action_title": "無料 {{PackageStoreName}} ダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 個の API の利点をご覧ください",
+      "content": "{{ProdFullName}} は、同じ形式の複数の画像やドキュメントを比較するために設計されたネイティブ {{EnvName}} APIです。比較した文書の段落、単語、文字、図形、さらにはテキストスタイルの違いを検出するのに役立ちます。これらの変更をマージして最終文書にエクスポートできるため、PDF、Word 文書、Excel スプレッドシート、PowerPoint プレゼンテーション、Visio 個の図、Outlook 個の電子メール、HTML、図面、およびさまざまな画像ファイル形式の比較と結合が可能であり、外部ライブラリは必要ありません。"
+    },
+    "steps": {
+      "title": "{{ProgLang}} を使用して複数の {{FileFormatUp}} ファイルを比較する方法",
+      "content": {
+        "title": "[{{ProdShortName}}]({{ProductUrl}}) を使用して、多くの {{FileFormatUp}} ファイルの違いに関するレポートを取得できます。",
+        "step_1": "お気に入りのパッケージマネージャーを使って [{{PackageStoreName}}]({{PackageUrl}}) から {{ProdFullName}} をインストールしてください",
+        "step_2": "Comparer クラスのインスタンスに、最初の {{FileFormatUp}} ファイルへのフルパスを指定してください",
+        "step_3": "少なくとも 1 つの他の {{FileFormatUp}} を比較対象に追加",
+        "step_4": "違いを正確に説明した最終レポートを入手してください"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "ローカルディスクから複数のドキュメントを比較",
+          "comment_2": "最初のファイルを提供する Comparer をインスタンス化",
+          "comment_3": "他のファイルを追加",
+          "comment_4": "指定された名前の結果ファイルを取得"
+        }
+      }
+    },
+    "formats": {
+      "title": "{{ProgLang}} を使用して一般的なファイル形式を比較",
+      "description": "{{EnvName}} ドキュメントフォーマットを比較するための API。余計な手間をかけずに、文書処理中の変更について十分な情報を得ることができます。"
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "{{ProgLang}} {{EnvName}} の PDF ドキュメントの差分を確認してください",
+      "description": "{{ProgLang}} {{EnvName}} アプリケーションの 3 つ以上の PDF ファイルを比較してマージします。PDF ファイルの内容、テキスト、スタイルの相違点の概要を取得します。"
+    },
+    "header": {
+      "title": "{{ProgLang}} {{EnvName}} 個のアプリケーションの PDF 個のドキュメントを比較しています",
+      "description": "{{ProgLang}}、ASP .NET、VB .NET、および .NET コアに基づくアプリケーション内の PDF の違いを識別して表示するための {{EnvName}} ドキュメント比較 API。詳細なレポートを簡単に入手できるため、シームレスなエクスペリエンスが実現します。"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 個の API 機能を発見してください",
+      "content": "{{EnvName}} 件のアプリケーションで PDF 件の違いに関する詳細なレポートを入手できます。異なる PDF ファイルを同じ形式の新しい PDF に結合します。2 行のコードを追加して {{ProdFullName}} API を使用してください。サードパーティー製ソフトウェアなしで PDF やその他のフォーマットを処理できます。"
+    },
+    "steps": {
+      "title": "{{ProgLang}} を使って PDF を比較する方法",
+      "content": {
+        "title": "[{{ProdShortName}}]({{ProductUrl}}) を使用して、多くの PDF ファイルの違いに関するレポートを取得",
+        "step_1": "[{{PackageStoreName}}]({{PackageUrl}}) から {{ProdFullName}} を入手してインストールしてください",
+        "step_2": "PDF ファイルへのパスを指定して新しい Comparer インスタンスを作成する",
+        "step_3": "比較に他の PDF を追加",
+        "step_4": "結果には、両方の PDF の違いに関するレポートが含まれます"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "PDF の識別レポートを作成中",
+          "comment_2": "Comparer を最初のファイルへのパスでインスタンス化する",
+          "comment_3": "1つ以上の PDF を比較対象に追加",
+          "comment_4": "分析対象の結果報告書"
+        }
+      }
+    },
+    "formats": {
+      "title": "{{ProgLang}} を使用して PDF を比較し、詳細なレポートを取得",
+      "description": "{{EnvName}} {{ProgLang}} ソフトウェアで PDF ドキュメントを比較できます。文書の変更について十分な情報を簡単に把握できます。"
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "MS Word DOCX を {{ProgLang}} と {{EnvName}} で比較",
+      "description": "DOCX と {{ProdFullName}} の比較。DOCX 件の文書間の変更箇所が強調表示された詳細なレポート。当社の API を {{ProgLang}} と一緒に使用してください。"
+    },
+    "header": {
+      "title": "MS Word DOCX と {{ProgLang}} {{EnvName}} のアプリケーションの比較",
+      "description": "文書比較用に設計された {{EnvName}} API は、MS Word ファイルの相違点を検出して報告します。{{ProgLang}}、ASP .NET、VB .NET、または .NET Core をベースにアプリケーションを構築すると、メリットが得られます。いくつかのコード行を追加すると詳細なレポートが得られます。"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 個の API 機能を調べてください",
+      "content": "{{EnvName}} プロジェクトの便利なレポートを使用して、DOCX ドキュメントの変更内容を明らかにします。さらに、スタイル、シェイプ、その他のコンテンツに関する情報を取得し、DOCX ファイルを新しいファイルにマージできます。{{ProdFullName}} API の利点は、ほんの数行のコードだけでプロジェクトにもたらすことができます。サードパーティの開発者なしで当社のソフトウェアを使用できます。"
+    },
+    "steps": {
+      "title": "{{EnvName}} と {{ProgLang}} による MS Word DOCX の比較レポート",
+      "content": {
+        "title": "[{{ProdShortName}}]({{ProductUrl}}) を使用して DOCX ファイルの区別レポートを作成",
+        "step_1": "{{ProdFullName}} パッケージを [{{PackageStoreName}}]({{PackageUrl}}) からダウンロードしてインストールしてください",
+        "step_2": "DOCX にパスを渡すComparerオブジェクトをインスタンス化",
+        "step_3": "DOCX ファイルを比較に追加",
+        "step_4": "区別情報を含むレポートを取得"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "DOCX ファイル変更レポート",
+          "comment_2": "文書処理用のコンパレータをインスタンス化",
+          "comment_3": "比較用に少なくとも 1 つのファイルを追加",
+          "comment_4": "結果を分析"
+        }
+      }
+    },
+    "formats": {
+      "title": "DOCX と {{ProgLang}} 個のアプリケーションの比較",
+      "description": "一般的なファイル形式のコントロールバージョンには {{ProdFullName}} の利点があります。MS Word 件の文書情報をすばやく簡単に収集できます。"
+    }
+  },
+  "png": {
+    "head": {
+      "title": "PNG 件の差異が {{ProdFullName}} 社で確認中",
+      "description": "{{ProdFullName}} では、{{ProgLang}} & {{EnvName}} に基づくアプリケーションの PNG 画像の違いに関するレポートを生成できます"
+    },
+    "header": {
+      "title": "{{ProgLang}} {{EnvName}} 個のアプリケーションを介して PNG 枚の画像を比較",
+      "description": "{{ProdFullName}} API は PNG ファイル間の違いをすばやく簡単に検索します。{{ProgLang}}、ASP .NET、VB .NET、および .NET のコアアプリケーションを改善して、比較レポートを入手してください。"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 個の API 機能を発見してください",
+      "content": "{{ProdFullName}} APIは、複数の PNG 画像を比較し、そのような画像の違いに関する高度なレポートを作成するために設計されています。サードパーティ製ソフトウェアをインストールしなくても {{EnvName}} 個のアプリケーションで使用できる可能性があります。{{ProdFullName}} を使うには、すぐに使用できる多くの便利な機能を含むコードを数行追加してください。"
+    },
+    "steps": {
+      "title": "PNG 枚の写真を {{ProgLang}} と比較する方法",
+      "content": {
+        "title": "構成レポートには、PNG 枚の画像の違いが [{{ProdShortName}}]({{ProductUrl}}) で記述されています",
+        "step_1": "[{{PackageStoreName}}]({{PackageUrl}}) から {{ProdFullName}} をダウンロードしてインストールします。",
+        "step_2": "PNG イメージへのパスを提供する Comparer オブジェクトをインスタンス化",
+        "step_3": "他の PNG ファイルを含めて比較してください",
+        "step_4": "画像の変更を示す最終レポートを取得"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "PNG 画像の変更に関するレポートを作成",
+          "comment_2": "最初のファイルを指すコンパレータを作成",
+          "comment_3": "他の写真を比較プロセスに含める",
+          "comment_4": "結果のレポートをお楽しみください"
+        }
+      }
+    },
+    "formats": {
+      "title": "PNG 枚の画像を {{ProgLang}} と {{EnvName}} で比較",
+      "description": "PNG 枚の画像を比較するための {{EnvName}} API。余計な手間をかけずにファイルの変更に関する情報を取得できます。"
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "{{ProdFullName}} JPEG 比較用の API",
+      "description": "{{ProdFullName}} は JPEG 個の画像の違いに関するデータを収集して {{ProgLang}} & {{EnvName}} に適用するための強力な API です"
+    },
+    "header": {
+      "title": "JPEG 枚の画像と {{EnvName}} 個のテクノロジーでの変化の比較",
+      "description": "{{ProdFullName}} APIによって提供される JPEG ファイルの変更に関するデータを迅速かつ簡単に収集してレポートとして表示します。{{ProgLang}}、ASP .NET、VB .NET、.NET Coreをベースにしたビジネスソリューションでも、当社のソフトウェアを使用すれば有用なデータを取得できます。"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 個の API 機能を調査してください",
+      "content": "{{ProdFullName}} APIは、JPEG 枚の画像比較に豊富な機能を提供します。結果のレポートには、選択した画像の違いに関するデータが含まれます。{{ProgLang}} 件のプロジェクトで弊社のソフトウェアを使用しても、他のライブラリは必要ありません。コードを数行追加するだけで、目標を達成するための強力なツールを手に入れることができます。"
+    },
+    "steps": {
+      "title": "JPEG 枚の写真を {{ProgLang}} と比較する方法",
+      "content": {
+        "title": "JPEG ファイルの内容を [{{ProdShortName}}]({{ProductUrl}}) で制御",
+        "step_1": "[{{PackageStoreName}}]({{PackageUrl}}) から {{ProdFullName}} を入手してプロジェクトに追加してください",
+        "step_2": "Comparer オブジェクトコンストラクターを使用してパスを JPEG イメージに設定します",
+        "step_3": "他の JPEG 枚の画像を分析対象に含める",
+        "step_4": "ローカルディスクに保存された調査レポート"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "JPEG 枚の画像の違いに関するレポートを作成",
+          "comment_2": "メインファイルパスを Comparer コンストラクターに渡す",
+          "comment_3": "他の JPEG 枚の写真へのパスを提供",
+          "comment_4": "結果のレポートをファイルに保存"
+        }
+      }
+    },
+    "formats": {
+      "title": "JPEG 枚の画像と {{ProgLang}} {{EnvName}} との比較",
+      "description": "{{ProdFullName}} 製品を使用すると、JPEG ファイルの変更に関する情報を簡単に分析できます。"
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "{{ProdFullName}} JPG を比較するための API",
+      "description": "{{ProdFullName}} APIを使用すると、JPG 画像内の区別に関するデータを収集し、それを {{ProgLang}} {{EnvName}} アプリケーションに統合できます。"
+    },
+    "header": {
+      "title": "JPG 枚の画像と {{EnvName}} 個のテクノロジーの変化の比較",
+      "description": "{{ProdFullName}} APIを使用して、JPG ファイルの変更に関するデータをすばやく簡単に収集して報告します。{{ProgLang}}、ASP .NET、VB .NET、および .NET のコアビジネスソリューションを当社のソフトウェアで強化して、貴重な洞察を得てください。"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 個の API 機能の探索",
+      "content": "{{ProdFullName}} APIは、JPG 枚の画像を比較し、選択した画像内の違いを含むレポートを生成するための広範な機能を提供します。当社のソフトウェアは、追加のライブラリを必要とせずに {{ProgLang}} プロジェクトにシームレスに統合できるため、最小限のコードで目的を達成できます。"
+    },
+    "steps": {
+      "title": "{{ProgLang}} を使用して JPG 枚の写真を比較しています",
+      "content": {
+        "title": "JPG ファイルコンテンツを [{{ProdShortName}}]({{ProductUrl}}) で管理",
+        "step_1": "[{{PackageStoreName}}]({{PackageUrl}}) から {{ProdFullName}} を入手してプロジェクトに統合してください",
+        "step_2": "Comparer オブジェクトをインスタンス化し、JPG イメージへのパスを指定します",
+        "step_3": "分析用に別の JPG 画像を含める",
+        "step_4": "ローカルディスクに保存されたレポートを確認する"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "JPG 枚の画像の違いを詳述したレポートを生成",
+          "comment_2": "Comparer コンストラクターへのメインファイルパスを指定する",
+          "comment_3": "追加の JPG 画像へのパスを指定",
+          "comment_4": "結果のレポートをファイルに保存する"
+        }
+      }
+    },
+    "formats": {
+      "title": "JPG イメージと {{EnvName}} のイメージの比較",
+      "description": "{{ProdFullName}} ソリューションを使用すると、JPG ファイルの変更を簡単に分析できます。"
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "MS Excel スプレッドシート比較",
+      "description": "{{ProdFullName}} API を使用すると、XLSX スプレッドシートの差分の確認と分析が容易になります。{{ProgLang}} {{EnvName}} がサポートされています。"
+    },
+    "header": {
+      "title": "{{ProgLang}} テクノロジーを使用して XLSX スプレッドシートを比較してください",
+      "description": "さまざまなドキュメントタイプを比較するために作成された {{EnvName}} API は、MS Excel ファイル内の違いを識別して報告します。{{ProgLang}}、ASP .NET、VB .NET、または .NET Core を使用してアプリケーションを構築し、その利点を活用してください。最小限のコード実装で詳細なレポートを作成できます。"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API の機能をご覧ください",
+      "content": "XLSX スプレッドシートの変更を {{EnvName}} プロジェクトの便利なレポートで検出します。さらに、スタイル、シェイプ、その他のコンテンツに関する情報を取得し、XSLX スプレッドシートを新しい文書にマージできます。わずか数行のコードで {{ProdFullName}} 個の API をプロジェクトに統合できます。サードパーティの開発者を介さずに当社のソフトウェアを使用できます。"
+    },
+    "steps": {
+      "title": "{{ProgLang}} を使用して MS Excel XLSX 個の比較レポートを生成します",
+      "content": {
+        "title": "[{{ProdShortName}}]({{ProductUrl}}) を使用して XLSX ファイルの区別レポートを作成する",
+        "step_1": "[{{PackageStoreName}}]({{PackageUrl}}) から {{ProdFullName}} パッケージをダウンロードしてインストールします",
+        "step_2": "XLSX ファイルパスを指定して Comparer オブジェクトをインスタンス化します",
+        "step_3": "比較用に XLSX スプレッドシートを含める",
+        "step_4": "区別情報を含む比較レポートを取得"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "XLSX ファイルの変更に関するレポートを生成",
+          "comment_2": "スプレッドシート処理用に Comparer オブジェクトをインスタンス化する",
+          "comment_3": "比較用に少なくとも 1 つのファイルを含めてください",
+          "comment_4": "比較結果を分析する"
+        }
+      }
+    },
+    "formats": {
+      "title": "{{ProgLang}} アプリケーションの MS Excel スプレッドシートの比較",
+      "description": "XLSX ドキュメントのバージョンを管理するための {{ProdFullName}} の利点をご覧ください。MS Excel スプレッドシートからすばやく簡単に情報を収集して、さらに分析できます。"
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "PPTX と {{ProdFullName}} を比較してください",
+      "description": "{{ProdFullName}} は PPTX 件のプレゼンテーションの比較と分析を行うように設計されています。当社の API は {{ProgLang}} のソリューションで使用できます。"
+    },
+    "header": {
+      "title": "MS PowerPoint PPTX 件のプレゼンテーションを {{EnvName}} 個のテクノロジーで分析",
+      "description": "THE {{ProdFullName}} は、Microsoft PowerPoint ファイル内の違いを分析するために、さまざまなドキュメントタイプを比較できるように設計されています。{{ProgLang}}、ASP .NET、VB .NET、または .NET Core をベースにしたアプリケーションは、当社のソリューションによって改善される可能性があります。ビジネス文書内の違いに関する詳細なレポートを取得するには、最小限のコード実装で済みます。"
+    },
+    "about": {
+      "title": "{{ProdFullName}} の使用方法を開く",
+      "content": "{{EnvName}} 件のプロジェクトとともに詳細なレポートを作成して、PPTX 件のプレゼンテーションを分析します。テキストだけでなく、スタイル、シェイプ、その他のコンテンツも処理されます。さまざまなバージョンの PPTX プレゼンテーションを結果文書に統合します。{{ProdFullName}} は、ほんの数行のコードでプロジェクトに簡単に組み込むことができます。当社の API には、サードパーティの開発者によるソフトウェアは一切必要ありません。"
+    },
+    "steps": {
+      "title": "{{ProgLang}} と {{EnvName}} を使用して MS PowerPoint PPTX 個の比較レポートを作成",
+      "content": {
+        "title": "PPTX の変更に関するレポートを [{{ProdShortName}}]({{ProductUrl}}) で取得する",
+        "step_1": "[{{PackageStoreName}}]({{PackageUrl}}) を使用して {{ProdFullName}} パッケージをインストールします",
+        "step_2": "PPTX パスを提供する Comparer オブジェクトを取得",
+        "step_3": "比較対象の PPTX 件のプレゼンテーションをさらに追加",
+        "step_4": "ローカルディスクに保存された分析レポート"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "プレゼンテーション用の変更を作成",
+          "comment_2": "Comparer をインスタンス化して最初のファイルパスを渡す",
+          "comment_3": "比較用にさらに多くのファイルを含める",
+          "comment_4": "比較結果を保存する"
+        }
+      }
+    },
+    "formats": {
+      "title": "{{ProgLang}} 個のアプリケーションの Microsoft PPTX 個のプレゼンテーションを比較",
+      "description": "PPTX 件のプレゼンテーション分析に {{ProdFullName}} を使用することの利点について常に情報を入手してください。MS PowerPoint 件のプレゼンテーションの違いに関する有益なレポートを生成します。"
+    }
+  }
+}

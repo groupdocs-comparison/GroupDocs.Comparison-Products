@@ -1,83 +1,106 @@
+
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-12-11T13:24:02
+date: 2024-03-21T15:26:29
 draft: false
+
+lang: id
 product: "Comparison"
 product_tag: "comparison"
 platform: "Java"
 platform_tag: "java"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
+
 ############################# Head ############################
-head_title: "{index-content.head_title}"
-head_description: "{index-content.head_description}"
+head_title: "Java Perpustakaan Perbandingan Dokumen | diff checker"
+head_description: "Perangkat lunak asli Java untuk membandingkan gaya dokumen & konten. Bandingkan dokumen dari berbagai format untuk mengidentifikasi perbedaan."
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-java.title_2}"
-description: "{index-content.description}"
+title: "Bandingkan dan periksa perbedaan file menggunakan Java API"
+description: "Kembangkan Java aplikasi dengan pustaka perbandingan dokumen yang sangat dapat dikonfigurasi untuk membandingkan format dokumen serupa, termasuk file, konten, dan gaya teks."
 words:
-  for: "{index-content.words_for}"
+  for: "untuk"
 
 actions:
-  main: "{index-content-java.actions_main}"
+  main: "Unduhan Maven Gratis"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/"
-  alt: "{index-content.actions_alt}"
-  alt_link: "https://purchase.groupdocs.com/pricing/comparison/java"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  alt: "Perizinan"
+  alt_link: "https://purchase.groupdocs.com/pricing/comparison/java/"
+  title: "Siap untuk memulai?"
+  description: "Coba fitur GroupDocs.Comparison secara gratis atau minta lisensi"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Versi {0} dirilis"
+  notes: "Lihat apa yang baru"
+  downloads: "Unduhan"
 
 code:
-  title: "{index-content-java.code_title}"
-  more: "{index-content.code_more}"
+  title: "Bandingkan file DOCX dalam Java"
+  more: "Lebih banyak contoh"
   more_link: "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Java"
   install: |
     <dependency>
       <groupId>com.groupdocs</groupId>
-      <artifactId>groupdocs-signature</artifactId>
+      <artifactId>groupdocs-comparison</artifactId>
       <version>{0}</version>
     </dependency>
   content: |
     ```java {style=abap}  
-    // {index-content.code_comment_1}
-    Signature signature = new Signature("sample.pdf");
-    
-    // {index-content.code_comment_2}
-    TextSignOptions options = new TextSignOptions("John Smith");
-    options.setForeColor(Color.RED);
+    // Tentukan dokumen sumber
+    try (Comparer comparer = new Comparer("source.docx"))
+    {    
+      // Menambahkan satu atau lebih dokumen target
+      comparer.add("target.docx");
 
-    // {index-content.code_comment_4}
-    signature.sign("signed.pdf", options);
-    
+      // Tentukan opsi perbandingan
+      CompareOptions options = new CompareOptions();
+      options.setShowRevisions(false);
+
+      // Lakukan perbandingan dan simpan dokumen yang dihasilkan
+      final comparer.compare("result.docx", options);
+    }    
     ```
 
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-java.overview_description}"
+  title: "Sekilas tentang GroupDocs.Comparison"
+  description: "API untuk membandingkan perbedaan antara dokumen dalam Java aplikasi"
   features:
     # feature loop
-    - title: "{index-content-java.overview_feature_1.title}"
-      content: "{index-content-java.overview_feature_1.description}"
+    - title: "Perbandingan file di Java"
+      content: "Mendeteksi perubahan antara file sumber dan target pada tingkat paragraf, kata, dan karakter. Identifikasi perubahan gaya dan pemformatan seperti huruf tebal, miring, garis bawah, garis-garis, jenis font, dan lainnya."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_2.title}"
-      content: "{index-content-java.overview_feature_2.description}"
+    - title: "Sejumlah besar format yang didukung"
+      content: "Dengan GroupDocs.Comparison API, Anda dapat dengan mudah membandingkan dokumen dari berbagai format yang didukung. Ini termasuk PDF, HTML, email, Microsoft Office Word dokumen, Excel spreadsheet, PowerPoint presentasi, OneNote, Visio diagram, teks, JPEG, PNG, GIF, dan BMP gambar, serta banyak format lainnya."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_3.title}"
-      content: "{index-content-java.overview_feature_3.description}"
+    - title: "Menerapkan atau tolak perubahan dengan mudah"
+      content: "Setiap perbedaan antara dokumen yang dibandingkan dapat diterapkan atau ditolak dan kemudian diekspor ke dokumen keluaran."
+
+    # feature loop
+    - title: "Laporan ringkasan perbandingan"
+      content: "Buat laporan ringkasan yang mencantumkan semua perubahan dalam dokumen yang dibandingkan."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-java.platforms_description}"
+  title: "Independensi platform"
+  description: "GroupDocs.Comparison for Java mendukung sistem operasi, kerangka kerja dan manajer paket berikut"
   items:
     # platform loop
     - title: "Amazon"
@@ -107,128 +130,142 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Format file yang didukung"
   description: |
-    {index-content-java.formats_description}
+    GroupDocs.Comparison for Java mendukung operasi dengan [format file] berikut (https://docs.groupdocs.com/comparison/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
-        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
-        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+        ### Microsoft Office & OpenDocument format
+        * **Word:** DOCX, DOC, DOCM,DOT, DOTM, DOTX, RTX, RTF, TXT
+        * **Excel:** XLSX, XLS, XLT, XLTM, XLSB, XLSM
+        * **PowerPoint:** PPTX, PPT, POT, POTX, PPS, PPSX
+        * **Outlook:** EML, EMLX, MSG
+        * **OneNote:** ONE
+        * **OpenDocument:** ODT, ODP, OTP, ODS, OTT
+        * **Tata Letak Halaman Tetap:** PDF        
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Gambar, Grafik & Diagram
+        * **Gambar raster:** BMP, GIF, JPG, JPEG, PNG
+        * **Pencitraan Medis:** DICOM
+        * **Microsoft Visio:** VSDX, VSD, VSS, VST, VDX
+        * **AutoCAD Drawing:** DWG, DXF
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Lainnya
+        * **Teks:** TXT
+        * **Bahasa Pemrograman:** CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, PHP, SQL, LOG, DIFF, LESS, SCALA
+        * **Web:** HTM, HTML, MHT, MHTML
+        * **E-buku:** MOBI, DjVu
+        * **Nilai yang dipisahkan pembatas:** CSV
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-java.features.title}"
-  description: "{index-content-java.features.description}"
+  title: "GroupDocs.Comparison fitur"
+  description: "Bandingkan dokumen PDF dan Office, gambar, dan format lainnya dengan mudah"
 
   items:
     # feature loop
-    - icon: "sign"
-      title: "{index-content-java.features.feature_1.title}"
-      content: "{index-content-java.features.feature_1.content}"
+    - icon: "compare"
+      title: "Perbandingan dokumen yang mudah digunakan"
+      content: "Mudah menganalisis dan menentukan perbedaan antara dua dokumen."
 
     # feature loop
-    - icon: "custom"
-      title: "{index-content-java.features.feature_2.title}"
-      content: "{index-content-java.features.feature_2.content}"
+    - icon: "note-stack"
+      title: "Bandingkan beberapa dokumen"
+      content: "Secara bersamaan memeriksa dan menyorot variasi di beberapa dokumen."
 
     # feature loop
-    - icon: "password"
-      title: "{index-content-java.features.feature_3.title}"
-      content: "{index-content-java.features.feature_3.content}"
+    - icon: "stacks"
+      title: "Format yang didukung"
+      content: "Kompatibilitas dengan lebih dari 50 format dokumen yang banyak digunakan dari berbagai kategori."
 
     # feature loop
-    - icon: "protect"
-      title: "{index-content-java.features.feature_4.title}"
-      content: "{index-content-java.features.feature_4.content}"
-
-    # feature loop
-    - icon: "convert"
-      title: "{index-content-java.features.feature_5.title}"
-      content: "{index-content-java.features.feature_5.content}"
+    - icon: "rule"
+      title: "Menerima atau tolak perubahan"
+      content: "Visualisasi yang jelas dari perubahan yang diidentifikasi, dengan opsi untuk menerima atau menolak modifikasi."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-java.features.feature_6.title}"
-      content: "{index-content-java.features.feature_6.content}"
+      title: "Hasilkan pratinjau"
+      content: "Kemampuan untuk menyimpan hasil perbandingan sebagai pratinjau gambar."
 
     # feature loop
-    - icon: "search"
-      title: "{index-content-java.features.feature_7.title}"
-      content: "{index-content-java.features.feature_7.content}"
+    - icon: "two-pager"
+      title: "Perbandingan konten"
+      content: "Perbandingan menyeluruh konten teks pada berbagai tingkatan - termasuk baris demi baris, paragraf, kata, dan analisis karakter, dengan penekanan pada perubahan."
 
     # feature loop
-    - icon: "validate"
-      title: "{index-content-java.features.feature_8.title}"
-      content: "{index-content-java.features.feature_8.content}"
+    - icon: "format_color_text"
+      title: "Perbandingan gaya"
+      content: "Kemampuan untuk mendeteksi dan menyorot perubahan dalam elemen pemformatan dan gaya."
 
     # feature loop
-    - icon: "update"
-      title: "{index-content-java.features.feature_9.title}"
-      content: "{index-content-java.features.feature_9.content}"
+    - icon: "folder-managed"
+      title: "Tetapkan metadata"
+      content: "Opsi untuk menyimpan metadata dari file sumber atau target, atau mengizinkan pengaturan metadata yang ditentukan pengguna."
+
+    # feature loop
+    - icon: "lock"
+      title: "Perlindungan kata sandi"
+      content: "Memfasilitasi analisis dokumen yang dilindungi kata sandi dan memungkinkan perlindungan kata sandi untuk dokumen yang dihasilkan."
+
+    # feature loop
+    - icon: "select"
+      title: "Bandingkan halaman tertentu"
+      content: "Muat dan bandingkan bagian atau halaman tertentu dari dokumen sesuai kebutuhan."
+
+    # feature loop
+    - icon: "speaker-notes"
+      title: "Tampilkan komentar"
+      content: "Fleksibilitas untuk menampilkan atau menyembunyikan komentar saat memuat dokumen sumber."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-java.code_samples_description}"
+  title: "Contoh kode"
+  description: "Beberapa kasus penggunaan operasi GroupDocs.Comparison for Java tipikal"
   items:
     # code sample loop
-    - title: "{index-content-java.code_title_sample_1}"
+    - title: "Membandingkan dokumen yang dilindungi kata sandi."
       content: |
-        {index-content-java.code_samples_sample_1_content_1} {index-content-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_1}">}}
+        Untuk membandingkan dokumen yang [dilindungi dengan kata sandi](https://docs.groupdocs.com/comparison/java/load-password-protected-documents/), Anda perlu menentukannya lalu memuat dokumen:
+        {{< landing/code title="Cara membandingkan dokumen yang dilindungi kata sandi.">}}
         ```java {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
-        Signature signature = new Signature("file_to_sign.pdf");
+        // Muat dokumen sumber dan tentukan kata sandinya
+        try (Comparer comparer = new Comparer("source.docx", new LoadOptions("1234")))
+        {
+            // Muat dokumen target dan tentukan kata sandinya
+            comparer.add("target.docx", new LoadOptions("5678"));
         
-        // {index-content.code_samples.sample_1.comment_2}
-        QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
-        
-        // {index-content.code_samples.sample_1.comment_3}
-        options.setEncodeType(QrCodeTypes.QR);
-        options.setLeft(100);
-        options.setTop(100);
-
-        // {index-content.code_samples.sample_1.comment_4}
-        signature.sign("file_with_QR.pdf", options);
+            // Simpan hasil perbandingan ke file tertentu
+            comparer.compare("result.docx");
+        }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-java.code_title_sample_2}"
+    - title: "Membandingkan beberapa PDF dokumen."
       content: |
-        {index-content-java.code_samples_sample_2_content_1} {index-content-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_2}">}}
+        GroupDocs.Comparison memungkinkan Anda untuk [membandingkan lebih dari dua dokumen](https://docs.groupdocs.com/comparison/java/compare-multiple-documents/). Operasi ini hampir sama dengan ketika membandingkan dua file. Anda hanya perlu menambahkan lebih banyak file target ke kelas `comparer`.
+        {{< landing/code title="Bagaimana membandingkan tiga dokumen atau lebih.">}}
         ```java {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
-        Signature signature = new Signature("file_to_sign.pdf");
-        
-        // {index-content.code_samples.sample_2.comment_2}
-        DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
+        // Muat dokumen sumber
+        try (Comparer comparer = new Comparer("source.docx") 
+        {
+            // Tentukan file kedua untuk perbandingan
+            comparer.add("target2.docx");
 
-        // {index-content.code_samples.sample_2.comment_3}
-        options.setPassword("1234567890");
+            // Tentukan file ketiga untuk perbandingan
+            comparer.add("target3.docx");
 
-        // {index-content.code_samples.sample_2.comment_4}
-        signature.sign("digitally_signed.pdf", options);
+            // Simpan hasil perbandingan ke file tertentu
+            comparer.compare("result.docx");
+        }
         ```
         {{< /landing/code >}}
 

@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "name": "Comparer PDF fichiers",
+        "description": "Format de document Adobe Portable"
+      },
+      "docx": {
+        "name": "Comparer DOCX fichiers",
+        "description": "Microsoft Word Ouvrir un document XML"
+      },
+      "rtf": {
+        "name": "Comparer RTF fichiers",
+        "description": "Format de fichier RTF"
+      },
+      "txt": {
+        "name": "Comparer TXT fichiers",
+        "description": "Format de fichier texte brut"
+      },
+      "xlsx": {
+        "name": "Comparer XLSX fichiers",
+        "description": "Feuille de calcul Microsoft Excel Open XML"
+      },
+      "csv": {
+        "name": "Comparez les fichiers CSV",
+        "description": "Fichier de valeurs séparées par des virgules"
+      },
+      "pptx": {
+        "name": "Comparer PPTX fichiers",
+        "description": "PowerPoint Présentation Open XML"
+      },
+      "ods": {
+        "name": "Comparer ODS fichiers",
+        "description": "Open Document Feuille de calcul"
+      },
+      "odp": {
+        "name": "Comparez les fichiers ODP",
+        "description": "OpenDocument Format de fichier de présentation"
+      },
+      "odt": {
+        "name": "Comparer ODT fichiers",
+        "description": "Open Document Texte"
+      },
+      "jpeg": {
+        "name": "Comparer JPEG fichiers",
+        "description": "JPEG Photo"
+      },
+      "png": {
+        "name": "Comparer PNG fichiers",
+        "description": "Portable Graphique du réseau"
+      },
+      "gif": {
+        "name": "Comparer GIF fichiers",
+        "description": "Fichier de format d'échange graphique"
+      },
+      "bmp": {
+        "name": "Comparer BMP fichiers",
+        "description": "Format de fichier bitmap"
+      },
+      "html": {
+        "name": "Comparer des fichiers HTML",
+        "description": "Langage de balisage Hyper Text"
+      },
+      "msg": {
+        "name": "Comparer MSG fichiers",
+        "description": "Message électronique Microsoft Outlook"
+      },
+      "one": {
+        "name": "Comparer ONE fichiers",
+        "description": "Microsoft OneNote"
+      },
+      "vsdx": {
+        "name": "Comparer VSDX fichiers",
+        "description": "Dessin Microsoft Visio"
+      },
+      "cs": {
+        "name": "Comparez les fichiers CS",
+        "description": "Langage CSharp"
+      },
+      "java": {
+        "name": "Comparer Java fichiers",
+        "description": "Java Langue"
+      },
+      "cpp": {
+        "name": "Comparez les fichiers CPP",
+        "description": "Langage C++"
+      }
+    },
+    "format-code": {
+      "copy_title": "Copier",
+      "copy_tip": "cliquez pour copier",
+      "copy_done": "copié",
+      "links": {
+        "title_1": "Plus d'exemples",
+        "title_2": "Documentation"
+      }
+    },
+    "format-actions": {
+      "title": "Prêt à démarrer ?",
+      "description": "Essayez {{ProdShortName}} fonctionnalités gratuitement ou demandez une licence",
+      "comment_1": "{{PackageStoreName}} télécharger",
+      "comment_2": "Licences"
+    },
+    "texts": {
+      "learn_more": "En savoir plus"
+    }
+  }
+}

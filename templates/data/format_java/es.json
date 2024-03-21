@@ -1,0 +1,292 @@
+{
+  "common": {
+    "head": {
+      "title": "{{EnvName}} {{FileFormatUp}} API de comparación: compruebe las diferencias en los archivos {{FileFormatUp}}",
+      "description": "Compare y combine {{FileFormatUp}} archivos en aplicaciones {{EnvName}}, J2EE y J2SE. Analice el resumen de las diferencias en contenido, texto y estilo."
+    },
+    "header": {
+      "title": "Compara {{FileFormatUp}} archivos en {{EnvName}}",
+      "description": "Realice una comparación de contenido entre más de dos archivos {{FileFormatUp}} en {{EnvName}}. Recupere una lista de diferencias y guarde los archivos comparados en un único documento.",
+      "subtitle": "Marco de verificación de diferencias de documentos",
+      "action_title": "Descarga gratuita de {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Explore las capacidades de la biblioteca {{ProdFullName}}",
+      "content": "{{ProdFullName}} es un software {{EnvName}} intrínseco diseñado para comparar varias imágenes y documentos que comparten el mismo formato. Ayuda a identificar las variaciones en los párrafos, las palabras, los caracteres, las formas e incluso los estilos de texto entre los documentos comparados. Con la capacidad de combinar estas modificaciones y exportarlas a un documento final, facilita la comparación y la fusión de PDF documentos, Excel hojas de cálculo, PowerPoint presentaciones, Visio diagramas, Outlook correos electrónicos, HTML, dibujos y varios formatos de archivos de imágenes, lo que elimina la necesidad de bibliotecas externas."
+    },
+    "steps": {
+      "title": "Cómo comparar varios {{FileFormatUp}} documentos usando {{EnvName}}",
+      "content": {
+        "title": "Usa [{{ProdShortName}}]({{ProductUrl}}) para comparar varios archivos {{FileFormatUp}} y generar un informe en el que se detallen sus diferencias",
+        "step_1": "Usa tu gestor de paquetes preferido para instalar {{ProdFullName}} desde [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Cree una instancia de la ruta de configuración de la clase Comparer a uno de los {{FileFormatUp}} archivos",
+        "step_3": "Agregue al menos un {{FileFormatUp}} adicional a la instancia de Comparer",
+        "step_4": "Reciba un informe final detallado que describa las diferencias exactas"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Revisa los archivos de tu disco duro para ver si hay diferencias o similitudes",
+          "comment_2": "Cree un objeto Comparer especificando el archivo inicial",
+          "comment_3": "Incluir archivos adicionales para comparar",
+          "comment_4": "Obtenga el informe con el nombre especificado como resultado"
+        }
+      }
+    },
+    "formats": {
+      "title": "Compara varios documentos usando {{ProgLang}}",
+      "description": "Nuestras soluciones {{EnvName}} le permiten comparar documentos de varios formatos. Manténgase actualizado sobre los cambios en los documentos procesándolos sin esfuerzo."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Usa la biblioteca de comparación de {{EnvName}} para comprobar las diferencias de PDF.",
+      "description": "La API {{ProdShortName}} {{EnvName}} crea informes detallados para PDF documentos en aplicaciones compatibles con J2EE y J2SE."
+    },
+    "header": {
+      "title": "Comparación de PDF documentos con {{EnvName}} aplicaciones",
+      "description": "La biblioteca {{ProdShortName}} {{EnvName}} proporciona informes comparativos detallados para PDF documentos en varios tipos de aplicaciones que utilizan J2EE o J2SE."
+    },
+    "about": {
+      "title": "Descubra las ventajas de la API {{ProdFullName}}",
+      "content": "La API {{ProdFullName}} genuina está diseñada para redactar informes llenos de datos útiles sobre las diferencias dentro de los PDF documentos. En el informe final no solo se reflejan las diferencias en el texto dentro de los párrafos o las palabras, sino también los cambios en las formas y los estilos del texto. También está disponible la combinación de estas modificaciones y la exportación a un documento final. De hecho, no es necesario en bibliotecas externas. Solo unas pocas líneas de código permiten acceder a una amplia gama de funciones."
+    },
+    "steps": {
+      "title": "Comparación de varios documentos de PDF mediante {{EnvName}}",
+      "content": {
+        "title": "Compara PDF s con [{{ProdShortName}}]({{ProductUrl}}) y obtén informes sobre las distinciones de documentos",
+        "step_1": "Descargue el paquete {{ProdFullName}} de [{{PackageStoreName}}]({{PackageUrl}}) e instálelo",
+        "step_2": "La nueva instancia de Comparer debe tener una ruta a uno de los PDF archivos",
+        "step_3": "Debe proporcionarse al menos un documento PDF para la comparación",
+        "step_4": "El informe de resultados se guarda en la ruta proporcionada"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Recibir un informe sobre los cambios a los PDF s",
+          "comment_2": "Pase la primera ruta del archivo al constructor Comparer",
+          "comment_3": "Proporcione otro documento PDF",
+          "comment_4": "Guarde el informe de distinciones para analizarlo en el futuro"
+        }
+      }
+    },
+    "formats": {
+      "title": "Busque cualquier cambio en los archivos PDF a través de {{EnvName}}",
+      "description": "Nuestro software {{EnvName}} ofrece la posibilidad de controlar las versiones de PDF archivos mediante la generación de informes precisos y detallados en su formato favorito."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Solución para la comprobación de diferencias entre documentos de DOCX.",
+      "description": "Las oportunidades que ofrece la API {{ProdShortName}} nos permiten recuperar informes que contienen información sobre las distinciones en DOCX documentos."
+    },
+    "header": {
+      "title": "{{EnvName}} solicitudes de búsqueda de distinciones en DOCX documentos",
+      "description": "La biblioteca {{EnvName}} presentada por {{ProdShortName}} compara cualquier documento DOCX en aplicaciones compatibles con Java, J2EE o J2SE."
+    },
+    "about": {
+      "title": "Explore las ventajas de la API {{ProdFullName}}",
+      "content": "Comparación de documentos de DOCX compatible con la API {{ProdFullName}} que elabora informes que contienen datos sobre varias distinciones. Se están analizando el texto de los párrafos, las formas y estilos y otros datos. Además, es posible componer un DOCX fusionando las modificaciones de los archivos iniciales. No es necesario en ninguna biblioteca externa. Mejora tus {{EnvName}} proyectos añadiendo unas cuantas líneas de código."
+    },
+    "steps": {
+      "title": "Usa {{EnvName}} para comparar varios DOCX archivos",
+      "content": {
+        "title": "Usa [{{ProdShortName}}]({{ProductUrl}}) para comparar MS Word documentos",
+        "step_1": "Instala nuestra solución desde [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "El comparador debe crearse con el primer documento DOCX como parámetro",
+        "step_3": "Cualquier comparación necesita más de un documento DOCX",
+        "step_4": "El informe resultante proporciona datos útiles"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Manténgase bien informado sobre los cambios en MS Word documentos",
+          "comment_2": "Pase la ruta DOCX a Comparer",
+          "comment_3": "Añadir otro documento DOCX",
+          "comment_4": "Obtenga un informe completo para análisis futuros"
+        }
+      }
+    },
+    "formats": {
+      "title": "Controle cualquier cambio en los archivos DOCX mediante {{EnvName}}",
+      "description": "La API {{ProdShortName}} {{EnvName}} permite a los usuarios controlar DOCX versiones de documentos mediante informes precisos y detallados que pueden procesarse fácilmente."
+    }
+  },
+  "png": {
+    "head": {
+      "title": "Obtén informes de diferencias para PNG imágenes con {{EnvName}}.",
+      "description": "La API {{ProdFullName}} genera informes de comparación útiles para PNG documentos en aplicaciones compatibles con J2EE y J2SE."
+    },
+    "header": {
+      "title": "Comparar PNG imágenes con {{EnvName}}",
+      "description": "Potencie sus aplicaciones Java, J2EE o J2SE con la API {{ProdShortName}}. Obtenga información detallada sobre cualquier cambio en sus imágenes PNG."
+    },
+    "about": {
+      "title": "Mantente informado sobre las funciones de la API {{ProdFullName}}",
+      "content": "{{ProdShortName}} se desarrolló como una API {{EnvName}} nativa adecuada para redactar informes detallados basados en las variaciones entre las diferentes versiones de las imágenes representadas en formato PNG. No solo se admite el formato PNG. Nuestra API proporciona muchas funciones útiles."
+    },
+    "steps": {
+      "title": "Usa {{ProgLang}} para comparar PNG archivos",
+      "content": {
+        "title": "Compara PNG archivos con [{{ProdShortName}}]({{ProductUrl}}) y recupera el informe relevante sobre sus alteraciones",
+        "step_1": "Instala el paquete {{ProdFullName}} descargándolo desde [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Proporcione la instancia de Comparer y pase la ruta a PNG",
+        "step_3": "Agregue PNG archivos para una mayor comparación",
+        "step_4": "Guardar el informe en el disco local"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Obtenga un informe con información sobre las distinciones entre PNG",
+          "comment_2": "Obtenga el objeto Comparer con la ruta del archivo principal",
+          "comment_3": "Añade PNG imágenes para compararlas",
+          "comment_4": "Guardar el informe en la ubicación deseada"
+        }
+      }
+    },
+    "formats": {
+      "title": "Encuentra distinciones en diferentes versiones de PNG imágenes a través de {{ProgLang}}",
+      "description": "La API {{ProdFullName}} rastrea las alteraciones en las PNG imágenes y elabora informes demostrativos para analizarlos más a fondo."
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "Analice JPEG con informes comparativos a través de {{ProgLang}}.",
+      "description": "Poderosa API {{ProdFullName}} desarrollada para generar informes de distinciones útiles para JPEG imágenes. Se admiten J2EE y J2SE."
+    },
+    "header": {
+      "title": "Compara JPEG imágenes con nuestra biblioteca de {{EnvName}}",
+      "description": "Las aplicaciones Java, J2EE o J2SE impulsadas por la API {{ProdShortName}} permiten recuperar informes detallados sobre las distinciones en JPEG imágenes sin esfuerzo."
+    },
+    "about": {
+      "title": "Eche un vistazo a la API {{ProdFullName}}",
+      "content": "La API {{EnvName}} nativa llamada {{ProdShortName}} elabora informes detallados sobre las alteraciones entre las versiones de las imágenes guardadas en formato JPEG. También se admiten muchos formatos de imagen populares. Nuestra API admite muchos formatos de imagen."
+    },
+    "steps": {
+      "title": "Usa {{ProgLang}} para comparar JPEG imágenes",
+      "content": {
+        "title": "Obtenga información útil sobre las diferencias de JPEG imágenes a través de [{{ProdShortName}}]({{ProductUrl}})",
+        "step_1": "Incluye el paquete {{ProdFullName}} en tu proyecto desde [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Instanciar el comparador con la ruta a la imagen JPEG",
+        "step_3": "Añada JPEG archivos a la comparación",
+        "step_4": "Obtenga el informe resultante"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Redacte datos de distinciones para JPEG",
+          "comment_2": "El objeto de comparación necesita la ruta del archivo principal JPEG",
+          "comment_3": "Otras JPEG imágenes deben estar señaladas",
+          "comment_4": "El archivo de resultados contiene un informe"
+        }
+      }
+    },
+    "formats": {
+      "title": "Controla los cambios en las diferentes versiones de JPEG imágenes mediante {{ProgLang}}",
+      "description": "Es posible que {{ProdFullName}} detecte cualquier alteración en las JPEG imágenes. Incluya informes detallados en sus procesos empresariales."
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "Analiza JPG imágenes con {{ProdFullName}}.",
+      "description": "La API {{ProdFullName}} genera informes útiles para JPG imágenes. Soporta Java, J2EE y J2SE."
+    },
+    "header": {
+      "title": "Analice los cambios en JPG archivos mediante nuestra solución {{EnvName}}",
+      "description": "Las aplicaciones {{EnvName}}, J2EE o J2SE que utilizan la API {{ProdShortName}} pueden generar JPG informes detallados."
+    },
+    "about": {
+      "title": "Explore la API {{ProdFullName}}",
+      "content": "La solución nativa {{EnvName}}, {{ProdShortName}}, crea informes detallados sobre JPG alteraciones. Es compatible con los formatos de imagen más populares para su comparación y posterior procesamiento."
+    },
+    "steps": {
+      "title": "Compara JPG archivos con {{ProgLang}}",
+      "content": {
+        "title": "Recupere datos de diferencias de JPG con [{{ProdShortName}}]({{ProductUrl}})",
+        "step_1": "Mejora la funcionalidad de tu producto añadiendo {{ProdFullName}} de [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Cree una instancia de Comparer con la ruta JPG",
+        "step_3": "Añadir otras JPG imágenes al procesamiento",
+        "step_4": "Obtenga el informe resultante"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Crear datos de distinciones para JPG",
+          "comment_2": "El objeto de comparación requiere la ruta del archivo principal JPG",
+          "comment_3": "Señala otras JPG imágenes",
+          "comment_4": "El archivo de resultados contiene un informe"
+        }
+      }
+    },
+    "formats": {
+      "title": "Realice un seguimiento de los cambios en las diferentes versiones de JPG imágenes con {{ProgLang}}",
+      "description": "Detecta alteraciones en JPG imágenes con {{ProdFullName}}. Mejore los procesos empresariales con informes detallados."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "{{ProdFullName}} para la comparación XLSX.",
+      "description": "La API {{ProdShortName}} ofrece la recuperación de informes que detallan las variaciones en XLSX documentos. Compatible con los entornos Java, J2EE y J2SE."
+    },
+    "header": {
+      "title": "{{EnvName}} aplicaciones para detectar cambios en XLSX hojas de cálculo",
+      "description": "La API {{ProdShortName}} {{EnvName}} permite la comparación de XLSX hojas de cálculo en aplicaciones Java, J2EE o J2SE."
+    },
+    "about": {
+      "title": "Explore las ventajas de la API {{ProdFullName}}",
+      "content": "La API {{ProdFullName}} facilita la comparación de XLSX hojas de cálculo y genera informes sobre las diferencias encontradas en el texto, los párrafos, las formas, los estilos y otros elementos. Además, admite la fusión de modificaciones de varios archivos originales sin necesidad de bibliotecas externas. Mejore sus {{EnvName}} proyectos con una integración de código mínima."
+    },
+    "steps": {
+      "title": "Usa {{EnvName}} para comparar varios XLSX archivos",
+      "content": {
+        "title": "Usa [{{ProdShortName}}]({{ProductUrl}}) para analizar MS Excel hojas de cálculo",
+        "step_1": "Instale el paquete desde [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Instancie el comparador con la primera hoja de cálculo XLSX como parámetro",
+        "step_3": "Incluya XLSX hojas de cálculo adicionales para comparar",
+        "step_4": "Disfrute de un informe completo"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Manténgase informado sobre los cambios en MS Excel documentos",
+          "comment_2": "Proporcione la ruta XLSX al comparador",
+          "comment_3": "Incorpore XLSX hojas de cálculo adicionales",
+          "comment_4": "Acceda a informes detallados para análisis futuros"
+        }
+      }
+    },
+    "formats": {
+      "title": "Gestiona los cambios en XLSX hojas de cálculo con {{EnvName}}",
+      "description": "La biblioteca {{ProdShortName}} {{EnvName}} permite a los usuarios supervisar diferentes versiones de XLSX hojas de cálculo mediante informes detallados y precisos que se redactan fácilmente."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Biblioteca diseñada específicamente para la comparación con PPTX.",
+      "description": "El {{ProdShortName}} proporciona funcionalidades para recuperar informes que detallan las variaciones en PPTX presentaciones. Es compatible con Java, J2EE o J2SE."
+    },
+    "header": {
+      "title": "{{EnvName}} aplicaciones habilitadas por {{ProdShortName}} compare PPTX",
+      "description": "Las presentaciones de Microsoft PowerPoint PPTX se pueden comparar con {{ProdFullName}} con aplicaciones Java, J2EE o J2SE."
+    },
+    "about": {
+      "title": "Explore las características del {{ProdFullName}}",
+      "content": "La API {{ProdFullName}} implementa informes comparativos sobre las diferencias en las PPTX presentaciones. Los informes de resultados contienen no solo texto sobre las diferencias, sino también formas, estilos y otros elementos. Solo se desea combinar muchas presentaciones en una sola toma. No se requieren bibliotecas externas de terceros. Potencie {{EnvName}} proyectos añadiendo una cantidad mínima de código."
+    },
+    "steps": {
+      "title": "Usa {{EnvName}} para comparar varios PPTX archivos",
+      "content": {
+        "title": "Usa [{{ProdShortName}}]({{ProductUrl}}) para analizar MS PowerPoint presentaciones",
+        "step_1": "Instale el paquete desde [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Proporcione un nuevo comparador junto con la ruta PPTX",
+        "step_3": "Añada PPTX presentaciones para compararlas",
+        "step_4": "Obtenga un informe detallado"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Conozca las diferencias en las presentaciones de MS PPTX",
+          "comment_2": "Proporcione la ruta del archivo",
+          "comment_3": "Añadir PPTX presentaciones adicionales",
+          "comment_4": "Guarde el informe para un análisis futuro"
+        }
+      }
+    },
+    "formats": {
+      "title": "Analice PPTX archivos con {{EnvName}}",
+      "description": "El software {{ProdFullName}} permite detectar diferencias en MS PowerPoint PPTX presentaciones y producir informes detallados y precisos sin esfuerzos adicionales."
+    }
+  }
+}

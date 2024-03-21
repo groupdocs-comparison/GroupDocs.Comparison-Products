@@ -1,0 +1,292 @@
+{
+  "common": {
+    "head": {
+      "title": "将 {{FileFormatUp}} 个文件与 {{ProgLang}} 比较软件进行比较",
+      "description": "比较并合并 {{ProgLang}} {{EnvName}} 应用程序中的 {{FileFormatUp}} 个文件。检索内容、文本和样式中的差异摘要。"
+    },
+    "header": {
+      "title": "比较 {{ProgLang}} {{EnvName}} 中的 {{FileFormatUp}}",
+      "description": "{{EnvName}} 文档比较 API 用于检查 {{FileFormatUp}} 文件的两个版本之间的差异，并导出到包含比较文档之间差异的详细摘要的最终文档。",
+      "subtitle": "文件比较解决方案",
+      "action_title": "免费 {{PackageStoreName}} 下载"
+    },
+    "about": {
+      "title": "探索 {{ProdFullName}} API 的优势",
+      "content": "{{ProdFullName}} 是一个原生 {{EnvName}} API，专为比较相同格式的多个图像和文档而设计。它有助于检测段落、文字、字符、形状甚至对比文档的文本样式之间的差异。由于能够合并这些更改并导出到最终文档，它支持比较和合并 PDF、Word 个文档、Excel 个电子表格、PowerPoint 演示文稿、Visio 个图表、Outlook 封电子邮件、HTML、绘图和各种图像文件格式，所有这些都无需任何外部库。"
+    },
+    "steps": {
+      "title": "如何使用 {{ProgLang}} 比较多个 {{FileFormatUp}} 个文件",
+      "content": {
+        "title": "可以使用 [{{ProdShortName}}]({{ProductUrl}}) 来获取有关许多 {{FileFormatUp}} 文件差异的报告。",
+        "step_1": "使用你最喜欢的软件包管理器从 [{{PackageStoreName}}]({{PackageUrl}}) 安装 {{ProdFullName}}",
+        "step_2": "提供一个包含初始 {{FileFormatUp}} 文件完整路径的 Comparer 类实例",
+        "step_3": "向 Comparer 追加至少一个 {{FileFormatUp}}",
+        "step_4": "获取包含精确描述差异的最终报告"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "比较本地磁盘中的多个文档",
+          "comment_2": "实例化比较器提供第一个文件",
+          "comment_3": "添加其他文件",
+          "comment_4": "获取具有指定名称的结果文件"
+        }
+      }
+    },
+    "formats": {
+      "title": "使用 {{ProgLang}} 比较常用的文件格式",
+      "description": "{{EnvName}} 用于比较文档格式的 API。无需额外努力，即可充分了解文档处理过程中的变化。"
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "查看 {{ProgLang}} {{EnvName}} 中的 PDF 个文档的差异",
+      "description": "比较并合并 {{ProgLang}} {{EnvName}} 应用程序中的两个以上 PDF 个文件。检索 PDF 个文件的内容、文本和样式中的差异摘要。"
+    },
+    "header": {
+      "title": "比较 {{ProgLang}} {{EnvName}} 应用程序中的 PDF 个文档",
+      "description": "{{EnvName}} 文档比较 API 用于识别和显示基于 {{ProgLang}}、ASP .NET、VB .NET 和 .NET 内核的应用程序内 PDF 的差异。轻松获取详细报告，享受无缝体验。"
+    },
+    "about": {
+      "title": "发现 {{ProdFullName}} API 功能",
+      "content": "在 {{EnvName}} 个应用程序的 PDF 个文档中获取有关差异的详细报告。将不同的 PDF 合并为具有相同格式的新文件。通过添加几行代码来使用 {{ProdFullName}} API。无需第三方软件即可处理 PDF 和其他格式。"
+    },
+    "steps": {
+      "title": "如何使用 {{ProgLang}} 比较 PDF",
+      "content": {
+        "title": "使用 [{{ProdShortName}}]({{ProductUrl}}) 获取有关许多 PDF 文件差异的报告",
+        "step_1": "从 [{{PackageStoreName}}]({{PackageUrl}}) 获取 {{ProdFullName}} 并安装它",
+        "step_2": "使用 PDF 文件路径创建全新的比较器实例",
+        "step_3": "将其他 PDF 添加到比较中",
+        "step_4": "结果包含关于两个 PDF 之间差异的报告"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "编写 PDF 的区别报告",
+          "comment_2": "使用第一个文件的路径实例化比较器",
+          "comment_3": "将一个或多个 PDF 添加到比较中",
+          "comment_4": "结果报告待分析"
+        }
+      }
+    },
+    "formats": {
+      "title": "使用 {{ProgLang}} 比较 PDF 并获取完整报告",
+      "description": "{{EnvName}} {{ProgLang}} 软件用于 PDF 个文档比较。轻松了解文档的任何更改。"
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "比较 MS Word DOCX via {{ProgLang}} 和 {{EnvName}}",
+      "description": "DOCX 与 {{ProdFullName}} 的比较。详细报告，重点介绍了 DOCX 个文档之间的变动。将我们的 API 与 {{ProgLang}} 一起使用。"
+    },
+    "header": {
+      "title": "MS Word DOCX 与 {{ProgLang}} {{EnvName}} 应用程序的比较",
+      "description": "{{EnvName}} 专为文档比较而设计的 API 可查找并报告 MS Word 文件中的任何差异。基于 {{ProgLang}}、ASP .NET、VB .NET 或 .NET 核心构建应用程序以获得优势。获取添加几行代码的详细报告。"
+    },
+    "about": {
+      "title": "检查 {{ProdFullName}} 个 API 功能",
+      "content": "在您的 {{EnvName}} 项目中使用便捷的报告显示您的 DOCX 文档中的变更。此外，获取有关样式、形状和其他内容的信息，并将 DOCX 个文件合并到一个新文件中。只需几行代码即可为您的项目带来 {{ProdFullName}} API 的优势。无需第三方开发人员即可使用我们的软件。"
+    },
+    "steps": {
+      "title": "通过 {{EnvName}} 和 {{ProgLang}} 提交比较报告 MS Word DOCX",
+      "content": {
+        "title": "使用 [{{ProdShortName}}]({{ProductUrl}}) 为 DOCX 文件撰写区别报告",
+        "step_1": "从 [{{PackageStoreName}}]({{PackageUrl}}) 下载 {{ProdFullName}} 软件包并进行安装",
+        "step_2": "实例化将路径传递给 DOCX 的比较器对象",
+        "step_3": "添加 DOCX 个文件进行比较",
+        "step_4": "获取包含区别信息的报告"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "DOCX 文件变更报告",
+          "comment_2": "实例化比较器进行文档处理",
+          "comment_3": "添加至少一个文件进行比较",
+          "comment_4": "分析结果"
+        }
+      }
+    },
+    "formats": {
+      "title": "比较 DOCX 个 {{ProgLang}} 个应用程序",
+      "description": "{{ProdFullName}} 控制常用文件格式版本的优势。快速、轻松地收集 MS Word 个文档信息。"
+    }
+  },
+  "png": {
+    "head": {
+      "title": "PNG 差异由 {{ProdFullName}} 校验",
+      "description": "{{ProdFullName}} 允许基于 {{ProgLang}} 和 {{EnvName}} 的应用程序生成有关 PNG 图像区别的报告"
+    },
+    "header": {
+      "title": "通过 {{ProgLang}} {{EnvName}} 应用程序比较 PNG 张图像",
+      "description": "{{ProdFullName}} API 可以快速、轻松地搜索 PNG 个文件之间的任何差异。改进 {{ProgLang}}、ASP .NET、VB .NET 和 .NET 核心应用程序，以获得比较报告。"
+    },
+    "about": {
+      "title": "发现 {{ProdFullName}} API 功能",
+      "content": "{{ProdFullName}} API 专为比较多张 PNG 张图像和撰写有关此类图像的任何区别的复杂报告而设计。它可以在不安装任何第三方软件的情况下用于您的 {{EnvName}} 个应用程序。通过添加几行具有许多开箱即用功能的代码来使用 {{ProdFullName}}。"
+    },
+    "steps": {
+      "title": "如何比较 {{ProgLang}} 的 PNG 张照片",
+      "content": {
+        "title": "构造报告描述了 [{{ProdShortName}}]({{ProductUrl}}) 在 PNG 张照片中的差异",
+        "step_1": "从 [{{PackageStoreName}}]({{PackageUrl}}) 下载并安装 {{ProdFullName}}",
+        "step_2": "实例化提供 PNG 图像路径的 Comparer 对象",
+        "step_3": "涉及其他 PNG 个文件进行比较",
+        "step_4": "获取显示图像变更的最终报告"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "创建有关 PNG 张图像变化的报告",
+          "comment_2": "创建指向第一个文件的比较器",
+          "comment_3": "让其他照片参与比较过程",
+          "comment_4": "享受由此产生的报告"
+        }
+      }
+    },
+    "formats": {
+      "title": "比较 {{ProgLang}} 和 {{EnvName}} 的 PNG 张图片",
+      "description": "{{EnvName}} 用于比较 PNG 张图像的 API。无需额外努力即可获取有关文件中任何更改的信息。"
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "{{ProdFullName}} 用于 JPEG 比较的 API",
+      "description": "{{ProdFullName}} 代表强大的 API，用于收集 JPEG 图像中差异的数据，用于 {{ProgLang}} 和 {{EnvName}}"
+    },
+    "header": {
+      "title": "JPEG 张图像的变化与 {{EnvName}} 项技术的比较",
+      "description": "可快速、轻松地收集有关 {{ProdFullName}} API 提供的 JPEG 文件变更的数据，并将其作为报告表示。我们的软件可以赋予基于 {{ProgLang}}、ASP .NET、VB .NET 和 .NET Core的业务解决方案以获取有用的数据。"
+    },
+    "about": {
+      "title": "调查 {{ProdFullName}} 个 API 功能",
+      "content": "{{ProdFullName}} API 在 JPEG 张图像比较中提供了丰富的功能。生成的报告包含有关所选图像的任何区别的数据。在您的 {{ProgLang}} 项目中使用我们的软件不需要任何其他库。只需添加几行代码，即可获得强大的工具来实现您的目标。"
+    },
+    "steps": {
+      "title": "如何比较 {{ProgLang}} 的 JPEG 张照片",
+      "content": {
+        "title": "使用 [{{ProdShortName}}]({{ProductUrl}}) 控制 JPEG 个文件的内容",
+        "step_1": "从 [{{PackageStoreName}}]({{PackageUrl}}) 获取 {{ProdFullName}} 并添加到您的项目中",
+        "step_2": "使用 Comparer 对象构造函数将 JPEG 图像的路径设置为",
+        "step_3": "涉及其他 JPEG 张图像进行分析",
+        "step_4": "调查报告已保存到本地光盘"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "撰写有关 JPEG 张图像差异的报告",
+          "comment_2": "将主文件路径传递给 Comparer 构造函数",
+          "comment_3": "提供其他 JPEG 张照片的路径",
+          "comment_4": "将生成的报告保存到文件中"
+        }
+      }
+    },
+    "formats": {
+      "title": "JPEG 张图片与 {{ProgLang}} {{EnvName}} 的比较",
+      "description": "使用 {{ProdFullName}} 产品轻松分析有关 JPEG 文件中任何更改的信息。"
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "{{ProdFullName}} 用于比较 JPG 的 API",
+      "description": "{{ProdFullName}} API 允许收集 JPG 张图像中差异的数据，并将其集成到 {{ProgLang}} {{EnvName}} 应用程序中。"
+    },
+    "header": {
+      "title": "比较 JPG 张图像的变化与 {{EnvName}} 项技术",
+      "description": "使用 {{ProdFullName}} API 快速轻松地收集和报告 JPG 文件变更的数据。使用我们的软件增强 {{ProgLang}}、ASP .NET、VB .NET 和 .NET 核心业务解决方案，以获得宝贵的见解。"
+    },
+    "about": {
+      "title": "探索 {{ProdFullName}} 个 API 功能",
+      "content": "{{ProdFullName}} API 为比较 JPG 张图像提供了广泛的功能，生成包含所选图像内部差异的报告。我们的软件无需额外的库即可无缝集成到 {{ProgLang}} 个项目中，使您能够用最少的代码实现目标。"
+    },
+    "steps": {
+      "title": "使用 {{ProgLang}} 比较 JPG 张照片",
+      "content": {
+        "title": "使用 [{{ProdShortName}}]({{ProductUrl}}) 管理 JPG 文件内容",
+        "step_1": "从 [{{PackageStoreName}}]({{PackageUrl}}) 获取 {{ProdFullName}} 并将其集成到您的项目中",
+        "step_2": "实例化 Comparer 对象并指定 JPG 图像的路径",
+        "step_3": "添加另一张 JPG 张图像以供分析",
+        "step_4": "查看保存到本地磁盘的报告"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "生成详细说明 JPG 张图像差异的报告",
+          "comment_2": "为 Comparer 构造器提供主文件路径",
+          "comment_3": "指定其他 JPG 张图像的路径",
+          "comment_4": "将生成的报告保存到文件中"
+        }
+      }
+    },
+    "formats": {
+      "title": "JPG 与 {{EnvName}} 的图像比较",
+      "description": "使用 {{ProdFullName}} 解决方案轻松分析 JPG 文件中的更改。"
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "MS Excel 电子表格比较",
+      "description": "{{ProdFullName}} API 便于检查 XLSX 个电子表格的差异和分析。支持 {{ProgLang}} {{EnvName}}。"
+    },
+    "header": {
+      "title": "利用 {{ProgLang}} 项技术比较 XLSX 个电子表格",
+      "description": "{{EnvName}} API 专为比较各种文档类型而设计，可识别和报告 MS Excel 文件中的区别。使用 {{ProgLang}}、ASP .NET、VB .NET 或 .NET Core 构建应用程序，以利用其优势。只需最少的代码实现即可获得详细报告。"
+    },
+    "about": {
+      "title": "探索 {{ProdFullName}} API 的功能",
+      "content": "通过 {{EnvName}} 项目中的便捷报告，检测您的 XLSX 电子表格中的变化。此外，检索有关样式、形状和其他内容的信息，并将 XSLX 电子表格合并到新文档中。只需几行代码即可将 {{ProdFullName}} API 集成到您的项目中。无需第三方开发人员即可使用我们的软件。"
+    },
+    "steps": {
+      "title": "使用 {{ProgLang}} 生成 MS Excel XLSX 比较报告",
+      "content": {
+        "title": "使用 [{{ProdShortName}}]({{ProductUrl}}) 为 XLSX 文件创建区别报告",
+        "step_1": "从 [{{PackageStoreName}}]({{PackageUrl}}) 下载并安装 {{ProdFullName}} 软件包",
+        "step_2": "通过提供 XLSX 文件路径来实例化 Comparer 对象",
+        "step_3": "包括 XLSX 张电子表格以供比较",
+        "step_4": "检索包含区别信息的比较报告"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "生成 XLSX 个文件中的变更报告",
+          "comment_2": "实例化用于电子表格处理的 Comparer 对象",
+          "comment_3": "至少包含一个文件进行比较",
+          "comment_4": "分析比较结果"
+        }
+      }
+    },
+    "formats": {
+      "title": "比较 {{ProgLang}} 个应用程序的 MS Excel 个电子表格",
+      "description": "探索 {{ProdFullName}} 在控制 XLSX 文档版本方面的优势。快速轻松地从 MS Excel 电子表格中收集信息以进行进一步分析。"
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "通过 {{ProdFullName}} 比较 PPTX",
+      "description": "{{ProdFullName}} 旨在对 PPTX 个演示文稿进行比较和分析。我们的 API 可以与 {{ProgLang}} 解决方案一起使用。"
+    },
+    "header": {
+      "title": "使用 {{EnvName}} 项技术分析 MS PowerPoint PPTX 个演示文稿",
+      "description": "{{ProdFullName}} 专为比较各种文档类型而设计，用于分析微软 PowerPoint 文件中的区别。我们的解决方案可以改进基于 {{ProgLang}}、ASP .NET、VB .NET 或 .NET 内核的应用程序。要获得有关业务文档中差异的详细报告，只需最低限度的代码实现。"
+    },
+    "about": {
+      "title": "打开 {{ProdFullName}} 的使用方法",
+      "content": "通过构建详细报告以及 {{EnvName}} 个项目来分析您的 PPTX 个演示文稿。不仅要处理文本，还要处理样式、形状和其他内容。将不同版本的 PPTX 演示文稿合并到结果文档中。只需几行代码，{{ProdFullName}} 即可轻松参与您的项目。我们的API不需要第三方开发人员的任何软件。"
+    },
+    "steps": {
+      "title": "使用 {{ProgLang}} 和 {{EnvName}} 编写 MS PowerPoint PPTX 比较报告",
+      "content": {
+        "title": "使用 [{{ProdShortName}}]({{ProductUrl}}) 获取有关 PPTX 变更的报告",
+        "step_1": "使用 [{{PackageStoreName}}]({{PackageUrl}}) 安装 {{ProdFullName}} 软件包",
+        "step_2": "获取提供 PPTX 路径的比较器对象",
+        "step_3": "添加更多 PPTX 个演示文稿进行比较",
+        "step_4": "分析已保存到本地光盘的报告"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "为演示文稿撰写改动",
+          "comment_2": "传递第一个文件路径实例化比较器",
+          "comment_3": "加入更多文件进行比较",
+          "comment_4": "保存比较结果"
+        }
+      }
+    },
+    "formats": {
+      "title": "比较 {{ProgLang}} 个应用程序中的微软 PPTX 演示文稿",
+      "description": "随时了解 {{ProdFullName}} 用于 PPTX 个演示文稿分析的优势。生成有关 MS PowerPoint 个演示文稿中差异的信息报告。"
+    }
+  }
+}

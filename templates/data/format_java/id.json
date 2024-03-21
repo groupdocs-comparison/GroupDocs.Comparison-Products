@@ -1,0 +1,292 @@
+{
+  "common": {
+    "head": {
+      "title": "{{EnvName}} {{FileFormatUp}} API Perbandingan - Periksa {{FileFormatUp}} File untuk Perbedaan",
+      "description": "Bandingkan dan gabungkan {{FileFormatUp}} file dalam aplikasi {{EnvName}}, J2EE, J2SE. Analisis ringkasan perbedaan dalam konten, teks & gaya."
+    },
+    "header": {
+      "title": "Bandingkan {{FileFormatUp}} File di {{EnvName}}",
+      "description": "Lakukan perbandingan konten antara lebih dari dua {{FileFormatUp}} file di {{EnvName}}. Ambil daftar perbedaan dan simpan file yang dibandingkan ke satu dokumen.",
+      "subtitle": "Kerangka pemeriksaan perbedaan dokumen",
+      "action_title": "Unduhan gratis {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Jelajahi kemampuan perpustakaan {{ProdFullName}}",
+      "content": "{{ProdFullName}} adalah perangkat lunak intrinsik {{EnvName}} yang dibuat untuk membandingkan beberapa gambar dan dokumen yang berbagi format yang sama. Ini membantu dalam mengidentifikasi variasi dalam paragraf, kata, karakter, bentuk, dan bahkan gaya teks di antara dokumen yang dibandingkan. Dengan kemampuan untuk menggabungkan perubahan ini dan mengekspor ke dokumen akhir, ini memfasilitasi perbandingan dan penggabungan PDF s, Word dokumen, Excel spreadsheet, PowerPoint presentasi, Visio diagram, Outlook email, HTML, gambar, dan berbagai format file gambar—menghilangkan kebutuhan untuk pustaka eksternal apa pun."
+    },
+    "steps": {
+      "title": "Cara membandingkan beberapa dokumen {{FileFormatUp}} menggunakan {{EnvName}}",
+      "content": {
+        "title": "Gunakan [{{ProdShortName}}]({{ProductUrl}}) untuk membandingkan beberapa file {{FileFormatUp}} dan menghasilkan laporan yang merinci perbedaannya",
+        "step_1": "Gunakan manajer paket pilihan Anda untuk menginstal {{ProdFullName}} dari [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Buat instance jalur pengaturan kelas Comparer ke salah satu dari {{FileFormatUp}} file",
+        "step_3": "Tambahkan setidaknya satu {{FileFormatUp}} tambahan ke instance Comparer",
+        "step_4": "Menerima laporan akhir terperinci yang menguraikan perbedaan yang tepat"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Periksa file dari hard drive Anda untuk perbedaan atau persamaan",
+          "comment_2": "Buat objek Comparer dengan menentukan file awal",
+          "comment_3": "Sertakan file tambahan untuk membandingkan",
+          "comment_4": "Dapatkan laporan dengan nama yang ditentukan sebagai hasilnya"
+        }
+      }
+    },
+    "formats": {
+      "title": "Bandingkan berbagai dokumen menggunakan {{ProgLang}}",
+      "description": "Solusi {{EnvName}} kami memungkinkan Anda membandingkan dokumen dari berbagai format. Tetap terbarui tentang perubahan dokumen dengan memprosesnya dengan mudah."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Gunakan pustaka perbandingan {{EnvName}} untuk memeriksa perbedaan PDF s.",
+      "description": "{{ProdShortName}} {{EnvName}} API membuat laporan terperinci untuk dokumen PDF dalam aplikasi yang mendukung J2EE dan J2SE."
+    },
+    "header": {
+      "title": "Membandingkan dokumen PDF menggunakan {{EnvName}} aplikasi",
+      "description": "Pustaka {{ProdShortName}} {{EnvName}} menyediakan laporan perbandingan terperinci untuk dokumen PDF dalam berbagai jenis aplikasi yang menggunakan J2EE atau J2SE."
+    },
+    "about": {
+      "title": "Cari tahu kelebihan API {{ProdFullName}}",
+      "content": "API {{ProdFullName}} asli dibuat untuk menyusun laporan yang penuh dengan data berguna tentang perbedaan di dalam dokumen PDF. Tidak hanya perbedaan teks dalam paragraf atau kata-kata tetapi juga perubahan bentuk dan gaya teks diwakili pada laporan akhir. Menggabungkan perubahan ini dan mengekspor ke dokumen akhir yang tersedia juga. Bahkan, tidak perlu di perpustakaan eksternal. Hanya beberapa baris kode yang memberikan akses ke fungsionalitas yang kaya."
+    },
+    "steps": {
+      "title": "Membandingkan beberapa PDF dokumen melalui {{EnvName}}",
+      "content": {
+        "title": "Bandingkan PDF s dengan [{{ProdShortName}}]({{ProductUrl}}) dan dapatkan laporan tentang perbedaan dokumen",
+        "step_1": "Unduh paket {{ProdFullName}} dari [{{PackageStoreName}}]({{PackageUrl}}) dan instal",
+        "step_2": "Instance Comparer baru harus memiliki jalur ke salah satu dari PDF file",
+        "step_3": "Setidaknya satu dokumen PDF harus disediakan untuk perbandingan",
+        "step_4": "Laporan hasil disimpan ke jalur yang disediakan"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Mendapatkan laporan tentang perubahan pada PDF s",
+          "comment_2": "Lewati jalur file pertama ke konstruktor Comparer",
+          "comment_3": "Berikan dokumen PDF lainnya",
+          "comment_4": "Simpan laporan perbedaan untuk analisis di masa mendatang"
+        }
+      }
+    },
+    "formats": {
+      "title": "Temukan perubahan apa pun di file PDF melalui {{EnvName}}",
+      "description": "Perangkat lunak {{EnvName}} kami menyediakan kemungkinan untuk mengontrol versi file PDF dengan menghasilkan laporan yang tepat dan terperinci dalam format favorit Anda."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Solusi untuk pemeriksaan perbedaan dokumen DOCX.",
+      "description": "Peluang yang disajikan oleh {{ProdShortName}} API memungkinkan kami mengambil laporan yang berisi informasi tentang perbedaan dalam dokumen DOCX."
+    },
+    "header": {
+      "title": "{{EnvName}} aplikasi untuk mencari perbedaan dalam dokumen DOCX",
+      "description": "{{EnvName}} perpustakaan yang disajikan oleh {{ProdShortName}} membandingkan dokumen DOCX apa pun dalam aplikasi mendukung Java, J2EE atau J2SE."
+    },
+    "about": {
+      "title": "Jelajahi keunggulan API {{ProdFullName}}",
+      "content": "DOCX perbandingan dokumen didukung oleh {{ProdFullName}} API yang menyusun laporan yang berisi data tentang berbagai perbedaan. Teks dalam paragraf, bentuk dan gaya dan data lainnya sedang dianalisis. Selanjutnya, dimungkinkan untuk membuat satu DOCX penggabungan perubahan dari file awal. Tidak perlu di perpustakaan eksternal apa pun. Tingkatkan proyek {{EnvName}} Anda dengan menambahkan beberapa baris kode."
+    },
+    "steps": {
+      "title": "Gunakan {{EnvName}} untuk beberapa perbandingan file DOCX",
+      "content": {
+        "title": "Gunakan [{{ProdShortName}}]({{ProductUrl}}) untuk membandingkan MS Word dokumen",
+        "step_1": "Instal solusi kami dari [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Comparer harus dibuat dengan dokumen DOCX pertama sebagai parameter",
+        "step_3": "Setiap perbandingan membutuhkan lebih dari satu dokumen DOCX",
+        "step_4": "Laporan yang dihasilkan memberikan data yang berguna"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Dapatkan informasi yang baik tentang perubahan dalam MS Word dokumen",
+          "comment_2": "Lewati jalur DOCX ke Comparer",
+          "comment_3": "Tambahkan dokumen DOCX lainnya",
+          "comment_4": "Dapatkan laporan komprehensif untuk analisis di masa mendatang"
+        }
+      }
+    },
+    "formats": {
+      "title": "Kontrol setiap perubahan pada file DOCX menggunakan {{EnvName}}",
+      "description": "{{ProdShortName}} {{EnvName}} API memungkinkan pengguna untuk mengontrol DOCX versi dokumen melalui laporan yang tepat dan terperinci yang dapat dengan mudah diproses."
+    }
+  },
+  "png": {
+    "head": {
+      "title": "Dapatkan laporan perbedaan untuk PNG gambar menggunakan {{EnvName}}.",
+      "description": "{{ProdFullName}} API menghasilkan laporan perbandingan yang berguna untuk dokumen PNG dalam aplikasi yang mendukung J2EE dan J2SE."
+    },
+    "header": {
+      "title": "Membandingkan gambar PNG menggunakan {{EnvName}}",
+      "description": "Berdayakan aplikasi Java, J2EE atau J2SE Anda dengan {{ProdShortName}} API. Ambil informasi terperinci tentang setiap perubahan pada gambar PNG Anda."
+    },
+    "about": {
+      "title": "Dapatkan informasi tentang fitur API {{ProdFullName}}",
+      "content": "{{ProdShortName}} dikembangkan sebagai {{EnvName}} API asli yang cocok untuk menyusun laporan terperinci berdasarkan variasi di antara berbagai versi gambar yang diwakili dalam format PNG. Tidak hanya format PNG yang didukung. Banyak fitur berguna yang disediakan oleh API kami."
+    },
+    "steps": {
+      "title": "Gunakan {{ProgLang}} untuk membandingkan file PNG",
+      "content": {
+        "title": "Bandingkan file PNG dengan [{{ProdShortName}}]({{ProductUrl}}) dan ambil laporan yang relevan tentang perubahannya",
+        "step_1": "Instal paket {{ProdFullName}} mengunduhnya dari [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Berikan instance Comparer dan lewati jalur ke PNG",
+        "step_3": "Tambahkan PNG file untuk perbandingan lebih lanjut",
+        "step_4": "Simpan laporan ke disk lokal"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Dapatkan laporan dengan informasi tentang perbedaan antara PNG",
+          "comment_2": "Dapatkan objek Comparer dengan jalur file utama",
+          "comment_3": "Tambahkan PNG gambar untuk dibandingkan",
+          "comment_4": "Simpan laporan ke lokasi yang diinginkan"
+        }
+      }
+    },
+    "formats": {
+      "title": "Temukan perbedaan pada versi yang berbeda dari PNG gambar melalui {{ProgLang}}",
+      "description": "{{ProdFullName}} API melacak perubahan di dalam PNG gambar dan menyusun laporan demonstratif untuk analisis lebih lanjut."
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "Analisis JPEG s dengan laporan perbandingan melalui {{ProgLang}}.",
+      "description": "API {{ProdFullName}} yang kuat dikembangkan untuk menghasilkan laporan perbedaan yang berguna untuk gambar JPEG. J2EE dan J2SE didukung."
+    },
+    "header": {
+      "title": "Bandingkan gambar JPEG dengan perpustakaan {{EnvName}} kami",
+      "description": "Aplikasi Java, J2EE atau J2SE yang didukung oleh {{ProdShortName}} API memungkinkan untuk mengambil laporan terperinci tentang perbedaan pada gambar JPEG dengan mudah."
+    },
+    "about": {
+      "title": "Lihatlah {{ProdFullName}} API",
+      "content": "API asli {{EnvName}} yang disebut {{ProdShortName}} menyusun laporan terperinci tentang perubahan antara versi gambar yang disimpan dalam format JPEG. Banyak format gambar populer juga didukung. Banyak format gambar didukung oleh API kami."
+    },
+    "steps": {
+      "title": "Gunakan {{ProgLang}} untuk membandingkan JPEG gambar",
+      "content": {
+        "title": "Ambil informasi berguna tentang perbedaan gambar JPEG melalui [{{ProdShortName}}]({{ProductUrl}})",
+        "step_1": "Libatkan paket {{ProdFullName}} ke proyek Anda dari [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Instantiate Comparer dengan jalur ke gambar JPEG",
+        "step_3": "Tambahkan JPEG file ke perbandingan",
+        "step_4": "Dapatkan laporan hasil"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Tulis data perbedaan untuk JPEG",
+          "comment_2": "Objek pembanding membutuhkan jalur file utama JPEG",
+          "comment_3": "Gambar JPEG lainnya harus diarahkan",
+          "comment_4": "File hasil berisi laporan"
+        }
+      }
+    },
+    "formats": {
+      "title": "Kontrol perubahan dalam versi yang berbeda dari JPEG gambar dengan {{ProgLang}}",
+      "description": "Setiap perubahan pada gambar JPEG dapat dideteksi oleh {{ProdFullName}}. Libatkan laporan terperinci ke proses bisnis Anda."
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "Analisis JPG gambar dengan {{ProdFullName}}.",
+      "description": "{{ProdFullName}} API menghasilkan laporan yang berguna untuk JPG gambar. Mendukung Java, J2EE dan J2SE."
+    },
+    "header": {
+      "title": "Analisis perubahan pada JPG file melalui solusi {{EnvName}} kami",
+      "description": "Aplikasi {{EnvName}}, J2EE, atau J2SE menggunakan {{ProdShortName}} API dapat menghasilkan laporan JPG terperinci."
+    },
+    "about": {
+      "title": "Jelajahi {{ProdFullName}} API",
+      "content": "Solusi asli {{EnvName}}, {{ProdShortName}}, membuat laporan terperinci tentang perubahan JPG. Mendukung format gambar populer untuk perbandingan dan pemrosesan lebih lanjut."
+    },
+    "steps": {
+      "title": "Bandingkan file JPG menggunakan {{ProgLang}}",
+      "content": {
+        "title": "Ambil JPG data perbedaan dengan [{{ProdShortName}}]({{ProductUrl}})",
+        "step_1": "Tingkatkan fungsionalitas produk Anda dengan menambahkan {{ProdFullName}} dari [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Buat instance Comparer dengan jalur JPG",
+        "step_3": "Tambahkan gambar JPG lainnya untuk diproses",
+        "step_4": "Dapatkan laporan yang dihasilkan"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Buat data perbedaan untuk JPG",
+          "comment_2": "Objek pembanding membutuhkan jalur file JPG utama",
+          "comment_3": "Arahkan ke gambar JPG lainnya",
+          "comment_4": "File hasil berisi laporan"
+        }
+      }
+    },
+    "formats": {
+      "title": "Lacak perubahan apa pun dalam versi yang berbeda dari JPG gambar menggunakan {{ProgLang}}",
+      "description": "Mendeteksi perubahan pada gambar JPG dengan {{ProdFullName}}. Tingkatkan proses bisnis dengan laporan terperinci."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "{{ProdFullName}} untuk perbandingan XLSX.",
+      "description": "{{ProdShortName}} API menawarkan pengambilan laporan yang merinci variasi dalam dokumen XLSX. Kompatibel dengan lingkungan Java, J2EE, dan J2SE."
+    },
+    "header": {
+      "title": "{{EnvName}} aplikasi untuk mendeteksi perubahan di XLSX spreadsheet",
+      "description": "{{ProdShortName}} {{EnvName}} API memungkinkan perbandingan XLSX spreadsheet dalam aplikasi Java, J2EE, atau J2SE."
+    },
+    "about": {
+      "title": "Jelajahi keuntungan dari {{ProdFullName}} API",
+      "content": "API {{ProdFullName}} memudahkan perbandingan spreadsheet XLSX, menghasilkan laporan tentang perbedaan yang ditemukan dalam teks, paragraf, bentuk, gaya, dan elemen lainnya. Selain itu, mendukung penggabungan perubahan dari beberapa file asli tanpa memerlukan pustaka eksternal. Tingkatkan {{EnvName}} proyek Anda dengan integrasi kode minimal."
+    },
+    "steps": {
+      "title": "Gunakan {{EnvName}} untuk membandingkan beberapa file XLSX",
+      "content": {
+        "title": "Gunakan [{{ProdShortName}}]({{ProductUrl}}) untuk menganalisis MS Excel spreadsheet",
+        "step_1": "Instal paket dari [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Buat instance Comparer dengan spreadsheet XLSX pertama sebagai parameter",
+        "step_3": "Sertakan spreadsheet XLSX tambahan untuk perbandingan",
+        "step_4": "Nikmati laporan komprehensif"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Tetap terinformasi tentang perubahan dalam MS Excel dokumen",
+          "comment_2": "Berikan jalur XLSX ke Comparer",
+          "comment_3": "Menggabungkan lembar bentang XLSX tambahan",
+          "comment_4": "Akses laporan terperinci untuk analisis masa depan"
+        }
+      }
+    },
+    "formats": {
+      "title": "Kelola perubahan di lembar bentang XLSX menggunakan {{EnvName}}",
+      "description": "Pustaka {{ProdShortName}} {{EnvName}} memberdayakan pengguna untuk memantau berbagai versi spreadsheet XLSX melalui laporan terperinci dan tepat yang mudah disusun."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Perpustakaan dirancang khusus untuk perbandingan PPTX.",
+      "description": "{{ProdShortName}} menyediakan fungsionalitas untuk mengambil laporan yang merinci varians dalam presentasi PPTX. Java, J2EE, atau J2SE didukung."
+    },
+    "header": {
+      "title": "{{EnvName}} aplikasi yang diberdayakan oleh {{ProdShortName}} bandingkan PPTX",
+      "description": "Presentasi Microsoft PowerPoint PPTX dapat dibandingkan dengan {{ProdFullName}} menggunakan aplikasi Java, J2EE, atau J2SE."
+    },
+    "about": {
+      "title": "Jelajahi fitur-fitur dari {{ProdFullName}}",
+      "content": "{{ProdFullName}} API mengimplementasikan laporan perbandingan tentang perbedaan dalam presentasi PPTX. Laporan hasil tidak hanya berisi perbedaan teks tetapi dalam bentuk, gaya, dan elemen lainnya. Menggabungkan banyak presentasi menjadi satu pengambilan yang hanya diinginkan. Tidak diperlukan pustaka eksternal pihak ketiga. Berdayakan {{EnvName}} proyek dengan menambahkan jumlah kode minimal."
+    },
+    "steps": {
+      "title": "Gunakan {{EnvName}} untuk membandingkan beberapa file PPTX",
+      "content": {
+        "title": "Gunakan [{{ProdShortName}}]({{ProductUrl}}) untuk menganalisis MS PowerPoint presentasi",
+        "step_1": "Instal paket dari [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Berikan pembanding baru bersama dengan jalur PPTX",
+        "step_3": "Tambahkan PPTX presentasi untuk perbandingan",
+        "step_4": "Dapatkan laporan terperinci"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Ketahui tentang perbedaan dalam presentasi MS PPTX",
+          "comment_2": "Berikan jalur file",
+          "comment_3": "Tambahkan presentasi PPTX tambahan",
+          "comment_4": "Simpan laporan untuk analisis masa depan"
+        }
+      }
+    },
+    "formats": {
+      "title": "Analisis PPTX file menggunakan {{EnvName}}",
+      "description": "Perangkat lunak {{ProdFullName}} memungkinkan untuk mendeteksi perbedaan pada presentasi MS PowerPoint PPTX menghasilkan laporan terperinci dan tepat tanpa upaya ekstra."
+    }
+  }
+}

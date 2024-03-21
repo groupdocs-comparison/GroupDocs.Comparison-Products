@@ -1,0 +1,292 @@
+{
+  "common": {
+    "head": {
+      "title": "{{EnvName}} {{FileFormatUp}} API so sánh - Kiểm tra sự khác biệt của tập tin {{FileFormatUp}}",
+      "description": "So sánh và hợp nhất {{FileFormatUp}} tệp trong các ứng dụng {{EnvName}}, J2EE, J2SE. Phân tích tóm tắt sự khác biệt trong nội dung, văn bản và phong cách."
+    },
+    "header": {
+      "title": "So sánh {{FileFormatUp}} tập tin trong {{EnvName}}",
+      "description": "Thực hiện so sánh nội dung giữa nhiều hơn hai {{FileFormatUp}} tệp trong {{EnvName}}. Truy xuất danh sách các khác biệt và lưu các tệp đã so sánh vào một tài liệu duy nhất.",
+      "subtitle": "Khung kiểm tra sự khác biệt tài liệu",
+      "action_title": "Tải xuống miễn phí {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Khám phá các khả năng của thư viện {{ProdFullName}}",
+      "content": "{{ProdFullName}} là một phần mềm {{EnvName}} nội tại được tạo ra để so sánh nhiều hình ảnh và tài liệu có cùng định dạng. Nó hỗ trợ xác định các biến thể trong đoạn văn, từ, ký tự, hình dạng và thậm chí cả kiểu văn bản giữa các tài liệu được so sánh. Với khả năng hợp nhất các thay đổi này và xuất sang tài liệu cuối cùng, nó tạo điều kiện cho việc so sánh và hợp nhất PDF s, Word tài liệu, Excel bảng tính, PowerPoint bản trình bày, Visio sơ đồ, Outlook email, HTML, bản vẽ và các định dạng tệp hình ảnh khác nhau — loại bỏ sự cần thiết cho bất kỳ thư viện bên ngoài nào."
+    },
+    "steps": {
+      "title": "Cách so sánh một số tài liệu {{FileFormatUp}} bằng cách sử dụng {{EnvName}}",
+      "content": {
+        "title": "Sử dụng [{{ProdShortName}}]({{ProductUrl}}) để so sánh nhiều tệp {{FileFormatUp}} và tạo báo cáo chi tiết sự khác biệt của chúng",
+        "step_1": "Sử dụng trình quản lý gói ưa thích của bạn để cài đặt {{ProdFullName}} từ [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Tạo một phiên bản của đường dẫn cài đặt lớp Comparer đến một trong {{FileFormatUp}} tệp",
+        "step_3": "Thêm ít nhất một {{FileFormatUp}} bổ sung vào phiên bản Comparer",
+        "step_4": "Nhận báo cáo cuối cùng chi tiết nêu rõ sự khác biệt chính xác"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Kiểm tra các tệp từ ổ cứng của bạn để biết sự khác biệt hoặc tương đồng",
+          "comment_2": "Tạo một đối tượng Comparer bằng cách chỉ định tệp ban đầu",
+          "comment_3": "Bao gồm các tệp bổ sung để so sánh",
+          "comment_4": "Nhận báo cáo với tên được chỉ định làm kết quả"
+        }
+      }
+    },
+    "formats": {
+      "title": "So sánh các tài liệu khác nhau bằng {{ProgLang}}",
+      "description": "Giải pháp {{EnvName}} của chúng tôi cho phép bạn so sánh các tài liệu ở các định dạng khác nhau. Luôn cập nhật các thay đổi tài liệu bằng cách xử lý chúng một cách dễ dàng."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Sử dụng thư viện so sánh {{EnvName}} để kiểm tra sự khác biệt của PDF s.",
+      "description": "API {{ProdShortName}} {{EnvName}} tạo báo cáo chi tiết cho PDF tài liệu trong các ứng dụng hỗ trợ J2EE và J2SE."
+    },
+    "header": {
+      "title": "So sánh PDF tài liệu bằng {{EnvName}} ứng dụng",
+      "description": "Thư viện {{ProdShortName}} {{EnvName}} cung cấp các báo cáo so sánh chi tiết cho PDF tài liệu trong các loại ứng dụng khác nhau sử dụng J2EE hoặc J2SE."
+    },
+    "about": {
+      "title": "Tìm hiểu ưu điểm của {{ProdFullName}} API",
+      "content": "API {{ProdFullName}} chính hãng được tạo ra để soạn các báo cáo đầy đủ dữ liệu hữu ích về sự khác biệt bên trong tài liệu PDF. Không chỉ sự khác biệt trong văn bản trong các đoạn văn hoặc từ mà cả những thay đổi về hình dạng và kiểu văn bản được thể hiện tại báo cáo cuối cùng. Hợp nhất các thay đổi này và xuất sang tài liệu cuối cùng cũng có sẵn. Trong thực tế, không cần thư viện bên ngoài. Chỉ một vài dòng mã cấp quyền truy cập vào chức năng phong phú."
+    },
+    "steps": {
+      "title": "So sánh nhiều tài liệu PDF thông qua {{EnvName}}",
+      "content": {
+        "title": "So sánh PDF s với [{{ProdShortName}}]({{ProductUrl}}) và nhận báo cáo về sự phân biệt tài liệu",
+        "step_1": "Tải xuống gói {{ProdFullName}} từ [{{PackageStoreName}}]({{PackageUrl}}) và cài đặt nó",
+        "step_2": "Phiên bản Comparer mới phải có đường dẫn đến một trong PDF tệp",
+        "step_3": "Ít nhất một tài liệu PDF phải được cung cấp để so sánh",
+        "step_4": "Báo cáo kết quả được lưu vào đường dẫn được cung cấp"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Nhận báo cáo về các thay đổi tại PDF s",
+          "comment_2": "Chuyển đường dẫn tệp đầu tiên đến trình tạo Comparer",
+          "comment_3": "Cung cấp một tài liệu PDF khác",
+          "comment_4": "Lưu báo cáo phân biệt để phân tích trong tương lai"
+        }
+      }
+    },
+    "formats": {
+      "title": "Tìm bất kỳ thay đổi nào tại tập tin PDF qua {{EnvName}}",
+      "description": "Phần mềm {{EnvName}} của chúng tôi cung cấp khả năng kiểm soát phiên bản tệp PDF bằng cách tạo báo cáo chính xác và chi tiết ở định dạng yêu thích của bạn."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Giải pháp kiểm tra sự khác biệt của tài liệu DOCX.",
+      "description": "Các cơ hội được trình bày bởi {{ProdShortName}} API cho phép chúng tôi truy xuất các báo cáo chứa thông tin về sự khác biệt trong DOCX tài liệu."
+    },
+    "header": {
+      "title": "{{EnvName}} ứng dụng tìm kiếm sự khác biệt trong DOCX tài liệu",
+      "description": "Thư viện {{EnvName}} được trình bày bởi {{ProdShortName}} so sánh bất kỳ DOCX tài liệu nào trong các ứng dụng hỗ trợ Java, J2EE hoặc J2SE."
+    },
+    "about": {
+      "title": "Khám phá các ưu điểm của {{ProdFullName}} API",
+      "content": "DOCX so sánh tài liệu được hỗ trợ bởi {{ProdFullName}} API tạo ra các báo cáo chứa dữ liệu về sự khác biệt khác nhau. Văn bản trong các đoạn văn, hình dạng và kiểu dáng và dữ liệu khác đang được phân tích. Hơn nữa, có thể soạn một DOCX thay đổi hợp nhất từ các tệp ban đầu. Không cần trong bất kỳ thư viện bên ngoài nào. Cải thiện {{EnvName}} dự án của bạn bằng cách thêm một vài dòng mã."
+    },
+    "steps": {
+      "title": "Sử dụng {{EnvName}} để so sánh nhiều tệp DOCX",
+      "content": {
+        "title": "Sử dụng [{{ProdShortName}}]({{ProductUrl}}) để so sánh MS Word tài liệu",
+        "step_1": "Cài đặt giải pháp của chúng tôi từ [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Bộ so sánh phải được tạo với tài liệu DOCX đầu tiên làm tham số",
+        "step_3": "Bất kỳ so sánh nào cũng cần nhiều hơn một tài liệu DOCX",
+        "step_4": "Báo cáo kết quả cung cấp dữ liệu hữu ích"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Được thông báo đầy đủ về những thay đổi trong MS Word tài liệu",
+          "comment_2": "Vượt qua đường dẫn DOCX để so sánh",
+          "comment_3": "Thêm một tài liệu DOCX khác",
+          "comment_4": "Nhận báo cáo toàn diện để phân tích trong tương lai"
+        }
+      }
+    },
+    "formats": {
+      "title": "Kiểm soát bất kỳ thay đổi nào tại tập tin DOCX bằng cách sử dụng {{EnvName}}",
+      "description": "{{ProdShortName}} {{EnvName}} API cho phép người dùng kiểm soát DOCX phiên bản tài liệu thông qua các báo cáo chính xác và chi tiết có thể dễ dàng xử lý."
+    }
+  },
+  "png": {
+    "head": {
+      "title": "Nhận báo cáo khác biệt cho PNG hình ảnh bằng cách sử dụng {{EnvName}}.",
+      "description": "API {{ProdFullName}} tạo báo cáo so sánh hữu ích cho PNG tài liệu trong các ứng dụng hỗ trợ J2EE và J2SE."
+    },
+    "header": {
+      "title": "So sánh PNG hình ảnh bằng {{EnvName}}",
+      "description": "Tăng cường các ứng dụng Java, J2EE hoặc J2SE của bạn với {{ProdShortName}} API. Truy xuất thông tin chi tiết về bất kỳ thay đổi nào tại PNG ảnh của bạn."
+    },
+    "about": {
+      "title": "Được thông báo về các tính năng API {{ProdFullName}}",
+      "content": "{{ProdShortName}} được phát triển như một API {{EnvName}} gốc phù hợp để soạn các báo cáo chi tiết dựa trên các biến thể giữa các phiên bản hình ảnh khác nhau được trình bày ở định dạng PNG. Không chỉ định dạng PNG được hỗ trợ. Rất nhiều tính năng hữu ích được cung cấp bởi API của chúng tôi."
+    },
+    "steps": {
+      "title": "Sử dụng {{ProgLang}} để so sánh các tập tin PNG",
+      "content": {
+        "title": "So sánh PNG tệp với [{{ProdShortName}}]({{ProductUrl}}) và truy xuất báo cáo liên quan về các thay đổi của chúng",
+        "step_1": "Cài đặt gói {{ProdFullName}} tải xuống từ [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Cung cấp phiên bản Comparer và chuyển đường dẫn đến PNG",
+        "step_3": "Thêm PNG tệp để so sánh thêm",
+        "step_4": "Lưu báo cáo vào đĩa cục bộ"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Nhận báo cáo với thông tin về sự khác biệt giữa PNG",
+          "comment_2": "Nhận đối tượng Comparer với đường dẫn tệp chính",
+          "comment_3": "Thêm PNG hình ảnh để so sánh",
+          "comment_4": "Lưu báo cáo vào vị trí mong muốn"
+        }
+      }
+    },
+    "formats": {
+      "title": "Tìm sự khác biệt ở các phiên bản khác nhau của PNG hình ảnh qua {{ProgLang}}",
+      "description": "{{ProdFullName}} API theo dõi các thay đổi bên trong PNG hình ảnh và soạn các báo cáo minh họa để phân tích thêm."
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "Phân tích JPEG s với các báo cáo so sánh qua {{ProgLang}}.",
+      "description": "API {{ProdFullName}} mạnh mẽ được phát triển để tạo báo cáo phân biệt hữu ích cho JPEG hình ảnh. J2EE và J2SE được hỗ trợ."
+    },
+    "header": {
+      "title": "So sánh JPEG hình ảnh với thư viện {{EnvName}} của chúng tôi",
+      "description": "Java, các ứng dụng J2EE hoặc J2SE được cung cấp bởi {{ProdShortName}} API cho phép truy xuất các báo cáo chi tiết về sự khác biệt ở JPEG hình ảnh một cách dễ dàng."
+    },
+    "about": {
+      "title": "Hãy xem {{ProdFullName}} API",
+      "content": "API gốc {{EnvName}} được gọi là {{ProdShortName}} tạo ra các báo cáo chi tiết về sự thay đổi giữa các phiên bản của hình ảnh được lưu ở định dạng JPEG. Nhiều định dạng hình ảnh phổ biến cũng được hỗ trợ. Rất nhiều định dạng hình ảnh được hỗ trợ bởi API của chúng tôi."
+    },
+    "steps": {
+      "title": "Sử dụng {{ProgLang}} để so sánh JPEG hình ảnh",
+      "content": {
+        "title": "Truy xuất thông tin hữu ích về sự khác biệt về JPEG hình ảnh qua [{{ProdShortName}}]({{ProductUrl}})",
+        "step_1": "Tham gia gói {{ProdFullName}} vào dự án của bạn từ [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Instantiate Comparer với đường dẫn đến hình ảnh JPEG",
+        "step_3": "Thêm JPEG tập tin để so sánh",
+        "step_4": "Nhận báo cáo kết quả"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Soạn dữ liệu phân biệt cho JPEG",
+          "comment_2": "Đối tượng so sánh cần đường dẫn tệp chính JPEG",
+          "comment_3": "Các hình ảnh JPEG khác phải được chỉ",
+          "comment_4": "Tệp kết quả chứa báo cáo"
+        }
+      }
+    },
+    "formats": {
+      "title": "Kiểm soát các thay đổi trong các phiên bản khác nhau của JPEG hình ảnh bằng {{ProgLang}}",
+      "description": "Bất kỳ thay đổi nào trong JPEG hình ảnh có thể được phát hiện bởi {{ProdFullName}}. Bao gồm các báo cáo chi tiết cho các quy trình kinh doanh của bạn."
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "Phân tích JPG hình ảnh với {{ProdFullName}}.",
+      "description": "{{ProdFullName}} API tạo báo cáo hữu ích cho JPG hình ảnh. Hỗ trợ Java, J2EE và J2SE."
+    },
+    "header": {
+      "title": "Phân tích các thay đổi trong JPG tệp thông qua giải pháp {{EnvName}} của chúng tôi",
+      "description": "Ứng dụng {{EnvName}}, J2EE hoặc J2SE sử dụng {{ProdShortName}} API có thể tạo báo cáo chi tiết JPG."
+    },
+    "about": {
+      "title": "Khám phá {{ProdFullName}} API",
+      "content": "Giải pháp {{EnvName}} gốc, {{ProdShortName}}, tạo báo cáo chi tiết về JPG thay đổi. Hỗ trợ các định dạng hình ảnh phổ biến để so sánh và xử lý thêm."
+    },
+    "steps": {
+      "title": "So sánh tập tin JPG bằng cách sử dụng {{ProgLang}}",
+      "content": {
+        "title": "Truy xuất JPG dữ liệu khác biệt với [{{ProdShortName}}]({{ProductUrl}})",
+        "step_1": "Nâng cao chức năng sản phẩm của bạn thêm {{ProdFullName}} từ [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Tạo phiên bản Comparer với đường dẫn JPG",
+        "step_3": "Thêm hình ảnh JPG khác để xử lý",
+        "step_4": "Lấy báo cáo kết quả"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Tạo dữ liệu phân biệt cho JPG",
+          "comment_2": "Đối tượng so sánh yêu cầu đường dẫn tệp JPG chính",
+          "comment_3": "Trỏ đến các hình ảnh JPG khác",
+          "comment_4": "Tệp kết quả chứa báo cáo"
+        }
+      }
+    },
+    "formats": {
+      "title": "Theo dõi bất kỳ thay đổi nào trong các phiên bản khác nhau của JPG hình ảnh bằng {{ProgLang}}",
+      "description": "Phát hiện thay đổi trong JPG hình ảnh với {{ProdFullName}}. Tăng cường quy trình kinh doanh với các báo cáo chi tiết."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "{{ProdFullName}} để so sánh XLSX.",
+      "description": "API {{ProdShortName}} cung cấp các báo cáo truy xuất chi tiết các phương sai trong XLSX tài liệu. Tương thích với môi trường Java, J2EE và J2SE."
+    },
+    "header": {
+      "title": "{{EnvName}} ứng dụng để phát hiện thay đổi trong bảng tính XLSX",
+      "description": "API {{ProdShortName}} {{EnvName}} cho phép so sánh XLSX bảng tính trong các ứng dụng Java, J2EE hoặc J2SE."
+    },
+    "about": {
+      "title": "Khám phá những ưu điểm của {{ProdFullName}} API",
+      "content": "API {{ProdFullName}} giúp so sánh XLSX bảng tính dễ dàng hơn, tạo báo cáo về sự khác biệt được tìm thấy trong văn bản, đoạn văn, hình dạng, kiểu dáng và các yếu tố khác. Ngoài ra, nó hỗ trợ hợp nhất các thay đổi từ nhiều tệp gốc mà không yêu cầu thư viện bên ngoài. Tăng cường {{EnvName}} dự án của bạn với tích hợp mã tối thiểu."
+    },
+    "steps": {
+      "title": "Sử dụng {{EnvName}} để so sánh nhiều tệp XLSX",
+      "content": {
+        "title": "Sử dụng [{{ProdShortName}}]({{ProductUrl}}) để phân tích MS Excel bảng tính",
+        "step_1": "Cài đặt gói từ [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Tạo phiên bản Comparer với bảng tính XLSX đầu tiên dưới dạng tham số",
+        "step_3": "Bao gồm thêm XLSX bảng tính để so sánh",
+        "step_4": "Tận hưởng báo cáo toàn diện"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Luôn cập nhật thông tin về những thay đổi trong MS Excel tài liệu",
+          "comment_2": "Cung cấp đường dẫn XLSX đến Bộ so sánh",
+          "comment_3": "Kết hợp thêm XLSX bảng tính",
+          "comment_4": "Truy cập các báo cáo chi tiết để phân tích trong tương lai"
+        }
+      }
+    },
+    "formats": {
+      "title": "Quản lý thay đổi trong bảng tính XLSX bằng cách sử dụng {{EnvName}}",
+      "description": "Thư viện {{ProdShortName}} {{EnvName}} cho phép người dùng theo dõi các phiên bản khác nhau của bảng tính XLSX thông qua các báo cáo chi tiết và chính xác có thể dễ dàng soạn thảo."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Thư viện được thiết kế đặc biệt để so sánh PPTX.",
+      "description": "{{ProdShortName}} cung cấp các chức năng để truy xuất báo cáo chi tiết các phương sai trong PPTX bản trình bày. Hỗ trợ Java, J2EE hoặc J2SE."
+    },
+    "header": {
+      "title": "{{EnvName}} ứng dụng được trao quyền bởi {{ProdShortName}} so sánh PPTX",
+      "description": "Các bản trình bày của Microsoft PowerPoint PPTX có thể được so sánh bởi {{ProdFullName}} bằng các ứng dụng Java, J2EE hoặc J2SE."
+    },
+    "about": {
+      "title": "Khám phá các tính năng của {{ProdFullName}}",
+      "content": "API {{ProdFullName}} triển khai báo cáo so sánh về sự khác biệt trong PPTX bản trình bày. Báo cáo kết quả không chỉ chứa văn bản khác biệt mà còn trong hình dạng, kiểu dáng và các yếu tố khác. Kết hợp nhiều bài thuyết trình thành một lần thực hiện chỉ mong muốn. Không yêu cầu thư viện bên ngoài của bên thứ ba. Trao quyền cho {{EnvName}} dự án bằng cách thêm số lượng mã tối thiểu."
+    },
+    "steps": {
+      "title": "Sử dụng {{EnvName}} để so sánh nhiều tệp PPTX",
+      "content": {
+        "title": "Sử dụng [{{ProdShortName}}]({{ProductUrl}}) để phân tích MS PowerPoint bài thuyết trình",
+        "step_1": "Cài đặt gói từ [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Cung cấp bộ so sánh mới cùng với đường dẫn PPTX",
+        "step_3": "Thêm PPTX bài thuyết trình để so sánh",
+        "step_4": "Nhận báo cáo chi tiết"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Biết về sự khác biệt trong các bài thuyết trình MS PPTX",
+          "comment_2": "Cung cấp đường dẫn tệp",
+          "comment_3": "Thêm PPTX bài thuyết trình bổ sung",
+          "comment_4": "Lưu báo cáo để phân tích trong tương lai"
+        }
+      }
+    },
+    "formats": {
+      "title": "Phân tích PPTX tập tin bằng {{EnvName}}",
+      "description": "Phần mềm {{ProdFullName}} cho phép phát hiện sự khác biệt tại MS PowerPoint PPTX bài thuyết trình tạo ra các báo cáo chi tiết và chính xác mà không cần nỗ lực thêm."
+    }
+  }
+}

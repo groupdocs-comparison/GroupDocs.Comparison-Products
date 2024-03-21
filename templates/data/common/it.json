@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "name": "Confronta PDF file",
+        "description": "Formato documento Adobe Portable"
+      },
+      "docx": {
+        "name": "Confronta DOCX file",
+        "description": "Documento XML aperto Microsoft Word"
+      },
+      "rtf": {
+        "name": "Confronta RTF file",
+        "description": "Formato di file RTF"
+      },
+      "txt": {
+        "name": "Confronta TXT file",
+        "description": "Formato di file di testo normale"
+      },
+      "xlsx": {
+        "name": "Confronta XLSX file",
+        "description": "Foglio di calcolo Microsoft Excel Open XML"
+      },
+      "csv": {
+        "name": "Confronta i file CSV",
+        "description": "File con valori separati da virgole"
+      },
+      "pptx": {
+        "name": "Confronta PPTX file",
+        "description": "PowerPoint Presentazione XML aperta"
+      },
+      "ods": {
+        "name": "Confronta ODS file",
+        "description": "Open Document Foglio di calcolo"
+      },
+      "odp": {
+        "name": "Confronta i file ODP",
+        "description": "OpenDocument Formato del file di presentazione"
+      },
+      "odt": {
+        "name": "Confronta ODT file",
+        "description": "Open Document Testo"
+      },
+      "jpeg": {
+        "name": "Confronta JPEG file",
+        "description": "JPEG Immagine"
+      },
+      "png": {
+        "name": "Confronta PNG file",
+        "description": "Portable Grafica di rete"
+      },
+      "gif": {
+        "name": "Confronta GIF file",
+        "description": "File di formato di interscambio grafico"
+      },
+      "bmp": {
+        "name": "Confronta BMP file",
+        "description": "Formato di file bitmap"
+      },
+      "html": {
+        "name": "Confronta i file HTML",
+        "description": "Linguaggio di markup Hyper Text"
+      },
+      "msg": {
+        "name": "Confronta MSG file",
+        "description": "Messaggio di posta elettronica Microsoft Outlook"
+      },
+      "one": {
+        "name": "Confronta ONE file",
+        "description": "Microsoft OneNote"
+      },
+      "vsdx": {
+        "name": "Confronta VSDX file",
+        "description": "Disegno Microsoft Visio"
+      },
+      "cs": {
+        "name": "Confronta i file CS",
+        "description": "Linguaggio CSharp"
+      },
+      "java": {
+        "name": "Confronta Java file",
+        "description": "Java Lingua"
+      },
+      "cpp": {
+        "name": "Confronta i file CPP",
+        "description": "Linguaggio C++"
+      }
+    },
+    "format-code": {
+      "copy_title": "Copia",
+      "copy_tip": "clicca per copiare",
+      "copy_done": "copiato",
+      "links": {
+        "title_1": "Altri esempi",
+        "title_2": "Documentazione"
+      }
+    },
+    "format-actions": {
+      "title": "Pronto per iniziare?",
+      "description": "Prova le funzioni {{ProdShortName}} gratuitamente o richiedi una licenza",
+      "comment_1": "{{PackageStoreName}} scarica",
+      "comment_2": "Licenze"
+    },
+    "texts": {
+      "learn_more": "Scopri di più"
+    }
+  }
+}
