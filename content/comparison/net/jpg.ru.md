@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-21T15:26:23
+date:  2024-03-22T13:27:45
 draft: false
 lang: ru
 format: Jpg
@@ -16,8 +16,8 @@ head_title: "GroupDocs.Comparison for .NET API для сравнения JPG"
 head_description: "API GroupDocs.Comparison for .NET позволяет собирать данные о различиях в JPG изображениях и интегрировать их в приложения C# .NET."
 
 ############################# Header ############################
-title: "Сравнение изменений в JPG изображениях с технологиями .NET" 
-description: "Быстро и легко собирайте и сообщайте данные об изменениях в JPG файлах с помощью API GroupDocs.Comparison for .NET. Усовершенствуйте основные бизнес-решения C#, ASP .NET, VB .NET и .NET с помощью нашего программного обеспечения, чтобы получить ценную информацию."
+title: "Сравнение изменений в JPG изображениях в .NET" 
+description: "Быстро и легко собирайте и просматривайте данные об изменениях в JPG файлах с помощью API GroupDocs.Comparison for .NET. Усовершенствуйте бизнес-решения C#, ASP .NET, VB .NET и .NET с помощью нашего программного обеспечения."
 subtitle: "Решение для сравнения документов" 
 
 header_actions:
@@ -30,7 +30,7 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "Изучение возможностей API GroupDocs.Comparison for .NET"
+    title: "Изучите возможности API GroupDocs.Comparison for .NET"
     link: "/comparison/net/"
     link_title: "Узнайте больше"
     picture: "about_viewer.svg" # 480 X 400
@@ -42,9 +42,9 @@ steps:
     enable: true
     title: "Сравнение JPG изображений с использованием C#"
     content: |
-      Управляйте содержимым файлов JPG с помощью [GroupDocs.Comparison](https://products.groupdocs.com/comparison/net/)
+      Сравнивайте содержимое файлов JPG с помощью [GroupDocs.Comparison](https://products.groupdocs.com/comparison/net/)
       
-      1. Приобретите GroupDocs.Comparison for .NET у [Nuget](https://www.nuget.org/packages/GroupDocs.Comparison) и интегрируйте его в свой проект
+      1. Загрузите GroupDocs.Comparison for .NET в [Nuget](https://www.nuget.org/packages/GroupDocs.Comparison) и интегрируйте его в свой проект
       2. Создайте экземпляр объекта Comparer и укажите путь к изображению JPG
       3. Включите еще одно изображение JPG для анализа
       4. Просмотрите отчет, сохраненный на локальном диске
@@ -69,15 +69,15 @@ steps:
 
         // Создайте отчет с подробным описанием различий в JPG изображениях
 
-        // Укажите путь к основному файлу конструктора Comparer
+        // Указание пути к основному файлу в конструкторе Comparer
         using (Comparer comparer = new Comparer("source.jpg"))
         {
-            // Укажите пути к дополнительным JPG изображениям
+            // Указание пути к дополнительным JPG изображениям
         	comparer.Add("file_to_compare_1.jpg");
             comparer.Add("file_to_compare_2.jpg");
             comparer.Add("file_to_compare_3.jpg");
 
-            // Сохраните полученный отчет в файл
+            // Сохранение полученного отчета в файл
             comparer.Compare("result.jpg"); 
         }
         
@@ -103,90 +103,90 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "JPG Сравнение изображений с .NET"
+    title: "Сравнение изображений JPG в .NET"
     exclude: "JPG"
-    description: "С легкостью анализируйте изменения в JPG файлах с помощью решения GroupDocs.Comparison for .NET."
+    description: "Анализируйте изменения в JPG файлах с помощью решения GroupDocs.Comparison for .NET без усилий."
     items: 
         # format loop 1
-        - name: "Сравните PDF файлы"
+        - name: "Сравнение PDF файлов"
           format: "PDF"
           link: "/comparison/net/pdf/"
           description: "Формат документа Adobe Portable"
 
         # format loop 2
-        - name: "Сравните DOCX файлы"
+        - name: "Сравнение DOCX файлов"
           format: "DOCX"
           link: "/comparison/net/docx/"
-          description: "Открыть XML-документ Microsoft Word"
+          description: "Microsoft Word Open XML документ"
 
         # format loop 3
-        - name: "Сравните RTF файлы"
+        - name: "Сравнение RTF файлов"
           format: "RTF"
           link: "/comparison/net/rtf/"
           description: "Формат файла с расширенным текстовым форматом"
 
         # format loop 4
-        - name: "Сравните TXT файлы"
+        - name: "Сравнение TXT файлов"
           format: "TXT"
           link: "/comparison/net/txt/"
           description: "Формат файла в виде простого текста"
 
         # format loop 5
-        - name: "Сравните XLSX файлы"
+        - name: "Сравнение XLSX файлов"
           format: "XLSX"
           link: "/comparison/net/xlsx/"
           description: "Открытая электронная таблица XML от Майкрософт Excel"
 
         # format loop 6
-        - name: "Сравните CSV-файлы"
+        - name: "Сравнение CSV-файлов"
           format: "CSV"
           link: "/comparison/net/csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop 7
-        - name: "Сравните PPTX файлы"
+        - name: "Сравнение PPTX файлов"
           format: "PPTX"
           link: "/comparison/net/pptx/"
           description: "PowerPoint Открытая презентация XML"
 
         # format loop 8
-        - name: "Сравните ODS файлы"
+        - name: "Сравнение ODS файлов"
           format: "ODS"
           link: "/comparison/net/ods/"
           description: "Open Document Электронная таблица"
 
         # format loop 9
-        - name: "Сравните файлы ODP"
+        - name: "Сравнение файлов ODP"
           format: "ODP"
           link: "/comparison/net/odp/"
           description: "OpenDocument Формат файла презентации"
 
         # format loop 10
-        - name: "Сравните файлы ODT"
+        - name: "Сравнение файлов ODT"
           format: "ODT"
           link: "/comparison/net/odt/"
           description: "Open Document Текст"
 
         # format loop 11
-        - name: "Сравните файлы JPEG"
+        - name: "Сравнение файлов JPEG"
           format: "JPEG"
           link: "/comparison/net/jpeg/"
           description: "JPEG Изображение"
 
         # format loop 12
-        - name: "Сравните PNG файлы"
+        - name: "Сравнение PNG файлов"
           format: "PNG"
           link: "/comparison/net/png/"
           description: "Portable Сетевая графика"
 
         # format loop 13
-        - name: "Сравните GIF файлы"
+        - name: "Сравнение GIF файлов"
           format: "GIF"
           link: "/comparison/net/gif/"
           description: "Файл формата графического обмена"
 
         # format loop 14
-        - name: "Сравните BMP файлы"
+        - name: "Сравнение BMP файлов"
           format: "BMP"
           link: "/comparison/net/bmp/"
           description: "Формат растрового файла"
@@ -198,38 +198,38 @@ more_formats:
           description: "Язык гипертекстовой разметки"
 
         # format loop 16
-        - name: "Сравните MSG файлы"
+        - name: "Сравнение MSG файлов"
           format: "MSG"
           link: "/comparison/net/msg/"
           description: "Сообщение электронной почты Microsoft Outlook"
 
         # format loop 17
-        - name: "Сравните ONE файлы"
+        - name: "Сравнение ONE файлов"
           format: "ONE"
           link: "/comparison/net/one/"
           description: "Майкрософт OneNote"
 
         # format loop 18
-        - name: "Сравните VSDX файлы"
+        - name: "Сравнение VSDX файлов"
           format: "VSDX"
           link: "/comparison/net/vsdx/"
           description: "Чертеж Майкрософт Visio"
 
         # format loop 19
-        - name: "Сравните файлы CS"
+        - name: "Сравнение файлов CS"
           format: "CS"
           link: "/comparison/net/cs/"
           description: "Язык программирования CSharp"
 
         # format loop 20
-        - name: "Сравните Java файлы"
+        - name: "Сравнение Java файлов"
           format: "Java"
           link: "/comparison/net/java/"
-          description: "Java Язык"
+          description: "Файлы кода на языке Java"
           
         # format loop 21
         - name: "Сравнение файлов CPP"
           format: "CPP"
           link: "/comparison/net/cpp/"
-          description: "Язык C++"
+          description: "Файлы кода на языке C++"
 ---

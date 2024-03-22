@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-21T15:26:15
+date:  2024-03-22T13:27:37
 draft: false
 lang: ja
 format: Sql

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-21T15:26:13
+date:  2024-03-22T13:27:35
 draft: false
 lang: en
 format: Rtf
@@ -13,7 +13,7 @@ platform_tag: "java"
 
 ############################# Head ############################
 head_title: "Java RTF Comparison API - Check RTF Files for Differences"
-head_description: "Compare and merge RTF files in Java, J2EE, J2SE applications. Analyze differences summary in content, text & style."
+head_description: "Compare RTF files in Java, J2EE, J2SE applications. Analyze differences summary in content, text & style."
 
 ############################# Header ############################
 title: "Compare RTF Files in Java" 

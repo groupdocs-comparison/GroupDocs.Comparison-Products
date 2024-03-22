@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-21T15:26:12
+date:  2024-03-22T13:27:35
 draft: false
 lang: en
 format: Js
@@ -13,7 +13,7 @@ platform_tag: "java"
 
 ############################# Head ############################
 head_title: "Java JS Comparison API - Check JS Files for Differences"
-head_description: "Compare and merge JS files in Java, J2EE, J2SE applications. Analyze differences summary in content, text & style."
+head_description: "Compare JS files in Java, J2EE, J2SE applications. Analyze differences summary in content, text & style."
 
 ############################# Header ############################
 title: "Compare JS Files in Java" 

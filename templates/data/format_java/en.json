@@ -2,7 +2,7 @@
   "common": {
     "head": {
       "title": "{{EnvName}} {{FileFormatUp}} Comparison API - Check {{FileFormatUp}} Files for Differences",
-      "description": "Compare and merge {{FileFormatUp}} files in {{EnvName}}, J2EE, J2SE applications. Analyze differences summary in content, text & style."
+      "description": "Compare {{FileFormatUp}} files in {{EnvName}}, J2EE, J2SE applications. Analyze differences summary in content, text & style."
     },
     "header": {
       "title": "Compare {{FileFormatUp}} Files in {{EnvName}}",

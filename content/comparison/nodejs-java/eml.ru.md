@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-21T15:26:27
+date:  2024-03-22T13:27:48
 draft: false
 lang: ru
 format: Eml
@@ -13,7 +13,7 @@ platform_tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: "Сравните EML с помощью библиотеки JavaScript."
-head_description: "GroupDocs.Comparison for Node.js via Java предлагает программное обеспечение для создания подробных отчетов о проверке различий для Node.js приложений."
+head_description: "GroupDocs.Comparison for Node.js via Java - библиотека для создания подробных отчетов о различиях в файлах EML для Node.js приложений."
 
 ############################# Header ############################
 title: "Сравнение ваших EML файлов в Node.js" 
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Как выполнить сравнение файлов EML с помощью Node.js."
     content: |
-      Можно использовать файлы EML, используя [GroupDocs.Comparison](https://products.groupdocs.com/comparison/nodejs-java/) для получения отчета о различиях во многих EML файлах
+      Всего несколько шагов достаточно для получения отчета о сравнении EML файлов с помощью [GroupDocs.Comparison](https://products.groupdocs.com/comparison/nodejs-java/)
       
       1. Установите GroupDocs.Comparison for Node.js via Java, используя [NPM](https://www.npmjs.com/package/@groupdocs/groupdocs.comparison)
       2. Создайте экземпляр Comparer и укажите путь к первому из файлов в формате EML
       3. Добавьте еще один файл EML в Comparer
-      4. Получите четкий отчет с точным описанием различий
+      4. Получите отчет с точным описанием различий
    
     code:
       platform: "net"
@@ -67,16 +67,16 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Проверьте несколько файлов, чтобы увидеть, насколько они похожи или отличаются
+        // Сравните несколько файлов, чтобы увидеть, насколько они похожи или отличаются
 
-        // Создайте объект Comparer и передайте ему первый файл в качестве входных данных
+        // Создание объекта Comparer и передача ему первого файла в качестве входных данных
         const comparer = new groupdocs.comparison.Comparer('source.eml');
 
-        // Добавить больше файлов
+        // Добавление еще файлов для сравнения
         comparer.add('file_v1.eml');
         comparer.add('file_2023.eml');
 
-        // Получите окончательный отчет
+        // Получение окончательного отчета
         await comparer.compare('report_new.eml');
 
         console.log('\nFiles are compared.\nCheck result.');
@@ -105,88 +105,88 @@ more_formats:
     enable: true
     title: "Сравните популярные типы документов с помощью JavaScript"
     exclude: "EML"
-    description: "Наш API Node.js позволяет сравнивать документы в разных форматах. Легко отслеживайте изменения в документах, обрабатывая их с помощью нашего инструмента."
+    description: "Наш API Node.js позволяет сравнивать документы в разных форматах. Отслеживайте изменения в документах, обрабатывая их с помощью нашего простого и мощного API."
     items: 
         # format loop 1
-        - name: "Сравните PDF файлы"
+        - name: "Сравнение PDF файлов"
           format: "PDF"
           link: "/comparison/nodejs-java/pdf/"
           description: "Формат документа Adobe Portable"
 
         # format loop 2
-        - name: "Сравните DOCX файлы"
+        - name: "Сравнение DOCX файлов"
           format: "DOCX"
           link: "/comparison/nodejs-java/docx/"
-          description: "Открыть XML-документ Microsoft Word"
+          description: "Microsoft Word Open XML документ"
 
         # format loop 3
-        - name: "Сравните RTF файлы"
+        - name: "Сравнение RTF файлов"
           format: "RTF"
           link: "/comparison/nodejs-java/rtf/"
           description: "Формат файла с расширенным текстовым форматом"
 
         # format loop 4
-        - name: "Сравните TXT файлы"
+        - name: "Сравнение TXT файлов"
           format: "TXT"
           link: "/comparison/nodejs-java/txt/"
           description: "Формат файла в виде простого текста"
 
         # format loop 5
-        - name: "Сравните XLSX файлы"
+        - name: "Сравнение XLSX файлов"
           format: "XLSX"
           link: "/comparison/nodejs-java/xlsx/"
           description: "Открытая электронная таблица XML от Майкрософт Excel"
 
         # format loop 6
-        - name: "Сравните CSV-файлы"
+        - name: "Сравнение CSV-файлов"
           format: "CSV"
           link: "/comparison/nodejs-java/csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop 7
-        - name: "Сравните PPTX файлы"
+        - name: "Сравнение PPTX файлов"
           format: "PPTX"
           link: "/comparison/nodejs-java/pptx/"
           description: "PowerPoint Открытая презентация XML"
 
         # format loop 8
-        - name: "Сравните ODS файлы"
+        - name: "Сравнение ODS файлов"
           format: "ODS"
           link: "/comparison/nodejs-java/ods/"
           description: "Open Document Электронная таблица"
 
         # format loop 9
-        - name: "Сравните файлы ODP"
+        - name: "Сравнение файлов ODP"
           format: "ODP"
           link: "/comparison/nodejs-java/odp/"
           description: "OpenDocument Формат файла презентации"
 
         # format loop 10
-        - name: "Сравните файлы ODT"
+        - name: "Сравнение файлов ODT"
           format: "ODT"
           link: "/comparison/nodejs-java/odt/"
           description: "Open Document Текст"
 
         # format loop 11
-        - name: "Сравните файлы JPEG"
+        - name: "Сравнение файлов JPEG"
           format: "JPEG"
           link: "/comparison/nodejs-java/jpeg/"
           description: "JPEG Изображение"
 
         # format loop 12
-        - name: "Сравните PNG файлы"
+        - name: "Сравнение PNG файлов"
           format: "PNG"
           link: "/comparison/nodejs-java/png/"
           description: "Portable Сетевая графика"
 
         # format loop 13
-        - name: "Сравните GIF файлы"
+        - name: "Сравнение GIF файлов"
           format: "GIF"
           link: "/comparison/nodejs-java/gif/"
           description: "Файл формата графического обмена"
 
         # format loop 14
-        - name: "Сравните BMP файлы"
+        - name: "Сравнение BMP файлов"
           format: "BMP"
           link: "/comparison/nodejs-java/bmp/"
           description: "Формат растрового файла"
@@ -198,38 +198,38 @@ more_formats:
           description: "Язык гипертекстовой разметки"
 
         # format loop 16
-        - name: "Сравните MSG файлы"
+        - name: "Сравнение MSG файлов"
           format: "MSG"
           link: "/comparison/nodejs-java/msg/"
           description: "Сообщение электронной почты Microsoft Outlook"
 
         # format loop 17
-        - name: "Сравните ONE файлы"
+        - name: "Сравнение ONE файлов"
           format: "ONE"
           link: "/comparison/nodejs-java/one/"
           description: "Майкрософт OneNote"
 
         # format loop 18
-        - name: "Сравните VSDX файлы"
+        - name: "Сравнение VSDX файлов"
           format: "VSDX"
           link: "/comparison/nodejs-java/vsdx/"
           description: "Чертеж Майкрософт Visio"
 
         # format loop 19
-        - name: "Сравните файлы CS"
+        - name: "Сравнение файлов CS"
           format: "CS"
           link: "/comparison/nodejs-java/cs/"
           description: "Язык программирования CSharp"
 
         # format loop 20
-        - name: "Сравните Java файлы"
+        - name: "Сравнение Java файлов"
           format: "Java"
           link: "/comparison/nodejs-java/java/"
-          description: "Java Язык"
+          description: "Файлы кода на языке Java"
           
         # format loop 21
         - name: "Сравнение файлов CPP"
           format: "CPP"
           link: "/comparison/nodejs-java/cpp/"
-          description: "Язык C++"
+          description: "Файлы кода на языке C++"
 ---

@@ -58,13 +58,17 @@ code:
     ```javascript {style=abap}
 
     // <% "{index-content.code_comment_1}" %>
-    let comparer = new Comparer("source.bmp");
+    const comparer = new Comparer("source.bmp");
 
     // <% "{index-content.code_comment_2}" %>
     comparer.add("target.bmp");
 
     // <% "{index-content.code_comment_3}" %>
-    comparer.compare("result.bmp"); 
+    const options = new groupdocs.comparison.CompareOptions();
+    options.setGenerateSummaryPage(false);
+
+    // <% "{index-content.code_comment_4}" %>
+    await comparer.compare(outputFileName, options);
     ```
 
 ############################# Overview ############################

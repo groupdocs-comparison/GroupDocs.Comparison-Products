@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-21T15:26:23
+date:  2024-03-22T13:27:45
 draft: false
 lang: ru
 format: Docx
@@ -35,18 +35,18 @@ about:
     link_title: "Узнайте больше"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       Выявляйте изменения в своих DOCX документах с помощью удобного отчета по вашим .NET проектам. Кроме того, получайте информацию о стилях, фигурах и другом содержимом и объединяйте DOCX файлы в новый. Преимущества GroupDocs.Comparison for .NET API можно привнести в ваши проекты всего за пару строк кода. Используйте наше программное обеспечение без сторонних разработчиков.
+       Просматривайте изменения в своих DOCX документах с помощью удобного отчета по вашим .NET проектам. Кроме того, получайте информацию о стилях, фигурах и другом содержимом и объединяйте DOCX файлы в новый. Преимущества GroupDocs.Comparison for .NET API можно привнести в ваши проекты всего за пару строк кода. Используйте наше программное обеспечение без сторонних разработчиков.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "MS Word DOCX сравнительные отчеты через .NET и C#"
+    title: "Сравнительные отчеты файлов MS Word DOCX с помощью .NET и C#"
     content: |
       Составьте отчет о различиях для DOCX файлов, используя [GroupDocs.Comparison](https://products.groupdocs.com/comparison/net/)
       
       1. Загрузите пакет GroupDocs.Comparison for .NET с сайта [Nuget](https://www.nuget.org/packages/GroupDocs.Comparison) и установите его
-      2. Создайте экземпляр объекта Comparer, передающего путь к DOCX
-      3. Добавить DOCX файлов для сравнения
+      2. Создайте экземпляр объекта Comparer и передайте путь к DOCX
+      3. Добавьте DOCX файлы для сравнения
       4. Получите отчет с информацией о различиях
    
     code:
@@ -67,17 +67,17 @@ steps:
       content: |
         ```csharp {style=abap}
 
-        // DOCX отчет об изменениях файлов
+        // Отчет об изменениях в файлах DOCX
 
-        // Instantiate Comparer для обработки документов
+        // Создание Comparer для обработки документов
         using (Comparer comparer = new Comparer("source.docx"))
         {
-            // Добавьте хотя бы один файл для сравнения
+            // Добавление хотя бы один файл для сравнения
         	comparer.Add("file_to_compare_1.docx");
             comparer.Add("file_to_compare_2.docx");
             comparer.Add("file_to_compare_3.docx");
 
-            // Проанализируйте результат
+            // Получение результата
             comparer.Compare("result.docx"); 
         }
         
@@ -108,85 +108,85 @@ more_formats:
     description: "GroupDocs.Comparison for .NET преимущества контрольных версий популярных форматов файлов. Быстро и легко собирайте информацию о MS Word документах."
     items: 
         # format loop 1
-        - name: "Сравните PDF файлы"
+        - name: "Сравнение PDF файлов"
           format: "PDF"
           link: "/comparison/net/pdf/"
           description: "Формат документа Adobe Portable"
 
         # format loop 2
-        - name: "Сравните DOCX файлы"
+        - name: "Сравнение DOCX файлов"
           format: "DOCX"
           link: "/comparison/net/docx/"
-          description: "Открыть XML-документ Microsoft Word"
+          description: "Microsoft Word Open XML документ"
 
         # format loop 3
-        - name: "Сравните RTF файлы"
+        - name: "Сравнение RTF файлов"
           format: "RTF"
           link: "/comparison/net/rtf/"
           description: "Формат файла с расширенным текстовым форматом"
 
         # format loop 4
-        - name: "Сравните TXT файлы"
+        - name: "Сравнение TXT файлов"
           format: "TXT"
           link: "/comparison/net/txt/"
           description: "Формат файла в виде простого текста"
 
         # format loop 5
-        - name: "Сравните XLSX файлы"
+        - name: "Сравнение XLSX файлов"
           format: "XLSX"
           link: "/comparison/net/xlsx/"
           description: "Открытая электронная таблица XML от Майкрософт Excel"
 
         # format loop 6
-        - name: "Сравните CSV-файлы"
+        - name: "Сравнение CSV-файлов"
           format: "CSV"
           link: "/comparison/net/csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop 7
-        - name: "Сравните PPTX файлы"
+        - name: "Сравнение PPTX файлов"
           format: "PPTX"
           link: "/comparison/net/pptx/"
           description: "PowerPoint Открытая презентация XML"
 
         # format loop 8
-        - name: "Сравните ODS файлы"
+        - name: "Сравнение ODS файлов"
           format: "ODS"
           link: "/comparison/net/ods/"
           description: "Open Document Электронная таблица"
 
         # format loop 9
-        - name: "Сравните файлы ODP"
+        - name: "Сравнение файлов ODP"
           format: "ODP"
           link: "/comparison/net/odp/"
           description: "OpenDocument Формат файла презентации"
 
         # format loop 10
-        - name: "Сравните файлы ODT"
+        - name: "Сравнение файлов ODT"
           format: "ODT"
           link: "/comparison/net/odt/"
           description: "Open Document Текст"
 
         # format loop 11
-        - name: "Сравните файлы JPEG"
+        - name: "Сравнение файлов JPEG"
           format: "JPEG"
           link: "/comparison/net/jpeg/"
           description: "JPEG Изображение"
 
         # format loop 12
-        - name: "Сравните PNG файлы"
+        - name: "Сравнение PNG файлов"
           format: "PNG"
           link: "/comparison/net/png/"
           description: "Portable Сетевая графика"
 
         # format loop 13
-        - name: "Сравните GIF файлы"
+        - name: "Сравнение GIF файлов"
           format: "GIF"
           link: "/comparison/net/gif/"
           description: "Файл формата графического обмена"
 
         # format loop 14
-        - name: "Сравните BMP файлы"
+        - name: "Сравнение BMP файлов"
           format: "BMP"
           link: "/comparison/net/bmp/"
           description: "Формат растрового файла"
@@ -198,38 +198,38 @@ more_formats:
           description: "Язык гипертекстовой разметки"
 
         # format loop 16
-        - name: "Сравните MSG файлы"
+        - name: "Сравнение MSG файлов"
           format: "MSG"
           link: "/comparison/net/msg/"
           description: "Сообщение электронной почты Microsoft Outlook"
 
         # format loop 17
-        - name: "Сравните ONE файлы"
+        - name: "Сравнение ONE файлов"
           format: "ONE"
           link: "/comparison/net/one/"
           description: "Майкрософт OneNote"
 
         # format loop 18
-        - name: "Сравните VSDX файлы"
+        - name: "Сравнение VSDX файлов"
           format: "VSDX"
           link: "/comparison/net/vsdx/"
           description: "Чертеж Майкрософт Visio"
 
         # format loop 19
-        - name: "Сравните файлы CS"
+        - name: "Сравнение файлов CS"
           format: "CS"
           link: "/comparison/net/cs/"
           description: "Язык программирования CSharp"
 
         # format loop 20
-        - name: "Сравните Java файлы"
+        - name: "Сравнение Java файлов"
           format: "Java"
           link: "/comparison/net/java/"
-          description: "Java Язык"
+          description: "Файлы кода на языке Java"
           
         # format loop 21
         - name: "Сравнение файлов CPP"
           format: "CPP"
           link: "/comparison/net/cpp/"
-          description: "Язык C++"
+          description: "Файлы кода на языке C++"
 ---

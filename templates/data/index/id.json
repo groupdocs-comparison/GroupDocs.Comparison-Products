@@ -18,7 +18,7 @@
     "code_comment_1": "Tentukan dokumen sumber",
     "code_comment_2": "Menambahkan satu atau lebih dokumen target",
     "code_comment_3": "Tentukan opsi perbandingan",
-    "code_comment_4": "Lakukan perbandingan dan simpan dokumen yang dihasilkan",
+    "code_comment_4": "Bandingkan dan simpan hasil",
     "sample_index_title": "Membandingkan dua file",
     "sample_index_content": "Untuk membandingkan dua dokumen, mulailah dengan memuat file sumber dan target, lalu terapkan metode `compare`. Anda memiliki fleksibilitas untuk memilih pengaturan perbandingan tertentu untuk analisis yang lebih disesuaikan.",
     "overview_title": "Sekilas tentang {{ProdShortName}}",

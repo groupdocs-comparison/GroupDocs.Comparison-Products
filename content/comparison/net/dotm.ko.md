@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-21T15:26:21
+date:  2024-03-22T13:27:42
 draft: false
 lang: ko
 format: Dotm

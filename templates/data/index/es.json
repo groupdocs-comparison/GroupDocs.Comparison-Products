@@ -18,7 +18,7 @@
     "code_comment_1": "Especifique el documento fuente",
     "code_comment_2": "Agregar uno o más documentos de destino",
     "code_comment_3": "Especificar las opciones de comparación",
-    "code_comment_4": "Realice la comparación y guarde el documento resultante",
+    "code_comment_4": "Comparar y guardar resultado",
     "sample_index_title": "Comparación de dos archivos",
     "sample_index_content": "Para comparar dos documentos, comience cargando los archivos de origen y de destino y, a continuación, aplique el método `comparar`. Tiene la flexibilidad de elegir ajustes de comparación específicos para un análisis más personalizado.",
     "overview_title": "{{ProdShortName}} de un vistazo",

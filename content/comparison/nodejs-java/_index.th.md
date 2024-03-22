@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-21T15:26:29
+date: 2024-03-22T13:27:50
 draft: false
 
 lang: th
@@ -56,13 +56,17 @@ code:
     ```javascript {style=abap}
 
     // ระบุเอกสารต้นทาง
-    let comparer = new Comparer("source.bmp");
+    const comparer = new Comparer("source.bmp");
 
     // เพิ่มเอกสารเป้าหมายอย่างน้อยหนึ่งฉบับ
     comparer.add("target.bmp");
 
     // ระบุตัวเลือกการเปรียบเทียบ
-    comparer.compare("result.bmp"); 
+    const options = new groupdocs.comparison.CompareOptions();
+    options.setGenerateSummaryPage(false);
+
+    // เปรียบเทียบและบันทึกผล
+    await comparer.compare(outputFileName, options);
     ```
 
 ############################# Overview ############################

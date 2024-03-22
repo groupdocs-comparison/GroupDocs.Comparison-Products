@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-21T15:26:29
+date:  2024-03-22T13:27:49
 draft: false
 lang: ru
 format: Xlsx
@@ -17,7 +17,7 @@ head_description: "Различия между электронными табл
 
 ############################# Header ############################
 title: "Сравнение электронных таблиц XLSX с использованием Node.js via Java" 
-description: "Используйте библиотеку обработки документов в Node.js для выявления и выявления изменений в файлах MS Excel XLSX в Node.js via Java приложениях. Воспользуйтесь преимуществами быстрого и простого создания отчетов."
+description: "Используйте библиотеку обработки документов в Node.js для выявления изменений в файлах MS Excel XLSX в Node.js via Java приложениях. Воспользуйтесь преимуществами быстрого и простого создания отчетов."
 subtitle: "Решение для сравнения файлов" 
 
 header_actions:
@@ -35,7 +35,7 @@ about:
     link_title: "Узнайте больше"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       Получите доступ к подробным отчетам, содержащим подробные данные об изменениях в разных версиях XLSX документов, предоставленных GroupDocs.Comparison. Интегрируйте приложения Node.js via Java с нашим API, используя всего несколько строк кода, без дополнительных усилий. Анализируйте изменения страниц, текста, стилей текста или фигур в MS Excel документах. Выберите нужные данные и объедините их в окончательный документ XLSX. Продвигайте свои бизнес-проекты с помощью наших решений.
+       Получите доступ к подробным отчетам, содержащим подробные данные об изменениях в разных версиях XLSX документов, предоставленных GroupDocs.Comparison. Интегрируйте приложения Node.js via Java с нашим API, используя всего несколько строк кода, без дополнительных усилий. Анализируйте изменения страниц, текста, стилей текста или фигур в MS Excel документах. Выберите нужные данные и объедините их в окончательный документ XLSX. Улучшайте свои бизнес-проекты с помощью наших решений.
 
 ############################# Steps ############################
 steps:
@@ -45,9 +45,9 @@ steps:
       Используйте [GroupDocs.Comparison](https://products.groupdocs.com/comparison/nodejs-java/) и Node.js via Java для сравнения документов XLSX
       
       1. Установите GroupDocs.Comparison для Node.js via Java из [NPM](https://www.npmjs.com/package/@groupdocs/groupdocs.comparison)
-      2. Укажите путь XLSX при вызове конструктора Comparer
-      3. Включить дополнительные XLSX файлы
-      4. Наслаждайтесь полученными результатами
+      2. Укажите путь к XLSX при вызове конструктора Comparer
+      3. Добавьте дополнительные XLSX файлы
+      4. Получите результат сравнения для дальнейшего анализа
    
     code:
       platform: "net"
@@ -67,16 +67,16 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Проверьте несколько файлов, чтобы увидеть, насколько они похожи или отличаются
+        // Сравните несколько файлов, чтобы увидеть, насколько они похожи или отличаются
 
-        // Создайте объект Comparer и передайте ему первый файл в качестве входных данных
+        // Создание объекта Comparer и передача ему первого файла в качестве входных данных
         const comparer = new groupdocs.comparison.Comparer('first.xlsx');
 
-        // Добавить больше файлов
+        // Добавление еще файлов для сравнения
         comparer.add('second.xlsx');
         comparer.add('third.xlsx');
 
-        // Получите окончательный отчет
+        // Получение окончательного отчета
         await comparer.compare('report_full.xlsx');
 
         console.log('\nDocuments compared successfully.\nCheck output.');
@@ -105,88 +105,88 @@ more_formats:
     enable: true
     title: "Используйте JavaScript для сравнения электронных таблиц XLSX"
     exclude: "XLSX"
-    description: "С легкостью сравнивайте любые электронные таблицы MS Excel XLSX, используя GroupDocs.Comparison for Node.js via Java. Получите ценную информацию об изменениях в ваших бизнес-данных."
+    description: "Сравнивайте без лишних усилий электронные таблицы MS Excel XLSX, используя GroupDocs.Comparison for Node.js via Java. Получите информацию об изменениях в ваших бизнес-данных."
     items: 
         # format loop 1
-        - name: "Сравните PDF файлы"
+        - name: "Сравнение PDF файлов"
           format: "PDF"
           link: "/comparison/nodejs-java/pdf/"
           description: "Формат документа Adobe Portable"
 
         # format loop 2
-        - name: "Сравните DOCX файлы"
+        - name: "Сравнение DOCX файлов"
           format: "DOCX"
           link: "/comparison/nodejs-java/docx/"
-          description: "Открыть XML-документ Microsoft Word"
+          description: "Microsoft Word Open XML документ"
 
         # format loop 3
-        - name: "Сравните RTF файлы"
+        - name: "Сравнение RTF файлов"
           format: "RTF"
           link: "/comparison/nodejs-java/rtf/"
           description: "Формат файла с расширенным текстовым форматом"
 
         # format loop 4
-        - name: "Сравните TXT файлы"
+        - name: "Сравнение TXT файлов"
           format: "TXT"
           link: "/comparison/nodejs-java/txt/"
           description: "Формат файла в виде простого текста"
 
         # format loop 5
-        - name: "Сравните XLSX файлы"
+        - name: "Сравнение XLSX файлов"
           format: "XLSX"
           link: "/comparison/nodejs-java/xlsx/"
           description: "Открытая электронная таблица XML от Майкрософт Excel"
 
         # format loop 6
-        - name: "Сравните CSV-файлы"
+        - name: "Сравнение CSV-файлов"
           format: "CSV"
           link: "/comparison/nodejs-java/csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop 7
-        - name: "Сравните PPTX файлы"
+        - name: "Сравнение PPTX файлов"
           format: "PPTX"
           link: "/comparison/nodejs-java/pptx/"
           description: "PowerPoint Открытая презентация XML"
 
         # format loop 8
-        - name: "Сравните ODS файлы"
+        - name: "Сравнение ODS файлов"
           format: "ODS"
           link: "/comparison/nodejs-java/ods/"
           description: "Open Document Электронная таблица"
 
         # format loop 9
-        - name: "Сравните файлы ODP"
+        - name: "Сравнение файлов ODP"
           format: "ODP"
           link: "/comparison/nodejs-java/odp/"
           description: "OpenDocument Формат файла презентации"
 
         # format loop 10
-        - name: "Сравните файлы ODT"
+        - name: "Сравнение файлов ODT"
           format: "ODT"
           link: "/comparison/nodejs-java/odt/"
           description: "Open Document Текст"
 
         # format loop 11
-        - name: "Сравните файлы JPEG"
+        - name: "Сравнение файлов JPEG"
           format: "JPEG"
           link: "/comparison/nodejs-java/jpeg/"
           description: "JPEG Изображение"
 
         # format loop 12
-        - name: "Сравните PNG файлы"
+        - name: "Сравнение PNG файлов"
           format: "PNG"
           link: "/comparison/nodejs-java/png/"
           description: "Portable Сетевая графика"
 
         # format loop 13
-        - name: "Сравните GIF файлы"
+        - name: "Сравнение GIF файлов"
           format: "GIF"
           link: "/comparison/nodejs-java/gif/"
           description: "Файл формата графического обмена"
 
         # format loop 14
-        - name: "Сравните BMP файлы"
+        - name: "Сравнение BMP файлов"
           format: "BMP"
           link: "/comparison/nodejs-java/bmp/"
           description: "Формат растрового файла"
@@ -198,38 +198,38 @@ more_formats:
           description: "Язык гипертекстовой разметки"
 
         # format loop 16
-        - name: "Сравните MSG файлы"
+        - name: "Сравнение MSG файлов"
           format: "MSG"
           link: "/comparison/nodejs-java/msg/"
           description: "Сообщение электронной почты Microsoft Outlook"
 
         # format loop 17
-        - name: "Сравните ONE файлы"
+        - name: "Сравнение ONE файлов"
           format: "ONE"
           link: "/comparison/nodejs-java/one/"
           description: "Майкрософт OneNote"
 
         # format loop 18
-        - name: "Сравните VSDX файлы"
+        - name: "Сравнение VSDX файлов"
           format: "VSDX"
           link: "/comparison/nodejs-java/vsdx/"
           description: "Чертеж Майкрософт Visio"
 
         # format loop 19
-        - name: "Сравните файлы CS"
+        - name: "Сравнение файлов CS"
           format: "CS"
           link: "/comparison/nodejs-java/cs/"
           description: "Язык программирования CSharp"
 
         # format loop 20
-        - name: "Сравните Java файлы"
+        - name: "Сравнение Java файлов"
           format: "Java"
           link: "/comparison/nodejs-java/java/"
-          description: "Java Язык"
+          description: "Файлы кода на языке Java"
           
         # format loop 21
         - name: "Сравнение файлов CPP"
           format: "CPP"
           link: "/comparison/nodejs-java/cpp/"
-          description: "Язык C++"
+          description: "Файлы кода на языке C++"
 ---

@@ -18,7 +18,7 @@
     "code_comment_1": "Specifica il documento di origine",
     "code_comment_2": "Aggiungere uno o più documenti di destinazione",
     "code_comment_3": "Specifica le opzioni di confronto",
-    "code_comment_4": "Esegui il confronto e salva il documento risultante",
+    "code_comment_4": "Confronta e salva risultato",
     "sample_index_title": "Confronto tra due file",
     "sample_index_content": "Per confrontare due documenti, inizia caricando sia il file di origine che quello di destinazione, quindi applica il metodo compare. Hai la flessibilità di scegliere impostazioni di confronto specifiche per un'analisi più personalizzata.",
     "overview_title": "{{ProdShortName}} a colpo d'occhio",

@@ -18,7 +18,7 @@
     "code_comment_1": "Specify the source document",
     "code_comment_2": "Add one or more target documents",
     "code_comment_3": "Specify comparison options",
-    "code_comment_4": "Perform the comparison and save the resulting document",
+    "code_comment_4": "Compare and save result",
     "sample_index_title": "Comparing two files",
     "sample_index_content": "To compare two documents, start by loading both the source and target files, and then apply the `compare` method. You have the flexibility to choose specific comparison settings for a more tailored analysis.",
     "overview_title": "{{ProdShortName}} at a glance",

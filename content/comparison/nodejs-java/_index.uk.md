@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-21T15:26:29
+date: 2024-03-22T13:27:50
 draft: false
 
 lang: uk
@@ -56,13 +56,17 @@ code:
     ```javascript {style=abap}
 
     // Вкажіть вихідний документ
-    let comparer = new Comparer("source.bmp");
+    const comparer = new Comparer("source.bmp");
 
     // Додавання одного або декількох цільових документів
     comparer.add("target.bmp");
 
     // Вкажіть параметри порівняння
-    comparer.compare("result.bmp"); 
+    const options = new groupdocs.comparison.CompareOptions();
+    options.setGenerateSummaryPage(false);
+
+    // Порівняти та зберегти результат
+    await comparer.compare(outputFileName, options);
     ```
 
 ############################# Overview ############################

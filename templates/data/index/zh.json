@@ -18,7 +18,7 @@
     "code_comment_1": "指定源文档",
     "code_comment_2": "添加一个或多个目标文档",
     "code_comment_3": "指定比较选项",
-    "code_comment_4": "进行比较并保存生成的文档",
+    "code_comment_4": "比较并保存结果",
     "sample_index_title": "比较两个文件",
     "sample_index_content": "要比较两个文档，首先加载源文件和目标文件，然后应用 “比较” 方法。您可以灵活地选择特定的比较设置，以进行更加量身定制的分析。",
     "overview_title": "{{ProdShortName}} 一览",

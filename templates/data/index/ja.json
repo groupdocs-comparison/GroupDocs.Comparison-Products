@@ -18,7 +18,7 @@
     "code_comment_1": "ソースドキュメントを指定",
     "code_comment_2": "1 つまたは複数のターゲットドキュメントを追加",
     "code_comment_3": "比較オプションを指定",
-    "code_comment_4": "比較を実行し、結果の文書を保存する",
+    "code_comment_4": "比較して結果を保存する",
     "sample_index_title": "2 つのファイルの比較",
     "sample_index_content": "2 つの文書を比較するには、まずソースファイルとターゲットファイルの両方を読み込み、次に `compare` メソッドを適用します。特定の比較設定を柔軟に選択して、よりカスタマイズされた分析を行うことができます。",
     "overview_title": "{{ProdShortName}} 一目でわかる",

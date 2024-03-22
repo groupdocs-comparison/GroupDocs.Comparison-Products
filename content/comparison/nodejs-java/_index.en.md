@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-21T15:26:29
+date: 2024-03-22T13:27:50
 draft: false
 
 lang: en
@@ -56,13 +56,17 @@ code:
     ```javascript {style=abap}
 
     // Specify the source document
-    let comparer = new Comparer("source.bmp");
+    const comparer = new Comparer("source.bmp");
 
     // Add one or more target documents
     comparer.add("target.bmp");
 
     // Specify comparison options
-    comparer.compare("result.bmp"); 
+    const options = new groupdocs.comparison.CompareOptions();
+    options.setGenerateSummaryPage(false);
+
+    // Compare and save result
+    await comparer.compare(outputFileName, options);
     ```
 
 ############################# Overview ############################
