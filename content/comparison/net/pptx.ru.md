@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-21T15:26:23
+date:  2024-03-22T13:27:45
 draft: false
 lang: ru
 format: Pptx
@@ -12,12 +12,12 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Сравните PPTX через GroupDocs.Comparison for .NET"
+head_title: "Сравнивайте PPTX в GroupDocs.Comparison for .NET"
 head_description: "GroupDocs.Comparison for .NET предназначен для сравнения и анализа PPTX презентаций. Наш API можно использовать с решениями C#."
 
 ############################# Header ############################
 title: "Анализируйте MS PowerPoint PPTX презентации с помощью .NET технологий" 
-description: "THE GroupDocs.Comparison for .NET предназначен для сравнения различных типов документов с целью анализа различий в файлах Microsoft PowerPoint. Приложения на основе C#, ASP .NET, VB .NET или .NET Core можно улучшить с помощью наших решений. Для получения подробных отчетов о различиях в деловых документах требуется минимальная реализация кода."
+description: "Наш продукт GroupDocs.Comparison for .NET предназначен для сравнения различных типов документов с целью анализа различий в файлах Microsoft PowerPoint. Приложения на основе C#, ASP .NET, VB .NET или .NET Core можно улучшить с помощью наших решений. Для получения подробных отчетов о различиях в деловых документах требуется минимальная реализация кода."
 subtitle: "Решение для сравнения документов" 
 
 header_actions:
@@ -35,7 +35,7 @@ about:
     link_title: "Узнайте больше"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       Проанализируйте свои PPTX презентации, составляя подробные отчеты вместе со своими .NET проектами. Обрабатывается не только текст, но и стили, фигуры и другое содержимое. Объедините разные версии презентации PPTX в итоговый документ. GroupDocs.Comparison for .NET можно легко использовать в ваших проектах, используя всего пару строк кода. Наш API не нуждается в программном обеспечении сторонних разработчиков.
+       Сравнивайте свои PPTX презентации, составляя подробные отчеты вместе со своими .NET проектами. Обрабатывается не только текст, но и стили, фигуры и другое содержимое. Объедините разные версии презентации PPTX в итоговый документ. GroupDocs.Comparison for .NET можно легко использовать в ваших проектах, используя всего пару строк кода. Наш API не нуждается в программном обеспечении сторонних разработчиков.
 
 ############################# Steps ############################
 steps:
@@ -45,9 +45,9 @@ steps:
       Получите отчет об изменениях в PPTX с помощью [GroupDocs.Comparison](https://products.groupdocs.com/comparison/net/)
       
       1. Установите пакет GroupDocs.Comparison for .NET, используя [Nuget](https://www.nuget.org/packages/GroupDocs.Comparison)
-      2. Получите объект Comparer, содержащий путь PPTX
-      3. Добавьте больше PPTX презентаций для сравнения
-      4. Анализируйте отчет, сохраненный на локальном диске
+      2. Создание объекта Comparer, с передачей пути к PPTX
+      3. Добавление больше PPTX презентаций для сравнения
+      4. Получение отчета, сохраненного на локальном диске
    
     code:
       platform: "net"
@@ -67,17 +67,17 @@ steps:
       content: |
         ```csharp {style=abap}
 
-        // Вносите изменения для презентаций
+        // Создайте отчет сравнения презентаций
 
-        // Instantiate Comparer, передающий первый путь к файлу
+        // Созадание Comparer, в передачей первого пути к файлу
         using (Comparer comparer = new Comparer("source.pptx"))
         {
-            // Включите больше файлов для сравнения
+            // Включение больше файлов для сравнения
         	comparer.Add("file_to_compare_1.pptx");
             comparer.Add("file_to_compare_2.pptx");
             comparer.Add("file_to_compare_3.pptx");
 
-            // Сохраните результат сравнения
+            // Сохранение результата сравнения
             comparer.Compare("result.pptx"); 
         }
         
@@ -108,85 +108,85 @@ more_formats:
     description: "Будьте в курсе преимуществ анализа презентаций GroupDocs.Comparison for .NET для PPTX. Создавайте информативные отчеты о различиях в MS PowerPoint презентациях."
     items: 
         # format loop 1
-        - name: "Сравните PDF файлы"
+        - name: "Сравнение PDF файлов"
           format: "PDF"
           link: "/comparison/net/pdf/"
           description: "Формат документа Adobe Portable"
 
         # format loop 2
-        - name: "Сравните DOCX файлы"
+        - name: "Сравнение DOCX файлов"
           format: "DOCX"
           link: "/comparison/net/docx/"
-          description: "Открыть XML-документ Microsoft Word"
+          description: "Microsoft Word Open XML документ"
 
         # format loop 3
-        - name: "Сравните RTF файлы"
+        - name: "Сравнение RTF файлов"
           format: "RTF"
           link: "/comparison/net/rtf/"
           description: "Формат файла с расширенным текстовым форматом"
 
         # format loop 4
-        - name: "Сравните TXT файлы"
+        - name: "Сравнение TXT файлов"
           format: "TXT"
           link: "/comparison/net/txt/"
           description: "Формат файла в виде простого текста"
 
         # format loop 5
-        - name: "Сравните XLSX файлы"
+        - name: "Сравнение XLSX файлов"
           format: "XLSX"
           link: "/comparison/net/xlsx/"
           description: "Открытая электронная таблица XML от Майкрософт Excel"
 
         # format loop 6
-        - name: "Сравните CSV-файлы"
+        - name: "Сравнение CSV-файлов"
           format: "CSV"
           link: "/comparison/net/csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop 7
-        - name: "Сравните PPTX файлы"
+        - name: "Сравнение PPTX файлов"
           format: "PPTX"
           link: "/comparison/net/pptx/"
           description: "PowerPoint Открытая презентация XML"
 
         # format loop 8
-        - name: "Сравните ODS файлы"
+        - name: "Сравнение ODS файлов"
           format: "ODS"
           link: "/comparison/net/ods/"
           description: "Open Document Электронная таблица"
 
         # format loop 9
-        - name: "Сравните файлы ODP"
+        - name: "Сравнение файлов ODP"
           format: "ODP"
           link: "/comparison/net/odp/"
           description: "OpenDocument Формат файла презентации"
 
         # format loop 10
-        - name: "Сравните файлы ODT"
+        - name: "Сравнение файлов ODT"
           format: "ODT"
           link: "/comparison/net/odt/"
           description: "Open Document Текст"
 
         # format loop 11
-        - name: "Сравните файлы JPEG"
+        - name: "Сравнение файлов JPEG"
           format: "JPEG"
           link: "/comparison/net/jpeg/"
           description: "JPEG Изображение"
 
         # format loop 12
-        - name: "Сравните PNG файлы"
+        - name: "Сравнение PNG файлов"
           format: "PNG"
           link: "/comparison/net/png/"
           description: "Portable Сетевая графика"
 
         # format loop 13
-        - name: "Сравните GIF файлы"
+        - name: "Сравнение GIF файлов"
           format: "GIF"
           link: "/comparison/net/gif/"
           description: "Файл формата графического обмена"
 
         # format loop 14
-        - name: "Сравните BMP файлы"
+        - name: "Сравнение BMP файлов"
           format: "BMP"
           link: "/comparison/net/bmp/"
           description: "Формат растрового файла"
@@ -198,38 +198,38 @@ more_formats:
           description: "Язык гипертекстовой разметки"
 
         # format loop 16
-        - name: "Сравните MSG файлы"
+        - name: "Сравнение MSG файлов"
           format: "MSG"
           link: "/comparison/net/msg/"
           description: "Сообщение электронной почты Microsoft Outlook"
 
         # format loop 17
-        - name: "Сравните ONE файлы"
+        - name: "Сравнение ONE файлов"
           format: "ONE"
           link: "/comparison/net/one/"
           description: "Майкрософт OneNote"
 
         # format loop 18
-        - name: "Сравните VSDX файлы"
+        - name: "Сравнение VSDX файлов"
           format: "VSDX"
           link: "/comparison/net/vsdx/"
           description: "Чертеж Майкрософт Visio"
 
         # format loop 19
-        - name: "Сравните файлы CS"
+        - name: "Сравнение файлов CS"
           format: "CS"
           link: "/comparison/net/cs/"
           description: "Язык программирования CSharp"
 
         # format loop 20
-        - name: "Сравните Java файлы"
+        - name: "Сравнение Java файлов"
           format: "Java"
           link: "/comparison/net/java/"
-          description: "Java Язык"
+          description: "Файлы кода на языке Java"
           
         # format loop 21
         - name: "Сравнение файлов CPP"
           format: "CPP"
           link: "/comparison/net/cpp/"
-          description: "Язык C++"
+          description: "Файлы кода на языке C++"
 ---

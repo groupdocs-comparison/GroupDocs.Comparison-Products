@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-21T15:26:12
+date:  2024-03-22T13:27:35
 draft: false
 lang: en
 format: Mobi
@@ -13,7 +13,7 @@ platform_tag: "java"
 
 ############################# Head ############################
 head_title: "Java MOBI Comparison API - Check MOBI Files for Differences"
-head_description: "Compare and merge MOBI files in Java, J2EE, J2SE applications. Analyze differences summary in content, text & style."
+head_description: "Compare MOBI files in Java, J2EE, J2SE applications. Analyze differences summary in content, text & style."
 
 ############################# Header ############################
 title: "Compare MOBI Files in Java" 

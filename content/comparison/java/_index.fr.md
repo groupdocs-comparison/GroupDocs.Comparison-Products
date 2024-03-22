@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-21T15:26:29
+date: 2024-03-22T13:27:50
 draft: false
 
 lang: fr
@@ -69,7 +69,7 @@ code:
       CompareOptions options = new CompareOptions();
       options.setShowRevisions(false);
 
-      // Effectuez la comparaison et enregistrez le document obtenu
+      // Comparer et enregistrer le résultat
       final comparer.compare("result.docx", options);
     }    
     ```

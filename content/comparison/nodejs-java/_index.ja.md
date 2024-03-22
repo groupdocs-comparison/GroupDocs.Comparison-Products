@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-21T15:26:29
+date: 2024-03-22T13:27:50
 draft: false
 
 lang: ja
@@ -56,13 +56,17 @@ code:
     ```javascript {style=abap}
 
     // ソースドキュメントを指定
-    let comparer = new Comparer("source.bmp");
+    const comparer = new Comparer("source.bmp");
 
     // 1 つまたは複数のターゲットドキュメントを追加
     comparer.add("target.bmp");
 
     // 比較オプションを指定
-    comparer.compare("result.bmp"); 
+    const options = new groupdocs.comparison.CompareOptions();
+    options.setGenerateSummaryPage(false);
+
+    // 比較して結果を保存する
+    await comparer.compare(outputFileName, options);
     ```
 
 ############################# Overview ############################

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-21T15:26:29
+date: 2024-03-22T13:27:50
 draft: false
 
 lang: fa
@@ -56,13 +56,17 @@ code:
     ```javascript {style=abap}
 
     // سند منبع را مشخص کنید
-    let comparer = new Comparer("source.bmp");
+    const comparer = new Comparer("source.bmp");
 
     // اضافه کردن یک یا چند سند هدف
     comparer.add("target.bmp");
 
     // گزینه های مقایسه را مشخص کنید
-    comparer.compare("result.bmp"); 
+    const options = new groupdocs.comparison.CompareOptions();
+    options.setGenerateSummaryPage(false);
+
+    // مقایسه و ذخیره نتیجه
+    await comparer.compare(outputFileName, options);
     ```
 
 ############################# Overview ############################

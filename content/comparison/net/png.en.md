@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-21T15:26:23
+date:  2024-03-22T13:27:44
 draft: false
 lang: en
 format: Png
@@ -16,7 +16,7 @@ head_title: "PNG differences checking by GroupDocs.Comparison for .NET"
 head_description: "GroupDocs.Comparison for .NET allows to generate reports about distinctions at PNG images for applications based on C# & .NET"
 
 ############################# Header ############################
-title: "Compare PNG images via C# .NET applications" 
+title: "Compare PNG images in C# .NET applications" 
 description: "GroupDocs.Comparison for .NET API searches for any differences among PNG files quickly and easily. Improve C#, ASP.NET, VB.NET, and .NET Core applications in order to obtain comparison reports."
 subtitle: "Document comparison solution" 
 
@@ -42,7 +42,7 @@ steps:
     enable: true
     title: "How to compare PNG pictures by C#"
     content: |
-      Construct report describes differences in PNG pictures by [GroupDocs.Comparison](https://products.groupdocs.com/comparison/net/)
+      Construct a report that describes differences in PNG pictures by [GroupDocs.Comparison](https://products.groupdocs.com/comparison/net/)
       
       1. Download and install GroupDocs.Comparison for .NET from [Nuget](https://www.nuget.org/packages/GroupDocs.Comparison)
       2. Instantiate Comparer object providing path to PNG image

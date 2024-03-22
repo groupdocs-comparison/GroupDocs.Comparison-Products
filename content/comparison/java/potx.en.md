@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-21T15:26:13
+date:  2024-03-22T13:27:35
 draft: false
 lang: en
 format: Potx
@@ -13,7 +13,7 @@ platform_tag: "java"
 
 ############################# Head ############################
 head_title: "Java POTX Comparison API - Check POTX Files for Differences"
-head_description: "Compare and merge POTX files in Java, J2EE, J2SE applications. Analyze differences summary in content, text & style."
+head_description: "Compare POTX files in Java, J2EE, J2SE applications. Analyze differences summary in content, text & style."
 
 ############################# Header ############################
 title: "Compare POTX Files in Java" 

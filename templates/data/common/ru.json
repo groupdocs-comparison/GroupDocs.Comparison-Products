@@ -2,59 +2,59 @@
   "common-content": {
     "format-formats": {
       "pdf": {
-        "name": "Сравните PDF файлы",
+        "name": "Сравнение PDF файлов",
         "description": "Формат документа Adobe Portable"
       },
       "docx": {
-        "name": "Сравните DOCX файлы",
-        "description": "Открыть XML-документ Microsoft Word"
+        "name": "Сравнение DOCX файлов",
+        "description": "Microsoft Word Open XML документ"
       },
       "rtf": {
-        "name": "Сравните RTF файлы",
+        "name": "Сравнение RTF файлов",
         "description": "Формат файла с расширенным текстовым форматом"
       },
       "txt": {
-        "name": "Сравните TXT файлы",
+        "name": "Сравнение TXT файлов",
         "description": "Формат файла в виде простого текста"
       },
       "xlsx": {
-        "name": "Сравните XLSX файлы",
+        "name": "Сравнение XLSX файлов",
         "description": "Открытая электронная таблица XML от Майкрософт Excel"
       },
       "csv": {
-        "name": "Сравните CSV-файлы",
+        "name": "Сравнение CSV-файлов",
         "description": "Файл значений, разделенных запятыми"
       },
       "pptx": {
-        "name": "Сравните PPTX файлы",
+        "name": "Сравнение PPTX файлов",
         "description": "PowerPoint Открытая презентация XML"
       },
       "ods": {
-        "name": "Сравните ODS файлы",
+        "name": "Сравнение ODS файлов",
         "description": "Open Document Электронная таблица"
       },
       "odp": {
-        "name": "Сравните файлы ODP",
+        "name": "Сравнение файлов ODP",
         "description": "OpenDocument Формат файла презентации"
       },
       "odt": {
-        "name": "Сравните файлы ODT",
+        "name": "Сравнение файлов ODT",
         "description": "Open Document Текст"
       },
       "jpeg": {
-        "name": "Сравните файлы JPEG",
+        "name": "Сравнение файлов JPEG",
         "description": "JPEG Изображение"
       },
       "png": {
-        "name": "Сравните PNG файлы",
+        "name": "Сравнение PNG файлов",
         "description": "Portable Сетевая графика"
       },
       "gif": {
-        "name": "Сравните GIF файлы",
+        "name": "Сравнение GIF файлов",
         "description": "Файл формата графического обмена"
       },
       "bmp": {
-        "name": "Сравните BMP файлы",
+        "name": "Сравнение BMP файлов",
         "description": "Формат растрового файла"
       },
       "html": {
@@ -62,28 +62,28 @@
         "description": "Язык гипертекстовой разметки"
       },
       "msg": {
-        "name": "Сравните MSG файлы",
+        "name": "Сравнение MSG файлов",
         "description": "Сообщение электронной почты Microsoft Outlook"
       },
       "one": {
-        "name": "Сравните ONE файлы",
+        "name": "Сравнение ONE файлов",
         "description": "Майкрософт OneNote"
       },
       "vsdx": {
-        "name": "Сравните VSDX файлы",
+        "name": "Сравнение VSDX файлов",
         "description": "Чертеж Майкрософт Visio"
       },
       "cs": {
-        "name": "Сравните файлы CS",
+        "name": "Сравнение файлов CS",
         "description": "Язык программирования CSharp"
       },
       "java": {
-        "name": "Сравните Java файлы",
-        "description": "Java Язык"
+        "name": "Сравнение Java файлов",
+        "description": "Файлы кода на языке Java"
       },
       "cpp": {
         "name": "Сравнение файлов CPP",
-        "description": "Язык C++"
+        "description": "Файлы кода на языке C++"
       }
     },
     "format-code": {

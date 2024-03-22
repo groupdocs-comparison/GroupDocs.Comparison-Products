@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-03-21T15:26:29
+date:  2024-03-22T13:27:50
 draft: false
 
 product: "Comparison"
@@ -170,7 +170,7 @@ code_samples:
                           // Chỉ định các tùy chọn so sánh
                           CompareOptions options = new CompareOptions() {ShowRevisions = false};
 
-                          // Thực hiện so sánh và lưu tài liệu kết quả
+                          // So sánh và lưu kết quả
                           comparer.Compare("result.docx", options);
                         }                    
                     </code>
@@ -191,7 +191,7 @@ code_samples:
                           CompareOptions options = new CompareOptions();
                           options.setShowRevisions(false);
 
-                          // Thực hiện so sánh và lưu tài liệu kết quả
+                          // So sánh và lưu kết quả
                           final comparer.compare("result.docx", options);
                         }
                     </code>
@@ -212,7 +212,7 @@ code_samples:
                         const options = new groupdocs.comparison.CompareOptions();
                         options.setShowRevisions(false);
 
-                        // Thực hiện so sánh và lưu tài liệu kết quả
+                        // So sánh và lưu kết quả
                         comparer.compare("result.docx", options);    
                     </code>
 

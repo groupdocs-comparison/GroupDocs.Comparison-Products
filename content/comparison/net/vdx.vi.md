@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-21T15:26:22
+date:  2024-03-22T13:27:44
 draft: false
 lang: vi
 format: Vdx

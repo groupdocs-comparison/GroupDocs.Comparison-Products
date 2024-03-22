@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-21T15:26:29
+date: 2024-03-22T13:27:50
 draft: false
 
 lang: vi
@@ -56,13 +56,17 @@ code:
     ```javascript {style=abap}
 
     // Chỉ định tài liệu nguồn
-    let comparer = new Comparer("source.bmp");
+    const comparer = new Comparer("source.bmp");
 
     // Thêm một hoặc nhiều tài liệu mục tiêu
     comparer.add("target.bmp");
 
     // Chỉ định các tùy chọn so sánh
-    comparer.compare("result.bmp"); 
+    const options = new groupdocs.comparison.CompareOptions();
+    options.setGenerateSummaryPage(false);
+
+    // So sánh và lưu kết quả
+    await comparer.compare(outputFileName, options);
     ```
 
 ############################# Overview ############################

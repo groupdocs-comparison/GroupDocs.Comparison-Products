@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-21T15:26:29
+date: 2024-03-22T13:27:50
 draft: false
 
 lang: ko
@@ -69,7 +69,7 @@ code:
       CompareOptions options = new CompareOptions();
       options.setShowRevisions(false);
 
-      // 비교를 수행하고 결과 문서를 저장합니다.
+      // 이미 번역됨
       final comparer.compare("result.docx", options);
     }    
     ```

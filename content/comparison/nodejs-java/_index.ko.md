@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-21T15:26:29
+date: 2024-03-22T13:27:50
 draft: false
 
 lang: ko
@@ -56,13 +56,17 @@ code:
     ```javascript {style=abap}
 
     // 원본 문서 지정
-    let comparer = new Comparer("source.bmp");
+    const comparer = new Comparer("source.bmp");
 
     // 하나 이상의 대상 문서 추가
     comparer.add("target.bmp");
 
     // 비교 옵션 지정
-    comparer.compare("result.bmp"); 
+    const options = new groupdocs.comparison.CompareOptions();
+    options.setGenerateSummaryPage(false);
+
+    // 이미 번역됨
+    await comparer.compare(outputFileName, options);
     ```
 
 ############################# Overview ############################

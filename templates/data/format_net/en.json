@@ -115,7 +115,7 @@
       "description": "{{ProdFullName}} allows to generate reports about distinctions at PNG images for applications based on {{ProgLang}} & {{EnvName}}"
     },
     "header": {
-      "title": "Compare PNG images via {{ProgLang}} {{EnvName}} applications",
+      "title": "Compare PNG images in {{ProgLang}} {{EnvName}} applications",
       "description": "{{ProdFullName}} API searches for any differences among PNG files quickly and easily. Improve {{ProgLang}}, ASP.NET, VB.NET, and .NET Core applications in order to obtain comparison reports."
     },
     "about": {
@@ -125,7 +125,7 @@
     "steps": {
       "title": "How to compare PNG pictures by {{ProgLang}}",
       "content": {
-        "title": "Construct report describes differences in PNG pictures by [{{ProdShortName}}]({{ProductUrl}})",
+        "title": "Construct a report that describes differences in PNG pictures by [{{ProdShortName}}]({{ProductUrl}})",
         "step_1": "Download and install {{ProdFullName}} from [{{PackageStoreName}}]({{PackageUrl}})",
         "step_2": "Instantiate Comparer object providing path to PNG image",
         "step_3": "Involve other PNG files to be compared",
@@ -197,7 +197,7 @@
     "steps": {
       "title": "Comparing JPG Pictures using {{ProgLang}}",
       "content": {
-        "title": "Manage JPG File Content with [{{ProdShortName}}]({{ProductUrl}})",
+        "title": "Compare JPG File Contents with [{{ProdShortName}}]({{ProductUrl}})",
         "step_1": "Acquire {{ProdFullName}} from [{{PackageStoreName}}]({{PackageUrl}}) and integrate it into your project",
         "step_2": "Instantiate the Comparer object and specify the path to the JPG image",
         "step_3": "Include another JPG image for analysis",

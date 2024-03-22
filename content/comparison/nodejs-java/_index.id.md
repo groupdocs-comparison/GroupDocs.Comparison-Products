@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-21T15:26:29
+date: 2024-03-22T13:27:50
 draft: false
 
 lang: id
@@ -56,13 +56,17 @@ code:
     ```javascript {style=abap}
 
     // Tentukan dokumen sumber
-    let comparer = new Comparer("source.bmp");
+    const comparer = new Comparer("source.bmp");
 
     // Menambahkan satu atau lebih dokumen target
     comparer.add("target.bmp");
 
     // Tentukan opsi perbandingan
-    comparer.compare("result.bmp"); 
+    const options = new groupdocs.comparison.CompareOptions();
+    options.setGenerateSummaryPage(false);
+
+    // Bandingkan dan simpan hasil
+    await comparer.compare(outputFileName, options);
     ```
 
 ############################# Overview ############################

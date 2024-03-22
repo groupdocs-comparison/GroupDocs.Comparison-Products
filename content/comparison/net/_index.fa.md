@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-21T15:26:29
+date: 2024-03-22T13:27:50
 draft: false
 
 lang: fa
@@ -64,7 +64,7 @@ code:
         CompareOptions options = new CompareOptions() 
         {ShowRevisions = false};
 
-        // مقایسه را انجام دهید و سند حاصل را ذخیره کنید
+        // مقایسه و ذخیره نتیجه
         comparer.Compare("result.docx", options);
     }
     ```

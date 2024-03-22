@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-21T15:26:13
+date:  2024-03-22T13:27:35
 draft: false
 lang: en
 format: Odt
@@ -13,7 +13,7 @@ platform_tag: "java"
 
 ############################# Head ############################
 head_title: "Java ODT Comparison API - Check ODT Files for Differences"
-head_description: "Compare and merge ODT files in Java, J2EE, J2SE applications. Analyze differences summary in content, text & style."
+head_description: "Compare ODT files in Java, J2EE, J2SE applications. Analyze differences summary in content, text & style."
 
 ############################# Header ############################
 title: "Compare ODT Files in Java" 

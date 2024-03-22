@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-21T15:26:29
+date:  2024-03-22T13:27:49
 draft: false
 lang: ru
 format: Pdf
@@ -12,12 +12,12 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Библиотека JavaScript для проверки различий в PDF с."
-head_description: "Программное обеспечение GroupDocs.Comparison Node.js создает исчерпывающие отчеты с подробным описанием различий в PDF документах."
+head_title: "Библиотека JavaScript для проверки различий в PDF файлов."
+head_description: "GroupDocs.Comparison Node.js - мощный API для создания отчетов с подробным описанием различий в PDF документах."
 
 ############################# Header ############################
-title: "Сравнение PDF документов для Node.js via Java" 
-description: "Используйте наш API для сравнения документов в Node.js, чтобы обнаружить и продемонстрировать различия между PDF приложениями на базе JavaScript. Воспользуйтесь быстрым и простым получением подробных отчетов."
+title: "Сравнение PDF документов в Node.js via Java" 
+description: "Используйте наш API для сравнения документов в Node.js, чтобы определять, подсвечивать и демонстрировать различия между PDF приложениями на базе JavaScript. Воспользуйтесь нашим быстрым и простым API для создания таких отчетов."
 subtitle: "Решение для сравнения файлов" 
 
 header_actions:
@@ -35,7 +35,7 @@ about:
     link_title: "Узнайте больше"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       Получите подробные отчеты о любых различиях в PDF документах в своих .NET заявках. Используйте GroupDocs.Comparison for Node.js via Java, добавив пару строк кода без дополнительного программного обеспечения или других внешних библиотек. Контролируйте любые изменения абзацев, слов, символов, фигур и стилей текста в файлах PDF. Также доступно объединение изменений из многих версий документа в результат PDF. Обрабатывайте документы быстро и без дополнительных усилий.
+       Получите подробные отчеты о любых различиях в PDF документах в своих Node.js приложениях. Используйте GroupDocs.Comparison for Node.js via Java, добавив пару строк кода без дополнительного программного обеспечения или других внешних библиотек. Контролируйте любые изменения абзацев, слов, символов, фигур и стилей текста в файлах PDF. Также доступно объединение изменений из многих версий документа в результат PDF. Обрабатывайте документы быстро и без дополнительных усилий.
 
 ############################# Steps ############################
 steps:
@@ -67,16 +67,16 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Проверьте несколько файлов, чтобы увидеть, насколько они похожи или отличаются
+        // Сравните несколько файлов, чтобы увидеть, насколько они похожи или отличаются
 
-        // Создайте объект Comparer и передайте ему первый файл в качестве входных данных
+        // Создание объекта Comparer и передача ему первого файла в качестве входных данных
         const comparer = new groupdocs.comparison.Comparer('first.pdf');
 
-        // Добавить больше файлов
+        // Добавление еще файлов для сравнения
         comparer.add('second.pdf');
         comparer.add('third.pdf');
 
-        // Получите окончательный отчет
+        // Получение окончательного отчета
         await comparer.compare('report_full.pdf');
 
         console.log('\nDocuments compared successfully.\nCheck output.');
@@ -103,90 +103,90 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Сравните популярные форматы файлов, такие как PDF, используя JavaScript"
+    title: "Сравнивайте файлы популярных форматов, таких как PDF, используя JavaScript"
     exclude: "PDF"
     description: "Ваши PDF файлы можно быстро сравнить с помощью нашего API Node.js. Легко контролируйте изменения документов с помощью подробных отчетов."
     items: 
         # format loop 1
-        - name: "Сравните PDF файлы"
+        - name: "Сравнение PDF файлов"
           format: "PDF"
           link: "/comparison/nodejs-java/pdf/"
           description: "Формат документа Adobe Portable"
 
         # format loop 2
-        - name: "Сравните DOCX файлы"
+        - name: "Сравнение DOCX файлов"
           format: "DOCX"
           link: "/comparison/nodejs-java/docx/"
-          description: "Открыть XML-документ Microsoft Word"
+          description: "Microsoft Word Open XML документ"
 
         # format loop 3
-        - name: "Сравните RTF файлы"
+        - name: "Сравнение RTF файлов"
           format: "RTF"
           link: "/comparison/nodejs-java/rtf/"
           description: "Формат файла с расширенным текстовым форматом"
 
         # format loop 4
-        - name: "Сравните TXT файлы"
+        - name: "Сравнение TXT файлов"
           format: "TXT"
           link: "/comparison/nodejs-java/txt/"
           description: "Формат файла в виде простого текста"
 
         # format loop 5
-        - name: "Сравните XLSX файлы"
+        - name: "Сравнение XLSX файлов"
           format: "XLSX"
           link: "/comparison/nodejs-java/xlsx/"
           description: "Открытая электронная таблица XML от Майкрософт Excel"
 
         # format loop 6
-        - name: "Сравните CSV-файлы"
+        - name: "Сравнение CSV-файлов"
           format: "CSV"
           link: "/comparison/nodejs-java/csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop 7
-        - name: "Сравните PPTX файлы"
+        - name: "Сравнение PPTX файлов"
           format: "PPTX"
           link: "/comparison/nodejs-java/pptx/"
           description: "PowerPoint Открытая презентация XML"
 
         # format loop 8
-        - name: "Сравните ODS файлы"
+        - name: "Сравнение ODS файлов"
           format: "ODS"
           link: "/comparison/nodejs-java/ods/"
           description: "Open Document Электронная таблица"
 
         # format loop 9
-        - name: "Сравните файлы ODP"
+        - name: "Сравнение файлов ODP"
           format: "ODP"
           link: "/comparison/nodejs-java/odp/"
           description: "OpenDocument Формат файла презентации"
 
         # format loop 10
-        - name: "Сравните файлы ODT"
+        - name: "Сравнение файлов ODT"
           format: "ODT"
           link: "/comparison/nodejs-java/odt/"
           description: "Open Document Текст"
 
         # format loop 11
-        - name: "Сравните файлы JPEG"
+        - name: "Сравнение файлов JPEG"
           format: "JPEG"
           link: "/comparison/nodejs-java/jpeg/"
           description: "JPEG Изображение"
 
         # format loop 12
-        - name: "Сравните PNG файлы"
+        - name: "Сравнение PNG файлов"
           format: "PNG"
           link: "/comparison/nodejs-java/png/"
           description: "Portable Сетевая графика"
 
         # format loop 13
-        - name: "Сравните GIF файлы"
+        - name: "Сравнение GIF файлов"
           format: "GIF"
           link: "/comparison/nodejs-java/gif/"
           description: "Файл формата графического обмена"
 
         # format loop 14
-        - name: "Сравните BMP файлы"
+        - name: "Сравнение BMP файлов"
           format: "BMP"
           link: "/comparison/nodejs-java/bmp/"
           description: "Формат растрового файла"
@@ -198,38 +198,38 @@ more_formats:
           description: "Язык гипертекстовой разметки"
 
         # format loop 16
-        - name: "Сравните MSG файлы"
+        - name: "Сравнение MSG файлов"
           format: "MSG"
           link: "/comparison/nodejs-java/msg/"
           description: "Сообщение электронной почты Microsoft Outlook"
 
         # format loop 17
-        - name: "Сравните ONE файлы"
+        - name: "Сравнение ONE файлов"
           format: "ONE"
           link: "/comparison/nodejs-java/one/"
           description: "Майкрософт OneNote"
 
         # format loop 18
-        - name: "Сравните VSDX файлы"
+        - name: "Сравнение VSDX файлов"
           format: "VSDX"
           link: "/comparison/nodejs-java/vsdx/"
           description: "Чертеж Майкрософт Visio"
 
         # format loop 19
-        - name: "Сравните файлы CS"
+        - name: "Сравнение файлов CS"
           format: "CS"
           link: "/comparison/nodejs-java/cs/"
           description: "Язык программирования CSharp"
 
         # format loop 20
-        - name: "Сравните Java файлы"
+        - name: "Сравнение Java файлов"
           format: "Java"
           link: "/comparison/nodejs-java/java/"
-          description: "Java Язык"
+          description: "Файлы кода на языке Java"
           
         # format loop 21
         - name: "Сравнение файлов CPP"
           format: "CPP"
           link: "/comparison/nodejs-java/cpp/"
-          description: "Язык C++"
+          description: "Файлы кода на языке C++"
 ---

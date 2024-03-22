@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-21T15:26:18
+date:  2024-03-22T13:27:40
 draft: false
 lang: ru
 format: Docx
@@ -13,18 +13,18 @@ platform_tag: "java"
 
 ############################# Head ############################
 head_title: "Решение для проверки различий в DOCX документах."
-head_description: "Возможности, предоставляемые API GroupDocs.Comparison, позволяют нам получать отчеты, содержащие информацию о различиях в DOCX документах."
+head_description: "Возможности, предоставляемые API GroupDocs.Comparison, позволяют получать отчеты, содержащие информацию о различиях в DOCX документах."
 
 ############################# Header ############################
-title: "Java приложений для поиска отличий в DOCX документах" 
-description: "Библиотека Java, представленная GroupDocs.Comparison, сравнивает любые DOCX документы в приложениях, поддерживающих Java, J2EE или J2SE."
+title: "Java решение для поиска отличий в DOCX документах" 
+description: "Библиотека Java, входящая в состав продуктов GroupDocs.Comparison, сравнивает любые DOCX документы в приложениях, поддерживающих Java, J2EE или J2SE."
 subtitle: "Система проверки различий в документах"  
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Скачать бесплатно Maven"
+    - title: "Скачать бесплатно в Maven"
       link: "https://releases.groupdocs.com/comparison/java/"
       
 ############################# About ############################
@@ -35,7 +35,7 @@ about:
     link_title: "Узнайте больше"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       Сравнение документов DOCX поддерживается API GroupDocs.Comparison for Java, который создает отчеты, содержащие данные о различных различиях. Проводится анализ текста в абзацах, фигур, стилей и других данных. Кроме того, можно составить один DOCX, объединив изменения из исходных файлов. Нет необходимости во внешних библиотеках. Улучшите свои Java проекты, добавив несколько строк кода.
+       Сравнение документов DOCX поддерживается API GroupDocs.Comparison for Java, который создает отчеты, содержащие данные о различиях в документах. Проводится анализ текста в абзацах, анализ фигур, стилей и других данных. Кроме того, можно составить итоговый DOCX, объединив изменения из исходных файлов. При этом нет необходимости во внешних библиотеках. Улучшите свои Java проекты используя наш продукт, добавив всего несколько строк кода.
 
 ############################# Steps ############################
 steps:
@@ -45,9 +45,9 @@ steps:
       Используйте [GroupDocs.Comparison](https://products.groupdocs.com/comparison/java/) для сравнения MS Word документов
       
       1. Установите наше решение из [Maven](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/)
-      2. Компаратор должен быть создан с первым документом DOCX в качестве параметра
+      2. Comparer должен быть создан с первым документом DOCX в качестве параметра
       3. Для любого сравнения требуется более одного DOCX документа
-      4. Полученный отчет содержит полезные данные
+      4. Полученный отчет содержит итоговую информацию по сравнению
    
     code:
       platform: "net"
@@ -125,85 +125,85 @@ more_formats:
     description: "API GroupDocs.Comparison Java позволяет пользователям контролировать версии DOCX документов с помощью точных и подробных отчетов, которые можно легко обрабатывать."
     items: 
         # format loop 1
-        - name: "Сравните PDF файлы"
+        - name: "Сравнение PDF файлов"
           format: "PDF"
           link: "/comparison/java/pdf/"
           description: "Формат документа Adobe Portable"
 
         # format loop 2
-        - name: "Сравните DOCX файлы"
+        - name: "Сравнение DOCX файлов"
           format: "DOCX"
           link: "/comparison/java/docx/"
-          description: "Открыть XML-документ Microsoft Word"
+          description: "Microsoft Word Open XML документ"
 
         # format loop 3
-        - name: "Сравните RTF файлы"
+        - name: "Сравнение RTF файлов"
           format: "RTF"
           link: "/comparison/java/rtf/"
           description: "Формат файла с расширенным текстовым форматом"
 
         # format loop 4
-        - name: "Сравните TXT файлы"
+        - name: "Сравнение TXT файлов"
           format: "TXT"
           link: "/comparison/java/txt/"
           description: "Формат файла в виде простого текста"
 
         # format loop 5
-        - name: "Сравните XLSX файлы"
+        - name: "Сравнение XLSX файлов"
           format: "XLSX"
           link: "/comparison/java/xlsx/"
           description: "Открытая электронная таблица XML от Майкрософт Excel"
 
         # format loop 6
-        - name: "Сравните CSV-файлы"
+        - name: "Сравнение CSV-файлов"
           format: "CSV"
           link: "/comparison/java/csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop 7
-        - name: "Сравните PPTX файлы"
+        - name: "Сравнение PPTX файлов"
           format: "PPTX"
           link: "/comparison/java/pptx/"
           description: "PowerPoint Открытая презентация XML"
 
         # format loop 8
-        - name: "Сравните ODS файлы"
+        - name: "Сравнение ODS файлов"
           format: "ODS"
           link: "/comparison/java/ods/"
           description: "Open Document Электронная таблица"
 
         # format loop 9
-        - name: "Сравните файлы ODP"
+        - name: "Сравнение файлов ODP"
           format: "ODP"
           link: "/comparison/java/odp/"
           description: "OpenDocument Формат файла презентации"
 
         # format loop 10
-        - name: "Сравните файлы ODT"
+        - name: "Сравнение файлов ODT"
           format: "ODT"
           link: "/comparison/java/odt/"
           description: "Open Document Текст"
 
         # format loop 11
-        - name: "Сравните файлы JPEG"
+        - name: "Сравнение файлов JPEG"
           format: "JPEG"
           link: "/comparison/java/jpeg/"
           description: "JPEG Изображение"
 
         # format loop 12
-        - name: "Сравните PNG файлы"
+        - name: "Сравнение PNG файлов"
           format: "PNG"
           link: "/comparison/java/png/"
           description: "Portable Сетевая графика"
 
         # format loop 13
-        - name: "Сравните GIF файлы"
+        - name: "Сравнение GIF файлов"
           format: "GIF"
           link: "/comparison/java/gif/"
           description: "Файл формата графического обмена"
 
         # format loop 14
-        - name: "Сравните BMP файлы"
+        - name: "Сравнение BMP файлов"
           format: "BMP"
           link: "/comparison/java/bmp/"
           description: "Формат растрового файла"
@@ -215,38 +215,38 @@ more_formats:
           description: "Язык гипертекстовой разметки"
 
         # format loop 16
-        - name: "Сравните MSG файлы"
+        - name: "Сравнение MSG файлов"
           format: "MSG"
           link: "/comparison/java/msg/"
           description: "Сообщение электронной почты Microsoft Outlook"
 
         # format loop 17
-        - name: "Сравните ONE файлы"
+        - name: "Сравнение ONE файлов"
           format: "ONE"
           link: "/comparison/java/one/"
           description: "Майкрософт OneNote"
 
         # format loop 18
-        - name: "Сравните VSDX файлы"
+        - name: "Сравнение VSDX файлов"
           format: "VSDX"
           link: "/comparison/java/vsdx/"
           description: "Чертеж Майкрософт Visio"
 
         # format loop 19
-        - name: "Сравните файлы CS"
+        - name: "Сравнение файлов CS"
           format: "CS"
           link: "/comparison/java/cs/"
           description: "Язык программирования CSharp"
 
         # format loop 20
-        - name: "Сравните Java файлы"
+        - name: "Сравнение Java файлов"
           format: "Java"
           link: "/comparison/java/java/"
-          description: "Java Язык"
+          description: "Файлы кода на языке Java"
           
         # format loop 21
         - name: "Сравнение файлов CPP"
           format: "CPP"
           link: "/comparison/java/cpp/"
-          description: "Язык C++"
+          description: "Файлы кода на языке C++"
 ---

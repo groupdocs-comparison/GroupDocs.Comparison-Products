@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-21T15:26:23
+date:  2024-03-22T13:27:44
 draft: false
 lang: en
 format: Jpg
@@ -42,7 +42,7 @@ steps:
     enable: true
     title: "Comparing JPG Pictures using C#"
     content: |
-      Manage JPG File Content with [GroupDocs.Comparison](https://products.groupdocs.com/comparison/net/)
+      Compare JPG File Contents with [GroupDocs.Comparison](https://products.groupdocs.com/comparison/net/)
       
       1. Acquire GroupDocs.Comparison for .NET from [Nuget](https://www.nuget.org/packages/GroupDocs.Comparison) and integrate it into your project
       2. Instantiate the Comparer object and specify the path to the JPG image

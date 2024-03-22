@@ -18,7 +18,7 @@
     "code_comment_1": "Geben Sie das Quelldokument an",
     "code_comment_2": "Fügen Sie ein oder mehrere Zieldokumente hinzu",
     "code_comment_3": "Vergleichsoptionen angeben",
-    "code_comment_4": "Führen Sie den Vergleich durch und speichern Sie das resultierende Dokument",
+    "code_comment_4": "Vergleichen und Ergebnis speichern",
     "sample_index_title": "Zwei Dateien vergleichen",
     "sample_index_content": "Um zwei Dokumente zu vergleichen, laden Sie zunächst sowohl die Quell- als auch die Zieldatei und wenden Sie dann die Methode `compare` an. Sie haben die Flexibilität, bestimmte Vergleichseinstellungen für eine maßgeschneidertere Analyse auszuwählen.",
     "overview_title": "{{ProdShortName}} auf einen Blick",

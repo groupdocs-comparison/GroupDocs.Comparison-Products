@@ -18,7 +18,7 @@
     "code_comment_1": "Chỉ định tài liệu nguồn",
     "code_comment_2": "Thêm một hoặc nhiều tài liệu mục tiêu",
     "code_comment_3": "Chỉ định các tùy chọn so sánh",
-    "code_comment_4": "Thực hiện so sánh và lưu tài liệu kết quả",
+    "code_comment_4": "So sánh và lưu kết quả",
     "sample_index_title": "So sánh hai tập tin",
     "sample_index_content": "Để so sánh hai tài liệu, bắt đầu bằng cách tải cả tệp nguồn và tệp đích, sau đó áp dụng phương thức `compare`. Bạn có thể linh hoạt để chọn cài đặt so sánh cụ thể để phân tích phù hợp hơn.",
     "overview_title": "{{ProdShortName}} trong nháy mắt",

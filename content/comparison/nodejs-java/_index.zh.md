@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-21T15:26:29
+date: 2024-03-22T13:27:50
 draft: false
 
 lang: zh
@@ -56,13 +56,17 @@ code:
     ```javascript {style=abap}
 
     // 指定源文档
-    let comparer = new Comparer("source.bmp");
+    const comparer = new Comparer("source.bmp");
 
     // 添加一个或多个目标文档
     comparer.add("target.bmp");
 
     // 指定比较选项
-    comparer.compare("result.bmp"); 
+    const options = new groupdocs.comparison.CompareOptions();
+    options.setGenerateSummaryPage(false);
+
+    // 比较并保存结果
+    await comparer.compare(outputFileName, options);
     ```
 
 ############################# Overview ############################

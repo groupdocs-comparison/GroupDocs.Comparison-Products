@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-21T15:26:12
+date:  2024-03-22T13:27:35
 draft: false
 lang: en
 format: Dicom
@@ -13,7 +13,7 @@ platform_tag: "java"
 
 ############################# Head ############################
 head_title: "Java DICOM Comparison API - Check DICOM Files for Differences"
-head_description: "Compare and merge DICOM files in Java, J2EE, J2SE applications. Analyze differences summary in content, text & style."
+head_description: "Compare DICOM files in Java, J2EE, J2SE applications. Analyze differences summary in content, text & style."
 
 ############################# Header ############################
 title: "Compare DICOM Files in Java" 

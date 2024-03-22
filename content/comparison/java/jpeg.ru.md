@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-21T15:26:18
+date:  2024-03-22T13:27:40
 draft: false
 lang: ru
 format: Jpeg
@@ -12,11 +12,11 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Проанализируйте JPEG s с помощью сравнительных отчетов через Java."
+head_title: "Проанализируйте JPEG файлы с помощью сравнительных отчетов через Java."
 head_description: "Мощный API GroupDocs.Comparison for Java, разработанный для создания полезных отчетов о различиях для JPEG изображений. Поддерживаются J2EE и J2SE."
 
 ############################# Header ############################
-title: "Сравните JPEG изображений с нашей библиотекой Java" 
+title: "Сравните JPEG изображения с нашей библиотекой Java" 
 description: "Приложения Java, J2EE или J2SE на базе API GroupDocs.Comparison позволяют легко получать подробные отчеты о различиях на JPEG изображениях."
 subtitle: "Система проверки различий в документах"  
 
@@ -24,7 +24,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Скачать бесплатно Maven"
+    - title: "Скачать бесплатно в Maven"
       link: "https://releases.groupdocs.com/comparison/java/"
       
 ############################# About ############################
@@ -46,7 +46,7 @@ steps:
       
       1. Включите пакет GroupDocs.Comparison for Java в свой проект от [Maven](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/)
       2. Создайте экземпляр Comparer с помощью пути к изображению JPEG
-      3. Добавить JPEG файлов к сравнению
+      3. Добавьте файлы JPEG к сравнению
       4. Получите итоговый отчет
    
     code:
@@ -125,85 +125,85 @@ more_formats:
     description: "Любые изменения в JPEG изображениях могут быть обнаружены с помощью GroupDocs.Comparison for Java. Включите подробные отчеты в свои бизнес-процессы."
     items: 
         # format loop 1
-        - name: "Сравните PDF файлы"
+        - name: "Сравнение PDF файлов"
           format: "PDF"
           link: "/comparison/java/pdf/"
           description: "Формат документа Adobe Portable"
 
         # format loop 2
-        - name: "Сравните DOCX файлы"
+        - name: "Сравнение DOCX файлов"
           format: "DOCX"
           link: "/comparison/java/docx/"
-          description: "Открыть XML-документ Microsoft Word"
+          description: "Microsoft Word Open XML документ"
 
         # format loop 3
-        - name: "Сравните RTF файлы"
+        - name: "Сравнение RTF файлов"
           format: "RTF"
           link: "/comparison/java/rtf/"
           description: "Формат файла с расширенным текстовым форматом"
 
         # format loop 4
-        - name: "Сравните TXT файлы"
+        - name: "Сравнение TXT файлов"
           format: "TXT"
           link: "/comparison/java/txt/"
           description: "Формат файла в виде простого текста"
 
         # format loop 5
-        - name: "Сравните XLSX файлы"
+        - name: "Сравнение XLSX файлов"
           format: "XLSX"
           link: "/comparison/java/xlsx/"
           description: "Открытая электронная таблица XML от Майкрософт Excel"
 
         # format loop 6
-        - name: "Сравните CSV-файлы"
+        - name: "Сравнение CSV-файлов"
           format: "CSV"
           link: "/comparison/java/csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop 7
-        - name: "Сравните PPTX файлы"
+        - name: "Сравнение PPTX файлов"
           format: "PPTX"
           link: "/comparison/java/pptx/"
           description: "PowerPoint Открытая презентация XML"
 
         # format loop 8
-        - name: "Сравните ODS файлы"
+        - name: "Сравнение ODS файлов"
           format: "ODS"
           link: "/comparison/java/ods/"
           description: "Open Document Электронная таблица"
 
         # format loop 9
-        - name: "Сравните файлы ODP"
+        - name: "Сравнение файлов ODP"
           format: "ODP"
           link: "/comparison/java/odp/"
           description: "OpenDocument Формат файла презентации"
 
         # format loop 10
-        - name: "Сравните файлы ODT"
+        - name: "Сравнение файлов ODT"
           format: "ODT"
           link: "/comparison/java/odt/"
           description: "Open Document Текст"
 
         # format loop 11
-        - name: "Сравните файлы JPEG"
+        - name: "Сравнение файлов JPEG"
           format: "JPEG"
           link: "/comparison/java/jpeg/"
           description: "JPEG Изображение"
 
         # format loop 12
-        - name: "Сравните PNG файлы"
+        - name: "Сравнение PNG файлов"
           format: "PNG"
           link: "/comparison/java/png/"
           description: "Portable Сетевая графика"
 
         # format loop 13
-        - name: "Сравните GIF файлы"
+        - name: "Сравнение GIF файлов"
           format: "GIF"
           link: "/comparison/java/gif/"
           description: "Файл формата графического обмена"
 
         # format loop 14
-        - name: "Сравните BMP файлы"
+        - name: "Сравнение BMP файлов"
           format: "BMP"
           link: "/comparison/java/bmp/"
           description: "Формат растрового файла"
@@ -215,38 +215,38 @@ more_formats:
           description: "Язык гипертекстовой разметки"
 
         # format loop 16
-        - name: "Сравните MSG файлы"
+        - name: "Сравнение MSG файлов"
           format: "MSG"
           link: "/comparison/java/msg/"
           description: "Сообщение электронной почты Microsoft Outlook"
 
         # format loop 17
-        - name: "Сравните ONE файлы"
+        - name: "Сравнение ONE файлов"
           format: "ONE"
           link: "/comparison/java/one/"
           description: "Майкрософт OneNote"
 
         # format loop 18
-        - name: "Сравните VSDX файлы"
+        - name: "Сравнение VSDX файлов"
           format: "VSDX"
           link: "/comparison/java/vsdx/"
           description: "Чертеж Майкрософт Visio"
 
         # format loop 19
-        - name: "Сравните файлы CS"
+        - name: "Сравнение файлов CS"
           format: "CS"
           link: "/comparison/java/cs/"
           description: "Язык программирования CSharp"
 
         # format loop 20
-        - name: "Сравните Java файлы"
+        - name: "Сравнение Java файлов"
           format: "Java"
           link: "/comparison/java/java/"
-          description: "Java Язык"
+          description: "Файлы кода на языке Java"
           
         # format loop 21
         - name: "Сравнение файлов CPP"
           format: "CPP"
           link: "/comparison/java/cpp/"
-          description: "Язык C++"
+          description: "Файлы кода на языке C++"
 ---

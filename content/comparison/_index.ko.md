@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-03-21T15:26:29
+date:  2024-03-22T13:27:50
 draft: false
 
 product: "Comparison"
@@ -170,7 +170,7 @@ code_samples:
                           // 비교 옵션 지정
                           CompareOptions options = new CompareOptions() {ShowRevisions = false};
 
-                          // 비교를 수행하고 결과 문서를 저장합니다.
+                          // 이미 번역됨
                           comparer.Compare("result.docx", options);
                         }                    
                     </code>
@@ -191,7 +191,7 @@ code_samples:
                           CompareOptions options = new CompareOptions();
                           options.setShowRevisions(false);
 
-                          // 비교를 수행하고 결과 문서를 저장합니다.
+                          // 이미 번역됨
                           final comparer.compare("result.docx", options);
                         }
                     </code>
@@ -212,7 +212,7 @@ code_samples:
                         const options = new groupdocs.comparison.CompareOptions();
                         options.setShowRevisions(false);
 
-                        // 비교를 수행하고 결과 문서를 저장합니다.
+                        // 이미 번역됨
                         comparer.compare("result.docx", options);    
                     </code>
 

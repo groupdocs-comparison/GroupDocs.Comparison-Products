@@ -18,7 +18,7 @@
     "code_comment_1": "Spécifiez le document source",
     "code_comment_2": "Ajouter un ou plusieurs documents cibles",
     "code_comment_3": "Spécifier les options de comparaison",
-    "code_comment_4": "Effectuez la comparaison et enregistrez le document obtenu",
+    "code_comment_4": "Comparer et enregistrer le résultat",
     "sample_index_title": "Comparaison de deux fichiers",
     "sample_index_content": "Pour comparer deux documents, commencez par charger les fichiers source et cible, puis appliquez la méthode « compare ». Vous avez la possibilité de choisir des paramètres de comparaison spécifiques pour une analyse plus personnalisée.",
     "overview_title": "{{ProdShortName}} en un coup d'œil",

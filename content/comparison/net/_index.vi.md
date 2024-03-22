@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-21T15:26:29
+date: 2024-03-22T13:27:50
 draft: false
 
 lang: vi
@@ -64,7 +64,7 @@ code:
         CompareOptions options = new CompareOptions() 
         {ShowRevisions = false};
 
-        // Thực hiện so sánh và lưu tài liệu kết quả
+        // So sánh và lưu kết quả
         comparer.Compare("result.docx", options);
     }
     ```
