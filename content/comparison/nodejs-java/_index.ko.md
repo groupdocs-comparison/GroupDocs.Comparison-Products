@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-22T13:27:50
+date: 2024-04-02T14:08:51
 draft: false
 
 lang: ko
@@ -38,7 +38,7 @@ actions:
   main: "무료 NPM 다운로드"
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.comparison"
   alt: "라이선싱"
-  alt_link: "https://purchase.groupdocs.com/pricing/comparison/java/"
+  alt_link: "https://purchase.groupdocs.com/pricing/comparison/nodejs-java/"
   title: "시작할 준비가 되셨나요?"
   description: "GroupDocs.Comparison 기능을 무료로 체험하거나 라이선스를 요청하세요"
 

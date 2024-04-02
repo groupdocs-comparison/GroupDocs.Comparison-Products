@@ -68,14 +68,14 @@
       "productUrl": "https://products.groupdocs.com/comparison/nodejs-java/",
       "packageStoreName": "NPM",
       "packageUrl": "https://www.npmjs.com/package/@groupdocs/groupdocs.comparison",
-      "pricesUrl": "https://purchase.groupdocs.com/pricing/comparison/java/",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/comparison/nodejs-java/",
       "docsUrl": "https://docs.groupdocs.com/comparison/nodejs-java/",
       "supportedFormatsUrl": "https://docs.groupdocs.com/comparison/nodejs-java/supported-document-formats/",
       "sample1Url": "https://docs.groupdocs.com/comparison/nodejs-java/load-password-protected-documents/",
       "sample2Url": "https://docs.groupdocs.com/comparison/nodejs-java/compare-multiple-documents/",
 
-      "more_link": "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Node.js-via-Java", 
-      "release_downloads": "https://releases.groupdocs.com/comparison/nodejs-java/" 
+      "more_link": "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Node.js-via-Java",
+      "release_downloads": "https://releases.groupdocs.com/comparison/nodejs-java/"
 
 
     }
