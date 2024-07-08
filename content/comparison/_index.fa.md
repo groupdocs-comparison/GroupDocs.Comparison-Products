@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-07-08T14:38:37
+date:  2024-07-08T16:30:19
 draft: false
 
 product: "Comparison"
@@ -147,13 +147,13 @@ features:
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "GroupDocs.Conversion code samples"
-  description: "Some use cases of typical GroupDocs.Conversion operations in C#, Java, TypeScript"
+  title: "نمایشگاه کد عملی"
+  description: "برخی از موارد استفاده از عملیات معمولی GroupDocs.Comparison."
   items:
     # code sample loop
-    - title: "Convert PDF to DOCX in several lines of code"
+    - title: "مقایسه دو فایل"
       content: |
-       With GroupDocs.Conversion, you can convert a PDF file to DOCX effortlessly - all you need is just a couple of lines of code. It also doesn't require any third-party software like Microsoft Word or Adobe Acrobat. Here's an example of how it can be achieved:
+       برای مقایسه دو سند، با بارگذاری هر دو فایل منبع و هدف شروع کنید و سپس روش `compare` را اعمال کنید. شما انعطاف پذیری را دارید که تنظیمات مقایسه خاص را برای تجزیه و تحلیل متناسب تر انتخاب کنید.
       samples:
         - language: "C#"
           color: "blue"
@@ -169,7 +169,6 @@ code_samples:
                 CompareOptions options = new CompareOptions() {ShowRevisions = false};
                 // مقایسه و ذخیره نتیجه
                 comparer.Compare("result.docx", options);
-
             }
             ```
         - language: "Java"
@@ -181,6 +180,7 @@ code_samples:
             {
                 // اضافه کردن یک یا چند سند هدف
                 comparer.add("target.docx");
+
                 // گزینه های مقایسه را مشخص کنید
                 CompareOptions options = new CompareOptions();
                 options.setShowRevisions(false);

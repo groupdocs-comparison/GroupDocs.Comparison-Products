@@ -149,13 +149,13 @@ features:
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "GroupDocs.Conversion code samples"
-  description: "Some use cases of typical GroupDocs.Conversion operations in C#, Java, TypeScript"
+  title: "<% "{index-content.code_samples.index_title}" %>"
+  description: "<% "{index-content.code_samples.index_description}" %>"
   items:
     # code sample loop
-    - title: "Convert PDF to DOCX in several lines of code"
+    - title: "<% "{index-content.sample_index_title}" %>"
       content: |
-       With GroupDocs.Conversion, you can convert a PDF file to DOCX effortlessly - all you need is just a couple of lines of code. It also doesn't require any third-party software like Microsoft Word or Adobe Acrobat. Here's an example of how it can be achieved:
+       <% "{index-content.sample_index_content}" %>
       samples:
         - language: "C#"
           color: "blue"
@@ -171,7 +171,6 @@ code_samples:
                 CompareOptions options = new CompareOptions() {ShowRevisions = false};
                 // <% "{index-content.code_comment_4}" %>
                 comparer.Compare("result.docx", options);
-
             }
             ```
         - language: "Java"
@@ -183,6 +182,7 @@ code_samples:
             {
                 // <% "{index-content.code_comment_2}" %>
                 comparer.add("target.docx");
+
                 // <% "{index-content.code_comment_3}" %>
                 CompareOptions options = new CompareOptions();
                 options.setShowRevisions(false);

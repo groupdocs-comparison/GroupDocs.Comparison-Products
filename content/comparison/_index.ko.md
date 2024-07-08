@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-07-08T14:38:37
+date:  2024-07-08T16:30:19
 draft: false
 
 product: "Comparison"
@@ -147,13 +147,13 @@ features:
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "GroupDocs.Conversion code samples"
-  description: "Some use cases of typical GroupDocs.Conversion operations in C#, Java, TypeScript"
+  title: "실용 코드 쇼케이스"
+  description: "일반적인 GroupDocs.Comparison 작업의 일부 사용 사례"
   items:
     # code sample loop
-    - title: "Convert PDF to DOCX in several lines of code"
+    - title: "두 파일 비교"
       content: |
-       With GroupDocs.Conversion, you can convert a PDF file to DOCX effortlessly - all you need is just a couple of lines of code. It also doesn't require any third-party software like Microsoft Word or Adobe Acrobat. Here's an example of how it can be achieved:
+       두 문서를 비교하려면 먼저 소스 파일과 대상 파일을 모두 로드한 다음 `compare` 메서드를 적용합니다.보다 맞춤화된 분석을 위해 특정 비교 설정을 유연하게 선택할 수 있습니다.
       samples:
         - language: "C#"
           color: "blue"
@@ -169,7 +169,6 @@ code_samples:
                 CompareOptions options = new CompareOptions() {ShowRevisions = false};
                 // 이미 번역됨
                 comparer.Compare("result.docx", options);
-
             }
             ```
         - language: "Java"
@@ -181,6 +180,7 @@ code_samples:
             {
                 // 하나 이상의 대상 문서 추가
                 comparer.add("target.docx");
+
                 // 비교 옵션 지정
                 CompareOptions options = new CompareOptions();
                 options.setShowRevisions(false);
