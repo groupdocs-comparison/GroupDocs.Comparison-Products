@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-07-08T14:38:37
+date:  2024-07-08T16:30:19
 draft: false
 
 product: "Comparison"
@@ -147,13 +147,13 @@ features:
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "GroupDocs.Conversion code samples"
-  description: "Some use cases of typical GroupDocs.Conversion operations in C#, Java, TypeScript"
+  title: "実用的なコードショーケース"
+  description: "一般的な GroupDocs.Comparison 操作のいくつかのユースケース。"
   items:
     # code sample loop
-    - title: "Convert PDF to DOCX in several lines of code"
+    - title: "2 つのファイルの比較"
       content: |
-       With GroupDocs.Conversion, you can convert a PDF file to DOCX effortlessly - all you need is just a couple of lines of code. It also doesn't require any third-party software like Microsoft Word or Adobe Acrobat. Here's an example of how it can be achieved:
+       2 つの文書を比較するには、まずソースファイルとターゲットファイルの両方を読み込み、次に `compare` メソッドを適用します。特定の比較設定を柔軟に選択して、よりカスタマイズされた分析を行うことができます。
       samples:
         - language: "C#"
           color: "blue"
@@ -169,7 +169,6 @@ code_samples:
                 CompareOptions options = new CompareOptions() {ShowRevisions = false};
                 // 比較して結果を保存する
                 comparer.Compare("result.docx", options);
-
             }
             ```
         - language: "Java"
@@ -181,6 +180,7 @@ code_samples:
             {
                 // 1 つまたは複数のターゲットドキュメントを追加
                 comparer.add("target.docx");
+
                 // 比較オプションを指定
                 CompareOptions options = new CompareOptions();
                 options.setShowRevisions(false);
