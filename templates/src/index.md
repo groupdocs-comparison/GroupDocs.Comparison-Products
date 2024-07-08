@@ -146,77 +146,69 @@ features:
       title: "<% "{index-content.features.feature_4.title}" %>"
       content: "<% "{index-content.features.feature_4.content}" %>"
 
-############################# Code Samples ###############################
+############################# Code samples ############################
 code_samples:
   enable: true
-  title: "<% "{index-content.code_samples.index_title}" %>"
-  description: "<% "{index-content.code_samples.index_description}" %>"
-
+  title: "GroupDocs.Conversion code samples"
+  description: "Some use cases of typical GroupDocs.Conversion operations in C#, Java, TypeScript"
   items:
-    # items loop
-    - title: "<% "{index-content.sample_index_title}" %>"
-      content: "<% "{index-content.sample_index_content}" %>"
+    # code sample loop
+    - title: "Convert PDF to DOCX in several lines of code"
+      content: |
+       With GroupDocs.Conversion, you can convert a PDF file to DOCX effortlessly - all you need is just a couple of lines of code. It also doesn't require any third-party software like Microsoft Word or Adobe Acrobat. Here's an example of how it can be achieved:
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // <% "{index-content.code_comment_1}" %>
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}   
+            // <% "{index-content.code_comment_1}" %>
+            using (Comparer comparer = new Comparer("source.docx"))
+            {
+                // <% "{index-content.code_comment_2}" %>
+                comparer.Add(target.docx");
 
-                        using (Comparer comparer = new Comparer("source.docx"))
-                        {
-                          // <% "{index-content.code_comment_2}" %>
-                          comparer.Add(target.docx");
+                // <% "{index-content.code_comment_3}" %>
+                CompareOptions options = new CompareOptions() {ShowRevisions = false};
+                // <% "{index-content.code_comment_4}" %>
+                comparer.Compare("result.docx", options);
 
-                          // <% "{index-content.code_comment_3}" %>
-                          CompareOptions options = new CompareOptions() {ShowRevisions = false};
+            }
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // <% "{index-content.code_comment_1}" %>
+            try (Comparer comparer = new Comparer("source.docx"))
+            {
+                // <% "{index-content.code_comment_2}" %>
+                comparer.add("target.docx");
+                // <% "{index-content.code_comment_3}" %>
+                CompareOptions options = new CompareOptions();
+                options.setShowRevisions(false);
 
-                          // <% "{index-content.code_comment_4}" %>
-                          comparer.Compare("result.docx", options);
-                        }                    
-                    </code>
+                // <% "{index-content.code_comment_4}" %>
+                final comparer.compare("result.docx", options);
+            }
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}  
+            // <% "{index-content.code_comment_1}" %>
+            const comparer = new groupdocs.comparison.Comparer("source.docx");
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // <% "{index-content.code_comment_1}" %>
+            // <% "{index-content.code_comment_2}" %>
+            comparer.add("target.docx");
 
-                        try (Comparer comparer = new Comparer("source.docx"))
-                        {
-                          // <% "{index-content.code_comment_2}" %>
-                          comparer.add("target.docx");
+            // <% "{index-content.code_comment_3}" %>
+            const options = new groupdocs.comparison.CompareOptions();
+            options.setShowRevisions(false);
 
-                          // <% "{index-content.code_comment_3}" %>
-                          CompareOptions options = new CompareOptions();
-                          options.setShowRevisions(false);
+            // <% "{index-content.code_comment_4}" %>
+            comparer.compare("result.docx", options);
+            ```
 
-                          // <% "{index-content.code_comment_4}" %>
-                          final comparer.compare("result.docx", options);
-                        }
-                    </code>
-
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // <% "{index-content.code_comment_1}" %>
-
-                        const comparer = new groupdocs.comparison.Comparer("source.docx");
-    
-                        // <% "{index-content.code_comment_2}" %>
-                        comparer.add("target.docx");
-
-                        // <% "{index-content.code_comment_3}" %>
-                        const options = new groupdocs.comparison.CompareOptions();
-                        options.setShowRevisions(false);
-
-                        // <% "{index-content.code_comment_4}" %>
-                        comparer.compare("result.docx", options);    
-                    </code>
 
 ############################# Supported Formats ###############################
 formats:

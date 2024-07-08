@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-03-22T13:27:50
+date:  2024-07-08T14:38:37
 draft: false
 
 product: "Comparison"
@@ -144,77 +144,69 @@ features:
       title: "Confronta pagine specifiche"
       content: "Carica solo le sezioni o pagine particolari del documento da confrontare."
 
-############################# Code Samples ###############################
+############################# Code samples ############################
 code_samples:
   enable: true
-  title: "Pratica vetrina dei codici"
-  description: "Alcuni casi d'uso delle operazioni tipiche di GroupDocs.Comparison."
-
+  title: "GroupDocs.Conversion code samples"
+  description: "Some use cases of typical GroupDocs.Conversion operations in C#, Java, TypeScript"
   items:
-    # items loop
-    - title: "Confronto tra due file"
-      content: "Per confrontare due documenti, inizia caricando sia il file di origine che quello di destinazione, quindi applica il metodo compare. Hai la flessibilità di scegliere impostazioni di confronto specifiche per un'analisi più personalizzata."
+    # code sample loop
+    - title: "Convert PDF to DOCX in several lines of code"
+      content: |
+       With GroupDocs.Conversion, you can convert a PDF file to DOCX effortlessly - all you need is just a couple of lines of code. It also doesn't require any third-party software like Microsoft Word or Adobe Acrobat. Here's an example of how it can be achieved:
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // Specifica il documento di origine
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}   
+            // Specifica il documento di origine
+            using (Comparer comparer = new Comparer("source.docx"))
+            {
+                // Aggiungere uno o più documenti di destinazione
+                comparer.Add(target.docx");
 
-                        using (Comparer comparer = new Comparer("source.docx"))
-                        {
-                          // Aggiungere uno o più documenti di destinazione
-                          comparer.Add(target.docx");
+                // Specifica le opzioni di confronto
+                CompareOptions options = new CompareOptions() {ShowRevisions = false};
+                // Confronta e salva risultato
+                comparer.Compare("result.docx", options);
 
-                          // Specifica le opzioni di confronto
-                          CompareOptions options = new CompareOptions() {ShowRevisions = false};
+            }
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // Specifica il documento di origine
+            try (Comparer comparer = new Comparer("source.docx"))
+            {
+                // Aggiungere uno o più documenti di destinazione
+                comparer.add("target.docx");
+                // Specifica le opzioni di confronto
+                CompareOptions options = new CompareOptions();
+                options.setShowRevisions(false);
 
-                          // Confronta e salva risultato
-                          comparer.Compare("result.docx", options);
-                        }                    
-                    </code>
+                // Confronta e salva risultato
+                final comparer.compare("result.docx", options);
+            }
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}  
+            // Specifica il documento di origine
+            const comparer = new groupdocs.comparison.Comparer("source.docx");
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // Specifica il documento di origine
+            // Aggiungere uno o più documenti di destinazione
+            comparer.add("target.docx");
 
-                        try (Comparer comparer = new Comparer("source.docx"))
-                        {
-                          // Aggiungere uno o più documenti di destinazione
-                          comparer.add("target.docx");
+            // Specifica le opzioni di confronto
+            const options = new groupdocs.comparison.CompareOptions();
+            options.setShowRevisions(false);
 
-                          // Specifica le opzioni di confronto
-                          CompareOptions options = new CompareOptions();
-                          options.setShowRevisions(false);
+            // Confronta e salva risultato
+            comparer.compare("result.docx", options);
+            ```
 
-                          // Confronta e salva risultato
-                          final comparer.compare("result.docx", options);
-                        }
-                    </code>
-
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // Specifica il documento di origine
-
-                        const comparer = new groupdocs.comparison.Comparer("source.docx");
-    
-                        // Aggiungere uno o più documenti di destinazione
-                        comparer.add("target.docx");
-
-                        // Specifica le opzioni di confronto
-                        const options = new groupdocs.comparison.CompareOptions();
-                        options.setShowRevisions(false);
-
-                        // Confronta e salva risultato
-                        comparer.compare("result.docx", options);    
-                    </code>
 
 ############################# Supported Formats ###############################
 formats:

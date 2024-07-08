@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-03-22T13:27:50
+date:  2024-07-08T14:38:37
 draft: false
 
 product: "Comparison"
@@ -144,77 +144,69 @@ features:
       title: "특정 페이지 비교"
       content: "비교할 문서의 특정 섹션 또는 페이지만 로드합니다."
 
-############################# Code Samples ###############################
+############################# Code samples ############################
 code_samples:
   enable: true
-  title: "실용 코드 쇼케이스"
-  description: "일반적인 GroupDocs.Comparison 작업의 일부 사용 사례"
-
+  title: "GroupDocs.Conversion code samples"
+  description: "Some use cases of typical GroupDocs.Conversion operations in C#, Java, TypeScript"
   items:
-    # items loop
-    - title: "두 파일 비교"
-      content: "두 문서를 비교하려면 먼저 소스 파일과 대상 파일을 모두 로드한 다음 `compare` 메서드를 적용합니다.보다 맞춤화된 분석을 위해 특정 비교 설정을 유연하게 선택할 수 있습니다."
+    # code sample loop
+    - title: "Convert PDF to DOCX in several lines of code"
+      content: |
+       With GroupDocs.Conversion, you can convert a PDF file to DOCX effortlessly - all you need is just a couple of lines of code. It also doesn't require any third-party software like Microsoft Word or Adobe Acrobat. Here's an example of how it can be achieved:
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // 원본 문서 지정
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}   
+            // 원본 문서 지정
+            using (Comparer comparer = new Comparer("source.docx"))
+            {
+                // 하나 이상의 대상 문서 추가
+                comparer.Add(target.docx");
 
-                        using (Comparer comparer = new Comparer("source.docx"))
-                        {
-                          // 하나 이상의 대상 문서 추가
-                          comparer.Add(target.docx");
+                // 비교 옵션 지정
+                CompareOptions options = new CompareOptions() {ShowRevisions = false};
+                // 이미 번역됨
+                comparer.Compare("result.docx", options);
 
-                          // 비교 옵션 지정
-                          CompareOptions options = new CompareOptions() {ShowRevisions = false};
+            }
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // 원본 문서 지정
+            try (Comparer comparer = new Comparer("source.docx"))
+            {
+                // 하나 이상의 대상 문서 추가
+                comparer.add("target.docx");
+                // 비교 옵션 지정
+                CompareOptions options = new CompareOptions();
+                options.setShowRevisions(false);
 
-                          // 이미 번역됨
-                          comparer.Compare("result.docx", options);
-                        }                    
-                    </code>
+                // 이미 번역됨
+                final comparer.compare("result.docx", options);
+            }
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}  
+            // 원본 문서 지정
+            const comparer = new groupdocs.comparison.Comparer("source.docx");
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // 원본 문서 지정
+            // 하나 이상의 대상 문서 추가
+            comparer.add("target.docx");
 
-                        try (Comparer comparer = new Comparer("source.docx"))
-                        {
-                          // 하나 이상의 대상 문서 추가
-                          comparer.add("target.docx");
+            // 비교 옵션 지정
+            const options = new groupdocs.comparison.CompareOptions();
+            options.setShowRevisions(false);
 
-                          // 비교 옵션 지정
-                          CompareOptions options = new CompareOptions();
-                          options.setShowRevisions(false);
+            // 이미 번역됨
+            comparer.compare("result.docx", options);
+            ```
 
-                          // 이미 번역됨
-                          final comparer.compare("result.docx", options);
-                        }
-                    </code>
-
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // 원본 문서 지정
-
-                        const comparer = new groupdocs.comparison.Comparer("source.docx");
-    
-                        // 하나 이상의 대상 문서 추가
-                        comparer.add("target.docx");
-
-                        // 비교 옵션 지정
-                        const options = new groupdocs.comparison.CompareOptions();
-                        options.setShowRevisions(false);
-
-                        // 이미 번역됨
-                        comparer.compare("result.docx", options);    
-                    </code>
 
 ############################# Supported Formats ###############################
 formats:

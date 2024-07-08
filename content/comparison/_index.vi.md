@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-03-22T13:27:50
+date:  2024-07-08T14:38:37
 draft: false
 
 product: "Comparison"
@@ -144,77 +144,69 @@ features:
       title: "So sánh các trang cụ thể"
       content: "Chỉ tải các phần hoặc trang cụ thể của tài liệu để so sánh."
 
-############################# Code Samples ###############################
+############################# Code samples ############################
 code_samples:
   enable: true
-  title: "Giới thiệu mã thực tế"
-  description: "Một số trường hợp sử dụng của hoạt động GroupDocs.Comparison điển hình."
-
+  title: "GroupDocs.Conversion code samples"
+  description: "Some use cases of typical GroupDocs.Conversion operations in C#, Java, TypeScript"
   items:
-    # items loop
-    - title: "So sánh hai tập tin"
-      content: "Để so sánh hai tài liệu, bắt đầu bằng cách tải cả tệp nguồn và tệp đích, sau đó áp dụng phương thức `compare`. Bạn có thể linh hoạt để chọn cài đặt so sánh cụ thể để phân tích phù hợp hơn."
+    # code sample loop
+    - title: "Convert PDF to DOCX in several lines of code"
+      content: |
+       With GroupDocs.Conversion, you can convert a PDF file to DOCX effortlessly - all you need is just a couple of lines of code. It also doesn't require any third-party software like Microsoft Word or Adobe Acrobat. Here's an example of how it can be achieved:
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // Chỉ định tài liệu nguồn
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}   
+            // Chỉ định tài liệu nguồn
+            using (Comparer comparer = new Comparer("source.docx"))
+            {
+                // Thêm một hoặc nhiều tài liệu mục tiêu
+                comparer.Add(target.docx");
 
-                        using (Comparer comparer = new Comparer("source.docx"))
-                        {
-                          // Thêm một hoặc nhiều tài liệu mục tiêu
-                          comparer.Add(target.docx");
+                // Chỉ định các tùy chọn so sánh
+                CompareOptions options = new CompareOptions() {ShowRevisions = false};
+                // So sánh và lưu kết quả
+                comparer.Compare("result.docx", options);
 
-                          // Chỉ định các tùy chọn so sánh
-                          CompareOptions options = new CompareOptions() {ShowRevisions = false};
+            }
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // Chỉ định tài liệu nguồn
+            try (Comparer comparer = new Comparer("source.docx"))
+            {
+                // Thêm một hoặc nhiều tài liệu mục tiêu
+                comparer.add("target.docx");
+                // Chỉ định các tùy chọn so sánh
+                CompareOptions options = new CompareOptions();
+                options.setShowRevisions(false);
 
-                          // So sánh và lưu kết quả
-                          comparer.Compare("result.docx", options);
-                        }                    
-                    </code>
+                // So sánh và lưu kết quả
+                final comparer.compare("result.docx", options);
+            }
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}  
+            // Chỉ định tài liệu nguồn
+            const comparer = new groupdocs.comparison.Comparer("source.docx");
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // Chỉ định tài liệu nguồn
+            // Thêm một hoặc nhiều tài liệu mục tiêu
+            comparer.add("target.docx");
 
-                        try (Comparer comparer = new Comparer("source.docx"))
-                        {
-                          // Thêm một hoặc nhiều tài liệu mục tiêu
-                          comparer.add("target.docx");
+            // Chỉ định các tùy chọn so sánh
+            const options = new groupdocs.comparison.CompareOptions();
+            options.setShowRevisions(false);
 
-                          // Chỉ định các tùy chọn so sánh
-                          CompareOptions options = new CompareOptions();
-                          options.setShowRevisions(false);
+            // So sánh và lưu kết quả
+            comparer.compare("result.docx", options);
+            ```
 
-                          // So sánh và lưu kết quả
-                          final comparer.compare("result.docx", options);
-                        }
-                    </code>
-
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // Chỉ định tài liệu nguồn
-
-                        const comparer = new groupdocs.comparison.Comparer("source.docx");
-    
-                        // Thêm một hoặc nhiều tài liệu mục tiêu
-                        comparer.add("target.docx");
-
-                        // Chỉ định các tùy chọn so sánh
-                        const options = new groupdocs.comparison.CompareOptions();
-                        options.setShowRevisions(false);
-
-                        // So sánh và lưu kết quả
-                        comparer.compare("result.docx", options);    
-                    </code>
 
 ############################# Supported Formats ###############################
 formats:

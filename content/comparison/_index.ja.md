@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-03-22T13:27:50
+date:  2024-07-08T14:38:37
 draft: false
 
 product: "Comparison"
@@ -144,77 +144,69 @@ features:
       title: "特定のページを比較する"
       content: "比較する文書の特定のセクションまたはページだけをロードします。"
 
-############################# Code Samples ###############################
+############################# Code samples ############################
 code_samples:
   enable: true
-  title: "実用的なコードショーケース"
-  description: "一般的な GroupDocs.Comparison 操作のいくつかのユースケース。"
-
+  title: "GroupDocs.Conversion code samples"
+  description: "Some use cases of typical GroupDocs.Conversion operations in C#, Java, TypeScript"
   items:
-    # items loop
-    - title: "2 つのファイルの比較"
-      content: "2 つの文書を比較するには、まずソースファイルとターゲットファイルの両方を読み込み、次に `compare` メソッドを適用します。特定の比較設定を柔軟に選択して、よりカスタマイズされた分析を行うことができます。"
+    # code sample loop
+    - title: "Convert PDF to DOCX in several lines of code"
+      content: |
+       With GroupDocs.Conversion, you can convert a PDF file to DOCX effortlessly - all you need is just a couple of lines of code. It also doesn't require any third-party software like Microsoft Word or Adobe Acrobat. Here's an example of how it can be achieved:
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // ソースドキュメントを指定
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}   
+            // ソースドキュメントを指定
+            using (Comparer comparer = new Comparer("source.docx"))
+            {
+                // 1 つまたは複数のターゲットドキュメントを追加
+                comparer.Add(target.docx");
 
-                        using (Comparer comparer = new Comparer("source.docx"))
-                        {
-                          // 1 つまたは複数のターゲットドキュメントを追加
-                          comparer.Add(target.docx");
+                // 比較オプションを指定
+                CompareOptions options = new CompareOptions() {ShowRevisions = false};
+                // 比較して結果を保存する
+                comparer.Compare("result.docx", options);
 
-                          // 比較オプションを指定
-                          CompareOptions options = new CompareOptions() {ShowRevisions = false};
+            }
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // ソースドキュメントを指定
+            try (Comparer comparer = new Comparer("source.docx"))
+            {
+                // 1 つまたは複数のターゲットドキュメントを追加
+                comparer.add("target.docx");
+                // 比較オプションを指定
+                CompareOptions options = new CompareOptions();
+                options.setShowRevisions(false);
 
-                          // 比較して結果を保存する
-                          comparer.Compare("result.docx", options);
-                        }                    
-                    </code>
+                // 比較して結果を保存する
+                final comparer.compare("result.docx", options);
+            }
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}  
+            // ソースドキュメントを指定
+            const comparer = new groupdocs.comparison.Comparer("source.docx");
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // ソースドキュメントを指定
+            // 1 つまたは複数のターゲットドキュメントを追加
+            comparer.add("target.docx");
 
-                        try (Comparer comparer = new Comparer("source.docx"))
-                        {
-                          // 1 つまたは複数のターゲットドキュメントを追加
-                          comparer.add("target.docx");
+            // 比較オプションを指定
+            const options = new groupdocs.comparison.CompareOptions();
+            options.setShowRevisions(false);
 
-                          // 比較オプションを指定
-                          CompareOptions options = new CompareOptions();
-                          options.setShowRevisions(false);
+            // 比較して結果を保存する
+            comparer.compare("result.docx", options);
+            ```
 
-                          // 比較して結果を保存する
-                          final comparer.compare("result.docx", options);
-                        }
-                    </code>
-
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // ソースドキュメントを指定
-
-                        const comparer = new groupdocs.comparison.Comparer("source.docx");
-    
-                        // 1 つまたは複数のターゲットドキュメントを追加
-                        comparer.add("target.docx");
-
-                        // 比較オプションを指定
-                        const options = new groupdocs.comparison.CompareOptions();
-                        options.setShowRevisions(false);
-
-                        // 比較して結果を保存する
-                        comparer.compare("result.docx", options);    
-                    </code>
 
 ############################# Supported Formats ###############################
 formats:

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-03-22T13:27:50
+date:  2024-07-08T14:38:37
 draft: false
 
 product: "Comparison"
@@ -144,77 +144,69 @@ features:
       title: "Comparez des pages spécifiques"
       content: "Chargez uniquement les sections ou pages spécifiques du document à comparer."
 
-############################# Code Samples ###############################
+############################# Code samples ############################
 code_samples:
   enable: true
-  title: "Présentation pratique du code"
-  description: "Quelques cas d'utilisation d'opérations typiques de GroupDocs.Comparison."
-
+  title: "GroupDocs.Conversion code samples"
+  description: "Some use cases of typical GroupDocs.Conversion operations in C#, Java, TypeScript"
   items:
-    # items loop
-    - title: "Comparaison de deux fichiers"
-      content: "Pour comparer deux documents, commencez par charger les fichiers source et cible, puis appliquez la méthode « compare ». Vous avez la possibilité de choisir des paramètres de comparaison spécifiques pour une analyse plus personnalisée."
+    # code sample loop
+    - title: "Convert PDF to DOCX in several lines of code"
+      content: |
+       With GroupDocs.Conversion, you can convert a PDF file to DOCX effortlessly - all you need is just a couple of lines of code. It also doesn't require any third-party software like Microsoft Word or Adobe Acrobat. Here's an example of how it can be achieved:
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // Spécifiez le document source
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}   
+            // Spécifiez le document source
+            using (Comparer comparer = new Comparer("source.docx"))
+            {
+                // Ajouter un ou plusieurs documents cibles
+                comparer.Add(target.docx");
 
-                        using (Comparer comparer = new Comparer("source.docx"))
-                        {
-                          // Ajouter un ou plusieurs documents cibles
-                          comparer.Add(target.docx");
+                // Spécifier les options de comparaison
+                CompareOptions options = new CompareOptions() {ShowRevisions = false};
+                // Comparer et enregistrer le résultat
+                comparer.Compare("result.docx", options);
 
-                          // Spécifier les options de comparaison
-                          CompareOptions options = new CompareOptions() {ShowRevisions = false};
+            }
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // Spécifiez le document source
+            try (Comparer comparer = new Comparer("source.docx"))
+            {
+                // Ajouter un ou plusieurs documents cibles
+                comparer.add("target.docx");
+                // Spécifier les options de comparaison
+                CompareOptions options = new CompareOptions();
+                options.setShowRevisions(false);
 
-                          // Comparer et enregistrer le résultat
-                          comparer.Compare("result.docx", options);
-                        }                    
-                    </code>
+                // Comparer et enregistrer le résultat
+                final comparer.compare("result.docx", options);
+            }
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}  
+            // Spécifiez le document source
+            const comparer = new groupdocs.comparison.Comparer("source.docx");
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // Spécifiez le document source
+            // Ajouter un ou plusieurs documents cibles
+            comparer.add("target.docx");
 
-                        try (Comparer comparer = new Comparer("source.docx"))
-                        {
-                          // Ajouter un ou plusieurs documents cibles
-                          comparer.add("target.docx");
+            // Spécifier les options de comparaison
+            const options = new groupdocs.comparison.CompareOptions();
+            options.setShowRevisions(false);
 
-                          // Spécifier les options de comparaison
-                          CompareOptions options = new CompareOptions();
-                          options.setShowRevisions(false);
+            // Comparer et enregistrer le résultat
+            comparer.compare("result.docx", options);
+            ```
 
-                          // Comparer et enregistrer le résultat
-                          final comparer.compare("result.docx", options);
-                        }
-                    </code>
-
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // Spécifiez le document source
-
-                        const comparer = new groupdocs.comparison.Comparer("source.docx");
-    
-                        // Ajouter un ou plusieurs documents cibles
-                        comparer.add("target.docx");
-
-                        // Spécifier les options de comparaison
-                        const options = new groupdocs.comparison.CompareOptions();
-                        options.setShowRevisions(false);
-
-                        // Comparer et enregistrer le résultat
-                        comparer.compare("result.docx", options);    
-                    </code>
 
 ############################# Supported Formats ###############################
 formats:

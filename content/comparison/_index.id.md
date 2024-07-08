@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-03-22T13:27:50
+date:  2024-07-08T14:38:37
 draft: false
 
 product: "Comparison"
@@ -144,77 +144,69 @@ features:
       title: "Bandingkan halaman tertentu"
       content: "Muat hanya bagian atau halaman tertentu dari dokumen yang akan dibandingkan."
 
-############################# Code Samples ###############################
+############################# Code samples ############################
 code_samples:
   enable: true
-  title: "Pameran kode praktis"
-  description: "Beberapa kasus penggunaan operasi GroupDocs.Comparison tipikal."
-
+  title: "GroupDocs.Conversion code samples"
+  description: "Some use cases of typical GroupDocs.Conversion operations in C#, Java, TypeScript"
   items:
-    # items loop
-    - title: "Membandingkan dua file"
-      content: "Untuk membandingkan dua dokumen, mulailah dengan memuat file sumber dan target, lalu terapkan metode `compare`. Anda memiliki fleksibilitas untuk memilih pengaturan perbandingan tertentu untuk analisis yang lebih disesuaikan."
+    # code sample loop
+    - title: "Convert PDF to DOCX in several lines of code"
+      content: |
+       With GroupDocs.Conversion, you can convert a PDF file to DOCX effortlessly - all you need is just a couple of lines of code. It also doesn't require any third-party software like Microsoft Word or Adobe Acrobat. Here's an example of how it can be achieved:
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // Tentukan dokumen sumber
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}   
+            // Tentukan dokumen sumber
+            using (Comparer comparer = new Comparer("source.docx"))
+            {
+                // Menambahkan satu atau lebih dokumen target
+                comparer.Add(target.docx");
 
-                        using (Comparer comparer = new Comparer("source.docx"))
-                        {
-                          // Menambahkan satu atau lebih dokumen target
-                          comparer.Add(target.docx");
+                // Tentukan opsi perbandingan
+                CompareOptions options = new CompareOptions() {ShowRevisions = false};
+                // Bandingkan dan simpan hasil
+                comparer.Compare("result.docx", options);
 
-                          // Tentukan opsi perbandingan
-                          CompareOptions options = new CompareOptions() {ShowRevisions = false};
+            }
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // Tentukan dokumen sumber
+            try (Comparer comparer = new Comparer("source.docx"))
+            {
+                // Menambahkan satu atau lebih dokumen target
+                comparer.add("target.docx");
+                // Tentukan opsi perbandingan
+                CompareOptions options = new CompareOptions();
+                options.setShowRevisions(false);
 
-                          // Bandingkan dan simpan hasil
-                          comparer.Compare("result.docx", options);
-                        }                    
-                    </code>
+                // Bandingkan dan simpan hasil
+                final comparer.compare("result.docx", options);
+            }
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}  
+            // Tentukan dokumen sumber
+            const comparer = new groupdocs.comparison.Comparer("source.docx");
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // Tentukan dokumen sumber
+            // Menambahkan satu atau lebih dokumen target
+            comparer.add("target.docx");
 
-                        try (Comparer comparer = new Comparer("source.docx"))
-                        {
-                          // Menambahkan satu atau lebih dokumen target
-                          comparer.add("target.docx");
+            // Tentukan opsi perbandingan
+            const options = new groupdocs.comparison.CompareOptions();
+            options.setShowRevisions(false);
 
-                          // Tentukan opsi perbandingan
-                          CompareOptions options = new CompareOptions();
-                          options.setShowRevisions(false);
+            // Bandingkan dan simpan hasil
+            comparer.compare("result.docx", options);
+            ```
 
-                          // Bandingkan dan simpan hasil
-                          final comparer.compare("result.docx", options);
-                        }
-                    </code>
-
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // Tentukan dokumen sumber
-
-                        const comparer = new groupdocs.comparison.Comparer("source.docx");
-    
-                        // Menambahkan satu atau lebih dokumen target
-                        comparer.add("target.docx");
-
-                        // Tentukan opsi perbandingan
-                        const options = new groupdocs.comparison.CompareOptions();
-                        options.setShowRevisions(false);
-
-                        // Bandingkan dan simpan hasil
-                        comparer.compare("result.docx", options);    
-                    </code>
 
 ############################# Supported Formats ###############################
 formats:
