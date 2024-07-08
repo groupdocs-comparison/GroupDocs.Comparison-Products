@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-03-22T13:27:50
+date:  2024-07-08T14:38:37
 draft: false
 
 product: "Comparison"
@@ -144,77 +144,69 @@ features:
       title: "Порівняйте конкретні сторінки"
       content: "Завантажте лише окремі розділи або сторінки документа, який потрібно порівняти."
 
-############################# Code Samples ###############################
+############################# Code samples ############################
 code_samples:
   enable: true
-  title: "Практична вітрина коду"
-  description: "Деякі випадки використання типових GroupDocs.Comparison операцій."
-
+  title: "GroupDocs.Conversion code samples"
+  description: "Some use cases of typical GroupDocs.Conversion operations in C#, Java, TypeScript"
   items:
-    # items loop
-    - title: "Порівняння двох файлів"
-      content: "Щоб порівняти два документи, почніть із завантаження як вихідного, так і цільового файлів, а потім застосуйте метод `compare`. Ви маєте можливість вибрати конкретні параметри порівняння для більш індивідуального аналізу."
+    # code sample loop
+    - title: "Convert PDF to DOCX in several lines of code"
+      content: |
+       With GroupDocs.Conversion, you can convert a PDF file to DOCX effortlessly - all you need is just a couple of lines of code. It also doesn't require any third-party software like Microsoft Word or Adobe Acrobat. Here's an example of how it can be achieved:
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // Вкажіть вихідний документ
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}   
+            // Вкажіть вихідний документ
+            using (Comparer comparer = new Comparer("source.docx"))
+            {
+                // Додавання одного або декількох цільових документів
+                comparer.Add(target.docx");
 
-                        using (Comparer comparer = new Comparer("source.docx"))
-                        {
-                          // Додавання одного або декількох цільових документів
-                          comparer.Add(target.docx");
+                // Вкажіть параметри порівняння
+                CompareOptions options = new CompareOptions() {ShowRevisions = false};
+                // Порівняти та зберегти результат
+                comparer.Compare("result.docx", options);
 
-                          // Вкажіть параметри порівняння
-                          CompareOptions options = new CompareOptions() {ShowRevisions = false};
+            }
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // Вкажіть вихідний документ
+            try (Comparer comparer = new Comparer("source.docx"))
+            {
+                // Додавання одного або декількох цільових документів
+                comparer.add("target.docx");
+                // Вкажіть параметри порівняння
+                CompareOptions options = new CompareOptions();
+                options.setShowRevisions(false);
 
-                          // Порівняти та зберегти результат
-                          comparer.Compare("result.docx", options);
-                        }                    
-                    </code>
+                // Порівняти та зберегти результат
+                final comparer.compare("result.docx", options);
+            }
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}  
+            // Вкажіть вихідний документ
+            const comparer = new groupdocs.comparison.Comparer("source.docx");
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // Вкажіть вихідний документ
+            // Додавання одного або декількох цільових документів
+            comparer.add("target.docx");
 
-                        try (Comparer comparer = new Comparer("source.docx"))
-                        {
-                          // Додавання одного або декількох цільових документів
-                          comparer.add("target.docx");
+            // Вкажіть параметри порівняння
+            const options = new groupdocs.comparison.CompareOptions();
+            options.setShowRevisions(false);
 
-                          // Вкажіть параметри порівняння
-                          CompareOptions options = new CompareOptions();
-                          options.setShowRevisions(false);
+            // Порівняти та зберегти результат
+            comparer.compare("result.docx", options);
+            ```
 
-                          // Порівняти та зберегти результат
-                          final comparer.compare("result.docx", options);
-                        }
-                    </code>
-
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // Вкажіть вихідний документ
-
-                        const comparer = new groupdocs.comparison.Comparer("source.docx");
-    
-                        // Додавання одного або декількох цільових документів
-                        comparer.add("target.docx");
-
-                        // Вкажіть параметри порівняння
-                        const options = new groupdocs.comparison.CompareOptions();
-                        options.setShowRevisions(false);
-
-                        // Порівняти та зберегти результат
-                        comparer.compare("result.docx", options);    
-                    </code>
 
 ############################# Supported Formats ###############################
 formats:

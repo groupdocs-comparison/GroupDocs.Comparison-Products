@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-03-22T13:27:50
+date:  2024-07-08T14:38:37
 draft: false
 
 product: "Comparison"
@@ -144,77 +144,69 @@ features:
       title: "比较特定页面"
       content: "仅加载要比较的文档的特定部分或页面。"
 
-############################# Code Samples ###############################
+############################# Code samples ############################
 code_samples:
   enable: true
-  title: "实用代码展示"
-  description: "典型 GroupDocs.Comparison 操作的一些用例。"
-
+  title: "GroupDocs.Conversion code samples"
+  description: "Some use cases of typical GroupDocs.Conversion operations in C#, Java, TypeScript"
   items:
-    # items loop
-    - title: "比较两个文件"
-      content: "要比较两个文档，首先加载源文件和目标文件，然后应用 “比较” 方法。您可以灵活地选择特定的比较设置，以进行更加量身定制的分析。"
+    # code sample loop
+    - title: "Convert PDF to DOCX in several lines of code"
+      content: |
+       With GroupDocs.Conversion, you can convert a PDF file to DOCX effortlessly - all you need is just a couple of lines of code. It also doesn't require any third-party software like Microsoft Word or Adobe Acrobat. Here's an example of how it can be achieved:
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // 指定源文档
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}   
+            // 指定源文档
+            using (Comparer comparer = new Comparer("source.docx"))
+            {
+                // 添加一个或多个目标文档
+                comparer.Add(target.docx");
 
-                        using (Comparer comparer = new Comparer("source.docx"))
-                        {
-                          // 添加一个或多个目标文档
-                          comparer.Add(target.docx");
+                // 指定比较选项
+                CompareOptions options = new CompareOptions() {ShowRevisions = false};
+                // 比较并保存结果
+                comparer.Compare("result.docx", options);
 
-                          // 指定比较选项
-                          CompareOptions options = new CompareOptions() {ShowRevisions = false};
+            }
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // 指定源文档
+            try (Comparer comparer = new Comparer("source.docx"))
+            {
+                // 添加一个或多个目标文档
+                comparer.add("target.docx");
+                // 指定比较选项
+                CompareOptions options = new CompareOptions();
+                options.setShowRevisions(false);
 
-                          // 比较并保存结果
-                          comparer.Compare("result.docx", options);
-                        }                    
-                    </code>
+                // 比较并保存结果
+                final comparer.compare("result.docx", options);
+            }
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}  
+            // 指定源文档
+            const comparer = new groupdocs.comparison.Comparer("source.docx");
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // 指定源文档
+            // 添加一个或多个目标文档
+            comparer.add("target.docx");
 
-                        try (Comparer comparer = new Comparer("source.docx"))
-                        {
-                          // 添加一个或多个目标文档
-                          comparer.add("target.docx");
+            // 指定比较选项
+            const options = new groupdocs.comparison.CompareOptions();
+            options.setShowRevisions(false);
 
-                          // 指定比较选项
-                          CompareOptions options = new CompareOptions();
-                          options.setShowRevisions(false);
+            // 比较并保存结果
+            comparer.compare("result.docx", options);
+            ```
 
-                          // 比较并保存结果
-                          final comparer.compare("result.docx", options);
-                        }
-                    </code>
-
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // 指定源文档
-
-                        const comparer = new groupdocs.comparison.Comparer("source.docx");
-    
-                        // 添加一个或多个目标文档
-                        comparer.add("target.docx");
-
-                        // 指定比较选项
-                        const options = new groupdocs.comparison.CompareOptions();
-                        options.setShowRevisions(false);
-
-                        // 比较并保存结果
-                        comparer.compare("result.docx", options);    
-                    </code>
 
 ############################# Supported Formats ###############################
 formats:

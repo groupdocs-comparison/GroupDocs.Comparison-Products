@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-03-22T13:27:50
+date:  2024-07-08T14:38:37
 draft: false
 
 product: "Comparison"
@@ -144,77 +144,69 @@ features:
       title: "مقایسه صفحات خاص"
       content: "فقط بخش ها یا صفحات خاص سند را برای مقایسه بارگذاری کنید."
 
-############################# Code Samples ###############################
+############################# Code samples ############################
 code_samples:
   enable: true
-  title: "نمایشگاه کد عملی"
-  description: "برخی از موارد استفاده از عملیات معمولی GroupDocs.Comparison."
-
+  title: "GroupDocs.Conversion code samples"
+  description: "Some use cases of typical GroupDocs.Conversion operations in C#, Java, TypeScript"
   items:
-    # items loop
-    - title: "مقایسه دو فایل"
-      content: "برای مقایسه دو سند، با بارگذاری هر دو فایل منبع و هدف شروع کنید و سپس روش `compare` را اعمال کنید. شما انعطاف پذیری را دارید که تنظیمات مقایسه خاص را برای تجزیه و تحلیل متناسب تر انتخاب کنید."
+    # code sample loop
+    - title: "Convert PDF to DOCX in several lines of code"
+      content: |
+       With GroupDocs.Conversion, you can convert a PDF file to DOCX effortlessly - all you need is just a couple of lines of code. It also doesn't require any third-party software like Microsoft Word or Adobe Acrobat. Here's an example of how it can be achieved:
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // سند منبع را مشخص کنید
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}   
+            // سند منبع را مشخص کنید
+            using (Comparer comparer = new Comparer("source.docx"))
+            {
+                // اضافه کردن یک یا چند سند هدف
+                comparer.Add(target.docx");
 
-                        using (Comparer comparer = new Comparer("source.docx"))
-                        {
-                          // اضافه کردن یک یا چند سند هدف
-                          comparer.Add(target.docx");
+                // گزینه های مقایسه را مشخص کنید
+                CompareOptions options = new CompareOptions() {ShowRevisions = false};
+                // مقایسه و ذخیره نتیجه
+                comparer.Compare("result.docx", options);
 
-                          // گزینه های مقایسه را مشخص کنید
-                          CompareOptions options = new CompareOptions() {ShowRevisions = false};
+            }
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // سند منبع را مشخص کنید
+            try (Comparer comparer = new Comparer("source.docx"))
+            {
+                // اضافه کردن یک یا چند سند هدف
+                comparer.add("target.docx");
+                // گزینه های مقایسه را مشخص کنید
+                CompareOptions options = new CompareOptions();
+                options.setShowRevisions(false);
 
-                          // مقایسه و ذخیره نتیجه
-                          comparer.Compare("result.docx", options);
-                        }                    
-                    </code>
+                // مقایسه و ذخیره نتیجه
+                final comparer.compare("result.docx", options);
+            }
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}  
+            // سند منبع را مشخص کنید
+            const comparer = new groupdocs.comparison.Comparer("source.docx");
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // سند منبع را مشخص کنید
+            // اضافه کردن یک یا چند سند هدف
+            comparer.add("target.docx");
 
-                        try (Comparer comparer = new Comparer("source.docx"))
-                        {
-                          // اضافه کردن یک یا چند سند هدف
-                          comparer.add("target.docx");
+            // گزینه های مقایسه را مشخص کنید
+            const options = new groupdocs.comparison.CompareOptions();
+            options.setShowRevisions(false);
 
-                          // گزینه های مقایسه را مشخص کنید
-                          CompareOptions options = new CompareOptions();
-                          options.setShowRevisions(false);
+            // مقایسه و ذخیره نتیجه
+            comparer.compare("result.docx", options);
+            ```
 
-                          // مقایسه و ذخیره نتیجه
-                          final comparer.compare("result.docx", options);
-                        }
-                    </code>
-
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // سند منبع را مشخص کنید
-
-                        const comparer = new groupdocs.comparison.Comparer("source.docx");
-    
-                        // اضافه کردن یک یا چند سند هدف
-                        comparer.add("target.docx");
-
-                        // گزینه های مقایسه را مشخص کنید
-                        const options = new groupdocs.comparison.CompareOptions();
-                        options.setShowRevisions(false);
-
-                        // مقایسه و ذخیره نتیجه
-                        comparer.compare("result.docx", options);    
-                    </code>
 
 ############################# Supported Formats ###############################
 formats:
