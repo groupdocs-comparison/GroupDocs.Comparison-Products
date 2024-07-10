@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-22T13:27:50
+date: 2024-07-10T09:53:47
 draft: false
 
 lang: en
@@ -23,6 +23,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
 head_title: "Java Document Comparison Library| diff checker"

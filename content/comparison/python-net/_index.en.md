@@ -8,8 +8,8 @@ draft: false
 lang: en
 product: "Comparison"
 product_tag: "comparison"
-platform: "Node.js via Java"
-platform_tag: "nodejs-java"
+platform: "Python via .NET"
+platform_tag: "python-net"
 
 ############################# Drop-down ############################
 supported_platforms:
@@ -28,20 +28,20 @@ supported_platforms:
       tag: "python-net"
 
 ############################# Head ############################
-head_title: "Node.js Document Comparison API | diff checker"
-head_description: "The Node.js Document Comparison API offers efficient tools for documents comparison. Seamlessly integrates with Node.js for real-time changes tracking"
+head_title: "Python Document Comparison API | diff checker"
+head_description: "The Python Document Comparison API offers efficient tools for documents comparison. Seamlessly integrates with Python for real-time changes tracking"
 
 ############################# Header ############################
-title: "Compare Documents with Node.js: Highlight Any Differences"
+title: "Compare Documents with Python: Highlight Any Differences"
 description: "Use GroupDocs.Comparison API to develop native JavaScript applications with highly configurable comparison features. Compare files, their content & text style between similar document formats."
 words:
   for: "for"
 
 actions:
-  main: "Free NPM Download"
-  main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.comparison"
+  main: "Free PyPi Download"
+  main_link: "https://pypi.org/project/groupdocs-comparison-net/"
   alt: "Licensing"
-  alt_link: "https://purchase.groupdocs.com/pricing/comparison/nodejs-java/"
+  alt_link: "https://purchase.groupdocs.com/pricing/comparison/python-net/"
   title: "Ready to get started?"
   description: "Try GroupDocs.Comparison features for free or request a license"
 
@@ -51,32 +51,33 @@ release:
   downloads: "Downloads"
 
 code:
-  title: "Compare BMP images in JavaScript"
+  title: "Compare BMP images in Python"
   more: "More examples"
-  more_link: "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Node.js-via-Java"
-  install: "npm i @groupdocs/groupdocs.comparison"
+  more_link: "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Python-via-.NET/"
+  install: "pip install groupdocs-comparison-net"
   content: |
-    ```javascript {style=abap}
+    ```python {style=abap}
+    def run():
 
-    // Specify the source document
-    const comparer = new Comparer("source.bmp");
+        # Specify the source document
+        with groupdocs.comparison.Comparer("in.bmp") as comparer:
 
-    // Add one or more target documents
-    comparer.add("target.bmp");
+            # Add one or more target documents
+            comparer.add("target.bmp")
 
-    // Specify comparison options
-    const options = new groupdocs.comparison.CompareOptions();
-    options.setGenerateSummaryPage(false);
+            # Specify comparison options
+            options = new groupdocs.comparison.CompareOptions()
+            options.setGenerateSummaryPage(false)
 
-    // Compare and save result
-    await comparer.compare("result.bmp", options);
+            # Compare and save result
+            comparer.compare("result.bmp", options)
     ```
 
 ############################# Overview ############################
 overview:
   enable: true
   title: "GroupDocs.Comparison at a glance"
-  description: "API to compare various types of documents such as PDF, Microsoft Office, HTML, e-mails, or images within Node.js applications"
+  description: "API to compare various types of documents such as PDF, Microsoft Office, HTML, e-mails, or images within Python applications"
   features:
     # feature loop
     - title: "Detailed output reports"
@@ -88,7 +89,7 @@ overview:
 
     # feature loop
     - title: "Documentation and examples"
-      content: "There is already a lot of documentation on using Comparison library on different platforms with code examples, so you don’t have to think hard about how to work with GroupDocs.Comparison API in your Node.js application."
+      content: "There is already a lot of documentation on using Comparison library on different platforms with code examples, so you don’t have to think hard about how to work with GroupDocs.Comparison API in your Python application."
 
     # feature loop
     - title: "Select changes and merge them to one file"
@@ -98,7 +99,7 @@ overview:
 platforms:
   enable: true
   title: "Platform independence"
-  description: "GroupDocs.Comparison for Node.js via Java supports the following operating systems, frameworks and package managers"
+  description: "GroupDocs.Comparison for Python via .NET supports the following operating systems, frameworks and package managers"
   items:
     # platform loop
     - title: "Windows"
@@ -139,7 +140,7 @@ formats:
   enable: true
   title: "Supported file formats"
   description: |
-    GroupDocs.Comparison for Node.js via Java supports operations with the following [file formats](https://docs.groupdocs.com/comparison/nodejs-java/supported-document-formats/).
+    GroupDocs.Comparison for Python via .NET supports operations with the following [file formats](https://docs.groupdocs.com/comparison/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -173,7 +174,7 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Comparison for Node.js via Java features"
+  title: "GroupDocs.Comparison for Python via .NET features"
   description: "Easily compare PDF and Office documents, images and other formats"
 
   items:
@@ -236,46 +237,45 @@ features:
 code_samples:
   enable: true
   title: "Code samples"
-  description: "Some use cases of typical GroupDocs.Comparison for Node.js via Java operations"
+  description: "Some use cases of typical GroupDocs.Comparison for Python via .NET operations"
   items:
     # code sample loop
     - title: "Comparing password-protected documents."
       content: |
-        To compare documents that are [protected with a password](https://docs.groupdocs.com/comparison/nodejs-java/load-password-protected-documents/), you need to specify it then loading the documents:
+        To compare documents that are [protected with a password](https://docs.groupdocs.com/comparison/python-net/load-password-protected-documents/), you need to specify it then loading the documents:
         {{< landing/code title="How to compare password-protected documents.">}}
-        ```javascript {style=abap}
+        ```python {style=abap}
+        def run():
 
-        import { Comparer, LoadOptions } from '@groupdocs/groupdocs.comparison'
+            # Load the source document and specify its password
+            with groupdocs.comparison.Comparer("source.docx", new LoadOptions("1234")) as comparer:
 
-        // Load the source document and specify its password
-        const comparer = new Comparer("source.docx", new LoadOptions("1234"));
+                # Load the target document and specify its password
+                comparer.add("target.docx", new LoadOptions("5678"));
 
-        // Load the target document and specify its password
-        comparer.add("target.docx", new LoadOptions("5678"));
-
-        // Save comparison result to a specified file
-        comparer.compare("result.docx");
+                # Save comparison result to a specified file
+                comparer.compare("result.docx");
         ```
         {{< /landing/code >}}
     # code sample loop
     - title: "Comparing multiple PDF documents."
       content: |
-        GroupDocs.Comparison allows you to [compare more than two documents](https://docs.groupdocs.com/comparison/nodejs-java/compare-multiple-documents/). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class.
+        GroupDocs.Comparison allows you to [compare more than two documents](https://docs.groupdocs.com/comparison/python-net/compare-multiple-documents/). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class.
         {{< landing/code title="How to compare three or more documents.">}}
-        ```javascript {style=abap}
-        import { Comparer } from '@groupdocs/groupdocs.comparison'
+        ```python {style=abap}
+        def run():
 
-        // Load the source document
-        const comparer = new Comparer(source.pdf");
+            # Load the source document
+            with groupdocs.comparison.Comparer(source.pdf") as comparer:
 
-        // Specify the second file for comparison
-        comparer.add("target2.pdf");
+                # Specify the second file for comparison
+                comparer.add("target2.pdf");
 
-        // Specify the third file for comparison
-        comparer.add("target3.pdf");
+                # Specify the third file for comparison
+                comparer.add("target3.pdf");
 
-        // Save comparison result to a specified file
-        comparer.compare("result.pdf");
+                # Save comparison result to a specified file
+                comparer.compare("result.pdf");
         ```
 
         {{< /landing/code >}}

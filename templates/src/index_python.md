@@ -1,4 +1,4 @@
-<% configRef "..\\configs\\index\\index_nodejs.yml" %>
+<% configRef "..\\configs\\index\\index_python.yml" %>
 <% include "..\\data\\platform_data.md" %>
 
 ---
@@ -10,8 +10,8 @@ draft: false
 lang: <% lower ( get "lang") %>
 product: "Comparison"
 product_tag: "comparison"
-platform: "Node.js via Java"
-platform_tag: "nodejs-java"
+platform: "Python via .NET"
+platform_tag: "python-net"
 
 ############################# Drop-down ############################
 supported_platforms:
@@ -30,17 +30,17 @@ supported_platforms:
       tag: "python-net"
 
 ############################# Head ############################
-head_title: "<% "{index-content-nodejs-java.head_title}" %>"
-head_description: "<% "{index-content-nodejs-java.head_description}" %>"
+head_title: "<% "{index-content-python-net.head_title}" %>"
+head_description: "<% "{index-content-python-net.head_description}" %>"
 
 ############################# Header ############################
-title: "<% "{index-content-nodejs-java.title}" %>"
-description: "<% "{index-content-nodejs-java.description}" %>"
+title: "<% "{index-content-python-net.title}" %>"
+description: "<% "{index-content-python-net.description}" %>"
 words:
   for: "<% "{index-content.words_for}" %>"
 
 actions:
-  main: "<% "{index-content-nodejs-java.actions_main}" %>"
+  main: "<% "{index-content-python-net.actions_main}" %>"
   main_link: "<% get "PackageUrl" %>"
   alt: "<% "{index-content.actions_alt}" %>"
   alt_link: "<% get "PricesUrl" %>"
@@ -53,54 +53,55 @@ release:
   downloads: "<% "{index-content.release_downloads}" %>"
 
 code:
-  title: "<% "{index-content-nodejs-java.code_title}" %>"
+  title: "<% "{index-content-python-net.code_title}" %>"
   more: "<% "{index-content.code_more}" %>"
-  more_link: "<% dict "products.nodejs-java.more_link" %>"
-  install: "npm i @groupdocs/groupdocs.comparison"
+  more_link: "<% dict "products.python-net.more_link" %>"
+  install: "pip install groupdocs-comparison-net"
   content: |
-    ```javascript {style=abap}
+    ```python {style=abap}
+    def run():
 
-    // <% "{index-content.code_comment_1}" %>
-    const comparer = new Comparer("source.bmp");
+        # <% "{index-content.code_comment_1}" %>
+        with groupdocs.comparison.Comparer("in.bmp") as comparer:
 
-    // <% "{index-content.code_comment_2}" %>
-    comparer.add("target.bmp");
+            # <% "{index-content.code_comment_2}" %>
+            comparer.add("target.bmp")
 
-    // <% "{index-content.code_comment_3}" %>
-    const options = new groupdocs.comparison.CompareOptions();
-    options.setGenerateSummaryPage(false);
+            # <% "{index-content.code_comment_3}" %>
+            options = new groupdocs.comparison.CompareOptions()
+            options.setGenerateSummaryPage(false)
 
-    // <% "{index-content.code_comment_4}" %>
-    await comparer.compare("result.bmp", options);
+            # <% "{index-content.code_comment_4}" %>
+            comparer.compare("result.bmp", options)
     ```
 
 ############################# Overview ############################
 overview:
   enable: true
   title: "<% "{index-content.overview_title}" %>"
-  description: "<% "{index-content-nodejs-java.overview_description}" %>"
+  description: "<% "{index-content-python-net.overview_description}" %>"
   features:
     # feature loop
-    - title: "<% "{index-content-nodejs-java.overview_feature_1.title}" %>"
-      content: "<% "{index-content-nodejs-java.overview_feature_1.description}" %>"
+    - title: "<% "{index-content-python-net.overview_feature_1.title}" %>"
+      content: "<% "{index-content-python-net.overview_feature_1.description}" %>"
 
     # feature loop
-    - title: "<% "{index-content-nodejs-java.overview_feature_2.title}" %>"
-      content: "<% "{index-content-nodejs-java.overview_feature_2.description}" %>"
+    - title: "<% "{index-content-python-net.overview_feature_2.title}" %>"
+      content: "<% "{index-content-python-net.overview_feature_2.description}" %>"
 
     # feature loop
-    - title: "<% "{index-content-nodejs-java.overview_feature_3.title}" %>"
-      content: "<% "{index-content-nodejs-java.overview_feature_3.description}" %>"
+    - title: "<% "{index-content-python-net.overview_feature_3.title}" %>"
+      content: "<% "{index-content-python-net.overview_feature_3.description}" %>"
 
     # feature loop
-    - title: "<% "{index-content-nodejs-java.overview_feature_4.title}" %>"
-      content: "<% "{index-content-nodejs-java.overview_feature_4.description}" %>"
+    - title: "<% "{index-content-python-net.overview_feature_4.title}" %>"
+      content: "<% "{index-content-python-net.overview_feature_4.description}" %>"
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "<% "{index-content.platforms_title}" %>"
-  description: "<% "{index-content-nodejs-java.platforms_description}" %>"
+  description: "<% "{index-content-python-net.platforms_description}" %>"
   items:
     # platform loop
     - title: "Windows"
@@ -141,7 +142,7 @@ formats:
   enable: true
   title: "<% "{index-content.formats_title}" %>"
   description: |
-    <% "{index-content-nodejs-java.formats_description}" %>
+    <% "{index-content-python-net.formats_description}" %>
   groups:
     # group loop
     - color: "green"
@@ -175,88 +176,87 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "<% "{index-content-nodejs-java.features.title}" %>"
-  description: "<% "{index-content-nodejs-java.features.description}" %>"
+  title: "<% "{index-content-python-net.features.title}" %>"
+  description: "<% "{index-content-python-net.features.description}" %>"
 
   items:
     # feature loop
     - icon: "compare"
-      title: "<% "{index-content-nodejs-java.features.feature_1.title}" %>"
-      content: "<% "{index-content-nodejs-java.features.feature_1.content}" %>"
+      title: "<% "{index-content-python-net.features.feature_1.title}" %>"
+      content: "<% "{index-content-python-net.features.feature_1.content}" %>"
 
     # feature loop
     - icon: "note-stack"
-      title: "<% "{index-content-nodejs-java.features.feature_2.title}" %>"
-      content: "<% "{index-content-nodejs-java.features.feature_2.content}" %>"
+      title: "<% "{index-content-python-net.features.feature_2.title}" %>"
+      content: "<% "{index-content-python-net.features.feature_2.content}" %>"
 
     # feature loop
     - icon: "stacks"
-      title: "<% "{index-content-nodejs-java.features.feature_3.title}" %>"
-      content: "<% "{index-content-nodejs-java.features.feature_3.content}" %>"
+      title: "<% "{index-content-python-net.features.feature_3.title}" %>"
+      content: "<% "{index-content-python-net.features.feature_3.content}" %>"
 
     # feature loop
     - icon: "rule"
-      title: "<% "{index-content-nodejs-java.features.feature_4.title}" %>"
-      content: "<% "{index-content-nodejs-java.features.feature_4.content}" %>"
+      title: "<% "{index-content-python-net.features.feature_4.title}" %>"
+      content: "<% "{index-content-python-net.features.feature_4.content}" %>"
 
     # feature loop
     - icon: "preview"
-      title: "<% "{index-content-nodejs-java.features.feature_5.title}" %>"
-      content: "<% "{index-content-nodejs-java.features.feature_5.content}" %>"
+      title: "<% "{index-content-python-net.features.feature_5.title}" %>"
+      content: "<% "{index-content-python-net.features.feature_5.content}" %>"
 
     # feature loop
     - icon: "two-pager"
-      title: "<% "{index-content-nodejs-java.features.feature_6.title}" %>"
-      content: "<% "{index-content-nodejs-java.features.feature_6.content}" %>"
+      title: "<% "{index-content-python-net.features.feature_6.title}" %>"
+      content: "<% "{index-content-python-net.features.feature_6.content}" %>"
 
     # feature loop
     - icon: "format_color_text"
-      title: "<% "{index-content-nodejs-java.features.feature_7.title}" %>"
-      content: "<% "{index-content-nodejs-java.features.feature_7.content}" %>"
+      title: "<% "{index-content-python-net.features.feature_7.title}" %>"
+      content: "<% "{index-content-python-net.features.feature_7.content}" %>"
 
     # feature loop
     - icon: "folder-managed"
-      title: "<% "{index-content-nodejs-java.features.feature_8.title}" %>"
-      content: "<% "{index-content-nodejs-java.features.feature_8.content}" %>"
+      title: "<% "{index-content-python-net.features.feature_8.title}" %>"
+      content: "<% "{index-content-python-net.features.feature_8.content}" %>"
 
     # feature loop
     - icon: "lock"
-      title: "<% "{index-content-nodejs-java.features.feature_9.title}" %>"
-      content: "<% "{index-content-nodejs-java.features.feature_9.content}" %>"
+      title: "<% "{index-content-python-net.features.feature_9.title}" %>"
+      content: "<% "{index-content-python-net.features.feature_9.content}" %>"
 
     # feature loop
     - icon: "select"
-      title: "<% "{index-content-nodejs-java.features.feature_10.title}" %>"
-      content: "<% "{index-content-nodejs-java.features.feature_10.content}" %>"
+      title: "<% "{index-content-python-net.features.feature_10.title}" %>"
+      content: "<% "{index-content-python-net.features.feature_10.content}" %>"
 
     # feature loop
     - icon: "speaker-notes"
-      title: "<% "{index-content-nodejs-java.features.feature_11.title}" %>"
-      content: "<% "{index-content-nodejs-java.features.feature_11.content}" %>"
+      title: "<% "{index-content-python-net.features.feature_11.title}" %>"
+      content: "<% "{index-content-python-net.features.feature_11.content}" %>"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "<% "{index-content.code_samples.title}" %>"
-  description: "<% "{index-content-nodejs-java.code_samples_description}" %>"
+  description: "<% "{index-content-python-net.code_samples_description}" %>"
   items:
     # code sample loop
-    - title: "<% "{index-content-nodejs-java.code_title_sample_1}" %>"
+    - title: "<% "{index-content-python-net.code_title_sample_1}" %>"
       content: |
-        <% "{index-content-nodejs-java.code_samples_sample_1_content}" %>
+        <% "{index-content-python-net.code_samples_sample_1_content}" %>
         {{< landing/code title="<% "{index-content.code_samples.sample_1.code_title}" %>">}}
-        ```javascript {style=abap}
+        ```python {style=abap}
+        def run():
 
-        import { Comparer, LoadOptions } from '@groupdocs/groupdocs.comparison'
+            # <% "{index-content.code_samples.sample_1.comment_1}" %>
+            with groupdocs.comparison.Comparer("source.docx", new LoadOptions("1234")) as comparer:
 
-        // <% "{index-content.code_samples.sample_1.comment_1}" %>
-        const comparer = new Comparer("source.docx", new LoadOptions("1234"));
+                # <% "{index-content.code_samples.sample_1.comment_2}" %>
+                comparer.add("target.docx", new LoadOptions("5678"));
 
-        // <% "{index-content.code_samples.sample_1.comment_2}" %>
-        comparer.add("target.docx", new LoadOptions("5678"));
-
-        // <% "{index-content.code_samples.sample_1.comment_3}" %>
-        comparer.compare("result.docx");
+                # <% "{index-content.code_samples.sample_1.comment_3}" %>
+                comparer.compare("result.docx");
         ```
         {{< /landing/code >}}
     # code sample loop
@@ -264,20 +264,20 @@ code_samples:
       content: |
         <% "{index-content-net.code_samples_sample_2_content}" %>
         {{< landing/code title="<% "{index-content.code_samples.sample_2.code_title}" %>">}}
-        ```javascript {style=abap}
-        import { Comparer } from '@groupdocs/groupdocs.comparison'
+        ```python {style=abap}
+        def run():
 
-        // <% "{index-content.code_samples.sample_2.comment_1}" %>
-        const comparer = new Comparer(source.pdf");
+            # <% "{index-content.code_samples.sample_2.comment_1}" %>
+            with groupdocs.comparison.Comparer(source.pdf") as comparer:
 
-        // <% "{index-content.code_samples.sample_2.comment_2}" %>
-        comparer.add("target2.pdf");
+                # <% "{index-content.code_samples.sample_2.comment_2}" %>
+                comparer.add("target2.pdf");
 
-        // <% "{index-content.code_samples.sample_2.comment_3}" %>
-        comparer.add("target3.pdf");
+                # <% "{index-content.code_samples.sample_2.comment_3}" %>
+                comparer.add("target3.pdf");
 
-        // <% "{index-content.code_samples.sample_2.comment_4}" %>
-        comparer.compare("result.pdf");
+                # <% "{index-content.code_samples.sample_2.comment_4}" %>
+                comparer.compare("result.pdf");
         ```
 
         {{< /landing/code >}}

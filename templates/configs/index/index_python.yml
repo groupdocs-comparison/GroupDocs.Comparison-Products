@@ -1,0 +1,7 @@
+inherits: ..\\products_python.yml
+
+dimensions:  
+- alias:  operation
+  values: [index] 
+
+outputPath: "comparison\\{product}\\_index.{lang}.md"

@@ -8,3 +8,4 @@
 <% set "Runtime" (dict "products.{product}.runtime") %>
 <% set "EnvName" (dict "products.{product}.environmentName") %>
 <% set "ProgLang" (dict "products.{product}.programmingLanguage") %>
+<% set "PackageStoreName" (dict "products.{product}.packageStoreName") %>

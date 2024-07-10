@@ -1,6 +1,6 @@
 {
   "index-content": {
-    "head_title": "C# Java & Node.js Document Comparison Library | diff checker",
+    "head_title": "C# Java Node.js Python Document Comparison Library | diff checker",
     "head_description": "GroupDocs Document Comparison Library native to C# .NET Java & Node.js. Check for differences among files of supported formats.",
     "title": "Compare Differences Across Popular File Types",
     "description_1": "Robust API for document comparison across various file formats.",
@@ -317,6 +317,86 @@
     "description": "Use {{ProdShortName}} API to develop native JavaScript applications with highly configurable comparison features. Compare files, their content & text style between similar document formats.",
     "actions_main": "Free NPM Download",
     "code_title": "Compare BMP images in JavaScript",
+    "overview_description": "API to compare various types of documents such as PDF, Microsoft Office, HTML, e-mails, or images within {{Runtime}} applications",
+    "overview_feature_1": {
+      "title": "Detailed output reports",
+      "description": "{{ProdShortName}} identifies changes in document content (characters, words, paragraphs, tables, charts), as well as, changes in document style. It provides customers with a resulting report that contains rich information about differences, their number, and type."
+    },
+    "overview_feature_2": {
+      "title": "Most popular file and document formats are supported",
+      "description": "With {{ProdShortName}} API you can efficiently compare documents of any supported formats like PDF, HTML, e-mail, Microsoft Office Word documents, Excel spreadsheets, PowerPoint presentations, OneNote, Visio diagrams, texts, JPEG, PNG, GIF, and BMP images as well as many other formats."
+    },
+    "overview_feature_3": {
+      "title": "Documentation and examples",
+      "description": "There is already a lot of documentation on using Comparison library on different platforms with code examples, so you don’t have to think hard about how to work with {{ProdShortName}} API in your {{Runtime}} application."
+    },
+    "overview_feature_4": {
+      "title": "Select changes and merge them to one file",
+      "description": "If you have different versions of one document it is possible to select only desired changes and compile new document using the {{ProdShortName}} library."
+    },
+    "features": {
+      "title": "{{ProdFullName}} features",
+      "description": "Easily compare PDF and Office documents, images and other formats",
+      "feature_1": {
+        "title": "Easy to use document comparison",
+        "content": "Analyze and identify differences within two documents."
+      },
+      "feature_2": {
+        "title": "Compare multiple documents",
+        "content": "Analyze and identify differences within multiple documents simultaneously."
+      },
+      "feature_3": {
+        "title": "Supported formats",
+        "content": "Supports more than 50 popular document formats from various categories."
+      },
+      "feature_4": {
+        "title": "Accept or reject changes",
+        "content": "Clear visual representation of identified changes, providing the option to accept or reject modifications."
+      },
+      "feature_5": {
+        "title": "Generate previews",
+        "content": "Save the results of the comparison as images."
+      },
+      "feature_6": {
+        "title": "Content comparison",
+        "content": "Compare text content line-by-line, by paragraphs, by words, by characters. Highlight the changes."
+      },
+      "feature_7": {
+        "title": "Style comparison",
+        "content": "Detect changes in formatting and styles."
+      },
+      "feature_8": {
+        "title": "Set metadata",
+        "content": "Keep metadata from either the source or target files or allow it to be specified by users."
+      },
+      "feature_9": {
+        "title": "Password protection",
+        "content": "Analyze the encrypted documents, or secure the resulting document with a password."
+      },
+      "feature_10": {
+        "title": "Compare specific pages",
+        "content": "Load just the particular sections or pages of the document."
+      },
+      "feature_11": {
+        "title": "Display comments",
+        "content": "When loading the source document you can choose whether to hide or show comments."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} supports the following operating systems, frameworks and package managers",
+    "formats_description": "{{ProdFullName}} supports operations with the following [file formats]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Some use cases of typical {{ProdFullName}} operations",
+    "code_title_sample_1": "Comparing password-protected documents.",
+    "code_samples_sample_1_content": "To compare documents that are [protected with a password]({{Sample1Url}}), you need to specify it then loading the documents:",
+    "code_title_sample_2": "Comparing multiple PDF documents.",
+    "code_samples_sample_2_content": "{{ProdShortName}} allows you to [compare more than two documents]({{Sample2Url}}). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class."
+  },
+  "index-content-python-net": {
+    "head_title": "{{Runtime}} Document Comparison API | diff checker",
+    "head_description": "The {{Runtime}} Document Comparison API offers efficient tools for documents comparison. Seamlessly integrates with {{Runtime}} for real-time changes tracking",
+    "title": "Compare Documents with {{Runtime}}: Highlight Any Differences",
+    "description": "Use {{ProdShortName}} API to develop native JavaScript applications with highly configurable comparison features. Compare files, their content & text style between similar document formats.",
+    "actions_main": "Free {{PackageStoreName}} Download",
+    "code_title": "Compare BMP images in {{ProgLang}}",
     "overview_description": "API to compare various types of documents such as PDF, Microsoft Office, HTML, e-mails, or images within {{Runtime}} applications",
     "overview_feature_1": {
       "title": "Detailed output reports",
