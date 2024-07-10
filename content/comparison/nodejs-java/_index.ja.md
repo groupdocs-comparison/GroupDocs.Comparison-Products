@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-04-02T14:08:51
+date: 2024-07-10T18:47:13
 draft: false
 
 lang: ja
@@ -23,6 +23,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
 head_title: "Node.js ドキュメント比較 API | 差分チェッカー"
@@ -66,7 +69,7 @@ code:
     options.setGenerateSummaryPage(false);
 
     // 比較して結果を保存する
-    await comparer.compare(outputFileName, options);
+    await comparer.compare("result.bmp", options);
     ```
 
 ############################# Overview ############################
@@ -257,7 +260,7 @@ code_samples:
     # code sample loop
     - title: "複数の PDF ドキュメントを比較しています。"
       content: |
-        GroupDocs.Comparison では [3つ以上の文書を比較] できます (https://docs.groupdocs.com/comparison/nodejs-java/compare-multiple-documents/)。操作は 2 つのファイルを比較する場合とほぼ同じです。あとは、`comparer` クラスにさらにターゲットファイルを追加すればいいだけです。
+        GroupDocs.Comparison では [3つ以上の文書を比較](https://docs.groupdocs.com/comparison/nodejs-java/compare-multiple-documents/) できます。操作は 2 つのファイルを比較する場合とほぼ同じです。あとは、`comparer` クラスにさらにターゲットファイルを追加すればいいだけです。
         {{< landing/code title="3 つ以上の文書を比較する方法">}}
         ```javascript {style=abap}
         import { Comparer } from '@groupdocs/groupdocs.comparison'

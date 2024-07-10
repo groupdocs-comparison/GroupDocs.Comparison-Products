@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-22T13:27:50
+date: 2024-07-10T18:47:13
 draft: false
 
 lang: de
@@ -23,6 +23,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
 head_title: "Java Dokumentvergleichsbibliothek| Diff-Checker"
@@ -234,7 +237,7 @@ code_samples:
     # code sample loop
     - title: "Vergleich passwortgeschützter Dokumente."
       content: |
-        Um Dokumente zu vergleichen, die [mit einem Passwort geschützt] sind (https://docs.groupdocs.com/comparison/java/load-password-protected-documents/), müssen Sie es angeben und dann die Dokumente laden:
+        Um Dokumente zu vergleichen, die [mit einem Passwort geschützt sind](https://docs.groupdocs.com/comparison/java/load-password-protected-documents/), müssen Sie es angeben und dann die Dokumente laden:
         {{< landing/code title="So vergleichen Sie passwortgeschützte Dokumente.">}}
         ```java {style=abap}
         // Laden Sie das Quelldokument und geben Sie sein Passwort an

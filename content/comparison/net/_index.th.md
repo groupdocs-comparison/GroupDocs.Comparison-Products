@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-22T13:27:50
+date: 2024-07-10T18:47:13
 draft: false
 
 lang: th
@@ -23,6 +23,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
 head_title: "C# .NET ซอฟต์แวร์เปรียบเทียบเอกสาร | ตัวตรวจสอบความแตกต่าง"
@@ -127,7 +130,7 @@ formats:
   enable: true
   title: "รูปแบบไฟล์ที่รองรับ"
   description: |
-    GroupDocs.Comparison for .NET รองรับการดำเนินการด้วย [รูปแบบไฟล์] ต่อไปนี้ (https://docs.groupdocs.com/comparison/net/supported-document-formats/)
+    GroupDocs.Comparison for .NET รองรับการดำเนินการด้วย [รูปแบบไฟล์ ต่อไปนี้](https://docs.groupdocs.com/comparison/net/supported-document-formats/)
   groups:
     # group loop
     - color: "green"

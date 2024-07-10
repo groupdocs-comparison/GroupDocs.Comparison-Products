@@ -76,8 +76,30 @@
 
       "more_link": "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Node.js-via-Java",
       "release_downloads": "https://releases.groupdocs.com/comparison/nodejs-java/"
+    },
+    "python-net": {
+      "environmentName": "Python via .NET",
+      "productCode": "python-net",
+      "productFullName": "GroupDocs.Comparison for Python via .NET",
 
+      "programmingLanguage": "Python",
+      "srcFileExt": "py",
+      "syntax": "python",
+      "developmentEnvironment": "Intellij IDEA, Eclipse Che, Visual Studio Code, WebStorm, etc.",
+      "runtime": "Python",
 
+      "productUrl": "https://products.groupdocs.com/comparison/python-net/",
+      "packageStoreName": "PyPi",
+      "packageUrl": "https://pypi.org/project/groupdocs-comparison-net/",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/comparison/python-net/",
+      "docsUrl": "https://docs.groupdocs.com/comparison/python-net/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/comparison/net/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/comparison/python-net/load-password-protected-documents/",
+      "sample2Url": "https://docs.groupdocs.com/comparison/python-net/compare-multiple-documents/",
+
+      "more_link": "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Python-via-.NET/",
+      "release_downloads": "https://releases.groupdocs.com/comparison/python-net/"
     }
+
   }
 }

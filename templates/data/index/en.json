@@ -1,6 +1,6 @@
 {
   "index-content": {
-    "head_title": "C# Java & Node.js Document Comparison Library | diff checker",
+    "head_title": "C# Java Node.js Python Document Comparison Library | diff checker",
     "head_description": "GroupDocs Document Comparison Library native to C# .NET Java & Node.js. Check for differences among files of supported formats.",
     "title": "Compare Differences Across Popular File Types",
     "description_1": "Robust API for document comparison across various file formats.",
@@ -389,6 +389,85 @@
     "code_samples_sample_1_content": "To compare documents that are [protected with a password]({{Sample1Url}}), you need to specify it then loading the documents:",
     "code_title_sample_2": "Comparing multiple PDF documents.",
     "code_samples_sample_2_content": "{{ProdShortName}} allows you to [compare more than two documents]({{Sample2Url}}). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class."
-
+  },
+  "index-content-python-net": {
+    "head_title": "{{Runtime}} Document Comparison API | diff checker",
+    "head_description": "The {{Runtime}} Document Comparison API offers efficient tools for comparing documents. Seamlessly integrates with {{Runtime}} for instant change tracking",
+    "title": "Compare Documents with {{Runtime}}: Highlight Any Differences",
+    "description": "Use the {{ProdShortName}} API to develop native Python applications with highly configurable comparison features. Compare files, their content, and text styles between similar document formats.",
+    "actions_main": "Free {{PackageStoreName}} Download",
+    "code_title": "Compare BMP images in {{ProgLang}}",
+    "overview_description": "An API to compare popular document types such as PDF, Microsoft Office, HTML, emails, or images within {{Runtime}} applications.",
+    "overview_feature_1": {
+      "title": "Detailed Output Reports",
+      "description": "{{ProdShortName}} identifies changes in document content (characters, words, paragraphs, tables, charts) as well as changes in document style. It provides users with a report containing detailed information about differences, including their number and type."
+    },
+    "overview_feature_2": {
+      "title": "Supports Popular File and Document Formats",
+      "description": "With the {{ProdShortName}} API, you can efficiently compare documents in formats like PDF, HTML, email, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations, OneNote, Visio diagrams, text files, JPEG, PNG, GIF, BMP images, and many other formats."
+    },
+    "overview_feature_3": {
+      "title": "Comprehensive Documentation and Examples",
+      "description": "Extensive documentation and code examples for using the Comparison library on different platforms are available, making it easy to integrate {{ProdShortName}} API into your {{Runtime}} application."
+    },
+    "overview_feature_4": {
+      "title": "Select and Merge Changes into One File",
+      "description": "If you have different versions of a document, you can select specific changes and compile a new document using the {{ProdShortName}} library."
+    },
+    "features": {
+      "title": "{{ProdFullName}} Features",
+      "description": "Easily compare PDF and Office documents, images, and other formats.",
+      "feature_1": {
+        "title": "User-Friendly Document Comparison",
+        "content": "Analyze and identify differences between two documents."
+      },
+      "feature_2": {
+        "title": "Compare Multiple Documents",
+        "content": "Analyze and identify differences within multiple documents simultaneously."
+      },
+      "feature_3": {
+        "title": "Supported Formats",
+        "content": "Supports more than 50 popular document formats from various categories."
+      },
+      "feature_4": {
+        "title": "Accept or Reject Changes",
+        "content": "Clear visual representation of identified changes, with the option to accept or reject modifications."
+      },
+      "feature_5": {
+        "title": "Generate Previews",
+        "content": "Save the comparison results as images."
+      },
+      "feature_6": {
+        "title": "Content Comparison",
+        "content": "Compare text content line-by-line, by paragraphs, by words, or by characters. Highlight the changes."
+      },
+      "feature_7": {
+        "title": "Style Comparison",
+        "content": "Detect changes in formatting and styles."
+      },
+      "feature_8": {
+        "title": "Set Metadata",
+        "content": "Retain metadata from either the source or target files, or allow it to be specified by users."
+      },
+      "feature_9": {
+        "title": "Password Protection",
+        "content": "Analyze encrypted documents, or secure the resulting document with a password."
+      },
+      "feature_10": {
+        "title": "Compare Specific Pages",
+        "content": "Load and compare specific sections or pages of a document."
+      },
+      "feature_11": {
+        "title": "Display Comments",
+        "content": "Choose to hide or show comments when loading the source document."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} supports the following operating systems, frameworks, and package managers",
+    "formats_description": "{{ProdFullName}} supports operations with the following [file formats]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Explore typical use cases of {{ProdFullName}} operations",
+    "code_title_sample_1": "Comparing Password-Protected Documents",
+    "code_samples_sample_1_content": "To compare documents that are [protected with a password]({{Sample1Url}}), you need to specify the password when loading the documents:",
+    "code_title_sample_2": "Comparing Multiple PDF Documents",
+    "code_samples_sample_2_content": "{{ProdShortName}} allows you to [compare more than two documents]({{Sample2Url}}). The process is similar to comparing two files; simply add more target files to the `comparer` class."
   }
 }

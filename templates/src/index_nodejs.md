@@ -25,6 +25,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
 head_title: "<% "{index-content-nodejs-java.head_title}" %>"
@@ -68,7 +71,7 @@ code:
     options.setGenerateSummaryPage(false);
 
     // <% "{index-content.code_comment_4}" %>
-    await comparer.compare(outputFileName, options);
+    await comparer.compare("result.bmp", options);
     ```
 
 ############################# Overview ############################
