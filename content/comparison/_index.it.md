@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-07-08T16:47:36
+date:  2024-07-10T18:47:13
 draft: false
 
 product: "Comparison"
@@ -11,7 +11,7 @@ product_tag: "comparison"
 lang: it
 
 ############################# Head ############################
-head_title: "Libreria di confronto dei documenti C# Java e Node.js | diff checker"
+head_title: "Libreria di confronto documenti Python C# Java Node.js | controllo del differenziale"
 head_description: "GroupDocs Libreria di confronto dei documenti nativa per C# .NET Java e Node.js. Verifica le differenze tra i file nei formati supportati."
 
 ############################# Header ############################
@@ -117,6 +117,34 @@ supported_platforms:
             content: |
                     50+ file formats
 
+    # items loop
+    - title: "Python"
+      description: GroupDocs.Comparison Python
+      color: "yellow"
+      tag: "python-net"
+      link: "/comparison/python-net/"
+      features_link: "https://docs.groupdocs.com/comparison/net/system-requirements/"
+      features:
+          # features loop
+          - rows: "4"
+            content: |
+                    Python 3.9+ and .Net 6+
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows <br> Linux <br> Mac OS
+      
+          # features loop
+          - rows: "3"
+            content: |
+                    IDLE <br> PyCharm <br> Visual Studio Code
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    50+ file formats
+
 ############################# Features ###############################
 features:
   enable: true
@@ -205,6 +233,25 @@ code_samples:
 
             // Confronta e salva risultato
             comparer.compare("result.docx", options);
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}  
+            def run():
+
+                # Specifica il documento di origine
+                with groupdocs.comparison.Comparer("source.docx") as comparer:
+
+                    # Aggiungere uno o più documenti di destinazione
+                    comparer.add("target.docx")
+
+                    # Specifica le opzioni di confronto
+                    options = new groupdocs.comparison.CompareOptions()
+                    options.setShowRevisions(false)
+
+                    # Confronta e salva risultato
+                    comparer.compare("result.docx", options)
             ```
 
 

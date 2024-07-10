@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-22T13:27:50
+date: 2024-07-10T18:47:13
 draft: false
 
 lang: fr
@@ -23,6 +23,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
 head_title: "C# .NET Logiciel de comparaison de documents | diff checker"
@@ -127,7 +130,7 @@ formats:
   enable: true
   title: "Formats de fichiers pris en charge"
   description: |
-    GroupDocs.Comparison for .NET prend en charge les opérations utilisant les [formats de fichiers] suivants (https://docs.groupdocs.com/comparison/net/supported-document-formats/).
+    GroupDocs.Comparison for .NET prend en charge les opérations utilisant les [formats de fichiers suivants](https://docs.groupdocs.com/comparison/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"

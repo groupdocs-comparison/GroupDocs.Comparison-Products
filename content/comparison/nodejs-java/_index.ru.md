@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-04-02T14:08:51
+date: 2024-07-10T18:47:13
 draft: false
 
 lang: ru
@@ -23,6 +23,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
 head_title: "Node.js API сравнения документов | средство проверки различий"
@@ -66,7 +69,7 @@ code:
     options.setGenerateSummaryPage(false);
 
     // Сравните файлы и сохраните результат
-    await comparer.compare(outputFileName, options);
+    await comparer.compare("result.bmp", options);
     ```
 
 ############################# Overview ############################
@@ -238,7 +241,7 @@ code_samples:
     # code sample loop
     - title: "Сравнение документов, защищенных паролем."
       content: |
-        Чтобы сравнить документы, защищенные паролем [](https://docs.groupdocs.com/comparison/nodejs-java/load-password-protected-documents/), вам необходимо указать его при загрузке документов:
+        Чтобы [сравнить документы, защищенные паролем](https://docs.groupdocs.com/comparison/nodejs-java/load-password-protected-documents/), вам необходимо указать его при загрузке документов:
         {{< landing/code title="Как сравнить документы, защищенные паролем.">}}
         ```javascript {style=abap}
 

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-04-02T14:08:51
+date: 2024-07-10T18:47:13
 draft: false
 
 lang: pt
@@ -23,6 +23,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
 head_title: "Node.js API de comparação de documentos | diff checker"
@@ -66,7 +69,7 @@ code:
     options.setGenerateSummaryPage(false);
 
     // Comparar e salvar resultado
-    await comparer.compare(outputFileName, options);
+    await comparer.compare("result.bmp", options);
     ```
 
 ############################# Overview ############################

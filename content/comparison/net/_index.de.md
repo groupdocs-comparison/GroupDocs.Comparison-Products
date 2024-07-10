@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-22T13:27:50
+date: 2024-07-10T18:47:13
 draft: false
 
 lang: de
@@ -23,6 +23,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
 head_title: "C# .NET Software zum Vergleich von Dokumenten | diff checker"
@@ -229,7 +232,7 @@ code_samples:
     # code sample loop
     - title: "Vergleich passwortgeschützter Dokumente."
       content: |
-        Um Dokumente zu vergleichen, die [mit einem Passwort geschützt] sind (https://docs.groupdocs.com/comparison/net/load-password-protected-documents/), müssen Sie es angeben und dann die Dokumente laden:
+        Um Dokumente zu vergleichen, die [mit einem Passwort geschützt sind](https://docs.groupdocs.com/comparison/net/load-password-protected-documents/), müssen Sie es angeben und dann die Dokumente laden:
         {{< landing/code title="So vergleichen Sie passwortgeschützte Dokumente.">}}
         ```csharp {style=abap}
         // Laden Sie das Quelldokument und geben Sie sein Passwort an

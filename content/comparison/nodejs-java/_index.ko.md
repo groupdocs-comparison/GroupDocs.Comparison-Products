@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-04-02T14:08:51
+date: 2024-07-10T18:47:13
 draft: false
 
 lang: ko
@@ -23,6 +23,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
 head_title: "Node.js 문서 비교 API | 차이점 검사기"
@@ -66,7 +69,7 @@ code:
     options.setGenerateSummaryPage(false);
 
     // 이미 번역됨
-    await comparer.compare(outputFileName, options);
+    await comparer.compare("result.bmp", options);
     ```
 
 ############################# Overview ############################

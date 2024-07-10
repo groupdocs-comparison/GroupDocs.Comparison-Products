@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-04-02T14:08:51
+date: 2024-07-10T18:47:13
 draft: false
 
 lang: fr
@@ -23,6 +23,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
 head_title: "Node.js API de comparaison de documents | vérificateur de différences"
@@ -66,7 +69,7 @@ code:
     options.setGenerateSummaryPage(false);
 
     // Comparer et enregistrer le résultat
-    await comparer.compare(outputFileName, options);
+    await comparer.compare("result.bmp", options);
     ```
 
 ############################# Overview ############################
@@ -136,7 +139,7 @@ formats:
   enable: true
   title: "Formats de fichiers pris en charge"
   description: |
-    GroupDocs.Comparison for Node.js via Java prend en charge les opérations utilisant les [formats de fichiers] suivants (https://docs.groupdocs.com/comparison/nodejs-java/supported-document-formats/).
+    GroupDocs.Comparison for Node.js via Java prend en charge les opérations utilisant les [formats de fichiers suivants](https://docs.groupdocs.com/comparison/nodejs-java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"

@@ -1,6 +1,6 @@
 {
   "index-content": {
-    "head_title": "Pustaka Perbandingan Dokumen C# Java & Node.js | diff checker",
+    "head_title": "Perpustakaan Perbandingan Dokumen C# Java Node.js Python | pemeriksa perbedaan",
     "head_description": "GroupDocs Pustaka Perbandingan Dokumen asli C# .NET Java & Node.js. Periksa perbedaan di antara file format yang didukung.",
     "title": "Bandingkan Perbedaan Di Seluruh Jenis File Populer",
     "description_1": "API yang kuat untuk perbandingan dokumen di berbagai format file.",
@@ -223,7 +223,7 @@
       }
     },
     "platforms_description": "{{ProdFullName}} mendukung sistem operasi, kerangka kerja dan manajer paket berikut",
-    "formats_description": "{{ProdFullName}} mendukung operasi dengan [format file] berikut ({{SupportedFormatsUrl}}).",
+    "formats_description": "{{ProdFullName}} mendukung operasi dengan [format file berikut]({{SupportedFormatsUrl}}).",
     "code_samples_description": "Beberapa kasus penggunaan operasi {{ProdFullName}} tipikal",
     "code_title_sample_1": "Membandingkan dokumen yang dilindungi kata sandi.",
     "code_samples_sample_1_content": "Untuk membandingkan dokumen yang [dilindungi dengan kata sandi]({{Sample1Url}}), Anda perlu menentukannya lalu memuat dokumen:",
@@ -303,7 +303,7 @@
       }
     },
     "platforms_description": "{{ProdFullName}} mendukung sistem operasi, kerangka kerja dan manajer paket berikut",
-    "formats_description": "{{ProdFullName}} mendukung operasi dengan [format file] berikut ({{SupportedFormatsUrl}}).",
+    "formats_description": "{{ProdFullName}} mendukung operasi dengan [format file berikut]({{SupportedFormatsUrl}}).",
     "code_samples_description": "Beberapa kasus penggunaan operasi {{ProdFullName}} tipikal",
     "code_title_sample_1": "Membandingkan dokumen yang dilindungi kata sandi.",
     "code_samples_sample_1_content": "Untuk membandingkan dokumen yang [dilindungi dengan kata sandi]({{Sample1Url}}), Anda perlu menentukannya lalu memuat dokumen:",
@@ -383,11 +383,91 @@
       }
     },
     "platforms_description": "{{ProdFullName}} mendukung sistem operasi, kerangka kerja dan manajer paket berikut",
-    "formats_description": "{{ProdFullName}} mendukung operasi dengan [format file] berikut ({{SupportedFormatsUrl}}).",
+    "formats_description": "{{ProdFullName}} mendukung operasi dengan [format file berikut]({{SupportedFormatsUrl}}).",
     "code_samples_description": "Beberapa kasus penggunaan operasi {{ProdFullName}} tipikal",
     "code_title_sample_1": "Membandingkan dokumen yang dilindungi kata sandi.",
     "code_samples_sample_1_content": "Untuk membandingkan dokumen yang [dilindungi dengan kata sandi]({{Sample1Url}}), Anda perlu menentukannya lalu memuat dokumen:",
     "code_title_sample_2": "Membandingkan beberapa PDF dokumen.",
     "code_samples_sample_2_content": "{{ProdShortName}} memungkinkan Anda untuk [membandingkan lebih dari dua dokumen]({{Sample2Url}}). Operasi ini hampir sama dengan ketika membandingkan dua file. Anda hanya perlu menambahkan lebih banyak file target ke kelas `comparer`."
+  },
+  "index-content-python-net": {
+    "head_title": "{{Runtime}} API Perbandingan Dokumen | pemeriksa perbedaan",
+    "head_description": "{{Runtime}} Document Comparison API menawarkan alat yang efisien untuk membandingkan dokumen. Terintegrasi secara mulus dengan {{Runtime}} untuk pelacakan perubahan instan",
+    "title": "Bandingkan Dokumen dengan {{Runtime}}: Sorot Setiap Perbedaan",
+    "description": "Gunakan API {{ProdShortName}} untuk mengembangkan aplikasi Python asli dengan fitur perbandingan yang sangat dapat dikonfigurasi. Bandingkan file, kontennya, dan gaya teks antara format dokumen serupa.",
+    "actions_main": "Unduhan {{PackageStoreName}} Gratis",
+    "code_title": "Bandingkan gambar BMP di {{ProgLang}}",
+    "overview_description": "API untuk membandingkan jenis dokumen populer seperti PDF, Microsoft Office, HTML, email, atau gambar dalam aplikasi {{Runtime}}.",
+    "overview_feature_1": {
+      "title": "Laporan Keluaran Terperinci",
+      "description": "{{ProdShortName}} mengidentifikasi perubahan konten dokumen (karakter, kata, paragraf, tabel, bagan) serta perubahan gaya dokumen. Ini memberi pengguna laporan yang berisi informasi rinci tentang perbedaan, termasuk jumlah dan jenisnya."
+    },
+    "overview_feature_2": {
+      "title": "Mendukung Format File dan Dokumen Populer",
+      "description": "Dengan API {{ProdShortName}}, Anda dapat membandingkan dokumen secara efisien dalam format seperti PDF, HTML, email, Microsoft Office Word, spreadsheet Excel, presentasi PowerPoint, OneNote, diagram Visio, file teks, JPEG, PNG, GIF, gambar BMP, dan banyak format lainnya."
+    },
+    "overview_feature_3": {
+      "title": "Dokumentasi dan Contoh Komprehensif",
+      "description": "Tersedia dokumentasi ekstensif dan contoh kode untuk menggunakan pustaka Perbandingan pada berbagai platform, sehingga memudahkan integrasi {{ProdShortName}} API ke dalam aplikasi {{Runtime}} Anda."
+    },
+    "overview_feature_4": {
+      "title": "Pilih dan Gabungkan Perubahan menjadi Satu File",
+      "description": "Jika Anda memiliki versi dokumen yang berbeda, Anda dapat memilih perubahan tertentu dan mengompilasi dokumen baru menggunakan pustaka {{ProdShortName}}."
+    },
+    "features": {
+      "title": "{{ProdFullName}} Fitur",
+      "description": "Bandingkan dokumen PDF dan Office, gambar, dan format lainnya dengan mudah.",
+      "feature_1": {
+        "title": "Perbandingan Dokumen yang Ramah Pengguna",
+        "content": "Menganalisis dan mengidentifikasi perbedaan antara dua dokumen."
+      },
+      "feature_2": {
+        "title": "Bandingkan Beberapa Dokumen",
+        "content": "Analisis dan identifikasi perbedaan dalam beberapa dokumen secara bersamaan."
+      },
+      "feature_3": {
+        "title": "Format yang Didukung",
+        "content": "Mendukung lebih dari 50 format dokumen populer dari berbagai kategori."
+      },
+      "feature_4": {
+        "title": "Terima atau Tolak Perubahan",
+        "content": "Representasi visual yang jelas tentang perubahan yang teridentifikasi, dengan opsi untuk menerima atau menolak modifikasi."
+      },
+      "feature_5": {
+        "title": "Hasilkan Pratinjau",
+        "content": "Simpan hasil perbandingan sebagai gambar."
+      },
+      "feature_6": {
+        "title": "Perbandingan Konten",
+        "content": "Bandingkan konten teks baris demi baris, paragraf, kata, atau karakter. Sorot perubahannya."
+      },
+      "feature_7": {
+        "title": "Perbandingan Gaya",
+        "content": "Mendeteksi perubahan dalam format dan gaya."
+      },
+      "feature_8": {
+        "title": "Tetapkan Metadata",
+        "content": "Pertahankan metadata dari file sumber atau target, atau izinkan untuk ditentukan oleh pengguna."
+      },
+      "feature_9": {
+        "title": "Perlindungan Kata Sandi",
+        "content": "Analisis dokumen terenkripsi, atau amankan dokumen yang dihasilkan dengan kata sandi."
+      },
+      "feature_10": {
+        "title": "Bandingkan Halaman Tertentu",
+        "content": "Memuat dan membandingkan bagian atau halaman tertentu dari suatu dokumen."
+      },
+      "feature_11": {
+        "title": "Tampilkan Komentar",
+        "content": "Pilih untuk menyembunyikan atau menampilkan komentar saat memuat dokumen sumber."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} mendukung sistem operasi, kerangka kerja, dan manajer paket berikut",
+    "formats_description": "{{ProdFullName}} mendukung operasi dengan [format file]({{SupportedFormatsUrl}}) berikut.",
+    "code_samples_description": "Jelajahi kasus penggunaan umum operasi {{ProdFullName}}",
+    "code_title_sample_1": "Membandingkan Dokumen yang Dilindungi Kata Sandi",
+    "code_samples_sample_1_content": "Untuk membandingkan dokumen yang [dilindungi dengan kata sandi]({{Sample1Url}}), Anda perlu menentukan kata sandi saat memuat dokumen:",
+    "code_title_sample_2": "Membandingkan Beberapa Dokumen PDF",
+    "code_samples_sample_2_content": "{{ProdShortName}} memungkinkan Anda [membandingkan lebih dari dua dokumen]({{Sample2Url}}). Prosesnya mirip dengan membandingkan dua file; cukup tambahkan lebih banyak file target ke kelas `pembanding`."
   }
 }

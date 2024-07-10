@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-22T13:27:50
+date: 2024-07-10T18:47:13
 draft: false
 
 lang: ru
@@ -23,6 +23,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
 head_title: "C# .NET решение для сравнения документов | diff checker"
@@ -229,7 +232,7 @@ code_samples:
     # code sample loop
     - title: "Сравнение документов, защищенных паролем."
       content: |
-        Чтобы сравнить документы, защищенные паролем [](https://docs.groupdocs.com/comparison/net/load-password-protected-documents/), вам необходимо указать его при загрузке документов:
+        Чтобы [сравнить документы, защищенные паролем](https://docs.groupdocs.com/comparison/net/load-password-protected-documents/), вам необходимо указать его при загрузке документов:
         {{< landing/code title="Как сравнить документы, защищенные паролем.">}}
         ```csharp {style=abap}
         // Загрузить исходный документ и укажите его пароль

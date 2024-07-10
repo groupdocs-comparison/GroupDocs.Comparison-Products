@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-22T13:27:50
+date: 2024-07-10T18:47:13
 draft: false
 
 lang: vi
@@ -23,6 +23,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
 head_title: "C# .NET Phần mềm so sánh tài liệu | diff checker"
@@ -127,7 +130,7 @@ formats:
   enable: true
   title: "Định dạng tập tin được hỗ trợ"
   description: |
-    GroupDocs.Comparison for .NET hỗ trợ các hoạt động với [định dạng tệp] sau đây (https://docs.groupdocs.com/comparison/net/supported-document-formats/).
+    GroupDocs.Comparison for .NET hỗ trợ các hoạt động với [định dạng tệp sau đây](https://docs.groupdocs.com/comparison/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
