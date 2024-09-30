@@ -1,0 +1,10 @@
+inherits: ..\\products_python.yml
+
+dimensions:  
+- alias:  operation
+  values: [format_python] 
+
+- alias:  fileformat
+  values: [pdf, docx, xlsx, pptx, png, jpeg, jpg] 
+
+outputPath: "comparison\\{product}\\{fileformat}.{lang}.md"
