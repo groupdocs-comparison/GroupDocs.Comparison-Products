@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-07-10T18:47:13
+date: 2024-10-01T13:42:45
 draft: false
 
 lang: ko
@@ -28,11 +28,11 @@ supported_platforms:
       tag: "python-net"
 
 ############################# Head ############################
-head_title: "{{런타임}} 문서 비교 API | 차이점 검사기"
-head_description: "{{런타임}} 문서 비교 API는 문서 비교를 위한 효율적인 도구를 제공합니다. 즉각적인 변경 추적을 위해 Python과 원활하게 통합됩니다."
+head_title: "Python 문서 비교 API | 차이점 검사기"
+head_description: "Python 문서 비교 API는 문서 비교를 위한 효율적인 도구를 제공합니다. 즉각적인 변경 추적을 위해 Python과 원활하게 통합됩니다."
 
 ############################# Header ############################
-title: "{{런타임}}으로 문서 비교: 차이점 강조 표시"
+title: "Python으로 문서 비교: 차이점 강조 표시"
 description: "GroupDocs.Comparison API를 사용하여 고도로 구성 가능한 비교 기능을 갖춘 기본 Python 애플리케이션을 개발하세요. 유사한 문서 형식 간의 파일, 내용, 텍스트 스타일을 비교합니다."
 words:
   for: "...에 대한"
@@ -77,7 +77,7 @@ code:
 overview:
   enable: true
   title: "GroupDocs.Comparison 한 눈에"
-  description: "{{런타임}} 애플리케이션 내에서 PDF, Microsoft Office, HTML, 이메일, 이미지 등 널리 사용되는 문서 유형을 비교하는 API입니다."
+  description: "Python 애플리케이션 내에서 PDF, Microsoft Office, HTML, 이메일, 이미지 등 널리 사용되는 문서 유형을 비교하는 API입니다."
   features:
     # feature loop
     - title: "상세한 출력 보고서"
