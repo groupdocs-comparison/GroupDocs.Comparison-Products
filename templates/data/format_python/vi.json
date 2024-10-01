@@ -1,0 +1,292 @@
+{
+  "common": {
+    "head": {
+      "title": "So sánh {{FileFormatUp}} với Thư viện {{ProgLang}}",
+      "description": "Với {{ProdFullName}}, tạo báo cáo so sánh chi tiết cho các ứng dụng {{Runtime}}."
+    },
+    "header": {
+      "title": "So sánh {{FileFormatUp}} trong {{Runtime}}",
+      "description": "{{ProdShortName}} là thư viện dựa trên {{Runtime}} cho phép bạn dễ dàng so sánh và xác định sự khác biệt trong tệp {{FileFormatUp}}. Nâng cao hiệu quả của giải pháp của bạn trong các tác vụ so sánh tài liệu bằng công cụ mạnh mẽ này.",
+      "subtitle": "Giải pháp so sánh tập tin",
+      "action_title": "Tải xuống miễn phí từ {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Khám phá các tính năng của {{ProdFullName}}",
+      "content": "{{ProdFullName}} là API được thiết kế để so sánh hình ảnh và tài liệu ở cùng định dạng. Nó phát hiện sự khác biệt về đoạn văn, từ ngữ, ký tự, hình dạng và kiểu văn bản giữa các tệp được so sánh. Bạn có thể hợp nhất những thay đổi này và lưu chúng vào tài liệu cuối cùng. Nó hỗ trợ nhiều định dạng bao gồm PDF, tài liệu Word, bảng tính Excel, bản trình bày PowerPoint, sơ đồ Visio, email Outlook, tệp HTML, bản vẽ và nhiều định dạng hình ảnh—tất cả đều không yêu cầu bất kỳ phần mềm bổ sung nào."
+    },
+    "steps": {
+      "title": "Cách so sánh {{FileFormatUp}} bằng cách sử dụng {{Runtime}}",
+      "content": {
+        "title": "Sử dụng [{{ProdShortName}}]({{ProductUrl}}) để so sánh các tệp {{FileFormatUp}} và tạo báo cáo chi tiết về sự khác biệt.",
+        "step_1": "Cài đặt {{ProdFullName}} qua [{{PackageStoreName}}]({{PackageUrl}}).",
+        "step_2": "Tạo một đối tượng Comparer và tải tệp {{FileFormatUp}} đầu tiên.",
+        "step_3": "Thêm tệp {{FileFormatUp}} thứ hai vào Bộ so sánh.",
+        "step_4": "Tạo một báo cáo toàn diện nêu rõ tất cả những khác biệt được phát hiện."
+      },
+      "code": {
+        "comments": {
+          "comment_1": "So sánh nhiều file để thấy điểm tương đồng và khác biệt.",
+          "comment_2": "Khởi tạo Trình so sánh và tải tệp đầu tiên.",
+          "comment_3": "Thêm các tập tin bổ sung để so sánh.",
+          "comment_4": "Truy xuất báo cáo so sánh cuối cùng."
+        }
+      }
+    },
+    "formats": {
+      "title": "So sánh các định dạng tài liệu phổ biến với {{ProgLang}}",
+      "description": "API {{Runtime}} của chúng tôi cho phép bạn dễ dàng so sánh các tài liệu ở nhiều định dạng khác nhau, cho phép bạn theo dõi những thay đổi và khác biệt của tài liệu một cách dễ dàng."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "So sánh các tệp PDF qua thư viện {{ProgLang}}",
+      "description": "Phần mềm {{ProdShortName}} dành cho {{Runtime}} tạo ra các báo cáo chuyên sâu nêu bật những điểm khác biệt trong tài liệu PDF."
+    },
+    "header": {
+      "title": "So sánh PDF cho {{EnvName}}",
+      "description": "Tận dụng API so sánh tài liệu của chúng tôi trong {{Runtime}} để dễ dàng xác định và hiển thị sự khác biệt trong tệp PDF trong ứng dụng {{ProgLang}}. Nhận báo cáo chi tiết một cách nhanh chóng và hiệu quả."
+    },
+    "about": {
+      "title": "Các tính năng chính của Thư viện {{ProdFullName}}",
+      "content": "Tạo báo cáo chi tiết về mọi khác biệt trong tài liệu PDF trực tiếp trong ứng dụng {{ProgLang}} của bạn. Chỉ với một vài dòng mã, hãy sử dụng {{ProdFullName}} mà không cần bất kỳ phần mềm hoặc thư viện bổ sung nào. Theo dõi các thay đổi về đoạn văn, từ, ký tự, hình dạng và kiểu văn bản trong tệp PDF của bạn. Bạn cũng có thể hợp nhất các thay đổi từ nhiều phiên bản tài liệu thành một kết quả duy nhất. Xử lý tài liệu nhanh chóng và dễ dàng, không gặp rắc rối."
+    },
+    "steps": {
+      "title": "Cách nhận báo cáo khác biệt dưới dạng PDF trong {{ProgLang}}",
+      "content": {
+        "title": "Theo dõi các thay đổi trong tài liệu PDF bằng các báo cáo được tạo bằng [{{ProdShortName}}]({{ProductUrl}}).",
+        "step_1": "Cài đặt {{ProdShortName}} cho {{EnvName}} qua [{{PackageStoreName}}]({{PackageUrl}}).",
+        "step_2": "Tạo một phiên bản Comparer và cung cấp đường dẫn đến tệp PDF đầu tiên.",
+        "step_3": "Thêm tệp PDF thứ hai để so sánh.",
+        "step_4": "Truy xuất báo cáo cuối cùng nêu chi tiết sự khác biệt giữa các tệp."
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Tạo báo cáo nêu bật sự khác biệt trong tệp PDF.",
+          "comment_2": "Tạo một đối tượng Comparer với tệp đầu tiên.",
+          "comment_3": "Thêm tệp thứ hai (hoặc nhiều hơn) để so sánh.",
+          "comment_4": "Lưu báo cáo đã tạo vào đường dẫn bạn đã chọn."
+        }
+      }
+    },
+    "formats": {
+      "title": "So sánh các định dạng phổ biến như PDF với {{ProgLang}}",
+      "description": "API {{Runtime}} của chúng tôi cho phép so sánh các tệp PDF nhanh chóng và hiệu quả. Dễ dàng theo dõi các thay đổi với các báo cáo chi tiết."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "So sánh các tài liệu DOCX bằng API {{Runtime}}",
+      "description": "Dễ dàng theo dõi sự khác biệt trong tệp MS Word DOCX bằng API {{ProdShortName}} cho {{Runtime}}. Tạo báo cáo chi tiết để làm nổi bật những thay đổi giữa các tài liệu."
+    },
+    "header": {
+      "title": "So sánh các tệp DOCX trong {{EnvName}}",
+      "description": "Sử dụng API xử lý tài liệu của chúng tôi trong {{Runtime}} để nhanh chóng xác định và hiển thị mọi thay đổi trong tệp MS Word DOCX. Hưởng lợi từ việc tạo báo cáo nhanh chóng, không rắc rối trong ứng dụng {{EnvName}} của bạn."
+    },
+    "about": {
+      "title": "Khám phá các tính năng của {{ProdFullName}}",
+      "content": "{{ProdShortName}} cung cấp các báo cáo toàn diện nêu bật những thay đổi trong các phiên bản khác nhau của tài liệu DOCX. Chỉ với một vài dòng mã, hãy tích hợp {{EnvName}} và API của chúng tôi vào quy trình làm việc của bạn mà không cần bất kỳ thư viện bổ sung nào. Phát hiện các thay đổi về trang, văn bản, kiểu văn bản hoặc hình dạng trong tài liệu MS Word. Bạn thậm chí có thể hợp nhất các thay đổi để tạo tài liệu DOCX cuối cùng. Nâng cao khả năng xử lý tài liệu của bạn với API mạnh mẽ của chúng tôi."
+    },
+    "steps": {
+      "title": "Tạo báo cáo so sánh DOCX trong {{ProgLang}}",
+      "content": {
+        "title": "Sử dụng [{{ProdShortName}}]({{ProductUrl}}) với {{EnvName}} để so sánh các tệp DOCX.",
+        "step_1": "Cài đặt {{ProdShortName}} cho {{EnvName}} qua [{{PackageStoreName}}]({{PackageUrl}}).",
+        "step_2": "Tạo một phiên bản Comparer và chỉ định đường dẫn đến tệp DOCX đầu tiên.",
+        "step_3": "Thêm file DOCX bổ sung để so sánh.",
+        "step_4": "Xem lại báo cáo đã tạo và truy cập kết quả."
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Nhận thông tin chi tiết về những thay đổi của DOCX.",
+          "comment_2": "Khởi tạo Trình so sánh với tệp DOCX đầu tiên.",
+          "comment_3": "Thêm nhiều file DOCX để so sánh.",
+          "comment_4": "Lưu báo cáo so sánh cục bộ."
+        }
+      }
+    },
+    "formats": {
+      "title": "So sánh các tài liệu DOCX sử dụng {{ProgLang}}",
+      "description": "Dễ dàng so sánh bất kỳ tệp MS Word DOCX nào với {{ProdFullName}} và nhận được thông tin chi tiết có giá trị về những thay đổi trong tài liệu."
+    }
+  },
+  "png": {
+    "head": {
+      "title": "API {{ProgLang}} để so sánh hình ảnh PNG",
+      "description": "Thư viện {{ProdFullName}} tạo báo cáo chi tiết nêu bật những khác biệt trong hình ảnh PNG."
+    },
+    "header": {
+      "title": "So sánh hình ảnh PNG trong ứng dụng {{Runtime}} với Python",
+      "description": "Tận dụng API {{Runtime}} để phát hiện các thay đổi trong tệp PNG trong ứng dụng {{ProgLang}} của bạn. Nhận báo cáo toàn diện một cách nhanh chóng và dễ dàng."
+    },
+    "about": {
+      "title": "Khám phá các khả năng của API {{ProdFullName}}",
+      "content": "Tạo báo cáo chi tiết về sự khác biệt giữa các phiên bản hình ảnh PNG khác nhau trực tiếp trong ứng dụng {{ProgLang}} của bạn—không cần phần mềm của bên thứ ba. Cập nhật thông tin về tất cả các thay đổi trong hình ảnh PNG của bạn."
+    },
+    "steps": {
+      "title": "Cách tạo báo cáo so sánh cho hình ảnh PNG trong {{ProgLang}}",
+      "content": {
+        "title": "Theo dõi các thay đổi trong tệp PNG bằng cách sử dụng [{{ProdShortName}}]({{ProductUrl}}) và dễ dàng tạo báo cáo.",
+        "step_1": "Cài đặt gói {{ProdShortName}} qua [{{PackageStoreName}}]({{PackageUrl}}).",
+        "step_2": "Tạo đối tượng Comparer và cung cấp đường dẫn đến tệp PNG đầu tiên.",
+        "step_3": "Thêm một hoặc nhiều tệp PNG để so sánh.",
+        "step_4": "Truy xuất một báo cáo chi tiết cho thấy tất cả sự khác biệt."
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Tạo báo cáo nêu bật những thay đổi trong tệp PNG.",
+          "comment_2": "Khởi tạo Trình so sánh với tệp PNG đầu tiên.",
+          "comment_3": "Thêm các tệp PNG bổ sung để so sánh.",
+          "comment_4": "Lưu hoặc xem báo cáo với tất cả những khác biệt được xác định."
+        }
+      }
+    },
+    "formats": {
+      "title": "So sánh hình ảnh ở các định dạng phổ biến như PNG",
+      "description": "Sử dụng {{ProdFullName}} để xác định sự khác biệt giữa các hình ảnh PNG và tạo báo cáo chi tiết để theo dõi những thay đổi quan trọng."
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "Thư viện {{Runtime}} để tự động so sánh ảnh JPEG",
+      "description": "Khám phá khả năng của API {{ProdFullName}} để phát hiện và báo cáo sự khác biệt trong hình ảnh JPEG."
+    },
+    "header": {
+      "title": "So sánh hình ảnh JPEG và tạo báo cáo với {{EnvName}}",
+      "description": "Một giải pháp {{Runtime}} mạnh mẽ để theo dõi những thay đổi trong hình ảnh JPEG trong ứng dụng {{ProgLang}} của bạn. Báo cáo chi tiết cung cấp những hiểu biết có giá trị cho doanh nghiệp của bạn."
+    },
+    "about": {
+      "title": "Khám phá các tính năng của {{ProdFullName}}",
+      "content": "Nhận báo cáo chi tiết về những thay đổi trong hình ảnh JPEG bằng API {{ProdFullName}}. Dễ dàng phân tích dữ liệu trong ứng dụng {{ProgLang}} của bạn mà không cần thêm bất kỳ thư viện nào. Nâng cao quy trình công việc kinh doanh của bạn bằng cách chỉ thêm một vài dòng mã."
+    },
+    "steps": {
+      "title": "Cách phân tích sự thay đổi của ảnh JPEG bằng {{ProgLang}}",
+      "content": {
+        "title": "Sử dụng [{{ProdShortName}}]({{ProductUrl}}) để phát hiện và quản lý sự khác biệt trong hình ảnh JPEG.",
+        "step_1": "Cài đặt {{ProdShortName}} từ [{{PackageStoreName}}]({{PackageUrl}}).",
+        "step_2": "Tạo một đối tượng so sánh và cung cấp đường dẫn đến tệp JPEG.",
+        "step_3": "Thêm ít nhất một tệp JPEG nữa để so sánh.",
+        "step_4": "Tạo báo cáo so sánh và lưu nó ở định dạng JPEG."
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Xử lý hình ảnh JPEG để tạo báo cáo khác biệt.",
+          "comment_2": "Khởi tạo đối tượng Comparer bằng tệp JPEG đầu tiên.",
+          "comment_3": "Thêm các tệp JPEG bổ sung để phân tích.",
+          "comment_4": "Nhận báo cáo chi tiết về sự khác biệt giữa các hình ảnh."
+        }
+      }
+    },
+    "formats": {
+      "title": "So sánh hình ảnh JPEG bằng cách sử dụng {{ProgLang}}",
+      "description": "API {{ProdFullName}} cung cấp báo cáo chi tiết về sự khác biệt trong tệp JPEG. Những báo cáo này giúp bạn theo dõi những thay đổi trong hình ảnh doanh nghiệp quan trọng một cách dễ dàng."
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "Tự động so sánh hình ảnh JPG với thư viện {{Runtime}}",
+      "description": "Sử dụng API {{ProdFullName}} để dễ dàng xác định và báo cáo sự khác biệt trong hình ảnh JPG."
+    },
+    "header": {
+      "title": "Tạo báo cáo khác biệt về JPG trong ứng dụng {{EnvName}}",
+      "description": "Tận dụng {{Runtime}} để so sánh các thay đổi của hình ảnh JPG trong ứng dụng {{ProgLang}} của bạn. Báo cáo chi tiết cung cấp những hiểu biết có giá trị cho các giải pháp kinh doanh của bạn."
+    },
+    "about": {
+      "title": "Khám phá sức mạnh của API {{ProdFullName}}",
+      "content": "Luôn cập nhật những thay đổi đối với hình ảnh JPG bằng {{ProdFullName}}. Phân tích dữ liệu chi tiết trong ứng dụng {{ProgLang}} của bạn mà không cần thêm công cụ. Với mã tối thiểu, hãy nâng cao các giải pháp kinh doanh của bạn và tự động so sánh hình ảnh."
+    },
+    "steps": {
+      "title": "Cách phân tích các thay đổi của JPG bằng {{ProgLang}}",
+      "content": {
+        "title": "Tận dụng [{{ProdShortName}}]({{ProductUrl}}) để quản lý sự khác biệt của hình ảnh JPG.",
+        "step_1": "Cài đặt {{ProdShortName}} từ [{{PackageStoreName}}]({{PackageUrl}}).",
+        "step_2": "Tạo một đối tượng so sánh và cung cấp đường dẫn đến tệp JPG.",
+        "step_3": "Thêm ít nhất một tệp JPG nữa để so sánh.",
+        "step_4": "Tạo một báo cáo với các chi tiết về sự khác biệt."
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Tạo báo cáo so sánh các tệp JPG.",
+          "comment_2": "Khởi tạo một đối tượng Comparer mới bằng tệp JPG đầu tiên.",
+          "comment_3": "Thêm các tệp JPG bổ sung để so sánh.",
+          "comment_4": "Tạo báo cáo với thông tin chi tiết về sự khác biệt giữa các hình ảnh JPG."
+        }
+      }
+    },
+    "formats": {
+      "title": "So sánh hình ảnh JPG với {{ProgLang}}",
+      "description": "Sử dụng thư viện {{ProdFullName}}, nhanh chóng xác định sự khác biệt giữa các hình ảnh JPG. Báo cáo chi tiết giúp theo dõi những thay đổi trong các hồ sơ kinh doanh quan trọng."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "So sánh nội dung bảng tính XLSX với API {{Runtime}}",
+      "description": "Dễ dàng kiểm tra sự khác biệt trong bảng tính MS Excel bằng API {{Runtime}} của chúng tôi, API này tạo ra các báo cáo chi tiết nêu bật tất cả sự khác biệt."
+    },
+    "header": {
+      "title": "So sánh bảng tính XLSX trong ứng dụng {{EnvName}}",
+      "description": "Sử dụng thư viện xử lý tài liệu {{Runtime}} để phát hiện và đánh dấu các thay đổi trong tệp MS Excel XLSX trong ứng dụng {{EnvName}}. Tạo báo cáo nhanh chóng và dễ dàng."
+    },
+    "about": {
+      "title": "Khám phá lợi ích của {{ProdShortName}}",
+      "content": "Tạo báo cáo toàn diện cung cấp dữ liệu chi tiết về những thay đổi trên các phiên bản khác nhau của tệp XLSX bằng cách sử dụng {{ProdShortName}}. Chỉ với một vài dòng mã, bạn có thể tích hợp liền mạch API vào các ứng dụng {{EnvName}} của mình mà không cần thêm công cụ. Phân tích sự khác biệt về trang tính, văn bản, kiểu hoặc hình dạng trong tệp MS Excel và hợp nhất các thay đổi thành tài liệu XLSX cuối cùng. Nâng cao quy trình công việc kinh doanh của bạn với các giải pháp mạnh mẽ của chúng tôi."
+    },
+    "steps": {
+      "title": "Cách so sánh các tệp XLSX trong {{ProgLang}}",
+      "content": {
+        "title": "Sử dụng [{{ProdShortName}}]({{ProductUrl}}) và {{EnvName}} để so sánh các tài liệu XLSX",
+        "step_1": "Cài đặt {{ProdShortName}} cho {{EnvName}} từ [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Khởi tạo đối tượng Comparer và cung cấp đường dẫn đến tệp XLSX đầu tiên",
+        "step_3": "Thêm file XLSX bổ sung để so sánh",
+        "step_4": "Tạo và xem xét kết quả so sánh"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Truy xuất báo cáo nêu chi tiết các thay đổi trong tệp XLSX",
+          "comment_2": "Tạo một đối tượng Comparer mới với tệp XLSX đầu tiên",
+          "comment_3": "Thêm các file XLSX khác để so sánh",
+          "comment_4": "Lưu báo cáo được tạo cục bộ"
+        }
+      }
+    },
+    "formats": {
+      "title": "So sánh bảng tính XLSX với {{ProgLang}}",
+      "description": "Dễ dàng so sánh các bảng tính MS Excel XLSX bằng API {{ProdFullName}}. Nhận được những hiểu biết sâu sắc về những thay đổi trong dữ liệu kinh doanh của bạn với các báo cáo chi tiết của chúng tôi."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "So sánh các tệp PPTX với {{EnvName}}",
+      "description": "Phân tích bản trình bày PPTX với {{ProdShortName}} bằng cách sử dụng {{EnvName}} và tạo báo cáo chính xác nêu bật những khác biệt về nội dung."
+    },
+    "header": {
+      "title": "So sánh bản trình bày PPTX trong {{EnvName}}",
+      "description": "Tận dụng API xử lý tài liệu trong {{Runtime}} để phát hiện và hiển thị các thay đổi trong bản trình bày MS PowerPoint PPTX trong ứng dụng {{EnvName}}. Hợp lý hóa quy trình công việc kinh doanh của bạn với phân tích nhanh chóng và dễ dàng."
+    },
+    "about": {
+      "title": "Khám phá các tính năng của {{ProdFullName}}",
+      "content": "Tạo báo cáo chi tiết về những thay đổi trên các phiên bản khác nhau của tệp PPTX với {{ProdShortName}}. Dễ dàng tích hợp giải pháp vào các ứng dụng {{EnvName}} của bạn chỉ bằng một vài dòng mã. Phân tích sự khác biệt về trang trình bày, văn bản, định dạng hoặc hình dạng trong bản trình bày MS PowerPoint. Bạn cũng có thể hợp nhất các thay đổi thành tệp PPTX cuối cùng. Nâng cao các dự án kinh doanh của bạn với giải pháp mạnh mẽ này."
+    },
+    "steps": {
+      "title": "Tạo báo cáo về sự khác biệt của tệp PPTX trong {{ProgLang}}",
+      "content": {
+        "title": "Sử dụng [{{ProdShortName}}]({{ProductUrl}}) để so sánh các bản trình bày PPTX",
+        "step_1": "Cài đặt {{ProdShortName}} từ [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Tạo đối tượng Comparer cho tệp PPTX đầu tiên",
+        "step_3": "Thêm file PPTX bổ sung để so sánh",
+        "step_4": "Truy xuất và xem xét báo cáo so sánh"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Truy xuất dữ liệu về các thay đổi của tệp PPTX",
+          "comment_2": "Khởi tạo Trình so sánh với tệp PPTX đầu tiên",
+          "comment_3": "Bao gồm các tệp PPTX khác",
+          "comment_4": "Lưu kết quả so sánh cục bộ"
+        }
+      }
+    },
+    "formats": {
+      "title": "So sánh các bản trình bày PPTX bằng cách sử dụng {{ProgLang}}",
+      "description": "Dễ dàng so sánh các bản trình bày MS PowerPoint PPTX bằng cách sử dụng {{ProdFullName}}. Tạo báo cáo chi tiết cung cấp thông tin chi tiết về những thay đổi trong bản trình bày kinh doanh của bạn."
+    }
+  }
+}

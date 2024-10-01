@@ -1,0 +1,292 @@
+{
+  "common": {
+    "head": {
+      "title": "Bandingkan {{FileFormatUp}} dengan Perpustakaan {{ProgLang}}",
+      "description": "Dengan {{ProdFullName}}, buat laporan perbandingan mendetail untuk aplikasi {{Runtime}}."
+    },
+    "header": {
+      "title": "Bandingkan {{FileFormatUp}} dalam {{Runtime}}",
+      "description": "{{ProdShortName}} adalah pustaka berbasis {{Runtime}} yang memungkinkan Anda membandingkan dan mengidentifikasi perbedaan dengan mudah dalam file {{FileFormatUp}}. Tingkatkan efisiensi solusi Anda dalam tugas perbandingan dokumen dengan alat canggih ini.",
+      "subtitle": "Solusi perbandingan file",
+      "action_title": "Unduh dari {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "Temukan fitur {{ProdFullName}}",
+      "content": "{{ProdFullName}} adalah API yang dirancang untuk membandingkan gambar dan dokumen dalam format yang sama. Ini mendeteksi perbedaan paragraf, kata, karakter, bentuk, dan gaya teks antara file yang dibandingkan. Anda dapat menggabungkan perubahan ini dan menyimpannya ke dalam dokumen akhir. Ini mendukung berbagai format termasuk PDF, dokumen Word, spreadsheet Excel, presentasi PowerPoint, diagram Visio, email Outlook, file HTML, gambar, dan berbagai format gambar—semuanya tanpa memerlukan perangkat lunak tambahan apa pun."
+    },
+    "steps": {
+      "title": "Bagaimana membandingkan {{FileFormatUp}} menggunakan {{Runtime}}",
+      "content": {
+        "title": "Gunakan [{{ProdShortName}}]({{ProductUrl}}) untuk membandingkan file {{FileFormatUp}} dan membuat laporan perbedaan mendetail.",
+        "step_1": "Instal {{ProdFullName}} melalui [{{PackageStoreName}}]({{PackageUrl}}).",
+        "step_2": "Buat objek Pembanding dan muat file {{FileFormatUp}} pertama.",
+        "step_3": "Tambahkan file {{FileFormatUp}} kedua ke Pembanding.",
+        "step_4": "Hasilkan laporan komprehensif yang menguraikan semua perbedaan yang terdeteksi."
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Bandingkan beberapa file untuk melihat persamaan dan perbedaan.",
+          "comment_2": "Inisialisasi Pembanding dan muat file pertama.",
+          "comment_3": "Tambahkan file tambahan untuk perbandingan.",
+          "comment_4": "Ambil laporan perbandingan akhir."
+        }
+      }
+    },
+    "formats": {
+      "title": "Bandingkan format dokumen populer dengan {{ProgLang}}",
+      "description": "API {{Runtime}} kami memungkinkan Anda dengan mudah membandingkan dokumen dalam berbagai format, memungkinkan Anda melacak perubahan dan perbedaan dokumen dengan mudah."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Bandingkan PDF melalui perpustakaan {{ProgLang}}",
+      "description": "Perangkat lunak {{ProdShortName}} untuk {{Runtime}} menghasilkan laporan mendalam yang menyoroti perbedaan dalam dokumen PDF."
+    },
+    "header": {
+      "title": "Perbandingan PDF untuk {{EnvName}}",
+      "description": "Manfaatkan API perbandingan dokumen kami di {{Runtime}} untuk dengan mudah mengidentifikasi dan menampilkan perbedaan file PDF dalam aplikasi {{ProgLang}}. Dapatkan laporan terperinci dengan cepat dan efisien."
+    },
+    "about": {
+      "title": "Fitur utama Perpustakaan {{ProdFullName}}",
+      "content": "Hasilkan laporan terperinci tentang perbedaan apa pun dalam dokumen PDF langsung di aplikasi {{ProgLang}} Anda. Hanya dengan beberapa baris kode, gunakan {{ProdFullName}} tanpa memerlukan perangkat lunak atau pustaka tambahan apa pun. Pantau perubahan paragraf, kata, karakter, bentuk, dan gaya teks dalam PDF Anda. Anda juga dapat menggabungkan perubahan dari beberapa versi dokumen menjadi satu hasil. Memproses dokumen dengan cepat dan mudah, tanpa repot."
+    },
+    "steps": {
+      "title": "Cara mendapatkan laporan perbedaan PDF di {{ProgLang}}",
+      "content": {
+        "title": "Lacak perubahan dalam dokumen PDF dengan laporan yang dihasilkan menggunakan [{{ProdShortName}}]({{ProductUrl}}).",
+        "step_1": "Instal {{ProdShortName}} untuk {{EnvName}} melalui [{{PackageStoreName}}]({{PackageUrl}}).",
+        "step_2": "Buat instance Pembanding dan berikan jalur ke file PDF pertama.",
+        "step_3": "Tambahkan file PDF kedua untuk perbandingan.",
+        "step_4": "Ambil laporan akhir yang merinci perbedaan antar file."
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Hasilkan laporan yang menyoroti perbedaan dalam file PDF.",
+          "comment_2": "Buat objek Pembanding dengan file pertama.",
+          "comment_3": "Tambahkan file kedua (atau lebih) untuk dibandingkan.",
+          "comment_4": "Simpan laporan yang dihasilkan ke jalur pilihan Anda."
+        }
+      }
+    },
+    "formats": {
+      "title": "Bandingkan format umum seperti PDF dengan {{ProgLang}}",
+      "description": "API {{Runtime}} kami memungkinkan perbandingan file PDF dengan cepat dan efisien. Lacak perubahan dengan mudah menggunakan laporan terperinci."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Bandingkan dokumen DOCX menggunakan {{Runtime}} API",
+      "description": "Lacak perbedaan file DOCX MS Word dengan mudah menggunakan API {{ProdShortName}} untuk {{Runtime}}. Hasilkan laporan terperinci untuk menyoroti perubahan antar dokumen."
+    },
+    "header": {
+      "title": "Bandingkan file DOCX di {{EnvName}}",
+      "description": "Gunakan API pemrosesan dokumen kami dalam {{Runtime}} untuk dengan cepat mengidentifikasi dan menampilkan perubahan apa pun pada file MS Word DOCX. Manfaatkan pembuatan laporan yang cepat dan tidak merepotkan di aplikasi {{EnvName}} Anda."
+    },
+    "about": {
+      "title": "Temukan fitur {{ProdFullName}}",
+      "content": "{{ProdShortName}} memberikan laporan komprehensif yang menyoroti perubahan dalam berbagai versi dokumen DOCX. Hanya dengan beberapa baris kode, integrasikan {{EnvName}} dan API kami ke dalam alur kerja Anda tanpa memerlukan perpustakaan tambahan apa pun. Mendeteksi perubahan halaman, teks, gaya teks, atau bentuk dalam dokumen MS Word. Anda bahkan dapat menggabungkan perubahan untuk membuat dokumen DOCX akhir. Tingkatkan kemampuan pemrosesan dokumen Anda dengan API kami yang canggih."
+    },
+    "steps": {
+      "title": "Hasilkan laporan perbandingan DOCX di {{ProgLang}}",
+      "content": {
+        "title": "Gunakan [{{ProdShortName}}]({{ProductUrl}}) dengan {{EnvName}} untuk membandingkan file DOCX.",
+        "step_1": "Instal {{ProdShortName}} untuk {{EnvName}} melalui [{{PackageStoreName}}]({{PackageUrl}}).",
+        "step_2": "Buat instance Comparer dan tentukan jalur ke file DOCX pertama.",
+        "step_3": "Tambahkan file DOCX tambahan untuk perbandingan.",
+        "step_4": "Tinjau laporan yang dihasilkan dan akses hasilnya."
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Dapatkan informasi rinci tentang perubahan DOCX.",
+          "comment_2": "Inisialisasi Pembanding dengan file DOCX pertama.",
+          "comment_3": "Tambahkan lebih banyak file DOCX untuk perbandingan.",
+          "comment_4": "Simpan laporan perbandingan secara lokal."
+        }
+      }
+    },
+    "formats": {
+      "title": "Bandingkan dokumen DOCX menggunakan {{ProgLang}}",
+      "description": "Bandingkan file DOCX MS Word dengan mudah dengan {{ProdFullName}} dan dapatkan wawasan berharga tentang perubahan dokumen."
+    }
+  },
+  "png": {
+    "head": {
+      "title": "{{ProgLang}} API untuk membandingkan gambar PNG",
+      "description": "Pustaka {{ProdFullName}} menghasilkan laporan terperinci yang menyoroti perbedaan dalam gambar PNG."
+    },
+    "header": {
+      "title": "Bandingkan gambar PNG di aplikasi {{Runtime}} dengan Python",
+      "description": "Manfaatkan API {{Runtime}} untuk mendeteksi perubahan pada file PNG dalam aplikasi {{ProgLang}} Anda. Dapatkan laporan komprehensif dengan cepat dan mudah."
+    },
+    "about": {
+      "title": "Temukan kemampuan API {{ProdFullName}}",
+      "content": "Hasilkan laporan mendetail tentang perbedaan antara berbagai versi gambar PNG langsung di aplikasi {{ProgLang}} Anda—tidak memerlukan perangkat lunak pihak ketiga. Tetap terinformasi tentang semua perubahan pada gambar PNG Anda."
+    },
+    "steps": {
+      "title": "Cara menghasilkan laporan perbandingan untuk gambar PNG di {{ProgLang}}",
+      "content": {
+        "title": "Lacak perubahan pada file PNG menggunakan [{{ProdShortName}}]({{ProductUrl}}) dan buat laporan dengan mudah.",
+        "step_1": "Instal paket {{ProdShortName}} melalui [{{PackageStoreName}}]({{PackageUrl}}).",
+        "step_2": "Buat objek Pembanding dan berikan jalur ke file PNG pertama.",
+        "step_3": "Tambahkan satu atau lebih file PNG untuk dibandingkan.",
+        "step_4": "Ambil laporan terperinci yang menunjukkan semua perbedaan."
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Hasilkan laporan yang menyoroti perubahan pada file PNG.",
+          "comment_2": "Buat instance Pembanding dengan file PNG pertama.",
+          "comment_3": "Tambahkan file PNG tambahan untuk perbandingan.",
+          "comment_4": "Simpan atau lihat laporan dengan semua perbedaan yang teridentifikasi."
+        }
+      }
+    },
+    "formats": {
+      "title": "Bandingkan gambar dalam format populer seperti PNG",
+      "description": "Gunakan {{ProdFullName}} untuk mengidentifikasi perbedaan antara gambar PNG dan membuat laporan mendetail untuk melacak perubahan penting."
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "Pustaka {{Runtime}} untuk mengotomatiskan perbandingan gambar JPEG",
+      "description": "Temukan kemampuan API {{ProdFullName}} untuk mendeteksi dan melaporkan perbedaan pada gambar JPEG."
+    },
+    "header": {
+      "title": "Bandingkan gambar JPEG dan buat laporan dengan {{EnvName}}",
+      "description": "Solusi {{Runtime}} yang tangguh untuk melacak perubahan pada gambar JPEG dalam aplikasi {{ProgLang}} Anda. Laporan terperinci memberikan wawasan berharga untuk bisnis Anda."
+    },
+    "about": {
+      "title": "Jelajahi fitur-fitur {{ProdFullName}}",
+      "content": "Dapatkan laporan detail mengenai perubahan gambar JPEG menggunakan API {{ProdFullName}}. Analisis data dengan mudah di aplikasi {{ProgLang}} Anda tanpa memerlukan perpustakaan tambahan. Tingkatkan alur kerja bisnis Anda hanya dengan menambahkan beberapa baris kode."
+    },
+    "steps": {
+      "title": "Cara menganalisis perubahan gambar JPEG dengan {{ProgLang}}",
+      "content": {
+        "title": "Gunakan [{{ProdShortName}}]({{ProductUrl}}) untuk mendeteksi dan mengelola perbedaan dalam gambar JPEG.",
+        "step_1": "Instal {{ProdShortName}} dari [{{PackageStoreName}}]({{PackageUrl}}).",
+        "step_2": "Buat objek pembanding dan berikan jalur ke file JPEG.",
+        "step_3": "Tambahkan setidaknya satu file JPEG lagi untuk perbandingan.",
+        "step_4": "Hasilkan laporan perbandingan dan simpan dalam format JPEG."
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Proses gambar JPEG untuk menghasilkan laporan perbedaan.",
+          "comment_2": "Buat instance objek Pembanding dengan file JPEG pertama.",
+          "comment_3": "Tambahkan file JPEG tambahan untuk analisis.",
+          "comment_4": "Dapatkan laporan yang merinci perbedaan antara gambar."
+        }
+      }
+    },
+    "formats": {
+      "title": "Bandingkan gambar JPEG menggunakan {{ProgLang}}",
+      "description": "API {{ProdFullName}} memberikan laporan terperinci tentang perbedaan dalam file JPEG. Laporan ini membantu Anda melacak perubahan pada gambar bisnis penting dengan mudah."
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "Perbandingan otomatis gambar JPG dengan pustaka {{Runtime}}",
+      "description": "Gunakan API {{ProdFullName}} untuk mengidentifikasi dan melaporkan perbedaan gambar JPG dengan mudah."
+    },
+    "header": {
+      "title": "Hasilkan laporan perbedaan JPG di aplikasi {{EnvName}}",
+      "description": "Manfaatkan {{Runtime}} untuk membandingkan perubahan gambar JPG di aplikasi {{ProgLang}} Anda. Laporan terperinci memberikan wawasan berharga untuk solusi bisnis Anda."
+    },
+    "about": {
+      "title": "Temukan kehebatan API {{ProdFullName}}",
+      "content": "Dapatkan informasi terkini tentang perubahan pada gambar JPG dengan {{ProdFullName}}. Analisis data mendetail dalam aplikasi {{ProgLang}} Anda tanpa memerlukan alat tambahan. Dengan kode minimal, sempurnakan solusi bisnis Anda dan otomatiskan perbandingan gambar."
+    },
+    "steps": {
+      "title": "Cara menganalisis perubahan JPG dengan {{ProgLang}}",
+      "content": {
+        "title": "Manfaatkan [{{ProdShortName}}]({{ProductUrl}}) untuk mengelola perbedaan gambar JPG.",
+        "step_1": "Instal {{ProdShortName}} dari [{{PackageStoreName}}]({{PackageUrl}}).",
+        "step_2": "Buat objek pembanding dan berikan jalur ke file JPG.",
+        "step_3": "Tambahkan setidaknya satu file JPG lagi untuk perbandingan.",
+        "step_4": "Buat laporan dengan detail perbedaannya."
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Hasilkan laporan yang membandingkan file JPG.",
+          "comment_2": "Buat instance objek Pembanding baru dengan file JPG pertama.",
+          "comment_3": "Tambahkan file JPG tambahan untuk perbandingan.",
+          "comment_4": "Buat laporan dengan informasi mendetail tentang perbedaan antara gambar JPG."
+        }
+      }
+    },
+    "formats": {
+      "title": "Bandingkan gambar JPG dengan {{ProgLang}}",
+      "description": "Menggunakan pustaka {{ProdFullName}}, identifikasi perbedaan antara gambar JPG dengan cepat. Laporan terperinci membantu melacak perubahan pada file bisnis penting."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Bandingkan konten spreadsheet XLSX dengan {{Runtime}} API",
+      "description": "Periksa perbedaan dalam spreadsheet MS Excel dengan mudah menggunakan {{Runtime}} API kami, yang menghasilkan laporan terperinci yang menyoroti semua perbedaan."
+    },
+    "header": {
+      "title": "Perbandingan spreadsheet XLSX di aplikasi {{EnvName}}",
+      "description": "Gunakan pustaka pemrosesan dokumen {{Runtime}} untuk mendeteksi dan menyorot perubahan pada file MS Excel XLSX dalam aplikasi {{EnvName}}. Menghasilkan laporan dengan cepat dan mudah."
+    },
+    "about": {
+      "title": "Temukan manfaat {{ProdShortName}}",
+      "content": "Hasilkan laporan komprehensif yang memberikan data terperinci tentang perubahan di berbagai versi file XLSX menggunakan {{ProdShortName}}. Hanya dengan beberapa baris kode, Anda dapat mengintegrasikan API ke dalam aplikasi {{EnvName}} dengan lancar, tanpa memerlukan alat tambahan. Analisis perbedaan lembar, teks, gaya, atau bentuk dalam file MS Excel, dan gabungkan perubahannya menjadi dokumen XLSX akhir. Tingkatkan alur kerja bisnis Anda dengan solusi canggih kami."
+    },
+    "steps": {
+      "title": "Bagaimana membandingkan file XLSX di {{ProgLang}}",
+      "content": {
+        "title": "Gunakan [{{ProdShortName}}]({{ProductUrl}}) dan {{EnvName}} untuk membandingkan dokumen XLSX",
+        "step_1": "Instal {{ProdShortName}} untuk {{EnvName}} dari [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Buat instance objek Comparer dan berikan jalur ke file XLSX pertama",
+        "step_3": "Tambahkan file XLSX tambahan untuk perbandingan",
+        "step_4": "Menghasilkan dan meninjau hasil perbandingan"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Ambil laporan yang merinci perubahan dalam file XLSX",
+          "comment_2": "Buat objek Pembanding baru dengan file XLSX pertama",
+          "comment_3": "Tambahkan file XLSX lain untuk dibandingkan",
+          "comment_4": "Simpan laporan yang dihasilkan secara lokal"
+        }
+      }
+    },
+    "formats": {
+      "title": "Bandingkan spreadsheet XLSX dengan {{ProgLang}}",
+      "description": "Bandingkan spreadsheet MS Excel XLSX dengan mudah menggunakan API {{ProdFullName}}. Dapatkan wawasan mendalam tentang perubahan data bisnis Anda dengan laporan terperinci kami."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Bandingkan file PPTX dengan {{EnvName}}",
+      "description": "Analisis presentasi PPTX dengan {{ProdShortName}} menggunakan {{EnvName}}, dan buat laporan akurat yang menyoroti perbedaan konten."
+    },
+    "header": {
+      "title": "Perbandingan presentasi PPTX di {{EnvName}}",
+      "description": "Manfaatkan API pemrosesan dokumen di {{Runtime}} untuk mendeteksi dan menampilkan perubahan dalam presentasi MS PowerPoint PPTX dalam aplikasi {{EnvName}}. Sederhanakan alur kerja bisnis Anda dengan analisis yang cepat dan mudah."
+    },
+    "about": {
+      "title": "Temukan fitur {{ProdFullName}}",
+      "content": "Hasilkan laporan terperinci tentang perubahan di berbagai versi file PPTX dengan {{ProdShortName}}. Integrasikan solusi dengan mudah ke dalam aplikasi {{EnvName}} Anda hanya dengan beberapa baris kode. Analisis perbedaan slide, teks, format, atau bentuk dalam presentasi MS PowerPoint. Anda juga dapat menggabungkan perubahan menjadi file PPTX final. Tingkatkan proyek bisnis Anda dengan solusi canggih ini."
+    },
+    "steps": {
+      "title": "Hasilkan laporan untuk perbedaan file PPTX di {{ProgLang}}",
+      "content": {
+        "title": "Gunakan [{{ProdShortName}}]({{ProductUrl}}) untuk membandingkan presentasi PPTX",
+        "step_1": "Instal {{ProdShortName}} dari [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Buat objek Pembanding untuk file PPTX pertama",
+        "step_3": "Tambahkan file PPTX tambahan untuk perbandingan",
+        "step_4": "Ambil dan tinjau laporan perbandingan"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "Ambil data tentang perubahan file PPTX",
+          "comment_2": "Inisialisasi Pembanding dengan file PPTX pertama",
+          "comment_3": "Sertakan file PPTX lainnya",
+          "comment_4": "Simpan hasil perbandingan secara lokal"
+        }
+      }
+    },
+    "formats": {
+      "title": "Bandingkan presentasi PPTX menggunakan {{ProgLang}}",
+      "description": "Bandingkan presentasi MS PowerPoint PPTX dengan mudah menggunakan {{ProdFullName}}. Hasilkan laporan terperinci yang memberikan wawasan tentang perubahan dalam presentasi bisnis Anda."
+    }
+  }
+}

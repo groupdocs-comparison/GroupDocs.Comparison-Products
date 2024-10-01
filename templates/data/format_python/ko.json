@@ -1,0 +1,292 @@
+{
+  "common": {
+    "head": {
+      "title": "{{FileFormatUp}}을 {{ProgLang}} 라이브러리와 비교",
+      "description": "{{ProdFullName}}을(를) 사용하면 {{Runtime}} 애플리케이션에 대한 자세한 비교 보고서를 생성할 수 있습니다."
+    },
+    "header": {
+      "title": "{{Runtime}}의 {{FileFormatUp}} 비교",
+      "description": "{{ProdShortName}}은 {{FileFormatUp}} 파일의 차이점을 쉽게 비교하고 식별할 수 있는 {{Runtime}} 기반 라이브러리입니다. 이 강력한 도구를 사용하여 문서 비교 작업에서 솔루션의 효율성을 높이세요.",
+      "subtitle": "파일 비교 솔루션",
+      "action_title": "{{PackageStoreName}}에서 무료로 다운로드하세요."
+    },
+    "about": {
+      "title": "{{ProdFullName}}의 기능을 알아보세요",
+      "content": "{{ProdFullName}}은 동일한 형식의 이미지와 문서를 비교하기 위해 설계된 API입니다. 비교된 파일 간의 단락, 단어, 문자, 모양 및 텍스트 스타일의 차이를 감지합니다. 이러한 변경 사항을 병합하여 최종 문서에 저장할 수 있습니다. 추가 소프트웨어 없이도 PDF, Word 문서, Excel 스프레드시트, PowerPoint 프레젠테이션, Visio 다이어그램, Outlook 이메일, HTML 파일, 그림 및 여러 이미지 형식을 포함한 다양한 형식을 지원합니다."
+    },
+    "steps": {
+      "title": "{{Runtime}}을 사용하여 {{FileFormatUp}}을 비교하는 방법",
+      "content": {
+        "title": "[{{ProdShortName}}]({{ProductUrl}})을 사용하여 {{FileFormatUp}} 파일을 비교하고 자세한 차이점 보고서를 생성하세요.",
+        "step_1": "[{{PackageStoreName}}]({{PackageUrl}})을 통해 {{ProdFullName}}을(를) 설치합니다.",
+        "step_2": "Comparer 객체를 생성하고 첫 번째 {{FileFormatUp}} 파일을 로드합니다.",
+        "step_3": "두 번째 {{FileFormatUp}} 파일을 비교기에 추가합니다.",
+        "step_4": "감지된 모든 차이점을 요약하는 포괄적인 보고서를 생성합니다."
+      },
+      "code": {
+        "comments": {
+          "comment_1": "여러 파일을 비교하여 유사점과 차이점을 확인하세요.",
+          "comment_2": "비교기를 초기화하고 첫 번째 파일을 로드합니다.",
+          "comment_3": "비교를 위해 추가 파일을 추가합니다.",
+          "comment_4": "최종 비교 보고서를 검색합니다."
+        }
+      }
+    },
+    "formats": {
+      "title": "인기 있는 문서 형식을 {{ProgLang}}으로 비교해보세요",
+      "description": "당사의 {{Runtime}} API를 사용하면 다양한 형식의 문서를 쉽게 비교할 수 있으므로 문서 변경 사항과 차이점을 쉽게 추적할 수 있습니다."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "{{ProgLang}} 라이브러리를 통해 PDF 비교",
+      "description": "{{Runtime}}용 {{ProdShortName}} 소프트웨어는 PDF 문서의 차이점을 강조하는 심층 보고서를 생성합니다."
+    },
+    "header": {
+      "title": "{{EnvName}}에 대한 PDF 비교",
+      "description": "{{Runtime}}에서 문서 비교 API를 활용하면 {{ProgLang}} 애플리케이션 내 PDF 파일의 차이점을 쉽게 식별하고 표시할 수 있습니다. 자세한 보고서를 빠르고 효율적으로 받아보세요."
+    },
+    "about": {
+      "title": "{{ProdFullName}} 라이브러리의 주요 기능",
+      "content": "{{ProgLang}} 애플리케이션에서 직접 PDF 문서 내 차이점에 대한 자세한 보고서를 생성하세요. 추가 소프트웨어나 라이브러리 없이 코드 몇 줄만으로 {{ProdFullName}}을(를) 사용할 수 있습니다. PDF 내의 단락, 단어, 문자, 모양 및 텍스트 스타일의 변경 사항을 모니터링합니다. 여러 문서 버전의 변경 사항을 단일 결과로 병합할 수도 있습니다. 번거로움 없이 빠르고 쉽게 문서를 처리하세요."
+    },
+    "steps": {
+      "title": "{{ProgLang}}에서 PDF 차이 보고서를 얻는 방법",
+      "content": {
+        "title": "[{{ProdShortName}}]({{ProductUrl}})을 사용하여 생성된 보고서를 통해 PDF 문서의 변경 사항을 추적하세요.",
+        "step_1": "[{{PackageStoreName}}]({{PackageUrl}})을 통해 {{EnvName}}용 {{ProdShortName}}을(를) 설치합니다.",
+        "step_2": "비교자 인스턴스를 생성하고 첫 번째 PDF 파일의 경로를 제공합니다.",
+        "step_3": "비교를 위해 두 번째 PDF 파일을 추가합니다.",
+        "step_4": "파일 간의 차이점을 자세히 설명하는 최종 보고서를 검색합니다."
+      },
+      "code": {
+        "comments": {
+          "comment_1": "PDF 파일의 차이점을 강조하는 보고서를 생성합니다.",
+          "comment_2": "첫 번째 파일로 Comparer 개체를 만듭니다.",
+          "comment_3": "비교할 두 번째 파일(또는 그 이상)을 추가하세요.",
+          "comment_4": "생성된 보고서를 선택한 경로에 저장합니다."
+        }
+      }
+    },
+    "formats": {
+      "title": "PDF와 같은 일반적인 형식을 {{ProgLang}}과 비교하세요.",
+      "description": "우리의 {{Runtime}} API를 사용하면 PDF 파일을 빠르고 효율적으로 비교할 수 있습니다. 상세한 보고서를 통해 변경 사항을 쉽게 추적할 수 있습니다."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "{{Runtime}} API를 사용하여 DOCX 문서 비교",
+      "description": "{{Runtime}}용 {{ProdShortName}} API를 사용하여 MS Word DOCX 파일의 차이점을 쉽게 추적할 수 있습니다. 문서 간의 변경 사항을 강조하는 자세한 보고서를 생성합니다."
+    },
+    "header": {
+      "title": "{{EnvName}}의 DOCX 파일 비교",
+      "description": "{{Runtime}} 내에서 문서 처리 API를 사용하면 MS Word DOCX 파일의 변경 사항을 신속하게 식별하고 표시할 수 있습니다. {{EnvName}} 애플리케이션에서 빠르고 번거롭지 않은 보고서 생성의 이점을 누리세요."
+    },
+    "about": {
+      "title": "{{ProdFullName}}의 기능을 알아보세요",
+      "content": "{{ProdShortName}}은 다양한 DOCX 문서 버전의 변경 사항을 강조하는 포괄적인 보고서를 제공합니다. 추가 라이브러리 없이 단 몇 줄의 코드만으로 {{EnvName}} 및 API를 워크플로에 통합할 수 있습니다. MS Word 문서의 페이지, 텍스트, 텍스트 스타일 또는 모양의 변경 사항을 감지합니다. 변경 사항을 병합하여 최종 DOCX 문서를 만들 수도 있습니다. 강력한 API로 문서 처리 기능을 향상하세요."
+    },
+    "steps": {
+      "title": "{{ProgLang}}에서 DOCX 비교 보고서 생성",
+      "content": {
+        "title": "DOCX 파일을 비교하려면 {{EnvName}}과 함께 [{{ProdShortName}}]({{ProductUrl}})를 사용하세요.",
+        "step_1": "[{{PackageStoreName}}]({{PackageUrl}})을 통해 {{EnvName}}용 {{ProdShortName}}을(를) 설치합니다.",
+        "step_2": "비교자 인스턴스를 만들고 첫 번째 DOCX 파일의 경로를 지정합니다.",
+        "step_3": "비교를 위해 추가 DOCX 파일을 추가합니다.",
+        "step_4": "생성된 보고서를 검토하고 결과에 액세스합니다."
+      },
+      "code": {
+        "comments": {
+          "comment_1": "DOCX 변경 사항에 대한 자세한 정보를 얻으십시오.",
+          "comment_2": "첫 번째 DOCX 파일로 비교기를 초기화합니다.",
+          "comment_3": "비교를 위해 DOCX 파일을 더 추가하세요.",
+          "comment_4": "비교 보고서를 로컬에 저장합니다."
+        }
+      }
+    },
+    "formats": {
+      "title": "{{ProgLang}}을 사용하여 DOCX 문서를 비교합니다.",
+      "description": "모든 MS Word DOCX 파일을 {{ProdFullName}}과 쉽게 비교하고 문서 변경 사항에 대한 귀중한 통찰력을 얻으세요."
+    }
+  },
+  "png": {
+    "head": {
+      "title": "PNG 이미지 비교를 위한 {{ProgLang}} API",
+      "description": "{{ProdFullName}} 라이브러리는 PNG 이미지의 차이점을 강조하는 자세한 보고서를 생성합니다."
+    },
+    "header": {
+      "title": "{{Runtime}} 애플리케이션의 PNG 이미지를 Python과 비교",
+      "description": "{{ProgLang}} 애플리케이션 내에서 PNG 파일의 변경 사항을 감지하려면 {{Runtime}} API를 활용하세요. 포괄적인 보고서를 빠르고 쉽게 받아보세요."
+    },
+    "about": {
+      "title": "{{ProdFullName}} API의 기능 알아보기",
+      "content": "타사 소프트웨어가 필요 없이 {{ProgLang}} 애플리케이션에서 직접 다양한 PNG 이미지 버전 간의 차이점에 대한 자세한 보고서를 생성하세요. PNG 이미지의 모든 변경 사항에 대한 최신 정보를 받아보세요."
+    },
+    "steps": {
+      "title": "{{ProgLang}}에서 PNG 이미지에 대한 비교 보고서를 생성하는 방법",
+      "content": {
+        "title": "[{{ProdShortName}}]({{ProductUrl}})를 사용하여 PNG 파일의 변경 사항을 추적하고 보고서를 쉽게 생성하세요.",
+        "step_1": "[{{PackageStoreName}}]({{PackageUrl}})을 통해 {{ProdShortName}} 패키지를 설치합니다.",
+        "step_2": "Comparer 개체를 만들고 첫 번째 PNG 파일에 대한 경로를 제공합니다.",
+        "step_3": "비교할 PNG 파일을 하나 이상 추가하세요.",
+        "step_4": "모든 차이점을 보여주는 자세한 보고서를 검색합니다."
+      },
+      "code": {
+        "comments": {
+          "comment_1": "PNG 파일의 변경 사항을 강조하는 보고서를 생성합니다.",
+          "comment_2": "첫 번째 PNG 파일로 비교자를 인스턴스화합니다.",
+          "comment_3": "비교를 위해 추가 PNG 파일을 추가합니다.",
+          "comment_4": "식별된 모든 차이점이 포함된 보고서를 저장하거나 확인하세요."
+        }
+      }
+    },
+    "formats": {
+      "title": "PNG와 같은 널리 사용되는 형식의 이미지 비교",
+      "description": "{{ProdFullName}}을 사용하여 PNG 이미지 간의 차이점을 식별하고 자세한 보고서를 생성하여 중요한 변경 사항을 추적하세요."
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "JPEG 이미지 비교 자동화를 위한 {{Runtime}} 라이브러리",
+      "description": "JPEG 이미지의 차이점을 감지하고 보고하는 {{ProdFullName}} API의 기능을 알아보세요."
+    },
+    "header": {
+      "title": "JPEG 이미지를 비교하고 {{EnvName}}을(를) 사용하여 보고서 생성",
+      "description": "{{ProgLang}} 애플리케이션 내에서 JPEG 이미지의 변경 사항을 추적하는 강력한 {{Runtime}} 솔루션입니다. 상세한 보고서는 귀하의 비즈니스에 대한 귀중한 통찰력을 제공합니다."
+    },
+    "about": {
+      "title": "{{ProdFullName}}의 기능을 살펴보세요",
+      "content": "{{ProdFullName}} API를 사용하여 JPEG 이미지 변경에 대한 자세한 보고서를 받으세요. 추가 라이브러리 없이도 {{ProgLang}} 애플리케이션의 데이터를 쉽게 분석할 수 있습니다. 코드 몇 줄만 추가하여 비즈니스 워크플로를 향상하세요."
+    },
+    "steps": {
+      "title": "{{ProgLang}}을 사용하여 JPEG 이미지 변화를 분석하는 방법",
+      "content": {
+        "title": "[{{ProdShortName}}]({{ProductUrl}})을 사용하여 JPEG 이미지의 차이를 감지하고 관리하세요.",
+        "step_1": "[{{PackageStoreName}}]({{PackageUrl}})에서 {{ProdShortName}}을(를) 설치합니다.",
+        "step_2": "비교자 개체를 만들고 JPEG 파일의 경로를 제공합니다.",
+        "step_3": "비교를 위해 JPEG 파일을 하나 이상 추가하세요.",
+        "step_4": "비교 보고서를 생성하고 JPEG 형식으로 저장합니다."
+      },
+      "code": {
+        "comments": {
+          "comment_1": "JPEG 이미지를 처리하여 차이 보고서를 생성합니다.",
+          "comment_2": "첫 번째 JPEG 파일로 Comparer 개체를 인스턴스화합니다.",
+          "comment_3": "분석을 위해 추가 JPEG 파일을 추가합니다.",
+          "comment_4": "이미지 간의 차이점을 자세히 설명하는 보고서를 받으세요."
+        }
+      }
+    },
+    "formats": {
+      "title": "{{ProgLang}}을 사용하여 JPEG 이미지 비교",
+      "description": "{{ProdFullName}} API는 JPEG 파일의 차이점에 대한 자세한 보고서를 제공합니다. 이 보고서는 중요한 비즈니스 이미지의 변화를 쉽게 추적하는 데 도움이 됩니다."
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "JPG 이미지와 {{Runtime}} 라이브러리의 자동 비교",
+      "description": "{{ProdFullName}} API를 사용하면 JPG 이미지의 차이점을 쉽게 식별하고 보고할 수 있습니다."
+    },
+    "header": {
+      "title": "{{EnvName}} 애플리케이션에서 JPG 차이 보고서 생성",
+      "description": "{{ProgLang}} 애플리케이션에서 JPG 이미지 변경 사항을 비교하려면 {{Runtime}}을 활용하세요. 자세한 보고서는 비즈니스 솔루션에 대한 귀중한 통찰력을 제공합니다."
+    },
+    "about": {
+      "title": "{{ProdFullName}} API의 강력한 기능을 알아보세요",
+      "content": "{{ProdFullName}}을(를) 통해 JPG 이미지 변경 사항에 대한 최신 정보를 받아보세요. 추가 도구 없이도 {{ProgLang}} 앱 내에서 자세한 데이터를 분석하세요. 최소한의 코드로 비즈니스 솔루션을 강화하고 이미지 비교를 자동화하세요."
+    },
+    "steps": {
+      "title": "{{ProgLang}}을 사용하여 JPG 변경 사항을 분석하는 방법",
+      "content": {
+        "title": "[{{ProdShortName}}]({{ProductUrl}})를 활용하여 JPG 이미지 차이를 관리하세요.",
+        "step_1": "[{{PackageStoreName}}]({{PackageUrl}})에서 {{ProdShortName}}을(를) 설치합니다.",
+        "step_2": "비교자 개체를 만들고 JPG 파일의 경로를 제공합니다.",
+        "step_3": "비교를 위해 JPG 파일을 하나 이상 추가하세요.",
+        "step_4": "차이점에 대한 세부정보가 포함된 보고서를 생성합니다."
+      },
+      "code": {
+        "comments": {
+          "comment_1": "JPG 파일을 비교하는 보고서를 생성합니다.",
+          "comment_2": "첫 번째 JPG 파일을 사용하여 새 Comparer 개체를 인스턴스화합니다.",
+          "comment_3": "비교를 위해 추가 JPG 파일을 추가하세요.",
+          "comment_4": "JPG 이미지 간의 차이점에 대한 자세한 정보가 포함된 보고서를 작성하세요."
+        }
+      }
+    },
+    "formats": {
+      "title": "JPG 이미지를 {{ProgLang}}과 비교하세요",
+      "description": "{{ProdFullName}} 라이브러리를 사용하면 JPG 이미지 간의 차이점을 빠르게 식별할 수 있습니다. 자세한 보고서는 중요한 비즈니스 파일의 변경 사항을 추적하는 데 도움이 됩니다."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "XLSX 스프레드시트 콘텐츠를 {{Runtime}} API와 비교",
+      "description": "모든 차이점을 강조하는 자세한 보고서를 생성하는 {{Runtime}} API를 사용하여 MS Excel 스프레드시트의 차이점을 쉽게 확인할 수 있습니다."
+    },
+    "header": {
+      "title": "{{EnvName}} 애플리케이션의 XLSX 스프레드시트 비교",
+      "description": "{{Runtime}} 문서 처리 라이브러리를 사용하여 {{EnvName}} 애플리케이션 내 MS Excel XLSX 파일의 변경 사항을 감지하고 강조 표시합니다. 보고서를 빠르고 쉽게 생성하세요."
+    },
+    "about": {
+      "title": "{{ProdShortName}}의 이점을 알아보세요.",
+      "content": "{{ProdShortName}}을(를) 사용하여 다양한 XLSX 파일 버전의 변경 사항에 대한 자세한 데이터를 제공하는 포괄적인 보고서를 생성합니다. 단 몇 줄의 코드만으로 추가 도구 없이 API를 {{EnvName}} 애플리케이션에 원활하게 통합할 수 있습니다. MS Excel 파일 내의 시트, 텍스트, 스타일 또는 모양의 차이점을 분석하고 변경 사항을 최종 XLSX 문서에 병합합니다. 강력한 솔루션으로 비즈니스 워크플로우를 향상시키세요."
+    },
+    "steps": {
+      "title": "{{ProgLang}}에서 XLSX 파일을 비교하는 방법",
+      "content": {
+        "title": "[{{ProdShortName}}]({{ProductUrl}}) 및 {{EnvName}}을 활용하여 XLSX 문서 비교",
+        "step_1": "[{{PackageStoreName}}]({{PackageUrl}})에서 {{EnvName}}용 {{ProdShortName}}을(를) 설치합니다.",
+        "step_2": "Comparer 개체를 인스턴스화하고 첫 번째 XLSX 파일에 대한 경로를 제공합니다.",
+        "step_3": "비교를 위해 추가 XLSX 파일 추가",
+        "step_4": "비교 결과 생성 및 검토"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "XLSX 파일의 변경 사항을 자세히 설명하는 보고서 검색",
+          "comment_2": "첫 번째 XLSX 파일을 사용하여 새 비교자 개체를 만듭니다.",
+          "comment_3": "비교할 다른 XLSX 파일을 추가하세요.",
+          "comment_4": "생성된 보고서를 로컬에 저장"
+        }
+      }
+    },
+    "formats": {
+      "title": "XLSX 스프레드시트를 {{ProgLang}}과 비교",
+      "description": "{{ProdFullName}} API를 사용하여 MS Excel XLSX 스프레드시트를 쉽게 비교할 수 있습니다. 상세한 보고서를 통해 비즈니스 데이터의 변화에 ​​대한 심층적인 통찰력을 얻으세요."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "PPTX 파일을 {{EnvName}}과 비교",
+      "description": "{{EnvName}}을(를) 사용하여 {{ProdShortName}}로 PPTX 프레젠테이션을 분석하고 콘텐츠 차이점을 강조하는 정확한 보고서를 생성하세요."
+    },
+    "header": {
+      "title": "{{EnvName}}의 PPTX 프레젠테이션 비교",
+      "description": "{{EnvName}} 애플리케이션 내 MS PowerPoint PPTX 프레젠테이션의 변경 사항을 감지하고 표시하려면 {{Runtime}}의 문서 처리 API를 활용하세요. 빠르고 쉬운 분석으로 비즈니스 워크플로우를 간소화하세요."
+    },
+    "about": {
+      "title": "{{ProdFullName}}의 기능을 알아보세요",
+      "content": "{{ProdShortName}}을(를) 사용하여 다양한 버전의 PPTX 파일에 대한 변경 사항에 대한 자세한 보고서를 생성하세요. 단 몇 줄의 코드만으로 솔루션을 {{EnvName}} 애플리케이션에 쉽게 통합할 수 있습니다. MS PowerPoint 프레젠테이션 내에서 슬라이드, 텍스트, 서식 또는 모양의 차이점을 분석합니다. 변경 사항을 최종 PPTX 파일에 병합할 수도 있습니다. 이 강력한 솔루션으로 비즈니스 프로젝트를 강화하세요."
+    },
+    "steps": {
+      "title": "{{ProgLang}}에서 PPTX 파일 차이점에 대한 보고서 생성",
+      "content": {
+        "title": "[{{ProdShortName}}]({{ProductUrl}})를 사용하여 PPTX 프레젠테이션을 비교하세요.",
+        "step_1": "[{{PackageStoreName}}]({{PackageUrl}})에서 {{ProdShortName}}을(를) 설치합니다.",
+        "step_2": "첫 번째 PPTX 파일에 대한 비교자 개체 만들기",
+        "step_3": "비교를 위해 추가 PPTX 파일 추가",
+        "step_4": "비교 보고서 검색 및 검토"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "PPTX 파일 변경 사항에 대한 데이터 검색",
+          "comment_2": "첫 번째 PPTX 파일로 비교기를 초기화합니다.",
+          "comment_3": "다른 PPTX 파일 포함",
+          "comment_4": "비교 결과를 로컬에 저장"
+        }
+      }
+    },
+    "formats": {
+      "title": "{{ProgLang}}을 사용하여 PPTX 프레젠테이션을 비교하세요.",
+      "description": "{{ProdFullName}}을(를) 사용하여 MS PowerPoint PPTX 프레젠테이션을 쉽게 비교할 수 있습니다. 비즈니스 프레젠테이션의 변경 사항에 대한 통찰력을 제공하는 자세한 보고서를 생성하세요."
+    }
+  }
+}

@@ -10,8 +10,8 @@ lang: <% lower ( get "lang") %>
 format: <% get "FileformatCap" %>
 product: "Comparison"
 product_tag: "comparison"
-platform: "Node.js via Java"
-platform_tag: "nodejs-java"
+platform: "Python via .NET"
+platform_tag: "python-net"
 
 ############################# Head ############################
 head_title: "<% (dict "{fileformat}.head.title") %>"
@@ -52,10 +52,10 @@ steps:
       4. <% (dict "{fileformat}.steps.content.step_4") %>
    
     code:
-      platform: "net"
+      platform: "python-net"
       copy_title: "<% (dict "common-content.format-code.copy_title") %>"
       install:
-        command: "npm i @groupdocs/groupdocs.comparison"
+        command: "pip install groupdocs-comparison-net"
         copy_tip: "<% (dict "common-content.format-code.copy_tip") %>"
         copy_done: "<% (dict "common-content.format-code.copy_done") %>"
       links:

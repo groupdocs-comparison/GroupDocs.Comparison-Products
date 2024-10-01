@@ -1,0 +1,292 @@
+{
+  "common": {
+    "head": {
+      "title": "将 {{FileFormatUp}} 与 {{ProgLang}} 库进行比较",
+      "description": "使用 {{ProdFullName}}，为 {{Runtime}} 应用程序生成详细的比较报告。"
+    },
+    "header": {
+      "title": "比较 {{Runtime}} 中的 {{FileFormatUp}}",
+      "description": "{{ProdShortName}} 是一个基于 {{Runtime}} 的库，可让您轻松比较和识别 {{FileFormatUp}} 文件中的差异。使用这个强大的工具提高解决方案在文档比较任务中的效率。",
+      "subtitle": "文件对比解决方案",
+      "action_title": "从 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "探索 {{ProdFullName}} 的功能",
+      "content": "{{ProdFullName}} 是一个 API，旨在比较相同格式的图像和文档。它检测比较文件之间的段落、单词、字符、形状和文本样式的差异。您可以合并这些更改并将其保存到最终文档中。它支持多种格式，包括 PDF、Word 文档、Excel 电子表格、PowerPoint 演示文稿、Visio 图表、Outlook 电子邮件、HTML 文件、绘图和多种图像格式，所有这些都不需要任何其他软件。"
+    },
+    "steps": {
+      "title": "如何使用 {{Runtime}} 比较 {{FileFormatUp}}",
+      "content": {
+        "title": "使用 [{{ProdShortName}}]({{ProductUrl}}) 比较 {{FileFormatUp}} 文件并生成详细的差异报告。",
+        "step_1": "通过 [{{PackageStoreName}}]({{PackageUrl}}) 安装 {{ProdFullName}}。",
+        "step_2": "创建一个 Comparer 对象并加载第一个 {{FileFormatUp}} 文件。",
+        "step_3": "将第二个 {{FileFormatUp}} 文件添加到比较器中。",
+        "step_4": "生成一份综合报告，概述所有检测到的差异。"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "比较多个文件以查看相似点和差异。",
+          "comment_2": "初始化比较器并加载第一个文件。",
+          "comment_3": "添加其他文件进行比较。",
+          "comment_4": "检索最终的比较报告。"
+        }
+      }
+    },
+    "formats": {
+      "title": "将流行的文档格式与 {{ProgLang}} 进行比较",
+      "description": "我们的 {{Runtime}} API 可让您轻松比较各种格式的文档，使您能够轻松跟踪文档更改和差异。"
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "通过 {{ProgLang}} 库比较 PDF",
+      "description": "{{Runtime}} 的 {{ProdShortName}} 软件可生成深入的报告，突出显示 PDF 文档中的差异。"
+    },
+    "header": {
+      "title": "{{EnvName}} 的 PDF 比较",
+      "description": "利用 {{Runtime}} 中的文档比较 API 轻松识别和显示 {{ProgLang}} 应用程序中 PDF 文件的差异。快速高效地获取详细报告。"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 库的主要功能",
+      "content": "直接在您的 {{ProgLang}} 应用程序中生成有关 PDF 文档中任何差异的详细报告。只需几行代码，即可使用 {{ProdFullName}}，无需任何额外的软件或库。监控 PDF 中的段落、单词、字符、形状和文本样式的变化。您还可以将多个文档版本的更改合并到单个结果中。快速轻松地处理文档，没有任何麻烦。"
+    },
+    "steps": {
+      "title": "如何在 {{ProgLang}} 中获取 PDF 差异报告",
+      "content": {
+        "title": "使用 [{{ProdShortName}}]({{ProductUrl}}) 生成的报告跟踪 PDF 文档中的更改。",
+        "step_1": "通过 [{{PackageStoreName}}]({{PackageUrl}}) 安装 {{EnvName}} 的 {{ProdShortName}}。",
+        "step_2": "创建一个 Comparer 实例并提供第一个 PDF 文件的路径。",
+        "step_3": "添加第二个 PDF 文件以进行比较。",
+        "step_4": "检索详细说明文件之间差异的最终报告。"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "生成突出显示 PDF 文件中差异的报告。",
+          "comment_2": "使用第一个文件创建一个 Comparer 对象。",
+          "comment_3": "添加第二个文件（或更多）进行比较。",
+          "comment_4": "将生成的报告保存到您选择的路径。"
+        }
+      }
+    },
+    "formats": {
+      "title": "将 PDF 等常见格式与 {{ProgLang}} 进行比较",
+      "description": "我们的 {{Runtime}} API 可以快速高效地比较 PDF 文件。通过详细报告轻松跟踪更改。"
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "使用 {{Runtime}} API 比较 DOCX 文档",
+      "description": "使用 {{Runtime}} 的 {{ProdShortName}} API 轻松跟踪 MS Word DOCX 文件中的差异。生成详细报告以突出显示文档之间的更改。"
+    },
+    "header": {
+      "title": "比较 {{EnvName}} 中的 DOCX 文件",
+      "description": "在 {{Runtime}} 中使用我们的文档处理 API 来快速识别和显示 MS Word DOCX 文件中的任何更改。从您的 {{EnvName}} 应用程序中快速、轻松地生成报告中受益。"
+    },
+    "about": {
+      "title": "探索 {{ProdFullName}} 的功能",
+      "content": "{{ProdShortName}} 提供全面的报告，突出显示不同版本的 DOCX 文档中的更改。只需几行代码，即可将 {{EnvName}} 和我们的 API 集成到您的工作流程中，而无需任何其他库。检测 MS Word 文档中页面、文本、文本样式或形状的更改。您甚至可以合并更改以创建最终的 DOCX 文档。通过我们强大的 API 增强您的文档处理能力。"
+    },
+    "steps": {
+      "title": "在 {{ProgLang}} 中生成 DOCX 比较报告",
+      "content": {
+        "title": "使用 [{{ProdShortName}}]({{ProductUrl}}) 和 {{EnvName}} 来比较 DOCX 文件。",
+        "step_1": "通过 [{{PackageStoreName}}]({{PackageUrl}}) 安装 {{EnvName}} 的 {{ProdShortName}}。",
+        "step_2": "创建一个 Comparer 实例并指定第一个 DOCX 文件的路径。",
+        "step_3": "添加其他 DOCX 文件以进行比较。",
+        "step_4": "查看生成的报告并访问结果。"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "获取有关 DOCX 更改的详细信息。",
+          "comment_2": "使用第一个 DOCX 文件初始化比较器。",
+          "comment_3": "添加更多 DOCX 文件进行比较。",
+          "comment_4": "将比较报告保存在本地。"
+        }
+      }
+    },
+    "formats": {
+      "title": "使用 {{ProgLang}} 比较 DOCX 文档",
+      "description": "轻松将任何 MS Word DOCX 文件与 {{ProdFullName}} 进行比较，并获得有关文档更改的宝贵见解。"
+    }
+  },
+  "png": {
+    "head": {
+      "title": "用于比较 PNG 图像的 {{ProgLang}} API",
+      "description": "{{ProdFullName}} 库生成详细报告，突出显示 PNG 图像中的差异。"
+    },
+    "header": {
+      "title": "将 {{Runtime}} 应用程序中的 PNG 图像与 Python 进行比较",
+      "description": "利用 {{Runtime}} API 检测 {{ProgLang}} 应用程序中 PNG 文件的更改。快速、轻松地获取全面的报告。"
+    },
+    "about": {
+      "title": "探索 {{ProdFullName}} API 的功能",
+      "content": "直接在您的 {{ProgLang}} 应用程序中生成有关不同版本 PNG 图像之间差异的详细报告 - 无需第三方软件。随时了解 PNG 图像中的所有更改。"
+    },
+    "steps": {
+      "title": "如何在 {{ProgLang}} 中生成 PNG 图像的比较报告",
+      "content": {
+        "title": "使用 [{{ProdShortName}}]({{ProductUrl}}) 跟踪 PNG 文件的更改并轻松生成报告。",
+        "step_1": "通过 [{{PackageStoreName}}]({{PackageUrl}}) 安装 {{ProdShortName}} 软件包。",
+        "step_2": "创建一个 Comparer 对象并提供第一个 PNG 文件的路径。",
+        "step_3": "添加一个或多个 PNG 文件进行比较。",
+        "step_4": "检索显示所有差异的详细报告。"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "生成突出显示 PNG 文件中的更改的报告。",
+          "comment_2": "使用第一个 PNG 文件实例化比较器。",
+          "comment_3": "添加其他 PNG 文件进行比较。",
+          "comment_4": "保存或查看包含所有已识别差异的报告。"
+        }
+      }
+    },
+    "formats": {
+      "title": "比较流行格式（如 PNG）的图像",
+      "description": "使用 {{ProdFullName}} 识别 PNG 图像之间的差异并生成详细报告以跟踪重要更改。"
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "用于自动比较 JPEG 图像的 {{Runtime}} 库",
+      "description": "了解 {{ProdFullName}} API 检测和报告 JPEG 图像差异的功能。"
+    },
+    "header": {
+      "title": "使用 {{EnvName}} 比较 JPEG 图像并生成报告",
+      "description": "一个强大的 {{Runtime}} 解决方案，用于跟踪 {{ProgLang}} 应用程序中 JPEG 图像的变化。详细的报告为您的业务提供宝贵的见解。"
+    },
+    "about": {
+      "title": "探索 {{ProdFullName}} 的功能",
+      "content": "使用 {{ProdFullName}} API 获取有关 JPEG 图像变化的详细报告。轻松分析您的 {{ProgLang}} 应用程序中的数据，无需任何额外的库。只需添加几行代码即可增强您的业务工作流程。"
+    },
+    "steps": {
+      "title": "如何使用 {{ProgLang}} 分析 JPEG 图像变化",
+      "content": {
+        "title": "使用 [{{ProdShortName}}]({{ProductUrl}}) 检测和管理 JPEG 图像中的差异。",
+        "step_1": "从 [{{PackageStoreName}}]({{PackageUrl}}) 安装 {{ProdShortName}}。",
+        "step_2": "创建比较器对象并提供 JPEG 文件的路径。",
+        "step_3": "至少再添加一个 JPEG 文件进行比较。",
+        "step_4": "生成比较报告并以 JPEG 格式保存。"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "处理 JPEG 图像以生成差异报告。",
+          "comment_2": "使用第一个 JPEG 文件实例化 Comparer 对象。",
+          "comment_3": "添加其他 JPEG 文件进行分析。",
+          "comment_4": "获取详细说明图像之间差异的报告。"
+        }
+      }
+    },
+    "formats": {
+      "title": "使用 {{ProgLang}} 比较 JPEG 图像",
+      "description": "{{ProdFullName}} API 提供有关 JPEG 文件差异的详细报告。这些报告可帮助您轻松跟踪重要业务图像的变化。"
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "自动比较 JPG 图像与 {{Runtime}} 库",
+      "description": "使用 {{ProdFullName}} API 轻松识别和报告 JPG 图像中的差异。"
+    },
+    "header": {
+      "title": "在 {{EnvName}} 应用程序中生成 JPG 差异报告",
+      "description": "利用 {{Runtime}} 来比较您的 {{ProgLang}} 应用程序中的 JPG 图像变化。详细的报告为您的业务解决方案提供了宝贵的见解。"
+    },
+    "about": {
+      "title": "探索 {{ProdFullName}} API 的强大功能",
+      "content": "通过 {{ProdFullName}} 了解 JPG 图像的最新变化。无需额外工具即可分析您的 {{ProgLang}} 应用中的详细数据。使用最少的代码，增强您的业务解决方案并自动进行图像比较。"
+    },
+    "steps": {
+      "title": "如何使用 {{ProgLang}} 分析 JPG 变化",
+      "content": {
+        "title": "利用 [{{ProdShortName}}]({{ProductUrl}}) 管理 JPG 图像差异。",
+        "step_1": "从 [{{PackageStoreName}}]({{PackageUrl}}) 安装 {{ProdShortName}}。",
+        "step_2": "创建一个比较器对象并提供 JPG 文件的路径。",
+        "step_3": "至少再添加一个 JPG 文件进行比较。",
+        "step_4": "生成包含差异详细信息的报告。"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "生成比较 JPG 文件的报告。",
+          "comment_2": "使用第一个 JPG 文件实例化一个新的 Comparer 对象。",
+          "comment_3": "添加其他 JPG 文件以进行比较。",
+          "comment_4": "创建包含有关 JPG 图像之间差异的详细信息的报告。"
+        }
+      }
+    },
+    "formats": {
+      "title": "将 JPG 图像与 {{ProgLang}} 进行比较",
+      "description": "使用 {{ProdFullName}} 库，快速识别 JPG 图像之间的差异。详细的报告有助于跟踪重要业务文件的更改。"
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "将 XLSX 电子表格内容与 {{Runtime}} API 进行比较",
+      "description": "使用我们的 {{Runtime}} API 轻松检查 MS Excel 电子表格中的差异，该 API 会生成突出显示所有差异的详细报告。"
+    },
+    "header": {
+      "title": "{{EnvName}} 应用程序中的 XLSX 电子表格比较",
+      "description": "使用 {{Runtime}} 文档处理库检测并突出显示 {{EnvName}} 应用程序中 MS Excel XLSX 文件中的更改。快速、轻松地生成报告。"
+    },
+    "about": {
+      "title": "了解 {{ProdShortName}} 的优势",
+      "content": "使用 {{ProdShortName}} 生成综合报告，提供有关不同版本 XLSX 文件的更改的详细数据。只需几行代码，您就可以将该 API 无缝集成到您的 {{EnvName}} 应用程序中，而无需其他工具。分析 MS Excel 文件中工作表、文本、样式或形状的差异，并将更改合并到最终的 XLSX 文档中。通过我们强大的解决方案提升您的业务工作流程。"
+    },
+    "steps": {
+      "title": "如何在 {{ProgLang}} 中比较 XLSX 文件",
+      "content": {
+        "title": "利用 [{{ProdShortName}}]({{ProductUrl}}) 和 {{EnvName}} 比较 XLSX 文档",
+        "step_1": "从 [{{PackageStoreName}}]({{PackageUrl}}) 安装 {{EnvName}} 的 {{ProdShortName}}",
+        "step_2": "实例化 Comparer 对象并提供第一个 XLSX 文件的路径",
+        "step_3": "添加其他 XLSX 文件进行比较",
+        "step_4": "生成并查看比较结果"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "检索详细说明 XLSX 文件中更改的报告",
+          "comment_2": "使用第一个 XLSX 文件创建一个新的 Comparer 对象",
+          "comment_3": "添加其他 XLSX 文件进行比较",
+          "comment_4": "将生成的报告保存在本地"
+        }
+      }
+    },
+    "formats": {
+      "title": "将 XLSX 电子表格与 {{ProgLang}} 进行比较",
+      "description": "使用 {{ProdFullName}} API 轻松比较 MS Excel XLSX 电子表格。通过我们的详细报告深入了解您的业务数据的变化。"
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "将 PPTX 文件与 {{EnvName}} 进行比较",
+      "description": "使用 {{EnvName}} 通过 {{ProdShortName}} 分析 PPTX 演示文稿，并生成突出显示内容差异的准确报告。"
+    },
+    "header": {
+      "title": "{{EnvName}} 中的 PPTX 演示比较",
+      "description": "利用 {{Runtime}} 中的文档处理 API 来检测并展示 {{EnvName}} 应用程序中 MS PowerPoint PPTX 演示文稿中的更改。通过快速、简单的分析简化您的业务工作流程。"
+    },
+    "about": {
+      "title": "探索 {{ProdFullName}} 的功能",
+      "content": "使用 {{ProdShortName}} 生成有关不同版本 PPTX 文件变化的详细报告。只需几行代码即可轻松将该解决方案集成到您的 {{EnvName}} 应用程序中。分析 MS PowerPoint 演示文稿中幻灯片、文本、格式或形状的差异。您还可以将更改合并到最终的 PPTX 文件中。通过这个强大的解决方案增强您的业务项目。"
+    },
+    "steps": {
+      "title": "生成 {{ProgLang}} 中 PPTX 文件差异的报告",
+      "content": {
+        "title": "使用 [{{ProdShortName}}]({{ProductUrl}}) 比较 PPTX 演示文稿",
+        "step_1": "从 [{{PackageStoreName}}]({{PackageUrl}}) 安装 {{ProdShortName}}",
+        "step_2": "为第一个 PPTX 文件创建一个 Comparer 对象",
+        "step_3": "添加额外的 PPTX 文件进行比较",
+        "step_4": "检索并查看比较报告"
+      },
+      "code": {
+        "comments": {
+          "comment_1": "检索有关 PPTX 文件更改的数据",
+          "comment_2": "使用第一个 PPTX 文件初始化比较器",
+          "comment_3": "包含其他 PPTX 文件",
+          "comment_4": "将比较结果保存到本地"
+        }
+      }
+    },
+    "formats": {
+      "title": "使用 {{ProgLang}} 比较 PPTX 演示文稿",
+      "description": "使用 {{ProdFullName}} 轻松比较 MS PowerPoint PPTX 演示文稿。生成详细的报告，深入了解业务演示中的变化。"
+    }
+  }
+}
