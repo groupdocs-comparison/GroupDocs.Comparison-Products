@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-07-10T18:47:13
+date: 2024-10-01T13:42:45
 draft: false
 
 lang: ja
@@ -28,7 +28,7 @@ supported_platforms:
       tag: "python-net"
 
 ############################# Head ############################
-head_title: "{{ランタイム}} ドキュメント比較 API |差分チェッカー"
+head_title: "Python ドキュメント比較 API |差分チェッカー"
 head_description: "Python Document Comparison API は、ドキュメントを比較するための効率的なツールを提供します。 Python とシームレスに統合し、即座に変更を追跡します"
 
 ############################# Header ############################

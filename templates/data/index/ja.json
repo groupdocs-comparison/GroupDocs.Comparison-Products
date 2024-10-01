@@ -391,7 +391,7 @@
     "code_samples_sample_2_content": "{{ProdShortName}} では [3つ以上の文書を比較]({{Sample2Url}}) できます。操作は 2 つのファイルを比較する場合とほぼ同じです。あとは、`comparer` クラスにさらにターゲットファイルを追加すればいいだけです。"
   },
   "index-content-python-net": {
-    "head_title": "{{ランタイム}} ドキュメント比較 API |差分チェッカー",
+    "head_title": "{{Runtime}} ドキュメント比較 API |差分チェッカー",
     "head_description": "{{Runtime}} Document Comparison API は、ドキュメントを比較するための効率的なツールを提供します。 {{Runtime}} とシームレスに統合し、即座に変更を追跡します",
     "title": "ドキュメントを {{Runtime}} と比較: 相違点を強調表示",
     "description": "{{ProdShortName}} API を使用して、高度に構成可能な比較機能を備えたネイティブ Python アプリケーションを開発します。類似したドキュメント形式間でファイル、そのコンテンツ、テキスト スタイルを比較します。",
