@@ -28,12 +28,12 @@ supported_platforms:
       tag: "python-net"
 
 ############################# Head ############################
-head_title: "Python Document Comparison API | diff checker"
-head_description: "The Python Document Comparison API offers efficient tools for comparing documents. Seamlessly integrates with Python for instant change tracking"
+head_title: "Document Comparison API for Python | Difference Checker"
+head_description: "The Python Document Comparison API provides effective solutions for document comparisons. Integrates effortlessly with Python for real-time difference tracking."
 
 ############################# Header ############################
 title: "Compare Documents with Python: Highlight Any Differences"
-description: "Use the GroupDocs.Comparison API to develop native Python applications with highly configurable comparison features. Compare files, their content, and text styles between similar document formats."
+description: "Utilize the GroupDocs.Comparison API to create native applications in Python with customizable comparison functionalities. Examine files, their content, and styling variations across document formats."
 words:
   for: "for"
 
@@ -48,11 +48,11 @@ actions:
 release:
   title: "Version {0} released"
   notes: "See what’s new"
-  downloads: "Downloads"
+  downloads: "Download Here"
 
 code:
-  title: "Compare BMP images in Python"
-  more: "More examples"
+  title: "Compare BMP images using Python"
+  more: "Additional examples"
   more_link: "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Python-via-.NET/"
   install: "pip install groupdocs-comparison-net"
   content: |
@@ -76,30 +76,30 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "GroupDocs.Comparison at a glance"
-  description: "An API to compare popular document types such as PDF, Microsoft Office, HTML, emails, or images within Python applications."
+  title: "Overview of GroupDocs.Comparison"
+  description: "An API designed for comparing widely used document types such as PDFs, Microsoft Office files, HTML, emails, or images within Python applications."
   features:
     # feature loop
-    - title: "Detailed Output Reports"
-      content: "GroupDocs.Comparison identifies changes in document content (characters, words, paragraphs, tables, charts) as well as changes in document style. It provides users with a report containing detailed information about differences, including their number and type."
+    - title: "Comprehensive Output Reports"
+      content: "GroupDocs.Comparison detects alterations in document content (characters, words, paragraphs, tables, charts) as well as document styling changes. Users receive a detailed report highlighting the nature and count of changes."
 
     # feature loop
-    - title: "Supports Popular File and Document Formats"
-      content: "With the GroupDocs.Comparison API, you can efficiently compare documents in formats like PDF, HTML, email, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations, OneNote, Visio diagrams, text files, JPEG, PNG, GIF, BMP images, and many other formats."
+    - title: "Wide Range of File and Document Formats"
+      content: "The GroupDocs.Comparison API allows you to compare documents in formats such as PDF, HTML, email, Microsoft Office Word, Excel workbooks, PowerPoint files, OneNote notes, Visio diagrams, text documents, JPEG, PNG, GIF, BMP images, among many others."
 
     # feature loop
-    - title: "Comprehensive Documentation and Examples"
-      content: "Extensive documentation and code examples for using the Comparison library on different platforms are available, making it easy to integrate GroupDocs.Comparison API into your Python application."
+    - title: "Thorough Documentation and Code Samples"
+      content: "In-depth documentation and sample codes for the Comparison library across various platforms are readily available, simplifying the integration of the GroupDocs.Comparison API into your Python applications."
 
     # feature loop
-    - title: "Select and Merge Changes into One File"
-      content: "If you have different versions of a document, you can select specific changes and compile a new document using the GroupDocs.Comparison library."
+    - title: "Select and Combine Changes into One Document"
+      content: "If you possess various versions of a document, you can selectively compile changes into a single new file using the GroupDocs.Comparison library."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "Platform independence"
-  description: "GroupDocs.Comparison for Python via .NET supports the following operating systems, frameworks, and package managers"
+  title: "Cross-Platform Compatibility"
+  description: "GroupDocs.Comparison for Python via .NET is compatible with the following operating systems, frameworks, and package managers."
   items:
     # platform loop
     - title: "Windows"
@@ -138,100 +138,101 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "Supported file formats"
+  title: "Supported Document Formats"
   description: |
     GroupDocs.Comparison for Python via .NET supports operations with the following [file formats](https://docs.groupdocs.com/comparison/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### Microsoft Office & OpenDocument formats
-        * **Word:** DOCX, DOC, DOCM,DOT, DOTM, DOTX, RTX, RTF, TXT
+        ### Microsoft Office & OpenDocument Formats
+        * **Word:** DOCX, DOC, DOCM, DOT, DOTM, DOTX, RTX, RTF, TXT
         * **Excel:** XLSX, XLS, XLT, XLTM, XLSB, XLSM
         * **PowerPoint:** PPTX, PPT, POT, POTX, PPS, PPSX
         * **Outlook:** EML, EMLX, MSG
         * **OneNote:** ONE
         * **OpenDocument:** ODT, ODP, OTP, ODS, OTT
-        * **Fixed Page Layout:** PDF        
+        * **Fixed Layout:** PDF        
+
     # group loop
     - color: "blue"
       content: |
         ### Images, Graphics & Diagrams
-        * **Raster images:** BMP, GIF, JPG, JPEG, PNG
+        * **Raster Formats:** BMP, GIF, JPG, JPEG, PNG
         * **Medical Imaging:** DICOM
         * **Microsoft Visio:** VSDX, VSD, VSS, VST, VDX
-        * **AutoCAD Drawing:** DWG, DXF
-      # group loop
+        * **AutoCAD Drawings:** DWG, DXF
+
+    # group loop
     - color: "red"
       content: |
-        ### Other
-        * **Text:** TXT
+        ### Miscellaneous
+        * **Text Files:** TXT
         * **Programming Languages:** CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, PHP, SQL, LOG, DIFF, LESS, SCALA
-        * **Web:** HTM, HTML, MHT, MHTML
+        * **Web Content:** HTM, HTML, MHT, MHTML
         * **e-Books:** MOBI, DjVu
-        * **Delimiter-Separated Values:** CSV
+        * **CSV Files:** CSV
 
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Comparison for Python via .NET Features"
-  description: "Easily compare PDF and Office documents, images, and other formats."
-
+  title: "Capabilities of GroupDocs.Comparison for Python via .NET"
+  description: "Simplify the comparison of PDFs, Office documents, images, and various file types."
   items:
     # feature loop
     - icon: "compare"
-      title: "User-Friendly Document Comparison"
-      content: "Analyze and identify differences between two documents."
+      title: "Intuitive Document Comparisons"
+      content: "Examine and highlight differences between two documents."
 
     # feature loop
     - icon: "note-stack"
-      title: "Compare Multiple Documents"
-      content: "Analyze and identify differences within multiple documents simultaneously."
+      title: "Comparison of Multiple Documents"
+      content: "Inspect multiple documents for differences at the same time."
 
     # feature loop
     - icon: "stacks"
-      title: "Supported Formats"
-      content: "Supports more than 50 popular document formats from various categories."
+      title: "Formats Supported"
+      content: "Compatible with over 50 commonly used document formats across various categories."
 
     # feature loop
     - icon: "rule"
       title: "Accept or Reject Changes"
-      content: "Clear visual representation of identified changes, with the option to accept or reject modifications."
+      content: "Visualize changes with clarity, offering options for acceptance or rejection of edits."
 
     # feature loop
     - icon: "preview"
-      title: "Generate Previews"
-      content: "Save the comparison results as images."
+      title: "Generate Image Previews"
+      content: "Save results of comparison as images."
 
     # feature loop
     - icon: "two-pager"
-      title: "Content Comparison"
-      content: "Compare text content line-by-line, by paragraphs, by words, or by characters. Highlight the changes."
+      title: "Text Content Analysis"
+      content: "Review textual content by lines, paragraphs, words, or characters. Highlight the modifications."
 
     # feature loop
     - icon: "format_color_text"
-      title: "Style Comparison"
-      content: "Detect changes in formatting and styles."
+      title: "Stylistic Analysis"
+      content: "Identify changes in formatting and stylistic elements."
 
     # feature loop
     - icon: "folder-managed"
-      title: "Set Metadata"
-      content: "Retain metadata from either the source or target files, or allow it to be specified by users."
+      title: "Define Metadata"
+      content: "Maintain metadata from either original or target documents, or allow user-defined specifications."
 
     # feature loop
     - icon: "lock"
-      title: "Password Protection"
-      content: "Analyze encrypted documents, or secure the resulting document with a password."
+      title: "Secure Document Protection"
+      content: "Work with encrypted documents, or protect the output document with a password."
 
     # feature loop
     - icon: "select"
-      title: "Compare Specific Pages"
-      content: "Load and compare specific sections or pages of a document."
+      title: "Segment-Specific Comparison"
+      content: "Load and analyze specific segments or pages from a document."
 
     # feature loop
     - icon: "speaker-notes"
-      title: "Display Comments"
-      content: "Choose to hide or show comments when loading the source document."
+      title: "Manage Comment Display"
+      content: "Control comment visibility while loading the source document."
 
 ############################# Code samples ############################
 code_samples:
