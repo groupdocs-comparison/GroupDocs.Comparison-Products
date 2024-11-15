@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-07-10T18:47:13
+date: 2024-11-14T22:58:46
 draft: false
 
 lang: zh
@@ -28,17 +28,17 @@ supported_platforms:
       tag: "python-net"
 
 ############################# Head ############################
-head_title: "Python 文档比较 API |差异检查器"
-head_description: "Python 文档比较 API 提供了用于比较文档的有效工具。与 Python 无缝集成以进行即时更改跟踪"
+head_title: "Python 文档比较工具 |文件分析"
+head_description: "探索 Python 文档比较工具进行彻底文档分析的强大功能。轻松与 Python 集成以全面跟踪修改。"
 
 ############################# Header ############################
 title: "将文档与 Python 进行比较：突出显示任何差异"
-description: "使用 GroupDocs.Comparison API 开发具有高度可配置比较功能的本机 Python 应用程序。比较类似文档格式之间的文件、其内容和文本样式。"
+description: "利用 GroupDocs.Comparison API 在 Python 中创建具有可自定义比较功能的本机应用程序。检查文件、其内容以及跨文档格式的样式变化。"
 words:
   for: "为了"
 
 actions:
-  main: "免费下载PyPi"
+  main: "立即免费下载 PyPi"
   main_link: "https://pypi.org/project/groupdocs-comparison-net/"
   alt: "许可"
   alt_link: "https://purchase.groupdocs.com/pricing/comparison/python-net/"
@@ -51,7 +51,7 @@ release:
   downloads: "下载"
 
 code:
-  title: "比较 Python 中的 BMP 图像"
+  title: "使用 Python 比较 BMP 图像"
   more: "更多例子"
   more_link: "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Python-via-.NET/"
   install: "pip install groupdocs-comparison-net"
@@ -77,29 +77,29 @@ code:
 overview:
   enable: true
   title: "GroupDocs.Comparison 一览"
-  description: "用于比较流行文档类型（例如 PDF、Microsoft Office、HTML、电子邮件或 Python 应用程序中的图像）的 API。"
+  description: "设计用于比较广泛使用的文档类型（例如 PDF、Microsoft Office 文件、HTML、电子邮件或 Python 应用程序中的图像）的 API。"
   features:
     # feature loop
-    - title: "详细的输出报告"
-      content: "GroupDocs.Comparison 识别文档内容（字符、单词、段落、表格、图表）的更改以及文档样式的更改。它为用户提供了一份报告，其中包含有关差异的详细信息，包括差异的数量和类型。"
+    - title: "综合输出报告"
+      content: "GroupDocs.Comparison 检测文档内容（字符、单词、段落、表格、图表）的更改以及文档样式的更改。用户会收到一份详细的报告，突出显示更改的性质和数量。"
 
     # feature loop
-    - title: "支持流行的文件和文档格式"
-      content: "借助 GroupDocs.Comparison API，您可以高效地比较 PDF、HTML、电子邮件、Microsoft Office Word、Excel 电子表格、PowerPoint 演示文稿、OneNote、Visio 图表、文本文件、JPEG、PNG、GIF、BMP 图像等格式的文档，以及许多其他格式。"
+    - title: "多种文件和文档格式"
+      content: "GroupDocs.Comparison API 允许您比较 PDF、HTML、电子邮件、Microsoft Office Word、Excel 工作簿、PowerPoint 文件、OneNote 笔记、Visio 图表、文本文档、JPEG、PNG、GIF、BMP 图像等格式的文档，等等。"
 
     # feature loop
-    - title: "全面的文档和示例"
-      content: "提供了在不同平台上使用比较库的大量文档和代码示例，使您可以轻松地将 GroupDocs.Comparison API 集成到您的 Python 应用程序中。"
+    - title: "完整的文档和代码示例"
+      content: "跨各种平台的比较库的深入文档和示例代码随时可用，简化了将 GroupDocs.Comparison API 集成到 Python 应用程序中的过程。"
 
     # feature loop
-    - title: "选择更改并将更改合并到一个文件中"
-      content: "如果您有不同版本的文档，您可以选择特定更改并使用 GroupDocs.Comparison 库编译新文档。"
+    - title: "选择更改并将其合并到一个文档中"
+      content: "如果您拥有文档的多个版本，则可以使用 GroupDocs.Comparison 库有选择地将更改编译到单个新文件中。"
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "平台独立性"
-  description: "GroupDocs.Comparison for Python via .NET 支持以下操作系统、框架和包管理器"
+  description: "GroupDocs.Comparison for Python via .NET 与以下操作系统、框架和包管理器兼容。"
   items:
     # platform loop
     - title: "Windows"
@@ -140,7 +140,7 @@ formats:
   enable: true
   title: "支持的文件格式"
   description: |
-    GroupDocs.Comparison for Python via .NET 支持以下[文件格式](https://docs.groupdocs.com/comparison/net/supported-document-formats/) 的操作。
+    GroupDocs.Comparison for Python via .NET 可以使用以下[文件格式](https://docs.groupdocs.com/comparison/net/supported-document-formats/)。
   groups:
     # group loop
     - color: "green"
@@ -174,75 +174,75 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Comparison for Python via .NET 功能"
-  description: "轻松比较 PDF 和 Office 文档、图像和其他格式。"
+  title: "GroupDocs.Comparison for Python via .NET 的功能"
+  description: "无缝比较 PDF、Office 文档、图像和各种其他格式。"
 
   items:
     # feature loop
     - icon: "compare"
-      title: "用户友好的文档比较"
-      content: "分析并识别两个文档之间的差异。"
+      title: "直观的文档比较"
+      content: "检查并突出显示两个文档之间的差异。"
 
     # feature loop
     - icon: "note-stack"
-      title: "比较多个文档"
-      content: "同时分析和识别多个文档中的差异。"
+      title: "多个文档的比较"
+      content: "同时检查多个文档是否存在差异。"
 
     # feature loop
     - icon: "stacks"
-      title: "支持的格式"
-      content: "支持 50 多种不同类别的流行文档格式。"
+      title: "广泛的格式支持"
+      content: "与不同类别的 50 多种常用文档格式兼容。"
 
     # feature loop
     - icon: "rule"
       title: "接受或拒绝更改"
-      content: "已识别更改的清晰视觉表示，可以选择接受或拒绝修改。"
+      content: "清晰地可视化更改，提供接受或拒绝编辑的选项。"
 
     # feature loop
     - icon: "preview"
-      title: "生成预览"
-      content: "将比较结果保存为图像。"
+      title: "生成视觉预览"
+      content: "以图像格式创建比较结果的预览。"
 
     # feature loop
     - icon: "two-pager"
-      title: "内容比较"
-      content: "逐行、按段落、按单词或按字符比较文本内容。突出显示更改。"
+      title: "基于文本的内容比较"
+      content: "执行逐行、段落、单词或字符比较以突出显示更改。"
 
     # feature loop
     - icon: "format_color_text"
-      title: "风格比较"
-      content: "检测格式和样式的变化。"
+      title: "格式更改检测"
+      content: "识别文档样式和格式的更改。"
 
     # feature loop
     - icon: "folder-managed"
-      title: "设置元数据"
-      content: "保留源文件或目标文件中的元数据，或允许用户指定。"
+      title: "可定制的元数据处理"
+      content: "保留源文件或目标文件中的元数据，或允许用户定义新的元数据。"
 
     # feature loop
     - icon: "lock"
-      title: "密码保护"
-      content: "分析加密文档，或使用密码保护生成的文档。"
+      title: "处理受密码保护的文件"
+      content: "处理加密文档，或创建受密码保护的安全文档。"
 
     # feature loop
     - icon: "select"
-      title: "比较特定页面"
-      content: "加载并比较文档的特定部分或页面。"
+      title: "重点页面比较"
+      content: "选择并比较文档的特定部分或单个页面。"
 
     # feature loop
     - icon: "speaker-notes"
-      title: "显示评论"
-      content: "选择加载源文档时隐藏或显示注释。"
+      title: "管理评论可见性"
+      content: "在检查源文档时决定公开或隐藏评论。"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "代码示例"
-  description: "探索 GroupDocs.Comparison for Python via .NET 操作的典型用例"
+  description: "了解使用 GroupDocs.Comparison for Python via .NET 功能的常见场景。"
   items:
     # code sample loop
-    - title: "比较受密码保护的文档"
+    - title: "比较文档与密码保护"
       content: |
-        要比较[受密码保护](https://docs.groupdocs.com/comparison/python-net/load-password-protected-documents/)的文档，您需要在加载文档时指定密码：
+        要比较[使用密码保护](https://docs.groupdocs.com/comparison/python-net/load-password-protected-documents/) 的文档，您需要在加载文档时指定密码：
         {{< landing/code title="如何比较受密码保护的文档。">}}
         ```python {style=abap}
         def run():

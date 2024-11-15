@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-07-10T18:47:13
+date: 2024-11-14T22:58:46
 draft: false
 
 lang: vi
@@ -28,17 +28,17 @@ supported_platforms:
       tag: "python-net"
 
 ############################# Head ############################
-head_title: "API so sánh tài liệu Python | trình kiểm tra khác biệt"
-head_description: "API so sánh tài liệu Python cung cấp các công cụ hiệu quả để so sánh tài liệu. Tích hợp liền mạch với Python để theo dõi thay đổi tức thì"
+head_title: "Python Công cụ so sánh tài liệu | Phân tích tài liệu"
+head_description: "Khám phá sức mạnh của Công cụ so sánh tài liệu Python để phân tích tài liệu kỹ lưỡng. Tích hợp dễ dàng với Python để theo dõi toàn diện các sửa đổi."
 
 ############################# Header ############################
 title: "So sánh tài liệu với Python: Đánh dấu bất kỳ điểm khác biệt nào"
-description: "Sử dụng API GroupDocs.Comparison để phát triển các ứng dụng Python gốc với các tính năng so sánh có cấu hình cao. So sánh các tệp, nội dung và kiểu văn bản của chúng giữa các định dạng tài liệu tương tự."
+description: "Sử dụng API GroupDocs.Comparison để tạo các ứng dụng gốc bằng Python với các chức năng so sánh có thể tùy chỉnh. Kiểm tra các tệp, nội dung của chúng và các biến thể kiểu dáng trên các định dạng tài liệu."
 words:
   for: "cho"
 
 actions:
-  main: "Tải xuống PyPi miễn phí"
+  main: "Nhận PyPi miễn phí của bạn Tải xuống ngay bây giờ"
   main_link: "https://pypi.org/project/groupdocs-comparison-net/"
   alt: "Cấp phép"
   alt_link: "https://purchase.groupdocs.com/pricing/comparison/python-net/"
@@ -51,7 +51,7 @@ release:
   downloads: "Tải xuống"
 
 code:
-  title: "So sánh hình ảnh BMP trong Python"
+  title: "So sánh hình ảnh BMP bằng cách sử dụng Python"
   more: "Thêm ví dụ"
   more_link: "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Python-via-.NET/"
   install: "pip install groupdocs-comparison-net"
@@ -77,29 +77,29 @@ code:
 overview:
   enable: true
   title: "GroupDocs.Comparison trong nháy mắt"
-  description: "API để so sánh các loại tài liệu phổ biến như PDF, Microsoft Office, HTML, email hoặc hình ảnh trong ứng dụng Python."
+  description: "API được thiết kế để so sánh các loại tài liệu được sử dụng rộng rãi như tệp PDF, tệp Microsoft Office, HTML, email hoặc hình ảnh trong ứng dụng Python."
   features:
     # feature loop
-    - title: "Báo cáo đầu ra chi tiết"
-      content: "GroupDocs.Comparison xác định những thay đổi trong nội dung tài liệu (ký tự, từ, đoạn văn, bảng, biểu đồ) cũng như những thay đổi về kiểu dáng tài liệu. Nó cung cấp cho người dùng một báo cáo chứa thông tin chi tiết về sự khác biệt, bao gồm số lượng và loại của chúng."
+    - title: "Báo cáo đầu ra toàn diện"
+      content: "GroupDocs.Comparison phát hiện các thay đổi trong nội dung tài liệu (ký tự, từ, đoạn văn, bảng, biểu đồ) cũng như các thay đổi về kiểu dáng tài liệu. Người dùng nhận được báo cáo chi tiết nêu bật tính chất và số lượng thay đổi."
 
     # feature loop
-    - title: "Hỗ trợ các định dạng tệp và tài liệu phổ biến"
-      content: "Với API GroupDocs.Comparison, bạn có thể so sánh hiệu quả các tài liệu ở các định dạng như PDF, HTML, email, Microsoft Office Word, bảng tính Excel, bản trình bày PowerPoint, OneNote, sơ đồ Visio, tệp văn bản, hình ảnh JPEG, PNG, GIF, BMP, và nhiều định dạng khác."
+    - title: "Nhiều định dạng tệp và tài liệu"
+      content: "API GroupDocs.Comparison cho phép bạn so sánh các tài liệu ở các định dạng như PDF, HTML, email, Microsoft Office Word, sổ làm việc Excel, tệp PowerPoint, ghi chú OneNote, sơ đồ Visio, tài liệu văn bản, hình ảnh JPEG, PNG, GIF, BMP, trong số nhiều người khác."
 
     # feature loop
-    - title: "Tài liệu và ví dụ toàn diện"
-      content: "Hiện có sẵn tài liệu mở rộng và ví dụ về mã để sử dụng thư viện So sánh trên các nền tảng khác nhau, giúp bạn dễ dàng tích hợp API GroupDocs.Comparison vào ứng dụng Python của mình."
+    - title: "Tài liệu kỹ lưỡng và mẫu mã"
+      content: "Tài liệu chuyên sâu và mã mẫu cho thư viện So sánh trên nhiều nền tảng khác nhau luôn có sẵn, giúp đơn giản hóa việc tích hợp API GroupDocs.Comparison vào các ứng dụng Python của bạn."
 
     # feature loop
-    - title: "Chọn và hợp nhất các thay đổi thành một tệp"
-      content: "Nếu bạn có các phiên bản khác nhau của tài liệu, bạn có thể chọn các thay đổi cụ thể và biên dịch tài liệu mới bằng thư viện GroupDocs.Comparison."
+    - title: "Chọn và kết hợp các thay đổi thành một tài liệu"
+      content: "Nếu bạn sở hữu nhiều phiên bản khác nhau của tài liệu, bạn có thể biên dịch có chọn lọc các thay đổi thành một tệp mới bằng thư viện GroupDocs.Comparison."
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "Độc lập nền tảng"
-  description: "GroupDocs.Comparison for Python via .NET hỗ trợ các hệ điều hành, khung và trình quản lý gói sau"
+  description: "GroupDocs.Comparison for Python via .NET tương thích với các hệ điều hành, khung và trình quản lý gói sau."
   items:
     # platform loop
     - title: "Windows"
@@ -140,7 +140,7 @@ formats:
   enable: true
   title: "Định dạng tập tin được hỗ trợ"
   description: |
-    GroupDocs.Comparison for Python via .NET hỗ trợ các thao tác với [định dạng tệp sau](https://docs.groupdocs.com/comparison/net/supported-document-formats/).
+    GroupDocs.Comparison for Python via .NET có thể hoạt động với [định dạng tệp](https://docs.groupdocs.com/comparison/net/supported-document-formats/ sau.
   groups:
     # group loop
     - color: "green"
@@ -174,75 +174,75 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "Tính năng của GroupDocs.Comparison for Python via .NET"
-  description: "Dễ dàng so sánh các tài liệu, hình ảnh PDF và Office cũng như các định dạng khác."
+  title: "Khả năng của GroupDocs.Comparison for Python via .NET"
+  description: "So sánh liền mạch các tệp PDF, tài liệu Office, hình ảnh và nhiều định dạng khác."
 
   items:
     # feature loop
     - icon: "compare"
-      title: "So sánh tài liệu thân thiện với người dùng"
-      content: "Phân tích và xác định sự khác biệt giữa hai tài liệu."
+      title: "So sánh tài liệu trực quan"
+      content: "Kiểm tra và làm nổi bật sự khác biệt giữa hai tài liệu."
 
     # feature loop
     - icon: "note-stack"
       title: "So sánh nhiều tài liệu"
-      content: "Phân tích và xác định sự khác biệt trong nhiều tài liệu cùng một lúc."
+      content: "Kiểm tra nhiều tài liệu để tìm sự khác biệt cùng một lúc."
 
     # feature loop
     - icon: "stacks"
-      title: "Các định dạng được hỗ trợ"
-      content: "Hỗ trợ hơn 50 định dạng tài liệu phổ biến từ nhiều danh mục khác nhau."
+      title: "Hỗ trợ định dạng mở rộng"
+      content: "Tương thích với hơn 50 định dạng tài liệu thường được sử dụng trên nhiều danh mục khác nhau."
 
     # feature loop
     - icon: "rule"
       title: "Chấp nhận hoặc từ chối thay đổi"
-      content: "Trình bày trực quan rõ ràng về các thay đổi đã xác định, với tùy chọn chấp nhận hoặc từ chối sửa đổi."
+      content: "Trực quan hóa các thay đổi một cách rõ ràng, đưa ra các tùy chọn để chấp nhận hoặc từ chối các chỉnh sửa."
 
     # feature loop
     - icon: "preview"
-      title: "Tạo bản xem trước"
-      content: "Lưu kết quả so sánh dưới dạng hình ảnh."
+      title: "Tạo bản xem trước trực quan"
+      content: "Tạo bản xem trước kết quả so sánh ở định dạng hình ảnh."
 
     # feature loop
     - icon: "two-pager"
-      title: "So sánh nội dung"
-      content: "So sánh nội dung văn bản theo từng dòng, theo đoạn văn, theo từ hoặc theo ký tự. Làm nổi bật những thay đổi."
+      title: "So sánh nội dung dựa trên văn bản"
+      content: "Thực hiện so sánh từng dòng, đoạn, từ hoặc ký tự để làm nổi bật các thay đổi."
 
     # feature loop
     - icon: "format_color_text"
-      title: "So sánh phong cách"
-      content: "Phát hiện những thay đổi về định dạng và kiểu dáng."
+      title: "Phát hiện thay đổi định dạng"
+      content: "Xác định những thay đổi trong phong cách và định dạng tài liệu."
 
     # feature loop
     - icon: "folder-managed"
-      title: "Đặt siêu dữ liệu"
-      content: "Giữ lại siêu dữ liệu từ tệp nguồn hoặc tệp đích hoặc cho phép người dùng chỉ định siêu dữ liệu."
+      title: "Xử lý siêu dữ liệu có thể tùy chỉnh"
+      content: "Giữ lại siêu dữ liệu từ tệp nguồn hoặc tệp đích hoặc cho phép người dùng xác định siêu dữ liệu mới."
 
     # feature loop
     - icon: "lock"
-      title: "Mật khẩu bảo vệ"
-      content: "Phân tích tài liệu được mã hóa hoặc bảo mật tài liệu kết quả bằng mật khẩu."
+      title: "Xử lý các tệp được bảo vệ bằng mật khẩu"
+      content: "Làm việc với các tài liệu được mã hóa hoặc tạo các tài liệu bảo mật được bảo vệ bằng mật khẩu."
 
     # feature loop
     - icon: "select"
-      title: "So sánh các trang cụ thể"
-      content: "Tải và so sánh các phần hoặc trang cụ thể của tài liệu."
+      title: "So sánh trang tập trung"
+      content: "Chọn và so sánh các phần cụ thể hoặc các trang riêng lẻ của tài liệu."
 
     # feature loop
     - icon: "speaker-notes"
-      title: "Hiển thị bình luận"
-      content: "Chọn ẩn hoặc hiển thị nhận xét khi tải tài liệu nguồn."
+      title: "Quản lý khả năng hiển thị bình luận"
+      content: "Quyết định tiết lộ hoặc che giấu nhận xét khi kiểm tra tài liệu nguồn."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "Mẫu mã"
-  description: "Khám phá các trường hợp sử dụng điển hình của thao tác GroupDocs.Comparison for Python via .NET"
+  description: "Khám phá các tình huống phổ biến để sử dụng chức năng GroupDocs.Comparison for Python via .NET."
   items:
     # code sample loop
-    - title: "So sánh các tài liệu được bảo vệ bằng mật khẩu"
+    - title: "So sánh tài liệu với bảo vệ bằng mật khẩu"
       content: |
-        Để so sánh các tài liệu được [bảo vệ bằng mật khẩu](https://docs.groupdocs.com/comparison/python-net/load-password-protected-documents/), bạn cần chỉ định mật khẩu khi tải tài liệu:
+        Để so sánh các tài liệu được [bảo mật bằng mật khẩu](https://docs.groupdocs.com/comparison/python-net/load-password-protected-documents/), bạn cần chỉ định mật khẩu khi tải tài liệu:
         {{< landing/code title="Làm thế nào để so sánh các tài liệu được bảo vệ bằng mật khẩu.">}}
         ```python {style=abap}
         def run():

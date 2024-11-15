@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-07-10T18:47:13
+date: 2024-11-14T22:58:46
 draft: false
 
 lang: id
@@ -28,17 +28,17 @@ supported_platforms:
       tag: "python-net"
 
 ############################# Head ############################
-head_title: "Python API Perbandingan Dokumen | pemeriksa perbedaan"
-head_description: "Python Document Comparison API menawarkan alat yang efisien untuk membandingkan dokumen. Terintegrasi secara mulus dengan Python untuk pelacakan perubahan instan"
+head_title: "Python Alat Perbandingan Dokumen | Analisis Dokumen"
+head_description: "Temukan kecanggihan Alat Perbandingan Dokumen Python untuk analisis dokumen menyeluruh. Terintegrasi dengan mudah dengan Python untuk pelacakan modifikasi yang komprehensif."
 
 ############################# Header ############################
 title: "Bandingkan Dokumen dengan Python: Sorot Setiap Perbedaan"
-description: "Gunakan API GroupDocs.Comparison untuk mengembangkan aplikasi Python asli dengan fitur perbandingan yang sangat dapat dikonfigurasi. Bandingkan file, kontennya, dan gaya teks antara format dokumen serupa."
+description: "Manfaatkan API GroupDocs.Comparison untuk membuat aplikasi asli dengan Python dengan fungsi perbandingan yang dapat disesuaikan. Periksa file, kontennya, dan variasi gaya di seluruh format dokumen."
 words:
   for: "untuk"
 
 actions:
-  main: "Unduhan PyPi Gratis"
+  main: "Dapatkan Unduhan Gratis PyPi Sekarang"
   main_link: "https://pypi.org/project/groupdocs-comparison-net/"
   alt: "Perizinan"
   alt_link: "https://purchase.groupdocs.com/pricing/comparison/python-net/"
@@ -51,7 +51,7 @@ release:
   downloads: "Unduhan"
 
 code:
-  title: "Bandingkan gambar BMP di Python"
+  title: "Bandingkan gambar BMP menggunakan Python"
   more: "Lebih banyak contoh"
   more_link: "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Python-via-.NET/"
   install: "pip install groupdocs-comparison-net"
@@ -77,29 +77,29 @@ code:
 overview:
   enable: true
   title: "Sekilas tentang GroupDocs.Comparison"
-  description: "API untuk membandingkan jenis dokumen populer seperti PDF, Microsoft Office, HTML, email, atau gambar dalam aplikasi Python."
+  description: "API yang dirancang untuk membandingkan jenis dokumen yang banyak digunakan seperti PDF, file Microsoft Office, HTML, email, atau gambar dalam aplikasi Python."
   features:
     # feature loop
-    - title: "Laporan Keluaran Terperinci"
-      content: "GroupDocs.Comparison mengidentifikasi perubahan konten dokumen (karakter, kata, paragraf, tabel, bagan) serta perubahan gaya dokumen. Ini memberi pengguna laporan yang berisi informasi rinci tentang perbedaan, termasuk jumlah dan jenisnya."
+    - title: "Laporan Keluaran Komprehensif"
+      content: "GroupDocs.Comparison mendeteksi perubahan konten dokumen (karakter, kata, paragraf, tabel, bagan) serta perubahan gaya dokumen. Pengguna menerima laporan terperinci yang menyoroti sifat dan jumlah perubahan."
 
     # feature loop
-    - title: "Mendukung Format File dan Dokumen Populer"
-      content: "Dengan API GroupDocs.Comparison, Anda dapat membandingkan dokumen secara efisien dalam format seperti PDF, HTML, email, Microsoft Office Word, spreadsheet Excel, presentasi PowerPoint, OneNote, diagram Visio, file teks, JPEG, PNG, GIF, gambar BMP, dan banyak format lainnya."
+    - title: "Beragam Format File dan Dokumen"
+      content: "API GroupDocs.Comparison memungkinkan Anda membandingkan dokumen dalam format seperti PDF, HTML, email, Microsoft Office Word, buku kerja Excel, file PowerPoint, catatan OneNote, diagram Visio, dokumen teks, gambar JPEG, PNG, GIF, BMP, di antara banyak lainnya."
 
     # feature loop
-    - title: "Dokumentasi dan Contoh Komprehensif"
-      content: "Tersedia dokumentasi ekstensif dan contoh kode untuk menggunakan pustaka Perbandingan pada berbagai platform, sehingga memudahkan integrasi GroupDocs.Comparison API ke dalam aplikasi Python Anda."
+    - title: "Dokumentasi Menyeluruh dan Contoh Kode"
+      content: "Dokumentasi mendalam dan kode contoh untuk pustaka Perbandingan di berbagai platform sudah tersedia, menyederhanakan integrasi API GroupDocs.Comparison ke dalam aplikasi Python Anda."
 
     # feature loop
-    - title: "Pilih dan Gabungkan Perubahan menjadi Satu File"
-      content: "Jika Anda memiliki versi dokumen yang berbeda, Anda dapat memilih perubahan tertentu dan mengompilasi dokumen baru menggunakan pustaka GroupDocs.Comparison."
+    - title: "Pilih dan Gabungkan Perubahan menjadi Satu Dokumen"
+      content: "Jika Anda memiliki berbagai versi dokumen, Anda dapat mengkompilasi perubahan secara selektif ke dalam satu file baru menggunakan pustaka GroupDocs.Comparison."
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "Independensi platform"
-  description: "GroupDocs.Comparison for Python via .NET mendukung sistem operasi, kerangka kerja, dan manajer paket berikut"
+  description: "GroupDocs.Comparison for Python via .NET kompatibel dengan sistem operasi, kerangka kerja, dan manajer paket berikut."
   items:
     # platform loop
     - title: "Windows"
@@ -140,7 +140,7 @@ formats:
   enable: true
   title: "Format file yang didukung"
   description: |
-    GroupDocs.Comparison for Python via .NET mendukung operasi dengan [format file](https://docs.groupdocs.com/comparison/net/supported-document-formats/) berikut.
+    GroupDocs.Comparison for Python via .NET dapat beroperasi dengan [format file](https://docs.groupdocs.com/comparison/net/supported-document-formats/) berikut.
   groups:
     # group loop
     - color: "green"
@@ -174,75 +174,75 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Comparison for Python via .NET Fitur"
-  description: "Bandingkan dokumen PDF dan Office, gambar, dan format lainnya dengan mudah."
+  title: "Kemampuan GroupDocs.Comparison for Python via .NET"
+  description: "Bandingkan PDF, dokumen Office, gambar, dan berbagai format lainnya dengan lancar."
 
   items:
     # feature loop
     - icon: "compare"
-      title: "Perbandingan Dokumen yang Ramah Pengguna"
-      content: "Menganalisis dan mengidentifikasi perbedaan antara dua dokumen."
+      title: "Perbandingan Dokumen Intuitif"
+      content: "Periksa dan soroti perbedaan antara dua dokumen."
 
     # feature loop
     - icon: "note-stack"
-      title: "Bandingkan Beberapa Dokumen"
-      content: "Analisis dan identifikasi perbedaan dalam beberapa dokumen secara bersamaan."
+      title: "Perbandingan Beberapa Dokumen"
+      content: "Periksa beberapa dokumen untuk mengetahui perbedaannya secara bersamaan."
 
     # feature loop
     - icon: "stacks"
-      title: "Format yang Didukung"
-      content: "Mendukung lebih dari 50 format dokumen populer dari berbagai kategori."
+      title: "Dukungan Format yang Luas"
+      content: "Kompatibel dengan lebih dari 50 format dokumen yang umum digunakan di berbagai kategori."
 
     # feature loop
     - icon: "rule"
       title: "Terima atau Tolak Perubahan"
-      content: "Representasi visual yang jelas tentang perubahan yang teridentifikasi, dengan opsi untuk menerima atau menolak modifikasi."
+      content: "Visualisasikan perubahan dengan jelas, tawarkan opsi untuk menerima atau menolak pengeditan."
 
     # feature loop
     - icon: "preview"
-      title: "Hasilkan Pratinjau"
-      content: "Simpan hasil perbandingan sebagai gambar."
+      title: "Hasilkan Pratinjau Visual"
+      content: "Buat pratinjau hasil perbandingan dalam format gambar."
 
     # feature loop
     - icon: "two-pager"
-      title: "Perbandingan Konten"
-      content: "Bandingkan konten teks baris demi baris, paragraf, kata, atau karakter. Sorot perubahannya."
+      title: "Perbandingan Konten Berbasis Teks"
+      content: "Lakukan perbandingan baris demi baris, paragraf, kata, atau karakter untuk menyorot perubahan."
 
     # feature loop
     - icon: "format_color_text"
-      title: "Perbandingan Gaya"
-      content: "Mendeteksi perubahan dalam format dan gaya."
+      title: "Deteksi Perubahan Pemformatan"
+      content: "Identifikasi perubahan dalam gaya dan pemformatan dokumen."
 
     # feature loop
     - icon: "folder-managed"
-      title: "Tetapkan Metadata"
-      content: "Pertahankan metadata dari file sumber atau target, atau izinkan untuk ditentukan oleh pengguna."
+      title: "Penanganan Metadata yang Dapat Disesuaikan"
+      content: "Pertahankan metadata dari file sumber atau target, atau izinkan pengguna menentukan metadata baru."
 
     # feature loop
     - icon: "lock"
-      title: "Perlindungan Kata Sandi"
-      content: "Analisis dokumen terenkripsi, atau amankan dokumen yang dihasilkan dengan kata sandi."
+      title: "Menangani File yang Dilindungi Kata Sandi"
+      content: "Bekerja dengan dokumen terenkripsi, atau buat dokumen aman yang dilindungi kata sandi."
 
     # feature loop
     - icon: "select"
-      title: "Bandingkan Halaman Tertentu"
-      content: "Memuat dan membandingkan bagian atau halaman tertentu dari suatu dokumen."
+      title: "Perbandingan Halaman Terfokus"
+      content: "Pilih dan bandingkan bagian tertentu atau halaman individual suatu dokumen."
 
     # feature loop
     - icon: "speaker-notes"
-      title: "Tampilkan Komentar"
-      content: "Pilih untuk menyembunyikan atau menampilkan komentar saat memuat dokumen sumber."
+      title: "Kelola Visibilitas Komentar"
+      content: "Putuskan untuk mengungkapkan atau menyembunyikan komentar saat memeriksa dokumen sumber."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "Contoh kode"
-  description: "Jelajahi kasus penggunaan umum operasi GroupDocs.Comparison for Python via .NET"
+  description: "Temukan skenario umum untuk memanfaatkan fungsi GroupDocs.Comparison for Python via .NET."
   items:
     # code sample loop
-    - title: "Membandingkan Dokumen yang Dilindungi Kata Sandi"
+    - title: "Membandingkan Dokumen dengan Perlindungan Kata Sandi"
       content: |
-        Untuk membandingkan dokumen yang [dilindungi dengan kata sandi](https://docs.groupdocs.com/comparison/python-net/load-password-protected-documents/), Anda perlu menentukan kata sandi saat memuat dokumen:
+        Untuk membandingkan dokumen yang [diamankan dengan kata sandi](https://docs.groupdocs.com/comparison/python-net/load-password-protected-documents/), Anda perlu menentukan kata sandi saat memuat dokumen:
         {{< landing/code title="Cara membandingkan dokumen yang dilindungi kata sandi.">}}
         ```python {style=abap}
         def run():

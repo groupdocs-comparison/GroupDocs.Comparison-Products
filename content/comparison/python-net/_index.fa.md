@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-10-01T13:42:45
+date: 2024-11-14T22:58:46
 draft: false
 
 lang: fa
@@ -28,17 +28,17 @@ supported_platforms:
       tag: "python-net"
 
 ############################# Head ############################
-head_title: "Python API مقایسه سند | بررسی کننده تفاوت"
-head_description: "Python Document Comparison API ابزارهای کارآمدی برای مقایسه اسناد ارائه می دهد. برای ردیابی فوری تغییرات، یکپارچه با Python ادغام می شود"
+head_title: "Python ابزار مقایسه اسناد | تجزیه و تحلیل اسناد"
+head_description: "برای تجزیه و تحلیل کامل اسناد، قدرت ابزار مقایسه اسناد Python را کشف کنید. برای ردیابی جامع تغییرات، بدون زحمت با Python ادغام می شود."
 
 ############################# Header ############################
 title: "مقایسه اسناد با Python: هر گونه تفاوت را برجسته کنید"
-description: "از API GroupDocs.Comparison برای توسعه برنامه‌های کاربردی Python با ویژگی‌های مقایسه بسیار قابل تنظیم استفاده کنید. فایل‌ها، محتوای آن‌ها و سبک‌های متن را بین قالب‌های سند مشابه مقایسه کنید."
+description: "از API GroupDocs.Comparison برای ایجاد برنامه های بومی در پایتون با قابلیت های مقایسه قابل تنظیم استفاده کنید. فایل‌ها، محتوای آن‌ها و تغییرات سبک در قالب‌های سند را بررسی کنید."
 words:
   for: "برای"
 
 actions:
-  main: "دانلود رایگان PyPi"
+  main: "اکنون دانلود رایگان PyPi خود را دریافت کنید"
   main_link: "https://pypi.org/project/groupdocs-comparison-net/"
   alt: "صدور مجوز"
   alt_link: "https://purchase.groupdocs.com/pricing/comparison/python-net/"
@@ -51,7 +51,7 @@ release:
   downloads: "دانلودها"
 
 code:
-  title: "مقایسه تصاویر BMP در Python"
+  title: "مقایسه تصاویر BMP با استفاده از Python"
   more: "نمونه های بیشتر"
   more_link: "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Python-via-.NET/"
   install: "pip install groupdocs-comparison-net"
@@ -77,29 +77,29 @@ code:
 overview:
   enable: true
   title: "GroupDocs.Comparison در یک نگاه"
-  description: "یک API برای مقایسه انواع سند محبوب مانند PDF، Microsoft Office، HTML، ایمیل‌ها یا تصاویر در برنامه‌های Python."
+  description: "یک API طراحی شده برای مقایسه انواع اسناد پرکاربرد مانند PDF، فایل‌های Microsoft Office، HTML، ایمیل‌ها یا تصاویر در برنامه‌های Python."
   features:
     # feature loop
-    - title: "گزارش های خروجی تفصیلی"
-      content: "GroupDocs.Comparison تغییرات در محتوای سند (شخصیت‌ها، کلمات، پاراگراف‌ها، جداول، نمودارها) و همچنین تغییرات در سبک سند را مشخص می‌کند. گزارشی حاوی اطلاعات دقیق در مورد تفاوت ها، از جمله تعداد و نوع آنها، در اختیار کاربران قرار می دهد."
+    - title: "گزارشات خروجی جامع"
+      content: "GroupDocs.Comparison تغییرات در محتوای سند (نویسه‌ها، کلمات، پاراگراف‌ها، جداول، نمودارها) و همچنین تغییرات سبک سند را تشخیص می‌دهد. کاربران گزارش مفصلی دریافت می کنند که ماهیت و تعداد تغییرات را برجسته می کند."
 
     # feature loop
-    - title: "از فرمت های محبوب فایل و سند پشتیبانی می کند"
-      content: "با استفاده از API GroupDocs.Comparison می‌توانید اسناد را در قالب‌هایی مانند PDF، HTML، ایمیل، Microsoft Office Word، صفحات گسترده اکسل، ارائه‌های PowerPoint، OneNote، نمودارهای Visio، فایل‌های متنی، JPEG، PNG، GIF، تصاویر BMP، به طور مؤثر مقایسه کنید. و بسیاری از فرمت های دیگر"
+    - title: "طیف گسترده ای از فرمت های فایل و سند"
+      content: "API GroupDocs.Comparison به شما امکان می‌دهد اسناد را در قالب‌هایی مانند PDF، HTML، ایمیل، Microsoft Office Word، کتاب‌های کار اکسل، فایل‌های PowerPoint، یادداشت‌های OneNote، نمودارهای Visio، اسناد متنی، JPEG، PNG، GIF، تصاویر BMP، مقایسه کنید. در میان بسیاری دیگر."
 
     # feature loop
-    - title: "مستندات و مثال های جامع"
-      content: "اسناد و نمونه‌های کد گسترده‌ای برای استفاده از کتابخانه مقایسه در پلتفرم‌های مختلف موجود است که ادغام API GroupDocs.Comparison را در برنامه Python آسان می‌کند."
+    - title: "اسناد کامل و نمونه کد"
+      content: "اسناد عمیق و کدهای نمونه برای کتابخانه مقایسه در پلتفرم های مختلف به راحتی در دسترس هستند و ادغام GroupDocs.Comparison API را در برنامه های پایتون شما ساده می کند."
 
     # feature loop
-    - title: "تغییرات را در یک فایل انتخاب و ادغام کنید"
-      content: "اگر نسخه‌های مختلفی از یک سند دارید، می‌توانید تغییرات خاصی را انتخاب کنید و با استفاده از کتابخانه GroupDocs.Comparison یک سند جدید را کامپایل کنید."
+    - title: "تغییرات را در یک سند انتخاب و ترکیب کنید"
+      content: "اگر نسخه‌های مختلفی از یک سند دارید، می‌توانید با استفاده از کتابخانه GroupDocs.Comparison تغییرات را به صورت انتخابی در یک فایل جدید کامپایل کنید."
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "استقلال پلت فرم"
-  description: "GroupDocs.Comparison for Python via .NET سیستم‌عامل‌ها، چارچوب‌ها و مدیریت بسته‌های زیر را پشتیبانی می‌کند"
+  description: "GroupDocs.Comparison for Python via .NET با سیستم‌عامل‌ها، چارچوب‌ها و مدیران بسته‌های زیر سازگار است."
   items:
     # platform loop
     - title: "Windows"
@@ -140,7 +140,7 @@ formats:
   enable: true
   title: "فرمت های فایل پشتیبانی شده"
   description: |
-    GroupDocs.Comparison for Python via .NET از عملیات با [قالب‌های فایل](https://docs.groupdocs.com/comparison/net/supported-document-formats/) پشتیبانی می‌کند.
+    GroupDocs.Comparison for Python via .NET می‌تواند با [فرمت‌های فایل] زیر (https://docs.groupdocs.com/comparison/net/supported-document-formats/) کار کند.
   groups:
     # group loop
     - color: "green"
@@ -174,75 +174,75 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "ویژگی های GroupDocs.Comparison for Python via .NET"
-  description: "اسناد، تصاویر و سایر فرمت های PDF و Office را به راحتی مقایسه کنید."
+  title: "قابلیت های GroupDocs.Comparison for Python via .NET"
+  description: "فایل‌های PDF، اسناد آفیس، تصاویر و طیف گسترده‌ای از فرمت‌های دیگر را به‌طور یکپارچه مقایسه کنید."
 
   items:
     # feature loop
     - icon: "compare"
-      title: "مقایسه اسناد کاربرپسند"
-      content: "تجزیه و تحلیل و شناسایی تفاوت بین دو سند."
+      title: "مقایسه اسناد بصری"
+      content: "تفاوت بین دو سند را بررسی و برجسته کنید."
 
     # feature loop
     - icon: "note-stack"
-      title: "مقایسه چندین سند"
-      content: "تجزیه و تحلیل و شناسایی تفاوت ها در چندین سند به طور همزمان."
+      title: "مقایسه اسناد چندگانه"
+      content: "چندین سند را برای تفاوت ها به طور همزمان بررسی کنید."
 
     # feature loop
     - icon: "stacks"
-      title: "فرمت های پشتیبانی شده"
-      content: "پشتیبانی از بیش از 50 فرمت سند محبوب از دسته های مختلف."
+      title: "پشتیبانی فرمت گسترده"
+      content: "سازگار با بیش از 50 فرمت سند رایج در دسته های مختلف."
 
     # feature loop
     - icon: "rule"
       title: "پذیرش یا رد تغییرات"
-      content: "نمایش تصویری واضح تغییرات شناسایی شده، با گزینه پذیرش یا رد تغییرات."
+      content: "تغییرات را با وضوح تجسم کنید، گزینه هایی برای پذیرش یا رد ویرایش ها ارائه دهید."
 
     # feature loop
     - icon: "preview"
-      title: "ایجاد پیش نمایش"
-      content: "نتایج مقایسه را به صورت تصویر ذخیره کنید."
+      title: "ایجاد پیش نمایش های بصری"
+      content: "پیش نمایش نتایج مقایسه را در قالب های تصویر ایجاد کنید."
 
     # feature loop
     - icon: "two-pager"
-      title: "مقایسه محتوا"
-      content: "محتوای متن را خط به خط، بر اساس پاراگراف ها، کلمات یا نویسه ها مقایسه کنید. تغییرات را برجسته کنید."
+      title: "مقایسه محتوای مبتنی بر متن"
+      content: "برای برجسته کردن تغییرات، مقایسه خط به خط، پاراگراف، کلمه یا کاراکتر را انجام دهید."
 
     # feature loop
     - icon: "format_color_text"
-      title: "مقایسه سبک"
-      content: "تشخیص تغییرات در قالب بندی و سبک."
+      title: "تشخیص تغییرات قالب بندی"
+      content: "تغییرات در سبک سند و قالب بندی را شناسایی کنید."
 
     # feature loop
     - icon: "folder-managed"
-      title: "متادیتا را تنظیم کنید"
-      content: "ابرداده‌ها را از فایل‌های منبع یا مقصد حفظ کنید یا اجازه دهید توسط کاربران مشخص شود."
+      title: "مدیریت فراداده قابل تنظیم"
+      content: "ابرداده‌ها را از فایل‌های منبع یا هدف حفظ کنید، یا به کاربران اجازه دهید تا ابرداده‌های جدیدی را تعریف کنند."
 
     # feature loop
     - icon: "lock"
-      title: "حفاظت از رمز عبور"
-      content: "اسناد رمزگذاری شده را تجزیه و تحلیل کنید یا سند حاصل را با رمز عبور ایمن کنید."
+      title: "فایل های محافظت شده با رمز عبور را مدیریت کنید"
+      content: "با اسناد رمزگذاری شده کار کنید یا اسناد ایمن و محافظت شده با رمز عبور ایجاد کنید."
 
     # feature loop
     - icon: "select"
-      title: "مقایسه صفحات خاص"
-      content: "بخش ها یا صفحات خاصی از یک سند را بارگیری و مقایسه کنید."
+      title: "مقایسه صفحات متمرکز"
+      content: "بخش های خاص یا صفحات جداگانه یک سند را انتخاب و مقایسه کنید."
 
     # feature loop
     - icon: "speaker-notes"
-      title: "نمایش نظرات"
-      content: "هنگام بارگیری سند منبع، پنهان کردن یا نمایش نظرات را انتخاب کنید."
+      title: "مشاهده دیدگاه را مدیریت کنید"
+      content: "هنگام بررسی سند منبع، تصمیم بگیرید که نظرات را آشکار یا پنهان کنید."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "نمونه های کد"
-  description: "موارد استفاده معمولی از عملیات GroupDocs.Comparison for Python via .NET را کاوش کنید"
+  description: "سناریوهای رایج برای استفاده از عملکردهای GroupDocs.Comparison for Python via .NET را کشف کنید."
   items:
     # code sample loop
-    - title: "مقایسه اسناد محافظت شده با رمز عبور"
+    - title: "مقایسه اسناد با محافظت از رمز عبور"
       content: |
-        برای مقایسه اسنادی که [با رمز عبور محافظت می‌شوند](https://docs.groupdocs.com/comparison/python-net/load-password-protected-documents/)، باید رمز عبور را هنگام بارگیری اسناد مشخص کنید:
+        برای مقایسه اسنادی که [با رمز عبور ایمن هستند] (https://docs.groupdocs.com/comparison/python-net/load-password-protected-documents/)، باید رمز عبور را هنگام بارگیری اسناد مشخص کنید:
         {{< landing/code title="نحوه مقایسه اسناد محافظت شده با رمز عبور">}}
         ```python {style=abap}
         def run():

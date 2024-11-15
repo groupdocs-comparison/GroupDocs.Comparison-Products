@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-07-10T18:47:13
+date: 2024-11-14T22:58:46
 draft: false
 
 lang: de
@@ -28,17 +28,17 @@ supported_platforms:
       tag: "python-net"
 
 ############################# Head ############################
-head_title: "Python Dokumentvergleichs-API | Diff-Checker"
-head_description: "Die Python Document Compare API bietet effiziente Tools zum Vergleichen von Dokumenten. Nahtlose Integration mit Python für sofortige Änderungsverfolgung"
+head_title: "Python Dokumentvergleichstool | Dokumentenanalyse"
+head_description: "Entdecken Sie die Leistungsfähigkeit des Python-Dokumentenvergleichstools für eine gründliche Dokumentenanalyse. Lässt sich mühelos in Python integrieren, um eine umfassende Nachverfolgung von Änderungen zu ermöglichen."
 
 ############################# Header ############################
 title: "Vergleichen Sie Dokumente mit Python: Markieren Sie alle Unterschiede"
-description: "Verwenden Sie die GroupDocs.Comparison-API, um native Python-Anwendungen mit hochgradig konfigurierbaren Vergleichsfunktionen zu entwickeln. Vergleichen Sie Dateien, deren Inhalte und Textstile zwischen ähnlichen Dokumentformaten."
+description: "Nutzen Sie die GroupDocs.Comparison-API, um native Anwendungen in Python mit anpassbaren Vergleichsfunktionen zu erstellen. Untersuchen Sie Dateien, ihren Inhalt und Stilvariationen in verschiedenen Dokumentformaten."
 words:
   for: "zum"
 
 actions:
-  main: "Kostenloser PyPi-Download"
+  main: "Holen Sie sich jetzt Ihren kostenlosen PyPi-Download"
   main_link: "https://pypi.org/project/groupdocs-comparison-net/"
   alt: "Lizenzierung"
   alt_link: "https://purchase.groupdocs.com/pricing/comparison/python-net/"
@@ -51,7 +51,7 @@ release:
   downloads: "herunterladbare"
 
 code:
-  title: "Vergleichen Sie BMP-Bilder in Python"
+  title: "Vergleichen Sie BMP-Bilder mit Python"
   more: "Mehr Beispiele"
   more_link: "https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Python-via-.NET/"
   install: "pip install groupdocs-comparison-net"
@@ -77,29 +77,29 @@ code:
 overview:
   enable: true
   title: "GroupDocs.Comparison auf einen Blick"
-  description: "Eine API zum Vergleich gängiger Dokumenttypen wie PDF, Microsoft Office, HTML, E-Mails oder Bilder in Python-Anwendungen."
+  description: "Eine API zum Vergleich weit verbreiteter Dokumenttypen wie PDFs, Microsoft Office-Dateien, HTML, E-Mails oder Bilder in Python-Anwendungen."
   features:
     # feature loop
-    - title: "Detaillierte Ausgabeberichte"
-      content: "GroupDocs.Comparison identifiziert Änderungen im Dokumentinhalt (Zeichen, Wörter, Absätze, Tabellen, Diagramme) sowie Änderungen im Dokumentstil. Es bietet Benutzern einen Bericht mit detaillierten Informationen zu Unterschieden, einschließlich deren Anzahl und Art."
+    - title: "Umfassende Ausgabeberichte"
+      content: "GroupDocs.Comparison erkennt Änderungen im Dokumentinhalt (Zeichen, Wörter, Absätze, Tabellen, Diagramme) sowie Änderungen im Dokumentstil. Benutzer erhalten einen detaillierten Bericht, der Art und Anzahl der Änderungen hervorhebt."
 
     # feature loop
-    - title: "Unterstützt gängige Datei- und Dokumentformate"
-      content: "Mit der GroupDocs.Comparison-API können Sie Dokumente in Formaten wie PDF, HTML, E-Mail, Microsoft Office Word, Excel-Tabellen, PowerPoint-Präsentationen, OneNote, Visio-Diagramme, Textdateien, JPEG, PNG, GIF, BMP-Bilder usw. effizient vergleichen. und viele andere Formate."
+    - title: "Große Auswahl an Datei- und Dokumentformaten"
+      content: "Mit der GroupDocs.Comparison-API können Sie Dokumente in Formaten wie PDF, HTML, E-Mail, Microsoft Office Word, Excel-Arbeitsmappen, PowerPoint-Dateien, OneNote-Notizen, Visio-Diagramme, Textdokumente, JPEG, PNG, GIF, BMP-Bilder vergleichen. unter vielen anderen."
 
     # feature loop
-    - title: "Umfassende Dokumentation und Beispiele"
-      content: "Es stehen umfangreiche Dokumentationen und Codebeispiele für die Verwendung der Vergleichsbibliothek auf verschiedenen Plattformen zur Verfügung, sodass Sie die GroupDocs.Comparison-API problemlos in Ihre Python-Anwendung integrieren können."
+    - title: "Gründliche Dokumentation und Codebeispiele"
+      content: "Ausführliche Dokumentation und Beispielcodes für die Vergleichsbibliothek auf verschiedenen Plattformen sind sofort verfügbar und vereinfachen die Integration der GroupDocs.Comparison-API in Ihre Python-Anwendungen."
 
     # feature loop
-    - title: "Wählen Sie Änderungen aus und führen Sie sie in einer Datei zusammen"
-      content: "Wenn Sie über verschiedene Versionen eines Dokuments verfügen, können Sie mithilfe der GroupDocs.Comparison-Bibliothek bestimmte Änderungen auswählen und ein neues Dokument kompilieren."
+    - title: "Wählen Sie Änderungen aus und kombinieren Sie sie in einem Dokument"
+      content: "Wenn Sie über verschiedene Versionen eines Dokuments verfügen, können Sie mithilfe der Bibliothek GroupDocs.Comparison Änderungen gezielt in einer einzigen neuen Datei kompilieren."
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "Plattformunabhängigkeit"
-  description: "GroupDocs.Comparison for Python via .NET unterstützt die folgenden Betriebssysteme, Frameworks und Paketmanager"
+  description: "GroupDocs.Comparison for Python via .NET ist mit den folgenden Betriebssystemen, Frameworks und Paketmanagern kompatibel."
   items:
     # platform loop
     - title: "Windows"
@@ -140,7 +140,7 @@ formats:
   enable: true
   title: "Unterstützte Dateiformate"
   description: |
-    GroupDocs.Comparison for Python via .NET unterstützt Vorgänge mit den folgenden [Dateiformaten](https://docs.groupdocs.com/comparison/net/supported-document-formats/).
+    GroupDocs.Comparison for Python via .NET kann mit den folgenden [Dateiformaten](https://docs.groupdocs.com/comparison/net/supported-document-formats/) arbeiten.
   groups:
     # group loop
     - color: "green"
@@ -174,75 +174,75 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Comparison for Python via .NET Funktionen"
-  description: "Vergleichen Sie ganz einfach PDF- und Office-Dokumente, Bilder und andere Formate."
+  title: "Fähigkeiten von GroupDocs.Comparison for Python via .NET"
+  description: "Vergleichen Sie nahtlos PDFs, Office-Dokumente, Bilder und eine Vielzahl anderer Formate."
 
   items:
     # feature loop
     - icon: "compare"
-      title: "Benutzerfreundlicher Dokumentenvergleich"
-      content: "Analysieren und identifizieren Sie Unterschiede zwischen zwei Dokumenten."
+      title: "Intuitiver Dokumentenvergleich"
+      content: "Untersuchen und markieren Sie Unterschiede zwischen zwei Dokumenten."
 
     # feature loop
     - icon: "note-stack"
-      title: "Vergleichen Sie mehrere Dokumente"
-      content: "Analysieren und identifizieren Sie Unterschiede in mehreren Dokumenten gleichzeitig."
+      title: "Vergleich mehrerer Dokumente"
+      content: "Überprüfen Sie mehrere Dokumente gleichzeitig auf Unterschiede."
 
     # feature loop
     - icon: "stacks"
-      title: "Unterstützte Formate"
-      content: "Unterstützt mehr als 50 gängige Dokumentformate aus verschiedenen Kategorien."
+      title: "Umfangreiche Formatunterstützung"
+      content: "Kompatibel mit über 50 häufig verwendeten Dokumentformaten in verschiedenen Kategorien."
 
     # feature loop
     - icon: "rule"
       title: "Änderungen akzeptieren oder ablehnen"
-      content: "Klare visuelle Darstellung der identifizierten Änderungen mit der Möglichkeit, Änderungen zu akzeptieren oder abzulehnen."
+      content: "Visualisieren Sie Änderungen klar und bieten Sie Optionen für die Annahme oder Ablehnung von Änderungen."
 
     # feature loop
     - icon: "preview"
-      title: "Vorschauen generieren"
-      content: "Speichern Sie die Vergleichsergebnisse als Bilder."
+      title: "Generieren Sie visuelle Vorschauen"
+      content: "Erstellen Sie Vorschauen der Vergleichsergebnisse in Bildformaten."
 
     # feature loop
     - icon: "two-pager"
-      title: "Inhaltsvergleich"
-      content: "Vergleichen Sie Textinhalte Zeile für Zeile, nach Absätzen, nach Wörtern oder nach Zeichen. Markieren Sie die Änderungen."
+      title: "Textbasierter Inhaltsvergleich"
+      content: "Führen Sie Zeile-für-Zeile-, Absatz-, Wort- oder Zeichenvergleiche durch, um Änderungen hervorzuheben."
 
     # feature loop
     - icon: "format_color_text"
-      title: "Stilvergleich"
-      content: "Erkennen Sie Änderungen in Formatierung und Stilen."
+      title: "Erkennung von Formatierungsänderungen"
+      content: "Identifizieren Sie Änderungen im Dokumentstil und in der Formatierung."
 
     # feature loop
     - icon: "folder-managed"
-      title: "Metadaten festlegen"
-      content: "Behalten Sie Metadaten entweder aus den Quell- oder Zieldateien bei oder lassen Sie zu, dass sie von Benutzern angegeben werden."
+      title: "Anpassbare Metadatenverarbeitung"
+      content: "Behalten Sie Metadaten aus den Quell- oder Zieldateien bei oder ermöglichen Sie Benutzern, neue Metadaten zu definieren."
 
     # feature loop
     - icon: "lock"
-      title: "Passwortschutz"
-      content: "Analysieren Sie verschlüsselte Dokumente oder sichern Sie das resultierende Dokument mit einem Passwort."
+      title: "Behandeln Sie passwortgeschützte Dateien"
+      content: "Arbeiten Sie mit verschlüsselten Dokumenten oder erstellen Sie sichere Dokumente, die mit einem Passwort geschützt sind."
 
     # feature loop
     - icon: "select"
-      title: "Vergleichen Sie bestimmte Seiten"
-      content: "Laden und vergleichen Sie bestimmte Abschnitte oder Seiten eines Dokuments."
+      title: "Fokussierte Seitenvergleiche"
+      content: "Wählen Sie bestimmte Abschnitte oder einzelne Seiten eines Dokuments aus und vergleichen Sie sie."
 
     # feature loop
     - icon: "speaker-notes"
-      title: "Kommentare anzeigen"
-      content: "Wählen Sie, ob Kommentare beim Laden des Quelldokuments ausgeblendet oder angezeigt werden sollen."
+      title: "Kommentarsichtbarkeit verwalten"
+      content: "Entscheiden Sie, ob Kommentare bei der Prüfung des Quelldokuments angezeigt oder verborgen werden sollen."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "Codebeispiele"
-  description: "Entdecken Sie typische Anwendungsfälle von GroupDocs.Comparison for Python via .NET-Vorgängen"
+  description: "Entdecken Sie gängige Szenarien für die Nutzung von GroupDocs.Comparison for Python via .NET-Funktionen."
   items:
     # code sample loop
-    - title: "Vergleich passwortgeschützter Dokumente"
+    - title: "Vergleichen von Dokumenten mit Passwortschutz"
       content: |
-        Um Dokumente zu vergleichen, die [durch ein Passwort geschützt](https://docs.groupdocs.com/comparison/python-net/load-password-protected-documents/) sind, müssen Sie beim Laden der Dokumente das Passwort angeben:
+        Um Dokumente zu vergleichen, die [mit einem Passwort gesichert](https://docs.groupdocs.com/comparison/python-net/load-password-protected-documents/) sind, müssen Sie beim Laden der Dokumente das Passwort angeben:
         {{< landing/code title="So vergleichen Sie passwortgeschützte Dokumente.">}}
         ```python {style=abap}
         def run():
