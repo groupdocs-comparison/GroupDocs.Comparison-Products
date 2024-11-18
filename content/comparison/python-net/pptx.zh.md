@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:45
+date:  2024-11-18T09:49:34
 draft: false
 lang: zh
 format: Pptx
@@ -12,13 +12,13 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "将 PPTX 文件与 Python via .NET 进行比较"
-head_description: "使用 Python via .NET 通过 GroupDocs.Comparison 分析 PPTX 演示文稿，并生成突出显示内容差异的准确报告。"
+head_title: "使用 Python via .NET 和 GroupDocs.Comparison for Python via .NET 评估 PPTX 差异"
+head_description: "轻松检查 PPTX 演示文稿中的更改，生成反映内容差异的精确报告。"
 
 ############################# Header ############################
-title: "Python via .NET 中的 PPTX 演示比较" 
-description: "利用 Python 中的文档处理 API 来检测并展示 Python via .NET 应用程序中 MS PowerPoint PPTX 演示文稿中的更改。通过快速、简单的分析简化您的业务工作流程。"
-subtitle: "文件对比解决方案" 
+title: "Python via .NET 中 PPTX 演示文稿的高效比较" 
+description: "利用 Python 的文档处理功能来识别和报告 Python via .NET 应用程序中 PPTX 演示文稿中的变化，从而优化您的工作流程。"
+subtitle: "高级文件比较工具" 
 
 header_actions:
   enable: true
@@ -30,24 +30,24 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "探索 GroupDocs.Comparison for Python via .NET 的功能"
+    title: "发现 GroupDocs.Comparison for Python via .NET 的关键功能"
     link: "/comparison/python-net/"
     link_title: "了解更多"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       使用 GroupDocs.Comparison 生成有关不同版本 PPTX 文件变化的详细报告。只需几行代码即可轻松将该解决方案集成到您的 Python via .NET 应用程序中。分析 MS PowerPoint 演示文稿中幻灯片、文本、格式或形状的差异。您还可以将更改合并到最终的 PPTX 文件中。通过这个强大的解决方案增强您的业务项目。
+       使用 GroupDocs.Comparison 制作综合报告，详细说明各个 PPTX 版本之间的变化。将此解决方案无缝实施到您的 Python via .NET 应用程序中，并分析幻灯片、文本和格式的差异。将变体合并到合并的 PPTX 文件中以增强您的业务成果。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "生成 Python 中 PPTX 文件差异的报告"
+    title: "在 Python 中记录 PPTX 差异"
     content: |
-      使用 [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) 比较 PPTX 演示文稿
+      应用 [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) 来比较 PPTX 演示文稿
       
-      1. 从 [PyPi](https://pypi.org/project/groupdocs-comparison-net/) 安装 GroupDocs.Comparison
-      2. 为第一个 PPTX 文件创建一个 Comparer 对象
-      3. 添加额外的 PPTX 文件进行比较
-      4. 检索并查看比较报告
+      1. 通过 [PyPi](https://pypi.org/project/groupdocs-comparison-net/) 获取 GroupDocs.Comparison
+      2. 为第一个 PPTX 演示文稿构造一个 Comparer 实例。
+      3. 添加更多 PPTX 文件以进行完整比较。
+      4. 编译调查结果并审查生成的报告。
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "使用 Python 比较 PPTX 演示文稿"
+    title: "使用 Python 促进 PPTX 比较"
     exclude: "PPTX"
-    description: "使用 GroupDocs.Comparison for Python via .NET 轻松比较 MS PowerPoint PPTX 演示文稿。生成详细的报告，深入了解业务演示中的变化。"
+    description: "使用 GroupDocs.Comparison for Python via .NET 轻松管理和比较 MS PowerPoint PPTX 演示文稿，以生成反映关键业务演示文稿中变化的富有洞察力的报告。"
     items: 
         # format loop 1
         - name: "比较 PDF 个文件"

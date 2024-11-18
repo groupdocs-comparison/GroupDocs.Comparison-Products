@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:40
+date:  2024-11-18T09:49:27
 draft: false
 lang: fa
 format: Ods
@@ -12,42 +12,42 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "ODS را با کتابخانه Python مقایسه کنید"
-head_description: "با GroupDocs.Comparison for Python via .NET، گزارش‌های مقایسه دقیقی برای برنامه‌های Python ایجاد کنید."
+head_title: "مقایسه کارآمد ODS با استفاده از کتابخانه Python"
+head_description: "با GroupDocs.Comparison for Python via .NET، گزارش‌های مقایسه عمیق متناسب با برنامه‌های Python ایجاد کنید."
 
 ############################# Header ############################
-title: "مقایسه ODS در Python" 
-description: "GroupDocs.Comparison یک کتابخانه مبتنی بر Python است که به شما امکان می‌دهد به راحتی تفاوت‌ها را در فایل‌های ODS مقایسه و شناسایی کنید. با این ابزار قدرتمند، کارایی راه حل خود را در کارهای مقایسه اسناد افزایش دهید."
-subtitle: "راه حل مقایسه فایل" 
+title: "تجزیه و تحلیل ODS تفاوت در Python" 
+description: "GroupDocs.Comparison یک کتابخانه طراحی شده برای Python است که فرآیند مقایسه و برجسته کردن اختلافات در فایل‌های ODS را ساده می‌کند. با این راه حل نوآورانه قابلیت های مدیریت اسناد خود را افزایش دهید."
+subtitle: "ابزار پیشرفته مقایسه فایل" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "از PyPi به صورت رایگان دانلود کنید"
+    - title: "دانلود رایگان خود را از PyPi دریافت کنید"
       link: "https://releases.groupdocs.com/comparison/python-net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "ویژگی های GroupDocs.Comparison for Python via .NET را کشف کنید"
+    title: "کاوش قابلیت های GroupDocs.Comparison for Python via .NET"
     link: "/comparison/python-net/"
     link_title: "بیشتر بدانید"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for Python via .NET یک API است که برای مقایسه تصاویر و اسناد در قالب یکسان طراحی شده است. این تفاوت در پاراگراف ها، کلمات، کاراکترها، اشکال و سبک های متن بین فایل های مقایسه شده را تشخیص می دهد. می توانید این تغییرات را ادغام کرده و در یک سند نهایی ذخیره کنید. این برنامه از فرمت‌های مختلفی از جمله PDF، اسناد Word، صفحات گسترده اکسل، ارائه‌های پاورپوینت، نمودارهای Visio، ایمیل‌های Outlook، فایل‌های HTML، نقشه‌ها و فرمت‌های تصویری متعدد - همه بدون نیاز به نرم‌افزار اضافی پشتیبانی می‌کند.
+       GroupDocs.Comparison for Python via .NET به عنوان یک API به‌طور خاص برای مقایسه اسناد و تصاویر در قالب‌های مختلف ساخته شده است. این تغییرات در کلمات، پاراگراف ها، کاراکترها، اشکال و عناصر سبک بین اسناد را مشخص می کند. شما می توانید به راحتی این تغییرات را ادغام کرده و آنها را به عنوان یک سند نهایی تلفیقی ذخیره کنید. از مجموعه گسترده ای از فرمت ها، از جمله PDF، اسناد Word، برگه های اکسل، ارائه های پاورپوینت، Visio، فایل های HTML، تصاویر و بسیاری موارد دیگر پشتیبانی می کند که همه بدون ابزارهای شخص ثالث به دست می آیند.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "نحوه مقایسه ODS با استفاده از Python"
+    title: "نحوه مقایسه موثر ODS با استفاده از Python"
     content: |
-      از [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) برای مقایسه فایل‌های ODS و ایجاد گزارش‌های تفصیلی تفاوت استفاده کنید.
+      از [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) برای انجام مقایسه‌های دقیق روی فایل‌های ODS استفاده کنید.
       
-      1. GroupDocs.Comparison for Python via .NET را از طریق [PyPi](https://pypi.org/project/groupdocs-comparison-net/) نصب کنید.
-      2. یک شی Comparer ایجاد کنید و اولین فایل ODS را بارگذاری کنید.
-      3. فایل دوم ODS را به Comparer اضافه کنید.
-      4. یک گزارش جامع ایجاد کنید که تمام تفاوت های شناسایی شده را مشخص می کند.
+      1. با نصب GroupDocs.Comparison for Python via .NET از طریق [PyPi](https://pypi.org/project/groupdocs-comparison-net/) شروع کنید.
+      2. یک شیء مقایسه کننده را با فایل اولیه ODS نمونه سازی کنید.
+      3. فایل دوم ODS را در Comparer ادغام کنید.
+      4. یک گزارش مفصل تهیه کنید که تمام مغایرت های شناسایی شده را مشخص کند.
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "مقایسه فرمت های رایج سند با Python"
+    title: "مقایسه یکپارچه فرمت های مختلف فایل با استفاده از Python"
     exclude: "ODS"
-    description: "API Python ما به شما امکان می‌دهد اسناد را در طیف گسترده‌ای از قالب‌ها بدون دردسر مقایسه کنید و به شما امکان می‌دهد تغییرات و تفاوت‌های اسناد را به آسانی دنبال کنید."
+    description: "API Python ما امکان مقایسه آسان قالب‌های اسناد مختلف را فراهم می‌کند و ردیابی تغییرات در اسناد را ساده می‌کند."
     items: 
         # format loop 1
         - name: "مقایسه فایل های PDF"

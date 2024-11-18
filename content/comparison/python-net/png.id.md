@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:45
+date:  2024-11-18T09:49:33
 draft: false
 lang: id
 format: Png
@@ -12,42 +12,42 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "Python API untuk membandingkan gambar PNG"
-head_description: "Pustaka GroupDocs.Comparison for Python via .NET menghasilkan laporan terperinci yang menyoroti perbedaan dalam gambar PNG."
+head_title: "Bandingkan Gambar PNG Menggunakan API Python"
+head_description: "Pustaka GroupDocs.Comparison for Python via .NET menghasilkan laporan terperinci yang mengungkapkan perbedaan antara file gambar PNG."
 
 ############################# Header ############################
-title: "Bandingkan gambar PNG di aplikasi Python dengan Python" 
-description: "Manfaatkan API Python untuk mendeteksi perubahan pada file PNG dalam aplikasi Python Anda. Dapatkan laporan komprehensif dengan cepat dan mudah."
-subtitle: "Solusi perbandingan file" 
+title: "Analisis Gambar PNG di Python" 
+description: "Manfaatkan API Python untuk mengungkap perbedaan dalam file PNG dengan lancar dalam aplikasi Python Anda. Terima laporan komprehensif dengan mudah."
+subtitle: "Alat perbandingan file tingkat lanjut" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Unduh dari PyPi secara gratis"
+    - title: "Dapatkan unduhan gratis Anda dari PyPi"
       link: "https://releases.groupdocs.com/comparison/python-net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Temukan kemampuan API GroupDocs.Comparison for Python via .NET"
+    title: "Jelajahi fitur API GroupDocs.Comparison for Python via .NET"
     link: "/comparison/python-net/"
     link_title: "Pelajari selengkapnya"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       Hasilkan laporan mendetail tentang perbedaan antara berbagai versi gambar PNG langsung di aplikasi Python Anda—tidak memerlukan perangkat lunak pihak ketiga. Tetap terinformasi tentang semua perubahan pada gambar PNG Anda.
+       Hasilkan laporan menyeluruh yang merinci perbedaan antara versi gambar PNG langsung dalam aplikasi Python Anda—tanpa bergantung pada perangkat lunak tambahan. Tetap perbarui semua perubahan yang melibatkan gambar PNG Anda.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Cara menghasilkan laporan perbandingan untuk gambar PNG di Python"
+    title: "Hasilkan Laporan Perbandingan untuk Gambar PNG dengan Python"
     content: |
-      Lacak perubahan pada file PNG menggunakan [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) dan buat laporan dengan mudah.
+      Pantau perubahan pada file PNG menggunakan [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) dan buat laporan dengan mudah.
       
-      1. Instal paket GroupDocs.Comparison melalui [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
-      2. Buat objek Pembanding dan berikan jalur ke file PNG pertama.
-      3. Tambahkan satu atau lebih file PNG untuk dibandingkan.
-      4. Ambil laporan terperinci yang menunjukkan semua perbedaan.
+      1. Dapatkan paket GroupDocs.Comparison melalui [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
+      2. Buat instance Pembanding dan masukkan jalur untuk gambar PNG pertama.
+      3. Sertakan satu atau lebih file PNG untuk studi banding.
+      4. Akses laporan komprehensif yang merinci semua perbedaan visual.
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Bandingkan gambar dalam format populer seperti PNG"
+    title: "Bandingkan Gambar dalam Format Seperti PNG"
     exclude: "PNG"
-    description: "Gunakan GroupDocs.Comparison for Python via .NET untuk mengidentifikasi perbedaan antara gambar PNG dan membuat laporan mendetail untuk melacak perubahan penting."
+    description: "Gunakan GroupDocs.Comparison for Python via .NET untuk menunjukkan perbedaan antara gambar PNG, menghasilkan laporan terperinci untuk melacak perubahan signifikan."
     items: 
         # format loop 1
         - name: "Bandingkan File PDF"

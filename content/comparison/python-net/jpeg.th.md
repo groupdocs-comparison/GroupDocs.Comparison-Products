@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:45
+date:  2024-11-18T09:49:34
 draft: false
 lang: th
 format: Jpeg
@@ -12,42 +12,42 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "ไลบรารี Python สำหรับการเปรียบเทียบภาพ JPEG โดยอัตโนมัติ"
-head_description: "ค้นพบความสามารถของ GroupDocs.Comparison for Python via .NET API เพื่อตรวจจับและรายงานความแตกต่างในภาพ JPEG"
+head_title: "ทำการเปรียบเทียบ JPEG อัตโนมัติกับไลบรารี Python"
+head_description: "GroupDocs.Comparison for Python via .NET API ช่วยให้คุณตรวจจับและบันทึกความแตกต่างในภาพ JPEG ได้อย่างง่ายดาย"
 
 ############################# Header ############################
-title: "เปรียบเทียบภาพ JPEG และสร้างรายงานด้วย Python via .NET" 
-description: "โซลูชัน Python ที่มีประสิทธิภาพเพื่อติดตามการเปลี่ยนแปลงในภาพ JPEG ภายในแอปพลิเคชัน Python ของคุณ รายงานโดยละเอียดให้ข้อมูลเชิงลึกอันมีค่าสำหรับธุรกิจของคุณ"
-subtitle: "โซลูชันการเปรียบเทียบไฟล์" 
+title: "เปรียบเทียบรูปภาพ JPEG กับ Python via .NET ได้อย่างราบรื่น" 
+description: "ใช้ความสามารถของ Python เพื่อตรวจสอบการเปลี่ยนแปลงในภาพ JPEG ที่รวมอยู่ในแอปพลิเคชัน Python ของคุณ สร้างรายงานข้อมูลที่ช่วยเพิ่มการตัดสินใจ"
+subtitle: "เครื่องมือเปรียบเทียบไฟล์ขั้นสูง" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "ดาวน์โหลดจาก PyPi ได้ฟรี"
+    - title: "ดาวน์โหลดฟรีจาก PyPi"
       link: "https://releases.groupdocs.com/comparison/python-net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "สำรวจคุณสมบัติของ GroupDocs.Comparison for Python via .NET"
+    title: "ปลดล็อคความสามารถของ GroupDocs.Comparison for Python via .NET"
     link: "/comparison/python-net/"
     link_title: "เรียนรู้เพิ่มเติม"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       รับรายงานโดยละเอียดเกี่ยวกับการเปลี่ยนแปลงในภาพ JPEG โดยใช้ GroupDocs.Comparison for Python via .NET API วิเคราะห์ข้อมูลในแอปพลิเคชัน Python ของคุณได้อย่างง่ายดายโดยไม่จำเป็นต้องมีไลบรารีเพิ่มเติม ปรับปรุงขั้นตอนการทำงานทางธุรกิจของคุณโดยการเพิ่มโค้ดเพียงไม่กี่บรรทัด
+       ใช้ GroupDocs.Comparison for Python via .NET API เพื่อวิเคราะห์การเปลี่ยนแปลงในภาพ JPEG ได้อย่างแม่นยำ ดึงข้อมูลเชิงลึกได้อย่างสะดวกโดยใช้สภาพแวดล้อม Python ของคุณ ทำให้กระบวนการทางธุรกิจคล่องตัวขึ้นโดยใช้ความพยายามเพียงเล็กน้อย
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "วิธีวิเคราะห์การเปลี่ยนแปลงภาพ JPEG ด้วย Python"
+    title: "ขั้นตอนในการเปรียบเทียบภาพ JPEG ใน Python"
     content: |
-      ใช้ [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) เพื่อตรวจจับและจัดการความแตกต่างในภาพ JPEG
+      จ้าง [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) เพื่อแยกแยะและจัดการความคลาดเคลื่อนของ JPEG
       
-      1. ติดตั้ง GroupDocs.Comparison จาก [PyPi](https://pypi.org/project/groupdocs-comparison-net/)
-      2. สร้างวัตถุเปรียบเทียบและระบุเส้นทางไปยังไฟล์ JPEG
-      3. เพิ่มไฟล์ JPEG อย่างน้อยหนึ่งไฟล์เพื่อการเปรียบเทียบ
-      4. สร้างรายงานการเปรียบเทียบและบันทึกในรูปแบบ JPEG
+      1. ติดตั้ง GroupDocs.Comparison ผ่าน [PyPi](https://pypi.org/project/groupdocs-comparison-net/)
+      2. เริ่มต้นอินสแตนซ์เปรียบเทียบด้วยเส้นทางไปยังไฟล์ JPEG ของคุณ
+      3. รวมไฟล์ JPEG อื่นเพื่อการประเมินผล
+      4. สร้างรายงานที่ครอบคลุมโดยสรุปการเปรียบเทียบในรูปแบบ JPEG
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "เปรียบเทียบภาพ JPEG โดยใช้ Python"
+    title: "การเปรียบเทียบ JPEG ที่มีประสิทธิภาพโดยใช้ Python"
     exclude: "JPEG"
-    description: "API GroupDocs.Comparison for Python via .NET จัดทำรายงานโดยละเอียดเกี่ยวกับความแตกต่างในไฟล์ JPEG รายงานเหล่านี้ช่วยให้คุณติดตามการเปลี่ยนแปลงในภาพลักษณ์ทางธุรกิจที่สำคัญได้อย่างง่ายดาย"
+    description: "API GroupDocs.Comparison for Python via .NET ช่วยให้คุณสร้างรายงานโดยละเอียดโดยสรุปความแปรปรวนในไฟล์ JPEG ทำให้ง่ายต่อการตรวจสอบการเปลี่ยนแปลงที่สำคัญในภาพธุรกิจ"
     items: 
         # format loop 1
         - name: "เปรียบเทียบไฟล์ PDF"

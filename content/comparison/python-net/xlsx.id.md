@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:45
+date:  2024-11-18T09:49:33
 draft: false
 lang: id
 format: Xlsx
@@ -12,42 +12,42 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "Bandingkan konten spreadsheet XLSX dengan Python API"
-head_description: "Periksa perbedaan dalam spreadsheet MS Excel dengan mudah menggunakan Python API kami, yang menghasilkan laporan terperinci yang menyoroti semua perbedaan."
+head_title: "Analisis Perbedaan Konten XLSX Menggunakan API Python"
+head_description: "Evaluasi perbedaan dalam spreadsheet Excel dengan mudah menggunakan Python API, yang memberikan laporan menyeluruh tentang semua perbedaan yang ditemukan."
 
 ############################# Header ############################
-title: "Perbandingan spreadsheet XLSX di aplikasi Python via .NET" 
-description: "Gunakan pustaka pemrosesan dokumen Python untuk mendeteksi dan menyorot perubahan pada file MS Excel XLSX dalam aplikasi Python via .NET. Menghasilkan laporan dengan cepat dan mudah."
-subtitle: "Solusi perbandingan file" 
+title: "Analisis Spreadsheet XLSX dalam Python via .NET" 
+description: "Menggabungkan pustaka pemrosesan dokumen Python untuk mengidentifikasi dan menyoroti perubahan dalam spreadsheet XLSX yang terintegrasi ke dalam solusi perangkat lunak Python via .NET."
+subtitle: "Alat perbandingan file tingkat lanjut" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Unduh dari PyPi secara gratis"
+    - title: "Dapatkan unduhan gratis Anda dari PyPi"
       link: "https://releases.groupdocs.com/comparison/python-net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Temukan manfaat GroupDocs.Comparison"
+    title: "Rasakan Keuntungan GroupDocs.Comparison"
     link: "/comparison/python-net/"
     link_title: "Pelajari selengkapnya"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       Hasilkan laporan komprehensif yang memberikan data terperinci tentang perubahan di berbagai versi file XLSX menggunakan GroupDocs.Comparison. Hanya dengan beberapa baris kode, Anda dapat mengintegrasikan API ke dalam aplikasi Python via .NET dengan lancar, tanpa memerlukan alat tambahan. Analisis perbedaan lembar, teks, gaya, atau bentuk dalam file MS Excel, dan gabungkan perubahannya menjadi dokumen XLSX akhir. Tingkatkan alur kerja bisnis Anda dengan solusi canggih kami.
+       Hasilkan laporan mendalam yang merangkum perubahan di beberapa versi XLSX menggunakan GroupDocs.Comparison. Sematkan API dengan mudah ke dalam aplikasi Python via .NET Anda dengan upaya pengkodean minimal, menganalisis perbedaan dalam sheet, teks, dan banyak lagi. Tingkatkan alur kerja bisnis Anda dengan solusi canggih kami.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Bagaimana membandingkan file XLSX di Python"
+    title: "Bandingkan File XLSX Secara Efisien di Python"
     content: |
-      Gunakan [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) dan Python via .NET untuk membandingkan dokumen XLSX
+      Manfaatkan [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) dan Python via .NET untuk perbandingan XLSX yang kuat
       
-      1. Instal GroupDocs.Comparison untuk Python via .NET dari [PyPi](https://pypi.org/project/groupdocs-comparison-net/)
-      2. Buat instance objek Comparer dan berikan jalur ke file XLSX pertama
-      3. Tambahkan file XLSX tambahan untuk perbandingan
-      4. Menghasilkan dan meninjau hasil perbandingan
+      1. Dapatkan GroupDocs.Comparison untuk Python via .NET dari [PyPi](https://pypi.org/project/groupdocs-comparison-net/)
+      2. Buat objek Pembanding dan masukkan jalur untuk dokumen XLSX awal.
+      3. Tambahkan lebih banyak file XLSX untuk perbandingan komprehensif.
+      4. Persiapkan, tinjau, dan dokumentasikan hasil perbandingan Anda.
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Bandingkan spreadsheet XLSX dengan Python"
+    title: "Bandingkan File XLSX Secara Efisien dengan Python"
     exclude: "XLSX"
-    description: "Bandingkan spreadsheet MS Excel XLSX dengan mudah menggunakan API GroupDocs.Comparison for Python via .NET. Dapatkan wawasan mendalam tentang perubahan data bisnis Anda dengan laporan terperinci kami."
+    description: "Soroti perbedaan utama dalam dokumen MS Excel XLSX dengan mudah menggunakan API GroupDocs.Comparison for Python via .NET, yang memberikan wawasan berharga tentang data organisasi Anda."
     items: 
         # format loop 1
         - name: "Bandingkan File PDF"

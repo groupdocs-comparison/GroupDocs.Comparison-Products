@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:45
+date:  2024-11-18T09:49:33
 draft: false
 lang: id
 format: Docx
@@ -12,42 +12,42 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "Bandingkan dokumen DOCX menggunakan Python API"
-head_description: "Lacak perbedaan file DOCX MS Word dengan mudah menggunakan API GroupDocs.Comparison untuk Python. Hasilkan laporan terperinci untuk menyoroti perubahan antar dokumen."
+head_title: "Bandingkan File DOCX dengan Mudah Menggunakan API Python"
+head_description: "Lacak dan analisis perbedaan dalam dokumen MS Word DOCX dengan API GroupDocs.Comparison untuk Python, menghasilkan laporan komprehensif yang menguraikan perubahan."
 
 ############################# Header ############################
-title: "Bandingkan file DOCX di Python via .NET" 
-description: "Gunakan API pemrosesan dokumen kami dalam Python untuk dengan cepat mengidentifikasi dan menampilkan perubahan apa pun pada file MS Word DOCX. Manfaatkan pembuatan laporan yang cepat dan tidak merepotkan di aplikasi Python via .NET Anda."
-subtitle: "Solusi perbandingan file" 
+title: "Perbandingan DOCX untuk Python via .NET" 
+description: "Manfaatkan API pemrosesan dokumen kami di Python untuk mengidentifikasi dan merangkum perubahan dengan cepat pada file MS Word DOCX. Nikmati pembuatan laporan yang lancar dalam aplikasi Anda."
+subtitle: "Alat perbandingan file tingkat lanjut" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Unduh dari PyPi secara gratis"
+    - title: "Dapatkan unduhan gratis Anda dari PyPi"
       link: "https://releases.groupdocs.com/comparison/python-net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Temukan fitur GroupDocs.Comparison for Python via .NET"
+    title: "Jelajahi fitur-fitur GroupDocs.Comparison for Python via .NET"
     link: "/comparison/python-net/"
     link_title: "Pelajari selengkapnya"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison memberikan laporan komprehensif yang menyoroti perubahan dalam berbagai versi dokumen DOCX. Hanya dengan beberapa baris kode, integrasikan Python via .NET dan API kami ke dalam alur kerja Anda tanpa memerlukan perpustakaan tambahan apa pun. Mendeteksi perubahan halaman, teks, gaya teks, atau bentuk dalam dokumen MS Word. Anda bahkan dapat menggabungkan perubahan untuk membuat dokumen DOCX akhir. Tingkatkan kemampuan pemrosesan dokumen Anda dengan API kami yang canggih.
+       GroupDocs.Comparison memberikan wawasan luas mengenai perubahan di berbagai versi dokumen DOCX. Dengan beberapa baris kode, Anda dapat mengintegrasikan Python via .NET dan API kami ke dalam alur kerja Anda, tanpa memerlukan perpustakaan tambahan. Tentukan perubahan konten, gaya teks, dan tata letak di dokumen Word. Anda bahkan dapat menggabungkan variasi untuk membuat file DOCX yang diperbarui. Tingkatkan proses manajemen dokumen Anda dengan API kami yang tangguh.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Hasilkan laporan perbandingan DOCX di Python"
+    title: "Buat Laporan Perbandingan DOCX dengan Python"
     content: |
-      Gunakan [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) dengan Python via .NET untuk membandingkan file DOCX.
+      Manfaatkan [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) bersama dengan Python via .NET untuk menilai perbedaan file DOCX.
       
-      1. Instal GroupDocs.Comparison untuk Python via .NET melalui [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
-      2. Buat instance Comparer dan tentukan jalur ke file DOCX pertama.
-      3. Tambahkan file DOCX tambahan untuk perbandingan.
-      4. Tinjau laporan yang dihasilkan dan akses hasilnya.
+      1. Dapatkan GroupDocs.Comparison untuk Python via .NET melalui [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
+      2. Siapkan instance Comparer dan arahkan jalur ke file DOCX awal.
+      3. Tambahkan file DOCX lebih lanjut sesuai kebutuhan untuk analisis komparatif.
+      4. Evaluasi laporan yang dihasilkan dan tinjau temuan Anda.
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Bandingkan dokumen DOCX menggunakan Python"
+    title: "Bandingkan Semua Dokumen DOCX dengan Python"
     exclude: "DOCX"
-    description: "Bandingkan file DOCX MS Word dengan mudah dengan GroupDocs.Comparison for Python via .NET dan dapatkan wawasan berharga tentang perubahan dokumen."
+    description: "Manfaatkan GroupDocs.Comparison for Python via .NET untuk menganalisis file DOCX MS Word apa pun, dapatkan pengetahuan berharga tentang revisi dokumen."
     items: 
         # format loop 1
         - name: "Bandingkan File PDF"

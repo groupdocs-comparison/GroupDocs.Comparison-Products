@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:45
+date:  2024-11-18T09:49:33
 draft: false
 lang: id
 format: Jpg
@@ -12,42 +12,42 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "Perbandingan otomatis gambar JPG dengan pustaka Python"
-head_description: "Gunakan API GroupDocs.Comparison for Python via .NET untuk mengidentifikasi dan melaporkan perbedaan gambar JPG dengan mudah."
+head_title: "Perbandingan Dinamis Gambar JPG dengan Perpustakaan Python"
+head_description: "Manfaatkan API GroupDocs.Comparison for Python via .NET untuk menentukan dan membuat katalog perbedaan gambar JPG dengan mudah."
 
 ############################# Header ############################
-title: "Hasilkan laporan perbedaan JPG di aplikasi Python via .NET" 
-description: "Manfaatkan Python untuk membandingkan perubahan gambar JPG di aplikasi Python Anda. Laporan terperinci memberikan wawasan berharga untuk solusi bisnis Anda."
-subtitle: "Solusi perbandingan file" 
+title: "Hasilkan Wawasan dari JPG Perbedaan di Python via .NET" 
+description: "Maksimalkan potensi Python untuk membedakan perubahan pada gambar JPG dalam solusi Python Anda. Laporan komprehensif memberikan informasi penting untuk operasi strategis Anda."
+subtitle: "Alat perbandingan file tingkat lanjut" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Unduh dari PyPi secara gratis"
+    - title: "Dapatkan unduhan gratis Anda dari PyPi"
       link: "https://releases.groupdocs.com/comparison/python-net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Temukan kehebatan API GroupDocs.Comparison for Python via .NET"
+    title: "Jelajahi Kemampuan API GroupDocs.Comparison for Python via .NET"
     link: "/comparison/python-net/"
     link_title: "Pelajari selengkapnya"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       Dapatkan informasi terkini tentang perubahan pada gambar JPG dengan GroupDocs.Comparison for Python via .NET. Analisis data mendetail dalam aplikasi Python Anda tanpa memerlukan alat tambahan. Dengan kode minimal, sempurnakan solusi bisnis Anda dan otomatiskan perbandingan gambar.
+       Terus dapatkan informasi tentang perubahan gambar JPG menggunakan GroupDocs.Comparison for Python via .NET. Analisis laporan komprehensif dalam aplikasi Python Anda, sehingga meningkatkan efisiensi alur kerja tanpa memerlukan pengkodean ekstensif.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Cara menganalisis perubahan JPG dengan Python"
+    title: "Analisis Perbandingan File JPG di Python"
     content: |
-      Manfaatkan [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) untuk mengelola perbedaan gambar JPG.
+      Gunakan [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) untuk menilai perbandingan gambar JPG.
       
       1. Instal GroupDocs.Comparison dari [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
-      2. Buat objek pembanding dan berikan jalur ke file JPG.
-      3. Tambahkan setidaknya satu file JPG lagi untuk perbandingan.
-      4. Buat laporan dengan detail perbedaannya.
+      2. Buat objek Pembanding dengan jalur ke file JPG pertama Anda.
+      3. Tambahkan file JPG tambahan untuk analisis menyeluruh.
+      4. Menyusun laporan yang merinci perbedaan komparatif.
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Bandingkan gambar JPG dengan Python"
+    title: "Perbandingan JPG yang disederhanakan dengan Python"
     exclude: "JPG"
-    description: "Menggunakan pustaka GroupDocs.Comparison for Python via .NET, identifikasi perbedaan antara gambar JPG dengan cepat. Laporan terperinci membantu melacak perubahan pada file bisnis penting."
+    description: "Manfaatkan pustaka GroupDocs.Comparison for Python via .NET untuk membedakan gambar JPG dengan cepat. Laporan yang komprehensif memungkinkan pelacakan perpindahan aset bisnis penting secara efisien."
     items: 
         # format loop 1
         - name: "Bandingkan File PDF"

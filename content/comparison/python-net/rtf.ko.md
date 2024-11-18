@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:42
+date:  2024-11-18T09:49:29
 draft: false
 lang: ko
 format: Rtf
@@ -12,13 +12,13 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "RTF을 Python 라이브러리와 비교"
-head_description: "GroupDocs.Comparison for Python via .NET을(를) 사용하면 Python 애플리케이션에 대한 자세한 비교 보고서를 생성할 수 있습니다."
+head_title: "Python 라이브러리를 사용하여 RTF을 효율적으로 비교"
+head_description: "GroupDocs.Comparison for Python via .NET을(를) 사용하면 Python 애플리케이션에 맞는 심층 비교 보고서를 생성할 수 있습니다."
 
 ############################# Header ############################
-title: "Python의 RTF 비교" 
-description: "GroupDocs.Comparison은 RTF 파일의 차이점을 쉽게 비교하고 식별할 수 있는 Python 기반 라이브러리입니다. 이 강력한 도구를 사용하여 문서 비교 작업에서 솔루션의 효율성을 높이세요."
-subtitle: "파일 비교 솔루션" 
+title: "Python의 RTF 차이점 분석" 
+description: "GroupDocs.Comparison은 RTF 파일의 불일치를 비교하고 강조 표시하는 프로세스를 단순화하는 Python용으로 설계된 라이브러리입니다. 이 혁신적인 솔루션으로 문서 처리 능력을 향상시키십시오."
+subtitle: "고급 파일 비교 도구" 
 
 header_actions:
   enable: true
@@ -30,24 +30,24 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Comparison for Python via .NET의 기능을 알아보세요"
+    title: "GroupDocs.Comparison for Python via .NET의 기능 살펴보기"
     link: "/comparison/python-net/"
     link_title: "자세히 알아보기"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for Python via .NET은 동일한 형식의 이미지와 문서를 비교하기 위해 설계된 API입니다. 비교된 파일 간의 단락, 단어, 문자, 모양 및 텍스트 스타일의 차이를 감지합니다. 이러한 변경 사항을 병합하여 최종 문서에 저장할 수 있습니다. 추가 소프트웨어 없이도 PDF, Word 문서, Excel 스프레드시트, PowerPoint 프레젠테이션, Visio 다이어그램, Outlook 이메일, HTML 파일, 그림 및 여러 이미지 형식을 포함한 다양한 형식을 지원합니다.
+       GroupDocs.Comparison for Python via .NET은 다양한 형식의 문서와 이미지를 비교하기 위해 특별히 구축된 API 역할을 합니다. 문서 간의 단어, 단락, 문자, 도형 및 스타일 요소의 변경 사항을 식별합니다. 이러한 수정 사항을 편리하게 병합하고 통합된 최종 문서로 저장할 수 있습니다. PDF, Word 문서, Excel 시트, PowerPoint 프레젠테이션, Visio, HTML 파일, 이미지 등을 포함한 광범위한 형식을 지원하며 모두 타사 도구 없이 달성됩니다.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Python을 사용하여 RTF을 비교하는 방법"
+    title: "Python을 사용하여 RTF을 효율적으로 비교하는 방법"
     content: |
-      [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/)을 사용하여 RTF 파일을 비교하고 자세한 차이점 보고서를 생성하세요.
+      [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/)를 활용하여 RTF 파일에 대한 자세한 비교를 수행하세요.
       
-      1. [PyPi](https://pypi.org/project/groupdocs-comparison-net/)을 통해 GroupDocs.Comparison for Python via .NET을(를) 설치합니다.
-      2. Comparer 객체를 생성하고 첫 번째 RTF 파일을 로드합니다.
-      3. 두 번째 RTF 파일을 비교기에 추가합니다.
-      4. 감지된 모든 차이점을 요약하는 포괄적인 보고서를 생성합니다.
+      1. [PyPi](https://pypi.org/project/groupdocs-comparison-net/)을 통해 GroupDocs.Comparison for Python via .NET 설치부터 시작하세요.
+      2. 초기 RTF 파일을 사용하여 비교자 개체를 인스턴스화합니다.
+      3. 두 번째 RTF 파일을 비교기에 통합합니다.
+      4. 확인된 모든 불일치를 설명하는 자세한 보고서를 작성합니다.
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "인기 있는 문서 형식을 Python으로 비교해보세요"
+    title: "Python을 사용하여 다양한 파일 형식을 원활하게 비교"
     exclude: "RTF"
-    description: "당사의 Python API를 사용하면 다양한 형식의 문서를 쉽게 비교할 수 있으므로 문서 변경 사항과 차이점을 쉽게 추적할 수 있습니다."
+    description: "당사의 Python API를 사용하면 다양한 문서 형식을 쉽게 비교할 수 있으므로 문서의 변경 사항을 간단하게 추적할 수 있습니다."
     items: 
         # format loop 1
         - name: "PDF 개의 파일 비교"

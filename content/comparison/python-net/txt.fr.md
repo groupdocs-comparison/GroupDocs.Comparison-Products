@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:41
+date:  2024-11-18T09:49:28
 draft: false
 lang: fr
 format: Txt
@@ -12,42 +12,42 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "Comparez TXT avec la bibliothèque Python"
-head_description: "Avec GroupDocs.Comparison for Python via .NET, générez des rapports de comparaison détaillés pour les applications Python."
+head_title: "Comparez efficacement TXT à l'aide de la bibliothèque Python"
+head_description: "Avec GroupDocs.Comparison for Python via .NET, générez des rapports de comparaison approfondis adaptés aux applications Python."
 
 ############################# Header ############################
-title: "Comparez TXT dans Python" 
-description: "GroupDocs.Comparison est une bibliothèque basée sur Python qui vous permet de comparer et d'identifier facilement les différences dans les fichiers TXT. Boostez l’efficacité de votre solution dans les tâches de comparaison de documents avec cet outil puissant."
-subtitle: "Solution de comparaison de fichiers" 
+title: "Analyser les différences TXT dans Python" 
+description: "GroupDocs.Comparison est une bibliothèque conçue pour Python qui simplifie le processus de comparaison et de mise en évidence des écarts dans les fichiers TXT. Améliorez vos capacités de gestion de documents avec cette solution innovante."
+subtitle: "Outil avancé de comparaison de fichiers" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Téléchargez gratuitement depuis PyPi"
+    - title: "Obtenez votre téléchargement gratuit sur PyPi"
       link: "https://releases.groupdocs.com/comparison/python-net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Découvrez les fonctionnalités de GroupDocs.Comparison for Python via .NET"
+    title: "Explorez les capacités de GroupDocs.Comparison for Python via .NET"
     link: "/comparison/python-net/"
     link_title: "En savoir plus"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for Python via .NET est une API conçue pour comparer des images et des documents au même format. Il détecte les différences de paragraphes, de mots, de caractères, de formes et de styles de texte entre les fichiers comparés. Vous pouvez fusionner ces modifications et les enregistrer dans un document final. Il prend en charge une variété de formats, notamment les PDF, les documents Word, les feuilles de calcul Excel, les présentations PowerPoint, les diagrammes Visio, les e-mails Outlook, les fichiers HTML, les dessins et plusieurs formats d'image, le tout sans nécessiter de logiciel supplémentaire.
+       GroupDocs.Comparison for Python via .NET sert d'API spécialement conçue pour comparer des documents et des images dans différents formats. Il identifie les changements de mots, de paragraphes, de caractères, de formes et d'éléments de style entre les documents. Vous pouvez facilement fusionner ces modifications et les enregistrer en tant que document final consolidé. Il prend en charge une large gamme de formats, notamment les PDF, les documents Word, les feuilles Excel, les présentations PowerPoint, Visio, les fichiers HTML, les images et bien plus encore, le tout réalisé sans outils tiers.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Comment comparer TXT à l'aide de Python"
+    title: "Comment comparer efficacement TXT à l'aide de Python"
     content: |
-      Utilisez [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) pour comparer les fichiers TXT et générer des rapports de différences détaillés.
+      Utilisez [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) pour effectuer des comparaisons détaillées sur les fichiers TXT.
       
-      1. Installez GroupDocs.Comparison for Python via .NET via [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
-      2. Créez un objet Comparer et chargez le premier fichier TXT.
-      3. Ajoutez le deuxième fichier TXT au comparateur.
-      4. Générez un rapport complet décrivant toutes les différences détectées.
+      1. Commencez par installer GroupDocs.Comparison for Python via .NET via [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
+      2. Instanciez un objet Comparer avec le fichier TXT initial.
+      3. Intégrez le deuxième fichier TXT dans le comparateur.
+      4. Compiler un rapport détaillé délimitant toutes les divergences identifiées.
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Comparez les formats de documents populaires avec Python"
+    title: "Comparez facilement différents formats de fichiers à l'aide de Python"
     exclude: "TXT"
-    description: "Notre API Python vous permet de comparer sans effort des documents dans un large éventail de formats, vous permettant ainsi de suivre facilement les modifications et les différences des documents."
+    description: "Notre API Python permet une comparaison sans effort de divers formats de documents, facilitant ainsi le suivi des modifications apportées aux documents."
     items: 
         # format loop 1
         - name: "Comparer PDF fichiers"

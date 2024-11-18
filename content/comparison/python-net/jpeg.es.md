@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:44
+date:  2024-11-18T09:49:33
 draft: false
 lang: es
 format: Jpeg
@@ -12,42 +12,42 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "Biblioteca Python para automatizar la comparación de imágenes JPEG"
-head_description: "Descubra las capacidades de la API GroupDocs.Comparison for Python via .NET para detectar e informar diferencias en imágenes JPEG."
+head_title: "Automatice las comparaciones de JPEG con la biblioteca Python"
+head_description: "La API GroupDocs.Comparison for Python via .NET le permite detectar y documentar sin esfuerzo diferencias en imágenes JPEG."
 
 ############################# Header ############################
-title: "Compare imágenes JPEG y genere informes con Python via .NET" 
-description: "Una sólida solución Python para rastrear cambios en imágenes JPEG dentro de sus aplicaciones Python. Los informes detallados proporcionan información valiosa para su negocio."
-subtitle: "Solución de comparación de archivos" 
+title: "Compara fácilmente imágenes JPEG con Python via .NET" 
+description: "Utilice las capacidades de Python para monitorear las alteraciones en imágenes JPEG integradas en sus aplicaciones Python. Generar informes informativos que mejoren la toma de decisiones."
+subtitle: "Herramienta avanzada de comparación de archivos" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Descarga desde PyPi gratis"
+    - title: "Obtenga su descarga gratuita desde PyPi"
       link: "https://releases.groupdocs.com/comparison/python-net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Explora las funciones de GroupDocs.Comparison for Python via .NET"
+    title: "Desbloquee las capacidades de GroupDocs.Comparison for Python via .NET"
     link: "/comparison/python-net/"
     link_title: "Obtenga más información"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       Obtenga informes detallados sobre cambios en imágenes JPEG utilizando la API GroupDocs.Comparison for Python via .NET. Analice fácilmente los datos en sus aplicaciones Python sin necesidad de bibliotecas adicionales. Mejore los flujos de trabajo de su empresa agregando solo unas pocas líneas de código.
+       Utilice la API GroupDocs.Comparison for Python via .NET para analizar cambios en imágenes JPEG con precisión. Extraiga información de manera conveniente utilizando su entorno Python, optimizando los procesos comerciales con el mínimo esfuerzo.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Cómo analizar cambios de imágenes JPEG con Python"
+    title: "Pasos para comparar imágenes JPEG en Python"
     content: |
-      Utilice [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) para detectar y gestionar diferencias en imágenes JPEG.
+      Emplee [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) para discernir y gestionar las discrepancias JPEG.
       
-      1. Instale GroupDocs.Comparison desde [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
-      2. Cree un objeto comparador y proporcione la ruta al archivo JPEG.
-      3. Agregue al menos un archivo JPEG más para comparar.
-      4. Genere el informe de comparación y guárdelo en formato JPEG.
+      1. Instale GroupDocs.Comparison a través de [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
+      2. Inicie una instancia de comparación con la ruta a su archivo JPEG.
+      3. Incorporar otro archivo JPEG para su evaluación.
+      4. Cree un informe completo que describa las comparaciones en formato JPEG.
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Compara imágenes JPEG usando Python"
+    title: "Comparaciones JPEG eficientes usando Python"
     exclude: "JPEG"
-    description: "La API GroupDocs.Comparison for Python via .NET ofrece informes detallados sobre las diferencias en los archivos JPEG. Estos informes le ayudan a realizar un seguimiento de los cambios en imágenes comerciales importantes con facilidad."
+    description: "La API GroupDocs.Comparison for Python via .NET le permite generar informes detallados que describen las variaciones en archivos JPEG, lo que simplifica el seguimiento de cambios críticos en imágenes comerciales."
     items: 
         # format loop 1
         - name: "Compara PDF archivos"

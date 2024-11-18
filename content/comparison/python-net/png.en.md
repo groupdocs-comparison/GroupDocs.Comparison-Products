@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:44
+date:  2024-11-18T09:49:33
 draft: false
 lang: en
 format: Png
@@ -12,42 +12,42 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "Python API for comparing PNG images"
-head_description: "The GroupDocs.Comparison for Python via .NET library generates detailed reports highlighting differences in PNG images."
+head_title: "Compare PNG Images Using Python API"
+head_description: "The GroupDocs.Comparison for Python via .NET library produces detailed reports that reveal differences between PNG image files."
 
 ############################# Header ############################
-title: "Compare PNG images in Python applications with Python" 
-description: "Leverage the Python API to detect changes in PNG files within your Python applications. Get comprehensive reports quickly and easily."
-subtitle: "File comparison solution" 
+title: "Analyze PNG Images in Python" 
+description: "Take advantage of the Python API to uncover discrepancies in PNG files seamlessly within your Python applications. Receive comprehensive reports effortlessly."
+subtitle: "Advanced file comparison tool" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download from PyPi for free"
+    - title: "Get your free download from PyPi"
       link: "https://releases.groupdocs.com/comparison/python-net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Discover the capabilities of GroupDocs.Comparison for Python via .NET API"
+    title: "Explore the features of GroupDocs.Comparison for Python via .NET API"
     link: "/comparison/python-net/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       Generate detailed reports on differences between different versions of PNG images directly in your Python applications—no third-party software needed. Stay informed about all changes in your PNG images.
+       Generate thorough reports detailing discrepancies between versions of PNG images directly within your Python applications—without relying on additional software. Stay updated on all changes involving your PNG images.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to generate comparison reports for PNG images in Python"
+    title: "Generate Comparison Reports for PNG Images with Python"
     content: |
-      Track changes in PNG files using [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) and easily generate reports.
+      Monitor changes in PNG files using [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) and effortlessly create reports.
       
-      1. Install the GroupDocs.Comparison package via [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
-      2. Create a Comparer object and provide the path to the first PNG file.
-      3. Add one or more PNG files to compare.
-      4. Retrieve a detailed report showing all differences.
+      1. Obtain the GroupDocs.Comparison package through [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
+      2. Instantiate a Comparer and input the path for the first PNG image.
+      3. Include one or more PNG files for a comparative study.
+      4. Access a comprehensive report detailing all visual discrepancies.
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Compare images in popular formats like PNG"
+    title: "Compare Images in Formats Like PNG"
     exclude: "PNG"
-    description: "Use GroupDocs.Comparison for Python via .NET to identify differences between PNG images and generate detailed reports to keep track of important changes."
+    description: "Use GroupDocs.Comparison for Python via .NET to pinpoint differences between PNG images, generating detailed reports to track significant changes."
     items: 
         # format loop 1
         - name: "Compare PDF Files"

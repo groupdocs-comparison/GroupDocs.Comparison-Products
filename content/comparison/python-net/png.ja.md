@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:45
+date:  2024-11-18T09:49:33
 draft: false
 lang: ja
 format: Png
@@ -12,42 +12,42 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "Python PNG 画像を比較するための API"
-head_description: "GroupDocs.Comparison for Python via .NET ライブラリは、PNG 画像の違いを強調表示する詳細なレポートを生成します。"
+head_title: "Python API を使用して PNG 画像を比較する"
+head_description: "GroupDocs.Comparison for Python via .NET ライブラリは、PNG 画像ファイル間の違いを明らかにする詳細なレポートを作成します。"
 
 ############################# Header ############################
-title: "Python アプリケーションの PNG 画像を Python と比較する" 
-description: "Python API を利用して、Python アプリケーション内の PNG ファイルの変更を検出します。包括的なレポートを迅速かつ簡単に入手できます。"
-subtitle: "ファイル比較ソリューション" 
+title: "Python で PNG 画像を分析する" 
+description: "Python API を利用して、Python アプリケーション内で PNG ファイルの不一致をシームレスに発見します。包括的なレポートを簡単に受け取ります。"
+subtitle: "高度なファイル比較ツール" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "PyPi から無料でダウンロード"
+    - title: "PyPi から無料でダウンロードしてください"
       link: "https://releases.groupdocs.com/comparison/python-net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Comparison for Python via .NET API の機能を確認する"
+    title: "GroupDocs.Comparison for Python via .NET API の機能を調べる"
     link: "/comparison/python-net/"
     link_title: "さらに詳しく"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       サードパーティ ソフトウェアは必要なく、Python アプリケーションで PNG 画像のさまざまなバージョン間の違いに関する詳細なレポートを直接生成します。 PNG 画像のすべての変更について常に最新の情報を入手してください。
+       追加のソフトウェアに依存せずに、Python アプリケーション内で PNG 画像のバージョン間の相違を詳細に示す詳細なレポートを直接生成します。 PNG 画像に関連するすべての変更について最新情報を入手してください。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Python で PNG 画像の比較レポートを生成する方法"
+    title: "Python を使用して PNG 画像の比較レポートを生成する"
     content: |
-      [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) を使用して PNG ファイルの変更を追跡し、レポートを簡単に生成します。
+      [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) を使用して PNG ファイルの変更を監視し、レポートを簡単に作成します。
       
-      1. [PyPi](https://pypi.org/project/groupdocs-comparison-net/) 経由で GroupDocs.Comparison パッケージをインストールします。
-      2. Comparer オブジェクトを作成し、最初の PNG ファイルへのパスを指定します。
-      3. 比較する 1 つ以上の PNG ファイルを追加します。
-      4. すべての違いを示す詳細なレポートを取得します。
+      1. [PyPi](https://pypi.org/project/groupdocs-comparison-net/) を通じて GroupDocs.Comparison パッケージを取得します。
+      2. Comparer をインスタンス化し、最初の PNG 画像のパスを入力します。
+      3. 比較検討のために 1 つ以上の PNG ファイルを含めます。
+      4. すべての視覚的な不一致を詳細に説明する包括的なレポートにアクセスします。
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "PNG などの一般的な形式の画像を比較"
+    title: "PNG などの形式で画像を比較"
     exclude: "PNG"
-    description: "GroupDocs.Comparison for Python via .NET を使用して PNG 画像間の違いを特定し、詳細なレポートを生成して重要な変更を追跡します。"
+    description: "GroupDocs.Comparison for Python via .NET を使用して PNG 画像間の違いを特定し、重要な変更を追跡するための詳細なレポートを生成します。"
     items: 
         # format loop 1
         - name: "PDF ファイルの比較"

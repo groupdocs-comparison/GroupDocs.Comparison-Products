@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:44
+date:  2024-11-18T09:49:33
 draft: false
 lang: es
 format: Pdf
@@ -12,42 +12,42 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "Comparar archivos PDF a través de la biblioteca Python"
-head_description: "El software GroupDocs.Comparison para Python genera informes detallados que destacan las diferencias en los documentos PDF."
+head_title: "Optimice las comparaciones de PDF con la biblioteca Python"
+head_description: "El software GroupDocs.Comparison para Python elabora informes exhaustivos que resaltan las variaciones en los documentos PDF."
 
 ############################# Header ############################
-title: "Comparación de PDF para Python via .NET" 
-description: "Aproveche nuestra API de comparación de documentos en Python para identificar y mostrar fácilmente diferencias en archivos PDF dentro de las aplicaciones Python. Obtenga informes detallados de forma rápida y eficiente."
-subtitle: "Solución de comparación de archivos" 
+title: "Comparación de PDF simplificada para Python via .NET" 
+description: "Utilice nuestra API de comparación de PDF dentro de Python para identificar y presentar discrepancias en archivos PDF con facilidad y eficacia. Obtenga acceso rápido a informes detallados sin complejidad innecesaria."
+subtitle: "Herramienta avanzada de comparación de archivos" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Descarga desde PyPi gratis"
+    - title: "Obtenga su descarga gratuita desde PyPi"
       link: "https://releases.groupdocs.com/comparison/python-net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Funciones clave de la biblioteca GroupDocs.Comparison for Python via .NET"
+    title: "Revelando las características clave de la biblioteca GroupDocs.Comparison for Python via .NET"
     link: "/comparison/python-net/"
     link_title: "Obtenga más información"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       Genere informes detallados sobre cualquier diferencia dentro de los documentos PDF directamente en sus aplicaciones Python. Con solo unas pocas líneas de código, use GroupDocs.Comparison for Python via .NET sin necesidad de software ni bibliotecas adicionales. Supervise los cambios en párrafos, palabras, caracteres, formas y estilos de texto dentro de sus archivos PDF. También puede combinar cambios de varias versiones de documentos en un solo resultado. Procese documentos de forma rápida y sencilla, sin complicaciones.
+       Produzca informes completos que identifiquen las diferencias encontradas en documentos PDF directamente desde sus aplicaciones Python. Con un código mínimo, aproveche GroupDocs.Comparison for Python via .NET sin necesidad de software adicional. Realice un seguimiento de los cambios en párrafos, palabras, formatos, formas y estilos en sus archivos PDF. Además, combine revisiones de múltiples versiones en un resultado unificado. Procese archivos PDF de forma rápida y sin esfuerzo.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Cómo obtener informes de diferencias en PDF en Python"
+    title: "Genere informes de diferencias en PDF con Python"
     content: |
-      Realice un seguimiento de los cambios en documentos PDF con informes generados utilizando [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/).
+      Supervise los cambios en documentos PDF utilizando informes generados por [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/).
       
-      1. Instale GroupDocs.Comparison para Python via .NET a través de [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
-      2. Cree una instancia de Comparer y proporcione la ruta al primer archivo PDF.
-      3. Agregue un segundo archivo PDF para comparar.
-      4. Recupera el informe final que detalla las diferencias entre los archivos.
+      1. Instale GroupDocs.Comparison para Python via .NET usando [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
+      2. Cree una instancia de Comparer e ingrese la ruta del primer archivo PDF.
+      3. Introduzca un segundo archivo PDF destinado a comparar.
+      4. Extraer el informe final que aclare las variaciones entre expedientes.
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Compare formatos comunes como PDF con Python"
+    title: "Compare tipos de archivos comunes como PDF con Python"
     exclude: "PDF"
-    description: "Nuestra API Python permite una comparación rápida y eficiente de archivos PDF. Realice un seguimiento fácil de los cambios con informes detallados."
+    description: "Nuestra API Python le permite comparar archivos PDF de forma rápida y precisa. Supervise fácilmente las alteraciones a través de informes de comparación detallados."
     items: 
         # format loop 1
         - name: "Compara PDF archivos"

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:44
+date:  2024-11-18T09:49:33
 draft: false
 lang: zh
 format: Diff
@@ -12,13 +12,13 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "将 DIFF 与 Python 库进行比较"
-head_description: "使用 GroupDocs.Comparison for Python via .NET，为 Python 应用程序生成详细的比较报告。"
+head_title: "使用 Python 库高效比较 DIFF"
+head_description: "使用 GroupDocs.Comparison for Python via .NET，生成专为 Python 应用程序定制的深入比较报告。"
 
 ############################# Header ############################
-title: "比较 Python 中的 DIFF" 
-description: "GroupDocs.Comparison 是一个基于 Python 的库，可让您轻松比较和识别 DIFF 文件中的差异。使用这个强大的工具提高解决方案在文档比较任务中的效率。"
-subtitle: "文件对比解决方案" 
+title: "分析Python中的DIFF差异" 
+description: "GroupDocs.Comparison 是专为 Python 设计的库，可简化比较和突出显示 DIFF 文件中差异的过程。通过这一创新解决方案增强您的文档处理能力。"
+subtitle: "高级文件比较工具" 
 
 header_actions:
   enable: true
@@ -35,19 +35,19 @@ about:
     link_title: "了解更多"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for Python via .NET 是一个 API，旨在比较相同格式的图像和文档。它检测比较文件之间的段落、单词、字符、形状和文本样式的差异。您可以合并这些更改并将其保存到最终文档中。它支持多种格式，包括 PDF、Word 文档、Excel 电子表格、PowerPoint 演示文稿、Visio 图表、Outlook 电子邮件、HTML 文件、绘图和多种图像格式，所有这些都不需要任何其他软件。
+       GroupDocs.Comparison for Python via .NET 是专门为比较各种格式的文档和图像而构建的 API。它识别文档之间的单词、段落、字符、形状和样式元素的变化。您可以方便地合并这些修改并将它们保存为合并的最终文档。它支持多种格式，包括 PDF、Word 文档、Excel 工作表、PowerPoint 演示文稿、Visio、HTML 文件、图像等等，所有这些都无需第三方工具即可实现。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "如何使用 Python 比较 DIFF"
+    title: "如何使用 Python 有效比较 DIFF"
     content: |
-      使用 [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) 比较 DIFF 文件并生成详细的差异报告。
+      利用 [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) 对 DIFF 文件执行详细比较。
       
-      1. 通过 [PyPi](https://pypi.org/project/groupdocs-comparison-net/) 安装 GroupDocs.Comparison for Python via .NET。
-      2. 创建一个 Comparer 对象并加载第一个 DIFF 文件。
-      3. 将第二个 DIFF 文件添加到比较器中。
-      4. 生成一份综合报告，概述所有检测到的差异。
+      1. 首先通过 [PyPi](https://pypi.org/project/groupdocs-comparison-net/) 安装 GroupDocs.Comparison for Python via .NET。
+      2. 使用初始 DIFF 文件实例化一个 Comparer 对象。
+      3. 将第二个 DIFF 文件集成到比较器中。
+      4. 编制一份详细报告，描述所有已发现的差异。
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "将流行的文档格式与 Python 进行比较"
+    title: "使用 Python 无缝比较各种文件格式"
     exclude: "DIFF"
-    description: "我们的 Python API 可让您轻松比较各种格式的文档，使您能够轻松跟踪文档更改和差异。"
+    description: "我们的 Python API 可以轻松比较不同的文档格式，使跟踪文档中的更改变得简单。"
     items: 
         # format loop 1
         - name: "比较 PDF 个文件"

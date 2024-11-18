@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:43
+date:  2024-11-18T09:49:32
 draft: false
 lang: uk
 format: Dcm
@@ -12,42 +12,42 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "Порівняйте DCM з бібліотекою Python"
-head_description: "За допомогою GroupDocs.Comparison for Python via .NET створюйте детальні порівняльні звіти для програм Python."
+head_title: "Ефективне порівняння DCM за допомогою бібліотеки Python"
+head_description: "За допомогою GroupDocs.Comparison for Python via .NET створюйте докладні порівняльні звіти, адаптовані для програм Python."
 
 ############################# Header ############################
-title: "Порівняти DCM у Python" 
-description: "GroupDocs.Comparison — це бібліотека на основі Python, яка дозволяє легко порівнювати та виявляти відмінності у файлах DCM. Підвищте ефективність свого рішення в задачах порівняння документів за допомогою цього потужного інструменту."
-subtitle: "Рішення для порівняння файлів" 
+title: "Проаналізуйте відмінності DCM у Python" 
+description: "GroupDocs.Comparison — це бібліотека, розроблена для Python, яка спрощує процес порівняння та виділення розбіжностей у файлах DCM. Розширте свої можливості роботи з документами за допомогою цього інноваційного рішення."
+subtitle: "Розширений інструмент порівняння файлів" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Завантажте безкоштовно з PyPi"
+    - title: "Отримайте безкоштовне завантаження з PyPi"
       link: "https://releases.groupdocs.com/comparison/python-net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Відкрийте для себе функції GroupDocs.Comparison for Python via .NET"
+    title: "Дослідіть можливості GroupDocs.Comparison for Python via .NET"
     link: "/comparison/python-net/"
     link_title: "Дізнатися більше"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for Python via .NET – це API, призначений для порівняння зображень і документів в одному форматі. Він виявляє відмінності в абзацах, словах, символах, формах і стилях тексту між порівнюваними файлами. Ви можете об’єднати ці зміни та зберегти їх у остаточному документі. Він підтримує різноманітні формати, включаючи PDF-файли, документи Word, електронні таблиці Excel, презентації PowerPoint, діаграми Visio, електронні листи Outlook, файли HTML, малюнки та численні формати зображень — і все це не потребує додаткового програмного забезпечення.
+       GroupDocs.Comparison for Python via .NET це API, призначений для порівняння документів і зображень у різних форматах. Він виявляє зміни слів, абзаців, символів, форм і елементів стилю між документами. Ви можете зручно об’єднати ці зміни та зберегти їх як консолідований остаточний документ. Він підтримує широкий набір форматів, включаючи PDF-файли, документи Word, таблиці Excel, презентації PowerPoint, Visio, файли HTML, зображення та багато іншого — усе це досягається без сторонніх інструментів.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Як порівняти DCM за допомогою Python"
+    title: "Як ефективно порівнювати DCM за допомогою Python"
     content: |
-      Використовуйте [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/), щоб порівняти файли DCM і створити докладні звіти про відмінності.
+      Використовуйте [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) для детального порівняння файлів DCM.
       
-      1. Установіть GroupDocs.Comparison for Python via .NET через [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
-      2. Створіть об’єкт Comparer і завантажте перший файл DCM.
-      3. Додайте другий файл DCM до Comparer.
-      4. Створіть вичерпний звіт із описом усіх виявлених відмінностей.
+      1. Почніть із встановлення GroupDocs.Comparison for Python via .NET через [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
+      2. Створіть екземпляр об’єкта Comparer з початковим файлом DCM.
+      3. Інтегруйте другий файл DCM у Comparer.
+      4. Складіть детальний звіт, у якому окресліть усі виявлені невідповідності.
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Порівняйте популярні формати документів із Python"
+    title: "Легко порівнюйте різні формати файлів за допомогою Python"
     exclude: "DCM"
-    description: "Наш API Python дозволяє легко порівнювати документи в широкому діапазоні форматів, дозволяючи легко відстежувати зміни та відмінності документів."
+    description: "Наш API Python дозволяє легко порівнювати різноманітні формати документів, спрощуючи відстеження змін у документах."
     items: 
         # format loop 1
         - name: "Порівняти PDF файлів"

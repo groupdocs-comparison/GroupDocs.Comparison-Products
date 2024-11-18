@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:43
+date:  2024-11-18T09:49:31
 draft: false
 lang: th
 format: Html
@@ -12,42 +12,42 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "เปรียบเทียบ HTML กับไลบรารี Python"
-head_description: "ด้วย GroupDocs.Comparison for Python via .NET สร้างรายงานการเปรียบเทียบโดยละเอียดสำหรับแอปพลิเคชัน Python"
+head_title: "เปรียบเทียบ HTML อย่างมีประสิทธิภาพโดยใช้ไลบรารี Python"
+head_description: "ด้วย GroupDocs.Comparison for Python via .NET สร้างรายงานการเปรียบเทียบเชิงลึกที่ปรับแต่งสำหรับแอปพลิเคชัน Python"
 
 ############################# Header ############################
-title: "เปรียบเทียบ HTML ใน Python" 
-description: "GroupDocs.Comparison เป็นไลบรารีที่ใช้ Python ซึ่งช่วยให้คุณสามารถเปรียบเทียบและระบุความแตกต่างในไฟล์ HTML ได้อย่างง่ายดาย เพิ่มประสิทธิภาพโซลูชันของคุณในงานเปรียบเทียบเอกสารด้วยเครื่องมืออันทรงพลังนี้"
-subtitle: "โซลูชันการเปรียบเทียบไฟล์" 
+title: "วิเคราะห์ความแตกต่าง HTML ใน Python" 
+description: "GroupDocs.Comparison เป็นไลบรารีที่ออกแบบมาสำหรับ Python ซึ่งช่วยให้กระบวนการเปรียบเทียบและเน้นความคลาดเคลื่อนในไฟล์ HTML ง่ายขึ้น เพิ่มความสามารถในการจัดการเอกสารของคุณด้วยโซลูชันที่เป็นนวัตกรรมนี้"
+subtitle: "เครื่องมือเปรียบเทียบไฟล์ขั้นสูง" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "ดาวน์โหลดจาก PyPi ได้ฟรี"
+    - title: "ดาวน์โหลดฟรีจาก PyPi"
       link: "https://releases.groupdocs.com/comparison/python-net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "ค้นพบคุณสมบัติของ GroupDocs.Comparison for Python via .NET"
+    title: "สำรวจความสามารถของ GroupDocs.Comparison for Python via .NET"
     link: "/comparison/python-net/"
     link_title: "เรียนรู้เพิ่มเติม"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for Python via .NET เป็น API ที่ออกแบบมาเพื่อการเปรียบเทียบรูปภาพและเอกสารในรูปแบบเดียวกัน โดยจะตรวจจับความแตกต่างในย่อหน้า คำ อักขระ รูปร่าง และลักษณะข้อความระหว่างไฟล์ที่เปรียบเทียบ คุณสามารถรวมการเปลี่ยนแปลงเหล่านี้และบันทึกลงในเอกสารขั้นสุดท้ายได้ รองรับรูปแบบที่หลากหลาย รวมถึง PDF, เอกสาร Word, สเปรดชีต Excel, งานนำเสนอ PowerPoint, ไดอะแกรม Visio, อีเมล Outlook, ไฟล์ HTML, ภาพวาด และรูปแบบรูปภาพหลายรูปแบบ ทั้งหมดนี้ไม่จำเป็นต้องใช้ซอฟต์แวร์เพิ่มเติมใดๆ
+       GroupDocs.Comparison for Python via .NET ทำหน้าที่เป็น API ที่สร้างขึ้นโดยเฉพาะสำหรับการเปรียบเทียบเอกสารและรูปภาพในรูปแบบต่างๆ โดยระบุการเปลี่ยนแปลงของคำ ย่อหน้า อักขระ รูปร่าง และองค์ประกอบลักษณะระหว่างเอกสาร คุณสามารถรวมการแก้ไขเหล่านี้ได้อย่างสะดวกและบันทึกเป็นเอกสารขั้นสุดท้ายที่รวมเข้าด้วยกัน รองรับรูปแบบที่หลากหลาย รวมถึง PDF, เอกสาร Word, ชีต Excel, การนำเสนอ PowerPoint, Visio, ไฟล์ HTML, รูปภาพ และอื่นๆ อีกมากมาย ทั้งหมดนี้ทำได้โดยไม่ต้องใช้เครื่องมือจากบุคคลที่สาม
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "วิธีเปรียบเทียบ HTML โดยใช้ Python"
+    title: "วิธีเปรียบเทียบ HTML อย่างมีประสิทธิภาพโดยใช้ Python"
     content: |
-      ใช้ [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) เพื่อเปรียบเทียบไฟล์ HTML และสร้างรายงานความแตกต่างโดยละเอียด
+      ใช้ [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) เพื่อทำการเปรียบเทียบโดยละเอียดกับไฟล์ HTML
       
-      1. ติดตั้ง GroupDocs.Comparison for Python via .NET ผ่าน [PyPi](https://pypi.org/project/groupdocs-comparison-net/)
-      2. สร้างออบเจ็กต์ Comparer และโหลดไฟล์ HTML ไฟล์แรก
-      3. เพิ่มไฟล์ HTML ไฟล์ที่สองลงใน Comparer
-      4. สร้างรายงานที่ครอบคลุมโดยสรุปความแตกต่างที่ตรวจพบทั้งหมด
+      1. เริ่มต้นด้วยการติดตั้ง GroupDocs.Comparison for Python via .NET ถึง [PyPi](https://pypi.org/project/groupdocs-comparison-net/)
+      2. สร้างอินสแตนซ์ของออบเจ็กต์ Comparer ด้วยไฟล์ HTML เริ่มต้น
+      3. รวมไฟล์ HTML ไฟล์ที่สองลงใน Comparer
+      4. รวบรวมรายงานโดยละเอียดเพื่อแยกแยะความคลาดเคลื่อนที่ระบุทั้งหมด
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "เปรียบเทียบรูปแบบเอกสารยอดนิยมกับ Python"
+    title: "เปรียบเทียบรูปแบบไฟล์ต่างๆ ได้อย่างราบรื่นโดยใช้ Python"
     exclude: "HTML"
-    description: "API Python ของเราช่วยให้คุณเปรียบเทียบเอกสารในรูปแบบต่างๆ ได้อย่างง่ายดาย ทำให้คุณสามารถติดตามการเปลี่ยนแปลงและความแตกต่างในเอกสารได้อย่างง่ายดาย"
+    description: "API Python ของเราช่วยให้สามารถเปรียบเทียบรูปแบบเอกสารที่หลากหลายได้อย่างง่ายดาย ทำให้การติดตามการเปลี่ยนแปลงในเอกสารตรงไปตรงมา"
     items: 
         # format loop 1
         - name: "เปรียบเทียบไฟล์ PDF"

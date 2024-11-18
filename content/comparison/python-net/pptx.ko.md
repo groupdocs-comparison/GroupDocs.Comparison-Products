@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:45
+date:  2024-11-18T09:49:33
 draft: false
 lang: ko
 format: Pptx
@@ -12,13 +12,13 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "PPTX 파일을 Python via .NET과 비교"
-head_description: "Python via .NET을(를) 사용하여 GroupDocs.Comparison로 PPTX 프레젠테이션을 분석하고 콘텐츠 차이점을 강조하는 정확한 보고서를 생성하세요."
+head_title: "GroupDocs.Comparison for Python via .NET과 함께 Python via .NET을 사용하여 PPTX 차이 평가"
+head_description: "콘텐츠 차이를 반영하는 정확한 보고서를 생성하여 PPTX 프레젠테이션의 변경 사항을 쉽게 조사할 수 있습니다."
 
 ############################# Header ############################
-title: "Python via .NET의 PPTX 프레젠테이션 비교" 
-description: "Python via .NET 애플리케이션 내 MS PowerPoint PPTX 프레젠테이션의 변경 사항을 감지하고 표시하려면 Python의 문서 처리 API를 활용하세요. 빠르고 쉬운 분석으로 비즈니스 워크플로우를 간소화하세요."
-subtitle: "파일 비교 솔루션" 
+title: "Python via .NET에서 PPTX 프리젠테이션의 효율적인 비교" 
+description: "Python의 문서 처리 기능을 활용하여 Python via .NET 애플리케이션의 PPTX 프레젠테이션 내 변형을 식별하고 보고하여 작업 흐름을 최적화하세요."
+subtitle: "고급 파일 비교 도구" 
 
 header_actions:
   enable: true
@@ -30,24 +30,24 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Comparison for Python via .NET의 기능을 알아보세요"
+    title: "GroupDocs.Comparison for Python via .NET의 주요 기능 알아보기"
     link: "/comparison/python-net/"
     link_title: "자세히 알아보기"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison을(를) 사용하여 다양한 버전의 PPTX 파일에 대한 변경 사항에 대한 자세한 보고서를 생성하세요. 단 몇 줄의 코드만으로 솔루션을 Python via .NET 애플리케이션에 쉽게 통합할 수 있습니다. MS PowerPoint 프레젠테이션 내에서 슬라이드, 텍스트, 서식 또는 모양의 차이점을 분석합니다. 변경 사항을 최종 PPTX 파일에 병합할 수도 있습니다. 이 강력한 솔루션으로 비즈니스 프로젝트를 강화하세요.
+       GroupDocs.Comparison을(를) 사용하여 다양한 PPTX 버전의 변경 사항을 자세히 설명하는 포괄적인 보고서를 작성하세요. 이 솔루션을 Python via .NET 애플리케이션에 원활하게 구현하고 슬라이드, 텍스트 및 형식의 차이점을 분석하세요. 다양한 변형을 통합된 PPTX 파일로 병합하여 비즈니스 활동을 강화하세요.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Python에서 PPTX 파일 차이점에 대한 보고서 생성"
+    title: "Python에서 PPTX 차이점 문서화"
     content: |
-      [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/)를 사용하여 PPTX 프레젠테이션을 비교하세요.
+      [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/)을 적용하여 PPTX 프레젠테이션 비교
       
-      1. [PyPi](https://pypi.org/project/groupdocs-comparison-net/)에서 GroupDocs.Comparison을(를) 설치합니다.
-      2. 첫 번째 PPTX 파일에 대한 비교자 개체 만들기
-      3. 비교를 위해 추가 PPTX 파일 추가
-      4. 비교 보고서 검색 및 검토
+      1. [PyPi](https://pypi.org/project/groupdocs-comparison-net/)을 통해 GroupDocs.Comparison 획득
+      2. 첫 번째 PPTX 프레젠테이션에 대한 Comparer 인스턴스를 생성합니다.
+      3. 완전한 비교를 위해 추가 PPTX 파일을 추가하세요.
+      4. 결과를 수집하고 생성된 보고서를 검토합니다.
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Python을 사용하여 PPTX 프레젠테이션을 비교하세요."
+    title: "Python을 사용하여 PPTX 비교 촉진"
     exclude: "PPTX"
-    description: "GroupDocs.Comparison for Python via .NET을(를) 사용하여 MS PowerPoint PPTX 프레젠테이션을 쉽게 비교할 수 있습니다. 비즈니스 프레젠테이션의 변경 사항에 대한 통찰력을 제공하는 자세한 보고서를 생성하세요."
+    description: "GroupDocs.Comparison for Python via .NET을(를) 사용하여 MS PowerPoint PPTX 프레젠테이션을 쉽게 관리하고 비교하여 중요한 비즈니스 프레젠테이션의 변경 사항을 반영하는 통찰력 있는 보고서를 생성하세요."
     items: 
         # format loop 1
         - name: "PDF 개의 파일 비교"

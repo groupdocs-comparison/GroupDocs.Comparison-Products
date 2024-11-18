@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:45
+date:  2024-11-18T09:49:34
 draft: false
 lang: vi
 format: Png
@@ -12,42 +12,42 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "API Python để so sánh hình ảnh PNG"
-head_description: "Thư viện GroupDocs.Comparison for Python via .NET tạo báo cáo chi tiết nêu bật những khác biệt trong hình ảnh PNG."
+head_title: "So sánh hình ảnh PNG bằng API Python"
+head_description: "Thư viện GroupDocs.Comparison for Python via .NET tạo ra các báo cáo chi tiết cho thấy sự khác biệt giữa các tệp hình ảnh PNG."
 
 ############################# Header ############################
-title: "So sánh hình ảnh PNG trong ứng dụng Python với Python" 
-description: "Tận dụng API Python để phát hiện các thay đổi trong tệp PNG trong ứng dụng Python của bạn. Nhận báo cáo toàn diện một cách nhanh chóng và dễ dàng."
-subtitle: "Giải pháp so sánh tập tin" 
+title: "Phân tích hình ảnh PNG trong Python" 
+description: "Tận dụng API Python để phát hiện những khác biệt trong tệp PNG một cách liền mạch trong ứng dụng Python của bạn. Nhận báo cáo toàn diện một cách dễ dàng."
+subtitle: "Công cụ so sánh tập tin nâng cao" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Tải xuống miễn phí từ PyPi"
+    - title: "Nhận bản tải xuống miễn phí từ PyPi"
       link: "https://releases.groupdocs.com/comparison/python-net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Khám phá các khả năng của API GroupDocs.Comparison for Python via .NET"
+    title: "Khám phá các tính năng của API GroupDocs.Comparison for Python via .NET"
     link: "/comparison/python-net/"
     link_title: "Tìm hiểu thêm"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       Tạo báo cáo chi tiết về sự khác biệt giữa các phiên bản hình ảnh PNG khác nhau trực tiếp trong ứng dụng Python của bạn—không cần phần mềm của bên thứ ba. Cập nhật thông tin về tất cả các thay đổi trong hình ảnh PNG của bạn.
+       Tạo báo cáo chi tiết về sự khác biệt giữa các phiên bản hình ảnh PNG trực tiếp trong ứng dụng Python của bạn—mà không cần dựa vào phần mềm bổ sung. Luôn cập nhật tất cả các thay đổi liên quan đến hình ảnh PNG của bạn.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Cách tạo báo cáo so sánh cho hình ảnh PNG trong Python"
+    title: "Tạo báo cáo so sánh cho hình ảnh PNG với Python"
     content: |
-      Theo dõi các thay đổi trong tệp PNG bằng cách sử dụng [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) và dễ dàng tạo báo cáo.
+      Theo dõi các thay đổi trong tệp PNG bằng cách sử dụng [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) và tạo báo cáo một cách dễ dàng.
       
-      1. Cài đặt gói GroupDocs.Comparison qua [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
-      2. Tạo đối tượng Comparer và cung cấp đường dẫn đến tệp PNG đầu tiên.
-      3. Thêm một hoặc nhiều tệp PNG để so sánh.
-      4. Truy xuất một báo cáo chi tiết cho thấy tất cả sự khác biệt.
+      1. Nhận gói GroupDocs.Comparison thông qua [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
+      2. Khởi tạo Bộ so sánh và nhập đường dẫn cho hình ảnh PNG đầu tiên.
+      3. Bao gồm một hoặc nhiều tệp PNG cho nghiên cứu so sánh.
+      4. Truy cập một báo cáo toàn diện nêu chi tiết tất cả những khác biệt về mặt hình ảnh.
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "So sánh hình ảnh ở các định dạng phổ biến như PNG"
+    title: "So sánh hình ảnh ở định dạng như PNG"
     exclude: "PNG"
-    description: "Sử dụng GroupDocs.Comparison for Python via .NET để xác định sự khác biệt giữa các hình ảnh PNG và tạo báo cáo chi tiết để theo dõi những thay đổi quan trọng."
+    description: "Sử dụng GroupDocs.Comparison for Python via .NET để xác định sự khác biệt giữa các hình ảnh PNG, tạo báo cáo chi tiết để theo dõi những thay đổi quan trọng."
     items: 
         # format loop 1
         - name: "So sánh tập tin PDF"

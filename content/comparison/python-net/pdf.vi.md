@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:45
+date:  2024-11-18T09:49:34
 draft: false
 lang: vi
 format: Pdf
@@ -12,42 +12,42 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "So sánh các tệp PDF qua thư viện Python"
-head_description: "Phần mềm GroupDocs.Comparison dành cho Python tạo ra các báo cáo chuyên sâu nêu bật những điểm khác biệt trong tài liệu PDF."
+head_title: "Hợp lý hóa việc so sánh PDF với Thư viện Python"
+head_description: "Phần mềm GroupDocs.Comparison dành cho Python tạo ra các báo cáo kỹ lưỡng làm nổi bật các biến thể trong tài liệu PDF."
 
 ############################# Header ############################
-title: "So sánh PDF cho Python via .NET" 
-description: "Tận dụng API so sánh tài liệu của chúng tôi trong Python để dễ dàng xác định và hiển thị sự khác biệt trong tệp PDF trong ứng dụng Python. Nhận báo cáo chi tiết một cách nhanh chóng và hiệu quả."
-subtitle: "Giải pháp so sánh tập tin" 
+title: "So sánh PDF dễ dàng cho Python via .NET" 
+description: "Sử dụng API so sánh PDF của chúng tôi trong Python để xác định và trình bày những khác biệt trong tệp PDF một cách hiệu quả một cách dễ dàng. Có được quyền truy cập nhanh vào báo cáo chi tiết mà không gặp sự phức tạp không cần thiết."
+subtitle: "Công cụ so sánh tập tin nâng cao" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Tải xuống miễn phí từ PyPi"
+    - title: "Nhận bản tải xuống miễn phí từ PyPi"
       link: "https://releases.groupdocs.com/comparison/python-net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Các tính năng chính của Thư viện GroupDocs.Comparison for Python via .NET"
+    title: "Ra mắt các tính năng chính của Thư viện GroupDocs.Comparison for Python via .NET"
     link: "/comparison/python-net/"
     link_title: "Tìm hiểu thêm"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       Tạo báo cáo chi tiết về mọi khác biệt trong tài liệu PDF trực tiếp trong ứng dụng Python của bạn. Chỉ với một vài dòng mã, hãy sử dụng GroupDocs.Comparison for Python via .NET mà không cần bất kỳ phần mềm hoặc thư viện bổ sung nào. Theo dõi các thay đổi về đoạn văn, từ, ký tự, hình dạng và kiểu văn bản trong tệp PDF của bạn. Bạn cũng có thể hợp nhất các thay đổi từ nhiều phiên bản tài liệu thành một kết quả duy nhất. Xử lý tài liệu nhanh chóng và dễ dàng, không gặp rắc rối.
+       Tạo báo cáo toàn diện xác định những điểm khác biệt được tìm thấy trong tài liệu PDF ngay từ ứng dụng Python của bạn. Với mã tối thiểu, hãy tận dụng GroupDocs.Comparison for Python via .NET mà không cần phần mềm bổ sung. Theo dõi các thay đổi trên các đoạn văn, từ ngữ, định dạng, hình dạng và kiểu trong tệp PDF của bạn. Ngoài ra, hãy kết hợp các bản sửa đổi từ nhiều phiên bản thành một kết quả thống nhất. Xử lý tệp PDF nhanh chóng và dễ dàng.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Cách nhận báo cáo khác biệt dưới dạng PDF trong Python"
+    title: "Tạo báo cáo khác biệt PDF với Python"
     content: |
-      Theo dõi các thay đổi trong tài liệu PDF bằng các báo cáo được tạo bằng [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/).
+      Theo dõi các thay đổi trong tài liệu PDF bằng cách sử dụng báo cáo do [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/ tạo ra.
       
-      1. Cài đặt GroupDocs.Comparison cho Python via .NET qua [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
-      2. Tạo một phiên bản Comparer và cung cấp đường dẫn đến tệp PDF đầu tiên.
-      3. Thêm tệp PDF thứ hai để so sánh.
-      4. Truy xuất báo cáo cuối cùng nêu chi tiết sự khác biệt giữa các tệp.
+      1. Cài đặt GroupDocs.Comparison cho Python via .NET bằng cách sử dụng [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
+      2. Tạo một phiên bản Comparer và nhập đường dẫn cho tệp PDF đầu tiên.
+      3. Giới thiệu một tệp PDF thứ hai nhằm mục đích so sánh.
+      4. Trích xuất báo cáo cuối cùng làm sáng tỏ sự khác biệt giữa các tệp.
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "So sánh các định dạng phổ biến như PDF với Python"
+    title: "So sánh các loại tệp phổ biến như PDF với Python"
     exclude: "PDF"
-    description: "API Python của chúng tôi cho phép so sánh các tệp PDF nhanh chóng và hiệu quả. Dễ dàng theo dõi các thay đổi với các báo cáo chi tiết."
+    description: "API Python của chúng tôi cho phép bạn so sánh nhanh chóng và chính xác các tệp PDF. Dễ dàng theo dõi những thay đổi thông qua các báo cáo so sánh chi tiết."
     items: 
         # format loop 1
         - name: "So sánh tập tin PDF"

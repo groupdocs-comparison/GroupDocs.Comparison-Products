@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:41
+date:  2024-11-18T09:49:29
 draft: false
 lang: ja
 format: Cpp
@@ -12,42 +12,42 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "CPP と Python ライブラリを比較する"
-head_description: "GroupDocs.Comparison for Python via .NET を使用して、Python アプリケーションの詳細な比較レポートを生成します。"
+head_title: "Python ライブラリを使用して CPP を効率的に比較する"
+head_description: "GroupDocs.Comparison for Python via .NET を使用すると、Python アプリケーションに合わせた詳細な比較レポートを生成します。"
 
 ############################# Header ############################
-title: "Python で CPP を比較" 
-description: "GroupDocs.Comparison は、CPP ファイルの違いを簡単に比較して特定できるようにする、Python ベースのライブラリです。この強力なツールを使用すると、ドキュメント比較タスクにおけるソリューションの効率が向上します。"
-subtitle: "ファイル比較ソリューション" 
+title: "Python の CPP の違いを分析する" 
+description: "GroupDocs.Comparison は、CPP ファイルの不一致を比較して強調表示するプロセスを簡素化する、Python 用に設計されたライブラリです。この革新的なソリューションで文書処理能力を強化します。"
+subtitle: "高度なファイル比較ツール" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "PyPi から無料でダウンロード"
+    - title: "PyPi から無料でダウンロードしてください"
       link: "https://releases.groupdocs.com/comparison/python-net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Comparison for Python via .NET の機能を発見する"
+    title: "GroupDocs.Comparison for Python via .NET の機能を調べる"
     link: "/comparison/python-net/"
     link_title: "さらに詳しく"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for Python via .NET は、同じ形式の画像とドキュメントを比較するために設計された API です。比較したファイル間の段落、単語、文字、図形、テキスト スタイルの違いを検出します。これらの変更をマージして、最終的なドキュメントに保存できます。 PDF、Word 文書、Excel スプレッドシート、PowerPoint プレゼンテーション、Visio 図、Outlook 電子メール、HTML ファイル、図面、複数の画像形式などのさまざまな形式をサポートしており、すべて追加のソフトウェアは必要ありません。
+       GroupDocs.Comparison for Python via .NET は、さまざまな形式のドキュメントと画像を比較するために特別に構築された API として機能します。文書間の単語、段落、文字、図形、スタイル要素の変更を識別します。これらの変更を簡単にマージし、統合された最終ドキュメントとして保存できます。 PDF、Word ドキュメント、Excel シート、PowerPoint プレゼンテーション、Visio、HTML ファイル、画像などを含む幅広い形式をサポートしており、すべてサードパーティ ツールなしで実現できます。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Python を使用して CPP を比較する方法"
+    title: "Python を使用して CPP を効率的に比較する方法"
     content: |
-      [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) を使用して、CPP ファイルを比較し、詳細な差異レポートを生成します。
+      [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) を利用して、CPP ファイルの詳細な比較を実行します。
       
-      1. [PyPi](https://pypi.org/project/groupdocs-comparison-net/) 経由で GroupDocs.Comparison for Python via .NET をインストールします。
-      2. Comparer オブジェクトを作成し、最初の CPP ファイルをロードします。
-      3. 2 番目の CPP ファイルを比較器に追加します。
-      4. 検出されたすべての相違点を概説する包括的なレポートを生成します。
+      1. [PyPi](https://pypi.org/project/groupdocs-comparison-net/) を通じて GroupDocs.Comparison for Python via .NET をインストールすることから始めます。
+      2. 最初の CPP ファイルを使用して Comparer オブジェクトをインスタンス化します。
+      3. 2 番目の CPP ファイルを比較器に統合します。
+      4. 特定されたすべての不一致を説明する詳細なレポートを作成します。
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "一般的なドキュメント形式を Python と比較する"
+    title: "Python を使用してさまざまなファイル形式をシームレスに比較"
     exclude: "CPP"
-    description: "当社の Python API を使用すると、さまざまな形式のドキュメントを簡単に比較でき、ドキュメントの変更や相違点を簡単に追跡できるようになります。"
+    description: "当社の Python API を使用すると、さまざまなドキュメント形式を簡単に比較できるため、ドキュメントの変更を簡単に追跡できます。"
     items: 
         # format loop 1
         - name: "PDF ファイルの比較"

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:45
+date:  2024-11-18T09:49:33
 draft: false
 lang: ko
 format: Pdf
@@ -12,13 +12,13 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "Python 라이브러리를 통해 PDF 비교"
-head_description: "Python용 GroupDocs.Comparison 소프트웨어는 PDF 문서의 차이점을 강조하는 심층 보고서를 생성합니다."
+head_title: "Python 라이브러리로 PDF 비교 간소화"
+head_description: "Python용 GroupDocs.Comparison 소프트웨어는 PDF 문서의 변형을 강조하는 철저한 보고서를 작성합니다."
 
 ############################# Header ############################
-title: "Python via .NET에 대한 PDF 비교" 
-description: "Python에서 문서 비교 API를 활용하면 Python 애플리케이션 내 PDF 파일의 차이점을 쉽게 식별하고 표시할 수 있습니다. 자세한 보고서를 빠르고 효율적으로 받아보세요."
-subtitle: "파일 비교 솔루션" 
+title: "Python via .NET에 대한 PDF 비교가 쉬워졌습니다." 
+description: "Python 내에서 PDF 비교 API를 활용하면 PDF 파일의 불일치를 효과적으로 찾아내고 쉽게 표시할 수 있습니다. 불필요한 복잡성 없이 상세한 보고에 빠르게 액세스할 수 있습니다."
+subtitle: "고급 파일 비교 도구" 
 
 header_actions:
   enable: true
@@ -30,24 +30,24 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Comparison for Python via .NET 라이브러리의 주요 기능"
+    title: "GroupDocs.Comparison for Python via .NET 라이브러리의 주요 기능 공개"
     link: "/comparison/python-net/"
     link_title: "자세히 알아보기"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       Python 애플리케이션에서 직접 PDF 문서 내 차이점에 대한 자세한 보고서를 생성하세요. 추가 소프트웨어나 라이브러리 없이 코드 몇 줄만으로 GroupDocs.Comparison for Python via .NET을(를) 사용할 수 있습니다. PDF 내의 단락, 단어, 문자, 모양 및 텍스트 스타일의 변경 사항을 모니터링합니다. 여러 문서 버전의 변경 사항을 단일 결과로 병합할 수도 있습니다. 번거로움 없이 빠르고 쉽게 문서를 처리하세요.
+       Python 애플리케이션에서 바로 PDF 문서에서 발견된 차이점을 식별하는 포괄적인 보고서를 생성합니다. 추가 소프트웨어 없이 최소한의 코드로 GroupDocs.Comparison for Python via .NET을 활용하세요. PDF의 단락, 단어, 형식, 모양 및 스타일 전반에 걸친 변경 사항을 추적하세요. 또한 여러 버전의 개정을 통합된 결과로 결합합니다. PDF를 빠르고 쉽게 처리하세요.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Python에서 PDF 차이 보고서를 얻는 방법"
+    title: "Python을 사용하여 PDF 차이 보고서 생성"
     content: |
-      [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/)을 사용하여 생성된 보고서를 통해 PDF 문서의 변경 사항을 추적하세요.
+      [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/)에서 생성된 보고서를 사용하여 PDF 문서의 변경 사항을 모니터링하세요.
       
-      1. [PyPi](https://pypi.org/project/groupdocs-comparison-net/)을 통해 Python via .NET용 GroupDocs.Comparison을(를) 설치합니다.
-      2. 비교자 인스턴스를 생성하고 첫 번째 PDF 파일의 경로를 제공합니다.
-      3. 비교를 위해 두 번째 PDF 파일을 추가합니다.
-      4. 파일 간의 차이점을 자세히 설명하는 최종 보고서를 검색합니다.
+      1. [PyPi](https://pypi.org/project/groupdocs-comparison-net/)을 사용하여 Python via .NET용 GroupDocs.Comparison을(를) 설치합니다.
+      2. Comparer 인스턴스를 만들고 첫 번째 PDF 파일의 경로를 입력합니다.
+      3. 비교를 위한 두 번째 PDF 파일을 소개합니다.
+      4. 파일 간의 변형을 설명하는 최종 보고서를 추출합니다.
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "PDF와 같은 일반적인 형식을 Python과 비교하세요."
+    title: "PDF와 같은 일반적인 파일 형식을 Python과 비교하세요."
     exclude: "PDF"
-    description: "우리의 Python API를 사용하면 PDF 파일을 빠르고 효율적으로 비교할 수 있습니다. 상세한 보고서를 통해 변경 사항을 쉽게 추적할 수 있습니다."
+    description: "우리의 Python API를 사용하면 PDF 파일을 빠르고 정확하게 비교할 수 있습니다. 상세한 비교 보고서를 통해 변경 사항을 쉽게 모니터링할 수 있습니다."
     items: 
         # format loop 1
         - name: "PDF 개의 파일 비교"

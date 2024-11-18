@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:45
+date:  2024-11-18T09:49:33
 draft: false
 lang: fr
 format: Xlsx
@@ -12,19 +12,19 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "Comparez le contenu de la feuille de calcul XLSX avec l'API Python"
-head_description: "Vérifiez facilement les différences dans les feuilles de calcul MS Excel à l'aide de notre API Python, qui génère des rapports détaillés mettant en évidence toutes les distinctions."
+head_title: "Analyser les différences de contenu XLSX à l'aide de l'API Python"
+head_description: "Évaluez sans effort les distinctions dans les feuilles de calcul Excel à l'aide de l'API Python, qui fournit des rapports détaillés sur toutes les différences trouvées."
 
 ############################# Header ############################
-title: "Comparaison de feuilles de calcul XLSX dans les applications Python via .NET" 
-description: "Utilisez la bibliothèque de traitement de documents Python pour détecter et mettre en évidence les modifications apportées aux fichiers MS Excel XLSX dans les applications Python via .NET. Générez des rapports rapidement et facilement."
-subtitle: "Solution de comparaison de fichiers" 
+title: "Analyse de feuille de calcul XLSX dans Python via .NET" 
+description: "Intégrez la bibliothèque de traitement de documents Python pour identifier et mettre en évidence les modifications dans les feuilles de calcul XLSX intégrées aux solutions logicielles Python via .NET."
+subtitle: "Outil avancé de comparaison de fichiers" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Téléchargez gratuitement depuis PyPi"
+    - title: "Obtenez votre téléchargement gratuit sur PyPi"
       link: "https://releases.groupdocs.com/comparison/python-net/"
       
 ############################# About ############################
@@ -35,19 +35,19 @@ about:
     link_title: "En savoir plus"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       Générez des rapports complets qui fournissent des données détaillées sur les modifications apportées aux différentes versions des fichiers XLSX à l'aide de GroupDocs.Comparison. Avec seulement quelques lignes de code, vous pouvez intégrer l'API de manière transparente dans vos applications Python via .NET, sans avoir besoin d'outils supplémentaires. Analysez les différences dans les feuilles, le texte, les styles ou les formes dans les fichiers MS Excel et fusionnez les modifications dans un document XLSX final. Améliorez les flux de travail de votre entreprise grâce à nos solutions puissantes.
+       Générez des rapports détaillés qui encapsulent les modifications sur plusieurs versions XLSX à l'aide de GroupDocs.Comparison. Intégrez sans effort l'API dans vos applications Python via .NET avec un minimum d'efforts de codage, en analysant les différences dans les feuilles, les textes et bien plus encore. Améliorez les flux de travail de votre entreprise grâce à nos solutions avancées.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Comment comparer des fichiers XLSX dans Python"
+    title: "Comparez efficacement les fichiers XLSX dans Python"
     content: |
-      Utiliser [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) et Python via .NET pour comparer les documents XLSX
+      Tirez parti de [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) et Python via .NET pour des comparaisons XLSX robustes
       
-      1. Installez GroupDocs.Comparison pour Python via .NET à partir de [PyPi](https://pypi.org/project/groupdocs-comparison-net/)
-      2. Instanciez l'objet Comparer et fournissez le chemin d'accès au premier fichier XLSX
-      3. Ajouter des fichiers XLSX supplémentaires à des fins de comparaison
-      4. Générer et examiner les résultats de la comparaison
+      1. Obtenez GroupDocs.Comparison pour Python via .NET auprès de [PyPi](https://pypi.org/project/groupdocs-comparison-net/)
+      2. Créez un objet Comparer et saisissez le chemin du document XLSX initial.
+      3. Ajoutez plus de fichiers XLSX pour des comparaisons complètes.
+      4. Préparez, examinez et documentez les résultats de vos comparaisons.
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Comparez les feuilles de calcul XLSX avec Python"
+    title: "Comparez efficacement les fichiers XLSX avec Python"
     exclude: "XLSX"
-    description: "Comparez facilement les feuilles de calcul MS Excel XLSX à l'aide de l'API GroupDocs.Comparison for Python via .NET. Obtenez des informations approfondies sur les modifications apportées aux données de votre entreprise grâce à nos rapports détaillés."
+    description: "Mettez facilement en évidence les différences clés dans les documents MS Excel XLSX à l'aide de l'API GroupDocs.Comparison for Python via .NET, fournissant ainsi des informations précieuses sur les données de votre organisation."
     items: 
         # format loop 1
         - name: "Comparer PDF fichiers"

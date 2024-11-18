@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:45
+date:  2024-11-18T09:49:34
 draft: false
 lang: th
 format: Pdf
@@ -12,42 +12,42 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "เปรียบเทียบ PDF ผ่านไลบรารี Python"
-head_description: "ซอฟต์แวร์ GroupDocs.Comparison สำหรับ Python สร้างรายงานเชิงลึกโดยเน้นความแตกต่างในเอกสาร PDF"
+head_title: "ปรับปรุงการเปรียบเทียบ PDF ด้วยไลบรารี Python"
+head_description: "ซอฟต์แวร์ GroupDocs.Comparison สำหรับ Python สร้างรายงานอย่างละเอียดที่เน้นรูปแบบต่างๆ ในเอกสาร PDF"
 
 ############################# Header ############################
-title: "การเปรียบเทียบ PDF สำหรับ Python via .NET" 
-description: "ใช้ประโยชน์จาก API การเปรียบเทียบเอกสารของเราใน Python เพื่อระบุและแสดงความแตกต่างในไฟล์ PDF ภายในแอปพลิเคชัน Python ได้อย่างง่ายดาย รับรายงานโดยละเอียดอย่างรวดเร็วและมีประสิทธิภาพ"
-subtitle: "โซลูชันการเปรียบเทียบไฟล์" 
+title: "การเปรียบเทียบ PDF เป็นเรื่องง่ายสำหรับ Python via .NET" 
+description: "ใช้ API การเปรียบเทียบ PDF ของเราภายใน Python เพื่อระบุและนำเสนอความคลาดเคลื่อนในไฟล์ PDF ได้อย่างมีประสิทธิภาพอย่างง่ายดาย เข้าถึงการรายงานโดยละเอียดได้อย่างรวดเร็วโดยไม่ซับซ้อนโดยไม่จำเป็น"
+subtitle: "เครื่องมือเปรียบเทียบไฟล์ขั้นสูง" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "ดาวน์โหลดจาก PyPi ได้ฟรี"
+    - title: "ดาวน์โหลดฟรีจาก PyPi"
       link: "https://releases.groupdocs.com/comparison/python-net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "คุณสมบัติที่สำคัญของไลบรารี GroupDocs.Comparison for Python via .NET"
+    title: "เผยคุณสมบัติที่สำคัญของไลบรารี GroupDocs.Comparison for Python via .NET"
     link: "/comparison/python-net/"
     link_title: "เรียนรู้เพิ่มเติม"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       สร้างรายงานโดยละเอียดเกี่ยวกับความแตกต่างภายในเอกสาร PDF ได้โดยตรงในแอปพลิเคชัน Python ของคุณ ด้วยโค้ดเพียงไม่กี่บรรทัด ให้ใช้ GroupDocs.Comparison for Python via .NET โดยไม่ต้องใช้ซอฟต์แวร์หรือไลบรารีเพิ่มเติมใดๆ ติดตามการเปลี่ยนแปลงในย่อหน้า คำ อักขระ รูปร่าง และรูปแบบข้อความภายใน PDF ของคุณ คุณยังสามารถรวมการเปลี่ยนแปลงจากเอกสารหลายเวอร์ชันให้เป็นผลลัพธ์เดียวได้ ประมวลผลเอกสารอย่างรวดเร็วและง่ายดายโดยไม่ยุ่งยาก
+       สร้างรายงานที่ครอบคลุมซึ่งระบุความแตกต่างที่พบในเอกสาร PDF โดยตรงจากแอปพลิเคชัน Python ของคุณ ด้วยโค้ดขั้นต่ำ ใช้ประโยชน์จาก GroupDocs.Comparison for Python via .NET โดยไม่ต้องใช้ซอฟต์แวร์เพิ่มเติม ติดตามการเปลี่ยนแปลงของย่อหน้า คำ รูปแบบ รูปร่าง และสไตล์ใน PDF ของคุณ นอกจากนี้ ยังรวมการแก้ไขจากหลายเวอร์ชันให้เป็นผลลัพธ์แบบครบวงจร ประมวลผล PDF อย่างรวดเร็วและง่ายดาย
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "วิธีรับรายงานความแตกต่าง PDF ใน Python"
+    title: "สร้างรายงานความแตกต่างในรูปแบบ PDF ด้วย Python"
     content: |
-      ติดตามการเปลี่ยนแปลงในเอกสาร PDF ด้วยรายงานที่สร้างโดยใช้ [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/)
+      ติดตามการเปลี่ยนแปลงในเอกสาร PDF โดยใช้รายงานที่สร้างโดย [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/)
       
-      1. ติดตั้ง GroupDocs.Comparison สำหรับ Python via .NET ผ่าน [PyPi](https://pypi.org/project/groupdocs-comparison-net/)
-      2. สร้างอินสแตนซ์ Comparer และระบุเส้นทางไปยังไฟล์ PDF ไฟล์แรก
-      3. เพิ่มไฟล์ PDF ไฟล์ที่สองเพื่อการเปรียบเทียบ
-      4. รับรายงานขั้นสุดท้ายซึ่งมีรายละเอียดความแตกต่างระหว่างไฟล์
+      1. ติดตั้ง GroupDocs.Comparison สำหรับ Python via .NET โดยใช้ [PyPi](https://pypi.org/project/groupdocs-comparison-net/)
+      2. สร้างอินสแตนซ์ Comparer และป้อนเส้นทางสำหรับไฟล์ PDF ไฟล์แรก
+      3. แนะนำไฟล์ PDF ไฟล์ที่สองที่มีไว้เพื่อการเปรียบเทียบ
+      4. แยกรายงานขั้นสุดท้ายที่อธิบายความแตกต่างระหว่างไฟล์
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "เปรียบเทียบรูปแบบทั่วไปเช่น PDF กับ Python"
+    title: "เปรียบเทียบประเภทไฟล์ทั่วไป เช่น PDF กับ Python"
     exclude: "PDF"
-    description: "API Python ของเราทำให้สามารถเปรียบเทียบไฟล์ PDF ได้อย่างรวดเร็วและมีประสิทธิภาพ ติดตามการเปลี่ยนแปลงได้อย่างง่ายดายด้วยรายงานโดยละเอียด"
+    description: "API Python ของเราช่วยให้คุณเปรียบเทียบไฟล์ PDF ได้อย่างรวดเร็วและแม่นยำ ติดตามการเปลี่ยนแปลงได้อย่างง่ายดายผ่านรายงานการเปรียบเทียบโดยละเอียด"
     items: 
         # format loop 1
         - name: "เปรียบเทียบไฟล์ PDF"

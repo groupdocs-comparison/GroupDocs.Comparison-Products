@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:44
+date:  2024-11-18T09:49:32
 draft: false
 lang: vi
 format: One
@@ -12,42 +12,42 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "So sánh ONE với Thư viện Python"
-head_description: "Với GroupDocs.Comparison for Python via .NET, tạo báo cáo so sánh chi tiết cho các ứng dụng Python."
+head_title: "So sánh hiệu quả ONE bằng thư viện Python"
+head_description: "Với GroupDocs.Comparison for Python via .NET, tạo báo cáo so sánh chuyên sâu phù hợp với ứng dụng Python."
 
 ############################# Header ############################
-title: "So sánh ONE trong Python" 
-description: "GroupDocs.Comparison là thư viện dựa trên Python cho phép bạn dễ dàng so sánh và xác định sự khác biệt trong tệp ONE. Nâng cao hiệu quả của giải pháp của bạn trong các tác vụ so sánh tài liệu bằng công cụ mạnh mẽ này."
-subtitle: "Giải pháp so sánh tập tin" 
+title: "Phân tích sự khác biệt của ONE trong Python" 
+description: "GroupDocs.Comparison là thư viện được thiết kế cho Python giúp đơn giản hóa quá trình so sánh và nêu bật những khác biệt trong tệp ONE. Nâng cao khả năng xử lý tài liệu của bạn với giải pháp sáng tạo này."
+subtitle: "Công cụ so sánh tập tin nâng cao" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Tải xuống miễn phí từ PyPi"
+    - title: "Nhận bản tải xuống miễn phí từ PyPi"
       link: "https://releases.groupdocs.com/comparison/python-net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Khám phá các tính năng của GroupDocs.Comparison for Python via .NET"
+    title: "Khám phá khả năng của GroupDocs.Comparison for Python via .NET"
     link: "/comparison/python-net/"
     link_title: "Tìm hiểu thêm"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for Python via .NET là API được thiết kế để so sánh hình ảnh và tài liệu ở cùng định dạng. Nó phát hiện sự khác biệt về đoạn văn, từ ngữ, ký tự, hình dạng và kiểu văn bản giữa các tệp được so sánh. Bạn có thể hợp nhất những thay đổi này và lưu chúng vào tài liệu cuối cùng. Nó hỗ trợ nhiều định dạng bao gồm PDF, tài liệu Word, bảng tính Excel, bản trình bày PowerPoint, sơ đồ Visio, email Outlook, tệp HTML, bản vẽ và nhiều định dạng hình ảnh—tất cả đều không yêu cầu bất kỳ phần mềm bổ sung nào.
+       GroupDocs.Comparison for Python via .NET đóng vai trò là API được xây dựng riêng để so sánh tài liệu và hình ảnh ở nhiều định dạng khác nhau. Nó xác định các thay đổi về từ, đoạn văn, ký tự, hình dạng và thành phần kiểu dáng giữa các tài liệu. Bạn có thể hợp nhất các sửa đổi này một cách thuận tiện và lưu chúng dưới dạng tài liệu cuối cùng hợp nhất. Nó hỗ trợ nhiều định dạng, bao gồm PDF, tài liệu Word, trang tính Excel, bản trình bày PowerPoint, Visio, tệp HTML, hình ảnh và nhiều định dạng khác—tất cả đều đạt được mà không cần công cụ của bên thứ ba.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Cách so sánh ONE bằng cách sử dụng Python"
+    title: "Cách so sánh hiệu quả ONE bằng cách sử dụng Python"
     content: |
-      Sử dụng [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) để so sánh các tệp ONE và tạo báo cáo chi tiết về sự khác biệt.
+      Sử dụng [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) để thực hiện so sánh chi tiết trên các tệp ONE.
       
-      1. Cài đặt GroupDocs.Comparison for Python via .NET qua [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
-      2. Tạo một đối tượng Comparer và tải tệp ONE đầu tiên.
-      3. Thêm tệp ONE thứ hai vào Bộ so sánh.
-      4. Tạo một báo cáo toàn diện nêu rõ tất cả những khác biệt được phát hiện.
+      1. Bắt đầu bằng cách cài đặt GroupDocs.Comparison for Python via .NET thông qua [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
+      2. Khởi tạo một đối tượng Comparer bằng tệp ONE ban đầu.
+      3. Tích hợp tệp ONE thứ hai vào Bộ so sánh.
+      4. Biên soạn một báo cáo chi tiết mô tả tất cả những khác biệt được xác định.
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "So sánh các định dạng tài liệu phổ biến với Python"
+    title: "So sánh liền mạch các định dạng tệp khác nhau bằng cách sử dụng Python"
     exclude: "ONE"
-    description: "API Python của chúng tôi cho phép bạn dễ dàng so sánh các tài liệu ở nhiều định dạng khác nhau, cho phép bạn theo dõi những thay đổi và khác biệt của tài liệu một cách dễ dàng."
+    description: "API Python của chúng tôi cho phép so sánh dễ dàng các định dạng tài liệu đa dạng, giúp việc theo dõi các thay đổi trong tài liệu trở nên đơn giản."
     items: 
         # format loop 1
         - name: "So sánh tập tin PDF"

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:40
+date:  2024-11-18T09:49:27
 draft: false
 lang: es
 format: Vss
@@ -12,42 +12,42 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "Comparar VSS con la biblioteca Python"
-head_description: "Con GroupDocs.Comparison for Python via .NET, genere informes comparativos detallados para aplicaciones Python."
+head_title: "Compare eficientemente VSS usando la biblioteca Python"
+head_description: "Con GroupDocs.Comparison for Python via .NET, genere informes comparativos detallados diseñados para aplicaciones Python."
 
 ############################# Header ############################
-title: "Comparar VSS en Python" 
-description: "GroupDocs.Comparison es una biblioteca basada en Python que le permite comparar e identificar fácilmente diferencias en archivos VSS. Aumente la eficiencia de su solución en tareas de comparación de documentos con esta poderosa herramienta."
-subtitle: "Solución de comparación de archivos" 
+title: "Analizar las diferencias de VSS en Python" 
+description: "GroupDocs.Comparison es una biblioteca diseñada para Python que simplifica el proceso de comparar y resaltar discrepancias en archivos VSS. Mejore sus capacidades de manejo de documentos con esta solución innovadora."
+subtitle: "Herramienta avanzada de comparación de archivos" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Descarga desde PyPi gratis"
+    - title: "Obtenga su descarga gratuita desde PyPi"
       link: "https://releases.groupdocs.com/comparison/python-net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Descubra las características de GroupDocs.Comparison for Python via .NET"
+    title: "Explora las capacidades de GroupDocs.Comparison for Python via .NET"
     link: "/comparison/python-net/"
     link_title: "Obtenga más información"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for Python via .NET es una API diseñada para comparar imágenes y documentos en el mismo formato. Detecta diferencias en párrafos, palabras, caracteres, formas y estilos de texto entre los archivos comparados. Puede fusionar estos cambios y guardarlos en un documento final. Admite una variedad de formatos, incluidos PDF, documentos de Word, hojas de cálculo de Excel, presentaciones de PowerPoint, diagramas de Visio, correos electrónicos de Outlook, archivos HTML, dibujos y múltiples formatos de imágenes, todo sin necesidad de ningún software adicional.
+       GroupDocs.Comparison for Python via .NET sirve como una API creada específicamente para comparar documentos e imágenes en varios formatos. Identifica cambios en palabras, párrafos, caracteres, formas y elementos de estilo entre los documentos. Puede fusionar cómodamente estas modificaciones y guardarlas como un documento final consolidado. Admite una amplia gama de formatos, incluidos PDF, documentos de Word, hojas de Excel, presentaciones de PowerPoint, Visio, archivos HTML, imágenes y mucho más, todo ello sin herramientas de terceros.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Cómo comparar VSS usando Python"
+    title: "Cómo comparar eficientemente VSS usando Python"
     content: |
-      Utilice [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) para comparar archivos VSS y generar informes de diferencias detallados.
+      Utilice [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) para realizar comparaciones detalladas en archivos VSS.
       
-      1. Instale GroupDocs.Comparison for Python via .NET a través de [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
-      2. Cree un objeto Comparador y cargue el primer archivo VSS.
-      3. Agregue el segundo archivo VSS al comparador.
-      4. Genere un informe completo que describa todas las diferencias detectadas.
+      1. Comience instalando GroupDocs.Comparison for Python via .NET a través de [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
+      2. Cree una instancia de un objeto Comparer con el archivo inicial VSS.
+      3. Integre el segundo archivo VSS en el Comparador.
+      4. Compile un informe detallado que describa todas las discrepancias identificadas.
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Compare formatos de documentos populares con Python"
+    title: "Compare sin problemas varios formatos de archivos usando Python"
     exclude: "VSS"
-    description: "Nuestra API Python le permite comparar documentos sin esfuerzo en una amplia gama de formatos, lo que le permite realizar un seguimiento de los cambios y diferencias de los documentos con facilidad."
+    description: "Nuestra API Python permite una comparación sencilla de diversos formatos de documentos, lo que simplifica el seguimiento de los cambios en los documentos."
     items: 
         # format loop 1
         - name: "Compara PDF archivos"

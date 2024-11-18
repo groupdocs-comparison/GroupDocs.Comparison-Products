@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:45
+date:  2024-11-18T09:49:34
 draft: false
 lang: zh
 format: Jpg
@@ -12,13 +12,13 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "自动比较 JPG 图像与 Python 库"
-head_description: "使用 GroupDocs.Comparison for Python via .NET API 轻松识别和报告 JPG 图像中的差异。"
+head_title: "JPG 图像与 Python 库的动态比较"
+head_description: "利用 GroupDocs.Comparison for Python via .NET API 轻松查明和编录 JPG 图像中的差异。"
 
 ############################# Header ############################
-title: "在 Python via .NET 应用程序中生成 JPG 差异报告" 
-description: "利用 Python 来比较您的 Python 应用程序中的 JPG 图像变化。详细的报告为您的业务解决方案提供了宝贵的见解。"
-subtitle: "文件对比解决方案" 
+title: "从 Python via .NET 中的 JPG 差异生成见解" 
+description: "最大限度地发挥 Python 的潜力，以识别 Python 解决方案中 JPG 图像的变化。综合报告为您的战略运营提供重要信息。"
+subtitle: "高级文件比较工具" 
 
 header_actions:
   enable: true
@@ -30,24 +30,24 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "探索 GroupDocs.Comparison for Python via .NET API 的强大功能"
+    title: "探索 GroupDocs.Comparison for Python via .NET API 的功能"
     link: "/comparison/python-net/"
     link_title: "了解更多"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       通过 GroupDocs.Comparison for Python via .NET 了解 JPG 图像的最新变化。无需额外工具即可分析您的 Python 应用中的详细数据。使用最少的代码，增强您的业务解决方案并自动进行图像比较。
+       使用 GroupDocs.Comparison for Python via .NET 随时了解 JPG 图像的变化。在您的 Python 应用程序中分析综合报告，无需大量编码即可提高工作流程效率。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "如何使用 Python 分析 JPG 变化"
+    title: "Python中JPG文件的对比分析"
     content: |
-      利用 [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) 管理 JPG 图像差异。
+      利用 [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) 评估 JPG 图像比较。
       
       1. 从 [PyPi](https://pypi.org/project/groupdocs-comparison-net/) 安装 GroupDocs.Comparison。
-      2. 创建一个比较器对象并提供 JPG 文件的路径。
-      3. 至少再添加一个 JPG 文件进行比较。
-      4. 生成包含差异详细信息的报告。
+      2. 使用第一个 JPG 文件的路径创建一个 Comparer 对象。
+      3. 添加额外的 JPG 文件以进行彻底分析。
+      4. 编写一份详细说明比较差异的报告。
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "将 JPG 图像与 Python 进行比较"
+    title: "与 Python 的简化 JPG 比较"
     exclude: "JPG"
-    description: "使用 GroupDocs.Comparison for Python via .NET 库，快速识别 JPG 图像之间的差异。详细的报告有助于跟踪重要业务文件的更改。"
+    description: "利用 GroupDocs.Comparison for Python via .NET 库快速区分 JPG 图像。综合报告可以有效跟踪重要业务资产的变化。"
     items: 
         # format loop 1
         - name: "比较 PDF 个文件"

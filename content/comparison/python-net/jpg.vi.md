@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:45
+date:  2024-11-18T09:49:34
 draft: false
 lang: vi
 format: Jpg
@@ -12,42 +12,42 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "Tự động so sánh hình ảnh JPG với thư viện Python"
-head_description: "Sử dụng API GroupDocs.Comparison for Python via .NET để dễ dàng xác định và báo cáo sự khác biệt trong hình ảnh JPG."
+head_title: "So sánh động các hình ảnh JPG với Thư viện Python"
+head_description: "Sử dụng API GroupDocs.Comparison for Python via .NET để xác định và lập danh mục các khác biệt trong hình ảnh JPG một cách dễ dàng."
 
 ############################# Header ############################
-title: "Tạo báo cáo khác biệt về JPG trong ứng dụng Python via .NET" 
-description: "Tận dụng Python để so sánh các thay đổi của hình ảnh JPG trong ứng dụng Python của bạn. Báo cáo chi tiết cung cấp những hiểu biết có giá trị cho các giải pháp kinh doanh của bạn."
-subtitle: "Giải pháp so sánh tập tin" 
+title: "Tạo thông tin chi tiết từ sự khác biệt của JPG trong Python via .NET" 
+description: "Tối đa hóa tiềm năng của Python để nhận biết những thay đổi trong hình ảnh JPG trong giải pháp Python của bạn. Báo cáo toàn diện cung cấp thông tin quan trọng cho hoạt động chiến lược của bạn."
+subtitle: "Công cụ so sánh tập tin nâng cao" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Tải xuống miễn phí từ PyPi"
+    - title: "Nhận bản tải xuống miễn phí từ PyPi"
       link: "https://releases.groupdocs.com/comparison/python-net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Khám phá sức mạnh của API GroupDocs.Comparison for Python via .NET"
+    title: "Khám phá khả năng của API GroupDocs.Comparison for Python via .NET"
     link: "/comparison/python-net/"
     link_title: "Tìm hiểu thêm"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       Luôn cập nhật những thay đổi đối với hình ảnh JPG bằng GroupDocs.Comparison for Python via .NET. Phân tích dữ liệu chi tiết trong ứng dụng Python của bạn mà không cần thêm công cụ. Với mã tối thiểu, hãy nâng cao các giải pháp kinh doanh của bạn và tự động so sánh hình ảnh.
+       Cập nhật thông tin về những thay đổi của hình ảnh JPG bằng cách sử dụng GroupDocs.Comparison for Python via .NET. Phân tích các báo cáo toàn diện trong ứng dụng Python của bạn, nâng cao hiệu quả quy trình làm việc mà không yêu cầu mã hóa rộng rãi.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Cách phân tích các thay đổi của JPG bằng Python"
+    title: "Phân tích so sánh các tệp JPG trong Python"
     content: |
-      Tận dụng [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) để quản lý sự khác biệt của hình ảnh JPG.
+      Sử dụng [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) để đánh giá so sánh hình ảnh JPG.
       
       1. Cài đặt GroupDocs.Comparison từ [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
-      2. Tạo một đối tượng so sánh và cung cấp đường dẫn đến tệp JPG.
-      3. Thêm ít nhất một tệp JPG nữa để so sánh.
-      4. Tạo một báo cáo với các chi tiết về sự khác biệt.
+      2. Tạo đối tượng Comparer với đường dẫn đến tệp JPG đầu tiên của bạn.
+      3. Thêm các tệp JPG bổ sung để phân tích kỹ lưỡng.
+      4. Biên soạn một báo cáo chi tiết về sự khác biệt so sánh.
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "So sánh hình ảnh JPG với Python"
+    title: "So sánh JPG được sắp xếp hợp lý với Python"
     exclude: "JPG"
-    description: "Sử dụng thư viện GroupDocs.Comparison for Python via .NET, nhanh chóng xác định sự khác biệt giữa các hình ảnh JPG. Báo cáo chi tiết giúp theo dõi những thay đổi trong các hồ sơ kinh doanh quan trọng."
+    description: "Tận dụng thư viện GroupDocs.Comparison for Python via .NET để nhanh chóng phân biệt giữa các hình ảnh JPG. Báo cáo toàn diện cho phép theo dõi hiệu quả những thay đổi trong tài sản kinh doanh thiết yếu."
     items: 
         # format loop 1
         - name: "So sánh tập tin PDF"

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:43
+date:  2024-11-18T09:49:29
 draft: false
 lang: pt
 format: Less
@@ -12,42 +12,42 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "Compare LESS com a biblioteca Python"
-head_description: "Com GroupDocs.Comparison for Python via .NET, gere relatórios de comparação detalhados para aplicativos Python."
+head_title: "Compare LESS com eficiência usando a biblioteca Python"
+head_description: "Com GroupDocs.Comparison for Python via .NET, gere relatórios de comparação detalhados personalizados para aplicativos Python."
 
 ############################# Header ############################
-title: "Compare LESS em Python" 
-description: "GroupDocs.Comparison é uma biblioteca baseada em Python que permite comparar e identificar facilmente diferenças em arquivos LESS. Aumente a eficiência da sua solução em tarefas de comparação de documentos com esta ferramenta poderosa."
-subtitle: "Solução de comparação de arquivos" 
+title: "Analise diferenças de LESS em Python" 
+description: "GroupDocs.Comparison é uma biblioteca projetada para Python que simplifica o processo de comparação e destaque de discrepâncias em arquivos LESS. Melhore as suas capacidades de tratamento de documentos com esta solução inovadora."
+subtitle: "Ferramenta avançada de comparação de arquivos" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Baixe em PyPi gratuitamente"
+    - title: "Obtenha seu download gratuito em PyPi"
       link: "https://releases.groupdocs.com/comparison/python-net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Descubra os recursos do GroupDocs.Comparison for Python via .NET"
+    title: "Explore os recursos de GroupDocs.Comparison for Python via .NET"
     link: "/comparison/python-net/"
     link_title: "Saiba mais"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for Python via .NET é uma API projetada para comparar imagens e documentos no mesmo formato. Ele detecta diferenças em parágrafos, palavras, caracteres, formas e estilos de texto entre os arquivos comparados. Você pode mesclar essas alterações e salvá-las em um documento final. Ele suporta uma variedade de formatos, incluindo PDFs, documentos do Word, planilhas do Excel, apresentações do PowerPoint, diagramas do Visio, e-mails do Outlook, arquivos HTML, desenhos e vários formatos de imagem – tudo sem a necessidade de software adicional.
+       GroupDocs.Comparison for Python via .NET serve como uma API construída especificamente para comparar documentos e imagens em vários formatos. Ele identifica alterações em palavras, parágrafos, caracteres, formas e elementos de estilo entre os documentos. Você pode mesclar essas modificações de maneira conveniente e salvá-las como um documento final consolidado. Ele suporta uma ampla variedade de formatos, incluindo PDFs, documentos do Word, planilhas do Excel, apresentações do PowerPoint, Visio, arquivos HTML, imagens e muito mais – tudo isso sem ferramentas de terceiros.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Como comparar LESS usando Python"
+    title: "Como comparar LESS com eficiência usando Python"
     content: |
-      Use [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) para comparar arquivos LESS e gerar relatórios detalhados de diferenças.
+      Utilize [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) para realizar comparações detalhadas em arquivos LESS.
       
-      1. Instale GroupDocs.Comparison for Python via .NET por meio de [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
-      2. Crie um objeto Comparer e carregue o primeiro arquivo LESS.
-      3. Adicione o segundo arquivo LESS ao Comparador.
-      4. Gere um relatório abrangente descrevendo todas as diferenças detectadas.
+      1. Comece instalando GroupDocs.Comparison for Python via .NET por meio de [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
+      2. Instancie um objeto Comparer com o arquivo LESS inicial.
+      3. Integre o segundo arquivo LESS ao Comparador.
+      4. Compile um relatório detalhado delineando todas as discrepâncias identificadas.
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Compare formatos de documentos populares com Python"
+    title: "Compare perfeitamente vários formatos de arquivo usando Python"
     exclude: "LESS"
-    description: "Nossa API Python permite comparar facilmente documentos em uma ampla variedade de formatos, permitindo rastrear alterações e diferenças nos documentos com facilidade."
+    description: "Nossa API Python permite a comparação fácil de diversos formatos de documentos, simplificando o rastreamento de alterações nos documentos."
     items: 
         # format loop 1
         - name: "Comparar arquivos PDF"

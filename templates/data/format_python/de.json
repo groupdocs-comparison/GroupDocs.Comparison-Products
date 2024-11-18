@@ -1,27 +1,27 @@
 {
   "common": {
     "head": {
-      "title": "Vergleichen Sie {{FileFormatUp}} mit der {{ProgLang}}-Bibliothek",
-      "description": "Generieren Sie mit {{ProdFullName}} detaillierte Vergleichsberichte für {{Runtime}}-Anwendungen."
+      "title": "Vergleichen Sie {{FileFormatUp}} effizient mit der Bibliothek {{ProgLang}}",
+      "description": "Erstellen Sie mit {{ProdFullName}} ausführliche Vergleichsberichte, die auf {{Runtime}}-Anwendungen zugeschnitten sind."
     },
     "header": {
-      "title": "Vergleichen Sie {{FileFormatUp}} in {{Runtime}}",
-      "description": "{{ProdShortName}} ist eine {{Runtime}}-basierte Bibliothek, mit der Sie Unterschiede in {{FileFormatUp}}-Dateien einfach vergleichen und identifizieren können. Steigern Sie mit diesem leistungsstarken Tool die Effizienz Ihrer Lösung bei Dokumentenvergleichsaufgaben.",
-      "subtitle": "Dateivergleichslösung",
-      "action_title": "Kostenlos von {{PackageStoreName}} herunterladen"
+      "title": "Analysieren Sie {{FileFormatUp}}-Unterschiede in {{Runtime}}",
+      "description": "{{ProdShortName}} ist eine für {{Runtime}} entwickelte Bibliothek, die den Vergleich und die Hervorhebung von Diskrepanzen in {{FileFormatUp}}-Dateien vereinfacht. Erweitern Sie Ihre Möglichkeiten zur Dokumentenverarbeitung mit dieser innovativen Lösung.",
+      "subtitle": "Erweitertes Dateivergleichstool",
+      "action_title": "Holen Sie sich Ihren kostenlosen Download von {{PackageStoreName}}"
     },
     "about": {
       "title": "Entdecken Sie die Funktionen von {{ProdFullName}}",
-      "content": "{{ProdFullName}} ist eine API zum Vergleichen von Bildern und Dokumenten im gleichen Format. Es erkennt Unterschiede in Absätzen, Wörtern, Zeichen, Formen und Textstilen zwischen den verglichenen Dateien. Sie können diese Änderungen zusammenführen und in einem endgültigen Dokument speichern. Es unterstützt eine Vielzahl von Formaten, darunter PDFs, Word-Dokumente, Excel-Tabellen, PowerPoint-Präsentationen, Visio-Diagramme, Outlook-E-Mails, HTML-Dateien, Zeichnungen und mehrere Bildformate – und das alles ohne zusätzliche Software."
+      "content": "{{ProdFullName}} dient als API, die speziell für den Vergleich von Dokumenten und Bildern in verschiedenen Formaten entwickelt wurde. Es identifiziert Änderungen in Wörtern, Absätzen, Zeichen, Formen und Stilelementen zwischen den Dokumenten. Sie können diese Änderungen bequem zusammenführen und als konsolidiertes Enddokument speichern. Es unterstützt eine Vielzahl von Formaten, darunter PDFs, Word-Dokumente, Excel-Tabellen, PowerPoint-Präsentationen, Visio, HTML-Dateien, Bilder und vieles mehr – alles ohne Tools von Drittanbietern."
     },
     "steps": {
-      "title": "So vergleichen Sie {{FileFormatUp}} mit {{Runtime}}",
+      "title": "So vergleichen Sie {{FileFormatUp}} effizient mit {{Runtime}}",
       "content": {
-        "title": "Verwenden Sie [{{ProdShortName}}]({{ProductUrl}}), um {{FileFormatUp}}-Dateien zu vergleichen und detaillierte Differenzberichte zu erstellen.",
-        "step_1": "Installieren Sie {{ProdFullName}} über [{{PackageStoreName}}]({{PackageUrl}}).",
-        "step_2": "Erstellen Sie ein Comparer-Objekt und laden Sie die erste {{FileFormatUp}}-Datei.",
-        "step_3": "Fügen Sie die zweite {{FileFormatUp}}-Datei zum Comparer hinzu.",
-        "step_4": "Erstellen Sie einen umfassenden Bericht, in dem alle erkannten Unterschiede aufgeführt sind."
+        "title": "Verwenden Sie [{{ProdShortName}}]({{ProductUrl}}), um detaillierte Vergleiche für {{FileFormatUp}}-Dateien durchzuführen.",
+        "step_1": "Beginnen Sie mit der Installation von {{ProdFullName}} über [{{PackageStoreName}}]({{PackageUrl}}).",
+        "step_2": "Instanziieren Sie ein Comparer-Objekt mit der ursprünglichen {{FileFormatUp}}-Datei.",
+        "step_3": "Integrieren Sie die zweite {{FileFormatUp}}-Datei in den Comparer.",
+        "step_4": "Erstellen Sie einen detaillierten Bericht, in dem alle festgestellten Unstimmigkeiten aufgeführt sind."
       },
       "code": {
         "comments": {
@@ -33,260 +33,260 @@
       }
     },
     "formats": {
-      "title": "Vergleichen Sie beliebte Dokumentformate mit {{ProgLang}}",
-      "description": "Mit unserer {{Runtime}}-API können Sie Dokumente in einer Vielzahl von Formaten mühelos vergleichen und so Dokumentänderungen und -unterschiede problemlos verfolgen."
+      "title": "Vergleichen Sie nahtlos verschiedene Dateiformate mit {{ProgLang}}",
+      "description": "Unsere {{Runtime}}-API ermöglicht den mühelosen Vergleich verschiedener Dokumentformate und erleichtert so die Nachverfolgung von Änderungen in Dokumenten."
     }
   },
   "pdf": {
     "head": {
-      "title": "Vergleichen Sie PDFs über die {{ProgLang}}-Bibliothek",
-      "description": "Die {{ProdShortName}}-Software für {{Runtime}} generiert detaillierte Berichte, die Unterschiede in PDF-Dokumenten hervorheben."
+      "title": "Optimieren Sie PDF-Vergleiche mit der {{ProgLang}}-Bibliothek",
+      "description": "Die {{ProdShortName}}-Software für {{Runtime}} erstellt ausführliche Berichte, die Variationen in PDF-Dokumenten hervorheben."
     },
     "header": {
-      "title": "PDF-Vergleich für {{EnvName}}",
-      "description": "Nutzen Sie unsere Dokumentvergleichs-API in {{Runtime}}, um Unterschiede in PDF-Dateien in {{ProgLang}}-Anwendungen einfach zu identifizieren und anzuzeigen. Erhalten Sie schnell und effizient detaillierte Berichte."
+      "title": "PDF-Vergleich leicht gemacht für {{EnvName}}",
+      "description": "Nutzen Sie unsere PDF-Vergleichs-API innerhalb von {{Runtime}}, um Diskrepanzen in PDF-Dateien effektiv und einfach zu lokalisieren und darzustellen. Erhalten Sie schnellen Zugriff auf detaillierte Berichte ohne unnötige Komplexität."
     },
     "about": {
-      "title": "Hauptmerkmale der {{ProdFullName}}-Bibliothek",
-      "content": "Erstellen Sie detaillierte Berichte zu etwaigen Unterschieden in PDF-Dokumenten direkt in Ihren {{ProgLang}}-Anwendungen. Mit nur wenigen Codezeilen können Sie {{ProdFullName}} verwenden, ohne dass zusätzliche Software oder Bibliotheken erforderlich sind. Überwachen Sie Änderungen an Absätzen, Wörtern, Zeichen, Formen und Textstilen in Ihren PDFs. Sie können auch Änderungen aus mehreren Dokumentversionen in einem einzigen Ergebnis zusammenführen. Verarbeiten Sie Dokumente schnell, einfach und problemlos."
+      "title": "Enthüllung der wichtigsten Funktionen der {{ProdFullName}}-Bibliothek",
+      "content": "Erstellen Sie umfassende Berichte, die die in PDF-Dokumenten gefundenen Unterschiede direkt aus Ihren {{ProgLang}}-Anwendungen heraus identifizieren. Nutzen Sie {{ProdFullName}} mit minimalem Code, ohne zusätzliche Software zu benötigen. Verfolgen Sie Änderungen an Absätzen, Wörtern, Formaten, Formen und Stilen in Ihren PDFs. Kombinieren Sie außerdem Revisionen aus mehreren Versionen zu einem einheitlichen Ergebnis. Verarbeiten Sie PDFs schnell und mühelos."
     },
     "steps": {
-      "title": "So erhalten Sie PDF-Unterschiedsberichte in {{ProgLang}}",
+      "title": "Generieren Sie PDF-Unterschiedsberichte mit {{ProgLang}}",
       "content": {
-        "title": "Verfolgen Sie Änderungen in PDF-Dokumenten mit Berichten, die mit [{{ProdShortName}}]({{ProductUrl}}) erstellt wurden.",
-        "step_1": "Installieren Sie {{ProdShortName}} für {{EnvName}} über [{{PackageStoreName}}]({{PackageUrl}}).",
-        "step_2": "Erstellen Sie eine Comparer-Instanz und geben Sie den Pfad zur ersten PDF-Datei an.",
-        "step_3": "Fügen Sie zum Vergleich eine zweite PDF-Datei hinzu.",
-        "step_4": "Rufen Sie den Abschlussbericht ab, in dem die Unterschiede zwischen den Dateien detailliert aufgeführt sind."
+        "title": "Überwachen Sie Änderungen in PDF-Dokumenten mithilfe von Berichten, die von [{{ProdShortName}}]({{ProductUrl}}) erstellt wurden.",
+        "step_1": "Installieren Sie {{ProdShortName}} für {{EnvName}} mit [{{PackageStoreName}}]({{PackageUrl}}).",
+        "step_2": "Erstellen Sie eine Comparer-Instanz und geben Sie den Pfad für die erste PDF-Datei ein.",
+        "step_3": "Fügen Sie eine zweite PDF-Datei zum Vergleich ein.",
+        "step_4": "Extrahieren Sie den Abschlussbericht, der die Unterschiede zwischen den Dateien erläutert."
       },
       "code": {
         "comments": {
-          "comment_1": "Erstellen Sie einen Bericht, der Unterschiede in PDF-Dateien hervorhebt.",
-          "comment_2": "Erstellen Sie ein Comparer-Objekt mit der ersten Datei.",
-          "comment_3": "Fügen Sie die zweite Datei (oder mehrere) zum Vergleich hinzu.",
-          "comment_4": "Speichern Sie den generierten Bericht im von Ihnen gewählten Pfad."
+          "comment_1": "Erstellen Sie einen detaillierten Bericht, um Variationen in PDF-Dateien darzustellen.",
+          "comment_2": "Erstellen Sie ein Comparer-Objekt mit dem Pfad zum ersten PDF-Dokument.",
+          "comment_3": "Binden Sie für einen effektiven Vergleich die zweite oder mehrere Dateien ein.",
+          "comment_4": "Speichern Sie den generierten Bericht in Ihrem angegebenen Verzeichnis."
         }
       }
     },
     "formats": {
-      "title": "Vergleichen Sie gängige Formate wie PDF mit {{ProgLang}}",
-      "description": "Unsere {{Runtime}} API ermöglicht einen schnellen und effizienten Vergleich von PDF-Dateien. Verfolgen Sie Änderungen ganz einfach mit detaillierten Berichten."
+      "title": "Vergleichen Sie gängige Dateitypen wie PDF mit {{ProgLang}}",
+      "description": "Mit unserer {{Runtime}}-API können Sie PDF-Dateien schnell und genau vergleichen. Überwachen Sie Änderungen ganz einfach durch detaillierte Vergleichsberichte."
     }
   },
   "docx": {
     "head": {
-      "title": "Vergleichen Sie DOCX-Dokumente mit der {{Runtime}}-API",
-      "description": "Verfolgen Sie ganz einfach Unterschiede in MS Word DOCX-Dateien mit der {{ProdShortName}}-API für {{Runtime}}. Erstellen Sie detaillierte Berichte, um Änderungen zwischen Dokumenten hervorzuheben."
+      "title": "Vergleichen Sie DOCX-Dateien mühelos mit der {{Runtime}}-API",
+      "description": "Verfolgen und analysieren Sie Unterschiede in MS Word DOCX-Dokumenten mit der {{ProdShortName}}-API für {{Runtime}} und erstellen Sie umfassende Berichte, die Änderungen darlegen."
     },
     "header": {
-      "title": "Vergleichen Sie DOCX-Dateien in {{EnvName}}",
-      "description": "Nutzen Sie unsere Dokumentenverarbeitungs-API innerhalb von {{Runtime}}, um Änderungen in MS Word DOCX-Dateien schnell zu identifizieren und anzuzeigen. Profitieren Sie von der schnellen und problemlosen Berichtserstellung in Ihren {{EnvName}}-Anwendungen."
+      "title": "DOCX-Vergleich für {{EnvName}}",
+      "description": "Nutzen Sie unsere Dokumentenverarbeitungs-API in {{Runtime}}, um Änderungen in MS Word DOCX-Dateien schnell zu identifizieren und zusammenzufassen. Genießen Sie die nahtlose Berichterstellung innerhalb Ihrer Anwendungen."
     },
     "about": {
       "title": "Entdecken Sie die Funktionen von {{ProdFullName}}",
-      "content": "{{ProdShortName}} bietet umfassende Berichte, die Änderungen in verschiedenen Versionen von DOCX-Dokumenten hervorheben. Integrieren Sie mit nur wenigen Codezeilen {{EnvName}} und unsere API in Ihren Workflow, ohne dass zusätzliche Bibliotheken erforderlich sind. Erkennen Sie Änderungen an Seiten, Text, Textstilen oder Formen in MS Word-Dokumenten. Sie können sogar Änderungen zusammenführen, um ein endgültiges DOCX-Dokument zu erstellen. Erweitern Sie Ihre Möglichkeiten zur Dokumentenverarbeitung mit unserer leistungsstarken API."
+      "content": "{{ProdShortName}} bietet umfassende Einblicke in Änderungen in verschiedenen Versionen von DOCX-Dokumenten. Mit ein paar Codezeilen können Sie {{EnvName}} und unsere API in Ihren Workflow integrieren, ohne dass zusätzliche Bibliotheken erforderlich sind. Ermitteln Sie Änderungen an Inhalten, Textstilen und Layouts in Word-Dokumenten. Sie können sogar Variationen konsolidieren, um eine aktualisierte DOCX-Datei zu erstellen. Verbessern Sie Ihre Dokumentenverwaltungsprozesse mit unserer robusten API."
     },
     "steps": {
-      "title": "Generieren Sie DOCX-Vergleichsberichte in {{ProgLang}}",
+      "title": "Erstellen Sie DOCX-Vergleichsberichte mit {{ProgLang}}",
       "content": {
-        "title": "Verwenden Sie [{{ProdShortName}}]({{ProductUrl}}) mit {{EnvName}}, um DOCX-Dateien zu vergleichen.",
-        "step_1": "Installieren Sie {{ProdShortName}} für {{EnvName}} über [{{PackageStoreName}}]({{PackageUrl}}).",
-        "step_2": "Erstellen Sie eine Comparer-Instanz und geben Sie den Pfad zur ersten DOCX-Datei an.",
-        "step_3": "Fügen Sie zum Vergleich weitere DOCX-Dateien hinzu.",
-        "step_4": "Überprüfen Sie den generierten Bericht und greifen Sie auf die Ergebnisse zu."
+        "title": "Nutzen Sie [{{ProdShortName}}]({{ProductUrl}}) zusammen mit {{EnvName}}, um Unterschiede in DOCX-Dateien zu bewerten.",
+        "step_1": "Erhalten Sie {{ProdShortName}} für {{EnvName}} über [{{PackageStoreName}}]({{PackageUrl}}).",
+        "step_2": "Richten Sie eine Comparer-Instanz ein und geben Sie den Pfad zur ursprünglichen DOCX-Datei weiter.",
+        "step_3": "Fügen Sie nach Bedarf weitere DOCX-Dateien für eine vergleichende Analyse hinzu.",
+        "step_4": "Bewerten Sie den erstellten Bericht und überprüfen Sie Ihre Ergebnisse."
       },
       "code": {
         "comments": {
-          "comment_1": "Erhalten Sie detaillierte Informationen zu DOCX-Änderungen.",
-          "comment_2": "Initialisieren Sie den Comparer mit der ersten DOCX-Datei.",
-          "comment_3": "Fügen Sie zum Vergleich weitere DOCX-Dateien hinzu.",
-          "comment_4": "Speichern Sie den Vergleichsbericht lokal."
+          "comment_1": "Erhalten Sie detaillierte Einblicke in Änderungen an DOCX-Dateien.",
+          "comment_2": "Initialisieren Sie den Comparer mit der ersten DOCX-Datei als Referenz.",
+          "comment_3": "Fügen Sie für einen gründlichen Vergleich zusätzliche DOCX-Dateien hinzu.",
+          "comment_4": "Archivieren Sie den Vergleichsbericht nach Bedarf."
         }
       }
     },
     "formats": {
-      "title": "Vergleichen Sie DOCX-Dokumente mit {{ProgLang}}",
-      "description": "Vergleichen Sie ganz einfach jede MS Word DOCX-Datei mit {{ProdFullName}} und erhalten Sie wertvolle Einblicke in Dokumentänderungen."
+      "title": "Vergleichen Sie beliebige DOCX-Dokumente mit {{ProgLang}}",
+      "description": "Nutzen Sie {{ProdFullName}}, um beliebige MS Word DOCX-Dateien zu analysieren und wertvolle Erkenntnisse über Dokumentrevisionen zu gewinnen."
     }
   },
   "png": {
     "head": {
-      "title": "{{ProgLang}} API zum Vergleichen von PNG-Bildern",
-      "description": "Die {{ProdFullName}}-Bibliothek generiert detaillierte Berichte, die Unterschiede in PNG-Bildern hervorheben."
+      "title": "Vergleichen Sie PNG-Bilder mit der {{ProgLang}}-API",
+      "description": "Die {{ProdFullName}}-Bibliothek erstellt detaillierte Berichte, die Unterschiede zwischen PNG-Bilddateien aufdecken."
     },
     "header": {
-      "title": "Vergleichen Sie PNG-Bilder in {{Runtime}}-Anwendungen mit Python",
-      "description": "Nutzen Sie die {{Runtime}}-API, um Änderungen in PNG-Dateien in Ihren {{ProgLang}}-Anwendungen zu erkennen. Erhalten Sie schnell und einfach umfassende Berichte."
+      "title": "Analysieren Sie PNG-Bilder in {{Runtime}}",
+      "description": "Nutzen Sie die {{Runtime}}-API, um Diskrepanzen in PNG-Dateien nahtlos in Ihren {{ProgLang}}-Anwendungen aufzudecken. Erhalten Sie mühelos umfassende Berichte."
     },
     "about": {
       "title": "Entdecken Sie die Funktionen der {{ProdFullName}} API",
-      "content": "Erstellen Sie detaillierte Berichte über Unterschiede zwischen verschiedenen Versionen von PNG-Bildern direkt in Ihren {{ProgLang}}-Anwendungen – keine Software von Drittanbietern erforderlich. Bleiben Sie über alle Änderungen an Ihren PNG-Bildern auf dem Laufenden."
+      "content": "Erstellen Sie direkt in Ihren {{ProgLang}}-Anwendungen umfassende Berichte mit detaillierten Angaben zu Diskrepanzen zwischen Versionen von PNG-Bildern – ohne auf zusätzliche Software angewiesen zu sein. Bleiben Sie über alle Änderungen an Ihren PNG-Bildern auf dem Laufenden."
     },
     "steps": {
-      "title": "So erstellen Sie Vergleichsberichte für PNG-Bilder in {{ProgLang}}",
+      "title": "Generieren Sie Vergleichsberichte für PNG-Bilder mit {{ProgLang}}",
       "content": {
-        "title": "Verfolgen Sie Änderungen in PNG-Dateien mit [{{ProdShortName}}]({{ProductUrl}}) und erstellen Sie ganz einfach Berichte.",
-        "step_1": "Installieren Sie das Paket {{ProdShortName}} über [{{PackageStoreName}}]({{PackageUrl}}).",
-        "step_2": "Erstellen Sie ein Comparer-Objekt und geben Sie den Pfad zur ersten PNG-Datei an.",
-        "step_3": "Fügen Sie eine oder mehrere PNG-Dateien zum Vergleich hinzu.",
-        "step_4": "Rufen Sie einen detaillierten Bericht mit allen Unterschieden ab."
+        "title": "Überwachen Sie Änderungen in PNG-Dateien mit [{{ProdShortName}}]({{ProductUrl}}) und erstellen Sie mühelos Berichte.",
+        "step_1": "Beziehen Sie das Paket {{ProdShortName}} über [{{PackageStoreName}}]({{PackageUrl}}).",
+        "step_2": "Instanziieren Sie einen Comparer und geben Sie den Pfad für das erste PNG-Bild ein.",
+        "step_3": "Fügen Sie eine oder mehrere PNG-Dateien für eine vergleichende Studie hinzu.",
+        "step_4": "Greifen Sie auf einen umfassenden Bericht zu, in dem alle visuellen Abweichungen detailliert aufgeführt sind."
       },
       "code": {
         "comments": {
-          "comment_1": "Erstellen Sie einen Bericht, der Änderungen in PNG-Dateien hervorhebt.",
-          "comment_2": "Instanziieren Sie den Comparer mit der ersten PNG-Datei.",
-          "comment_3": "Fügen Sie zum Vergleich weitere PNG-Dateien hinzu.",
-          "comment_4": "Speichern Sie den Bericht oder zeigen Sie ihn mit allen identifizierten Unterschieden an."
+          "comment_1": "Erstellen Sie einen Bericht, der Änderungen zwischen PNG-Bildern dokumentiert.",
+          "comment_2": "Initialisieren Sie den Comparer mit der ersten zu startenden PNG-Datei.",
+          "comment_3": "Integrieren Sie zusätzliche PNG-Dateien für einen detaillierten Vergleich.",
+          "comment_4": "Speichern oder zeigen Sie den Bericht an, der alle identifizierten Änderungen widerspiegelt."
         }
       }
     },
     "formats": {
-      "title": "Vergleichen Sie Bilder in gängigen Formaten wie PNG",
-      "description": "Verwenden Sie {{ProdFullName}}, um Unterschiede zwischen PNG-Bildern zu identifizieren und detaillierte Berichte zu erstellen, um wichtige Änderungen im Auge zu behalten."
+      "title": "Vergleichen Sie Bilder in Formaten wie PNG",
+      "description": "Verwenden Sie {{ProdFullName}}, um Unterschiede zwischen PNG-Bildern zu ermitteln und detaillierte Berichte zu erstellen, um wesentliche Änderungen zu verfolgen."
     }
   },
   "jpeg": {
     "head": {
-      "title": "{{Runtime}}-Bibliothek zur Automatisierung des JPEG-Bildvergleichs",
-      "description": "Entdecken Sie die Funktionen der {{ProdFullName}}-API zum Erkennen und Melden von Unterschieden in JPEG-Bildern."
+      "title": "Automatisieren Sie JPEG-Vergleiche mit der {{Runtime}}-Bibliothek",
+      "description": "Mit der {{ProdFullName}}-API können Sie mühelos Unterschiede in JPEG-Bildern erkennen und dokumentieren."
     },
     "header": {
-      "title": "Vergleichen Sie JPEG-Bilder und erstellen Sie Berichte mit {{EnvName}}",
-      "description": "Eine robuste {{Runtime}}-Lösung zum Verfolgen von Änderungen in JPEG-Bildern in Ihren {{ProgLang}}-Anwendungen. Detaillierte Berichte liefern wertvolle Erkenntnisse für Ihr Unternehmen."
+      "title": "JPEG-Bilder nahtlos mit {{EnvName}} vergleichen",
+      "description": "Nutzen Sie die Funktionen von {{Runtime}}, um Änderungen in JPEG-Bildern zu überwachen, die in Ihre {{ProgLang}}-Anwendungen integriert sind. Erstellen Sie informative Berichte, die die Entscheidungsfindung verbessern."
     },
     "about": {
-      "title": "Entdecken Sie die Funktionen von {{ProdFullName}}",
-      "content": "Erhalten Sie detaillierte Berichte über Änderungen in JPEG-Bildern mit der {{ProdFullName}}-API. Analysieren Sie die Daten in Ihren {{ProgLang}}-Anwendungen ganz einfach, ohne dass zusätzliche Bibliotheken erforderlich sind. Verbessern Sie Ihre Geschäftsabläufe, indem Sie nur wenige Codezeilen hinzufügen."
+      "title": "Schalten Sie die Funktionen von {{ProdFullName}} frei",
+      "content": "Nutzen Sie die {{ProdFullName}}-API, um Änderungen in JPEG-Bildern präzise zu analysieren. Extrahieren Sie bequem Erkenntnisse mit Ihrer {{ProgLang}}-Umgebung und optimieren Sie Geschäftsprozesse mit minimalem Aufwand."
     },
     "steps": {
-      "title": "So analysieren Sie JPEG-Bildänderungen mit {{ProgLang}}",
+      "title": "Schritte zum Vergleichen von JPEG-Bildern in {{ProgLang}}",
       "content": {
-        "title": "Verwenden Sie [{{ProdShortName}}]({{ProductUrl}}), um Unterschiede in JPEG-Bildern zu erkennen und zu verwalten.",
-        "step_1": "Installieren Sie {{ProdShortName}} von [{{PackageStoreName}}]({{PackageUrl}}).",
-        "step_2": "Erstellen Sie ein Vergleichsobjekt und geben Sie den Pfad zur JPEG-Datei an.",
-        "step_3": "Fügen Sie zum Vergleich mindestens eine weitere JPEG-Datei hinzu.",
-        "step_4": "Erstellen Sie den Vergleichsbericht und speichern Sie ihn im JPEG-Format."
+        "title": "Setzen Sie [{{ProdShortName}}]({{ProductUrl}}) ein, um JPEG-Diskrepanzen zu erkennen und zu verwalten.",
+        "step_1": "Installieren Sie {{ProdShortName}} über [{{PackageStoreName}}]({{PackageUrl}}).",
+        "step_2": "Starten Sie eine Vergleichsinstanz mit dem Pfad zu Ihrer JPEG-Datei.",
+        "step_3": "Binden Sie zur Auswertung eine weitere JPEG-Datei ein.",
+        "step_4": "Erstellen Sie einen umfassenden Bericht mit den Vergleichen im JPEG-Format."
       },
       "code": {
         "comments": {
-          "comment_1": "Verarbeiten Sie JPEG-Bilder, um einen Differenzbericht zu erstellen.",
-          "comment_2": "Instanziieren Sie ein Comparer-Objekt mit der ersten JPEG-Datei.",
-          "comment_3": "Fügen Sie zusätzliche JPEG-Dateien zur Analyse hinzu.",
-          "comment_4": "Erhalten Sie einen Bericht mit detaillierten Angaben zu den Unterschieden zwischen den Bildern."
+          "comment_1": "Erstellen Sie einen detaillierten Bericht, der die JPEG-Unterschiede hervorhebt.",
+          "comment_2": "Erstellen Sie eine Comparer-Instanz, die mit dem ersten JPEG-Bild initialisiert wird.",
+          "comment_3": "Fügen Sie alle zusätzlichen JPEG-Bilder zur Auswertung hinzu.",
+          "comment_4": "Erstellen Sie einen Bericht, der die verschiedenen beobachteten Unterschiede darlegt."
         }
       }
     },
     "formats": {
-      "title": "Vergleichen Sie JPEG-Bilder mit {{ProgLang}}",
-      "description": "Die {{ProdFullName}}-API liefert detaillierte Berichte über Unterschiede in JPEG-Dateien. Mit diesen Berichten können Sie Änderungen in wichtigen Geschäftsbildern problemlos verfolgen."
+      "title": "Effiziente JPEG-Vergleiche mit {{ProgLang}}",
+      "description": "Mit der {{ProdFullName}}-API können Sie detaillierte Berichte über Abweichungen in JPEG-Dateien erstellen und so die Überwachung kritischer Änderungen in Geschäftsbildern vereinfachen."
     }
   },
   "jpg": {
     "head": {
-      "title": "Automatisierter Vergleich von JPG-Bildern mit der {{Runtime}}-Bibliothek",
-      "description": "Verwenden Sie die {{ProdFullName}}-API, um Unterschiede in JPG-Bildern einfach zu identifizieren und zu melden."
+      "title": "Dynamischer Vergleich von JPG-Bildern mit der {{Runtime}}-Bibliothek",
+      "description": "Nutzen Sie die {{ProdFullName}}-API, um Unterschiede in JPG-Bildern ganz einfach zu erkennen und zu katalogisieren."
     },
     "header": {
-      "title": "Generieren Sie JPG-Unterschiedsberichte in {{EnvName}}-Anwendungen",
-      "description": "Nutzen Sie {{Runtime}}, um JPG-Bildänderungen in Ihren {{ProgLang}}-Anwendungen zu vergleichen. Detaillierte Berichte liefern wertvolle Erkenntnisse für Ihre Geschäftslösungen."
+      "title": "Erkenntnisse aus JPG-Unterschieden in {{EnvName}} generieren",
+      "description": "Maximieren Sie das Potenzial von {{Runtime}}, um Änderungen in JPG-Bildern in Ihren {{ProgLang}}-Lösungen zu erkennen. Umfassende Berichte liefern wichtige Informationen für Ihre strategischen Operationen."
     },
     "about": {
-      "title": "Entdecken Sie die Leistungsfähigkeit der {{ProdFullName}} API",
-      "content": "Bleiben Sie mit {{ProdFullName}} über Änderungen an JPG-Bildern auf dem Laufenden. Analysieren Sie detaillierte Daten in Ihren {{ProgLang}}-Apps, ohne dass zusätzliche Tools erforderlich sind. Verbessern Sie mit minimalem Code Ihre Geschäftslösungen und automatisieren Sie Bildvergleiche."
+      "title": "Entdecken Sie die Funktionen der {{ProdFullName}}-API",
+      "content": "Bleiben Sie mit {{ProdFullName}} über Änderungen an JPG-Bildern auf dem Laufenden. Analysieren Sie umfassende Berichte in Ihren {{ProgLang}}-Anwendungen und verbessern Sie so die Effizienz des Arbeitsablaufs, ohne dass umfangreiche Programmierung erforderlich ist."
     },
     "steps": {
-      "title": "So analysieren Sie JPG-Änderungen mit {{ProgLang}}",
+      "title": "Vergleichende Analyse von JPG-Dateien in {{ProgLang}}",
       "content": {
-        "title": "Nutzen Sie [{{ProdShortName}}]({{ProductUrl}}), um JPG-Bildunterschiede zu verwalten.",
+        "title": "Verwenden Sie [{{ProdShortName}}]({{ProductUrl}}), um JPG-Bildvergleiche auszuwerten.",
         "step_1": "Installieren Sie {{ProdShortName}} von [{{PackageStoreName}}]({{PackageUrl}}).",
-        "step_2": "Erstellen Sie ein Vergleichsobjekt und geben Sie den Pfad zur JPG-Datei an.",
-        "step_3": "Fügen Sie zum Vergleich mindestens eine weitere JPG-Datei hinzu.",
-        "step_4": "Erstellen Sie einen Bericht mit Details zu den Unterschieden."
+        "step_2": "Erstellen Sie ein Comparer-Objekt mit dem Pfad zu Ihrer ersten JPG-Datei.",
+        "step_3": "Fügen Sie für eine gründliche Analyse zusätzliche JPG-Dateien hinzu.",
+        "step_4": "Erstellen Sie einen Bericht mit detaillierten Angaben zu den Vergleichsunterschieden."
       },
       "code": {
         "comments": {
-          "comment_1": "Erstellen Sie einen Bericht zum Vergleich von JPG-Dateien.",
-          "comment_2": "Instanziieren Sie ein neues Comparer-Objekt mit der ersten JPG-Datei.",
-          "comment_3": "Fügen Sie zum Vergleich weitere JPG-Dateien hinzu.",
-          "comment_4": "Erstellen Sie einen Bericht mit detaillierten Informationen zu den Unterschieden zwischen JPG-Bildern."
+          "comment_1": "Führen Sie eine Berichterstellung für JPG-Bildunterschiede durch.",
+          "comment_2": "Initialisieren Sie den Comparer mit dem primären JPG-Bild.",
+          "comment_3": "Integrieren Sie weitere JPG-Dateien zur gründlichen Beurteilung.",
+          "comment_4": "Dokumentieren Sie detaillierte Unterschiede in einem Bericht."
         }
       }
     },
     "formats": {
-      "title": "Vergleichen Sie JPG-Bilder mit {{ProgLang}}",
-      "description": "Mithilfe der {{ProdFullName}}-Bibliothek können Sie schnell Unterschiede zwischen JPG-Bildern erkennen. Detaillierte Berichte helfen dabei, Änderungen in wichtigen Geschäftsdateien zu verfolgen."
+      "title": "Optimierte JPG-Vergleiche mit {{ProgLang}}",
+      "description": "Nutzen Sie die {{ProdFullName}}-Bibliothek, um schnell zwischen JPG-Bildern zu unterscheiden. Umfassende Berichte ermöglichen eine effiziente Verfolgung von Verschiebungen wesentlicher Unternehmensressourcen."
     }
   },
   "xlsx": {
     "head": {
-      "title": "Vergleichen Sie XLSX-Tabelleninhalte mit der {{Runtime}}-API",
-      "description": "Überprüfen Sie ganz einfach Unterschiede in MS Excel-Tabellen mit unserer {{Runtime}}-API, die detaillierte Berichte generiert, in denen alle Unterschiede hervorgehoben werden."
+      "title": "Analysieren Sie XLSX-Inhaltsunterschiede mithilfe der {{Runtime}}-API",
+      "description": "Bewerten Sie mühelos Unterschiede in Excel-Tabellen mithilfe der {{Runtime}}-API, die ausführliche Berichte über alle gefundenen Unterschiede liefert."
     },
     "header": {
-      "title": "XLSX-Tabellenvergleich in {{EnvName}}-Anwendungen",
-      "description": "Verwenden Sie die Dokumentverarbeitungsbibliothek {{Runtime}}, um Änderungen in MS Excel XLSX-Dateien in {{EnvName}}-Anwendungen zu erkennen und hervorzuheben. Erstellen Sie schnell und einfach Berichte."
+      "title": "XLSX-Tabellenanalyse in {{EnvName}}",
+      "description": "Integrieren Sie die Dokumentverarbeitungsbibliothek {{Runtime}}, um Änderungen in XLSX-Tabellen zu identifizieren und hervorzuheben, die in Softwarelösungen von {{EnvName}} integriert sind."
     },
     "about": {
-      "title": "Entdecken Sie die Vorteile von {{ProdShortName}}",
-      "content": "Erstellen Sie mit {{ProdShortName}} umfassende Berichte, die detaillierte Daten zu Änderungen in verschiedenen Versionen von XLSX-Dateien liefern. Mit nur wenigen Codezeilen können Sie die API nahtlos in Ihre {{EnvName}}-Anwendungen integrieren, ohne dass zusätzliche Tools erforderlich sind. Analysieren Sie Unterschiede in Blättern, Texten, Stilen oder Formen in MS Excel-Dateien und führen Sie die Änderungen in einem endgültigen XLSX-Dokument zusammen. Verbessern Sie Ihre Geschäftsabläufe mit unseren leistungsstarken Lösungen."
+      "title": "Erleben Sie die Vorteile von {{ProdShortName}}",
+      "content": "Generieren Sie mit {{ProdShortName}} ausführliche Berichte, die Änderungen über mehrere XLSX-Versionen hinweg zusammenfassen. Betten Sie die API mühelos mit minimalem Codierungsaufwand in Ihre {{EnvName}}-Anwendungen ein und analysieren Sie Unterschiede in Blättern, Texten und mehr. Verbessern Sie Ihre Geschäftsabläufe mit unseren fortschrittlichen Lösungen."
     },
     "steps": {
-      "title": "So vergleichen Sie XLSX-Dateien in {{ProgLang}}",
+      "title": "Vergleichen Sie XLSX-Dateien effizient in {{ProgLang}}",
       "content": {
-        "title": "Verwenden Sie [{{ProdShortName}}]({{ProductUrl}}) und {{EnvName}}, um XLSX-Dokumente zu vergleichen",
-        "step_1": "Installieren Sie {{ProdShortName}} für {{EnvName}} von [{{PackageStoreName}}]({{PackageUrl}})",
-        "step_2": "Instanziieren Sie das Comparer-Objekt und geben Sie den Pfad zur ersten XLSX-Datei an",
-        "step_3": "Fügen Sie zum Vergleich weitere XLSX-Dateien hinzu",
-        "step_4": "Generieren und überprüfen Sie die Vergleichsergebnisse"
+        "title": "Nutzen Sie [{{ProdShortName}}]({{ProductUrl}}) und {{EnvName}} für zuverlässige XLSX-Vergleiche",
+        "step_1": "Erhalten Sie {{ProdShortName}} für {{EnvName}} von [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Erstellen Sie ein Comparer-Objekt und geben Sie den Pfad für das ursprüngliche XLSX-Dokument ein.",
+        "step_3": "Fügen Sie weitere XLSX-Dateien für umfassende Vergleiche hinzu.",
+        "step_4": "Bereiten Sie die Ergebnisse Ihrer Vergleiche vor, überprüfen und dokumentieren Sie sie."
       },
       "code": {
         "comments": {
-          "comment_1": "Rufen Sie einen Bericht mit detaillierten Änderungen in XLSX-Dateien ab",
-          "comment_2": "Erstellen Sie ein neues Comparer-Objekt mit der ersten XLSX-Datei",
-          "comment_3": "Fügen Sie weitere XLSX-Dateien zum Vergleich hinzu",
-          "comment_4": "Speichern Sie den generierten Bericht lokal"
+          "comment_1": "Extrahieren Sie Berichte, die in XLSX-Dokumenten gefundene Änderungen interpretieren.",
+          "comment_2": "Erstellen Sie eine neue Comparer-Instanz mit der ursprünglichen XLSX-Datei.",
+          "comment_3": "Fügen Sie zu Vergleichszwecken ergänzende XLSX-Dateien hinzu.",
+          "comment_4": "Speichern Sie die resultierenden Berichte sicher lokal."
         }
       }
     },
     "formats": {
-      "title": "Vergleichen Sie XLSX-Tabellen mit {{ProgLang}}",
-      "description": "Vergleichen Sie ganz einfach MS Excel XLSX-Tabellen mit der {{ProdFullName}}-API. Erhalten Sie mit unseren detaillierten Berichten tiefe Einblicke in Änderungen in Ihren Geschäftsdaten."
+      "title": "Vergleichen Sie XLSX-Dateien effizient mit {{ProgLang}}",
+      "description": "Heben Sie mit der {{ProdFullName}}-API ganz einfach wichtige Unterschiede in MS Excel XLSX-Dokumenten hervor und liefern Sie wertvolle Einblicke in Ihre Unternehmensdaten."
     }
   },
   "pptx": {
     "head": {
-      "title": "PPTX-Dateien mit {{EnvName}} vergleichen",
-      "description": "Analysieren Sie PPTX-Präsentationen mit {{ProdShortName}} unter Verwendung von {{EnvName}} und erstellen Sie genaue Berichte, die inhaltliche Unterschiede hervorheben."
+      "title": "Bewerten Sie PPTX-Unterschiede mit {{EnvName}} mit {{ProdFullName}}",
+      "description": "Untersuchen Sie problemlos Änderungen in PPTX-Präsentationen und erstellen Sie präzise Berichte, die inhaltliche Abweichungen widerspiegeln."
     },
     "header": {
-      "title": "PPTX-Präsentationsvergleich in {{EnvName}}",
-      "description": "Nutzen Sie die Dokumentverarbeitungs-API in {{Runtime}}, um Änderungen in MS PowerPoint PPTX-Präsentationen in {{EnvName}}-Anwendungen zu erkennen und anzuzeigen. Optimieren Sie Ihre Geschäftsabläufe durch schnelle und einfache Analysen."
+      "title": "Effizienter Vergleich von PPTX-Präsentationen in {{EnvName}}",
+      "description": "Nutzen Sie die Dokumentverarbeitungsfunktionen von {{Runtime}}, um Variationen innerhalb von PPTX-Präsentationen in Ihren {{EnvName}}-Anwendungen zu identifizieren und zu melden und so Ihren Arbeitsablauf zu optimieren."
     },
     "about": {
-      "title": "Entdecken Sie die Funktionen von {{ProdFullName}}",
-      "content": "Generieren Sie mit {{ProdShortName}} detaillierte Berichte über Änderungen in verschiedenen Versionen von PPTX-Dateien. Integrieren Sie die Lösung ganz einfach mit nur wenigen Codezeilen in Ihre {{EnvName}}-Anwendungen. Analysieren Sie Unterschiede in Folien, Text, Formatierung oder Formen in MS PowerPoint-Präsentationen. Sie können die Änderungen auch in einer endgültigen PPTX-Datei zusammenführen. Verbessern Sie Ihre Geschäftsprojekte mit dieser leistungsstarken Lösung."
+      "title": "Entdecken Sie die wichtigsten Funktionen von {{ProdFullName}}",
+      "content": "Erstellen Sie mit {{ProdShortName}} umfassende Berichte, die die Änderungen in verschiedenen PPTX-Versionen detailliert beschreiben. Implementieren Sie diese Lösung nahtlos in Ihre {{EnvName}}-Anwendungen und analysieren Sie Unterschiede in Folien, Texten und Formaten. Führen Sie Variationen in konsolidierten PPTX-Dateien zusammen, um Ihre Geschäftsanstrengungen zu verbessern."
     },
     "steps": {
-      "title": "Berichte für PPTX-Dateiunterschiede in {{ProgLang}} erstellen",
+      "title": "Dokumentieren von PPTX-Unterschieden in {{ProgLang}}",
       "content": {
-        "title": "Verwenden Sie [{{ProdShortName}}]({{ProductUrl}}), um PPTX-Präsentationen zu vergleichen",
-        "step_1": "Installieren Sie {{ProdShortName}} von [{{PackageStoreName}}]({{PackageUrl}})",
-        "step_2": "Erstellen Sie ein Comparer-Objekt für die erste PPTX-Datei",
-        "step_3": "Fügen Sie zum Vergleich weitere PPTX-Dateien hinzu",
-        "step_4": "Rufen Sie den Vergleichsbericht ab und überprüfen Sie ihn"
+        "title": "Wenden Sie [{{ProdShortName}}]({{ProductUrl}}) an, um PPTX-Präsentationen zu vergleichen",
+        "step_1": "Erwerben Sie {{ProdShortName}} über [{{PackageStoreName}}]({{PackageUrl}})",
+        "step_2": "Erstellen Sie eine Comparer-Instanz für die erste PPTX-Präsentation.",
+        "step_3": "Fügen Sie für vollständige Vergleiche weitere PPTX-Dateien hinzu.",
+        "step_4": "Sammeln Sie die Ergebnisse und prüfen Sie den erstellten Bericht."
       },
       "code": {
         "comments": {
-          "comment_1": "Rufen Sie Daten zu PPTX-Dateiänderungen ab",
-          "comment_2": "Initialisieren Sie den Comparer mit der ersten PPTX-Datei",
-          "comment_3": "Fügen Sie andere PPTX-Dateien hinzu",
-          "comment_4": "Speichern Sie das Vergleichsergebnis lokal"
+          "comment_1": "Sammeln Sie Daten zu Änderungen in PPTX-Präsentationen.",
+          "comment_2": "Initialisieren Sie den Comparer mit der ersten PPTX-Dateieingabe.",
+          "comment_3": "Integrieren Sie andere PPTX-Dateien für einen aussagekräftigen Vergleich.",
+          "comment_4": "Dokumentieren Sie die generierten Ergebnisse sicher."
         }
       }
     },
     "formats": {
-      "title": "Vergleichen Sie PPTX-Präsentationen mit {{ProgLang}}",
-      "description": "Vergleichen Sie ganz einfach MS PowerPoint PPTX-Präsentationen mit {{ProdFullName}}. Erstellen Sie detaillierte Berichte, die Einblicke in Änderungen in Ihren Geschäftspräsentationen bieten."
+      "title": "Erleichtern Sie den PPTX-Vergleich mit {{ProgLang}}",
+      "description": "Verwalten und vergleichen Sie ganz einfach MS PowerPoint PPTX-Präsentationen mit {{ProdFullName}}, um aufschlussreiche Berichte zu erstellen, die Änderungen in wichtigen Geschäftspräsentationen widerspiegeln."
     }
   }
 }

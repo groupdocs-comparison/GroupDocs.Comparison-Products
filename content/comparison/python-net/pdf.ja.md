@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:45
+date:  2024-11-18T09:49:33
 draft: false
 lang: ja
 format: Pdf
@@ -12,42 +12,42 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "Python ライブラリを介して PDF を比較"
-head_description: "Python 用の GroupDocs.Comparison ソフトウェアは、PDF ドキュメントの違いを強調する詳細なレポートを生成します。"
+head_title: "Python ライブラリを使用して PDF 比較を効率化"
+head_description: "Python 用の GroupDocs.Comparison ソフトウェアは、PDF ドキュメントのバリエーションを強調する詳細なレポートを作成します。"
 
 ############################# Header ############################
-title: "Python via .NET の PDF 比較" 
-description: "Python のドキュメント比較 API を活用して、Python アプリケーション内の PDF ファイルの違いを簡単に特定して表示します。詳細なレポートを迅速かつ効率的に入手できます。"
-subtitle: "ファイル比較ソリューション" 
+title: "Python via .NET で PDF の比較が簡単に" 
+description: "Python 内で PDF 比較 API を利用すると、PDF ファイルの不一致を効果的に特定し、簡単に提示できます。不必要に複雑にすることなく、詳細なレポートにすばやくアクセスできます。"
+subtitle: "高度なファイル比較ツール" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "PyPi から無料でダウンロード"
+    - title: "PyPi から無料でダウンロードしてください"
       link: "https://releases.groupdocs.com/comparison/python-net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Comparison for Python via .NET ライブラリの主な機能"
+    title: "GroupDocs.Comparison for Python via .NET ライブラリの主な機能を明らかにする"
     link: "/comparison/python-net/"
     link_title: "さらに詳しく"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       PDF ドキュメント内の相違点に関する詳細なレポートを Python アプリケーションで直接生成します。追加のソフトウェアやライブラリを必要とせず、わずか数行のコードで GroupDocs.Comparison for Python via .NET を使用できます。 PDF 内の段落、単語、文字、図形、テキスト スタイルの変更を監視します。複数のドキュメント バージョンからの変更を 1 つの結果にマージすることもできます。手間をかけずに文書を迅速かつ簡単に処理します。
+       PDF ドキュメントで見つかった相違点を特定する包括的なレポートを Python アプリケーションから直接作成します。最小限のコードで、追加のソフトウェアを必要とせずに GroupDocs.Comparison for Python via .NET を活用できます。 PDF 内の段落、単語、形式、図形、スタイルにわたる変更を追跡します。さらに、複数のバージョンのリビジョンを統合した結果に結合します。 PDF を迅速かつ簡単に処理します。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Python で PDF 差異レポートを取得する方法"
+    title: "Python を使用して PDF 差分レポートを生成する"
     content: |
-      [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) を使用して生成されたレポートで PDF ドキュメントの変更を追跡します。
+      [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) によって生成されたレポートを使用して、PDF ドキュメントの変更を監視します。
       
-      1. [PyPi](https://pypi.org/project/groupdocs-comparison-net/) 経由で Python via .NET の GroupDocs.Comparison をインストールします。
-      2. Comparer インスタンスを作成し、最初の PDF ファイルへのパスを指定します。
-      3. 比較のために 2 番目の PDF ファイルを追加します。
-      4. ファイル間の違いを詳しく説明した最終レポートを取得します。
+      1. [PyPi](https://pypi.org/project/groupdocs-comparison-net/) を使用して、Python via .NET の GroupDocs.Comparison をインストールします。
+      2. Comparer インスタンスを作成し、最初の PDF ファイルのパスを入力します。
+      3. 比較を目的とした 2 番目の PDF ファイルを紹介します。
+      4. ファイル間の差異を明らかにする最終レポートを抽出します。
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "PDF などの一般的な形式を Python と比較"
+    title: "PDF などの一般的なファイル タイプを Python と比較する"
     exclude: "PDF"
-    description: "当社の Python API を使用すると、PDF ファイルを迅速かつ効率的に比較できます。詳細なレポートで変更を簡単に追跡します。"
+    description: "当社の Python API を使用すると、PDF ファイルを迅速かつ正確に比較できます。詳細な比較レポートを通じて変更を簡単に監視します。"
     items: 
         # format loop 1
         - name: "PDF ファイルの比較"

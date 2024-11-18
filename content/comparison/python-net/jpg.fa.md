@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:45
+date:  2024-11-18T09:49:33
 draft: false
 lang: fa
 format: Jpg
@@ -12,42 +12,42 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "مقایسه خودکار تصاویر JPG با کتابخانه Python"
-head_description: "از API GroupDocs.Comparison for Python via .NET برای شناسایی و گزارش تفاوت در تصاویر JPG به راحتی استفاده کنید."
+head_title: "مقایسه پویا تصاویر JPG با کتابخانه Python"
+head_description: "از API GroupDocs.Comparison for Python via .NET برای مشخص کردن و فهرست‌بندی تفاوت‌ها در تصاویر JPG به آسانی استفاده کنید."
 
 ############################# Header ############################
-title: "گزارش‌های تفاوت JPG را در برنامه‌های Python via .NET ایجاد کنید" 
-description: "از مزایای Python برای مقایسه تغییرات تصویر JPG در برنامه های Python خود استفاده کنید. گزارش های دقیق، بینش های ارزشمندی را برای راه حل های تجاری شما ارائه می دهد."
-subtitle: "راه حل مقایسه فایل" 
+title: "ایجاد اطلاعات بینش از تفاوت‌های JPG در Python via .NET" 
+description: "پتانسیل Python را برای تشخیص تغییرات در تصاویر JPG در راه حل های Python خود به حداکثر برسانید. گزارش های جامع اطلاعات حیاتی را برای عملیات استراتژیک شما فراهم می کند."
+subtitle: "ابزار پیشرفته مقایسه فایل" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "از PyPi به صورت رایگان دانلود کنید"
+    - title: "دانلود رایگان خود را از PyPi دریافت کنید"
       link: "https://releases.groupdocs.com/comparison/python-net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "قدرت API GroupDocs.Comparison for Python via .NET را کشف کنید"
+    title: "قابلیت‌های API GroupDocs.Comparison for Python via .NET را کاوش کنید"
     link: "/comparison/python-net/"
     link_title: "بیشتر بدانید"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       با GroupDocs.Comparison for Python via .NET در مورد تغییرات در تصاویر JPG به روز باشید. داده های دقیق را در برنامه های Python خود بدون نیاز به ابزار اضافی تجزیه و تحلیل کنید. با حداقل کد، راه حل های کسب و کار خود را بهبود بخشید و مقایسه تصاویر را به صورت خودکار انجام دهید.
+       با استفاده از GroupDocs.Comparison for Python via .NET از تغییرات تصویر JPG مطلع شوید. گزارش‌های جامع را در برنامه‌های Python خود تجزیه و تحلیل کنید و کارایی گردش کار را بدون نیاز به کدگذاری گسترده افزایش دهید.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "نحوه تجزیه و تحلیل تغییرات JPG با Python"
+    title: "تجزیه و تحلیل مقایسه ای فایل های JPG در Python"
     content: |
-      از [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) برای مدیریت تفاوت‌های تصویر JPG استفاده کنید.
+      از [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) برای ارزیابی مقایسه تصاویر JPG استفاده کنید.
       
       1. GroupDocs.Comparison را از [PyPi](https://pypi.org/project/groupdocs-comparison-net/) نصب کنید.
-      2. یک شی مقایسه کننده ایجاد کنید و مسیر فایل JPG را ارائه دهید.
-      3. حداقل یک فایل JPG دیگر برای مقایسه اضافه کنید.
-      4. گزارشی با جزئیات در مورد تفاوت ها ایجاد کنید.
+      2. یک شیء مقایسه کننده با مسیر اولین فایل JPG خود ایجاد کنید.
+      3. فایل های JPG اضافی را برای تجزیه و تحلیل کامل اضافه کنید.
+      4. یک گزارش با جزئیات تفاوت های مقایسه ای تهیه کنید.
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "مقایسه تصاویر JPG با Python"
+    title: "مقایسه ساده JPG با Python"
     exclude: "JPG"
-    description: "با استفاده از کتابخانه GroupDocs.Comparison for Python via .NET، به سرعت تفاوت بین تصاویر JPG را شناسایی کنید. گزارش های دقیق به ردیابی تغییرات در پرونده های مهم تجاری کمک می کند."
+    description: "از کتابخانه GroupDocs.Comparison for Python via .NET برای تمایز سریع بین تصاویر JPG استفاده کنید. گزارش های جامع امکان ردیابی کارآمد تغییرات در دارایی های اساسی کسب و کار را فراهم می کند."
     items: 
         # format loop 1
         - name: "مقایسه فایل های PDF"

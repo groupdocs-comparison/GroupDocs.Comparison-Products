@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:45
+date:  2024-11-18T09:49:34
 draft: false
 lang: zh
 format: Pdf
@@ -12,13 +12,13 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "通过 Python 库比较 PDF"
-head_description: "Python 的 GroupDocs.Comparison 软件可生成深入的报告，突出显示 PDF 文档中的差异。"
+head_title: "使用 Python 库简化 PDF 比较"
+head_description: "适用于 Python 的 GroupDocs.Comparison 软件可制作全面的报告，突出显示 PDF 文档中的变化。"
 
 ############################# Header ############################
-title: "Python via .NET 的 PDF 比较" 
-description: "利用 Python 中的文档比较 API 轻松识别和显示 Python 应用程序中 PDF 文件的差异。快速高效地获取详细报告。"
-subtitle: "文件对比解决方案" 
+title: "轻松进行 Python via .NET 的 PDF 比较" 
+description: "在 Python 中利用我们的 PDF 比较 API，轻松有效地查明和呈现 PDF 文件中的差异。快速访问详细报告，避免不必要的复杂性。"
+subtitle: "高级文件比较工具" 
 
 header_actions:
   enable: true
@@ -30,24 +30,24 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Comparison for Python via .NET 库的主要功能"
+    title: "揭示 GroupDocs.Comparison for Python via .NET 库的主要功能"
     link: "/comparison/python-net/"
     link_title: "了解更多"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       直接在您的 Python 应用程序中生成有关 PDF 文档中任何差异的详细报告。只需几行代码，即可使用 GroupDocs.Comparison for Python via .NET，无需任何额外的软件或库。监控 PDF 中的段落、单词、字符、形状和文本样式的变化。您还可以将多个文档版本的更改合并到单个结果中。快速轻松地处理文档，没有任何麻烦。
+       直接从您的 Python 应用程序生成综合报告，识别 PDF 文档中发现的差异。只需最少的代码即可利用 GroupDocs.Comparison for Python via .NET，无需额外的软件。跟踪 PDF 中段落、单词、格式、形状和样式的更改。此外，将多个版本的修订合并为统一的结果。快速、轻松地处理 PDF。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "如何在 Python 中获取 PDF 差异报告"
+    title: "使用 Python 生成 PDF 差异报告"
     content: |
-      使用 [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) 生成的报告跟踪 PDF 文档中的更改。
+      使用 [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) 生成的报告监控 PDF 文档中的更改。
       
-      1. 通过 [PyPi](https://pypi.org/project/groupdocs-comparison-net/) 安装 Python via .NET 的 GroupDocs.Comparison。
-      2. 创建一个 Comparer 实例并提供第一个 PDF 文件的路径。
-      3. 添加第二个 PDF 文件以进行比较。
-      4. 检索详细说明文件之间差异的最终报告。
+      1. 使用 [PyPi](https://pypi.org/project/groupdocs-comparison-net/) 安装 Python via .NET 的 GroupDocs.Comparison。
+      2. 制作一个 Comparer 实例并输入第一个 PDF 文件的路径。
+      3. 引入第二个 PDF 文件用于比较。
+      4. 提取阐明文件之间差异的最终报告。
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "将 PDF 等常见格式与 Python 进行比较"
+    title: "将 PDF 等常见文件类型与 Python 进行比较"
     exclude: "PDF"
-    description: "我们的 Python API 可以快速高效地比较 PDF 文件。通过详细报告轻松跟踪更改。"
+    description: "我们的 Python API 允许您快速、准确地比较 PDF 文件。通过详细的比较报告轻松监控变更。"
     items: 
         # format loop 1
         - name: "比较 PDF 个文件"

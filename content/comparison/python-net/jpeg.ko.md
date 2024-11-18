@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:45
+date:  2024-11-18T09:49:33
 draft: false
 lang: ko
 format: Jpeg
@@ -12,13 +12,13 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "JPEG 이미지 비교 자동화를 위한 Python 라이브러리"
-head_description: "JPEG 이미지의 차이점을 감지하고 보고하는 GroupDocs.Comparison for Python via .NET API의 기능을 알아보세요."
+head_title: "Python 라이브러리를 사용하여 JPEG 비교 자동화"
+head_description: "GroupDocs.Comparison for Python via .NET API를 사용하면 JPEG 이미지의 차이점을 쉽게 감지하고 문서화할 수 있습니다."
 
 ############################# Header ############################
-title: "JPEG 이미지를 비교하고 Python via .NET을(를) 사용하여 보고서 생성" 
-description: "Python 애플리케이션 내에서 JPEG 이미지의 변경 사항을 추적하는 강력한 Python 솔루션입니다. 상세한 보고서는 귀하의 비즈니스에 대한 귀중한 통찰력을 제공합니다."
-subtitle: "파일 비교 솔루션" 
+title: "JPEG 이미지를 Python via .NET과(와) 원활하게 비교" 
+description: "Python 애플리케이션에 통합된 JPEG 이미지의 변경 사항을 모니터링하려면 Python 기능을 활용하세요. 의사결정을 향상시키는 유익한 보고서를 생성합니다."
+subtitle: "고급 파일 비교 도구" 
 
 header_actions:
   enable: true
@@ -30,24 +30,24 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Comparison for Python via .NET의 기능을 살펴보세요"
+    title: "GroupDocs.Comparison for Python via .NET의 기능 잠금 해제"
     link: "/comparison/python-net/"
     link_title: "자세히 알아보기"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for Python via .NET API를 사용하여 JPEG 이미지 변경에 대한 자세한 보고서를 받으세요. 추가 라이브러리 없이도 Python 애플리케이션의 데이터를 쉽게 분석할 수 있습니다. 코드 몇 줄만 추가하여 비즈니스 워크플로를 향상하세요.
+       GroupDocs.Comparison for Python via .NET API를 활용하여 JPEG 이미지의 변화를 정밀하게 분석하세요. Python 환경을 사용하여 편리하게 통찰력을 추출하고 최소한의 노력으로 비즈니스 프로세스를 간소화합니다.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Python을 사용하여 JPEG 이미지 변화를 분석하는 방법"
+    title: "Python에서 JPEG 이미지를 비교하는 단계"
     content: |
-      [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/)을 사용하여 JPEG 이미지의 차이를 감지하고 관리하세요.
+      JPEG 불일치를 식별하고 관리하려면 [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/)을 사용하세요.
       
-      1. [PyPi](https://pypi.org/project/groupdocs-comparison-net/)에서 GroupDocs.Comparison을(를) 설치합니다.
-      2. 비교자 개체를 만들고 JPEG 파일의 경로를 제공합니다.
-      3. 비교를 위해 JPEG 파일을 하나 이상 추가하세요.
-      4. 비교 보고서를 생성하고 JPEG 형식으로 저장합니다.
+      1. [PyPi](https://pypi.org/project/groupdocs-comparison-net/)을 통해 GroupDocs.Comparison을(를) 설치합니다.
+      2. JPEG 파일의 경로를 사용하여 비교기 인스턴스를 시작합니다.
+      3. 평가를 위해 다른 JPEG 파일을 통합합니다.
+      4. JPEG 형식의 비교 개요를 설명하는 포괄적인 보고서를 만듭니다.
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Python을 사용하여 JPEG 이미지 비교"
+    title: "Python을 사용한 효율적인 JPEG 비교"
     exclude: "JPEG"
-    description: "GroupDocs.Comparison for Python via .NET API는 JPEG 파일의 차이점에 대한 자세한 보고서를 제공합니다. 이 보고서는 중요한 비즈니스 이미지의 변화를 쉽게 추적하는 데 도움이 됩니다."
+    description: "GroupDocs.Comparison for Python via .NET API를 사용하면 JPEG 파일의 차이를 설명하는 자세한 보고서를 생성할 수 있으므로 비즈니스 이미지의 중요한 변경 사항을 간단하게 모니터링할 수 있습니다."
     items: 
         # format loop 1
         - name: "PDF 개의 파일 비교"

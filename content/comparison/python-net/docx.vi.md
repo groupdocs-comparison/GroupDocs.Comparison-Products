@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:45
+date:  2024-11-18T09:49:34
 draft: false
 lang: vi
 format: Docx
@@ -12,19 +12,19 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "So sánh các tài liệu DOCX bằng API Python"
-head_description: "Dễ dàng theo dõi sự khác biệt trong tệp MS Word DOCX bằng API GroupDocs.Comparison cho Python. Tạo báo cáo chi tiết để làm nổi bật những thay đổi giữa các tài liệu."
+head_title: "So sánh dễ dàng các tệp DOCX bằng API Python"
+head_description: "Theo dõi và phân tích sự khác biệt trong tài liệu MS Word DOCX bằng API GroupDocs.Comparison cho Python, tạo ra các báo cáo toàn diện phác thảo các thay đổi."
 
 ############################# Header ############################
-title: "So sánh các tệp DOCX trong Python via .NET" 
-description: "Sử dụng API xử lý tài liệu của chúng tôi trong Python để nhanh chóng xác định và hiển thị mọi thay đổi trong tệp MS Word DOCX. Hưởng lợi từ việc tạo báo cáo nhanh chóng, không rắc rối trong ứng dụng Python via .NET của bạn."
-subtitle: "Giải pháp so sánh tập tin" 
+title: "So sánh DOCX cho Python via .NET" 
+description: "Sử dụng API xử lý tài liệu của chúng tôi trong Python để nhanh chóng xác định và tóm tắt các thay đổi trong tệp MS Word DOCX. Tận hưởng việc tạo báo cáo liền mạch trong ứng dụng của bạn."
+subtitle: "Công cụ so sánh tập tin nâng cao" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Tải xuống miễn phí từ PyPi"
+    - title: "Nhận bản tải xuống miễn phí từ PyPi"
       link: "https://releases.groupdocs.com/comparison/python-net/"
       
 ############################# About ############################
@@ -35,19 +35,19 @@ about:
     link_title: "Tìm hiểu thêm"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison cung cấp các báo cáo toàn diện nêu bật những thay đổi trong các phiên bản khác nhau của tài liệu DOCX. Chỉ với một vài dòng mã, hãy tích hợp Python via .NET và API của chúng tôi vào quy trình làm việc của bạn mà không cần bất kỳ thư viện bổ sung nào. Phát hiện các thay đổi về trang, văn bản, kiểu văn bản hoặc hình dạng trong tài liệu MS Word. Bạn thậm chí có thể hợp nhất các thay đổi để tạo tài liệu DOCX cuối cùng. Nâng cao khả năng xử lý tài liệu của bạn với API mạnh mẽ của chúng tôi.
+       GroupDocs.Comparison cung cấp thông tin chuyên sâu sâu rộng về những thay đổi trên các phiên bản khác nhau của tài liệu DOCX. Với một vài dòng mã, bạn có thể tích hợp Python via .NET và API của chúng tôi vào quy trình làm việc của mình mà không cần thêm thư viện. Xác định những thay đổi về nội dung, kiểu văn bản và bố cục trong tài liệu Word. Bạn thậm chí có thể hợp nhất các biến thể để tạo tệp DOCX cập nhật. Nâng cao quy trình quản lý tài liệu của bạn bằng API mạnh mẽ của chúng tôi.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Tạo báo cáo so sánh DOCX trong Python"
+    title: "Tạo báo cáo so sánh DOCX với Python"
     content: |
-      Sử dụng [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) với Python via .NET để so sánh các tệp DOCX.
+      Tận dụng [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) cùng với Python via .NET để đánh giá sự khác biệt của tệp DOCX.
       
-      1. Cài đặt GroupDocs.Comparison cho Python via .NET qua [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
-      2. Tạo một phiên bản Comparer và chỉ định đường dẫn đến tệp DOCX đầu tiên.
-      3. Thêm file DOCX bổ sung để so sánh.
-      4. Xem lại báo cáo đã tạo và truy cập kết quả.
+      1. Nhận GroupDocs.Comparison cho Python via .NET thông qua [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
+      2. Thiết lập phiên bản Comparer và hướng đường dẫn đến tệp DOCX ban đầu.
+      3. Thêm các tệp DOCX khác nếu cần để phân tích so sánh.
+      4. Đánh giá báo cáo được tạo và xem xét những phát hiện của bạn.
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "So sánh các tài liệu DOCX sử dụng Python"
+    title: "So sánh mọi tài liệu DOCX với Python"
     exclude: "DOCX"
-    description: "Dễ dàng so sánh bất kỳ tệp MS Word DOCX nào với GroupDocs.Comparison for Python via .NET và nhận được thông tin chi tiết có giá trị về những thay đổi trong tài liệu."
+    description: "Sử dụng GroupDocs.Comparison for Python via .NET để phân tích bất kỳ tệp MS Word DOCX nào, thu được kiến ​​thức có giá trị về sửa đổi tài liệu."
     items: 
         # format loop 1
         - name: "So sánh tập tin PDF"

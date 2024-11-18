@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:45
+date:  2024-11-18T09:49:34
 draft: false
 lang: th
 format: Png
@@ -12,42 +12,42 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "Python API สำหรับการเปรียบเทียบภาพ PNG"
-head_description: "ไลบรารี GroupDocs.Comparison for Python via .NET สร้างรายงานโดยละเอียดโดยเน้นความแตกต่างในภาพ PNG"
+head_title: "เปรียบเทียบรูปภาพ PNG โดยใช้ Python API"
+head_description: "ไลบรารี GroupDocs.Comparison for Python via .NET สร้างรายงานโดยละเอียดที่แสดงความแตกต่างระหว่างไฟล์ภาพ PNG"
 
 ############################# Header ############################
-title: "เปรียบเทียบรูปภาพ PNG ในแอปพลิเคชัน Python กับ Python" 
-description: "ใช้ประโยชน์จาก Python API เพื่อตรวจจับการเปลี่ยนแปลงในไฟล์ PNG ภายในแอปพลิเคชัน Python ของคุณ รับรายงานที่ครอบคลุมอย่างรวดเร็วและง่ายดาย"
-subtitle: "โซลูชันการเปรียบเทียบไฟล์" 
+title: "วิเคราะห์รูปภาพ PNG ใน Python" 
+description: "ใช้ประโยชน์จาก Python API เพื่อค้นหาความคลาดเคลื่อนในไฟล์ PNG ได้อย่างราบรื่นภายในแอปพลิเคชัน Python ของคุณ รับรายงานที่ครอบคลุมได้อย่างง่ายดาย"
+subtitle: "เครื่องมือเปรียบเทียบไฟล์ขั้นสูง" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "ดาวน์โหลดจาก PyPi ได้ฟรี"
+    - title: "ดาวน์โหลดฟรีจาก PyPi"
       link: "https://releases.groupdocs.com/comparison/python-net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "ค้นพบความสามารถของ GroupDocs.Comparison for Python via .NET API"
+    title: "สำรวจฟีเจอร์ของ GroupDocs.Comparison for Python via .NET API"
     link: "/comparison/python-net/"
     link_title: "เรียนรู้เพิ่มเติม"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       สร้างรายงานโดยละเอียดเกี่ยวกับความแตกต่างระหว่างรูปภาพ PNG เวอร์ชันต่างๆ ได้โดยตรงในแอปพลิเคชัน Python ของคุณ โดยไม่ต้องใช้ซอฟต์แวร์บุคคลที่สาม รับข่าวสารเกี่ยวกับการเปลี่ยนแปลงทั้งหมดในภาพ PNG ของคุณ
+       สร้างรายงานอย่างละเอียดโดยให้รายละเอียดความคลาดเคลื่อนระหว่างเวอร์ชันของรูปภาพ PNG โดยตรงภายในแอปพลิเคชัน Python โดยไม่ต้องอาศัยซอฟต์แวร์เพิ่มเติม ติดตามการเปลี่ยนแปลงทั้งหมดที่เกี่ยวข้องกับภาพ PNG ของคุณ
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "วิธีสร้างรายงานการเปรียบเทียบสำหรับรูปภาพ PNG ใน Python"
+    title: "สร้างรายงานการเปรียบเทียบสำหรับรูปภาพ PNG ด้วย Python"
     content: |
-      ติดตามการเปลี่ยนแปลงในไฟล์ PNG โดยใช้ [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) และสร้างรายงานได้อย่างง่ายดาย
+      ตรวจสอบการเปลี่ยนแปลงในไฟล์ PNG โดยใช้ [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) และสร้างรายงานได้อย่างง่ายดาย
       
-      1. ติดตั้งแพ็กเกจ GroupDocs.Comparison ผ่าน [PyPi](https://pypi.org/project/groupdocs-comparison-net/)
-      2. สร้างออบเจ็กต์ Comparer และระบุเส้นทางไปยังไฟล์ PNG ไฟล์แรก
-      3. เพิ่มไฟล์ PNG หนึ่งไฟล์ขึ้นไปเพื่อเปรียบเทียบ
-      4. รับรายงานโดยละเอียดที่แสดงความแตกต่างทั้งหมด
+      1. รับแพ็คเกจ GroupDocs.Comparison ผ่านทาง [PyPi](https://pypi.org/project/groupdocs-comparison-net/)
+      2. สร้างอินสแตนซ์ของเครื่องมือเปรียบเทียบและป้อนเส้นทางสำหรับรูปภาพ PNG ภาพแรก
+      3. รวมไฟล์ PNG หนึ่งไฟล์ขึ้นไปสำหรับการศึกษาเปรียบเทียบ
+      4. เข้าถึงรายงานที่ครอบคลุมซึ่งมีรายละเอียดความคลาดเคลื่อนทางภาพทั้งหมด
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "เปรียบเทียบรูปภาพในรูปแบบยอดนิยม เช่น PNG"
+    title: "เปรียบเทียบรูปภาพในรูปแบบเช่น PNG"
     exclude: "PNG"
-    description: "ใช้ GroupDocs.Comparison for Python via .NET เพื่อระบุความแตกต่างระหว่างรูปภาพ PNG และสร้างรายงานโดยละเอียดเพื่อติดตามการเปลี่ยนแปลงที่สำคัญ"
+    description: "ใช้ GroupDocs.Comparison for Python via .NET เพื่อระบุความแตกต่างระหว่างรูปภาพ PNG สร้างรายงานโดยละเอียดเพื่อติดตามการเปลี่ยนแปลงที่สำคัญ"
     items: 
         # format loop 1
         - name: "เปรียบเทียบไฟล์ PDF"

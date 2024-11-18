@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:45
+date:  2024-11-18T09:49:34
 draft: false
 lang: th
 format: Pptx
@@ -12,42 +12,42 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "เปรียบเทียบไฟล์ PPTX กับ Python via .NET"
-head_description: "วิเคราะห์การนำเสนอ PPTX ด้วย GroupDocs.Comparison โดยใช้ Python via .NET และสร้างรายงานที่แม่นยำโดยเน้นความแตกต่างของเนื้อหา"
+head_title: "ประเมินความแตกต่างของ PPTX โดยใช้ Python via .NET กับ GroupDocs.Comparison for Python via .NET"
+head_description: "กลั่นกรองการเปลี่ยนแปลงในการนำเสนอ PPTX ได้อย่างง่ายดาย สร้างรายงานที่แม่นยำซึ่งสะท้อนถึงความแปรปรวนของเนื้อหา"
 
 ############################# Header ############################
-title: "การเปรียบเทียบการนำเสนอ PPTX ใน Python via .NET" 
-description: "ใช้ประโยชน์จาก API การประมวลผลเอกสารใน Python เพื่อตรวจจับและแสดงการเปลี่ยนแปลงในงานนำเสนอ MS PowerPoint PPTX ภายในแอปพลิเคชัน Python via .NET ปรับปรุงขั้นตอนการทำงานทางธุรกิจของคุณด้วยการวิเคราะห์ที่รวดเร็วและง่ายดาย"
-subtitle: "โซลูชันการเปรียบเทียบไฟล์" 
+title: "การเปรียบเทียบการนำเสนอ PPTX อย่างมีประสิทธิภาพใน Python via .NET" 
+description: "ใช้ความสามารถในการประมวลผลเอกสารของ Python เพื่อระบุและรายงานรูปแบบต่างๆ ภายในการนำเสนอ PPTX ในแอปพลิเคชัน Python via .NET ของคุณ เพื่อเพิ่มประสิทธิภาพเวิร์กโฟลว์ของคุณ"
+subtitle: "เครื่องมือเปรียบเทียบไฟล์ขั้นสูง" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "ดาวน์โหลดจาก PyPi ได้ฟรี"
+    - title: "ดาวน์โหลดฟรีจาก PyPi"
       link: "https://releases.groupdocs.com/comparison/python-net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "ค้นพบคุณสมบัติของ GroupDocs.Comparison for Python via .NET"
+    title: "ค้นพบฟังก์ชันหลักๆ ของ GroupDocs.Comparison for Python via .NET"
     link: "/comparison/python-net/"
     link_title: "เรียนรู้เพิ่มเติม"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       สร้างรายงานโดยละเอียดเกี่ยวกับการเปลี่ยนแปลงในไฟล์ PPTX เวอร์ชันต่างๆ ด้วย GroupDocs.Comparison รวมโซลูชันเข้ากับแอปพลิเคชัน Python via .NET ของคุณได้อย่างง่ายดายด้วยโค้ดเพียงไม่กี่บรรทัด วิเคราะห์ความแตกต่างในสไลด์ ข้อความ การจัดรูปแบบ หรือรูปร่างภายในงานนำเสนอ MS PowerPoint คุณยังสามารถรวมการเปลี่ยนแปลงเป็นไฟล์ PPTX สุดท้ายได้ ปรับปรุงโครงการธุรกิจของคุณด้วยโซลูชันอันทรงพลังนี้
+       สร้างรายงานที่ครอบคลุมซึ่งมีรายละเอียดการเปลี่ยนแปลงใน PPTX เวอร์ชันต่างๆ ด้วย GroupDocs.Comparison ใช้โซลูชันนี้กับแอปพลิเคชัน Python via .NET ของคุณได้อย่างราบรื่น และวิเคราะห์ความแตกต่างในสไลด์ ข้อความ และรูปแบบ รวมรูปแบบต่างๆ เข้ากับไฟล์ PPTX ที่รวมไว้เพื่อเพิ่มประสิทธิภาพทางธุรกิจของคุณ
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "สร้างรายงานสำหรับความแตกต่างของไฟล์ PPTX ใน Python"
+    title: "บันทึกความแตกต่างของ PPTX ใน Python"
     content: |
-      ใช้ [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) เพื่อเปรียบเทียบการนำเสนอ PPTX
+      ใช้ [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) เพื่อเปรียบเทียบงานนำเสนอ PPTX
       
-      1. ติดตั้ง GroupDocs.Comparison จาก [PyPi](https://pypi.org/project/groupdocs-comparison-net/)
-      2. สร้างวัตถุ Comparer สำหรับไฟล์ PPTX แรก
-      3. เพิ่มไฟล์ PPTX เพิ่มเติมเพื่อการเปรียบเทียบ
-      4. ดึงข้อมูลและตรวจสอบรายงานการเปรียบเทียบ
+      1. รับ GroupDocs.Comparison ผ่าน [PyPi](https://pypi.org/project/groupdocs-comparison-net/)
+      2. สร้างอินสแตนซ์ Comparer สำหรับการนำเสนอ PPTX แรก
+      3. เพิ่มไฟล์ PPTX เพิ่มเติมเพื่อการเปรียบเทียบที่สมบูรณ์
+      4. รวบรวมข้อค้นพบและทบทวนรายงานที่สร้างขึ้น
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "เปรียบเทียบการนำเสนอ PPTX โดยใช้ Python"
+    title: "อำนวยความสะดวกในการเปรียบเทียบ PPTX โดยใช้ Python"
     exclude: "PPTX"
-    description: "เปรียบเทียบงานนำเสนอ MS PowerPoint PPTX ได้อย่างง่ายดายโดยใช้ GroupDocs.Comparison for Python via .NET สร้างรายงานโดยละเอียดที่ให้ข้อมูลเชิงลึกเกี่ยวกับการเปลี่ยนแปลงภายในการนำเสนอธุรกิจของคุณ"
+    description: "จัดการและเปรียบเทียบงานนำเสนอ MS PowerPoint PPTX กับ GroupDocs.Comparison for Python via .NET ได้อย่างง่ายดาย เพื่อสร้างรายงานเชิงลึกที่สะท้อนถึงการเปลี่ยนแปลงภายในการนำเสนอทางธุรกิจที่สำคัญ"
     items: 
         # format loop 1
         - name: "เปรียบเทียบไฟล์ PDF"

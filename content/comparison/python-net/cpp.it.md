@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:41
+date:  2024-11-18T09:49:28
 draft: false
 lang: it
 format: Cpp
@@ -12,42 +12,42 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "Confronta CPP con la libreria Python"
-head_description: "Con GroupDocs.Comparison for Python via .NET, genera report comparativi dettagliati per le applicazioni Python."
+head_title: "Confronta in modo efficiente CPP utilizzando la libreria Python"
+head_description: "Con GroupDocs.Comparison for Python via .NET, genera report comparativi approfonditi su misura per le applicazioni Python."
 
 ############################# Header ############################
-title: "Confronta CPP in Python" 
-description: "GroupDocs.Comparison è una libreria basata su Python che ti consente di confrontare e identificare facilmente le differenze nei file CPP. Aumenta l'efficienza della tua soluzione nelle attività di confronto dei documenti con questo potente strumento."
-subtitle: "Soluzione per il confronto dei file" 
+title: "Analizza le differenze di CPP in Python" 
+description: "GroupDocs.Comparison è una libreria progettata per Python che semplifica il processo di confronto ed evidenziazione delle discrepanze nei file CPP. Migliora le tue capacità di gestione dei documenti con questa soluzione innovativa."
+subtitle: "Strumento avanzato di confronto dei file" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Scarica gratuitamente da PyPi"
+    - title: "Ottieni il tuo download gratuito da PyPi"
       link: "https://releases.groupdocs.com/comparison/python-net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Scopri le funzionalità di GroupDocs.Comparison for Python via .NET"
+    title: "Esplora le funzionalità di GroupDocs.Comparison for Python via .NET"
     link: "/comparison/python-net/"
     link_title: "Scopri di più"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Comparison for Python via .NET è un'API progettata per confrontare immagini e documenti nello stesso formato. Rileva differenze in paragrafi, parole, caratteri, forme e stili di testo tra i file confrontati. Puoi unire queste modifiche e salvarle in un documento finale. Supporta una varietà di formati tra cui PDF, documenti Word, fogli di calcolo Excel, presentazioni PowerPoint, diagrammi Visio, e-mail di Outlook, file HTML, disegni e più formati di immagine, il tutto senza richiedere alcun software aggiuntivo.
+       GroupDocs.Comparison for Python via .NET funge da API creata appositamente per confrontare documenti e immagini in vari formati. Identifica le modifiche a parole, paragrafi, caratteri, forme ed elementi di stile tra i documenti. Puoi comodamente unire queste modifiche e salvarle come documento finale consolidato. Supporta un'ampia gamma di formati, inclusi PDF, documenti Word, fogli Excel, presentazioni PowerPoint, Visio, file HTML, immagini e molto altro, il tutto ottenuto senza strumenti di terze parti.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Come confrontare CPP utilizzando Python"
+    title: "Come confrontare in modo efficiente CPP utilizzando Python"
     content: |
-      Utilizza [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) per confrontare i file CPP e generare report dettagliati sulle differenze.
+      Utilizza [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) per eseguire confronti dettagliati sui file CPP.
       
-      1. Installa GroupDocs.Comparison for Python via .NET tramite [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
-      2. Crea un oggetto Comparer e carica il primo file CPP.
-      3. Aggiungi il secondo file CPP al Comparer.
-      4. Genera un rapporto completo che delinea tutte le differenze rilevate.
+      1. Inizia installando GroupDocs.Comparison for Python via .NET tramite [PyPi](https://pypi.org/project/groupdocs-comparison-net/).
+      2. Crea un'istanza di un oggetto Comparer con il file CPP iniziale.
+      3. Integra il secondo file CPP nel comparatore.
+      4. Compilare un rapporto dettagliato che delinea tutte le discrepanze identificate.
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Confronta i formati di documenti più diffusi con Python"
+    title: "Confronta facilmente vari formati di file utilizzando Python"
     exclude: "CPP"
-    description: "La nostra API Python ti consente di confrontare facilmente documenti in un'ampia gamma di formati, consentendoti di monitorare facilmente le modifiche e le differenze dei documenti."
+    description: "La nostra API Python consente il confronto semplice di diversi formati di documenti, semplificando il monitoraggio delle modifiche nei documenti."
     items: 
         # format loop 1
         - name: "Confronta PDF file"

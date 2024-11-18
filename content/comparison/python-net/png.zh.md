@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-01T13:42:45
+date:  2024-11-18T09:49:34
 draft: false
 lang: zh
 format: Png
@@ -12,13 +12,13 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "用于比较 PNG 图像的 Python API"
-head_description: "GroupDocs.Comparison for Python via .NET 库生成详细报告，突出显示 PNG 图像中的差异。"
+head_title: "使用 Python API 比较 PNG 图像"
+head_description: "GroupDocs.Comparison for Python via .NET 库生成详细报告，揭示 PNG 图像文件之间的差异。"
 
 ############################# Header ############################
-title: "将 Python 应用程序中的 PNG 图像与 Python 进行比较" 
-description: "利用 Python API 检测 Python 应用程序中 PNG 文件的更改。快速、轻松地获取全面的报告。"
-subtitle: "文件对比解决方案" 
+title: "在 Python 中分析 PNG 图像" 
+description: "利用 Python API 在您的 Python 应用程序中无缝地发现 PNG 文件中的差异。轻松接收全面的报告。"
+subtitle: "高级文件比较工具" 
 
 header_actions:
   enable: true
@@ -35,19 +35,19 @@ about:
     link_title: "了解更多"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       直接在您的 Python 应用程序中生成有关不同版本 PNG 图像之间差异的详细报告 - 无需第三方软件。随时了解 PNG 图像中的所有更改。
+       直接在您的 Python 应用程序中生成详细报告，详细说明 PNG 图像版本之间的差异，而无需依赖其他软件。随时了解涉及 PNG 图像的所有更改。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "如何在 Python 中生成 PNG 图像的比较报告"
+    title: "使用 Python 生成 PNG 图像的比较报告"
     content: |
-      使用 [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) 跟踪 PNG 文件的更改并轻松生成报告。
+      使用 [GroupDocs.Comparison](https://products.groupdocs.com/comparison/python-net/) 监控 PNG 文件的变化并轻松创建报告。
       
-      1. 通过 [PyPi](https://pypi.org/project/groupdocs-comparison-net/) 安装 GroupDocs.Comparison 软件包。
-      2. 创建一个 Comparer 对象并提供第一个 PNG 文件的路径。
-      3. 添加一个或多个 PNG 文件进行比较。
-      4. 检索显示所有差异的详细报告。
+      1. 通过[PyPi](https://pypi.org/project/groupdocs-comparison-net/)获取GroupDocs.Comparison包。
+      2. 实例化一个比较器并输入第一个 PNG 图像的路径。
+      3. 包含一个或多个 PNG 文件以进行比较研究。
+      4. 访问详细说明所有视觉差异的综合报告。
    
     code:
       platform: "python-net"
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "比较流行格式（如 PNG）的图像"
+    title: "比较 PNG 等格式的图像"
     exclude: "PNG"
-    description: "使用 GroupDocs.Comparison for Python via .NET 识别 PNG 图像之间的差异并生成详细报告以跟踪重要更改。"
+    description: "使用 GroupDocs.Comparison for Python via .NET 查明 PNG 图像之间的差异，生成详细的报告来跟踪重大变化。"
     items: 
         # format loop 1
         - name: "比较 PDF 个文件"
