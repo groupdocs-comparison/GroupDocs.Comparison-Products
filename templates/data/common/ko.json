@@ -88,6 +88,8 @@
     },
     "format-code": {
       "copy_title": "복사",
+      "result_title": "샘플 결과 파일",
+      "result_title_bottom": "결과 다운로드",
       "copy_tip": "클릭하여 복사",
       "copy_done": "복사",
       "links": {

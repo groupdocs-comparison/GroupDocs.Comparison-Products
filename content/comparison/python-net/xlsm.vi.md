@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-18T09:49:33
+date:  2024-11-19T07:50:36
 draft: false
 lang: vi
 format: Xlsm
@@ -52,6 +52,9 @@ steps:
     code:
       platform: "python-net"
       copy_title: "Sao chép"
+      result_enable: true
+      result_link: "/examples/comparison/comparison_result.docx"
+      result_title: "Tệp kết quả mẫu"
       install:
         command: "pip install groupdocs-comparison-net"
         copy_tip: "bấm để sao chép"

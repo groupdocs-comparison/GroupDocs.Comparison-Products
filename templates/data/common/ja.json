@@ -88,6 +88,8 @@
     },
     "format-code": {
       "copy_title": "[コピー]",
+      "result_title": "サンプル結果ファイル",
+      "result_title_bottom": "結果をダウンロード",
       "copy_tip": "クリックしてコピー",
       "copy_done": "コピーされました",
       "links": {

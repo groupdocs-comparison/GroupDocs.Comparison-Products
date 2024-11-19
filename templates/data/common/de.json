@@ -88,6 +88,8 @@
     },
     "format-code": {
       "copy_title": "Kopieren",
+      "result_title": "Beispielergebnisdatei",
+      "result_title_bottom": "Ergebnis herunterladen",
       "copy_tip": "zum Kopieren anklicken",
       "copy_done": "kopiert",
       "links": {

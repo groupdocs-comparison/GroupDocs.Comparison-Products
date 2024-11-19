@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-18T09:49:34
+date:  2024-11-19T07:50:37
 draft: false
 lang: th
 format: Pptx
@@ -52,6 +52,9 @@ steps:
     code:
       platform: "python-net"
       copy_title: "คัดลอก"
+      result_enable: true
+      result_link: "/examples/comparison/comparison_result.docx"
+      result_title: "ตัวอย่างไฟล์ผลลัพธ์"
       install:
         command: "pip install groupdocs-comparison-net"
         copy_tip: "คลิกเพื่อคัดลอก"

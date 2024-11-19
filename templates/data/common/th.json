@@ -88,6 +88,8 @@
     },
     "format-code": {
       "copy_title": "คัดลอก",
+      "result_title": "ตัวอย่างไฟล์ผลลัพธ์",
+      "result_title_bottom": "ดาวน์โหลดผลลัพธ์",
       "copy_tip": "คลิกเพื่อคัดลอก",
       "copy_done": "คัดลอก",
       "links": {

@@ -54,6 +54,9 @@ steps:
     code:
       platform: "python-net"
       copy_title: "<% (dict "common-content.format-code.copy_title") %>"
+      result_enable: true
+      result_link: "/examples/comparison/comparison_result.docx"
+      result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
         command: "pip install groupdocs-comparison-net"
         copy_tip: "<% (dict "common-content.format-code.copy_tip") %>"

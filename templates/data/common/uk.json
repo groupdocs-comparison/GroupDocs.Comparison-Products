@@ -88,6 +88,8 @@
     },
     "format-code": {
       "copy_title": "Копіювати",
+      "result_title": "Зразок результата",
+      "result_title_bottom": "Завантажити результат",
       "copy_tip": "натисніть, щоб скопіювати",
       "copy_done": "скопійовано",
       "links": {

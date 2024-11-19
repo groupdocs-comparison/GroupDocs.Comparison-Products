@@ -88,6 +88,8 @@
     },
     "format-code": {
       "copy_title": "Copiar",
+      "result_title": "Arquivo de resultado de amostra",
+      "result_title_bottom": "Baixar resultado",
       "copy_tip": "clique para copiar",
       "copy_done": "copiado",
       "links": {

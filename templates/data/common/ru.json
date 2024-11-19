@@ -88,6 +88,8 @@
     },
     "format-code": {
       "copy_title": "Копировать",
+      "result_title": "Пример результата",
+      "result_title_bottom": "Загрузить результат",
       "copy_tip": "нажмите, чтобы скопировать",
       "copy_done": "скопировал",
       "links": {

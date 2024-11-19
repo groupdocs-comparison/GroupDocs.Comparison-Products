@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-18T09:49:27
+date:  2024-11-19T07:50:33
 draft: false
 lang: fr
 format: Djvu
@@ -52,6 +52,9 @@ steps:
     code:
       platform: "python-net"
       copy_title: "Copier"
+      result_enable: true
+      result_link: "/examples/comparison/comparison_result.docx"
+      result_title: "Exemple de fichier de résultats"
       install:
         command: "pip install groupdocs-comparison-net"
         copy_tip: "cliquez pour copier"

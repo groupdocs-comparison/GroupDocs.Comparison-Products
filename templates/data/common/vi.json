@@ -88,6 +88,8 @@
     },
     "format-code": {
       "copy_title": "Sao chép",
+      "result_title": "Tệp kết quả mẫu",
+      "result_title_bottom": "Tải xuống kết quả",
       "copy_tip": "bấm để sao chép",
       "copy_done": "sao chép",
       "links": {

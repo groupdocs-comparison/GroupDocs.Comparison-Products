@@ -88,6 +88,8 @@
     },
     "format-code": {
       "copy_title": "Salin",
+      "result_title": "Contoh berkas hasil",
+      "result_title_bottom": "Unduh hasil",
       "copy_tip": "klik untuk menyalin",
       "copy_done": "menyalin",
       "links": {

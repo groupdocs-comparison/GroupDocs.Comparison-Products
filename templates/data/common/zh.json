@@ -88,6 +88,8 @@
     },
     "format-code": {
       "copy_title": "复制",
+      "result_title": "示例结果文件",
+      "result_title_bottom": "下载结果",
       "copy_tip": "点击复制",
       "copy_done": "复制的",
       "links": {

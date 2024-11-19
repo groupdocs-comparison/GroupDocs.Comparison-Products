@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-18T09:49:33
+date:  2024-11-19T07:50:37
 draft: false
 lang: ko
 format: Jpeg
@@ -52,6 +52,9 @@ steps:
     code:
       platform: "python-net"
       copy_title: "복사"
+      result_enable: true
+      result_link: "/examples/comparison/comparison_result.docx"
+      result_title: "샘플 결과 파일"
       install:
         command: "pip install groupdocs-comparison-net"
         copy_tip: "클릭하여 복사"

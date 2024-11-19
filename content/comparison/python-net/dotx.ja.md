@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-18T09:49:29
+date:  2024-11-19T07:50:34
 draft: false
 lang: ja
 format: Dotx
@@ -52,6 +52,9 @@ steps:
     code:
       platform: "python-net"
       copy_title: "[コピー]"
+      result_enable: true
+      result_link: "/examples/comparison/comparison_result.docx"
+      result_title: "サンプル結果ファイル"
       install:
         command: "pip install groupdocs-comparison-net"
         copy_tip: "クリックしてコピー"

@@ -88,6 +88,8 @@
     },
     "format-code": {
       "copy_title": "کپی کردن",
+      "result_title": "نمونه فایل نتیجه",
+      "result_title_bottom": "دانلود نتیجه",
       "copy_tip": "برای کپی کلیک کنید",
       "copy_done": "کپی شده",
       "links": {
