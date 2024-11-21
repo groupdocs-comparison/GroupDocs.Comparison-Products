@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T07:50:34
+date:  2024-11-21T08:27:17
 draft: false
 lang: ko
 format: Mobi
@@ -53,7 +53,7 @@ steps:
       platform: "python-net"
       copy_title: "복사"
       result_enable: true
-      result_link: "/examples/comparison/comparison_result.docx"
+      result_link: "/examples/comparison/comparison_result.pdf"
       result_title: "샘플 결과 파일"
       install:
         command: "pip install groupdocs-comparison-net"

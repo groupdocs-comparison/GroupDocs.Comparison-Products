@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T07:50:37
+date:  2024-11-21T08:27:19
 draft: false
 lang: it
 format: Png
@@ -53,7 +53,7 @@ steps:
       platform: "python-net"
       copy_title: "Copia"
       result_enable: true
-      result_link: "/examples/comparison/comparison_result.docx"
+      result_link: "/examples/comparison/comparison_result.pdf"
       result_title: "Esempio di file di risultati"
       install:
         command: "pip install groupdocs-comparison-net"

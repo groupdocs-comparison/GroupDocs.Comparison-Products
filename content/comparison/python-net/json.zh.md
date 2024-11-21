@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T07:50:37
+date:  2024-11-21T08:27:18
 draft: false
 lang: zh
 format: Json
@@ -53,7 +53,7 @@ steps:
       platform: "python-net"
       copy_title: "复制"
       result_enable: true
-      result_link: "/examples/comparison/comparison_result.docx"
+      result_link: "/examples/comparison/comparison_result.pdf"
       result_title: "示例结果文件"
       install:
         command: "pip install groupdocs-comparison-net"

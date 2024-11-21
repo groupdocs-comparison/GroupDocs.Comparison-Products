@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T07:50:33
+date:  2024-11-21T08:27:15
 draft: false
 lang: fa
 format: Groovy
@@ -53,7 +53,7 @@ steps:
       platform: "python-net"
       copy_title: "کپی کردن"
       result_enable: true
-      result_link: "/examples/comparison/comparison_result.docx"
+      result_link: "/examples/comparison/comparison_result.pdf"
       result_title: "نمونه فایل نتیجه"
       install:
         command: "pip install groupdocs-comparison-net"

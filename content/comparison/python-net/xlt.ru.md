@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T07:50:35
+date:  2024-11-21T08:27:17
 draft: false
 lang: ru
 format: Xlt
@@ -53,7 +53,7 @@ steps:
       platform: "python-net"
       copy_title: "Копировать"
       result_enable: true
-      result_link: "/examples/comparison/comparison_result.docx"
+      result_link: "/examples/comparison/comparison_result.pdf"
       result_title: "Пример результата"
       install:
         command: "pip install groupdocs-comparison-net"

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T07:50:31
+date:  2024-11-21T08:27:14
 draft: false
 lang: en
 format: Dicom
@@ -53,7 +53,7 @@ steps:
       platform: "python-net"
       copy_title: "Copy"
       result_enable: true
-      result_link: "/examples/comparison/comparison_result.docx"
+      result_link: "/examples/comparison/comparison_result.pdf"
       result_title: "Sample result file"
       install:
         command: "pip install groupdocs-comparison-net"
