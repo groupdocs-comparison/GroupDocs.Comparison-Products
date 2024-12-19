@@ -54,6 +54,9 @@ steps:
     code:
       platform: "net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
+      result_enable: true
+      result_link: "/examples/comparison/comparison_result.pdf"
+      result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
         command: "dotnet add package GroupDocs.Comparison"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"

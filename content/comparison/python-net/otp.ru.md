@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-21T08:27:17
+date:  2024-12-19T07:49:58
 draft: false
 lang: ru
 format: Otp

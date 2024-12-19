@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-21T08:27:19
+date:  2024-12-19T07:49:59
 draft: false
 lang: id
 format: Jpg

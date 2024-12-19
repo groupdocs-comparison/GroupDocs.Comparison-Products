@@ -391,83 +391,83 @@
     "code_samples_sample_2_content": "{{ProdShortName}} 를 사용하면 [두 개 이상의 문서 비교]({{Sample2Url}}) 할 수 있습니다.작업은 두 파일을 비교할 때와 거의 같습니다.`comparer` 클래스에 대상 파일을 더 추가하기만 하면 됩니다."
   },
   "index-content-python-net": {
-    "head_title": "{{Runtime}} 문서 비교 API | 차이점 검사기",
-    "head_description": "{{Runtime}} 문서 비교 API는 문서 비교를 위한 효율적인 도구를 제공합니다. 즉각적인 변경 추적을 위해 {{Runtime}}과 원활하게 통합됩니다.",
-    "title": "{{Runtime}}으로 문서 비교: 차이점 강조 표시",
-    "description": "{{ProdShortName}} API를 사용하여 고도로 구성 가능한 비교 기능을 갖춘 기본 Python 애플리케이션을 개발하세요. 유사한 문서 형식 간의 파일, 내용, 텍스트 스타일을 비교합니다.",
-    "actions_main": "무료 {{PackageStoreName}} 다운로드",
-    "code_title": "{{ProgLang}}의 BMP 이미지 비교",
-    "overview_description": "{{Runtime}} 애플리케이션 내에서 PDF, Microsoft Office, HTML, 이메일, 이미지 등 널리 사용되는 문서 유형을 비교하는 API입니다.",
+    "head_title": "{{Runtime}} 문서 비교 도구 | 문서분석",
+    "head_description": "철저한 문서 분석을 위한 {{Runtime}} 문서 비교 도구의 강력한 기능을 알아보세요. 수정 사항을 포괄적으로 추적하기 위해 {{Runtime}}과 쉽게 통합됩니다.",
+    "title": "{{Runtime}} 으로 문서 비교: 차이점 강조 표시",
+    "description": "{{ProdShortName}} API를 활용하여 사용자 정의 가능한 비교 기능이 포함된 Python 기본 애플리케이션을 생성하세요. 문서 형식 전반에 걸쳐 파일, 콘텐츠, 스타일 변형을 검사합니다.",
+    "actions_main": "지금 무료 {{PackageStoreName}} 다운로드 받기",
+    "code_title": "{{ProgLang}}을 사용하여 BMP 이미지 비교",
+    "overview_description": "{{Runtime}} 애플리케이션 내에서 PDF, Microsoft Office 파일, HTML, 이메일 또는 이미지와 같이 널리 사용되는 문서 유형을 비교하기 위해 설계된 API입니다.",
     "overview_feature_1": {
-      "title": "상세한 출력 보고서",
-      "description": "{{ProdShortName}}은 문서 내용(문자, 단어, 단락, 표, 차트)의 변경 사항과 문서 스타일의 변경 사항을 식별합니다. 이는 사용자에게 차이점의 수와 유형을 포함하여 차이점에 대한 자세한 정보가 포함된 보고서를 제공합니다."
+      "title": "종합적인 출력 보고서",
+      "description": "{{ProdShortName}}은 문서 콘텐츠(문자, 단어, 단락, 표, 차트)의 변경 사항과 문서 스타일 변경 사항을 감지합니다. 사용자는 변경 내용과 횟수를 강조하는 자세한 보고서를 받습니다."
     },
     "overview_feature_2": {
-      "title": "널리 사용되는 파일 및 문서 형식 지원",
-      "description": "{{ProdShortName}} API를 사용하면 PDF, HTML, 이메일, Microsoft Office Word, Excel 스프레드시트, PowerPoint 프레젠테이션, OneNote, Visio 다이어그램, 텍스트 파일, JPEG, PNG, GIF, BMP 이미지, 그리고 다른 많은 형식."
+      "title": "광범위한 파일 및 문서 형식",
+      "description": "{{ProdShortName}} API를 사용하면 PDF, HTML, 이메일, Microsoft Office Word, Excel 통합 문서, PowerPoint 파일, OneNote 노트, Visio 다이어그램, 텍스트 문서, JPEG, PNG, GIF, BMP 이미지, 다른 많은 것 중에서."
     },
     "overview_feature_3": {
-      "title": "포괄적인 문서 및 예제",
-      "description": "다양한 플랫폼에서 비교 라이브러리를 사용하기 위한 광범위한 문서와 코드 예제가 제공되므로 {{ProdShortName}} API를 {{Runtime}} 애플리케이션에 쉽게 통합할 수 있습니다."
+      "title": "철저한 문서 및 코드 샘플",
+      "description": "다양한 플랫폼에서 비교 라이브러리에 대한 심층적인 문서와 샘플 코드를 쉽게 사용할 수 있으므로 GroupDocs.Comparison API를 Python 응용 프로그램에 쉽게 통합할 수 있습니다."
     },
     "overview_feature_4": {
-      "title": "변경 사항을 선택하고 하나의 파일로 병합",
-      "description": "문서 버전이 다른 경우 특정 변경 사항을 선택하고 {{ProdShortName}} 라이브러리를 사용하여 새 문서를 컴파일할 수 있습니다."
+      "title": "변경 사항을 선택하고 하나의 문서로 결합",
+      "description": "다양한 버전의 문서를 보유하고 있는 경우 {{ProdShortName}} 라이브러리를 사용하여 변경 사항을 하나의 새 파일로 선택적으로 컴파일할 수 있습니다."
     },
     "features": {
-      "title": "{{ProdFullName}} 기능",
-      "description": "PDF와 Office 문서, 이미지, 기타 형식을 쉽게 비교할 수 있습니다.",
+      "title": "{{ProdFullName}}의 기능",
+      "description": "PDF, Office 문서, 이미지 및 기타 다양한 형식을 원활하게 비교할 수 있습니다.",
       "feature_1": {
-        "title": "사용자 친화적인 문서 비교",
-        "content": "두 문서 간의 차이점을 분석하고 식별합니다."
+        "title": "직관적인 문서 비교",
+        "content": "두 문서 간의 차이점을 조사하고 강조 표시합니다."
       },
       "feature_2": {
         "title": "여러 문서 비교",
-        "content": "여러 문서 내의 차이점을 동시에 분석하고 식별합니다."
+        "content": "여러 문서의 차이점을 동시에 검사하세요."
       },
       "feature_3": {
-        "title": "지원되는 형식",
-        "content": "다양한 카테고리에서 50개 이상의 널리 사용되는 문서 형식을 지원합니다."
+        "title": "광범위한 형식 지원",
+        "content": "다양한 카테고리에 걸쳐 일반적으로 사용되는 50개 이상의 문서 형식과 호환됩니다."
       },
       "feature_4": {
         "title": "변경 사항 수락 또는 거부",
-        "content": "수정 사항을 승인하거나 거부할 수 있는 옵션을 통해 식별된 변경 사항을 시각적으로 명확하게 표현합니다."
+        "content": "변경 사항을 명확하게 시각화하고 편집 승인 또는 거부 옵션을 제공합니다."
       },
       "feature_5": {
-        "title": "미리보기 생성",
-        "content": "비교 결과를 이미지로 저장합니다."
+        "title": "시각적 미리보기 생성",
+        "content": "이미지 형식으로 비교 결과 미리보기를 생성합니다."
       },
       "feature_6": {
-        "title": "콘텐츠 비교",
-        "content": "텍스트 내용을 한 줄씩, 단락별로, 단어별로, 문자별로 비교합니다. 변경 사항을 강조 표시합니다."
+        "title": "텍스트 기반 콘텐츠 비교",
+        "content": "행별, 단락, 단어 또는 문자 비교를 수행하여 변경 사항을 강조 표시합니다."
       },
       "feature_7": {
-        "title": "스타일 비교",
-        "content": "서식 및 스타일의 변경 사항을 감지합니다."
+        "title": "서식 변경 감지",
+        "content": "문서 스타일 및 형식의 변경 사항을 식별합니다."
       },
       "feature_8": {
-        "title": "메타데이터 설정",
-        "content": "소스 또는 대상 파일의 메타데이터를 유지하거나 사용자가 지정할 수 있도록 허용합니다."
+        "title": "맞춤형 메타데이터 처리",
+        "content": "소스 또는 대상 파일의 메타데이터를 유지하거나 사용자가 새 메타데이터를 정의하도록 허용합니다."
       },
       "feature_9": {
-        "title": "비밀번호 보안",
-        "content": "암호화된 문서를 분석하거나 결과 문서를 비밀번호로 보호하세요."
+        "title": "비밀번호로 보호된 파일 처리",
+        "content": "암호화된 문서로 작업하거나 비밀번호로 보호되는 보안 문서를 만드세요."
       },
       "feature_10": {
-        "title": "특정 페이지 비교",
-        "content": "문서의 특정 섹션이나 페이지를 로드하고 비교합니다."
+        "title": "집중 페이지 비교",
+        "content": "문서의 특정 섹션이나 개별 페이지를 선택하고 비교하세요."
       },
       "feature_11": {
-        "title": "댓글 표시",
-        "content": "소스 문서를 로드할 때 주석을 숨기거나 표시하도록 선택합니다."
+        "title": "댓글 가시성 관리",
+        "content": "원본 문서를 검토할 때 주석을 표시할지 숨길지 결정합니다."
       }
     },
-    "platforms_description": "{{ProdFullName}}은(는) 다음 운영 체제, 프레임워크 및 패키지 관리자를 지원합니다.",
-    "formats_description": "{{ProdFullName}}은(는) 다음 [파일 형식]({{SupportedFormatsUrl}})을 사용한 작업을 지원합니다.",
-    "code_samples_description": "{{ProdFullName}} 작업의 일반적인 사용 사례 살펴보기",
-    "code_title_sample_1": "비밀번호로 보호된 문서 비교",
+    "platforms_description": "{{ProdFullName}}은(는) 다음 운영 체제, 프레임워크 및 패키지 관리자와 호환됩니다.",
+    "formats_description": "{{ProdFullName}}은(는) 다음 [파일 형식]({{SupportedFormatsUrl}})으로 작동할 수 있습니다.",
+    "code_samples_description": "{{ProdFullName}} 기능 활용에 대한 일반적인 시나리오를 알아보세요.",
+    "code_title_sample_1": "비밀번호 보호 기능이 있는 문서 비교",
     "code_samples_sample_1_content": "[비밀번호로 보호된]({{Sample1Url}}) 문서를 비교하려면 문서를 로드할 때 비밀번호를 지정해야 합니다.",
-    "code_title_sample_2": "여러 PDF 문서 비교",
-    "code_samples_sample_2_content": "{{ProdShortName}}을(를) 사용하면 [세 개 이상의 문서를 비교]({{Sample2Url}})할 수 있습니다. 이 프로세스는 두 파일을 비교하는 것과 유사합니다. 단순히 `comparer` 클래스에 더 많은 대상 파일을 추가하면 됩니다."
+    "code_title_sample_2": "여러 PDF 파일 분석",
+    "code_samples_sample_2_content": "{{ProdShortName}}을(를) 사용하면 [여러 문서를 동시에 비교]({{Sample2Url}})할 수 있습니다. 이 프로세스는 두 파일을 비교하는 것과 유사합니다. `comparer` 클래스에 추가 대상 파일을 포함하면 됩니다."
   }
 }

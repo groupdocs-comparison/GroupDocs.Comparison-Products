@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-22T13:27:43
+date:  2024-12-19T07:49:48
 draft: false
 lang: ru
 format: Bmp
@@ -52,6 +52,9 @@ steps:
     code:
       platform: "net"
       copy_title: "Копировать"
+      result_enable: true
+      result_link: "/examples/comparison/comparison_result.pdf"
+      result_title: "Пример результата"
       install:
         command: "dotnet add package GroupDocs.Comparison"
         copy_tip: "нажмите, чтобы скопировать"

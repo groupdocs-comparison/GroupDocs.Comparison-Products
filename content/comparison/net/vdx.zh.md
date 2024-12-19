@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-22T13:27:44
+date:  2024-12-19T07:49:50
 draft: false
 lang: zh
 format: Vdx
@@ -52,6 +52,9 @@ steps:
     code:
       platform: "net"
       copy_title: "复制"
+      result_enable: true
+      result_link: "/examples/comparison/comparison_result.pdf"
+      result_title: "示例结果文件"
       install:
         command: "dotnet add package GroupDocs.Comparison"
         copy_tip: "点击复制"

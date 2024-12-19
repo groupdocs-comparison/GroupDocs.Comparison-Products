@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-22T13:27:49
+date:  2024-12-19T07:49:55
 draft: false
 lang: it
 format: Xlsx
@@ -96,7 +96,7 @@ actions:
       color: "red"
         #  loop
     - title: "Licenze"
-      link: "https://purchase.groupdocs.com/pricing/comparison/java/"
+      link: "https://purchase.groupdocs.com/pricing/comparison/nodejs-java/"
       color: "light"
 
 

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-22T13:27:45
+date:  2024-12-19T07:49:50
 draft: false
 lang: en
 format: Eml
@@ -96,7 +96,7 @@ actions:
       color: "red"
         #  loop
     - title: "Licensing"
-      link: "https://purchase.groupdocs.com/pricing/comparison/java/"
+      link: "https://purchase.groupdocs.com/pricing/comparison/nodejs-java/"
       color: "light"
 
 

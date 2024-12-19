@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-22T13:27:49
+date:  2024-12-19T07:49:54
 draft: false
 lang: zh
 format: One
@@ -96,7 +96,7 @@ actions:
       color: "red"
         #  loop
     - title: "许可"
-      link: "https://purchase.groupdocs.com/pricing/comparison/java/"
+      link: "https://purchase.groupdocs.com/pricing/comparison/nodejs-java/"
       color: "light"
 
 

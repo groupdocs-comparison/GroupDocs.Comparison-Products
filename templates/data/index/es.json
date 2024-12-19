@@ -391,83 +391,83 @@
     "code_samples_sample_2_content": "{{ProdShortName}} permite [comparar más de dos documentos]({{Sample2Url}}). La operación es casi la misma que cuando se comparan dos archivos. Solo tiene que añadir más archivos de destino a la clase `comparer`."
   },
   "index-content-python-net": {
-    "head_title": "{{Runtime}} API de comparación de documentos | comprobador de diferencias",
-    "head_description": "La API de comparación de documentos {{Runtime}} ofrece herramientas eficientes para comparar documentos. Se integra perfectamente con {{Runtime}} para un seguimiento instantáneo de los cambios",
+    "head_title": "{{Runtime}} Herramienta de comparación de documentos | Análisis de documentos",
+    "head_description": "Descubra el poder de la herramienta de comparación de documentos {{Runtime}} para un análisis exhaustivo de documentos. Se integra sin esfuerzo con {{Runtime}} para un seguimiento completo de las modificaciones.",
     "title": "Comparar documentos con {{Runtime}}: resaltar las diferencias",
-    "description": "Utilice la API {{ProdShortName}} para desarrollar aplicaciones Python nativas con funciones de comparación altamente configurables. Compare archivos, su contenido y estilos de texto entre formatos de documentos similares.",
-    "actions_main": "Descarga gratuita de {{PackageStoreName}}",
-    "code_title": "Comparar imágenes BMP en {{ProgLang}}",
-    "overview_description": "Una API para comparar tipos de documentos populares como PDF, Microsoft Office, HTML, correos electrónicos o imágenes dentro de aplicaciones {{Runtime}}.",
+    "description": "Utilice la API {{ProdShortName}} para crear aplicaciones nativas en Python con funcionalidades de comparación personalizables. Examine archivos, su contenido y variaciones de estilo en todos los formatos de documentos.",
+    "actions_main": "Obtenga su descarga gratuita de {{PackageStoreName}} ahora",
+    "code_title": "Comparar imágenes BMP usando {{ProgLang}}",
+    "overview_description": "Una API diseñada para comparar tipos de documentos ampliamente utilizados, como PDF, archivos de Microsoft Office, HTML, correos electrónicos o imágenes dentro de aplicaciones {{Runtime}}.",
     "overview_feature_1": {
-      "title": "Informes de salida detallados",
-      "description": "{{ProdShortName}} identifica cambios en el contenido del documento (caracteres, palabras, párrafos, tablas, gráficos), así como cambios en el estilo del documento. Proporciona a los usuarios un informe que contiene información detallada sobre las diferencias, incluido su número y tipo."
+      "title": "Informes de resultados completos",
+      "description": "{{ProdShortName}} detecta alteraciones en el contenido del documento (caracteres, palabras, párrafos, tablas, gráficos), así como cambios de estilo en el documento. Los usuarios reciben un informe detallado que destaca la naturaleza y el recuento de los cambios."
     },
     "overview_feature_2": {
-      "title": "Admite formatos populares de archivos y documentos",
-      "description": "Con la API {{ProdShortName}}, puede comparar de manera eficiente documentos en formatos como PDF, HTML, correo electrónico, Microsoft Office Word, hojas de cálculo de Excel, presentaciones de PowerPoint, OneNote, diagramas de Visio, archivos de texto, imágenes JPEG, PNG, GIF, BMP. y muchos otros formatos."
+      "title": "Amplia gama de formatos de archivos y documentos",
+      "description": "La API {{ProdShortName}} le permite comparar documentos en formatos como PDF, HTML, correo electrónico, Microsoft Office Word, libros de Excel, archivos de PowerPoint, notas de OneNote, diagramas de Visio, documentos de texto, imágenes JPEG, PNG, GIF, BMP. entre muchos otros."
     },
     "overview_feature_3": {
-      "title": "Documentación completa y ejemplos",
-      "description": "Hay disponible una amplia documentación y ejemplos de código para usar la biblioteca de comparación en diferentes plataformas, lo que facilita la integración de la API {{ProdShortName}} en su aplicación {{Runtime}}."
+      "title": "Documentación exhaustiva y ejemplos de código",
+      "description": "Se encuentran disponibles documentación detallada y códigos de muestra para la biblioteca de comparación en varias plataformas, lo que simplifica la integración de la API GroupDocs.Comparison en sus aplicaciones Python."
     },
     "overview_feature_4": {
-      "title": "Seleccionar y fusionar cambios en un solo archivo",
-      "description": "Si tiene diferentes versiones de un documento, puede seleccionar cambios específicos y compilar un nuevo documento usando la biblioteca {{ProdShortName}}."
+      "title": "Seleccionar y combinar cambios en un solo documento",
+      "description": "Si posee varias versiones de un documento, puede compilar selectivamente los cambios en un único archivo nuevo utilizando la biblioteca {{ProdShortName}}."
     },
     "features": {
-      "title": "Funciones de {{ProdFullName}}",
-      "description": "Compare fácilmente documentos, imágenes y otros formatos PDF y Office.",
+      "title": "Capacidades de {{ProdFullName}}",
+      "description": "Compare sin problemas archivos PDF, documentos de Office, imágenes y una amplia variedad de otros formatos.",
       "feature_1": {
-        "title": "Comparación de documentos fácil de usar",
-        "content": "Analizar e identificar diferencias entre dos documentos."
+        "title": "Comparación intuitiva de documentos",
+        "content": "Examinar y resaltar las diferencias entre dos documentos."
       },
       "feature_2": {
-        "title": "Comparar varios documentos",
-        "content": "Analice e identifique diferencias dentro de múltiples documentos simultáneamente."
+        "title": "Comparación de múltiples documentos",
+        "content": "Inspeccione varios documentos en busca de diferencias al mismo tiempo."
       },
       "feature_3": {
-        "title": "Formatos admitidos",
-        "content": "Admite más de 50 formatos de documentos populares de varias categorías."
+        "title": "Amplio soporte de formato",
+        "content": "Compatible con más de 50 formatos de documentos de uso común en varias categorías."
       },
       "feature_4": {
         "title": "Aceptar o rechazar cambios",
-        "content": "Representación visual clara de los cambios identificados, con la opción de aceptar o rechazar modificaciones."
+        "content": "Visualice los cambios con claridad, ofreciendo opciones para aceptar o rechazar las ediciones."
       },
       "feature_5": {
-        "title": "Generar vistas previas",
-        "content": "Guarde los resultados de la comparación como imágenes."
+        "title": "Generar vistas previas visuales",
+        "content": "Cree vistas previas de los resultados de la comparación en formatos de imagen."
       },
       "feature_6": {
-        "title": "Comparación de contenido",
-        "content": "Compare el contenido del texto línea por línea, por párrafos, por palabras o por caracteres. Resalte los cambios."
+        "title": "Comparación de contenido basada en texto",
+        "content": "Realice comparaciones línea por línea, párrafo, palabra o carácter para resaltar los cambios."
       },
       "feature_7": {
-        "title": "Comparación de estilos",
-        "content": "Detectar cambios de formato y estilos."
+        "title": "Detección de cambios de formato",
+        "content": "Identificar alteraciones en los estilos y formatos de los documentos."
       },
       "feature_8": {
-        "title": "Establecer metadatos",
-        "content": "Conserve los metadatos de los archivos de origen o de destino, o permita que los usuarios los especifiquen."
+        "title": "Manejo de metadatos personalizable",
+        "content": "Conserve los metadatos de los archivos de origen o de destino, o permita a los usuarios definir nuevos metadatos."
       },
       "feature_9": {
-        "title": "Protección de contraseña",
-        "content": "Analice documentos cifrados o proteja el documento resultante con una contraseña."
+        "title": "Manejar archivos protegidos con contraseña",
+        "content": "Trabaje con documentos cifrados o cree documentos seguros protegidos con una contraseña."
       },
       "feature_10": {
-        "title": "Comparar páginas específicas",
-        "content": "Cargue y compare secciones o páginas específicas de un documento."
+        "title": "Comparaciones de páginas enfocadas",
+        "content": "Seleccione y compare secciones particulares o páginas individuales de un documento."
       },
       "feature_11": {
-        "title": "Mostrar comentarios",
-        "content": "Elija ocultar o mostrar comentarios al cargar el documento fuente."
+        "title": "Administrar la visibilidad de los comentarios",
+        "content": "Decida revelar u ocultar comentarios al examinar el documento fuente."
       }
     },
-    "platforms_description": "{{ProdFullName}} admite los siguientes sistemas operativos, marcos y administradores de paquetes",
-    "formats_description": "{{ProdFullName}} admite operaciones con los siguientes [formatos de archivo]({{SupportedFormatsUrl}}).",
-    "code_samples_description": "Explore casos de uso típicos de operaciones {{ProdFullName}}",
-    "code_title_sample_1": "Comparación de documentos protegidos con contraseña",
+    "platforms_description": "{{ProdFullName}} es compatible con los siguientes sistemas operativos, marcos y administradores de paquetes.",
+    "formats_description": "{{ProdFullName}} puede funcionar con los siguientes [formatos de archivo]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Descubra escenarios comunes para utilizar las funcionalidades de {{ProdFullName}}.",
+    "code_title_sample_1": "Comparación de documentos con protección por contraseña",
     "code_samples_sample_1_content": "Para comparar documentos [protegidos con contraseña]({{Sample1Url}}), debe especificar la contraseña al cargar los documentos:",
-    "code_title_sample_2": "Comparación de varios documentos PDF",
-    "code_samples_sample_2_content": "{{ProdShortName}} le permite [comparar más de dos documentos]({{Sample2Url}}). El proceso es similar a comparar dos archivos; simplemente agregue más archivos de destino a la clase `comparador`."
+    "code_title_sample_2": "Analizar múltiples archivos PDF",
+    "code_samples_sample_2_content": "{{ProdShortName}} le permite [comparar varios documentos simultáneamente]({{Sample2Url}}). Este proceso se parece a comparar dos archivos; simplemente incluya archivos de destino adicionales en la clase `comparador`."
   }
 }
